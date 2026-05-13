@@ -1,0 +1,150 @@
+# =============================================================================
+# Productivity Works Blog — Hugo config.toml
+# Hugo version: 0.120+  |  Theme: PaperMod
+# =============================================================================
+
+baseURL = "https://kagaku22.github.io/productivity-works-blog/"
+title = "Productivity Works"
+theme = "PaperMod"
+paginate = 10
+languageCode = "ja"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+enableGitInfo = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+summaryLength = 140
+
+# =============================================================================
+# Multilingual configuration
+# =============================================================================
+[languages]
+
+  [languages.ja]
+    languageName = "日本語"
+    weight = 1
+    title = "Productivity Works"
+    [languages.ja.params]
+      description = "生産性・副業・AI活用の実践情報メディア"
+      author = "Productivity Works編集部"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Productivity Works"
+    contentDir = "content/posts/en"
+    [languages.en.params]
+      description = "Practical guides on productivity, side income, and AI tools"
+      author = "Productivity Works Editorial"
+
+# =============================================================================
+# Sitemap
+# =============================================================================
+[sitemap]
+  changeFreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# =============================================================================
+# Taxonomy
+# =============================================================================
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# =============================================================================
+# Outputs
+# =============================================================================
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "RSS"]
+
+# =============================================================================
+# Markup settings
+# =============================================================================
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+
+# =============================================================================
+# PaperMod theme parameters
+# =============================================================================
+[params]
+  env = "production"
+  description = "生産性・副業・AI活用の実践情報メディア"
+  author = "Productivity Works編集部"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextInRSS = false
+  disableThemeToggle = false
+  disableScrollToTop = false
+  comments = false
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.homeInfoParams]
+    Title = "Productivity Works"
+    Content = "生産性向上・副業・AI活用の実践ノウハウを届けるメディアです。"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 10
+    keys = ["title", "permalink", "summary", "content"]
+
+  [params.schema]
+    publisherType = "Organization"
+
+# =============================================================================
+# Navigation menu
+# =============================================================================
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "カテゴリ"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "検索"
+    url = "/search/"
+    weight = 30
+
+# =============================================================================
+# Privacy settings
+# =============================================================================
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.twitter]
+    enableDNT = true
