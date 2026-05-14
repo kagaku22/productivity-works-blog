@@ -17,6 +17,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/best-life-insurance-2026.png"
+  alt: "Best Life Insurance 2026: Compare Policies, Rates & Coverage"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*

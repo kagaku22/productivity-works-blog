@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/rental-server-osusume-2026.png"
+  alt: "レンタルサーバー おすすめ2026年版！ブログ・サイト制作向け比較"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

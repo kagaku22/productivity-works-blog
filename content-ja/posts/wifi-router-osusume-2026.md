@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/wifi-router-osusume-2026.png"
+  alt: "WiFiルーター おすすめ2026年版！速度・範囲・価格で選ぶ最強機種"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/best-password-managers-2026.png"
+  alt: "Best Password Managers 2026: Secure Every Account for $3/Mon"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*

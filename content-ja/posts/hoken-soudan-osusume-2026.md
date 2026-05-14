@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/hoken-soudan-osusume-2026.png"
+  alt: "保険相談 おすすめ2026年版！無料で最適な保険が見つかる窓口比較"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

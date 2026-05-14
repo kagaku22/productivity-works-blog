@@ -17,6 +17,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/best-web-hosting-2026.png"
+  alt: "Best Web Hosting 2026: Compared for Speed, Price & WordPress"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*

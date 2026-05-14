@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/net-bank-osusume-2026.png"
+  alt: "ネット銀行 おすすめ2026年版！金利・手数料・使いやすさで比較"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

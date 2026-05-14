@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/best-high-yield-savings-accounts-2026.png"
+  alt: "Best High-Yield Savings Accounts 2026: Where to Earn 4-5% AP"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*
