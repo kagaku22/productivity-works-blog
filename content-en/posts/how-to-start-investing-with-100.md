@@ -3,9 +3,8 @@ title: How to Start Investing with $100 in 2026
 date: 2026-02-28
 draft: false
 slug: how-to-start-investing-with-100
-description: Learn how to start investing with $100 in 2026. From index funds to micro-investing
-  apps, discover the best ways to grow your money starting today with minimal capital.
-author: "Productivity Works Editorial"
+description: Learn how to start investing with $100 in 2026. From index funds to micro-investing apps, discover the best ways to grow your money starting today with.
+author: Productivity Works Editorial
 categories:
 - Personal Finance
 tags:
@@ -19,10 +18,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/how-to-start-investing-with-100.png"
-  alt: "How to Start Investing with $100 in 2026"
+  image: /images/covers/how-to-start-investing-with-100.png
+  alt: How to Start Investing with $100 in 2026
   relative: false
 ---
 

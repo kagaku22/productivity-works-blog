@@ -3,9 +3,7 @@ title: Best Notion AI Templates for Productivity 2026
 date: 2026-04-07
 draft: false
 slug: best-notion-ai-templates-for-productivity-2026
-description: Find the best Notion AI templates for productivity in 2026. Curated templates
-  for project management, goal tracking, weekly reviews, and more — with AI built
-  in.
+description: Find the best Notion AI templates for productivity in 2026. Curated templates for project management, goal tracking, weekly reviews, and more — with AI.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -17,10 +15,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/best-notion-ai-templates-for-productivity-2026.png"
-  alt: "Best Notion AI Templates for Productivity 2026"
+  image: /images/covers/best-notion-ai-templates-for-productivity-2026.png
+  alt: Best Notion AI Templates for Productivity 2026
   relative: false
 ---
 

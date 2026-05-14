@@ -3,7 +3,7 @@ title: "Best Credit Cards 2026: Complete Comparison Guide by Category"
 date: 2026-05-13
 draft: false
 slug: "best-credit-cards-2026"
-description: "Find the best credit card for your needs in 2026. We compare top cards for cash back, travel rewards, balance transfers, and building credit — with honest pros and cons."
+description: "Find the best credit card for your needs in 2026. We compare top cards for cash back, travel rewards, balance transfers, and building credit — with honest."
 author: "Productivity Works Editorial"
 categories:
   - "Money & Personal Finance"

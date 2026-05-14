@@ -2,7 +2,7 @@
 title: "How to Write Property Listing Descriptions with ChatGPT (10 Templates)"
 date: 2026-03-30
 slug: "chatgpt-property-listing-description-templates"
-description: "10 proven ChatGPT prompt templates for real estate agents writing compelling property listing descriptions. Includes before/after examples for every property type."
+description: "10 proven ChatGPT prompt templates for real estate agents writing compelling property listing descriptions. Includes before/after examples for every."
 categories: ["Real Estate", "AI Productivity"]
 tags: ["chatgpt", "real estate", "property listings", "copywriting", "prompts"]
 author: "Productivity Works Editorial"

@@ -3,7 +3,7 @@ title: "How to Create a Resume with AI (Step-by-Step Guide for 2026)"
 date: 2026-03-20
 draft: false
 slug: "create-resume-with-ai-step-by-step"
-description: "Learn how to create a standout resume using AI tools in 2026. Step-by-step guide covering ChatGPT prompts, resume builders, ATS optimization, tailoring for specific jobs, and common mistakes to avoid."
+description: "Learn how to create a standout resume using AI tools in 2026. Step-by-step guide covering ChatGPT prompts, resume builders, ATS optimization, tailoring."
 author: "Productivity Works Editorial"
 categories: ["Career", "AI Tools"]
 tags: ["Resume", "AI Tools", "Job Search", "ChatGPT", "Career", "ATS", "2026"]

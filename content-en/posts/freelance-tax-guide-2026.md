@@ -3,7 +3,7 @@ title: "Freelance Tax Guide 2026: Everything You Need to Know"
 date: 2026-03-13
 draft: false
 slug: "freelance-tax-guide-2026"
-description: "The complete freelance tax guide for 2026. Covers self-employment tax, quarterly estimated payments, deductible expenses, retirement accounts, home office deduction, and how to avoid the most expensive mistakes."
+description: "The complete freelance tax guide for 2026. Covers self-employment tax, quarterly estimated payments, deductible expenses, retirement accounts, home office."
 author: "Productivity Works Editorial"
 categories: ["Finance", "Freelancing"]
 tags: ["Freelance Tax", "Self-Employment", "Tax Deductions", "Quarterly Taxes", "Freelancing", "Finance", "2026"]

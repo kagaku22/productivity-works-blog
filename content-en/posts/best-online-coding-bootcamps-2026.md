@@ -3,7 +3,7 @@ title: "Best Online Coding Bootcamps 2026: Honest Comparison by Career Goal"
 date: 2026-05-12
 draft: false
 slug: "best-online-coding-bootcamps-2026"
-description: "Compare the best coding bootcamps in 2026 for career changers, freelancers, and aspiring developers. We break down cost, curriculum, job placement rates, and which bootcamp fits your goals."
+description: "Compare the best coding bootcamps in 2026 for career changers, freelancers, and aspiring developers. We break down cost, curriculum, job placement rates."
 author: "Productivity Works Editorial"
 categories:
   - "Career & Skills"

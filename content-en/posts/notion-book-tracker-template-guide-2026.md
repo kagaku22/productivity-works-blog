@@ -2,7 +2,7 @@
 title: "How to Build a Notion Book Tracker: Complete Template Guide (2026)"
 date: 2026-02-19
 slug: "notion-book-tracker-template-guide-2026"
-description: "Build the ultimate Notion book tracker from scratch. Includes reading stats, TBR management, review templates, and setup for BookTok and Bookstagram communities."
+description: "Build the ultimate Notion book tracker from scratch. Includes reading stats, TBR management, review templates, and setup for BookTok and Bookstagram."
 categories: ["Notion", "Reading", "Productivity"]
 tags: ["notion book tracker", "reading tracker", "notion template", "BookTok", "bookstagram", "reading log"]
 author: "Productivity Works Editorial"

@@ -3,9 +3,7 @@ title: 7 Passive Income Ideas Using Digital Products
 date: 2026-02-14
 draft: false
 slug: passive-income-digital-products-2026
-description: Digital products are the most accessible form of passive income available
-  today. Here are seven models that work in 2026 — with realistic timelines and revenue
-  expectations.
+description: Digital products are the most accessible form of passive income available today. Here are seven models that work in 2026 — with realistic timelines and.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -19,10 +17,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/passive-income-digital-products-2026.png"
-  alt: "7 Passive Income Ideas Using Digital Products"
+  image: /images/covers/passive-income-digital-products-2026.png
+  alt: 7 Passive Income Ideas Using Digital Products
   relative: false
 ---
 

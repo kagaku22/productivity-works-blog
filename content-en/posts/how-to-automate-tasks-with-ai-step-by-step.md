@@ -3,9 +3,7 @@ title: How to Automate Tasks with AI Step by Step
 date: 2026-03-10
 draft: false
 slug: how-to-automate-tasks-with-ai-step-by-step
-description: Learn how to automate tasks with AI step by step in 2026. Build workflows
-  with ChatGPT, Zapier, Make, and n8n to eliminate repetitive work and reclaim your
-  time.
+description: Learn how to automate tasks with AI step by step in 2026. Build workflows with ChatGPT, Zapier, Make, and n8n to eliminate repetitive work and reclaim.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -20,10 +18,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/how-to-automate-tasks-with-ai-step-by-step.png"
-  alt: "How to Automate Tasks with AI Step by Step"
+  image: /images/covers/how-to-automate-tasks-with-ai-step-by-step.png
+  alt: How to Automate Tasks with AI Step by Step
   relative: false
 ---
 

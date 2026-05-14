@@ -3,9 +3,7 @@ title: Excel Skills That Will Double Your Salary
 date: 2026-03-15
 draft: false
 slug: excel-skills-double-salary
-description: Most people use 10% of Excel's capabilities. The professionals who use
-  the other 90% get promoted, hired faster, and paid significantly more. Here are
-  the skills that move the needle.
+description: Most people use 10% of Excel's capabilities. The professionals who use the other 90% get promoted, hired faster, and paid significantly more. Here are the.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -18,10 +16,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/excel-skills-double-salary.png"
-  alt: "Excel Skills That Will Double Your Salary"
+  image: /images/covers/excel-skills-double-salary.png
+  alt: Excel Skills That Will Double Your Salary
   relative: false
 ---
 

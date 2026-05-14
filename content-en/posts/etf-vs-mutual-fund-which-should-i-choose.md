@@ -3,10 +3,8 @@ title: 'ETF vs Mutual Fund: Which Should I Choose?'
 date: 2026-03-18
 draft: false
 slug: etf-vs-mutual-fund-which-should-i-choose
-description: ETF vs mutual fund — what's the difference and which is better for you?
-  Compare costs, taxes, flexibility, and performance to make the right investment
-  choice in 2026.
-author: "Productivity Works Editorial"
+description: ETF vs mutual fund — what's the difference and which is better for you? Compare costs, taxes, flexibility, and performance to make the right investment.
+author: Productivity Works Editorial
 categories:
 - Personal Finance
 tags:
@@ -18,10 +16,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/etf-vs-mutual-fund-which-should-i-choose.png"
-  alt: "ETF vs Mutual Fund: Which Should I Choose?"
+  image: /images/covers/etf-vs-mutual-fund-which-should-i-choose.png
+  alt: 'ETF vs Mutual Fund: Which Should I Choose?'
   relative: false
 ---
 

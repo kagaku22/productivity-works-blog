@@ -2,7 +2,7 @@
 title: "15 AI-Generated Client Communication Templates for Veterinary Clinics"
 date: 2026-04-29
 slug: "ai-veterinary-client-communication-templates"
-description: "15 ready-to-use AI-generated client communication templates for veterinary clinics: appointment reminders, post-visit follow-ups, vaccination reminders, pet care instructions, and condolence messages."
+description: "15 ready-to-use AI-generated client communication templates for veterinary clinics: appointment reminders, post-visit follow-ups, vaccination reminders."
 categories: ["Veterinary", "AI Productivity", "Client Communication"]
 tags: ["veterinary", "client communication", "templates", "ai", "chatgpt", "vet clinic"]
 author: "Productivity Works Editorial"

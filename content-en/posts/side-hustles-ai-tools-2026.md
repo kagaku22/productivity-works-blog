@@ -3,9 +3,7 @@ title: 15 Side Hustles You Can Start with AI Tools Today
 date: 2026-02-09
 draft: false
 slug: side-hustles-ai-tools-2026
-description: AI tools have lowered the barrier to starting a side hustle to near zero.
-  Here are 15 legitimate ways to earn extra income in 2026 using tools that are already
-  available to you.
+description: AI tools have lowered the barrier to starting a side hustle to near zero. Here are 15 legitimate ways to earn extra income in 2026 using tools that are.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -20,10 +18,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/side-hustles-ai-tools-2026.png"
-  alt: "15 Side Hustles You Can Start with AI Tools Today"
+  image: /images/covers/side-hustles-ai-tools-2026.png
+  alt: 15 Side Hustles You Can Start with AI Tools Today
   relative: false
 ---
 

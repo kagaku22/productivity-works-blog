@@ -3,7 +3,7 @@ title: "Best AI Tools for Real Estate Agents in 2026: The Complete Industry Guid
 date: 2026-05-04
 draft: false
 author: "Productivity Works Editorial"
-description: "A comprehensive guide to the best AI tools for real estate agents in 2026 — from listing descriptions and lead nurturing to market analysis, contract review, and client communication automation."
+description: "A comprehensive guide to the best AI tools for real estate agents in 2026 — from listing descriptions and lead nurturing to market analysis, contract."
 categories:
   - AI Tools
   - Real Estate

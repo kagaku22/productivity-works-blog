@@ -3,7 +3,7 @@ title: "How to Use Notion for Project Management 2026: The Complete Guide"
 date: 2026-02-16
 draft: false
 slug: "notion-project-management-guide-2026"
-description: "Master Notion for project management in 2026. Learn how to build dashboards, track tasks, manage teams, and run entire projects inside Notion — with templates and step-by-step walkthroughs."
+description: "Master Notion for project management in 2026. Learn how to build dashboards, track tasks, manage teams, and run entire projects inside Notion — with."
 author: "Productivity Works Editorial"
 categories: ["Productivity", "Project Management"]
 tags: ["Notion", "Project Management", "Productivity Tools", "Task Management", "Team Collaboration", "2026"]

@@ -2,7 +2,7 @@
 title: "Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by-Step)"
 date: 2026-03-16
 slug: "etsy-seo-tags-chatgpt-optimization"
-description: "Step-by-step guide to using ChatGPT for Etsy tag generation. Learn how Etsy's search algorithm ranks tags, seasonal strategies, and the exact prompts to optimize your listings."
+description: "Step-by-step guide to using ChatGPT for Etsy tag generation. Learn how Etsy's search algorithm ranks tags, seasonal strategies, and the exact prompts to."
 categories: ["Etsy", "AI Productivity", "SEO"]
 tags: ["etsy", "seo", "chatgpt", "tags", "etsy seller", "search optimization"]
 author: "Productivity Works Editorial"

@@ -2,7 +2,7 @@
 title: "AI Bookkeeping for Small Restaurants: Complete Automation Guide (2026)"
 date: 2026-05-12
 slug: "ai-bookkeeping-small-restaurant-2026"
-description: "A practical guide for small restaurant owners on using AI and ChatGPT to automate bookkeeping, track food costs, integrate with QuickBooks or Xero, and prepare for tax season."
+description: "A practical guide for small restaurant owners on using AI and ChatGPT to automate bookkeeping, track food costs, integrate with QuickBooks or Xero, and."
 categories: ["Restaurant Management", "AI Productivity"]
 tags: ["restaurant bookkeeping", "AI accounting", "food cost tracking", "QuickBooks", "small restaurant finance"]
 author: "Productivity Works Editorial"

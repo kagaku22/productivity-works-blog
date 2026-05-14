@@ -3,9 +3,7 @@ title: How to Use AI to Land Your Dream Job (Resume + Interview)
 date: 2026-05-07
 draft: false
 slug: ai-resume-optimization-job-search-2026
-description: AI tools give job seekers an edge that wasn't available two years ago.
-  Here's how to use them strategically across every stage of your job search — without
-  sounding like a robot.
+description: AI tools give job seekers an edge that wasn't available two years ago. Here's how to use them strategically across every stage of your job search —.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -18,10 +16,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/ai-resume-optimization-job-search-2026.png"
-  alt: "How to Use AI to Land Your Dream Job (Resume + Interview)"
+  image: /images/covers/ai-resume-optimization-job-search-2026.png
+  alt: How to Use AI to Land Your Dream Job (Resume + Interview)
   relative: false
 ---
 

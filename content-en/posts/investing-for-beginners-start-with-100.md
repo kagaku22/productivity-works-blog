@@ -3,9 +3,7 @@ title: 'Investing for Beginners: Start with $100 in 2026'
 date: 2026-02-21
 draft: false
 slug: investing-for-beginners-start-with-100
-description: You don't need thousands of dollars or a financial advisor to start investing.
-  This beginner's guide walks you through exactly how to put your first $100 to work
-  — and build from there.
+description: You don't need thousands of dollars or a financial advisor to start investing. This beginner's guide walks you through exactly how to put your first $100.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -20,10 +18,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/investing-for-beginners-start-with-100.png"
-  alt: "Investing for Beginners: Start with $100 in 2026"
+  image: /images/covers/investing-for-beginners-start-with-100.png
+  alt: 'Investing for Beginners: Start with $100 in 2026'
   relative: false
 ---
 

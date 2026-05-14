@@ -3,9 +3,7 @@ title: The Ultimate Notion Setup for Maximum Productivity
 date: 2026-02-06
 draft: false
 slug: ultimate-notion-productivity-setup
-description: A complete guide to building a Notion workspace that actually improves
-  your productivity — covering task management, project tracking, note-taking, and
-  habit systems.
+description: A complete guide to building a Notion workspace that actually improves your productivity — covering task management, project tracking, note-taking, and.
 author: Productivity Works Editorial
 categories:
 - AI Productivity
@@ -17,10 +15,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/ultimate-notion-productivity-setup.png"
-  alt: "The Ultimate Notion Setup for Maximum Productivity"
+  image: /images/covers/ultimate-notion-productivity-setup.png
+  alt: The Ultimate Notion Setup for Maximum Productivity
   relative: false
 ---
 

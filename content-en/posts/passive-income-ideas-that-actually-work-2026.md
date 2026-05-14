@@ -3,10 +3,8 @@ title: Passive Income Ideas That Actually Work 2026
 date: 2026-02-13
 draft: false
 slug: passive-income-ideas-that-actually-work-2026
-description: Discover passive income ideas that actually work in 2026. From dividend
-  investing to digital products, learn realistic strategies to build income streams
-  that pay you while you sleep.
-author: "Productivity Works Editorial"
+description: Discover passive income ideas that actually work in 2026. From dividend investing to digital products, learn realistic strategies to build income streams.
+author: Productivity Works Editorial
 categories:
 - Personal Finance
 tags:
@@ -19,10 +17,9 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
-
 cover:
-  image: "/images/covers/passive-income-ideas-that-actually-work-2026.png"
-  alt: "Passive Income Ideas That Actually Work 2026"
+  image: /images/covers/passive-income-ideas-that-actually-work-2026.png
+  alt: Passive Income Ideas That Actually Work 2026
   relative: false
 ---
 
