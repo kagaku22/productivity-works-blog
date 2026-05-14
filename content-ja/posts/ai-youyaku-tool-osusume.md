@@ -293,3 +293,13 @@ AI要約ツールは今や「知る人ぞ知る便利ツール」ではなく、
 - [AI仕事術 完全ガイド](https://prod-works.booth.pm/) — 50のAIワークフロー収録
 - [AI副業スタートキット](https://prod-works.booth.pm/) — AIで副収入を得る実践ガイド
 
+---
+
+## 📥 関連テンプレート
+
+この記事の内容をすぐ実践できるテンプレートをご用意しています。
+
+- [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — コピペで即使える100のプロンプト
+- [AI仕事術ガイド](https://prod-works.booth.pm/) — 生産性10倍の50ワークフロー
+
+> すべての商品は [Productivity Works BOOTH ショップ](https://prod-works.booth.pm/) でご購入いただけます。

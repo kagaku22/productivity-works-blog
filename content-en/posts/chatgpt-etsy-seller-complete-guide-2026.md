@@ -590,3 +590,13 @@ Grow your Etsy business with these resources:
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Product descriptions, SEO tags, marketing copy
 - [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Complete guide to scaling your online business
 
+---
+
+## 📥 Related Templates
+
+Ready-to-use templates to put this article into practice:
+
+- [The Complete Side Hustle Guide 2026 ($8.99)](https://payhip.com/productivityworks) — From zero to $1,000/month
+- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
+
+> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).

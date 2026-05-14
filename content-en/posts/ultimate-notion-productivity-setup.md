@@ -275,3 +275,13 @@ Put these techniques into practice with our ready-made templates:
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
 
+---
+
+## 📥 Related Templates
+
+Ready-to-use templates to put this article into practice:
+
+- [100 ChatGPT Prompts That Actually Work ($9.99)](https://payhip.com/productivityworks) — Copy-paste ready prompts for every situation
+- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
+
+> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).

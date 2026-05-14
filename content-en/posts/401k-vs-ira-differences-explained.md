@@ -252,3 +252,13 @@ Take control of your finances with these tools:
 - [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Track income, expenses, and savings goals
 - [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Build additional income streams
 
+---
+
+## 📥 Related Templates
+
+Ready-to-use templates to put this article into practice:
+
+- [100 ChatGPT Prompts That Actually Work ($9.99)](https://payhip.com/productivityworks) — Copy-paste ready prompts for every situation
+- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
+
+> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).

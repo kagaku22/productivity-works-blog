@@ -407,3 +407,13 @@ AIは「仕事を奪うもの」ではなく「あなたの時間を作り出す
 - [不動産営業向けChatGPTプロンプト集](https://prod-works.booth.pm/) — 物件紹介・顧客対応・内見フォローまで網羅
 - [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — ビジネス全般で使えるプロンプト集
 
+---
+
+## 📥 関連テンプレート
+
+この記事の内容をすぐ実践できるテンプレートをご用意しています。
+
+- [不動産営業向けChatGPTプロンプト集](https://prod-works.booth.pm/) — 物件紹介から顧客対応まで即使えるプロンプト
+- [AI仕事術ガイド](https://prod-works.booth.pm/) — 生産性10倍の50ワークフロー
+
+> すべての商品は [Productivity Works BOOTH ショップ](https://prod-works.booth.pm/) でご購入いただけます。

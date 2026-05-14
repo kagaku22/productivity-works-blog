@@ -377,3 +377,12 @@ ChatGPTが文書のたたき台を作る時間（15〜30分 → 5分）が短縮
 - [医療事務向けChatGPT活用術10選](https://prod-works.booth.pm/) — レセプト・患者案内・院内掲示物まで
 - [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — 業務全般で使えるプロンプト集
 
+---
+
+## 📥 関連テンプレート
+
+この記事の内容をすぐ実践できるテンプレートをご用意しています。
+
+- [AI仕事術ガイド](https://prod-works.booth.pm/) — 生産性10倍の50ワークフロー
+
+> すべての商品は [Productivity Works BOOTH ショップ](https://prod-works.booth.pm/) でご購入いただけます。

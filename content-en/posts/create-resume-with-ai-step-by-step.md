@@ -320,3 +320,13 @@ Ace your next career move with these resources:
 - [Job Interview Prep Guide: AI-Powered](https://payhip.com/productivityworks) — 50 questions, STAR method templates, salary negotiation scripts
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Resume and interview prep prompts included
 
+---
+
+## 📥 Related Templates
+
+Ready-to-use templates to put this article into practice:
+
+- [Job Interview Mastery Kit ($8.99)](https://payhip.com/productivityworks) — 50 questions + STAR method frameworks
+- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
+
+> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).
