@@ -183,8 +183,23 @@ calcTedori();
 
 ---
 
+## おすすめサービス
+
+手取り額がわかったら、次のアクションに進みましょう。
+
+- **貯蓄を投資で増やす** → 毎月3万円を年利5%で20年運用すると約1,233万円に。[つみたてNISAシミュレーター](/ja/tools/nisa-simulator/)で将来の資産額を計算
+- **老後資金を確認する** → 年金だけで足りる？[年金シミュレーター](/ja/tools/nenkin-simulator/)で将来の受給額をチェック
+- **確定申告を楽にする** → [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)なら銀行口座と自動連携で記帳が自動化
+- **家計を最適化する** → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)で理想の支出配分を計算
+
+---
+
 ## 関連ツール・記事
 
 - [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/) — 将来の資産額を計算
+- [年金シミュレーター](/ja/tools/nenkin-simulator/) — 将来の年金受給額を確認
+- [家計簿シミュレーター](/ja/tools/kakeibo-generator/) — 理想の支出配分を計算
+- [副業の税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/) — 副業収入の税金を確認
+- [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/) — 投資の損益を計算
 - [フリーランス確定申告ガイド](/ja/posts/フリーランス-確定申告-やり方/)
 - [会計ソフトおすすめ比較](/ja/posts/kaikei-soft-osusume-2026/)

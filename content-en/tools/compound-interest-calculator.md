@@ -104,6 +104,17 @@ Ready to start investing? Here are your next steps:
 
 ---
 
+## Start Investing Today
+
+Ready to put compound interest to work? Here are the best ways to get started:
+
+- **Open a brokerage account** — Low-cost platforms like Fidelity, Schwab, or Vanguard make it easy to start with index funds
+- **Max out tax-advantaged accounts** — 401(k) and IRA contributions grow tax-free or tax-deferred, supercharging compound growth
+- **Automate your investments** — Set up automatic monthly contributions so you never miss a month of compounding
+- **Track your budget** — Use our [Budget Planner](/tools/budget-planner/) to find extra money to invest each month
+
+---
+
 ## FAQ
 
 **Q: Is 7% annual return realistic?**
@@ -114,3 +125,12 @@ This calculator shows pre-tax returns. Using tax-advantaged accounts (401k, IRA,
 
 **Q: Should I invest a lump sum or dollar-cost average?**
 Historically, lump-sum investing outperforms dollar-cost averaging about 2/3 of the time. However, regular monthly contributions are more practical for most people and reduce timing risk.
+
+---
+
+## Related Tools
+
+- [Budget Planner](/tools/budget-planner/) — Find extra money to invest each month
+- [Salary Calculator](/tools/salary-calculator/) — Calculate your take-home pay
+- [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
+- [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits

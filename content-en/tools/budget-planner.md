@@ -139,7 +139,20 @@ This is common in high cost-of-living areas. Look for ways to reduce your bigges
 
 ---
 
+## Recommended Next Steps
+
+Based on your budget results, here are the most impactful actions you can take:
+
+- **Start investing your savings** — Even $100/month in index funds can grow to $76,000+ in 20 years at 7% returns. Use our [Compound Interest Calculator](/tools/compound-interest-calculator/) to see how
+- **Pay off high-interest debt first** — Use our [Loan Repayment Calculator](/tools/loan-repayment-calculator/) to create a payoff plan
+- **Calculate your real take-home pay** — Make sure you're budgeting from the right number. Try our [Salary Calculator](/tools/salary-calculator/)
+- **Explore forex trading** — If you have extra investment capital, learn about forex markets with our [Forex Profit Calculator](/tools/forex-profit-calculator/)
+
+---
+
 ## Related Tools
 
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See your investment growth
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
+- [Salary Calculator](/tools/salary-calculator/) — Know your real take-home pay
+- [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits

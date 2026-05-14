@@ -157,9 +157,22 @@ calcBudget();
 
 ---
 
+## おすすめサービス
+
+家計のバランスが見えたら、次のステップへ進みましょう。
+
+- **貯蓄分をNISAで運用** → [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/)で投資した場合の将来資産を計算
+- **年金で足りるか確認** → [年金シミュレーター](/ja/tools/nenkin-simulator/)で将来の受給額をチェック
+- **副業で収入を増やす** → [副業の税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)で手取りを確認
+- **確定申告を自動化** → [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)なら銀行口座と自動連携で記帳が楽に
+
+---
+
 ## 関連ツール・記事
 
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取りを計算
 - [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/) — 将来の資産額を計算
+- [年金シミュレーター](/ja/tools/nenkin-simulator/) — 将来の年金受給額を確認
+- [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/) — 投資の損益を計算
 - [NISAとiDeCo、どっちを先に？](/ja/posts/nisa-ideco-docchi-saki/)
 - [クレジットカードおすすめ](/ja/posts/credit-card-osusume-2026/)
