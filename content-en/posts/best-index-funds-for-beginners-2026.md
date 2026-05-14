@@ -74,7 +74,7 @@ For example, if you invest $10,000 in an index fund with a 0.03% expense ratio, 
 - Some indexes are more concentrated than they appear (top 10 S&P 500 stocks = ~35% of the index)
 - Limited control over what you're invested in (may include companies you'd prefer to avoid)
 
-[Related: Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+[Related: Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 
 ---
 
@@ -139,7 +139,7 @@ Studies consistently show that "time in the market" beats "timing the market." E
 **Mistake 5: Owning too many funds**
 You don't need 15 different index funds. A simple three-fund portfolio (US stocks + international stocks + bonds) covers virtually everything.
 
-[Related: How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
+[Related: How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
 
 ---
 
@@ -217,7 +217,7 @@ Your future self will thank you.
 - [Compare index fund options at Charles Schwab](https://payhip.com/productivityworks)
 - [Start a Roth IRA at Vanguard](https://payhip.com/productivityworks)
 
-[Related: ETF vs Mutual Fund — Which Should I Choose?](/en/posts/etf-vs-mutual-fund-which-should-i-choose/)
+[Related: ETF vs Mutual Fund — Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
 
 ---
 

@@ -20,7 +20,7 @@ Etsy tags are one of the highest-leverage points in your entire shop. The right 
 
 ChatGPT, used correctly, gives you a systematic way to generate high-quality tag candidates in minutes. This guide explains exactly how to do it — including how Etsy's algorithm actually works, what makes a tag effective, and the specific prompts to use for different product categories and seasons.
 
-For a broader look at running your Etsy shop with AI, see our [Complete ChatGPT Guide for Etsy Sellers](/en/posts/chatgpt-etsy-seller-complete-guide-2026/).
+For a broader look at running your Etsy shop with AI, see our [Complete ChatGPT Guide for Etsy Sellers](/posts/chatgpt-etsy-seller-complete-guide-2026/).
 
 ---
 

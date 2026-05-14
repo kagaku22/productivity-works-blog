@@ -221,7 +221,7 @@ Use plain language. No jargon. Focus on what matters most.
 
 **Strategy 5: Combine with visualization tools.** Export ChatGPT's output to Tableau, Power BI, or even Google Data Studio. Use AI to generate the underlying data transformations, then use dedicated viz tools for presentation-quality charts.
 
-[Related: How to Use AI for Excel Automation](/en/posts/how-to-use-ai-for-excel-automation-2026/)
+[Related: How to Use AI for Excel Automation](/posts/how-to-use-ai-for-excel-automation-2026/)
 
 ---
 
@@ -265,7 +265,7 @@ Want 30+ ready-to-use data analysis prompt templates organized by task type (tre
 
 For a complete AI workflow that covers data, reporting, and decision-making, our **[AI Productivity Playbook](https://payhip.com/productivityworks)** walks you through building a data-driven practice from scratch using AI tools.
 
-[Related: How to Use AI for Excel Automation](/en/posts/how-to-use-ai-for-excel-automation-2026/)
+[Related: How to Use AI for Excel Automation](/posts/how-to-use-ai-for-excel-automation-2026/)
 
 ---
 

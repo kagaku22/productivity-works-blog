@@ -230,7 +230,7 @@ What's causing the error and how do I fix it?
 
 **Strategy 5: Use Copilot's in-app capabilities.** If you have Microsoft 365, Copilot in Excel can analyze data, suggest charts, and write formulas directly in the sidebar — no copy-paste needed.
 
-[Related: How to Use ChatGPT for Data Analysis](/en/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+[Related: How to Use ChatGPT for Data Analysis](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 
 ---
 
@@ -274,7 +274,7 @@ Want the exact prompt templates used in this guide — plus 80 more for Excel, G
 
 For a complete system to automate your work with AI, our **[AI Productivity Playbook](https://payhip.com/productivityworks)** covers Excel, email, reporting, and more in one end-to-end framework.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 

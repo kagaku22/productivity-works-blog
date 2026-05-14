@@ -20,7 +20,7 @@ Yet in most practices, client communication is cobbled together — different st
 
 AI tools change this. With a good prompt and five minutes of setup, you can build a library of polished, consistent, genuinely helpful client communications that your entire team can use. This article gives you 15 templates across the most important communication categories in veterinary practice.
 
-For a broader look at how AI tools can transform your clinic's operations, see our [Complete Guide to AI Tools for Veterinary Clinics](/en/posts/ai-tools-veterinary-clinic-2026/).
+For a broader look at how AI tools can transform your clinic's operations, see our [Complete Guide to AI Tools for Veterinary Clinics](/posts/ai-tools-veterinary-clinic-2026/).
 
 ---
 

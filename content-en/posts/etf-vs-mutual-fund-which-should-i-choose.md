@@ -89,7 +89,7 @@ Key characteristics:
 - Cannot trade intraday
 - Actively managed mutual funds often have high expense ratios and underperform benchmarks
 
-[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -269,7 +269,7 @@ Start simple. Stay consistent. Keep costs low.
 - [Compare ETF options at Charles Schwab](https://payhip.com/productivityworks)
 - [Invest automatically with M1 Finance](https://payhip.com/productivityworks)
 
-[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 
 ---
 

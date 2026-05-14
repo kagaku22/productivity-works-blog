@@ -177,7 +177,7 @@ After running these on both tools, you'll have a clear intuition for which writi
 
 **Strategy 5: Export and save great responses.** Both tools allow export to Markdown. Build a response library of high-quality AI outputs you can reference or adapt.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -223,7 +223,7 @@ Speaking of prompts — want 100+ ready-to-use prompts that work brilliantly on 
 
 And if you want a full AI workflow system that integrates both tools into your daily work, our **[AI Productivity Playbook](https://payhip.com/productivityworks)** shows you exactly how to set up your personal AI stack from scratch.
 
-[Related: AI Prompt Engineering Tips for Beginners](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+[Related: AI Prompt Engineering Tips for Beginners](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 

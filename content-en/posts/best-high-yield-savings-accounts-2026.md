@@ -76,7 +76,7 @@ Online banks can offer higher rates because they have lower overhead costs than 
 - Usually no physical branches — customer service is online/phone only
 - Interest earned is taxed as ordinary income
 
-[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
@@ -231,7 +231,7 @@ The upgrade takes about 10 minutes. The payoff lasts as long as you keep your sa
 - [Start with Marcus by Goldman Sachs — no fees, competitive APY](https://payhip.com/productivityworks)
 - [Explore CIT Bank Platinum Savings — best rate for $5,000+ balances](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 

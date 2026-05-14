@@ -253,7 +253,7 @@ Design a productized service offer:
 
 **Strategy 5: Create a Gumroad product from your best work.** Your AI-powered proposal template, your client communication scripts, your content brief system — these are all products freelancers would pay $19–$49 for. AI helps you package and sell your expertise at scale.
 
-[Related: Best AI Image Generators Free 2026](/en/posts/best-ai-image-generators-free-2026/)
+[Related: Best AI Image Generators Free 2026](/posts/best-ai-image-generators-free-2026/)
 
 ---
 
@@ -294,7 +294,7 @@ Ready to build your full AI-powered freelance workflow? Our **[Complete ChatGPT 
 
 For a complete system — from landing clients to delivering work to building passive income — the **[AI Productivity Playbook](https://payhip.com/productivityworks)** is your roadmap.
 
-[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 

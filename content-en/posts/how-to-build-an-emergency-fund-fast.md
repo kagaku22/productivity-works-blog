@@ -107,7 +107,7 @@ Example: If your essential monthly expenses total $3,500, a 3-month emergency fu
 
 Note: Use essential expenses, not your full monthly spending. You don't need to fund dining out and Netflix subscriptions during a financial emergency.
 
-[Related: Best High-Yield Savings Accounts 2026](/en/posts/best-high-yield-savings-accounts-2026/)
+[Related: Best High-Yield Savings Accounts 2026](/posts/best-high-yield-savings-accounts-2026/)
 
 ---
 
@@ -253,7 +253,7 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 - [Start with Marcus by Goldman Sachs — simple, no fees](https://payhip.com/productivityworks)
 - [Try Ally Bank — consistently excellent HYSA with great app](https://payhip.com/productivityworks)
 
-[Related: Best Budgeting Apps 2026 — Find Money to Save Faster](/en/posts/best-budgeting-apps-2026/)
+[Related: Best Budgeting Apps 2026 — Find Money to Save Faster](/posts/best-budgeting-apps-2026/)
 
 ---
 

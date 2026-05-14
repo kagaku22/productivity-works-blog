@@ -215,7 +215,7 @@ Most AI tools generate at 512×512 or 1024×1024 pixels. For web or print use:
 
 **Strategy 5: Generate variations for A/B testing.** Create 4–6 versions of a thumbnail or ad creative with slight prompt variations and A/B test them. AI makes variation generation free and fast.
 
-[Related: Best AI Tools for Writing Emails Professionally](/en/posts/best-ai-tools-for-writing-emails-professionally/)
+[Related: Best AI Tools for Writing Emails Professionally](/posts/best-ai-tools-for-writing-emails-professionally/)
 
 ---
 
@@ -259,7 +259,7 @@ Want the complete prompt guide for AI image generation — including 50+ tested 
 
 For building a complete AI-powered content creation workflow (writing + images + publishing), our **[AI Productivity Playbook](https://payhip.com/productivityworks)** walks you through the whole system.
 
-[Related: AI Tools for Freelancers to Earn More](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ---
 

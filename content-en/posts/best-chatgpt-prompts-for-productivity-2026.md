@@ -214,7 +214,7 @@ You are a research analyst. Read the following text and give me:
 
 **Strategy 5: Batch similar tasks.** Instead of one email at a time, paste 5 email drafts and ask ChatGPT to polish all of them in one go.
 
-[Related: How to Use ChatGPT for Data Analysis](/en/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+[Related: How to Use ChatGPT for Data Analysis](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 
 ---
 
@@ -260,7 +260,7 @@ Want 100+ ready-to-use prompts organized by job function? Check out our **[Compl
 
 Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/productivityworks)** walks you through building a complete AI-powered workflow for your specific role — from morning routine to end-of-day wrap-up. Thousands of professionals have used it to reclaim 10+ hours per week.
 
-[Related: AI Prompt Engineering Tips for Beginners](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+[Related: AI Prompt Engineering Tips for Beginners](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 

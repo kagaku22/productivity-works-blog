@@ -245,7 +245,7 @@ Output format:
 
 **Strategy 5: Build domain-specific templates.** Create a "legal email" template, a "technical documentation" template, a "sales pitch" template. Domain-specific templates consistently outperform generic prompts.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -292,7 +292,7 @@ Ready to skip the learning curve? Our **[Complete ChatGPT Prompt Collection](htt
 
 Want a complete framework for integrating AI into your daily work? The **[AI Productivity Playbook](https://payhip.com/productivityworks)** includes a full prompt engineering module plus workflow templates for every major knowledge work scenario.
 
-[Related: Claude AI vs ChatGPT Comparison 2026](/en/posts/claude-ai-vs-chatgpt-comparison-2026/)
+[Related: Claude AI vs ChatGPT Comparison 2026](/posts/claude-ai-vs-chatgpt-comparison-2026/)
 
 ---
 

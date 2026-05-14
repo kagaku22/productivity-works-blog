@@ -135,7 +135,7 @@ If you have $100 invested and the market drops 2%, you've "lost" $2. That's a co
 **Mistake 5: Not reinvesting dividends**
 Make sure your brokerage account is set to automatically reinvest dividends (DRIP — Dividend Reinvestment Plan). Over decades, dividend reinvestment accounts for roughly 40% of total stock market returns.
 
-[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -233,7 +233,7 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 - [Start with Betterment's automated portfolio — $0 minimum](https://payhip.com/productivityworks)
 - [Try Acorns — invest your spare change automatically](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 

@@ -307,7 +307,7 @@ Freelance taxes are genuinely more complex than W-2 taxes, but they're manageabl
 
 If you earn $75,000+ as a freelancer, working with a CPA who specializes in self-employed clients typically pays for itself many times over in tax savings.
 
-Want a ready-made system? Our [Freelance Finance Toolkit](#) on Payhip includes a quarterly tax tracker spreadsheet, expense categorization template, client invoice tracker, and a 2026 tax deduction checklist — everything to manage freelance finances without the chaos.
+Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/productivityworks) on Payhip includes a quarterly tax tracker spreadsheet, expense categorization template, client invoice tracker, and a 2026 tax deduction checklist — everything to manage freelance finances without the chaos.
 
 **Related reads:**
 - Best AI Tools for Small Business 2026

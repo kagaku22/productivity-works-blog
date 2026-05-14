@@ -301,7 +301,7 @@ The average person who follows a structured debt payoff plan gets out of consume
 - [Check debt consolidation loan rates — see your offers in 2 minutes](https://payhip.com/productivityworks)
 - [Get a free debt payoff plan from a nonprofit credit counselor](https://payhip.com/productivityworks)
 
-[Related: Best Budgeting Apps 2026 to Find Extra Money for Debt Payoff](/en/posts/best-budgeting-apps-2026/)
+[Related: Best Budgeting Apps 2026 to Find Extra Money for Debt Payoff](/posts/best-budgeting-apps-2026/)
 
 ---
 

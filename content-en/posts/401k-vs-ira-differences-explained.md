@@ -94,7 +94,7 @@ Key features:
 - Roth IRA has income limits that may exclude high earners
 - Requires self-discipline to set up and fund consistently
 
-[Related: Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+[Related: Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 
 ---
 
@@ -238,7 +238,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 - [Compare IRA options at Charles Schwab](https://payhip.com/productivityworks)
 - [Get your 401k portfolio reviewed by Blooom](https://payhip.com/productivityworks)
 
-[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 
 ---
 

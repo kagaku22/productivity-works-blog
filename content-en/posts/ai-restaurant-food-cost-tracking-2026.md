@@ -22,7 +22,7 @@ AI tools, including ChatGPT, can't replace a proper POS system or accounting sof
 
 This guide covers the full picture: the math behind food costs, how AI tools fit into your workflow, waste tracking strategies, inventory management approaches, and the specific ChatGPT prompts that save time on menu pricing.
 
-For a broader view of AI tools in restaurant financial management, see our [AI Bookkeeping Guide for Small Restaurants](/en/posts/ai-bookkeeping-small-restaurant-2026/).
+For a broader view of AI tools in restaurant financial management, see our [AI Bookkeeping Guide for Small Restaurants](/posts/ai-bookkeeping-small-restaurant-2026/).
 
 ---
 

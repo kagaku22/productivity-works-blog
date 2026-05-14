@@ -22,7 +22,7 @@ The gap between how experienced candidates are *perceived* and how they could be
 
 This guide is for professionals over 50 who are changing careers — either by choice or necessity — and want to use AI to craft a resume that converts decades of experience into competitive advantage rather than red flags.
 
-For the complete step-by-step resume writing process with AI, see our [Create a Resume with AI: Step-by-Step Guide](/en/posts/create-resume-with-ai-step-by-step/).
+For the complete step-by-step resume writing process with AI, see our [Create a Resume with AI: Step-by-Step Guide](/posts/create-resume-with-ai-step-by-step/).
 
 ---
 

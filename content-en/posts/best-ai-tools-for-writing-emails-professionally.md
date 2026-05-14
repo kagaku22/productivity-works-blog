@@ -212,7 +212,7 @@ Looking forward to connecting.
 
 **Strategy 5: Use AI to improve, not just create.** Paste your own draft and say "Make this 30% shorter, more direct, and remove any passive voice." The editing use case is often more valuable than writing from scratch.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -256,7 +256,7 @@ Want 50+ ready-to-use email prompt templates organized by situation (follow-ups,
 
 And if you want to build a full communication system that handles email, proposals, and client interactions with AI, the **[AI Productivity Playbook](https://payhip.com/productivityworks)** has you covered end-to-end.
 
-[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 

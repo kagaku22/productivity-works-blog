@@ -268,7 +268,7 @@ Passive income is taxable income. Dividends may be qualified (lower rate) or ord
 **Mistake 5: Using passive income as an excuse to delay investing**
 For most people under 40, the single highest-return "passive income" strategy is maximizing retirement account contributions and investing in broad market index funds. The guaranteed, risk-adjusted return of tax-free compounding in a Roth IRA often beats speculative passive income ventures.
 
-[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -367,7 +367,7 @@ The best time to start building passive income streams was five years ago. The s
 - [Open a high-yield savings account at SoFi — earn 4.6% APY passively](https://payhip.com/productivityworks)
 - [Sell your first digital product on Gumroad — free to start](https://payhip.com/productivityworks)
 
-[Related: How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
+[Related: How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
 
 ---
 

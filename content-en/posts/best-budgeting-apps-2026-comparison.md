@@ -176,7 +176,7 @@ Budgeting apps work passively, but the behavior change requires active review. A
 **Mistake 5: Ignoring "miscellaneous" spending**
 Miscellaneous categories are where budgets go to die. Give every recurring spend its own category. If you notice $300 in "other" spending, dig in — there are almost always surprises.
 
-[Related: How to Pay Off Debt Fast](/en/posts/how-to-pay-off-debt-fast-strategies/)
+[Related: How to Pay Off Debt Fast](/posts/how-to-pay-off-debt-fast-strategies/)
 
 ---
 
@@ -260,7 +260,7 @@ Start the free trial of your top choice today. Commit to 30 days. The data you g
 - [Try Monarch Money free for 7 days](https://payhip.com/productivityworks)
 - [Download Copilot — 2-month free trial (iOS)](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
