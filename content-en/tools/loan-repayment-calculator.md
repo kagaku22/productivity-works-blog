@@ -133,6 +133,7 @@ Once your loans are paid off, redirect those payments toward building wealth:
 
 ## Related Tools
 
+- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your 401(k)/IRA nest egg
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your investments grow over time
 - [Budget Planner](/tools/budget-planner/) — Optimize your monthly spending
 - [Salary Calculator](/tools/salary-calculator/) — Calculate your take-home pay

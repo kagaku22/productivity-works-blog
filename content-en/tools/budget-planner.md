@@ -152,6 +152,7 @@ Based on your budget results, here are the most impactful actions you can take:
 
 ## Related Tools
 
+- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your 401(k)/IRA nest egg
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See your investment growth
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
 - [Salary Calculator](/tools/salary-calculator/) — Know your real take-home pay

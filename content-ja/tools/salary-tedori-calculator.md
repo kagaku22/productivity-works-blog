@@ -163,7 +163,7 @@ calcTedori();
 
 手取りを増やすには、**収入を上げる**か**控除を増やす**のが基本です。
 
-- **iDeCoで節税** → 掛金が全額所得控除。会社員なら月23,000円で年間約55,000円の節税効果 → [iDeCoおすすめ証券会社](/ja/posts/ideco-osusume-shouken/)
+- **iDeCoで節税** → 掛金が全額所得控除。会社員なら月23,000円で年間約55,000円の節税効果 → [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/)で節税額を計算
 - **ふるさと納税** → 実質2,000円で返礼品がもらえる節税制度
 - **副業で収入UP** → 副業収入は給与所得とは別計算 → [副業の始め方ガイド](/ja/posts/副業-始め方-初心者-2026/)
 - **転職で年収UP** → 年収交渉のコツを知る → [転職サイトおすすめ](/ja/posts/tenshoku-site-osusume-2026/)
@@ -196,6 +196,7 @@ calcTedori();
 
 ## 関連ツール・記事
 
+- [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/) — iDeCoの節税額と将来受取額を計算
 - [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/) — 将来の資産額を計算
 - [年金シミュレーター](/ja/tools/nenkin-simulator/) — 将来の年金受給額を確認
 - [家計簿シミュレーター](/ja/tools/kakeibo-generator/) — 理想の支出配分を計算

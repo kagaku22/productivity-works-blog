@@ -130,6 +130,7 @@ Historically, lump-sum investing outperforms dollar-cost averaging about 2/3 of 
 
 ## Related Tools
 
+- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your 401(k)/IRA nest egg
 - [Budget Planner](/tools/budget-planner/) — Find extra money to invest each month
 - [Salary Calculator](/tools/salary-calculator/) — Calculate your take-home pay
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
