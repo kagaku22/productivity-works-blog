@@ -276,3 +276,13 @@ For a complete system to automate your work with AI, our **[AI Productivity Play
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*
+
+---
+
+## Related Templates
+
+Start using these techniques right away with our Excel templates:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Automated calculations and visual dashboards
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — AI-powered Excel automation workflows
+

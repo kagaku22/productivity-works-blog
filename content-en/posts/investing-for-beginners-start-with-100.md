@@ -207,3 +207,13 @@ A $100 investment made today is worth more than a $1,000 investment made next ye
 
 [AFFILIATE_LINK_HERE — Fidelity Roth IRA]
 [AFFILIATE_LINK_HERE — Trading 212 Stocks and Shares ISA]
+
+---
+
+## Related Templates
+
+Take control of your finances with these tools:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Track income, expenses, and savings goals
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Build additional income streams
+

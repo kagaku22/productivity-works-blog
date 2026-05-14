@@ -322,3 +322,13 @@ Build it before you need it.
 ---
 
 *Our pre-built [Budget Tracker](https://payhip.com) on Payhip includes the full Notion freelance finance system, ready to duplicate. Save 4+ hours of setup and start tracking today.*
+
+---
+
+## Related Templates
+
+Start your freelance or side hustle journey with these resources:
+
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — 15 proven ideas with step-by-step guides
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Boost your productivity instantly
+

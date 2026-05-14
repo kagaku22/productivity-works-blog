@@ -349,3 +349,13 @@ Start with the bank connection today. Build from there.
 ---
 
 *For ready-to-use financial tracking templates and AI prompt libraries for your business finances, visit our [Payhip store](https://payhip.com). Our Budget Tracker and AI Productivity Playbook are designed for small business owners who want cleaner books and smarter financial decisions.*
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

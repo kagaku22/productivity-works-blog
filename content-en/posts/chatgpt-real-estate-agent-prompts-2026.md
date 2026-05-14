@@ -555,3 +555,13 @@ AI isn't replacing real estate agents — it's replacing the agents who don't us
 Save this guide. Bookmark the prompts most relevant to your business. And start with just one prompt today — that's how every productive habit begins.
 
 *Want more AI productivity tools for real estate professionals? Subscribe to the Productivity Works newsletter for weekly tips.*
+
+---
+
+## Related Templates
+
+Supercharge your real estate business with these AI tools:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Property listings, client emails, market analysis
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows for business professionals
+

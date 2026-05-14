@@ -610,3 +610,13 @@ The clinics that will differentiate themselves over the next five years aren't n
 Start with your appointment reminders. Build your template library one scenario at a time. Have your DVMs review anything clinical. And watch how much easier it becomes to communicate with the care and consistency your clients deserve.
 
 *Productivity Works covers AI tools for healthcare professionals, small business owners, and specialized service providers. Subscribe for weekly guides.*
+
+---
+
+## Related Templates
+
+Streamline your veterinary practice with these AI tools:
+
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows for business operations
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Client communication and marketing prompts
+

@@ -432,3 +432,13 @@ The investment is about $100-150 per month in software and a few hours of setup 
 Start with Step 1 this week. Get your chart of accounts right, and everything else builds from there.
 
 *Productivity Works publishes weekly guides for small business owners. Subscribe to get our restaurant management toolkit.*
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

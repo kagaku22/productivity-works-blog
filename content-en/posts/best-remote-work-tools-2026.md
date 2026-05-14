@@ -259,3 +259,13 @@ If you're setting up from scratch and want to minimize cost:
 The worst outcome is adopting too many tools simultaneously and switching between them constantly. Each tool you add has an adoption cost — in time, in training, and in mental overhead. Add tools only when the problem they solve is clearly present.
 
 A remote team with three tools used well outperforms a team with twelve tools used poorly. Every time.
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

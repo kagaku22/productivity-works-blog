@@ -225,3 +225,13 @@ Most people who follow this plan and do the outreach have their first paying cli
 
 [AFFILIATE_LINK_HERE — Bonsai freelance contracts and invoicing]
 [AFFILIATE_LINK_HERE — Upwork profile setup]
+
+---
+
+## Related Templates
+
+Start your freelance or side hustle journey with these resources:
+
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — 15 proven ideas with step-by-step guides
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Boost your productivity instantly
+

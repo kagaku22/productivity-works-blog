@@ -237,3 +237,13 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Investment decisions should be made based on your individual circumstances. Please consult a qualified financial advisor before making investment decisions. Information is current as of the publication date — verify details on official websites.
 
 **Disclosure:** This article may contain affiliate links. We may earn a commission at no additional cost to you.
+
+---
+
+## Related Templates
+
+Take control of your finances with these tools:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Track income, expenses, and savings goals
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Build additional income streams
+

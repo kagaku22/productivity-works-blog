@@ -232,3 +232,13 @@ Set aside 30–45 minutes, three days per week. Most people reach solid intermed
 The professionals earning the most from Excel proficiency aren't using features that are technically complex. They're solving real business problems faster and more accurately than their colleagues. Power Query, XLOOKUP, PivotTables, and clear data visualization are not exotic skills — they're the current standard for analyst-grade work.
 
 The gap between where most people are and where they need to be is smaller than it looks. The investment is 3–6 months of deliberate practice. The return is a career-long salary differential that compounds.
+
+---
+
+## Related Templates
+
+Start using these techniques right away with our Excel templates:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Automated calculations and visual dashboards
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — AI-powered Excel automation workflows
+

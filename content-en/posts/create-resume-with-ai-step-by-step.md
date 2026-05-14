@@ -310,3 +310,13 @@ Want to skip the setup? Our [AI Resume Toolkit](#) on Payhip includes 25 tested 
 **Related reads:**
 - Best AI Tools for Small Business 2026
 - Best Free Alternatives to ChatGPT 2026
+
+---
+
+## Related Templates
+
+Ace your next career move with these resources:
+
+- [Job Interview Prep Guide: AI-Powered](https://payhip.com/productivityworks) — 50 questions, STAR method templates, salary negotiation scripts
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Resume and interview prep prompts included
+

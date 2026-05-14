@@ -330,3 +330,13 @@ Your clients are already interacting with AI in every other part of their lives.
 ---
 
 *Interested in the full AI toolkit for real estate? Our [AI Productivity Playbook](https://payhip.com) includes real-estate-specific prompts, workflows, and implementation guides. Available on Payhip.*
+
+---
+
+## Related Templates
+
+Supercharge your real estate business with these AI tools:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Property listings, client emails, market analysis
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows for business professionals
+

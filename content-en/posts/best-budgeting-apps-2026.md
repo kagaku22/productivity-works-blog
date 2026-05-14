@@ -224,3 +224,13 @@ The worst outcome is spending three weeks choosing an app instead of actually us
 | Track investments for free | Empower |
 
 All seven apps offer free trials or free tiers. There's no reason not to test your top pick today — your future bank balance will thank you.
+
+---
+
+## Related Templates
+
+Take control of your finances with these tools:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Track income, expenses, and savings goals
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Build additional income streams
+

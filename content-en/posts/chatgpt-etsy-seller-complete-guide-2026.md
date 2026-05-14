@@ -580,3 +580,13 @@ ChatGPT won't make your products. It won't take your photos. It won't build the 
 Start with Prompt 7 (the 13-tag generator) for your worst-performing listing. Compare your views over the next 30 days. The results will convince you to keep going.
 
 *Productivity Works publishes weekly guides for creative entrepreneurs and small business owners. Subscribe for more Etsy strategy, AI tool reviews, and shop-building resources.*
+
+---
+
+## Related Templates
+
+Grow your Etsy business with these resources:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Product descriptions, SEO tags, marketing copy
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Complete guide to scaling your online business
+

@@ -528,3 +528,13 @@ Whether you're a casual reader who wants to remember what you've read, a data-dr
 Start with your last five books. Add them to the database this weekend. Everything else builds from there.
 
 *Looking for the printable template version of this system? Subscribe to Productivity Works for our free Notion book tracker template download.*
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

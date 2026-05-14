@@ -366,3 +366,13 @@ That is what great teaching has always been. AI can give you more time to do it.
 ---
 
 *Want ready-to-use AI prompt templates for your classroom? Our [ChatGPT Prompt Templates pack](https://payhip.com) includes 30+ educator-specific prompts for lesson planning, assessments, differentiation, and parent communications. Available on Payhip.*
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

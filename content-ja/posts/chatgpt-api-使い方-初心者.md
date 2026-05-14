@@ -320,3 +320,14 @@ ChatGPT APIを使いこなせるようになると、ビジネスの可能性が
 - ChatGPTを仕事で使う具体的な活用法10選
 - すぐ使えるChatGPTプロンプトテンプレート20選
 - AIでExcel作業を自動化する方法
+
+---
+
+## 関連テンプレート
+
+この記事で紹介したテクニックをすぐ実践できるテンプレートはこちら：
+
+- [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — コピペで即使えるプロンプト集
+- [AI仕事術 完全ガイド](https://prod-works.booth.pm/) — 50のAIワークフロー収録
+- [AI副業スタートキット](https://prod-works.booth.pm/) — AIで副収入を得る実践ガイド
+

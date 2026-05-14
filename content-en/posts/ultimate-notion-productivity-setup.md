@@ -265,3 +265,13 @@ Week 3: Add views and filters that make your workflow faster.
 The system will evolve as you use it. That's not a problem — it's evidence the system is working.
 
 [AFFILIATE_LINK_HERE — Notion Plus plan]
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

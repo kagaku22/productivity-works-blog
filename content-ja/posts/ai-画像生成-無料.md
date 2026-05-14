@@ -212,3 +212,14 @@ clean background, corporate style
 - 無料で使えるAIツールおすすめ15選
 - AIを使った副業の始め方完全ガイド
 - AIで高品質な文章を作成するコツ7つ
+
+---
+
+## 関連テンプレート
+
+この記事で紹介したテクニックをすぐ実践できるテンプレートはこちら：
+
+- [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — コピペで即使えるプロンプト集
+- [AI仕事術 完全ガイド](https://prod-works.booth.pm/) — 50のAIワークフロー収録
+- [AI副業スタートキット](https://prod-works.booth.pm/) — AIで副収入を得る実践ガイド
+

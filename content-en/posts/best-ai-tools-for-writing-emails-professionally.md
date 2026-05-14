@@ -258,3 +258,13 @@ And if you want to build a full communication system that handles email, proposa
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*
+
+---
+
+## Related Templates
+
+Put these techniques into practice with our ready-made templates:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
+- [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+

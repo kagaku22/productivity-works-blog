@@ -288,3 +288,13 @@ Your products deserve descriptions that do them justice. Now you have the tools 
 ---
 
 *Want 200+ ready-to-use prompts for your Etsy shop? Check out our [ChatGPT Prompt Templates pack](https://payhip.com) on Payhip — built specifically for e-commerce sellers, makers, and creative entrepreneurs.*
+
+---
+
+## Related Templates
+
+Grow your Etsy business with these resources:
+
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Product descriptions, SEO tags, marketing copy
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Complete guide to scaling your online business
+

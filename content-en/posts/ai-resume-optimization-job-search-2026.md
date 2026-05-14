@@ -220,3 +220,13 @@ Then practice saying this out loud. If the negotiation happens over the phone, y
 3. **Generate 20 interview questions** for your target role. Answer three of them out loud, record yourself, and watch it back once.
 
 The gap between where your resume is and where it needs to be is probably smaller than you think — and with AI assistance, closing that gap takes hours, not weeks.
+
+---
+
+## Related Templates
+
+Ace your next career move with these resources:
+
+- [Job Interview Prep Guide: AI-Powered](https://payhip.com/productivityworks) — 50 questions, STAR method templates, salary negotiation scripts
+- [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Resume and interview prep prompts included
+

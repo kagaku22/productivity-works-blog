@@ -175,3 +175,13 @@ Pick one item from this list — the easiest one — and spend 20 minutes on it 
 The goal isn't to become a financial expert. It's to stop leaving money on the table that's already yours.
 
 [AFFILIATE_LINK_HERE — ChatGPT Plus subscription]
+
+---
+
+## Related Templates
+
+Take control of your finances with these tools:
+
+- [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Track income, expenses, and savings goals
+- [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — Build additional income streams
+
