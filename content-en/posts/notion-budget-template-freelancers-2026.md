@@ -1,6 +1,7 @@
 ---
 title: "Notion Budget Template for Freelancers 2026: Track All Finances"
 date: 2026-02-18
+slug: "notion-budget-template-freelancers-2026"
 draft: false
 author: "Productivity Works Editorial"
 description: "The definitive guide to building or using a Notion budget template as a freelancer in 2026 — covering income tracking, expense categorization, quarterly."

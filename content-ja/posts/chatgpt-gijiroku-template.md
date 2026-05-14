@@ -1,6 +1,7 @@
 ---
 title: "ChatGPTで議事録を自動作成する方法【コピペOKテンプレート付き】"
 date: 2026-04-16
+slug: "chatgpt-gijiroku-template"
 draft: false
 author: "Productivity Works編集部"
 description: "ChatGPTを使って会議の議事録を自動作成する具体的な方法と、すぐ使えるプロンプトテンプレートを紹介。Whisperによる音声文字起こしから要点整理まで、議事録作成の全工程をAIで効率化します。"

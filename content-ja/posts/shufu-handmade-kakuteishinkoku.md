@@ -1,6 +1,7 @@
 ---
 title: "主婦のハンドメイド販売、確定申告はいくらから必要？【2026年最新】"
 date: 2026-03-02
+slug: "shufu-handmade-kakuteishinkoku"
 draft: false
 author: "Productivity Works編集部"
 description: "ハンドメイド作品をミンネ・クリーマで販売している主婦の方向けに、確定申告が必要になる金額の基準をわかりやすく解説。雑所得・事業所得の違い、経費の考え方、申告しないリスクまで詳しく説明します。"

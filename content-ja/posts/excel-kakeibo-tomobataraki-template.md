@@ -1,6 +1,7 @@
 ---
 title: "共働き夫婦のExcel家計簿のつけ方【無料テンプレート付き・2026年版】"
 date: 2026-04-08
+slug: "excel-kakeibo-tomobataraki-template"
 draft: false
 author: "Productivity Works編集部"
 description: "共働き夫婦向けに、Excelで家計簿をつける具体的な方法を解説。収入合算・費用按分・貯蓄目標の管理まで、2人の収入がある家庭専用のテンプレート構成とつけ方のコツを詳しく紹介します。"

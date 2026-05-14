@@ -1,6 +1,7 @@
 ---
 title: "AIで英語ビジネスメールを無料で書く方法【例文・プロンプト集2026】"
 date: 2026-05-08
+slug: "ai-eigo-mail-business-reibun"
 draft: false
 author: "Productivity Works編集部"
 description: "ChatGPT・Gemini・Claudeなど無料AIツールを使って英語ビジネスメールを書く具体的な方法を解説。シーン別の例文テンプレートとプロンプト集で、英語メールのストレスをゼロにします。"

@@ -1,6 +1,7 @@
 ---
 title: "How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026 Guide)"
 date: 2026-03-31
+slug: "chatgpt-etsy-shop-descriptions"
 draft: false
 author: "Productivity Works Editorial"
 description: "A step-by-step guide for Etsy sellers on using ChatGPT to write product descriptions, shop bios, and SEO titles that actually convert — without sounding."
