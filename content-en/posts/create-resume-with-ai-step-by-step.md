@@ -338,7 +338,7 @@ Save these for reuse:
 
 Building a great resume with AI takes about 2-3 hours for a strong first draft — compared to the days most people spend staring at a blank document. The work is real, but it's focused: gathering your raw material, prompting strategically, reviewing critically.
 
-Want to skip the setup? Our [AI Resume Toolkit](#) on Payhip includes 25 tested ChatGPT prompts for resumes, a master resume template, a cover letter template, and an ATS keyword guide — everything you need to run this process for any job application.
+Want to skip the setup? Our [AI Resume Toolkit](https://payhip.com/productivityworks) on Payhip includes 25 tested ChatGPT prompts for resumes, a master resume template, a cover letter template, and an ATS keyword guide — everything you need to run this process for any job application.
 
 **Related reads:**
 - Best AI Tools for Small Business 2026

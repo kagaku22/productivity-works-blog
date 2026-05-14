@@ -314,7 +314,7 @@ Start with the free tiers, prove the value, then upgrade. The small business own
 
 ---
 
-Want a done-for-you AI tool setup guide tailored to your specific business type? Check out our [Small Business AI Toolkit](#) on Payhip — includes ChatGPT prompt libraries, Zapier templates, and a step-by-step 30-day implementation plan.
+Want a done-for-you AI tool setup guide tailored to your specific business type? Check out our [Small Business AI Toolkit](https://payhip.com/productivityworks) on Payhip — includes ChatGPT prompt libraries, Zapier templates, and a step-by-step 30-day implementation plan.
 
 **Related reads:**
 - How to Use Notion for Project Management 2026

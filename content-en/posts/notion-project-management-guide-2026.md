@@ -338,7 +338,7 @@ For most small teams and freelancers, the **Plus plan** is the sweet spot. You g
 
 Notion has a learning curve, but it's shallower than people expect. The biggest unlock is realizing that databases are just smart tables — once that clicks, everything else follows.
 
-If you want a head start, our [Notion PM Starter Kit](#) (available on our Payhip store) includes a pre-built workspace with all the databases, views, templates, and formulas described in this guide — ready to duplicate into your account.
+If you want a head start, our [Notion PM Starter Kit](https://payhip.com/productivityworks) (available on our Payhip store) includes a pre-built workspace with all the databases, views, templates, and formulas described in this guide — ready to duplicate into your account.
 
 **Related reads:**
 - Best AI Tools for Small Business 2026
