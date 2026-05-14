@@ -149,22 +149,22 @@ summaryLength = 140
   [[languages.en.menu.main]]
     identifier = "categories"
     name = "Categories"
-    url = "/en/categories/"
+    url = "/categories/"
     weight = 10
   [[languages.en.menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/en/tags/"
+    url = "/tags/"
     weight = 20
   [[languages.en.menu.main]]
     identifier = "archives"
     name = "Archives"
-    url = "/en/archives/"
+    url = "/archives/"
     weight = 25
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
-    url = "/en/search/"
+    url = "/search/"
     weight = 30
 
 # =============================================================================
