@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 Client communication is one of the highest-leverage activities in any veterinary practice. A well-timed reminder reduces no-shows. A thoughtful post-visit message builds loyalty. A clear care instruction sheet reduces callback volume. A compassionate condolence note can turn a grieving client into a lifelong advocate.

@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 Veterinary professionals are among the most time-pressured workers in healthcare. Between seeing patients, managing staff, handling emergency calls, and keeping up with medicine, there's rarely enough time for the communication and administrative work that keeps a practice thriving.

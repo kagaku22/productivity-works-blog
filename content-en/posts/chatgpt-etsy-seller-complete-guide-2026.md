@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 Running an Etsy shop in 2026 means competing with millions of listings. The sellers breaking through aren't necessarily the most talented makers — they're the ones who've mastered their shop's visibility and customer experience. ChatGPT has quietly become one of the most powerful tools in a top Etsy seller's toolkit.

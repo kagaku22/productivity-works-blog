@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 The real estate industry moves fast, and agents who master AI tools in 2026 are closing more deals with less burnout. ChatGPT has become an indispensable tool for top-performing agents — not to replace the human relationship, but to handle the time-consuming writing work that used to eat hours every day.

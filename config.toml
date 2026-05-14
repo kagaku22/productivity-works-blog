@@ -136,6 +136,11 @@ summaryLength = 140
     url = "/tags/"
     weight = 20
   [[menu.main]]
+    identifier = "archives"
+    name = "アーカイブ"
+    url = "/archives/"
+    weight = 25
+  [[menu.main]]
     identifier = "search"
     name = "検索"
     url = "/search/"

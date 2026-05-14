@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 If you've ever finished a book and couldn't remember a single thing about it three months later, or if your "to-be-read" pile has become an unmanageable source of guilt rather than joy, a well-designed Notion book tracker can change your reading life.

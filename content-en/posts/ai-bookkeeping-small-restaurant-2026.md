@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 Running a small restaurant means wearing every hat in the building — chef, manager, marketer, and often your own accountant. For most independent restaurant owners, bookkeeping is the job that gets pushed to Sunday nights, causing stress, errors, and missed deductions that cost thousands every year.

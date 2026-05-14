@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 If you've ever spent 45 minutes agonizing over 13 Etsy tags — refreshing your Erank dashboard, swapping one word in and out, wondering whether "handmade gift" or "unique gift" performs better — this guide is for you.

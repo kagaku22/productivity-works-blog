@@ -11,6 +11,7 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
+ShowWordCount: true
 ---
 
 Every real estate agent knows the struggle: you have 20 listings to write, a deadline in two hours, and your brain is completely blank. The property is a perfectly nice 3-bedroom colonial, but somehow "cozy and well-maintained" is all you can manage to type.
