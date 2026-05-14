@@ -147,6 +147,11 @@ summaryLength = 140
     url = "/ja/archives/"
     weight = 25
   [[languages.ja.menu.main]]
+    identifier = "tools"
+    name = "無料ツール"
+    url = "/ja/tools/"
+    weight = 28
+  [[languages.ja.menu.main]]
     identifier = "search"
     name = "検索"
     url = "/ja/search/"
@@ -167,6 +172,11 @@ summaryLength = 140
     name = "Archives"
     url = "/archives/"
     weight = 25
+  [[languages.en.menu.main]]
+    identifier = "tools"
+    name = "Free Tools"
+    url = "/tools/"
+    weight = 28
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
