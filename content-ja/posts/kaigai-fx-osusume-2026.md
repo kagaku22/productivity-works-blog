@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/kaigai-fx-osusume-2026.png"
+  alt: "FX口座 おすすめ2026年版！初心者向けに比較【少額から始められる】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
