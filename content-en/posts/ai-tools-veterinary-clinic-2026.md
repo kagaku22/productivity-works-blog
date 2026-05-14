@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/ai-tools-veterinary-clinic-2026.png"
+  alt: "AI Tools for Veterinary Clinics: Streamline Operations & Cli"
+  relative: false
 ---
 
 Veterinary professionals are among the most time-pressured workers in healthcare. Between seeing patients, managing staff, handling emergency calls, and keeping up with medicine, there's rarely enough time for the communication and administrative work that keeps a practice thriving.

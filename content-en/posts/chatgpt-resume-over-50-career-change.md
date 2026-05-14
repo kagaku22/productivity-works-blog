@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/chatgpt-resume-over-50-career-change.png"
+  alt: "ChatGPT Resume Tips for Career Changers Over 50: Turn Experi"
+  relative: false
 ---
 
 Here's the uncomfortable truth that career coaches sometimes dance around: ageism in hiring is real. Recruiters do make snap judgments. Some hiring managers do have unconscious (or conscious) biases about candidates with 25+ years of experience.

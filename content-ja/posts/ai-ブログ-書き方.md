@@ -15,6 +15,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-ブログ-書き方.png"
+  alt: "AIを使ったブログ記事の書き方入門【2026年版・SEOで上位表示を狙う方法】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

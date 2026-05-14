@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/furusato-nozei-yarikata-2026.png"
+  alt: "ふるさと納税 やり方 完全ガイド【2026年版・初心者向け】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

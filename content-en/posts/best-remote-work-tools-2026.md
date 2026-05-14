@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-remote-work-tools-2026.png"
+  alt: "Best Remote Work Tools in 2026: The Complete Stack"
+  relative: false
 ---
 
 Remote work has matured. The chaotic first wave of distributed work — everyone on Zoom all day, Slack notifications firing constantly, nobody sure where to find anything — has given way to more deliberate practices and better tooling.

@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-start-investing-with-100.png"
+  alt: "How to Start Investing with $100 in 2026"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

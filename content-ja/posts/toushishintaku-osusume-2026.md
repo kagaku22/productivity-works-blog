@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/toushishintaku-osusume-2026.png"
+  alt: "投資信託 おすすめ 初心者向け厳選ファンド完全比較【2026年最新版】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-youyaku-tool-osusume.png"
+  alt: "AI要約ツール おすすめ無料10選【2026年版】用途別に徹底比較"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

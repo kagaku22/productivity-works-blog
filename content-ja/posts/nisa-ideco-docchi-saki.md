@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/nisa-ideco-docchi-saki.png"
+  alt: "NISA iDeCo どっちを先に始めるべき？優先順位を徹底解説【2026年最新版】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

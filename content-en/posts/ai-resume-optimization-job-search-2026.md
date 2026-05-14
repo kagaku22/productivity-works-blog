@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-resume-optimization-job-search-2026.png"
+  alt: "How to Use AI to Land Your Dream Job (Resume + Interview)"
+  relative: false
 ---
 
 The job market in 2026 has a strange duality. AI-powered Applicant Tracking Systems (ATS) screen out the majority of resumes before a human sees them. Meanwhile, AI tools available to job seekers can create resumes and cover letters that are more targeted than anything a human could produce manually.

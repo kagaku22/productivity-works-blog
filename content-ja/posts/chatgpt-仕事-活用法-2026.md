@@ -14,6 +14,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-仕事-活用法-2026.png"
+  alt: "ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

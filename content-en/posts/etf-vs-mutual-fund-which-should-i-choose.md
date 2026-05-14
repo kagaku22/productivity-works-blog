@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/etf-vs-mutual-fund-which-should-i-choose.png"
+  alt: "ETF vs Mutual Fund: Which Should I Choose?"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

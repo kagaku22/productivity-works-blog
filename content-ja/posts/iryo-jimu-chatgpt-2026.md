@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/iryo-jimu-chatgpt-2026.png"
+  alt: "医療事務向けChatGPT活用術 業務効率化10選"
+  relative: false
 ---
 
 

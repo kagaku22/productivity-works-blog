@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-tools-for-freelancers-to-earn-more-2026.png"
+  alt: "AI Tools for Freelancers to Earn More 2026"
+  relative: false
 ---
 
 # AI Tools for Freelancers to Earn More — Complete Guide [2026]

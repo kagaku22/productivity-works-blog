@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/50dai-tenshoku-shokumu-keirekisho-chatgpt.png"
+  alt: "50代転職 ChatGPTで職務経歴書を劇的に改善する5つのプロンプト"
+  relative: false
 ---
 
 

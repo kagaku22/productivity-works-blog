@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/etsy-seo-tags-chatgpt-optimization.png"
+  alt: "Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by"
+  relative: false
 ---
 
 If you've ever spent 45 minutes agonizing over 13 Etsy tags — refreshing your Erank dashboard, swapping one word in and out, wondering whether "handmade gift" or "unique gift" performs better — this guide is for you.

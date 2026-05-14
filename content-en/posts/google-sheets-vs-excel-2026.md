@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/google-sheets-vs-excel-2026.png"
+  alt: "Google Sheets vs Excel 2026: Which Is Better for You?"
+  relative: false
 ---
 
 

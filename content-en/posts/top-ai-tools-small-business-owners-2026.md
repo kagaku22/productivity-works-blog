@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/top-ai-tools-small-business-owners-2026.png"
+  alt: "Best AI Tools for Small Business Owners 2026: Complete Guide"
+  relative: false
 ---
 
 

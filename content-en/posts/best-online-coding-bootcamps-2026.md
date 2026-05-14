@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-online-coding-bootcamps-2026.png"
+  alt: "Best Online Coding Bootcamps 2026: Honest Comparison by Care"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*

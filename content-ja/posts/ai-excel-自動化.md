@@ -16,6 +16,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-excel-自動化.png"
+  alt: "AIでExcel作業を自動化する方法【マクロ不要で誰でもできる】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

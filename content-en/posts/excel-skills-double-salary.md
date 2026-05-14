@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/excel-skills-double-salary.png"
+  alt: "Excel Skills That Will Double Your Salary"
+  relative: false
 ---
 
 Excel proficiency is not evenly distributed. Most office workers can enter data, write a SUM formula, and make a bar chart. A small percentage can build dynamic financial models, automate repetitive workflows, and translate raw data into business decisions. That gap in capability translates directly into a compensation gap.

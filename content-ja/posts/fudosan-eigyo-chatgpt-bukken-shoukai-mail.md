@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/fudosan-eigyo-chatgpt-bukken-shoukai-mail.png"
+  alt: "不動産営業 ChatGPTで物件紹介メールを3分で作成する方法"
+  relative: false
 ---
 
 

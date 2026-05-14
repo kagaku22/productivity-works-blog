@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/passive-income-ideas-that-actually-work-2026.png"
+  alt: "Passive Income Ideas That Actually Work 2026"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

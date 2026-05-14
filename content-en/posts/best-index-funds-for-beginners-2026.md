@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-index-funds-for-beginners-2026.png"
+  alt: "Best Index Funds for Beginners 2026"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

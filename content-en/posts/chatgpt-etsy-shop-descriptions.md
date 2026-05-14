@@ -21,6 +21,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-etsy-shop-descriptions.png"
+  alt: "How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026"
+  relative: false
 ---
 
 Running an Etsy shop is equal parts craft and copywriting. You might make the most stunning hand-poured soy candles or the most intricate watercolor prints in the marketplace — but if your product descriptions are flat, keyword-free, or just plain boring, buyers scroll right past you. The problem is that most Etsy sellers are artists and makers, not professional copywriters. And hiring one for every listing? Not scalable.

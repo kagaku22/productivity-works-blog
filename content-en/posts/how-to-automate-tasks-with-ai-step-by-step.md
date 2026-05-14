@@ -20,6 +20,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-automate-tasks-with-ai-step-by-step.png"
+  alt: "How to Automate Tasks with AI Step by Step"
+  relative: false
 ---
 
 # How to Automate Tasks with AI Step by Step — Complete Guide [2026]

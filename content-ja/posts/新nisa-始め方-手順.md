@@ -16,6 +16,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/新nisa-始め方-手順.png"
+  alt: "新NISA 始め方・手順を完全解説【2026年最新版】口座開設から積立設定まで"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

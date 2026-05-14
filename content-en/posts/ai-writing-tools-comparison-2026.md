@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-writing-tools-comparison-2026.png"
+  alt: "AI Writing Tools Comparison 2026: Best Options Ranked and Re"
+  relative: false
 ---
 
 

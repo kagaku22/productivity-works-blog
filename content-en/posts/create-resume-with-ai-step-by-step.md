@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/create-resume-with-ai-step-by-step.png"
+  alt: "How to Create a Resume with AI (Step-by-Step Guide for 2026)"
+  relative: false
 ---
 
 Job searching in 2026 means competing with more applicants than ever — many of whom are using AI tools to craft their applications. The good news: if you use AI strategically, you don't just save time. You produce a resume that's sharper, more targeted, and better optimized than most of what hiring managers see.

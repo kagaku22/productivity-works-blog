@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-build-an-emergency-fund-fast.png"
+  alt: "How to Build an Emergency Fund Fast (2026)"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

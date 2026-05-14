@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-budgeting-apps-2026-comparison.png"
+  alt: "Best Budgeting Apps 2026: Full Comparison"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

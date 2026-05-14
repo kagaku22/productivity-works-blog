@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/積立nisa-毎月いくら-平均.png"
+  alt: "積立NISA 毎月いくら積み立てるべき？平均額と最適金額を徹底解説【2026年版】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

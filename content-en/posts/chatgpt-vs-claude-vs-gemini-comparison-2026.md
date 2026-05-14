@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-vs-claude-vs-gemini-comparison-2026.png"
+  alt: "ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 20"
+  relative: false
 ---
 
 

@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-save-money.png"
+  alt: "10 Ways ChatGPT Can Save You $500/Month"
+  relative: false
 ---
 
 A ChatGPT Plus subscription costs $20 a month. If you use it strategically for personal finance, it can realistically save you ten to twenty-five times that amount every month. Most people never get close to that return because they use AI for the wrong things.

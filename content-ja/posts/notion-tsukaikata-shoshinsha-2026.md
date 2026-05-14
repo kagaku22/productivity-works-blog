@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/notion-tsukaikata-shoshinsha-2026.png"
+  alt: "Notion 使い方 完全ガイド【2026年版・初心者向け】セットアップから活用術まで"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

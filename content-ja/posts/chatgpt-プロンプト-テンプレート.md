@@ -14,6 +14,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-プロンプト-テンプレート.png"
+  alt: "すぐ使えるChatGPTプロンプトテンプレート20選【コピペOK】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

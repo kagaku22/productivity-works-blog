@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/401k-vs-ira-differences-explained.png"
+  alt: "401k vs IRA Differences Explained (2026)"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

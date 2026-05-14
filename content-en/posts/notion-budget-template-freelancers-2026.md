@@ -22,6 +22,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/notion-budget-template-freelancers-2026.png"
+  alt: "Notion Budget Template for Freelancers 2026: Track Income, E"
+  relative: false
 ---
 
 Freelancing gives you freedom. It also gives you a financial situation that is genuinely complicated — irregular income, self-employment taxes, deductible business expenses, client invoices in various states of payment, and the quarterly tax deadline that always arrives faster than expected. Most personal budgeting apps are built for salaried employees with predictable paychecks. They fall apart the moment you have three clients paying on different schedules, a slow January, and a $4,200 Adobe software bill that is actually a tax deduction.

@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-pay-off-debt-fast-strategies.png"
+  alt: "How to Pay Off Debt Fast: Best Strategies 2026"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

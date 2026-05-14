@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-high-yield-savings-accounts-2026.png"
+  alt: "Best High Yield Savings Accounts 2026"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

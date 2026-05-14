@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-start-freelancing-2026.png"
+  alt: "How to Start Freelancing in 2026: Complete Beginner''s Guide"
+  relative: false
 ---
 
 Freelancing is one of the few career paths where you can go from zero income to $3,000/month in 90 days without a degree, certification, or years of experience. It's also a path where most beginners waste their first six months on the wrong activities.

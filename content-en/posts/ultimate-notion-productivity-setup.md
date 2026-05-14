@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ultimate-notion-productivity-setup.png"
+  alt: "The Ultimate Notion Setup for Maximum Productivity"
+  relative: false
 ---
 
 Notion is one of the most powerful productivity tools available — and also one of the most frequently misconfigured. The most common failure mode is spending three weeks building an elaborate system and then abandoning it because maintaining the system takes more energy than doing the actual work.

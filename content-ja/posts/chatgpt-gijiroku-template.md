@@ -11,6 +11,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-gijiroku-template.png"
+  alt: "ChatGPTで議事録を自動作成する方法【コピペOKテンプレート付き】"
+  relative: false
 ---
 
 > **アフィリエイト開示**: 本記事には一部アフィリエイトリンクが含まれます。リンク経由でご購入いただいた場合、当サイトに手数料が発生することがありますが、読者の方への費用は一切変わりません。紹介する製品・サービスはすべて編集部が実際に検証したものに限っています。

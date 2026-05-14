@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/chatgpt-muryou-yuryou-chigai-2026.png"
+  alt: "ChatGPT無料版と有料版の違い2026年完全比較【どっちを選ぶべき？】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

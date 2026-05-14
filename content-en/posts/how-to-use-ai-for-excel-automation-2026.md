@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-use-ai-for-excel-automation-2026.png"
+  alt: "How to Use AI for Excel Automation 2026"
+  relative: false
 ---
 
 # How to Use AI for Excel Automation — Complete Guide [2026]

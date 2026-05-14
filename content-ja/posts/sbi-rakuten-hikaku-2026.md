@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/sbi-rakuten-hikaku-2026.png"
+  alt: "SBI証券 楽天証券 比較 2026年版！どちらを選ぶべきか徹底解説"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

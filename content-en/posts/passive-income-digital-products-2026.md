@@ -19,6 +19,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/passive-income-digital-products-2026.png"
+  alt: "7 Passive Income Ideas Using Digital Products"
+  relative: false
 ---
 
 Passive income is a term that gets abused. Most "passive income" either requires substantial upfront work, ongoing maintenance, or both. Digital products are the closest thing to genuinely passive income that exists — and they're more accessible than ever in 2026.

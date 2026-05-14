@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/freelance-tax-guide-2026.png"
+  alt: "Freelance Tax Guide 2026: Everything You Need to Know"
+  relative: false
 ---
 
 Freelancing offers freedom, flexibility, and the ability to work on your own terms. It also comes with a tax situation that catches most new freelancers completely off guard — often to the tune of thousands of dollars.

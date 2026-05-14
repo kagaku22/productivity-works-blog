@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/notion-book-tracker-template-guide-2026.png"
+  alt: "How to Build a Notion Book Tracker: Complete Template Guide "
+  relative: false
 ---
 
 If you've ever finished a book and couldn't remember a single thing about it three months later, or if your "to-be-read" pile has become an unmanageable source of guilt rather than joy, a well-designed Notion book tracker can change your reading life.

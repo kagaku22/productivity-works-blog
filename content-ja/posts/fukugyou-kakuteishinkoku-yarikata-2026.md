@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/fukugyou-kakuteishinkoku-yarikata-2026.png"
+  alt: "副業の確定申告やり方2026年版【freee・マネーフォワード対応】初心者完全ガイド"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

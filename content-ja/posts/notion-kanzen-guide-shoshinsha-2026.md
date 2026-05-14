@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/notion-kanzen-guide-shoshinsha-2026.png"
+  alt: "Notion使い方完全ガイド初心者2026年版【セットアップ・データベース・テンプレート】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

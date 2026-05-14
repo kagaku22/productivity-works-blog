@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-productivity-apps-remote-workers-2026.png"
+  alt: "Best Productivity Apps for Remote Workers 2026: Tested and R"
+  relative: false
 ---
 
 

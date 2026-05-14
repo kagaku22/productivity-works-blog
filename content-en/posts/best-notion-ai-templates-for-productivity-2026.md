@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-notion-ai-templates-for-productivity-2026.png"
+  alt: "Best Notion AI Templates for Productivity 2026"
+  relative: false
 ---
 
 # Best Notion AI Templates for Productivity 2026 — Complete Guide

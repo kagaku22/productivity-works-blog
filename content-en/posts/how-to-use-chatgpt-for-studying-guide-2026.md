@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-use-chatgpt-for-studying-guide-2026.png"
+  alt: "How to Use ChatGPT for Studying: The Complete Student Guide "
+  relative: false
 ---
 
 

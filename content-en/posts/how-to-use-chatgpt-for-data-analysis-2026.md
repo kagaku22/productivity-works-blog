@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/how-to-use-chatgpt-for-data-analysis-2026.png"
+  alt: "How to Use ChatGPT for Data Analysis 2026"
+  relative: false
 ---
 
 # How to Use ChatGPT for Data Analysis — Complete Guide [2026]

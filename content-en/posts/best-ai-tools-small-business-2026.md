@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-ai-tools-small-business-2026.png"
+  alt: "Best AI Tools for Small Business 2026: The Complete Roundup"
+  relative: false
 ---
 
 Small business owners wear every hat. You're the marketer, the accountant, the customer service rep, and the strategist — often in the same afternoon. AI tools in 2026 won't replace you, but they will let you punch far above your weight class.

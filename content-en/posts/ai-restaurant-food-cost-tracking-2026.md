@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/ai-restaurant-food-cost-tracking-2026.png"
+  alt: "How to Track Food Costs with AI: A Small Restaurant Owner's "
+  relative: false
 ---
 
 Food cost is where most restaurant profits go to die. The national average food cost percentage for a healthy restaurant sits between 28-35% of revenue. But it's shockingly easy to creep to 40%, 45%, or higher — and most operators only find out when they look at their quarterly P&L and wonder where all the money went.

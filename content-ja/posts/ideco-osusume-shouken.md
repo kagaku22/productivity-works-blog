@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ideco-osusume-shouken.png"
+  alt: "iDeCo おすすめ証券会社ランキング【2026年最新版】手数料・商品数を徹底比較"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

@@ -20,6 +20,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/investing-for-beginners-start-with-100.png"
+  alt: "Investing for Beginners: Start with $100 in 2026"
+  relative: false
 ---
 
 The most common reason people don't invest is that they think they need more money to get started. They're waiting for a windfall, a raise, or a point when everything feels financially stable. That point never comes, and the delay is expensive.

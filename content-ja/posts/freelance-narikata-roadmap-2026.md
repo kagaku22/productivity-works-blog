@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/freelance-narikata-roadmap-2026.png"
+  alt: "フリーランスなり方ロードマップ2026年版【副業から独立まで完全ガイド】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

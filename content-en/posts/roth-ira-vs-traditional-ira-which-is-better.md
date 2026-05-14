@@ -18,6 +18,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/roth-ira-vs-traditional-ira-which-is-better.png"
+  alt: "Roth IRA vs Traditional IRA: Which Is Better?"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

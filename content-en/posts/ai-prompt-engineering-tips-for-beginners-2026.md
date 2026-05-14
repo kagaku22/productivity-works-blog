@@ -20,6 +20,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-prompt-engineering-tips-for-beginners-2026.png"
+  alt: "AI Prompt Engineering Tips for Beginners 2026"
+  relative: false
 ---
 
 # AI Prompt Engineering Tips for Beginners — Complete Guide [2026]

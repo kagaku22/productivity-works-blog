@@ -15,6 +15,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-副業-始め方.png"
+  alt: "AIを使った副業の始め方完全ガイド【2026年版・月3万〜10万円を目指す】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

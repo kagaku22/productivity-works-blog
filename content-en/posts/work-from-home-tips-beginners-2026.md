@@ -12,6 +12,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/work-from-home-tips-beginners-2026.png"
+  alt: "Work From Home Tips for Beginners 2026: Everything You Need "
+  relative: false
 ---
 
 

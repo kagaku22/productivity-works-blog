@@ -17,6 +17,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/best-chatgpt-prompts-for-productivity-2026.png"
+  alt: "Best ChatGPT Prompts for Productivity 2026"
+  relative: false
 ---
 
 # Best ChatGPT Prompts for Productivity 2026 — Complete Guide

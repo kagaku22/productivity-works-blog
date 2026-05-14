@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/insyoku-excel-genkaritu-keisan-2026.png"
+  alt: "飲食店の原価率計算をExcelで簡単管理する方法2026"
+  relative: false
 ---
 
 

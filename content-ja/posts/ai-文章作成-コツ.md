@@ -15,6 +15,11 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+
+cover:
+  image: "/images/covers/ai-文章作成-コツ.png"
+  alt: "AIで高品質な文章を作成するコツ7つ【プロが使うテクニック】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

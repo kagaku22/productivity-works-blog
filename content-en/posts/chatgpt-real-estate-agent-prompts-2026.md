@@ -12,6 +12,11 @@ TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowWordCount: true
+
+cover:
+  image: "/images/covers/chatgpt-real-estate-agent-prompts-2026.png"
+  alt: "ChatGPT Prompts for Real Estate Agents: 30 Ready-to-Use Temp"
+  relative: false
 ---
 
 The real estate industry moves fast, and agents who master AI tools in 2026 are closing more deals with less burnout. ChatGPT has become an indispensable tool for top-performing agents — not to replace the human relationship, but to handle the time-consuming writing work that used to eat hours every day.
