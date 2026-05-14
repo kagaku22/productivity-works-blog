@@ -106,7 +106,7 @@ summaryLength = 140
 
   [params.homeInfoParams]
     Title = "Productivity Works"
-    Content = "生産性向上・副業・AI活用の実践ノウハウを届けるメディアです。"
+    Content = "生産性向上・副業・AI活用の実践ノウハウを届けるメディアです。Practical guides on productivity, side income, and AI tools."
 
   [params.fuseOpts]
     isCaseSensitive = false
