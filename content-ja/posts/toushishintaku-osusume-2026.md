@@ -190,14 +190,3 @@ ShowBreadCrumbs: true
 
 - [Excel家計簿テンプレート](https://prod-works.booth.pm/) — 収支を自動計算・見える化
 - [AI仕事術ガイド](https://prod-works.booth.pm/) — AIで時間を節約して投資に回す
-
----
-
-## 📥 関連テンプレート
-
-この記事の内容をすぐ実践できるテンプレートをご用意しています。
-
-- [AI仕事術ガイド](https://prod-works.booth.pm/) — 生産性10倍の50ワークフロー
-- [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — コピペで即使える100のプロンプト
-
-> すべての商品は [Productivity Works BOOTH ショップ](https://prod-works.booth.pm/) でご購入いただけます。

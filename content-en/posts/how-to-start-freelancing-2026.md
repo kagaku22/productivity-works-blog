@@ -237,14 +237,3 @@ Start your freelance or side hustle journey with these resources:
 
 - [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — 15 proven ideas with step-by-step guides
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Boost your productivity instantly
-
----
-
-## 📥 Related Templates
-
-Ready-to-use templates to put this article into practice:
-
-- [The Complete Side Hustle Guide 2026 ($8.99)](https://payhip.com/productivityworks) — From zero to $1,000/month
-- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
-
-> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).

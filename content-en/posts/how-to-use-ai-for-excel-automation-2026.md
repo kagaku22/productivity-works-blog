@@ -288,14 +288,3 @@ Start using these techniques right away with our Excel templates:
 
 - [Smart Budget Tracker (Excel Template)](https://payhip.com/productivityworks) — Automated calculations and visual dashboards
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — AI-powered Excel automation workflows
-
----
-
-## 📥 Related Templates
-
-Ready-to-use templates to put this article into practice:
-
-- [Excel Budget Tracker ($5.99)](https://payhip.com/productivityworks) — Auto charts & savings goals
-- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
-
-> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).

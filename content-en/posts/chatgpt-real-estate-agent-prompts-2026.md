@@ -568,14 +568,3 @@ Supercharge your real estate business with these AI tools:
 
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Property listings, client emails, market analysis
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows for business professionals
-
----
-
-## 📥 Related Templates
-
-Ready-to-use templates to put this article into practice:
-
-- [100 ChatGPT Prompts That Actually Work ($9.99)](https://payhip.com/productivityworks) — Copy-paste ready prompts for every situation
-- [The AI Productivity Playbook ($12.99)](https://payhip.com/productivityworks) — 50 step-by-step workflows
-
-> Browse all products at [Productivity Works Shop](https://payhip.com/productivityworks).
