@@ -35,7 +35,7 @@ summaryLength = 140
     languageName = "English"
     weight = 2
     title = "Productivity Works"
-    contentDir = "content/posts/en"
+    contentDir = "content-en"
     [languages.en.params]
       description = "Practical guides on productivity, side income, and AI tools"
       author = "Productivity Works Editorial"
