@@ -1,6 +1,7 @@
 {{- /* ============================================================
      Google AdSense — Productivity Works Blog
-     SETUP: Replace YOUR_ADSENSE_ID with your publisher ID (ca-pub-XXXXXXXXXXXXXXXX)
+     Auto Ads mode: Google automatically places ads across the site.
+     Manual ad units can be added after AdSense approval.
      ============================================================ */}}
 
 {{- $adsenseID := "ca-pub-4066014704395092" -}}
@@ -9,17 +10,4 @@
 {{- if ne $adsenseID "YOUR_ADSENSE_ID" }}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsenseID }}"
      crossorigin="anonymous"></script>
-{{- end }}
-
-{{- /* ---- In-article ad unit (shown inside single posts) ---- */}}
-{{- if and (ne $adsenseID "YOUR_ADSENSE_ID") (eq .Kind "page") }}
-<ins class="adsbygoogle"
-     style="display:block; text-align:center; margin: 2rem auto;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="{{ $adsenseID }}"
-     data-ad-slot="YOUR_AD_SLOT_ID"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 {{- end }}

@@ -6,7 +6,7 @@ slug: best-budgeting-apps-2026-comparison
 description: Compare the best budgeting apps of 2026. From YNAB to Mint alternatives,
   find the right personal finance app to track spending, pay debt, and reach your
   money goals.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

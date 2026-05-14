@@ -6,7 +6,7 @@ slug: how-to-build-an-emergency-fund-fast
 description: Learn how to build an emergency fund fast in 2026. Discover how much
   to save, where to keep it, and proven strategies to reach 3–6 months of expenses
   quickly.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

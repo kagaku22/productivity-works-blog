@@ -5,7 +5,7 @@ draft: false
 slug: best-index-funds-for-beginners-2026
 description: Discover the best index funds for beginners in 2026. Compare top options,
   learn how to invest, and build long-term wealth with low fees and simple strategies.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

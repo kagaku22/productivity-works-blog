@@ -6,7 +6,7 @@ slug: roth-ira-vs-traditional-ira-which-is-better
 description: Roth IRA vs traditional IRA — which is better for you in 2026? Compare
   tax rules, income limits, withdrawal rules, and learn which account wins for your
   situation.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

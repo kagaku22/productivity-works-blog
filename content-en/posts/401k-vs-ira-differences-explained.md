@@ -6,7 +6,7 @@ slug: 401k-vs-ira-differences-explained
 description: '401k vs IRA: what''s the difference and which should you use? Compare
   contribution limits, tax rules, employer match, and withdrawal rules for 2026 in
   this complete guide.'
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

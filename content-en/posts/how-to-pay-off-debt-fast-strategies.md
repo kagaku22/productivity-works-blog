@@ -6,7 +6,7 @@ slug: how-to-pay-off-debt-fast-strategies
 description: Learn how to pay off debt fast with proven strategies in 2026. Compare
   avalanche vs snowball methods, debt consolidation, and step-by-step plans to become
   debt-free.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:

@@ -6,7 +6,7 @@ slug: best-high-yield-savings-accounts-2026
 description: Find the best high yield savings accounts of 2026. Compare APY rates,
   fees, FDIC insurance, and features to find where your cash earns the most with zero
   risk.
-author: Productivity Works編集部
+author: "Productivity Works Editorial"
 categories:
 - Personal Finance
 tags:
