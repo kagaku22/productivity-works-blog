@@ -6,7 +6,8 @@
 baseURL = "https://kagaku22.github.io/productivity-works-blog/"
 title = "Productivity Works"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 languageCode = "ja"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
