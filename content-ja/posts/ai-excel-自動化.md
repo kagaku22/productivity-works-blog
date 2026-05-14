@@ -6,11 +6,11 @@ slug: ai-excel-自動化
 description: AIを使ってExcelの面倒な作業を自動化する具体的な方法を解説。関数作成・VBAマクロ生成・データ整理まで、ChatGPTを使ったExcel効率化の実践テクニックを紹介します。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - AI
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
-- [Excel](/posts/how-to-use-ai-for-excel-automation-2026/)
+- ChatGPT
+- Excel
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true

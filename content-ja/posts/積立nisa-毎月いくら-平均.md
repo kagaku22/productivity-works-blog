@@ -8,10 +8,10 @@ author: Productivity Works編集部
 categories:
 - マネー・個人金融
 tags:
-- [積立NISA](/ja/posts/積立nisa-毎月いくら-平均/)
-- [新NISA](/ja/posts/nisa-osusume-meigara-2026/)
+- 積立NISA
+- 新NISA
 - つみたてNISA
-- [NISA](/ja/posts/nisa-枠-使い切れない-どうする/)
+- NISA
 - 積立投資
 ShowReadingTime: true
 ShowWordCount: true

@@ -10,7 +10,7 @@ categories:
 - AI Productivity
 tags:
 - best
-- [free](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+- free
 - AI
 - Midjourney
 ShowReadingTime: true

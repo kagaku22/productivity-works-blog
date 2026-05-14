@@ -8,7 +8,7 @@ author: Productivity Works Editorial
 categories:
 - AI Productivity
 tags:
-- [Excel](/posts/how-to-use-ai-for-excel-automation-2026/)
+- Excel
 - advanced
 - learn
 ShowReadingTime: true

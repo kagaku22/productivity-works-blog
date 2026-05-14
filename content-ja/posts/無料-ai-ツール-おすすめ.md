@@ -6,7 +6,7 @@ slug: 無料-ai-ツール-おすすめ
 description: 無料で使えるAIツールを目的別に15個厳選して紹介。文章生成・画像作成・音声・動画・仕事効率化まで、本当に使えるツールだけをまとめました。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - 無料
 - AI

@@ -6,10 +6,10 @@ slug: ai-副業-始め方
 description: AIを活用した副業の始め方を徹底解説。ライティング・画像生成・動画編集・Webサイト制作など、AIで参入しやすい副業を具体的な手順とともに紹介します。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - AI
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true

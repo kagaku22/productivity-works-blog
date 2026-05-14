@@ -9,7 +9,7 @@ author: Productivity Works Editorial
 categories:
 - AI Productivity
 tags:
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 - AI
 - save
 ShowReadingTime: true

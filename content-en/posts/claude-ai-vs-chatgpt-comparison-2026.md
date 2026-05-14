@@ -9,9 +9,9 @@ author: Productivity Works Editorial
 categories:
 - AI Productivity
 tags:
-- [Claude](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- Claude
 - best
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 - which
 ShowReadingTime: true
 ShowWordCount: true

@@ -6,9 +6,9 @@ slug: chatgpt-プロンプト-テンプレート
 description: 仕事・副業・学習に使えるChatGPTプロンプトテンプレートを20個紹介。コピペしてすぐ使えるよう、用途別に整理しました。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true

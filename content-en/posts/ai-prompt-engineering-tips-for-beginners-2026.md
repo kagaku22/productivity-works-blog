@@ -13,7 +13,7 @@ tags:
 - AI
 - prompt
 - how
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 - beginner
 ShowReadingTime: true
 ShowWordCount: true

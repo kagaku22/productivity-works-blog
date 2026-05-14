@@ -11,7 +11,7 @@ tags:
 - side
 - AI
 - make
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 - online
 ShowReadingTime: true
 ShowWordCount: true

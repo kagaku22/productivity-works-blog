@@ -6,7 +6,7 @@ slug: ai-画像生成-無料
 description: 2026年現在使える無料AI画像生成ツールを徹底比較。Midjourney・DALL-E・Stable Diffusion・Adobe Fireflyなど、品質・使いやすさ・商用利用可否を比較します。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - AI
 - Midjourney

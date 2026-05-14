@@ -8,7 +8,7 @@ author: Productivity Works Editorial
 categories:
 - Personal Finance
 tags:
-- [Roth](/posts/roth-ira-vs-traditional-ira-which-is-better/)
+- Roth
 - IRA
 - traditional
 ShowReadingTime: true

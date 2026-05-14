@@ -6,10 +6,10 @@ slug: ai-文章作成-コツ
 description: AIを使って質の高い文章を作るための具体的なコツを7つ解説。プロンプトの書き方から編集の方法まで、AI文章作成を使いこなすノウハウを紹介します。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - AI
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true

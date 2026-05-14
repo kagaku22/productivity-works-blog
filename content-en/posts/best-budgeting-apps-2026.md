@@ -10,7 +10,7 @@ categories:
 tags:
 - best
 - budgeting
-- [free](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+- free
 - YNAB
 - personal
 ShowReadingTime: true

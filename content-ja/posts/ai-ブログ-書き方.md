@@ -6,10 +6,10 @@ slug: ai-ブログ-書き方
 description: AIを活用してSEOで評価される高品質なブログ記事を書く方法を解説。キーワード選定からアウトライン作成、執筆・編集まで、AIと人間の役割分担を明確にした実践的な手順を紹介します。
 author: Productivity Works編集部
 categories:
-- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
+- AI活用
 tags:
 - AI
-- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true
