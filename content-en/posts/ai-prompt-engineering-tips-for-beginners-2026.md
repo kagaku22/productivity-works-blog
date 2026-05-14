@@ -1,6 +1,6 @@
 ---
 title: AI Prompt Engineering Tips for Beginners 2026
-date: '2026-05-13'
+date: 2026-05-10
 draft: false
 slug: ai-prompt-engineering-tips-for-beginners-2026
 description: Master AI prompt engineering with beginner-friendly tips for 2026. Learn
@@ -17,6 +17,9 @@ tags:
 - beginner
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 # AI Prompt Engineering Tips for Beginners — Complete Guide [2026]
@@ -242,7 +245,7 @@ Output format:
 
 **Strategy 5: Build domain-specific templates.** Create a "legal email" template, a "technical documentation" template, a "sales pitch" template. Domain-specific templates consistently outperform generic prompts.
 
-[Related: Best ChatGPT Prompts for Productivity 2026]({{internal_link}})
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -285,11 +288,11 @@ Key takeaways:
 - Constraints (what NOT to do) are as important as instructions
 - Build a personal prompt library — it's the highest-ROI investment in your AI workflow
 
-Ready to skip the learning curve? Our **[Complete ChatGPT Prompt Collection]({{product_link_placeholder}})** gives you 100+ professionally engineered prompts, pre-built with all four pillars and tested across real work scenarios. Copy, customize, and use immediately.
+Ready to skip the learning curve? Our **[Complete ChatGPT Prompt Collection](https://payhip.com/productivityworks)** gives you 100+ professionally engineered prompts, pre-built with all four pillars and tested across real work scenarios. Copy, customize, and use immediately.
 
-Want a complete framework for integrating AI into your daily work? The **[AI Productivity Playbook]({{product_link_placeholder}})** includes a full prompt engineering module plus workflow templates for every major knowledge work scenario.
+Want a complete framework for integrating AI into your daily work? The **[AI Productivity Playbook](https://payhip.com/productivityworks)** includes a full prompt engineering module plus workflow templates for every major knowledge work scenario.
 
-[Related: Claude AI vs ChatGPT Comparison 2026]({{internal_link}})
+[Related: Claude AI vs ChatGPT Comparison 2026](/en/posts/claude-ai-vs-chatgpt-comparison-2026/)
 
 ---
 

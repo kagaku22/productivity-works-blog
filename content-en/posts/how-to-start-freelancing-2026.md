@@ -1,6 +1,6 @@
 ---
 title: 'How to Start Freelancing in 2026: Complete Beginner''s Guide'
-date: '2026-05-13'
+date: 2026-03-03
 draft: false
 slug: how-to-start-freelancing-2026
 description: A practical, no-fluff guide to starting a freelance career in 2026 —
@@ -15,6 +15,9 @@ tags:
 - freelance
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Freelancing is one of the few career paths where you can go from zero income to $3,000/month in 90 days without a degree, certification, or years of experience. It's also a path where most beginners waste their first six months on the wrong activities.

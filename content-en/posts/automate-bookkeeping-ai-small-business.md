@@ -1,6 +1,6 @@
 ---
 title: "How to Automate Bookkeeping with AI for Small Business (2026 Guide)"
-date: 2026-05-14
+date: 2026-04-25
 draft: false
 author: "Productivity Works Editorial"
 description: "A practical step-by-step guide to automating your small business bookkeeping using AI tools in 2026 — covering receipt capture, expense categorization, bank reconciliation, reporting, and tax preparation."
@@ -19,6 +19,9 @@ tags:
   - small business finance
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 If you are running a small business and still spending Sunday evenings manually entering receipts, reconciling bank statements, and trying to remember whether that restaurant meal was a client dinner or a personal expense — this guide is for you. Bookkeeping automation using AI has reached a point in 2026 where a solo operator or small team can genuinely compress what used to be 8-10 hours of monthly bookkeeping into 1-2 hours of review and oversight.

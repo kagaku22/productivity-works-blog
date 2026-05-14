@@ -1,6 +1,6 @@
 ---
 title: "AIで英語ビジネスメールを無料で書く方法【例文・プロンプト集2026】"
-date: 2026-05-14
+date: 2026-05-08
 draft: false
 author: "Productivity Works編集部"
 description: "ChatGPT・Gemini・Claudeなど無料AIツールを使って英語ビジネスメールを書く具体的な方法を解説。シーン別の例文テンプレートとプロンプト集で、英語メールのストレスをゼロにします。"
@@ -8,6 +8,9 @@ categories: ["AI活用", "英語ビジネス"]
 tags: ["AI", "英語メール", "ビジネス英語", "例文", "無料", "ChatGPT", "Gemini", "Claude", "ビジネス英語テンプレート"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 > **アフィリエイト開示**: 本記事には一部アフィリエイトリンクが含まれます。リンク経由でご購入いただいた場合、当サイトに手数料が発生することがありますが、読者の方への費用は一切変わりません。紹介する製品・サービスはすべて編集部が実際に検証したものに限っています。

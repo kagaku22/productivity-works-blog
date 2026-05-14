@@ -1,6 +1,6 @@
 ---
 title: AIで高品質な文章を作成するコツ7つ【プロが使うテクニック】
-date: '2026-05-13'
+date: 2026-04-24
 draft: false
 slug: ai-文章作成-コツ
 description: AIを使って質の高い文章を作るための具体的なコツを7つ解説。プロンプトの書き方から編集の方法まで、AI文章作成を使いこなすノウハウを紹介します。
@@ -12,6 +12,9 @@ tags:
 - ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

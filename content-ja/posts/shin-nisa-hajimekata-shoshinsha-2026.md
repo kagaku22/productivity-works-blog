@@ -1,6 +1,6 @@
 ---
 title: "新NISA始め方2026年版【初心者向け完全ガイド】口座開設から投資スタートまで"
-date: 2026-05-14
+date: 2026-03-04
 slug: "shin-nisa-hajimekata-shoshinsha-2026"
 description: "新NISAの始め方を2026年版で初心者向けに完全解説。おすすめ証券口座・つみたて投資枠・成長投資枠の使い方・銘柄選びまでステップで解説します。"
 categories: ["投資・資産運用"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

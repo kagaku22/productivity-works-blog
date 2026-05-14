@@ -1,12 +1,19 @@
 ---
 title: "医療事務 ChatGPTで患者案内文書を5分で作成する方法"
-date: 2026-05-14
+date: 2026-03-20
 slug: "iryo-jimu-chatgpt-kanja-annai-sakusei"
 description: "医療事務スタッフがChatGPTを使って検査説明・術前案内・投薬説明・問診票などの患者向け文書を5分で作成する具体的な方法とプロンプト集を紹介します。"
 categories: ["医療事務", "ChatGPT活用"]
 tags: ["医療事務", "ChatGPT", "患者案内", "文書作成", "業務効率化"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 医療事務の文書作成業務、どれだけ時間を取られていますか？

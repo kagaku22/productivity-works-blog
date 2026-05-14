@@ -1,6 +1,6 @@
 ---
 title: AIを使った副業の始め方完全ガイド【2026年版・月3万〜10万円を目指す】
-date: '2026-05-13'
+date: 2026-04-28
 draft: false
 slug: ai-副業-始め方
 description: AIを活用した副業の始め方を徹底解説。ライティング・画像生成・動画編集・Webサイト制作など、AIで参入しやすい副業を具体的な手順とともに紹介します。
@@ -12,6 +12,9 @@ tags:
 - ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

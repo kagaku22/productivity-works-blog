@@ -1,6 +1,6 @@
 ---
 title: "AI要約ツール おすすめ無料10選【2026年版】用途別に徹底比較"
-date: 2026-05-14
+date: 2026-05-01
 draft: false
 slug: "ai-youyaku-tool-osusume"
 description: "2026年最新のAI要約ツールを無料・有料・用途別に徹底比較。YouTube・PDF・Web記事・会議録など目的ごとのおすすめツールと使い方を解説します。"
@@ -9,6 +9,9 @@ categories: ["AI・テクノロジー", "生産性・ツール"]
 tags: ["AI要約", "要約ツール", "無料AI", "生産性向上", "ChatGPT", "AI活用"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

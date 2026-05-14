@@ -1,6 +1,6 @@
 ---
 title: "Freelance Tax Guide 2026: Everything You Need to Know"
-date: 2026-05-14
+date: 2026-03-13
 draft: false
 slug: "freelance-tax-guide-2026"
 description: "The complete freelance tax guide for 2026. Covers self-employment tax, quarterly estimated payments, deductible expenses, retirement accounts, home office deduction, and how to avoid the most expensive mistakes."
@@ -9,6 +9,9 @@ categories: ["Finance", "Freelancing"]
 tags: ["Freelance Tax", "Self-Employment", "Tax Deductions", "Quarterly Taxes", "Freelancing", "Finance", "2026"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Freelancing offers freedom, flexibility, and the ability to work on your own terms. It also comes with a tax situation that catches most new freelancers completely off guard — often to the tune of thousands of dollars.
@@ -16,6 +19,9 @@ Freelancing offers freedom, flexibility, and the ability to work on your own ter
 This guide covers the tax fundamentals every freelancer in the United States needs to understand in 2026: how self-employment tax works, when and how to pay estimated taxes, which expenses are deductible, and how to structure your finances to keep more of what you earn.
 
 > **Disclaimer:** This guide is for general educational purposes and does not constitute tax or legal advice. Tax laws change annually. Consult a qualified CPA or tax professional for advice specific to your situation.
+
+
+---
 
 ## The Biggest Shock: Self-Employment Tax
 
@@ -26,6 +32,9 @@ When you freelance, you're both the employee and the employer. You pay both halv
 **What this means in practice:** A freelancer earning $80,000 net will owe roughly $11,304 in self-employment tax alone, before regular income tax.
 
 The silver lining: you can deduct 50% of your self-employment tax from your gross income. This doesn't eliminate the tax, but it reduces your adjusted gross income (AGI) and thus your regular income tax.
+
+
+---
 
 ## The Tax Rates You'll Actually Pay
 
@@ -49,6 +58,9 @@ In 2026, your federal tax bill as a freelancer comes from two sources:
 Most freelancers earning $50,000-$150,000 net will pay a combined effective federal rate (SE tax + income tax) of roughly **25-35%**. Add your state income tax and the total can exceed 40% in high-tax states like California and New York.
 
 **Rule of thumb:** Set aside 25-30% of every payment you receive for taxes. Put it in a separate savings account immediately. Don't touch it until tax time.
+
+
+---
 
 ## Quarterly Estimated Tax Payments
 
@@ -83,6 +95,9 @@ Used when income is uneven across quarters. More complex — use tax software or
 Pay online at **IRS Direct Pay** (free) or via the **IRS2Go mobile app**. You can also mail Form 1040-ES with a check. Direct Pay is the fastest and most reliable method.
 
 Always keep your payment confirmation number.
+
+
+---
 
 ## Deductible Business Expenses
 
@@ -178,6 +193,9 @@ Freelancers have access to retirement accounts that provide **both** tax-advanta
 
 A freelancer maxing a SEP-IRA at $30,000 reduces their taxable income by $30,000. At a 24% income tax rate + SE tax deduction, that's roughly $8,000-10,000 in tax savings.
 
+
+---
+
 ## Business Structure: Sole Proprietor vs. LLC vs. S-Corp
 
 Most freelancers start as **sole proprietors** — you're automatically one if you freelance without forming a business entity. All income is reported on Schedule C, subject to full SE tax.
@@ -198,6 +216,9 @@ The most significant tax strategy for higher-earning freelancers. Here's how it 
 **The costs:** Payroll administration ($50-150/month), more complex accounting, potentially a CPA. Typically worthwhile when net self-employment income exceeds $50,000-60,000/year.
 
 Consult a CPA before making this election — the math depends on your specific income, state, and business structure.
+
+
+---
 
 ## Record-Keeping: What to Track and How
 
@@ -231,6 +252,9 @@ Connect your business bank account and credit card. These tools categorize trans
 
 Keep records for **at least 3 years** from the filing date (the IRS has 3 years to audit standard returns). Keep records 6 years if you underreported income by more than 25%.
 
+
+---
+
 ## Tax Forms Freelancers Need to Know
 
 | Form | What It Is |
@@ -243,6 +267,9 @@ Keep records for **at least 3 years** from the filing date (the IRS has 3 years 
 | Form 8829 | Home office deduction (regular method) |
 
 You'll receive 1099-NEC forms from clients by January 31 of the following year. Note: you must report ALL income — even from clients who paid you less than $600 and didn't send a 1099. The IRS compares your reported income to what your clients report paying you.
+
+
+---
 
 ## Your 2026 Freelance Tax Calendar
 
@@ -258,6 +285,9 @@ You'll receive 1099-NEC forms from clients by January 31 of the following year. 
 | November | Year-end tax planning: retirement contributions, defer/accelerate income |
 | December | Max out retirement accounts; make final estimated payment calculations |
 | January 15 | Q4 estimated taxes due |
+
+
+---
 
 ## 5 Costly Mistakes to Avoid
 

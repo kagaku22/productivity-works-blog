@@ -1,12 +1,16 @@
 ---
 title: "How to Track Food Costs with AI: A Small Restaurant Owner's Guide (2026)"
-date: 2026-05-14
+date: 2026-05-09
 slug: "ai-restaurant-food-cost-tracking-2026"
 description: "A practical guide for small restaurant owners on using AI and ChatGPT to track food costs, calculate waste, manage inventory, and price menu items for profitability."
 categories: ["Restaurant", "AI Productivity", "Finance"]
 tags: ["food cost", "restaurant management", "ai", "chatgpt", "inventory", "menu pricing"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 Food cost is where most restaurant profits go to die. The national average food cost percentage for a healthy restaurant sits between 28-35% of revenue. But it's shockingly easy to creep to 40%, 45%, or higher — and most operators only find out when they look at their quarterly P&L and wonder where all the money went.

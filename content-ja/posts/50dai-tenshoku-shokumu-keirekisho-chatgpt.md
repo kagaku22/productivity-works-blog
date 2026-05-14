@@ -1,12 +1,19 @@
 ---
 title: "50代転職 ChatGPTで職務経歴書を劇的に改善する5つのプロンプト"
-date: 2026-05-14
+date: 2026-05-11
 slug: "50dai-tenshoku-shokumu-keirekisho-chatgpt"
 description: "50代転職で通る職務経歴書を書くためのChatGPT活用法を解説。経験の棚卸しから強みの言語化、年齢をアドバンテージにする書き方まで5つのプロンプトで完全解説。"
 categories: ["転職", "ChatGPT活用"]
 tags: ["50代転職", "職務経歴書", "ChatGPT", "転職活動", "キャリア"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 50代の転職で「職務経歴書」が壁になっていませんか？

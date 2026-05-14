@@ -1,6 +1,6 @@
 ---
 title: "投資信託 おすすめ 初心者向け厳選ファンド完全比較【2026年最新版】"
-date: 2026-05-13
+date: 2026-02-28
 draft: false
 slug: "toushishintaku-osusume-2026"
 description: "2026年版・初心者におすすめの投資信託を徹底比較。低コストのインデックスファンドからバランスファンドまで、選び方のポイントと注意点を比較表付きでわかりやすく解説します。"
@@ -14,6 +14,9 @@ tags:
   - "2026"
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -87,7 +90,7 @@ ShowWordCount: true
 
 「投資先を日本にするか米国にするか世界にするか迷っている」なら、オルカン1本で解決します。先進国23カ国・新興国24カ国を含む約3,000銘柄に分散投資でき、信託報酬は業界最低水準クラスです。
 
-[公式サイトで詳細を確認する]({{affiliate_link_placeholder}})
+[公式サイトで詳細を確認する](https://payhip.com/productivityworks)
 
 ### バランスファンド部門
 
@@ -99,7 +102,7 @@ ShowWordCount: true
 | 世界経済インデックスファンド | 0.55% | 株60%・債券40% | 1,000億円超 | GDPウェイトで配分調整 |
 | 三菱UFJ バランス・インデックスファンド | 0.154% | 株式・債券等 | 500億円超 | 低コストバランスファンド |
 
-[公式サイトで詳細を確認する]({{affiliate_link_placeholder}})
+[公式サイトで詳細を確認する](https://payhip.com/productivityworks)
 
 ---
 
@@ -138,7 +141,7 @@ ShowWordCount: true
 **失敗4: 信託財産留保額（売却コスト）を無視する**
 ファンドによっては売却時に0.1〜0.3%の信託財産留保額がかかるものがあります。頻繁に売買する場合はこのコストも考慮しましょう。
 
-[関連記事: 新NISAおすすめ銘柄 初心者向けガイド]({{internal_link}})
+[関連記事: 新NISAおすすめ銘柄 初心者向けガイド](/ja/posts/nisa-osusume-meigara-2026/)
 
 ---
 
@@ -171,9 +174,9 @@ ShowWordCount: true
 
 2026年に初心者が選ぶべき投資信託は「eMAXIS Slim 全世界株式（オール・カントリー）」か「eMAXIS Slim 米国株式（S&P500）」の一択に絞って問題ありません。コストが低く、長期実績が安定しており、新NISAのつみたて投資枠にも対応しています。まずは月3,000円〜1万円で積立を開始し、家計に余裕が出たら増額していきましょう。
 
-[今すぐ積立投資を始める]({{affiliate_link_placeholder}})
+[今すぐ積立投資を始める](https://payhip.com/productivityworks)
 
-[関連記事: SBI証券と楽天証券を徹底比較]({{internal_link}})
+[関連記事: SBI証券と楽天証券を徹底比較](/ja/posts/sbi-rakuten-hikaku-2026/)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Best Remote Work Tools in 2026: The Complete Stack'
-date: '2026-05-13'
+date: 2026-04-04
 draft: false
 slug: best-remote-work-tools-2026
 description: A curated guide to the remote work tools that actually make distributed
@@ -16,6 +16,9 @@ tags:
 - distributed
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Remote work has matured. The chaotic first wave of distributed work — everyone on Zoom all day, Slack notifications firing constantly, nobody sure where to find anything — has given way to more deliberate practices and better tooling.

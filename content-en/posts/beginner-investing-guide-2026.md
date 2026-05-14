@@ -1,6 +1,6 @@
 ---
 title: "Beginner Investing Guide 2026: How to Start Building Wealth Today"
-date: 2026-05-14
+date: 2026-04-24
 slug: "beginner-investing-guide-2026"
 description: "Beginner investing guide 2026: how to start investing with any budget, which accounts to open, what to buy, and how to avoid costly mistakes."
 categories: ["Personal Finance"]
@@ -9,6 +9,12 @@ author: "Productivity Works Editorial"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## Beginner Investing Guide 2026: Everything You Need to Start

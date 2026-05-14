@@ -1,6 +1,6 @@
 ---
 title: "副業の確定申告やり方2026年版【freee・マネーフォワード対応】初心者完全ガイド"
-date: 2026-05-14
+date: 2026-03-30
 slug: "fukugyou-kakuteishinkoku-yarikata-2026"
 description: "副業の確定申告のやり方を2026年版で解説。20万円以下の扱い、freee・マネーフォワードの使い方、経費の書き方まで初心者向けに完全ガイドします。"
 categories: ["副業・フリーランス"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

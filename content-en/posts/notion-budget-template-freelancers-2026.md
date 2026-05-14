@@ -1,6 +1,6 @@
 ---
 title: "Notion Budget Template for Freelancers 2026: Track Income, Expenses, and Taxes in One Place"
-date: 2026-05-14
+date: 2026-02-18
 draft: false
 author: "Productivity Works Editorial"
 description: "The definitive guide to building or using a Notion budget template as a freelancer in 2026 — covering income tracking, expense categorization, quarterly tax estimates, and client invoicing."
@@ -19,6 +19,9 @@ tags:
   - self-employed finance
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Freelancing gives you freedom. It also gives you a financial situation that is genuinely complicated — irregular income, self-employment taxes, deductible business expenses, client invoices in various states of payment, and the quarterly tax deadline that always arrives faster than expected. Most personal budgeting apps are built for salaried employees with predictable paychecks. They fall apart the moment you have three clients paying on different schedules, a slow January, and a $4,200 Adobe software bill that is actually a tax deduction.

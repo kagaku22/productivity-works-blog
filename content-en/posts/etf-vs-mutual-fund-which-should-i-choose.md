@@ -1,6 +1,6 @@
 ---
 title: 'ETF vs Mutual Fund: Which Should I Choose?'
-date: '2026-05-13'
+date: 2026-03-18
 draft: false
 slug: etf-vs-mutual-fund-which-should-i-choose
 description: ETF vs mutual fund — what's the difference and which is better for you?
@@ -15,6 +15,9 @@ tags:
 - best
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -86,7 +89,7 @@ Key characteristics:
 - Cannot trade intraday
 - Actively managed mutual funds often have high expense ratios and underperform benchmarks
 
-[Related: Best Index Funds for Beginners 2026]({{internal_link}})
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -262,11 +265,11 @@ Start simple. Stay consistent. Keep costs low.
 
 **Open your investment account today:**
 
-- [Start investing with Fidelity — $0 minimum, ZERO fee index funds]({{affiliate_link_placeholder}})
-- [Compare ETF options at Charles Schwab]({{affiliate_link_placeholder}})
-- [Invest automatically with M1 Finance]({{affiliate_link_placeholder}})
+- [Start investing with Fidelity — $0 minimum, ZERO fee index funds](https://payhip.com/productivityworks)
+- [Compare ETF options at Charles Schwab](https://payhip.com/productivityworks)
+- [Invest automatically with M1 Finance](https://payhip.com/productivityworks)
 
-[Related: Best Index Funds for Beginners 2026]({{internal_link}})
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 

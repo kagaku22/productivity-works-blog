@@ -1,6 +1,6 @@
 ---
 title: "How to Use ChatGPT for Studying: The Complete Student Guide 2026"
-date: 2026-05-14
+date: 2026-02-23
 slug: "how-to-use-chatgpt-for-studying-guide-2026"
 description: "How to use ChatGPT for studying in 2026: proven techniques for learning faster, understanding complex topics, and acing exams with AI assistance."
 categories: ["AI Productivity"]
@@ -9,6 +9,12 @@ author: "Productivity Works Editorial"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## How to Use ChatGPT for Studying: Everything Students Need to Know

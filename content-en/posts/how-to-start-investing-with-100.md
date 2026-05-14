@@ -1,6 +1,6 @@
 ---
 title: How to Start Investing with $100 in 2026
-date: '2026-05-13'
+date: 2026-02-28
 draft: false
 slug: how-to-start-investing-with-100
 description: Learn how to start investing with $100 in 2026. From index funds to micro-investing
@@ -16,6 +16,9 @@ tags:
 - start
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -89,7 +92,7 @@ The key insight: the amount matters less than the habit. Investors who start wit
 
 *Expected returns are historical averages and are NOT guaranteed. All investments carry risk.*
 
-[Open a $0-minimum investment account today]({{affiliate_link_placeholder}})
+[Open a $0-minimum investment account today](https://payhip.com/productivityworks)
 
 ---
 
@@ -132,7 +135,7 @@ If you have $100 invested and the market drops 2%, you've "lost" $2. That's a co
 **Mistake 5: Not reinvesting dividends**
 Make sure your brokerage account is set to automatically reinvest dividends (DRIP — Dividend Reinvestment Plan). Over decades, dividend reinvestment accounts for roughly 40% of total stock market returns.
 
-[Related: Best Index Funds for Beginners 2026]({{internal_link}})
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -144,7 +147,7 @@ Before investing, make sure you have at least one month of expenses in a high-yi
 **Step 2: Open a Roth IRA or brokerage account**
 For most people under 40 with earned income, a Roth IRA is the best first investment account. Recommended providers:
 
-- **Fidelity** ([Check current offers]({{affiliate_link_placeholder}})) — Best overall: $0 minimum, commission-free, fractional shares, ZERO expense ratio index funds
+- **Fidelity** ([Check current offers](https://payhip.com/productivityworks)) — Best overall: $0 minimum, commission-free, fractional shares, ZERO expense ratio index funds
 - **Charles Schwab** — Excellent for long-term investors and customer service
 - **Betterment** — Best if you want it done for you automatically
 - **M1 Finance** — Best for building a custom "pie" portfolio with automation
@@ -226,11 +229,11 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 
 **Take action now:**
 
-- [Open a Fidelity account — $0 minimum, ZERO fee index funds]({{affiliate_link_placeholder}})
-- [Start with Betterment's automated portfolio — $0 minimum]({{affiliate_link_placeholder}})
-- [Try Acorns — invest your spare change automatically]({{affiliate_link_placeholder}})
+- [Open a Fidelity account — $0 minimum, ZERO fee index funds](https://payhip.com/productivityworks)
+- [Start with Betterment's automated portfolio — $0 minimum](https://payhip.com/productivityworks)
+- [Try Acorns — invest your spare change automatically](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast]({{internal_link}})
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 

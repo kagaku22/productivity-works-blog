@@ -1,6 +1,6 @@
 ---
 title: AIでExcel作業を自動化する方法【マクロ不要で誰でもできる】
-date: '2026-05-13'
+date: 2026-05-06
 draft: false
 slug: ai-excel-自動化
 description: AIを使ってExcelの面倒な作業を自動化する具体的な方法を解説。関数作成・VBAマクロ生成・データ整理まで、ChatGPTを使ったExcel効率化の実践テクニックを紹介します。
@@ -13,6 +13,9 @@ tags:
 - Excel
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

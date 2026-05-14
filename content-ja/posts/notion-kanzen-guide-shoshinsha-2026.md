@@ -1,6 +1,6 @@
 ---
 title: "Notion使い方完全ガイド初心者2026年版【セットアップ・データベース・テンプレート】"
-date: 2026-05-14
+date: 2026-03-10
 slug: "notion-kanzen-guide-shoshinsha-2026"
 description: "Notion初心者向けの使い方完全ガイド2026年版。アカウント作成からページ・データベース・テンプレートの活用まで、スクリーンショット不要でわかりやすく解説。"
 categories: ["ツール・テンプレート"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

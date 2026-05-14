@@ -1,12 +1,16 @@
 ---
 title: "ChatGPT for Etsy Sellers: Product Descriptions, SEO Tags & Marketing (2026)"
-date: 2026-05-14
+date: 2026-04-02
 slug: "chatgpt-etsy-seller-complete-guide-2026"
 description: "The complete guide to using ChatGPT for your Etsy shop. Includes 20+ prompts for product titles, descriptions, SEO tags, social media marketing, and customer communication."
 categories: ["Etsy", "E-Commerce", "AI Productivity"]
 tags: ["chatgpt etsy", "etsy SEO", "etsy product descriptions", "etsy seller tips", "AI for etsy"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 Running an Etsy shop in 2026 means competing with millions of listings. The sellers breaking through aren't necessarily the most talented makers — they're the ones who've mastered their shop's visibility and customer experience. ChatGPT has quietly become one of the most powerful tools in a top Etsy seller's toolkit.

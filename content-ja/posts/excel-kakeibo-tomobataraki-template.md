@@ -1,6 +1,6 @@
 ---
 title: "共働き夫婦のExcel家計簿のつけ方【無料テンプレート付き・2026年版】"
-date: 2026-05-14
+date: 2026-04-08
 draft: false
 author: "Productivity Works編集部"
 description: "共働き夫婦向けに、Excelで家計簿をつける具体的な方法を解説。収入合算・費用按分・貯蓄目標の管理まで、2人の収入がある家庭専用のテンプレート構成とつけ方のコツを詳しく紹介します。"
@@ -8,6 +8,9 @@ categories: ["家計管理", "Excel活用"]
 tags: ["Excel", "家計簿", "共働き", "テンプレート", "家計管理", "貯蓄", "夫婦の家計", "無料"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 > **アフィリエイト開示**: 本記事には一部アフィリエイトリンクが含まれます。リンク経由でご購入いただいた場合、当サイトに手数料が発生することがありますが、読者の方への費用は一切変わりません。紹介する製品・サービスはすべて編集部が実際に検証したものに限っています。

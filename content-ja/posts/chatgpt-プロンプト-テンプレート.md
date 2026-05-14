@@ -1,6 +1,6 @@
 ---
 title: すぐ使えるChatGPTプロンプトテンプレート20選【コピペOK】
-date: '2026-05-13'
+date: 2026-04-11
 draft: false
 slug: chatgpt-プロンプト-テンプレート
 description: 仕事・副業・学習に使えるChatGPTプロンプトテンプレートを20個紹介。コピペしてすぐ使えるよう、用途別に整理しました。
@@ -11,6 +11,9 @@ tags:
 - ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

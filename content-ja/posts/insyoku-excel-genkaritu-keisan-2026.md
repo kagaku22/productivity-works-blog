@@ -1,12 +1,19 @@
 ---
 title: "飲食店の原価率計算をExcelで簡単管理する方法2026"
-date: 2026-05-14
+date: 2026-03-25
 slug: "insyoku-excel-genkaritu-keisan-2026"
 description: "飲食店オーナー・店長向けに、Excelで原価率を正確に管理する方法を解説。計算式・メニュー別管理・食材ロス率・具体的な関数まで完全網羅。"
 categories: ["飲食店経営", "Excel活用"]
 tags: ["原価率", "飲食店", "Excel", "コスト管理", "飲食店経営"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 「原価率が合わない」と感じたら、まず数字を可視化しよう

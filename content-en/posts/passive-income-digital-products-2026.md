@@ -1,6 +1,6 @@
 ---
 title: 7 Passive Income Ideas Using Digital Products
-date: '2026-05-13'
+date: 2026-02-14
 draft: false
 slug: passive-income-digital-products-2026
 description: Digital products are the most accessible form of passive income available
@@ -16,6 +16,9 @@ tags:
 - make
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Passive income is a term that gets abused. Most "passive income" either requires substantial upfront work, ongoing maintenance, or both. Digital products are the closest thing to genuinely passive income that exists — and they're more accessible than ever in 2026.

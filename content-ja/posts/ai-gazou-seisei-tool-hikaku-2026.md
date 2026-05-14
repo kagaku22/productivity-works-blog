@@ -1,6 +1,6 @@
 ---
 title: "AI画像生成おすすめツール比較2026年版【無料・有料・日本語対応】"
-date: 2026-05-14
+date: 2026-05-04
 slug: "ai-gazou-seisei-tool-hikaku-2026"
 description: "2026年最新のAI画像生成ツールを徹底比較。Midjourney・Stable Diffusion・DALL-E 3・Adobe Fireflyなど人気ツールの特徴・価格・使いやすさをまとめました。"
 categories: ["AI活用"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

@@ -1,12 +1,19 @@
 ---
 title: "50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ"
-date: 2026-05-14
+date: 2026-05-13
 slug: "50dai-tenshoku-ai-junbi-2026"
 description: "50代の転職活動にAIを活用する完全ガイド。AI時代の50代転職市場分析、ChatGPTで職務経歴書作成・面接準備・スキルアップ戦略まで、未経験からの完全ロードマップ。"
 categories: ["転職・キャリア"]
 tags: ["50代転職", "AI転職活動", "ChatGPT", "職務経歴書", "面接対策", "キャリア"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 50代の転職は「詰み」ではない——AIが変えた転職市場の新常識

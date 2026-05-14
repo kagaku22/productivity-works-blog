@@ -1,6 +1,6 @@
 ---
 title: Best Index Funds for Beginners 2026
-date: '2026-05-13'
+date: 2026-04-09
 draft: false
 slug: best-index-funds-for-beginners-2026
 description: Discover the best index funds for beginners in 2026. Compare top options,
@@ -16,6 +16,9 @@ tags:
 - Vanguard
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -71,7 +74,7 @@ For example, if you invest $10,000 in an index fund with a 0.03% expense ratio, 
 - Some indexes are more concentrated than they appear (top 10 S&P 500 stocks = ~35% of the index)
 - Limited control over what you're invested in (may include companies you'd prefer to avoid)
 
-[Related: Roth IRA vs Traditional IRA: Which Is Better?]({{internal_link}})
+[Related: Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
 
 ---
 
@@ -94,7 +97,7 @@ The following table compares the most popular index funds available to U.S. inve
 
 *Historical returns are approximate and not a guarantee of future performance.*
 
-[Check Current Fund Details]({{affiliate_link_placeholder}})
+[Check Current Fund Details](https://payhip.com/productivityworks)
 
 ---
 
@@ -136,7 +139,7 @@ Studies consistently show that "time in the market" beats "timing the market." E
 **Mistake 5: Owning too many funds**
 You don't need 15 different index funds. A simple three-fund portfolio (US stocks + international stocks + bonds) covers virtually everything.
 
-[Related: How to Start Investing with $100]({{internal_link}})
+[Related: How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
 
 ---
 
@@ -210,11 +213,11 @@ Your future self will thank you.
 
 **Ready to start?**
 
-- [Open a Fidelity account with $0 minimum]({{affiliate_link_placeholder}})
-- [Compare index fund options at Charles Schwab]({{affiliate_link_placeholder}})
-- [Start a Roth IRA at Vanguard]({{affiliate_link_placeholder}})
+- [Open a Fidelity account with $0 minimum](https://payhip.com/productivityworks)
+- [Compare index fund options at Charles Schwab](https://payhip.com/productivityworks)
+- [Start a Roth IRA at Vanguard](https://payhip.com/productivityworks)
 
-[Related: ETF vs Mutual Fund — Which Should I Choose?]({{internal_link}})
+[Related: ETF vs Mutual Fund — Which Should I Choose?](/en/posts/etf-vs-mutual-fund-which-should-i-choose/)
 
 ---
 

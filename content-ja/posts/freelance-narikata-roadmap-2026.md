@@ -1,6 +1,6 @@
 ---
 title: "フリーランスなり方ロードマップ2026年版【副業から独立まで完全ガイド】"
-date: 2026-05-14
+date: 2026-04-03
 slug: "freelance-narikata-roadmap-2026"
 description: "フリーランスになるためのロードマップを2026年版で解説。副業スタートから独立まで、開業届・案件獲得・クラウドワークス・ランサーズの活用方法を網羅。"
 categories: ["副業・フリーランス"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

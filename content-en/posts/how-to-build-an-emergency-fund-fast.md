@@ -1,6 +1,6 @@
 ---
 title: How to Build an Emergency Fund Fast (2026)
-date: '2026-05-13'
+date: 2026-03-08
 draft: false
 slug: how-to-build-an-emergency-fund-fast
 description: Learn how to build an emergency fund fast in 2026. Discover how much
@@ -15,6 +15,9 @@ tags:
 - build
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -104,7 +107,7 @@ Example: If your essential monthly expenses total $3,500, a 3-month emergency fu
 
 Note: Use essential expenses, not your full monthly spending. You don't need to fund dining out and Netflix subscriptions during a financial emergency.
 
-[Related: Best High-Yield Savings Accounts 2026]({{internal_link}})
+[Related: Best High-Yield Savings Accounts 2026](/en/posts/best-high-yield-savings-accounts-2026/)
 
 ---
 
@@ -122,7 +125,7 @@ Note: Use essential expenses, not your full monthly spending. You don't need to 
 
 **Our recommendation**: A high-yield savings account (HYSA) is the best home for most emergency funds. You earn 4–5% APY with zero risk, full FDIC insurance, and access to your money within 1–3 days. The small delay in access is actually a feature — it adds a small friction against impulsive withdrawals.
 
-[Find the best HYSA rates today]({{affiliate_link_placeholder}})
+[Find the best HYSA rates today](https://payhip.com/productivityworks)
 
 ---
 
@@ -246,11 +249,11 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 
 **Take action now:**
 
-- [Open a SoFi High-Yield Savings account — $0 minimum, top rates]({{affiliate_link_placeholder}})
-- [Start with Marcus by Goldman Sachs — simple, no fees]({{affiliate_link_placeholder}})
-- [Try Ally Bank — consistently excellent HYSA with great app]({{affiliate_link_placeholder}})
+- [Open a SoFi High-Yield Savings account — $0 minimum, top rates](https://payhip.com/productivityworks)
+- [Start with Marcus by Goldman Sachs — simple, no fees](https://payhip.com/productivityworks)
+- [Try Ally Bank — consistently excellent HYSA with great app](https://payhip.com/productivityworks)
 
-[Related: Best Budgeting Apps 2026 — Find Money to Save Faster]({{internal_link}})
+[Related: Best Budgeting Apps 2026 — Find Money to Save Faster](/en/posts/best-budgeting-apps-2026/)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: AI活用の英語学習法おすすめ5選【2026年版・独学で話せるようになる方法】
-date: '2026-05-13'
+date: 2026-04-21
 draft: false
 slug: ai-英語学習-おすすめ
 description: AIを使った英語学習法を5つ紹介。ChatGPTを英会話相手にする方法、発音改善、語彙学習まで、独学でも効率よく英語力を伸ばすAI活用法を解説します。
@@ -12,6 +12,9 @@ tags:
 - ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

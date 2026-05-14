@@ -1,6 +1,6 @@
 ---
 title: 無料で使えるAIツールおすすめ15選【2026年版・目的別に厳選】
-date: '2026-05-13'
+date: 2026-02-05
 draft: false
 slug: 無料-ai-ツール-おすすめ
 description: 無料で使えるAIツールを目的別に15個厳選して紹介。文章生成・画像作成・音声・動画・仕事効率化まで、本当に使えるツールだけをまとめました。
@@ -12,6 +12,9 @@ tags:
 - AI
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

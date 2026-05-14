@@ -1,12 +1,16 @@
 ---
 title: "How to Build a Notion Book Tracker: Complete Template Guide (2026)"
-date: 2026-05-14
+date: 2026-02-19
 slug: "notion-book-tracker-template-guide-2026"
 description: "Build the ultimate Notion book tracker from scratch. Includes reading stats, TBR management, review templates, and setup for BookTok and Bookstagram communities."
 categories: ["Notion", "Reading", "Productivity"]
 tags: ["notion book tracker", "reading tracker", "notion template", "BookTok", "bookstagram", "reading log"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 If you've ever finished a book and couldn't remember a single thing about it three months later, or if your "to-be-read" pile has become an unmanageable source of guilt rather than joy, a well-designed Notion book tracker can change your reading life.
@@ -232,6 +236,9 @@ Copy this template into your Notion book page template:
 ---
 
 **Book Review Template**
+
+
+---
 
 ## First Impressions
 *Write your initial thoughts after reading the first 50 pages. What's grabbing you? What concerns do you have?*

@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT無料版と有料版の違い2026年完全比較【どっちを選ぶべき？】"
-date: 2026-05-14
+date: 2026-04-14
 slug: "chatgpt-muryou-yuryou-chigai-2026"
 description: "ChatGPT無料版（Free）と有料版（Plus/Pro）の違いを2026年最新情報で徹底比較。機能・価格・使えるモデルの差を表でわかりやすく解説します。"
 categories: ["AI活用"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

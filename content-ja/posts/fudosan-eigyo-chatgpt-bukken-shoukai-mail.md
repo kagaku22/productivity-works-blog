@@ -1,12 +1,19 @@
 ---
 title: "不動産営業 ChatGPTで物件紹介メールを3分で作成する方法"
-date: 2026-05-14
+date: 2026-04-01
 slug: "fudosan-eigyo-chatgpt-bukken-shoukai-mail"
 description: "不動産営業マンがChatGPTを使って物件紹介メール・反響返信・内見後フォローを3分で作成する具体的な手順と実例5つを紹介します。"
 categories: ["不動産", "ChatGPT活用"]
 tags: ["不動産営業", "ChatGPT", "物件紹介メール", "営業メール", "業務効率化"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 不動産営業のメール作成に毎日どれだけ時間を使っていますか？

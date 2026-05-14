@@ -1,6 +1,6 @@
 ---
 title: "Excel関数よく使うもの一覧【2026年版・コピペ即使える】仕事で役立つ厳選50選"
-date: 2026-05-14
+date: 2026-04-06
 slug: "excel-kansu-yoku-tsukau-ichiran"
 description: "仕事でよく使うExcel関数を50個厳選して一覧化。VLOOKUP・IF・SUMIF・COUNTIFなど基本から応用まで、使い方と例をセットで解説します。"
 categories: ["ツール・テンプレート"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

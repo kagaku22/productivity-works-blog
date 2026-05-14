@@ -1,6 +1,6 @@
 ---
 title: "How to Start Freelancing With No Experience in 2026: Step-by-Step Guide"
-date: 2026-05-14
+date: 2026-03-01
 slug: "how-to-start-freelancing-with-no-experience-2026"
 description: "How to start freelancing with no experience in 2026: pick a niche, build a portfolio, land your first client, and scale to full-time income."
 categories: ["Side Hustle"]
@@ -9,6 +9,12 @@ author: "Productivity Works Editorial"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## How to Start Freelancing With No Experience in 2026

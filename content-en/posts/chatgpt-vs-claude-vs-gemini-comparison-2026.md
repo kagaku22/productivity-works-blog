@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 2026"
-date: 2026-05-14
+date: 2026-03-23
 slug: "chatgpt-vs-claude-vs-gemini-comparison-2026"
 description: "ChatGPT vs Claude vs Gemini 2026: side-by-side feature, pricing, and performance comparison to pick the right AI for your needs."
 categories: ["AI Productivity"]
@@ -9,6 +9,12 @@ author: "Productivity Works Editorial"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## ChatGPT vs Claude vs Gemini 2026: Which AI Assistant Wins?

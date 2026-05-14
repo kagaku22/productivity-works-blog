@@ -1,6 +1,6 @@
 ---
 title: "SBI証券 楽天証券 比較 2026年版！どちらを選ぶべきか徹底解説"
-date: 2026-05-13
+date: 2026-03-05
 draft: false
 slug: "sbi-rakuten-hikaku-2026"
 description: "SBI証券と楽天証券を2026年最新情報で徹底比較。手数料・ポイント・NISA・iDeCo・使いやすさなど全項目を比較表で解説。初心者はどちらを選べばいいかがわかります。"
@@ -14,6 +14,9 @@ tags:
   - "2026"
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -109,8 +112,8 @@ ShowWordCount: true
 | おすすめファンド | eMAXIS Slim S&P500など | 楽天・オールカントリー株式など |
 | 加入・移換サポート | 充実 | 充実 |
 
-[SBI証券で口座開設する]({{affiliate_link_placeholder}})
-[楽天証券で口座開設する]({{affiliate_link_placeholder}})
+[SBI証券で口座開設する](https://payhip.com/productivityworks)
+[楽天証券で口座開設する](https://payhip.com/productivityworks)
 
 ---
 
@@ -148,7 +151,7 @@ ShowWordCount: true
 **失敗4: 別のポイントカード体系にいる人が楽天証券を選ぶ**
 楽天経済圏（楽天カード・楽天市場を使っていない）の方が楽天証券を選ぶと、ポイント連携のメリットをあまり受けられません。
 
-[関連記事: iDeCoおすすめ証券会社の選び方]({{internal_link}})
+[関連記事: iDeCoおすすめ証券会社の選び方](/ja/posts/ideco-osusume-shouken/)
 
 ---
 
@@ -181,11 +184,11 @@ ShowWordCount: true
 
 SBI証券と楽天証券のどちらを選ぶかは、あなたのライフスタイルに合わせて決めるのが最善です。楽天経済圏の方は楽天証券、三井住友カードをお持ちの方や豊富な商品数を求める方はSBI証券がおすすめです。迷うなら楽天証券から始めて、慣れてきたらSBI証券でも口座開設するという段階的なアプローチも有効です。今日から口座開設を始めましょう。
 
-[SBI証券で今すぐ口座開設する]({{affiliate_link_placeholder}})
+[SBI証券で今すぐ口座開設する](https://payhip.com/productivityworks)
 
-[楽天証券で今すぐ口座開設する]({{affiliate_link_placeholder}})
+[楽天証券で今すぐ口座開設する](https://payhip.com/productivityworks)
 
-[関連記事: 新NISAの始め方・手順を完全解説]({{internal_link}})
+[関連記事: 新NISAの始め方・手順を完全解説](/ja/posts/新nisa-始め方-手順/)
 
 ---
 

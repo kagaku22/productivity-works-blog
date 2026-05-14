@@ -1,6 +1,6 @@
 ---
 title: ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】
-date: '2026-05-13'
+date: 2026-04-09
 draft: false
 slug: chatgpt-仕事-活用法-2026
 description: ChatGPTを仕事に活用する方法を10個紹介。メール文章作成から会議議事録、データ分析補助まで、今日から使える実践的な活用法を解説します。
@@ -11,6 +11,9 @@ tags:
 - ChatGPT
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

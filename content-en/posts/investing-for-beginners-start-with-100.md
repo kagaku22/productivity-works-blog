@@ -1,6 +1,6 @@
 ---
 title: 'Investing for Beginners: Start with $100 in 2026'
-date: '2026-05-13'
+date: 2026-02-21
 draft: false
 slug: investing-for-beginners-start-with-100
 description: You don't need thousands of dollars or a financial advisor to start investing.
@@ -17,6 +17,9 @@ tags:
 - index
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 The most common reason people don't invest is that they think they need more money to get started. They're waiting for a windfall, a raise, or a point when everything feels financially stable. That point never comes, and the delay is expensive.

@@ -1,6 +1,6 @@
 ---
 title: "Notionでフリーランスの確定申告を完全管理する方法【テンプレート付き】"
-date: 2026-05-14
+date: 2026-03-12
 draft: false
 author: "Productivity Works編集部"
 description: "フリーランスが確定申告をNotionだけで管理する具体的な方法を解説。収入・経費・領収書・スケジュール管理まで、実際に使えるテンプレート構成とノウハウを詳しく紹介します。"
@@ -8,6 +8,9 @@ categories: ["確定申告", "Notion活用"]
 tags: ["Notion", "確定申告", "フリーランス", "経費管理", "収入管理", "テンプレート", "税務"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 > **アフィリエイト開示**: 本記事には一部アフィリエイトリンクが含まれます。リンク経由でご購入いただいた場合、当サイトに手数料が発生することがありますが、読者の方への費用は一切変わりません。紹介する製品・サービスはすべて編集部が実際に検証したものに限っています。

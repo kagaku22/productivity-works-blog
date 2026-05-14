@@ -1,12 +1,16 @@
 ---
 title: "ChatGPT Prompts for Real Estate Agents: 30 Ready-to-Use Templates (2026)"
-date: 2026-05-14
+date: 2026-03-28
 slug: "chatgpt-real-estate-agent-prompts-2026"
 description: "Supercharge your real estate business with 30 copy-paste ChatGPT prompts for property descriptions, client emails, market analysis, listing presentations, and social media posts."
 categories: ["Real Estate", "AI Productivity"]
 tags: ["chatgpt prompts", "real estate agent", "AI tools", "property description", "listing presentation"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 The real estate industry moves fast, and agents who master AI tools in 2026 are closing more deals with less burnout. ChatGPT has become an indispensable tool for top-performing agents — not to replace the human relationship, but to handle the time-consuming writing work that used to eat hours every day.

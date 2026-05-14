@@ -1,12 +1,16 @@
 ---
 title: "ChatGPT Resume Tips for Career Changers Over 50: Turn Experience Into Your Advantage"
-date: 2026-05-14
+date: 2026-03-26
 slug: "chatgpt-resume-over-50-career-change"
 description: "How to use ChatGPT to write a powerful resume when you're over 50 and changing careers. Covers reframing decades of experience, age-positive language, skills translation, and specific prompts."
 categories: ["Career", "AI Productivity", "Resume"]
 tags: ["resume", "chatgpt", "career change", "over 50", "job search", "career transition"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 Here's the uncomfortable truth that career coaches sometimes dance around: ageism in hiring is real. Recruiters do make snap judgments. Some hiring managers do have unconscious (or conscious) biases about candidates with 25+ years of experience.

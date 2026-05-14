@@ -1,6 +1,6 @@
 ---
 title: How to Automate Tasks with AI Step by Step
-date: '2026-05-13'
+date: 2026-03-10
 draft: false
 slug: how-to-automate-tasks-with-ai-step-by-step
 description: Learn how to automate tasks with AI step by step in 2026. Build workflows
@@ -17,6 +17,9 @@ tags:
 - no-code
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 # How to Automate Tasks with AI Step by Step — Complete Guide [2026]
@@ -63,7 +66,7 @@ Traditional automation (Zapier without AI) could send an email when a form was s
 | Bardeen | Excellent | Built-in AI | Free–$10/month | Browser-based automations |
 | ChatGPT Actions (custom GPTs) | Excellent | Native | ChatGPT Plus ($20/mo) | Custom AI assistants with tools |
 
-[Try It Free]({{affiliate_link_placeholder}})
+[Try It Free](https://payhip.com/productivityworks)
 
 **Best starting point:** Zapier with AI actions for pure no-code simplicity. Make for more complex workflows at a lower price. n8n if you want full control and don't mind a steeper learning curve.
 
@@ -238,7 +241,7 @@ Keep it to 150 words. Direct, actionable, no fluff.
 
 **Strategy 5: Use n8n for sensitive or complex workflows.** n8n can be self-hosted, meaning your data stays on your servers. For automations involving sensitive client data, this is the right choice over SaaS tools.
 
-[Related: Best ChatGPT Prompts for Productivity 2026]({{internal_link}})
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -278,11 +281,11 @@ Key takeaways:
 - Design prompts with full context: who you are, what the data means, what you want
 - The best automation is built incrementally — master simple workflows first
 
-Want the complete automation prompt template library — 40+ workflows pre-built for Zapier, Make, and direct ChatGPT use? Our **[Complete ChatGPT Prompt Collection]({{product_link_placeholder}})** includes a dedicated automation section with copy-paste-ready prompts for every workflow in this guide.
+Want the complete automation prompt template library — 40+ workflows pre-built for Zapier, Make, and direct ChatGPT use? Our **[Complete ChatGPT Prompt Collection](https://payhip.com/productivityworks)** includes a dedicated automation section with copy-paste-ready prompts for every workflow in this guide.
 
-For the complete system — from identifying your first automation to building a fully AI-automated workday — our **[AI Productivity Playbook]({{product_link_placeholder}})** is the definitive guide.
+For the complete system — from identifying your first automation to building a fully AI-automated workday — our **[AI Productivity Playbook](https://payhip.com/productivityworks)** is the definitive guide.
 
-[Related: AI Tools for Freelancers to Earn More]({{internal_link}})
+[Related: AI Tools for Freelancers to Earn More](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ---
 

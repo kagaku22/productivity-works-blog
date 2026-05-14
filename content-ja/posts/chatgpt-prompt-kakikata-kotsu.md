@@ -1,6 +1,6 @@
 ---
 title: "ChatGPTプロンプトの書き方コツ【2026年版】すぐ使える例文テンプレート付き"
-date: 2026-05-14
+date: 2026-04-13
 slug: "chatgpt-prompt-kakikata-kotsu"
 description: "ChatGPTのプロンプトの書き方のコツを2026年版で解説。精度を上げる5つの法則・NG例・職種別テンプレートをすぐ使える形でまとめました。"
 categories: ["AI活用"]
@@ -9,6 +9,9 @@ author: "Productivity Works編集部"
 draft: false
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

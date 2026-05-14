@@ -1,12 +1,19 @@
 ---
 title: "医療事務向けChatGPT活用術 業務効率化10選"
-date: 2026-05-14
+date: 2026-03-22
 slug: "iryo-jimu-chatgpt-2026"
 description: "医療事務スタッフ必見。レセプト点検補助・患者案内文書作成・電話対応マニュアル・院内掲示物作成まで、ChatGPTを医療事務業務に活かす実践的な10の方法。"
 categories: ["ChatGPT活用術"]
 tags: ["医療事務", "ChatGPT", "AI活用", "業務効率化", "レセプト", "患者対応"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 医療事務×ChatGPTで、患者さんとの時間を増やす

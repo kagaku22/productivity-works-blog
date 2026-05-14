@@ -1,6 +1,6 @@
 ---
 title: ChatGPT API初心者向け完全ガイド【2026年版・コピペで動くサンプルコード付き】
-date: '2026-05-13'
+date: 2026-04-19
 draft: false
 slug: chatgpt-api-使い方-初心者
 description: ChatGPT APIの使い方を初心者向けに解説。APIキーの取得から最初のリクエスト送信、実用的なアプリ作成まで、コピペで動くPythonサンプルコードとともに丁寧に説明します。
@@ -12,6 +12,9 @@ tags:
 - OpenAI
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

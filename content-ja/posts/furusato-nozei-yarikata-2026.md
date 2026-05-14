@@ -1,6 +1,6 @@
 ---
 title: "ふるさと納税 やり方 完全ガイド【2026年版・初心者向け】"
-date: 2026-05-14
+date: 2026-03-29
 draft: false
 slug: "furusato-nozei-yarikata-2026"
 description: "ふるさと納税の仕組みから申し込み手順、ワンストップ特例、確定申告まで初心者でもわかるように徹底解説。2026年最新情報を反映した完全ガイドです。"
@@ -9,6 +9,9 @@ categories: ["お金・節税"]
 tags: ["ふるさと納税", "節税", "初心者ガイド", "確定申告", "ワンストップ特例", "2026年"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

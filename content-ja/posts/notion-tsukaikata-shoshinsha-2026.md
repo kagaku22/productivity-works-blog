@@ -1,6 +1,6 @@
 ---
 title: "Notion 使い方 完全ガイド【2026年版・初心者向け】セットアップから活用術まで"
-date: 2026-05-14
+date: 2026-03-09
 draft: false
 slug: "notion-tsukaikata-shoshinsha-2026"
 description: "Notionの基本的な使い方から、ページ作成・データベース・テンプレート活用まで初心者向けにわかりやすく解説。2026年最新UIに対応した完全ガイドです。"
@@ -9,6 +9,9 @@ categories: ["生産性・ツール"]
 tags: ["Notion", "ノーテイキング", "タスク管理", "初心者ガイド", "生産性向上", "2026年"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

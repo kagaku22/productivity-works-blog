@@ -1,12 +1,19 @@
 ---
 title: "AI×確定申告 フリーランス完全自動化ガイド2026"
-date: 2026-05-14
+date: 2026-05-03
 slug: "ai-kakuteishinkoku-freelance-2026"
 description: "フリーランスの確定申告をAIで完全自動化。ChatGPTで経費仕訳、freee・マネーフォワード連携、領収書OCR活用、青色申告のAI活用まで、2026年版の完全ガイド。"
 categories: ["AI×確定申告"]
 tags: ["確定申告", "フリーランス", "ChatGPT", "freee", "マネーフォワード", "青色申告"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 「確定申告が怖い」から卒業する——AI活用で年間作業を10時間に圧縮

@@ -1,6 +1,6 @@
 ---
 title: Excel Skills That Will Double Your Salary
-date: '2026-05-13'
+date: 2026-03-15
 draft: false
 slug: excel-skills-double-salary
 description: Most people use 10% of Excel's capabilities. The professionals who use
@@ -15,6 +15,9 @@ tags:
 - learn
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Excel proficiency is not evenly distributed. Most office workers can enter data, write a SUM formula, and make a bar chart. A small percentage can build dynamic financial models, automate repetitive workflows, and translate raw data into business decisions. That gap in capability translates directly into a compensation gap.

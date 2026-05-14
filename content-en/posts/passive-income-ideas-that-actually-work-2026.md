@@ -1,6 +1,6 @@
 ---
 title: Passive Income Ideas That Actually Work 2026
-date: '2026-05-13'
+date: 2026-02-13
 draft: false
 slug: passive-income-ideas-that-actually-work-2026
 description: Discover passive income ideas that actually work in 2026. From dividend
@@ -16,6 +16,9 @@ tags:
 - dividend
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -111,7 +114,7 @@ Categories of passive income sources:
 
 *Income ranges are illustrative and highly variable. Not a guarantee.*
 
-[Find the best investment platform for passive income]({{affiliate_link_placeholder}})
+[Find the best investment platform for passive income](https://payhip.com/productivityworks)
 
 ---
 
@@ -137,7 +140,7 @@ Categories of passive income sources:
 - **SCHD** (Schwab U.S. Dividend Equity): 3.6% yield, 0.06% ER
 - **VIG** (Vanguard Dividend Appreciation): 1.8% yield, focus on dividend growth, 0.06% ER
 
-[Invest in dividend ETFs with $0 minimum at Fidelity]({{affiliate_link_placeholder}})
+[Invest in dividend ETFs with $0 minimum at Fidelity](https://payhip.com/productivityworks)
 
 ---
 
@@ -265,7 +268,7 @@ Passive income is taxable income. Dividends may be qualified (lower rate) or ord
 **Mistake 5: Using passive income as an excuse to delay investing**
 For most people under 40, the single highest-return "passive income" strategy is maximizing retirement account contributions and investing in broad market index funds. The guaranteed, risk-adjusted return of tax-free compounding in a Roth IRA often beats speculative passive income ventures.
 
-[Related: Best Index Funds for Beginners 2026]({{internal_link}})
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -360,11 +363,11 @@ The best time to start building passive income streams was five years ago. The s
 
 **Start building your passive income foundation:**
 
-- [Open a Fidelity account and invest in dividend ETFs — $0 minimum]({{affiliate_link_placeholder}})
-- [Open a high-yield savings account at SoFi — earn 4.6% APY passively]({{affiliate_link_placeholder}})
-- [Sell your first digital product on Gumroad — free to start]({{affiliate_link_placeholder}})
+- [Open a Fidelity account and invest in dividend ETFs — $0 minimum](https://payhip.com/productivityworks)
+- [Open a high-yield savings account at SoFi — earn 4.6% APY passively](https://payhip.com/productivityworks)
+- [Sell your first digital product on Gumroad — free to start](https://payhip.com/productivityworks)
 
-[Related: How to Start Investing with $100]({{internal_link}})
+[Related: How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
 
 ---
 

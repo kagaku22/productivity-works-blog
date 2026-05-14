@@ -1,12 +1,19 @@
 ---
 title: "フリーランス確定申告 AIで経費仕訳を自動化する具体的手順"
-date: 2026-05-14
+date: 2026-04-04
 slug: "freelance-kakuteishinkoku-ai-keihi-shiwake"
 description: "フリーランスの確定申告で頭を悩ませる経費仕訳をChatGPTで自動化する方法を解説。勘定科目の自動分類からCSV一括仕訳まで具体的な手順を紹介します。"
 categories: ["確定申告", "フリーランス"]
 tags: ["確定申告", "フリーランス", "経費仕訳", "ChatGPT", "AI活用"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 確定申告の経費仕訳、どれだけ時間がかかっていますか？

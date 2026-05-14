@@ -1,12 +1,19 @@
 ---
 title: "不動産営業向けChatGPTプロンプト集 完全ガイド2026"
-date: 2026-05-14
+date: 2026-04-18
 slug: "chatgpt-fudosan-eigyo-prompt"
 description: "不動産営業マン必見。物件紹介文・顧客対応メール・内見後フォロー・重要事項説明の下書きまで、そのままコピペできるChatGPTプロンプト10選以上を完全解説。"
 categories: ["ChatGPT活用術"]
 tags: ["不動産", "営業", "ChatGPT", "プロンプト", "AI活用"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 不動産営業×ChatGPTで、あなたの生産性は3倍になる

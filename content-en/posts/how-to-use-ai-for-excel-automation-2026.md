@@ -1,6 +1,6 @@
 ---
 title: How to Use AI for Excel Automation 2026
-date: '2026-05-13'
+date: 2026-02-26
 draft: false
 slug: how-to-use-ai-for-excel-automation-2026
 description: Learn how to use AI for Excel automation in 2026. Generate formulas,
@@ -15,6 +15,9 @@ tags:
 - Copilot
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 # How to Use AI for Excel Automation — Complete Guide [2026]
@@ -61,7 +64,7 @@ The same is true for formulas. "SUMPRODUCT with multiple criteria filtered by da
 | Google Gemini (Workspace) | Google Sheets focus | Good | Limited | N/A | Included with Workspace |
 | Excel's built-in AI features | Native | Good | Basic | Basic | Included with M365 |
 
-[Try It Free]({{affiliate_link_placeholder}})
+[Try It Free](https://payhip.com/productivityworks)
 
 **Bottom line:** Microsoft Copilot is the most integrated if you're on Microsoft 365. ChatGPT is the most versatile if you want help outside Excel too. Both are excellent. If you use Excel daily and don't have M365, ChatGPT Plus at $20/month is the fastest path to automation.
 
@@ -227,7 +230,7 @@ What's causing the error and how do I fix it?
 
 **Strategy 5: Use Copilot's in-app capabilities.** If you have Microsoft 365, Copilot in Excel can analyze data, suggest charts, and write formulas directly in the sidebar — no copy-paste needed.
 
-[Related: How to Use ChatGPT for Data Analysis]({{internal_link}})
+[Related: How to Use ChatGPT for Data Analysis](/en/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 
 ---
 
@@ -267,11 +270,11 @@ Key takeaways:
 - Always test macros on a copy of your data before running on production files
 - Iterate with follow-up prompts to refine until the code is exactly right
 
-Want the exact prompt templates used in this guide — plus 80 more for Excel, Google Sheets, and data analysis? Grab our **[Complete ChatGPT Prompt Collection]({{product_link_placeholder}})** — it includes a dedicated "Excel & Data" section with formulas, macros, and Power Query prompts you can use immediately.
+Want the exact prompt templates used in this guide — plus 80 more for Excel, Google Sheets, and data analysis? Grab our **[Complete ChatGPT Prompt Collection](https://payhip.com/productivityworks)** — it includes a dedicated "Excel & Data" section with formulas, macros, and Power Query prompts you can use immediately.
 
-For a complete system to automate your work with AI, our **[AI Productivity Playbook]({{product_link_placeholder}})** covers Excel, email, reporting, and more in one end-to-end framework.
+For a complete system to automate your work with AI, our **[AI Productivity Playbook](https://payhip.com/productivityworks)** covers Excel, email, reporting, and more in one end-to-end framework.
 
-[Related: Best ChatGPT Prompts for Productivity 2026]({{internal_link}})
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 

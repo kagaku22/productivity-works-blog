@@ -1,6 +1,6 @@
 ---
 title: "How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026 Guide)"
-date: 2026-05-14
+date: 2026-03-31
 draft: false
 author: "Productivity Works Editorial"
 description: "A step-by-step guide for Etsy sellers on using ChatGPT to write product descriptions, shop bios, and SEO titles that actually convert — without sounding robotic."
@@ -18,6 +18,9 @@ tags:
   - copywriting AI
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 Running an Etsy shop is equal parts craft and copywriting. You might make the most stunning hand-poured soy candles or the most intricate watercolor prints in the marketplace — but if your product descriptions are flat, keyword-free, or just plain boring, buyers scroll right past you. The problem is that most Etsy sellers are artists and makers, not professional copywriters. And hiring one for every listing? Not scalable.

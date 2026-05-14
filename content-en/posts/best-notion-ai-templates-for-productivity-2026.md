@@ -1,6 +1,6 @@
 ---
 title: Best Notion AI Templates for Productivity 2026
-date: '2026-05-13'
+date: 2026-04-07
 draft: false
 slug: best-notion-ai-templates-for-productivity-2026
 description: Find the best Notion AI templates for productivity in 2026. Curated templates
@@ -14,6 +14,9 @@ tags:
 - Notion
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 # Best Notion AI Templates for Productivity 2026 — Complete Guide
@@ -78,6 +81,9 @@ This is the highest-leverage template for most people. It structures your week i
 Create a page called "Weekly Operating System" with these sections:
 
 ```markdown
+
+---
+
 ## Week of [DATE]
 
 ### This Week's Focus (The Big 3)
@@ -122,14 +128,26 @@ Date: [DATE]
 Attendees: [NAMES]
 Purpose: [1 SENTENCE]
 
+
+---
+
 ## Raw Notes
 [Paste or type notes during the meeting — messy is fine]
+
+
+---
 
 ## AI Summary
 [Generate with Notion AI]
 
+
+---
+
 ## Action Items
 [Extract with Notion AI]
+
+
+---
 
 ## Decisions Made
 [Extract with Notion AI]
@@ -234,19 +252,34 @@ Goals without check-in systems don't get achieved. This template builds in AI-po
 ```markdown
 # Goal: [GOAL TITLE]
 
+
+---
+
 ## What I Want to Achieve
 [Clear, measurable outcome — include a metric if possible]
 
+
+---
+
 ## Why This Matters
 [Your personal reason — this is your motivation anchor]
+
+
+---
 
 ## Key Results / Milestones
 - [ ] [Milestone 1] — Target: [DATE]
 - [ ] [Milestone 2] — Target: [DATE]
 - [ ] [Milestone 3] — Target: [DATE]
 
+
+---
+
 ## Weekly Progress Notes
 [Append progress notes each week]
+
+
+---
 
 ## AI Check-In (Monthly)
 [Generate with Notion AI]
@@ -293,7 +326,7 @@ Be direct. If I'm behind, say so clearly with a specific suggestion.
 
 **Strategy 5: Combine Notion with Zapier for automated AI workflows.** New project created in Notion → Zapier sends it to ChatGPT for a project brief → the brief is pasted back into Notion automatically. Notion + Zapier + AI = your personal automated EA.
 
-[Related: How to Automate Tasks with AI Step by Step]({{internal_link}})
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
@@ -336,11 +369,11 @@ Key takeaways:
 - Connect databases with relations to enable cross-project AI synthesis
 - Combine Notion with Zapier for fully automated AI workflows
 
-Want pre-built Notion templates with AI prompts already embedded? Our **[Complete ChatGPT Prompt Collection]({{product_link_placeholder}})** includes a Notion-specific section with copy-paste AI prompts for every template type in this guide — so you don't have to write the prompts from scratch.
+Want pre-built Notion templates with AI prompts already embedded? Our **[Complete ChatGPT Prompt Collection](https://payhip.com/productivityworks)** includes a Notion-specific section with copy-paste AI prompts for every template type in this guide — so you don't have to write the prompts from scratch.
 
-For building a complete AI-powered productivity system (Notion + automation + ChatGPT all working together), our **[AI Productivity Playbook]({{product_link_placeholder}})** is the end-to-end guide you've been looking for.
+For building a complete AI-powered productivity system (Notion + automation + ChatGPT all working together), our **[AI Productivity Playbook](https://payhip.com/productivityworks)** is the end-to-end guide you've been looking for.
 
-[Related: Best ChatGPT Prompts for Productivity 2026]({{internal_link}})
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 

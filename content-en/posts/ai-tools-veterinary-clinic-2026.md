@@ -1,12 +1,16 @@
 ---
 title: "AI Tools for Veterinary Clinics: Streamline Operations & Client Communication (2026)"
-date: 2026-05-14
+date: 2026-04-30
 slug: "ai-tools-veterinary-clinic-2026"
 description: "A practical guide for veterinary clinic owners and staff on using AI to improve client communication, appointment reminders, pet care content, social media, and inventory management."
 categories: ["Veterinary", "Healthcare", "AI Productivity"]
 tags: ["AI veterinary clinic", "veterinary practice management", "client communication", "ChatGPT veterinary", "vet clinic automation"]
 author: "Productivity Works Editorial"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 
 Veterinary professionals are among the most time-pressured workers in healthcare. Between seeing patients, managing staff, handling emergency calls, and keeping up with medicine, there's rarely enough time for the communication and administrative work that keeps a practice thriving.

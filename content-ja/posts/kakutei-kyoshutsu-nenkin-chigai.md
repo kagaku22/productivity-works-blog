@@ -1,6 +1,6 @@
 ---
 title: "確定拠出年金 企業型（DC）と個人型（iDeCo）の違いを徹底比較【2026年版】"
-date: 2026-05-14
+date: 2026-03-19
 draft: false
 slug: "kakutei-kyoshutsu-nenkin-chigai"
 description: "企業型確定拠出年金（企業型DC）とiDeCoの違いを、掛金・節税効果・運用・受取方法まで徹底比較。どちらが自分に向いているか判断できるガイドです。"
@@ -9,6 +9,9 @@ categories: ["お金・節税", "老後資金"]
 tags: ["確定拠出年金", "iDeCo", "企業型DC", "老後資金", "節税", "年金"]
 ShowReadingTime: true
 ShowWordCount: true
+ShowToc: true
+TocOpen: false
+ShowBreadCrumbs: true
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。

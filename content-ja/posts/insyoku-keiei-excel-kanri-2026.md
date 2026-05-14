@@ -1,12 +1,19 @@
 ---
 title: "飲食店経営Excel管理テンプレート活用ガイド2026"
-date: 2026-05-14
+date: 2026-03-24
 slug: "insyoku-keiei-excel-kanri-2026"
 description: "小規模飲食店オーナー向け。売上管理・原価率計算・シフト管理・食材発注をExcelで一元管理する実践ガイド。すぐ使えるExcel数式サンプル付き。"
 categories: ["飲食店経営"]
 tags: ["飲食店", "Excel", "売上管理", "原価率", "シフト管理", "経営"]
 author: "Productivity Works編集部"
 draft: false
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+---
+
+
 ---
 
 ## 「どんぶり勘定」から卒業する——Excelで飲食店経営を数値で管理する
