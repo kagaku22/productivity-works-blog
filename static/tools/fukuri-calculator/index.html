@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>複利計算シミュレーター | 積立・一括投資の将来予測 | Productivity Works</title>
+<meta name="description" content="複利計算シミュレーター。元本・積立額・利回り・期間を入力して資産がどう増えるか計算。積立投資・一括投資の両方に対応。グラフ付き無料ツール。">
+<meta name="keywords" content="複利計算,シミュレーター,積立投資,複利効果,資産運用,計算ツール">
+<link rel="canonical" href="https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/">
+<meta property="og:title" content="複利計算シミュレーター | 積立・一括投資の将来予測">
+<meta property="og:description" content="元本・積立額・利回り・期間を入力して複利効果を確認。グラフ付き無料ツール。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/">
+<meta property="og:image" content="https://kagaku22.github.io/productivity-works-blog/images/covers/fukuri-calculator-og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "複利計算シミュレーター",
+  "description": "元本・積立額・利回り・期間を入力して複利効果をグラフで確認できる無料ツール。",
+  "url": "https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+  "publisher": { "@type": "Organization", "name": "Productivity Works" }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --primary: #1e3a8a;
+  --primary-light: #3b82f6;
+  --accent: #8b5cf6;
+  --accent-dark: #7c3aed;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --green: #059669;
+  --shadow: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --radius: 12px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.6;
+}
+.header {
+  background: linear-gradient(135deg, #4c1d95, var(--accent));
+  color: white; padding: 2rem 1rem; text-align: center;
+}
+.header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; font-weight: 800; }
+.header p { font-size: 0.95rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+.brand-link { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.8rem; display: inline-block; margin-top: 0.75rem; }
+.brand-link:hover { color: white; }
+.container { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem; }
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.5rem; margin-bottom: 1.5rem; }
+.card h2 { font-size: 1.15rem; color: var(--primary); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--border); }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } .header h1 { font-size: 1.4rem; } }
+.form-group { margin-bottom: 0.25rem; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; }
+.form-group .hint { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.3rem; }
+.form-group input, .form-group select {
+  width: 100%; padding: 0.65rem 0.75rem; border: 1.5px solid var(--border);
+  border-radius: 8px; font-size: 1rem; color: var(--text); transition: border-color 0.2s; background: white;
+}
+.form-group input:focus, .form-group select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(139,92,246,0.15); }
+.input-with-unit { display: flex; align-items: center; gap: 0.5rem; }
+.input-with-unit input { flex: 1; }
+.input-with-unit .unit { font-size: 0.85rem; color: var(--text-light); white-space: nowrap; min-width: 2.5rem; }
+.btn-calc {
+  display: block; width: 100%; padding: 0.85rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: white; border: none; border-radius: 8px; font-size: 1.05rem; font-weight: 700;
+  cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; margin-top: 1rem;
+}
+.btn-calc:hover { transform: translateY(-1px); box-shadow: var(--shadow-lg); }
+.results-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+@media (max-width: 600px) { .results-summary { grid-template-columns: 1fr; } }
+.result-box { text-align: center; padding: 1rem; border-radius: 10px; background: var(--bg); }
+.result-box .label { font-size: 0.8rem; color: var(--text-light); margin-bottom: 0.25rem; }
+.result-box .value { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+.result-box .sub { font-size: 0.75rem; color: var(--text-light); margin-top: 0.15rem; }
+.result-box.profit .value { color: var(--green); }
+.chart-container { position: relative; height: 350px; margin: 1rem 0; }
+@media (max-width: 600px) { .chart-container { height: 250px; } }
+.comparison-box {
+  background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+  border: 1px solid #c4b5fd; border-radius: 10px; padding: 1.25rem; margin-top: 1rem;
+}
+.comparison-box h3 { font-size: 0.95rem; color: #4c1d95; margin-bottom: 0.5rem; }
+.comparison-row { display: flex; justify-content: space-between; padding: 0.4rem 0; border-bottom: 1px solid #ddd6fe; font-size: 0.85rem; }
+.comparison-row:last-child { border-bottom: none; }
+.comparison-row .val { font-weight: 700; }
+.year-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 1rem; }
+.year-table th { background: #4c1d95; color: white; padding: 0.6rem 0.5rem; text-align: right; font-weight: 600; position: sticky; top: 0; }
+.year-table th:first-child { text-align: center; border-radius: 6px 0 0 0; }
+.year-table th:last-child { border-radius: 0 6px 0 0; }
+.year-table td { padding: 0.5rem; text-align: right; border-bottom: 1px solid var(--border); }
+.year-table td:first-child { text-align: center; }
+.year-table tbody tr:hover { background: rgba(139,92,246,0.04); }
+.table-scroll { max-height: 400px; overflow-y: auto; border-radius: 6px; border: 1px solid var(--border); }
+.cta-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border: 1px solid #f59e0b; border-radius: 10px; padding: 1.25rem; text-align: center; margin-top: 1rem; }
+.cta-box h3 { font-size: 1rem; color: #92400e; margin-bottom: 0.5rem; }
+.cta-box p { font-size: 0.85rem; color: #78350f; margin-bottom: 0.75rem; }
+.cta-btn { display: inline-block; padding: 0.6rem 1.5rem; background: var(--primary); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 0.9rem; }
+.cta-btn:hover { background: var(--primary-light); }
+.footer { text-align: center; padding: 2rem 1rem; color: var(--text-light); font-size: 0.8rem; }
+.footer a { color: var(--primary-light); text-decoration: none; }
+.share-btns { display: flex; gap: 0.75rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap; }
+.share-btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-decoration: none; color: white; transition: opacity 0.2s; }
+.share-btn:hover { opacity: 0.85; }
+.share-btn.x { background: #000; }
+.share-btn.line { background: #06c755; }
+.share-btn.copy { background: var(--text-light); cursor: pointer; border: none; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>複利計算シミュレーター</h1>
+  <p>積立投資・一括投資の将来資産を複利で計算。単利との差も一目でわかります。</p>
+  <a href="/productivity-works-blog/ja/" class="brand-link">Productivity Works</a>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2>計算条件を入力</h2>
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="initial">元本（初期投資額）</label>
+        <div class="hint">最初に投資する金額</div>
+        <div class="input-with-unit">
+          <input type="number" id="initial" value="1000000" min="0" max="100000000" step="100000">
+          <span class="unit">円</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="monthly">毎月の積立額</label>
+        <div class="hint">0円なら一括投資のみ</div>
+        <div class="input-with-unit">
+          <input type="number" id="monthly" value="30000" min="0" max="1000000" step="1000">
+          <span class="unit">円</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="rate">年利（利回り）</label>
+        <div class="hint">株式インデックス平均: 5〜7%、債券: 1〜3%</div>
+        <div class="input-with-unit">
+          <input type="number" id="rate" value="5" min="0.1" max="30" step="0.1">
+          <span class="unit">%</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="years">運用期間</label>
+        <div class="input-with-unit">
+          <input type="number" id="years" value="20" min="1" max="50" step="1">
+          <span class="unit">年</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="compound">複利の頻度</label>
+        <select id="compound">
+          <option value="12" selected>毎月複利</option>
+          <option value="4">四半期複利</option>
+          <option value="2">半年複利</option>
+          <option value="1">年1回複利</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="taxtype">税制</label>
+        <select id="taxtype">
+          <option value="nisa" selected>NISA（非課税）</option>
+          <option value="taxable">特定口座（課税20.315%）</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-calc" onclick="calculate()">計算する</button>
+  </div>
+
+  <div id="results" class="hidden">
+    <div class="card">
+      <h2>計算結果</h2>
+      <div class="results-summary">
+        <div class="result-box">
+          <div class="label">総投資額</div>
+          <div class="value" id="rInvested">-</div>
+        </div>
+        <div class="result-box profit">
+          <div class="label">運用益（複利）</div>
+          <div class="value" id="rProfit">-</div>
+          <div class="sub" id="rProfitNote"></div>
+        </div>
+        <div class="result-box">
+          <div class="label">最終資産額</div>
+          <div class="value" id="rTotal">-</div>
+          <div class="sub" id="rTotalNote"></div>
+        </div>
+      </div>
+
+      <div class="comparison-box">
+        <h3>複利 vs 単利 の差</h3>
+        <div class="comparison-row"><span>複利での最終資産:</span><span class="val" id="cmpCompound">-</span></div>
+        <div class="comparison-row"><span>単利での最終資産:</span><span class="val" id="cmpSimple">-</span></div>
+        <div class="comparison-row"><span>複利の効果（差額）:</span><span class="val" style="color:#059669" id="cmpDiff">-</span></div>
+      </div>
+
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+
+      <div class="share-btns">
+        <a class="share-btn x" id="shareX" href="#" target="_blank" rel="noopener">X(Twitter)で共有</a>
+        <a class="share-btn line" id="shareLine" href="#" target="_blank" rel="noopener">LINEで送る</a>
+        <button class="share-btn copy" onclick="copyResult()">結果をコピー</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>年別詳細</h2>
+      <div class="table-scroll">
+        <table class="year-table">
+          <thead><tr><th>年数</th><th>累計投資額</th><th>複利資産</th><th>単利資産</th><th>複利効果</th></tr></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cta-box">
+        <h3>NISAで非課税運用を始めるなら</h3>
+        <p>複利効果を最大化するには、運用益が非課税のNISA口座がおすすめ。</p>
+        <a href="/productivity-works-blog/tools/nisa-simulator/" class="cta-btn">新NISAシミュレーターを使う</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>関連記事</h2>
+      <ul style="padding-left:1.2rem; font-size:0.9rem; line-height:2;">
+        <li><a href="/productivity-works-blog/ja/posts/新nisa-始め方-手順/">新NISA 始め方・手順を完全解説</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/インデックスファンド-種類-比較/">インデックスファンド 種類と比較</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/積立nisa-毎月いくら-平均/">積立NISA 毎月いくら積み立てるべき？</a></li>
+        <li><a href="/productivity-works-blog/tools/nisa-simulator/">新NISAシミュレーター</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><a href="/productivity-works-blog/ja/">Productivity Works</a> | <a href="/productivity-works-blog/tools/nisa-simulator/">新NISAシミュレーター</a></p>
+  <p style="margin-top:0.5rem;">本計算は概算です。実際の運用成績は異なります。投資は元本割れのリスクがあります。</p>
+</div>
+
+<script>
+let chartInstance = null;
+
+function fmt(n) {
+  if (n >= 100000000) return (n/100000000).toFixed(1).replace(/\.0$/,'') + '億円';
+  if (n >= 10000) return Math.round(n/10000).toLocaleString() + '万円';
+  return Math.round(n).toLocaleString() + '円';
+}
+function fmtT(n) { return Math.round(n).toLocaleString() + '円'; }
+
+function calculate() {
+  const P = parseInt(document.getElementById('initial').value) || 0;
+  const M = parseInt(document.getElementById('monthly').value) || 0;
+  const r = parseFloat(document.getElementById('rate').value) / 100;
+  const Y = parseInt(document.getElementById('years').value) || 0;
+  const n = parseInt(document.getElementById('compound').value);
+  const taxtype = document.getElementById('taxtype').value;
+  const taxRate = taxtype === 'nisa' ? 0 : 0.20315;
+
+  if (Y <= 0) return;
+
+  const rn = r / n;
+  const labels = ['0'];
+  const compoundArr = [P];
+  const simpleArr = [P];
+  const investedArr = [P];
+  const rows = [];
+
+  let compoundBal = P;
+  let simpleBal = P;
+  let totalInvested = P;
+  const yearlyContrib = M * 12;
+
+  for (let y = 1; y <= Y; y++) {
+    // Compound interest with monthly contributions
+    for (let m = 1; m <= 12; m++) {
+      compoundBal += M;
+      // Apply compound at frequency intervals
+      if (n === 12 || (n === 4 && m % 3 === 0) || (n === 2 && m % 6 === 0) || (n === 1 && m === 12)) {
+        compoundBal *= (1 + rn);
+      }
+    }
+
+    // Simple interest
+    totalInvested += yearlyContrib;
+    simpleBal = totalInvested * (1 + r * y) - (totalInvested - P) * r * y / 2;
+    // More accurate simple: principal grows at simple rate, contributions get partial years
+    simpleBal = P * (1 + r * y);
+    for (let yr = 1; yr <= y; yr++) {
+      simpleBal += yearlyContrib * (1 + r * (y - yr));
+    }
+
+    const compProfit = compoundBal - totalInvested;
+    const compAfterTax = totalInvested + compProfit * (1 - taxRate);
+    const simpProfit = simpleBal - totalInvested;
+    const simpAfterTax = totalInvested + simpProfit * (1 - taxRate);
+
+    labels.push(y + '年');
+    compoundArr.push(compAfterTax);
+    simpleArr.push(simpAfterTax);
+    investedArr.push(totalInvested);
+
+    rows.push({ year: y, invested: totalInvested, compound: compAfterTax, simple: simpAfterTax, diff: compAfterTax - simpAfterTax });
+  }
+
+  const final = rows[rows.length - 1];
+
+  document.getElementById('rInvested').textContent = fmt(final.invested);
+  document.getElementById('rProfit').textContent = '+' + fmt(final.compound - final.invested);
+  document.getElementById('rProfitNote').textContent = taxtype === 'nisa' ? '非課税' : '税引後';
+  document.getElementById('rTotal').textContent = fmt(final.compound);
+  const mult = (final.compound / final.invested).toFixed(2);
+  document.getElementById('rTotalNote').textContent = '元本の' + mult + '倍';
+
+  document.getElementById('cmpCompound').textContent = fmt(final.compound);
+  document.getElementById('cmpSimple').textContent = fmt(final.simple);
+  document.getElementById('cmpDiff').textContent = '+' + fmt(final.diff);
+
+  document.getElementById('tableBody').innerHTML = rows.map(d => `
+    <tr>
+      <td>${d.year}年目</td>
+      <td>${fmtT(d.invested)}</td>
+      <td style="font-weight:600">${fmtT(d.compound)}</td>
+      <td>${fmtT(d.simple)}</td>
+      <td style="color:#059669">+${fmtT(d.diff)}</td>
+    </tr>
+  `).join('');
+
+  if (chartInstance) chartInstance.destroy();
+  const ctx = document.getElementById('chart').getContext('2d');
+  chartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: '複利運用',
+          data: compoundArr,
+          borderColor: '#7c3aed',
+          backgroundColor: 'rgba(124,58,237,0.1)',
+          fill: true,
+          tension: 0.3,
+          borderWidth: 2.5,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+        },
+        {
+          label: '単利運用',
+          data: simpleArr,
+          borderColor: '#f59e0b',
+          backgroundColor: 'rgba(245,158,11,0.05)',
+          fill: true,
+          tension: 0.3,
+          borderWidth: 2,
+          borderDash: [5, 5],
+          pointRadius: 0,
+          pointHoverRadius: 5,
+        },
+        {
+          label: '投資元本',
+          data: investedArr,
+          borderColor: '#94a3b8',
+          backgroundColor: 'rgba(148,163,184,0.05)',
+          fill: true,
+          tension: 0,
+          borderWidth: 1.5,
+          borderDash: [3, 3],
+          pointRadius: 0,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) { return ctx.dataset.label + ': ' + Math.round(ctx.raw).toLocaleString() + '円'; }
+          }
+        }
+      },
+      scales: {
+        y: {
+          ticks: {
+            callback: function(v) {
+              if (v >= 100000000) return (v/100000000).toFixed(0) + '億';
+              if (v >= 10000) return (v/10000).toFixed(0) + '万';
+              return v;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  const shareText = `複利計算結果: 元本${fmt(P)} + 月${M.toLocaleString()}円 × ${Y}年（年利${(r*100).toFixed(1)}%）→ ${fmt(final.compound)}（複利効果+${fmt(final.diff)}）`;
+  document.getElementById('shareX').href = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(location.href)}`;
+  document.getElementById('shareLine').href = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(location.href)}&text=${encodeURIComponent(shareText)}`;
+
+  document.getElementById('results').classList.remove('hidden');
+  document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function copyResult() {
+  const inv = document.getElementById('rInvested').textContent;
+  const prof = document.getElementById('rProfit').textContent;
+  const tot = document.getElementById('rTotal').textContent;
+  const text = `【複利計算結果】\n投資元本: ${inv}\n運用益: ${prof}\n最終資産: ${tot}\nhttps://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/`;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.share-btn.copy');
+    btn.textContent = 'コピーしました!';
+    setTimeout(() => { btn.textContent = '結果をコピー'; }, 2000);
+  });
+}
+
+window.addEventListener('DOMContentLoaded', calculate);
+</script>
+</body>
+</html>

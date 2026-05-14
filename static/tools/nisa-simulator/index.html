@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新NISAシミュレーター | つみたて投資の将来予測 | Productivity Works</title>
+<meta name="description" content="新NISAで毎月いくら積み立てると将来いくらになる？投資額・利回り・期間を入力して、資産推移をグラフで確認。つみたて投資枠・成長投資枠の両方に対応。">
+<meta name="keywords" content="新NISA,シミュレーター,つみたてNISA,投資シミュレーション,複利計算,資産運用">
+<link rel="canonical" href="https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/">
+<meta property="og:title" content="新NISAシミュレーター | つみたて投資の将来予測">
+<meta property="og:description" content="新NISAで毎月いくら積み立てると将来いくらになる？グラフで資産推移を確認できる無料ツール。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/">
+<meta property="og:image" content="https://kagaku22.github.io/productivity-works-blog/images/covers/nisa-simulator-og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "新NISAシミュレーター",
+  "description": "新NISAで毎月いくら積み立てると将来いくらになる？投資額・利回り・期間を入力して資産推移をグラフで確認。",
+  "url": "https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Productivity Works"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --primary: #1e3a8a;
+  --primary-light: #3b82f6;
+  --accent: #10b981;
+  --accent-dark: #059669;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+.header p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.brand-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+.brand-link:hover { color: white; }
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card h2 {
+  font-size: 1.15rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .form-grid { grid-template-columns: 1fr; }
+  .header h1 { font-size: 1.4rem; }
+}
+.form-group { margin-bottom: 0.25rem; }
+.form-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+.form-group .hint {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-bottom: 0.3rem;
+}
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--text);
+  transition: border-color 0.2s;
+  background: white;
+}
+.form-group input:focus, .form-group select:focus {
+  outline: none;
+  border-color: var(--primary-light);
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+}
+.input-with-unit {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.input-with-unit input { flex: 1; }
+.input-with-unit .unit {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  white-space: nowrap;
+  min-width: 2.5rem;
+}
+.btn-calc {
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  margin-top: 1rem;
+}
+.btn-calc:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+.btn-calc:active { transform: translateY(0); }
+.results-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 600px) {
+  .results-summary { grid-template-columns: 1fr; }
+}
+.result-box {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--bg);
+}
+.result-box .label {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 0.25rem;
+}
+.result-box .value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+.result-box .sub {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-top: 0.15rem;
+}
+.result-box.profit .value { color: var(--accent-dark); }
+.chart-container {
+  position: relative;
+  height: 350px;
+  margin: 1rem 0;
+}
+@media (max-width: 600px) {
+  .chart-container { height: 250px; }
+}
+.year-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+.year-table th {
+  background: var(--primary);
+  color: white;
+  padding: 0.6rem 0.5rem;
+  text-align: right;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+.year-table th:first-child { text-align: center; border-radius: 6px 0 0 0; }
+.year-table th:last-child { border-radius: 0 6px 0 0; }
+.year-table td {
+  padding: 0.5rem;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+}
+.year-table td:first-child { text-align: center; }
+.year-table tbody tr:hover { background: rgba(59,130,246,0.04); }
+.table-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+.nisa-info {
+  background: linear-gradient(135deg, #eff6ff, #f0fdf4);
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+.nisa-info h3 {
+  font-size: 0.95rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.nisa-info ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0;
+}
+.cta-box {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border: 1px solid #f59e0b;
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.cta-box h3 {
+  font-size: 1rem;
+  color: #92400e;
+  margin-bottom: 0.5rem;
+}
+.cta-box p {
+  font-size: 0.85rem;
+  color: #78350f;
+  margin-bottom: 0.75rem;
+}
+.cta-btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+.cta-btn:hover { background: var(--primary-light); }
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-light);
+  font-size: 0.8rem;
+}
+.footer a { color: var(--primary-light); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+.share-btns {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.2s;
+}
+.share-btn:hover { opacity: 0.85; }
+.share-btn.x { background: #000; }
+.share-btn.line { background: #06c755; }
+.share-btn.copy { background: var(--text-light); cursor: pointer; border: none; }
+.preset-btns {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.preset-btn {
+  padding: 0.4rem 0.75rem;
+  border: 1.5px solid var(--primary-light);
+  background: white;
+  color: var(--primary);
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.preset-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>新NISAシミュレーター</h1>
+  <p>毎月の積立額と利回りを入力するだけ。あなたの資産がどう育つかグラフで確認できます。</p>
+  <a href="/productivity-works-blog/ja/" class="brand-link">Productivity Works</a>
+</div>
+
+<div class="container">
+  <!-- Input Form -->
+  <div class="card">
+    <h2>シミュレーション条件</h2>
+    <div class="preset-btns">
+      <button class="preset-btn" onclick="applyPreset(10000, 5, 20)">堅実プラン</button>
+      <button class="preset-btn" onclick="applyPreset(33333, 5, 20)">つみたて枠フル</button>
+      <button class="preset-btn" onclick="applyPreset(100000, 5, 20)">月10万円</button>
+      <button class="preset-btn" onclick="applyPreset(300000, 7, 30)">最大枠フル</button>
+    </div>
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="monthly">毎月の積立額</label>
+        <div class="hint">つみたて投資枠: 月10万円まで</div>
+        <div class="input-with-unit">
+          <input type="number" id="monthly" value="33333" min="1000" max="300000" step="1000">
+          <span class="unit">円</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="bonus">ボーナス月の追加額（年2回）</label>
+        <div class="hint">成長投資枠を活用する場合</div>
+        <div class="input-with-unit">
+          <input type="number" id="bonus" value="0" min="0" max="1200000" step="10000">
+          <span class="unit">円</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="rate">想定利回り（年率）</label>
+        <div class="hint">インデックス投信の過去平均: 5〜7%</div>
+        <div class="input-with-unit">
+          <input type="number" id="rate" value="5" min="0.1" max="15" step="0.1">
+          <span class="unit">%</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="years">積立期間</label>
+        <div class="hint">長期ほど複利効果が大きい</div>
+        <div class="input-with-unit">
+          <input type="number" id="years" value="20" min="1" max="50" step="1">
+          <span class="unit">年</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="initial">初期投資額（任意）</label>
+        <div class="hint">すでに投資済みの金額がある場合</div>
+        <div class="input-with-unit">
+          <input type="number" id="initial" value="0" min="0" max="18000000" step="100000">
+          <span class="unit">円</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="taxtype">税制</label>
+        <div class="hint">新NISAなら運用益が非課税</div>
+        <select id="taxtype">
+          <option value="nisa" selected>新NISA（非課税）</option>
+          <option value="taxable">特定口座（課税20.315%）</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-calc" onclick="simulate()">シミュレーション実行</button>
+  </div>
+
+  <!-- Results -->
+  <div id="results" class="hidden">
+    <div class="card">
+      <h2>シミュレーション結果</h2>
+      <div class="results-summary">
+        <div class="result-box">
+          <div class="label">総投資額</div>
+          <div class="value" id="totalInvested">-</div>
+          <div class="sub">元本</div>
+        </div>
+        <div class="result-box profit">
+          <div class="label">運用益</div>
+          <div class="value" id="totalProfit">-</div>
+          <div class="sub" id="profitNote">非課税</div>
+        </div>
+        <div class="result-box">
+          <div class="label">最終資産額</div>
+          <div class="value" id="totalAsset">-</div>
+          <div class="sub" id="assetNote">-</div>
+        </div>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+      <div class="share-btns">
+        <a class="share-btn x" id="shareX" href="#" target="_blank" rel="noopener">X(Twitter)で共有</a>
+        <a class="share-btn line" id="shareLine" href="#" target="_blank" rel="noopener">LINEで送る</a>
+        <button class="share-btn copy" onclick="copyResult()">結果をコピー</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>年別シミュレーション詳細</h2>
+      <div class="table-scroll">
+        <table class="year-table">
+          <thead>
+            <tr>
+              <th>年数</th>
+              <th>その年の投資額</th>
+              <th>累計投資額</th>
+              <th>運用益</th>
+              <th>資産合計</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- NISA Info -->
+    <div class="card">
+      <div class="nisa-info">
+        <h3>新NISAの投資枠について</h3>
+        <ul>
+          <li><strong>つみたて投資枠:</strong> 年間120万円（月10万円）まで。対象はインデックスファンド等の長期投資向き商品。</li>
+          <li><strong>成長投資枠:</strong> 年間240万円まで。上場株式・ETF・投資信託など幅広い商品に投資可能。</li>
+          <li><strong>生涯投資枠:</strong> 合計1,800万円（うち成長投資枠は1,200万円まで）。</li>
+          <li><strong>非課税期間:</strong> 無期限。売却すれば翌年に枠が復活。</li>
+        </ul>
+        <p style="margin-top:0.5rem;">利回り5%は、全世界株式インデックスファンドの過去20年の平均リターンに近い水準です。ただし将来のリターンを保証するものではありません。</p>
+      </div>
+
+      <div class="cta-box">
+        <h3>新NISAを始めるなら</h3>
+        <p>SBI証券・楽天証券なら口座開設無料、つみたてNISA対応のインデックスファンドが充実。</p>
+        <a href="/productivity-works-blog/ja/posts/新nisa-始め方-手順/" class="cta-btn">新NISAの始め方ガイドを読む</a>
+      </div>
+    </div>
+
+    <!-- Related articles -->
+    <div class="card">
+      <h2>関連記事</h2>
+      <ul style="padding-left:1.2rem; font-size:0.9rem; line-height:2;">
+        <li><a href="/productivity-works-blog/ja/posts/新nisa-始め方-手順/">新NISA 始め方・手順を完全解説【2026年最新版】</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/nisa-osusume-meigara-2026/">NISA おすすめ銘柄 2026年版</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/積立nisa-毎月いくら-平均/">積立NISA 毎月いくら積み立てるべき？</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/インデックスファンド-種類-比較/">インデックスファンド 種類と比較</a></li>
+        <li><a href="/productivity-works-blog/ja/posts/nisa-枠-使い切れない-どうする/">NISA枠を使い切れない場合どうする？</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><a href="/productivity-works-blog/ja/">Productivity Works</a> | 生産性向上・副業・AI活用の実践情報メディア</p>
+  <p style="margin-top:0.5rem;">本シミュレーションは概算です。実際の運用成績は異なります。投資は元本割れのリスクがあります。</p>
+  <p style="margin-top:0.25rem;">Copyright 2026 Productivity Works. All rights reserved.</p>
+</div>
+
+<script>
+let chartInstance = null;
+
+function applyPreset(monthly, rate, years) {
+  document.getElementById('monthly').value = monthly;
+  document.getElementById('rate').value = rate;
+  document.getElementById('years').value = years;
+  simulate();
+}
+
+function formatYen(n) {
+  if (n >= 100000000) return (n / 100000000).toFixed(1).replace(/\.0$/, '') + '億円';
+  if (n >= 10000) return Math.round(n / 10000).toLocaleString() + '万円';
+  return Math.round(n).toLocaleString() + '円';
+}
+
+function formatYenTable(n) {
+  return Math.round(n).toLocaleString() + '円';
+}
+
+function simulate() {
+  const monthly = parseInt(document.getElementById('monthly').value) || 0;
+  const bonus = parseInt(document.getElementById('bonus').value) || 0;
+  const rate = parseFloat(document.getElementById('rate').value) || 0;
+  const years = parseInt(document.getElementById('years').value) || 0;
+  const initial = parseInt(document.getElementById('initial').value) || 0;
+  const taxtype = document.getElementById('taxtype').value;
+
+  if (monthly <= 0 || years <= 0) return;
+
+  const monthlyRate = rate / 100 / 12;
+  const yearlyInvest = monthly * 12 + bonus * 2;
+  const taxRate = taxtype === 'nisa' ? 0 : 0.20315;
+
+  // NISA lifetime cap check
+  const lifetimeCap = 18000000;
+
+  let balance = initial;
+  let totalInvested = initial;
+  const yearData = [];
+  const investedArr = [initial];
+  const balanceArr = [initial];
+  const labels = ['0'];
+
+  for (let y = 1; y <= years; y++) {
+    let yearInvest = 0;
+    for (let m = 1; m <= 12; m++) {
+      let contribution = monthly;
+      if (m === 6 || m === 12) contribution += bonus;
+
+      // Check NISA lifetime cap
+      if (taxtype === 'nisa' && (totalInvested + contribution - initial) > lifetimeCap) {
+        contribution = Math.max(0, lifetimeCap - (totalInvested - initial));
+      }
+
+      balance = (balance + contribution) * (1 + monthlyRate);
+      totalInvested += contribution;
+      yearInvest += contribution;
+    }
+
+    const profit = balance - totalInvested;
+    const afterTaxProfit = profit * (1 - taxRate);
+    const afterTaxBalance = totalInvested + afterTaxProfit;
+
+    yearData.push({
+      year: y,
+      invested: yearInvest,
+      cumInvested: totalInvested,
+      profit: afterTaxProfit,
+      total: afterTaxBalance
+    });
+
+    labels.push(y + '年');
+    investedArr.push(totalInvested);
+    balanceArr.push(afterTaxBalance);
+  }
+
+  const finalData = yearData[yearData.length - 1];
+
+  // Update summary
+  document.getElementById('totalInvested').textContent = formatYen(finalData.cumInvested);
+  document.getElementById('totalProfit').textContent = '+' + formatYen(finalData.profit);
+  document.getElementById('totalAsset').textContent = formatYen(finalData.total);
+  document.getElementById('profitNote').textContent = taxtype === 'nisa' ? '非課税' : '税引後 (20.315%)';
+  const returnPct = ((finalData.total / finalData.cumInvested - 1) * 100).toFixed(1);
+  document.getElementById('assetNote').textContent = '元本の' + (finalData.total / finalData.cumInvested).toFixed(2) + '倍 (+' + returnPct + '%)';
+
+  // Update table
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = yearData.map(d => `
+    <tr>
+      <td>${d.year}年目</td>
+      <td>${formatYenTable(d.invested)}</td>
+      <td>${formatYenTable(d.cumInvested)}</td>
+      <td style="color:#059669">+${formatYenTable(d.profit)}</td>
+      <td style="font-weight:600">${formatYenTable(d.total)}</td>
+    </tr>
+  `).join('');
+
+  // Update chart
+  if (chartInstance) chartInstance.destroy();
+  const ctx = document.getElementById('chart').getContext('2d');
+  chartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: '投資元本',
+          data: investedArr,
+          backgroundColor: 'rgba(30, 58, 138, 0.7)',
+          borderRadius: 3,
+          order: 2
+        },
+        {
+          label: '運用益',
+          data: balanceArr.map((v, i) => Math.max(0, v - investedArr[i])),
+          backgroundColor: 'rgba(16, 185, 129, 0.7)',
+          borderRadius: 3,
+          order: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.dataset.label + ': ' + Math.round(context.raw).toLocaleString() + '円';
+            }
+          }
+        }
+      },
+      scales: {
+        x: { stacked: true, grid: { display: false } },
+        y: {
+          stacked: true,
+          ticks: {
+            callback: function(v) {
+              if (v >= 100000000) return (v/100000000).toFixed(0) + '億';
+              if (v >= 10000) return (v/10000).toFixed(0) + '万';
+              return v;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Share links
+  const shareText = `新NISAシミュレーション結果:\n月${monthly.toLocaleString()}円 × ${years}年（利回り${rate}%）\n→ 最終資産: ${formatYen(finalData.total)}（運用益+${formatYen(finalData.profit)}）`;
+  const shareUrl = window.location.href;
+  document.getElementById('shareX').href = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+  document.getElementById('shareLine').href = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`;
+
+  // Show results
+  document.getElementById('results').classList.remove('hidden');
+  document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function copyResult() {
+  const invested = document.getElementById('totalInvested').textContent;
+  const profit = document.getElementById('totalProfit').textContent;
+  const total = document.getElementById('totalAsset').textContent;
+  const monthly = document.getElementById('monthly').value;
+  const rate = document.getElementById('rate').value;
+  const years = document.getElementById('years').value;
+  const text = `【新NISAシミュレーション結果】\n月${parseInt(monthly).toLocaleString()}円 × ${years}年（利回り${rate}%）\n投資元本: ${invested}\n運用益: ${profit}\n最終資産: ${total}\nhttps://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/`;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.share-btn.copy');
+    btn.textContent = 'コピーしました!';
+    setTimeout(() => { btn.textContent = '結果をコピー'; }, 2000);
+  });
+}
+
+// Run default simulation on load
+window.addEventListener('DOMContentLoaded', simulate);
+</script>
+</body>
+</html>

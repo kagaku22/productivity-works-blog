@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>無料ツール一覧 | Productivity Works</title>
+<meta name="description" content="Productivity Worksの無料Webツール。NISAシミュレーター、複利計算機など、投資・資産運用に役立つ計算ツールを提供。">
+<link rel="canonical" href="https://kagaku22.github.io/productivity-works-blog/tools/">
+<style>
+:root { --primary: #1e3a8a; --primary-light: #3b82f6; --bg: #f8fafc; --card: #fff; --text: #1e293b; --text-light: #64748b; --border: #e2e8f0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.header { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; padding: 2.5rem 1rem; text-align: center; }
+.header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.header p { opacity: 0.9; max-width: 500px; margin: 0 auto; }
+.brand-link { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.8rem; display: inline-block; margin-top: 0.75rem; }
+.container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+.tool-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+@media (max-width: 600px) { .tool-grid { grid-template-columns: 1fr; } }
+.tool-card {
+  background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  overflow: hidden; text-decoration: none; color: var(--text); transition: transform 0.2s, box-shadow 0.2s;
+}
+.tool-card:hover { transform: translateY(-3px); box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+.tool-card img { width: 100%; height: 160px; object-fit: cover; }
+.tool-card .body { padding: 1rem; }
+.tool-card h2 { font-size: 1.1rem; margin-bottom: 0.3rem; color: var(--primary); }
+.tool-card p { font-size: 0.85rem; color: var(--text-light); }
+.tool-card .badge { display: inline-block; background: #dcfce7; color: #166534; font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px; margin-bottom: 0.5rem; }
+.footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.8rem; }
+.footer a { color: var(--primary-light); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>無料Webツール</h1>
+  <p>投資・資産運用・家計管理に役立つ計算ツールを無料で提供しています。</p>
+  <a href="/productivity-works-blog/ja/" class="brand-link">Productivity Works トップへ</a>
+</div>
+<div class="container">
+  <div class="tool-grid">
+    <a href="/productivity-works-blog/tools/nisa-simulator/" class="tool-card">
+      <img src="/productivity-works-blog/images/covers/nisa-simulator-og.png" alt="新NISAシミュレーター">
+      <div class="body">
+        <span class="badge">無料</span>
+        <h2>新NISAシミュレーター</h2>
+        <p>毎月の積立額と利回りを入力して、新NISAでの資産推移をグラフで確認。つみたて枠・成長投資枠対応。</p>
+      </div>
+    </a>
+    <a href="/productivity-works-blog/tools/fukuri-calculator/" class="tool-card">
+      <img src="/productivity-works-blog/images/covers/fukuri-calculator-og.png" alt="複利計算シミュレーター">
+      <div class="body">
+        <span class="badge">無料</span>
+        <h2>複利計算シミュレーター</h2>
+        <p>元本・積立額・利回り・期間から複利効果を計算。単利との差もグラフで比較できます。</p>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="footer">
+  <p><a href="/productivity-works-blog/ja/">Productivity Works</a> | 生産性向上・副業・AI活用の実践情報メディア</p>
+</div>
+</body>
+</html>
