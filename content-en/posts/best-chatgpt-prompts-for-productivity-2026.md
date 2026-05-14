@@ -236,7 +236,7 @@ A: Add constraints. Specify tone, word count, format, and audience. The more spe
 A: For regular professionals, yes. The speed improvement, access to advanced models, and image generation features more than pay for themselves in time saved.
 
 **Q: How do I handle sensitive information in prompts?**
-A: Never paste real names, financial data, or confidential business details into ChatGPT unless you're using an enterprise version with data privacy controls. Use placeholders like [CLIENT NAME] instead.
+A: Never paste real names, financial data, or confidential business details into ChatGPT unless you're using an enterprise version with data privacy controls. Use generic descriptions like "a mid-size client in the retail sector" instead of real names.
 
 **Q: How many prompts should I save in my library?**
 A: Start with 10–15 core prompts for your most common tasks. Quality over quantity. A focused library of 20 perfect prompts beats a cluttered folder of 200.

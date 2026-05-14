@@ -90,11 +90,11 @@ Hi Sarah! Max's appointment is coming up: Tuesday, June 10 at 10:30 AM at Sunshi
 Use this prompt when a patient is overdue for a wellness exam or vaccine:
 
 ```
-Write a friendly, non-judgmental reminder message for a pet owner whose [dog/cat] named [Pet Name] is overdue for their [annual wellness exam / rabies vaccine / heartworm test / dental cleaning — specify].
+Write a friendly, non-judgmental reminder message for a pet owner whose dog named Max is overdue for their annual wellness exam.
 
 The message should:
 - Be warm and conversational, not guilt-inducing
-- Explain briefly why this care matters for [Pet Name]'s health
+- Explain briefly why this care matters for Max's health
 - Make it easy to book (include a simple call to action)
 - Be appropriate for email — 3-4 short paragraphs max
 
@@ -137,7 +137,7 @@ Sunshine Veterinary Clinic
 ### Template 5: Post-Surgery Follow-Up (AI-Generated)
 
 ```
-Write a post-surgery follow-up email for a pet owner whose [dog/cat] named [Pet Name] just had [type of procedure — e.g., "a routine spay / dental extractions / ACL repair"].
+Write a post-surgery follow-up email for a pet owner whose dog named Cooper just had a routine dental cleaning with two extractions.
 
 Include:
 - A warm opening acknowledging that surgery is stressful for pet owners
@@ -157,10 +157,10 @@ Clinic name: [name], Phone: [number]
 For patients with ongoing conditions (diabetes, Cushing's, heart disease, osteoarthritis), a periodic check-in message builds trust and catches problems early.
 
 ```
-Write a 3-month check-in message for a pet owner managing a dog/cat named [Pet Name] with [condition — e.g., "diabetes / hypothyroidism / early-stage kidney disease"].
+Write a 3-month check-in message for a pet owner managing a cat named Whiskers with early-stage kidney disease.
 
 The message should:
-- Acknowledge the owner's ongoing commitment to managing [Pet Name]'s condition
+- Acknowledge the owner's ongoing commitment to managing Whiskers's condition
 - Ask 3-4 specific check-in questions relevant to the condition (e.g., for diabetes: appetite changes, water intake, energy level, any hypoglycemic episodes)
 - Remind them of their next scheduled recheck date
 - Offer a brief window for a phone consult if they have concerns
@@ -232,7 +232,7 @@ Clinic: [name], Phone: [number]
 ### Template 10: Weight Management Program Instructions
 
 ```
-Write a customized weight management instruction sheet for a pet owner whose [dog/cat] named [Pet Name] is starting a weight loss program.
+Write a customized weight management instruction sheet for a pet owner whose Labrador named Buddy is starting a weight loss program.
 
 Details:
 - Current weight: [X lbs]
@@ -243,7 +243,7 @@ Details:
 - Exercise recommendations: [X minutes/day, activity type appropriate for condition]
 - Recheck schedule: every [X weeks]
 
-Tone: motivating and positive — frame this as an investment in [Pet Name]'s quality and length of life, not a punishment. Acknowledge that pets love to eat and this will require commitment from the whole household.
+Tone: motivating and positive — frame this as an investment in Buddy's quality and length of life, not a punishment. Acknowledge that pets love to eat and this will require commitment from the whole household.
 
 Include a brief "tips for success" section with 4-5 practical suggestions.
 ```
@@ -304,9 +304,9 @@ Clinic name: [name], Phone/booking: [details]
 This is one of the most important communications a veterinary clinic sends. Done well, it creates a lasting bond with the client. Done poorly or not at all, it leaves a void at the moment a client is most vulnerable.
 
 ```
-Write a sincere condolence message for a pet owner who recently lost their [dog/cat] named [Pet Name].
+Write a sincere condolence message for a pet owner who recently lost their Golden Retriever named Charlie.
 
-[Pet Name] passed away [at our clinic after / at home after / unexpectedly]. [Add any context you have — e.g., "We had the honor of caring for [Pet Name] for the past 8 years."]
+Charlie passed away peacefully at our clinic after a long battle with cancer. We had the honor of caring for Charlie for the past 12 years.
 
 The message should:
 - Open with the pet's name and a specific acknowledgment (not generic sympathy)
@@ -324,7 +324,7 @@ From: [Vet name and clinic name]
 ### Template 14: Euthanasia Appointment Confirmation and Preparation
 
 ```
-Write a compassionate message to a pet owner confirming a euthanasia appointment for their [dog/cat] named [Pet Name].
+Write a compassionate message to a pet owner confirming a euthanasia appointment for their cat named Oliver.
 
 This message must:
 - Acknowledge this is an incredibly difficult time without being maudlin

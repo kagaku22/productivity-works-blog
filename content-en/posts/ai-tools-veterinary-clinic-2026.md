@@ -65,8 +65,7 @@ The goal is to build a set of templates for every routine communication scenario
 Write a warm, professional welcome message to send to new
 clients before their first visit to our veterinary clinic.
 The message should:
-- Welcome them and their pet by name (use [CLIENT NAME]
-  and [PET NAME] as placeholders)
+- Welcome them and their pet by name (e.g., "Hi Sarah, we're looking forward to meeting Coco\!")
 - Confirm their appointment details
 - Explain what to bring (records, medications, pet in carrier
   if cat/small animal)
@@ -75,13 +74,12 @@ The message should:
 - Give our contact information for questions
 - Sign off warmly with our clinic name
 
-Clinic name: [CLINIC NAME]
-Clinic address: [ADDRESS]
-Phone: [PHONE]
-Appointment reminder: [DATE] at [TIME]
-Staff contact: [NAME]
-Clinic personality/vibe: [FRIENDLY AND RELAXED / PROFESSIONAL /
-FEAR FREE CERTIFIED / ETC.]
+Clinic name: Sunshine Veterinary Clinic
+Clinic address: 123 Main Street
+Phone: (555) 234-7890
+Appointment reminder: Thursday, March 15 at 2:00 PM
+Staff contact: Dr. Emily Hartman
+Clinic personality/vibe: Friendly and relaxed, Fear Free Certified
 ```
 
 ### ChatGPT Prompt 2: Appointment Reminder (SMS/Short Version)
@@ -97,8 +95,7 @@ Versions needed:
 2. Professional and straightforward
 3. With a light touch of humor appropriate for a pet clinic
 
-Include placeholders: [CLIENT NAME], [PET NAME], [DATE],
-[TIME], [CLINIC PHONE], [CLINIC NAME]
+Use these example details: client Sarah, pet Coco, your clinic name and phone number
 ```
 
 ### ChatGPT Prompt 3: Post-Appointment Follow-Up (Wellness Visit)
@@ -107,17 +104,13 @@ Include placeholders: [CLIENT NAME], [PET NAME], [DATE],
 Write a follow-up email to send 24 hours after a routine
 wellness appointment. The message should:
 - Thank them for coming in
-- Briefly recap what was done (use placeholders for
-  specific procedures)
+- Briefly recap what was done (e.g., "annual wellness exam and vaccinations")
 - Remind them of any at-home care instructions discussed
 - Let them know when to schedule the next visit
 - Invite them to call if they have any concerns
 - Be warm and personal, not form-letter feeling
 
-Placeholders to include:
-[CLIENT NAME], [PET NAME], [PET SPECIES],
-[PROCEDURES PERFORMED], [VET NAME], [NEXT VISIT TIMEFRAME],
-[CLINIC NAME], [CLINIC PHONE]
+Fill in your client name, pet name, species, procedures performed, vet name, next visit timeframe, clinic name, and phone number
 ```
 
 ### ChatGPT Prompt 4: Post-Surgery/Procedure Care Reminder
@@ -125,17 +118,15 @@ Placeholders to include:
 ```
 Write a post-surgery follow-up email for a pet who just
 had a procedure at our clinic. The message should:
-- Express that we're thinking of [PET NAME] and hope
+- Express that we're thinking of the pet and hope
   they're recovering well
 - List the most important post-operative care reminders
-  (use [POST-OP INSTRUCTIONS] placeholder — we'll fill in specifics)
+  (list specific post-op care steps for the procedure)
 - List warning signs that should prompt an immediate call to us
 - Provide clear instructions for follow-up appointment scheduling
 - Be reassuring without being overly casual about surgery
 
-Use placeholders: [CLIENT NAME], [PET NAME], [PROCEDURE],
-[POST-OP INSTRUCTIONS], [FOLLOW-UP DATE], [EMERGENCY CONTACT],
-[CLINIC NAME]
+Fill in your client name, pet name, procedure details, post-op instructions, follow-up date, emergency contact, and clinic name
 ```
 
 ### ChatGPT Prompt 5: Overdue Vaccination Reminder
@@ -150,9 +141,7 @@ are overdue. The message should:
 - Mention if there's a reminder call or text option
 - Keep it under 150 words
 
-Include placeholders: [CLIENT NAME], [PET NAME],
-[OVERDUE VACCINE(S)], [LAST VISIT DATE], [BOOKING LINK OR PHONE],
-[CLINIC NAME]
+Fill in your client name, pet name, overdue vaccines, last visit date, booking link or phone, and clinic name
 ```
 
 ### ChatGPT Prompt 6: Condolence Message After Pet Loss
@@ -166,11 +155,10 @@ after the loss of their pet. The tone should be:
 - Offer support without pressure
 
 Include a hand-signed feel (even if it's sent digitally).
-Mention that we'll keep [PET NAME]'s records should they
+Mention that we'll keep the pet's records should they
 ever wish to welcome another pet into their family.
 
-Placeholder: [CLIENT NAME], [PET NAME], [PET SPECIES],
-[VET/STAFF NAME], [CLINIC NAME]
+Fill in your client name, pet name, species, vet name, and clinic name
 
 Keep it under 100 words. This should feel handwritten.
 ```
@@ -182,15 +170,14 @@ Write a follow-up email to send after a client receives
 a serious or terminal diagnosis for their pet. The message should:
 - Acknowledge that this is difficult news
 - Briefly summarize the next steps or options discussed
-  (use placeholders for specifics)
+  (fill in the specific diagnosis and options)
 - Offer resources (palliative care, quality of life scales,
   grief support)
 - Reassure them that we are their partner through this
 - Invite them to call anytime with questions
 - Be compassionate, clear, and free of jargon
 
-Placeholders: [CLIENT NAME], [PET NAME], [DIAGNOSIS PLACEHOLDER],
-[NEXT STEPS DISCUSSED], [VET NAME], [CLINIC PHONE]
+Fill in your client name, pet name, diagnosis, next steps discussed, vet name, and clinic phone
 ```
 
 ---
@@ -206,10 +193,10 @@ AI is excellent at generating first drafts of pet care guides that your veterina
 ### ChatGPT Prompt 8: Seasonal Pet Care Guide
 
 ```
-Write a pet care guide for [SEASON] for our veterinary clinic's
+Write a pet care guide for spring for our veterinary clinic's
 newsletter and website. Include:
-- Top [SEASON]-specific health risks for dogs and cats
-  (and add [OTHER SPECIES] if applicable)
+- Top spring-specific health risks for dogs and cats
+  (and add rabbits and birds if applicable)
 - Preventive steps clients can take at home
 - Signs that warrant a vet visit
 - Clinic reminder (seasonal wellness appointments,
@@ -218,9 +205,8 @@ newsletter and website. Include:
 Keep it practical and in plain English — no medical jargon.
 Target length: 400-500 words.
 
-Clinic location/climate: [REGION — affects relevant risks]
-Species your clinic sees most: [DOGS AND CATS / EXOTIC ANIMALS /
-MIXED PRACTICE]
+Clinic location/climate: Pacific Northwest — mild, wet climate
+Species your clinic sees most: dogs, cats, and small mammals
 ```
 
 ### ChatGPT Prompt 9: New Pet Owner Welcome Guide (Dog)
@@ -242,7 +228,7 @@ Include sections on:
 
 Write in a warm, encouraging tone for excited new pet owners.
 Use clear headers. Target length: 600-800 words.
-Clinic name: [CLINIC NAME]
+Clinic name: Sunshine Veterinary Clinic
 ```
 
 ### ChatGPT Prompt 10: Discharge Instructions (Post-Neuter — Male Dog)
@@ -259,8 +245,8 @@ should:
 - Be organized with clear headers and bullet points
 - Fit on one page (approximately 350-400 words)
 
-Have placeholders for: [PET NAME], [FOLLOW-UP DATE],
-[EMERGENCY PHONE], [CLINIC NAME]
+Include fields for: pet name, follow-up date,
+[EMERGENCY PHONE], Sunshine Veterinary Clinic
 
 Note: This draft must be reviewed by a licensed DVM
 before clinic use.
@@ -305,8 +291,8 @@ appointment without canceling. The tone should be:
 Include options: reply to this message, call us,
 or book online.
 
-Placeholders: [CLIENT NAME], [PET NAME], [MISSED APPOINTMENT DATE],
-[BOOKING LINK OR PHONE], [CLINIC NAME]
+Include fields for: client name, pet name, missed appointment date,
+[BOOKING LINK OR PHONE], Sunshine Veterinary Clinic
 ```
 
 ### ChatGPT Prompt 13: Appointment Confirmation With Prep Instructions
@@ -358,7 +344,7 @@ Common inquiries to cover:
 9. "Do I need an appointment for a nail trim?"
 10. "My pet is limping but acting normal — should I worry?"
 
-Clinic name: [CLINIC NAME]
+Clinic name: Sunshine Veterinary Clinic
 After-hours emergency contact: [NUMBER OR EMERGENCY CLINIC NAME]
 ```
 
@@ -381,7 +367,7 @@ veterinary clinic. Each day should have:
 Include a variety of content types:
 - Educational pet health tips
 - "Did you know?" facts
-- Pet photos with captions (use "[PATIENT PHOTO]" placeholder)
+- Pet photos with captions (add your own patient photos)
 - Staff spotlights
 - Before/after wellness stories
 - Seasonal health reminders
@@ -391,9 +377,9 @@ Include a variety of content types:
 - Community involvement/charity content
 
 Month: [MONTH]
-Season: [SEASON]
+Season: spring
 Any upcoming events: [AWARENESS MONTHS, HOLIDAYS, CLINIC EVENTS]
-Clinic name: [CLINIC NAME]
+Clinic name: Sunshine Veterinary Clinic
 Clinic social handles: [@HANDLE]
 Clinic personality: [WARM AND HUMOROUS / PROFESSIONAL /
 FEAR FREE FOCUSED / ETC.]
@@ -414,7 +400,7 @@ UNDERSTANDING PET INSURANCE]
 
 Chosen topic: [YOUR TOPIC]
 Target audience: [DOG OWNERS / CAT OWNERS / ALL PET OWNERS]
-Clinic name: [CLINIC NAME]
+Clinic name: Sunshine Veterinary Clinic
 CTA: [BOOK AN APPOINTMENT / LEARN MORE ON OUR WEBSITE / CALL US]
 
 Note: Have a DVM review before posting if the content
@@ -451,7 +437,7 @@ satisfied clients to leave a Google review for our clinic.
 Each version should:
 - Feel personal, not automated
 - Make leaving a review sound easy
-- Include the Google review link placeholder
+- Include your Google review link
 - Be under 100 words each
 - Not offer incentives (which violates Google's policies)
 
@@ -460,7 +446,7 @@ Version tones:
 2. Brief and casual (for text)
 3. Slightly more formal (for email)
 
-Clinic name: [CLINIC NAME]
+Clinic name: Sunshine Veterinary Clinic
 Google review link: [URL]
 ```
 
