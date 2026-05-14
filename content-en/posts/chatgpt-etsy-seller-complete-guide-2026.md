@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for Etsy Sellers: Product Descriptions, SEO Tags & Marketing (2026)"
+title: "ChatGPT for Etsy Sellers: Descriptions, SEO & Marketing 2026"
 date: 2026-04-02
 slug: "chatgpt-etsy-seller-complete-guide-2026"
 description: "The complete guide to using ChatGPT for your Etsy shop. Includes 20+ prompts for product titles, descriptions, SEO tags, social media marketing, and."

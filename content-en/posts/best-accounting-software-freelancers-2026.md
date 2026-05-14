@@ -1,5 +1,5 @@
 ---
-title: "Best Accounting Software for Freelancers 2026: Invoicing, Expenses & Taxes"
+title: "Best Accounting Software for Freelancers 2026: Full Compare"
 date: 2026-05-02
 draft: false
 slug: "best-accounting-software-freelancers-2026"

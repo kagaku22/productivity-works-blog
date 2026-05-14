@@ -1,5 +1,5 @@
 ---
-title: "Best Forex Brokers 2026: Compare Platforms for Beginners & Active Traders"
+title: "Best Forex Brokers 2026: Platforms for Beginners & Traders"
 date: 2026-05-08
 draft: false
 slug: "best-forex-brokers-2026"

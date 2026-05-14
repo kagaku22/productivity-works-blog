@@ -1,5 +1,5 @@
 ---
-title: "AI Tools for Veterinary Clinics: Streamline Operations & Client Communication (2026)"
+title: "AI Tools for Veterinary Clinics: Streamline Operations (2026)"
 date: 2026-04-30
 slug: "ai-tools-veterinary-clinic-2026"
 description: "A practical guide for veterinary clinic owners and staff on using AI to improve client communication, appointment reminders, pet care content, social."

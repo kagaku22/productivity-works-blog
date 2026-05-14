@@ -1,5 +1,5 @@
 ---
-title: "How to Track Food Costs with AI: A Small Restaurant Owner's Guide (2026)"
+title: "Track Food Costs with AI: Restaurant Owner Guide (2026)"
 date: 2026-05-09
 slug: "ai-restaurant-food-cost-tracking-2026"
 description: "A practical guide for small restaurant owners on using AI and ChatGPT to track food costs, calculate waste, manage inventory, and price menu items for."

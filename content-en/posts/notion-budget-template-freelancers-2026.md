@@ -1,5 +1,5 @@
 ---
-title: "Notion Budget Template for Freelancers 2026: Track Income, Expenses, and Taxes in One Place"
+title: "Notion Budget Template for Freelancers 2026: Track All Finances"
 date: 2026-02-18
 draft: false
 author: "Productivity Works Editorial"

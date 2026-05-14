@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Resume Tips for Career Changers Over 50: Turn Experience Into Your Advantage"
+title: "ChatGPT Resume Tips for Career Changers Over 50 (2026)"
 date: 2026-03-26
 slug: "chatgpt-resume-over-50-career-change"
 description: "How to use ChatGPT to write a powerful resume when you're over 50 and changing careers. Covers reframing decades of experience, age-positive language."

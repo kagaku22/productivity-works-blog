@@ -1,5 +1,5 @@
 ---
-title: "Best Internet Service Providers 2026: Speed, Price & Reliability Compared"
+title: "Best Internet Service Providers 2026: Speed & Price Compared"
 date: 2026-05-05
 draft: false
 slug: "best-internet-service-providers-2026"

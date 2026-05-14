@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Prompts for Real Estate Agents: 30 Ready-to-Use Templates (2026)"
+title: "ChatGPT Prompts for Real Estate Agents: 30 Templates (2026)"
 date: 2026-03-28
 slug: "chatgpt-real-estate-agent-prompts-2026"
 description: "Supercharge your real estate business with 30 copy-paste ChatGPT prompts for property descriptions, client emails, market analysis, listing presentations."

@@ -1,5 +1,5 @@
 ---
-title: "Best AI Tools for Real Estate Agents in 2026: The Complete Industry Guide"
+title: "Best AI Tools for Real Estate Agents 2026: Complete Guide"
 date: 2026-05-04
 draft: false
 author: "Productivity Works Editorial"
