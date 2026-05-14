@@ -1,0 +1,12 @@
+{{- /* Footer ads — activated when ad slot IDs are set in config.toml [params] */ -}}
+
+{{- /* Ninja AdMax — no-approval ad network, immediate revenue */ -}}
+{{- with site.Params.ninjaAdmaxId }}
+<div class="ad-container" style="text-align:center;margin:1.5rem 0;">
+<script type="text/javascript">
+var admaxads = admaxads || [];
+admaxads.push({admax_id: "{{ . }}", type: "banner"});
+</script>
+<script type="text/javascript" charset="utf-8" src="https://adm.shinobi.jp/st/t.js" async></script>
+</div>
+{{- end }}
