@@ -1,5 +1,5 @@
 ---
-title: ChatGPT API初心者向け完全ガイド【2026年版・コピペで動くサンプルコード付き】
+title: "ChatGPT API初心者向け完全ガイド【2026年版・サンプルコード付き】"
 date: 2026-04-19
 draft: false
 slug: chatgpt-api-使い方-初心者

@@ -1,5 +1,5 @@
 ---
-title: "AI英語学習おすすめアプリ2026年版【比較ランキング・無料あり】初心者から上級者まで"
+title: "AI英語学習おすすめアプリ2026年版【比較ランキング・無料あり】"
 date: 2026-05-09
 slug: "ai-eigo-gakushu-osusume-app-2026"
 description: "AI英語学習アプリのおすすめを2026年版で徹底比較。Duolingo・スタディサプリ・Elsa Speak・ChatGPT活用法まで、目的別に最適なアプリを紹介します。"
