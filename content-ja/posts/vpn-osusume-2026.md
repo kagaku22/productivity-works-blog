@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/vpn-osusume-2026.png"
+  alt: "VPN おすすめ2026年版！用途別に比較【初心者向けガイド】"
+  relative: false
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
