@@ -98,7 +98,7 @@ Power Query (Data > Get & Transform in Excel) is the most underutilized high-val
 
 Professionals who know Power Query take on projects others can't complete quickly. That visibility leads to recognition and promotion.
 
-**Where to learn:** Microsoft's own Power Query documentation is good. "Leila Gharani" on YouTube has excellent free tutorials. [AFFILIATE_LINK_HERE — Excel learning course with Power Query module]
+**Where to learn:** Microsoft's own Power Query documentation is good. "Leila Gharani" on YouTube has excellent free tutorials.
 
 ---
 
@@ -158,8 +158,8 @@ For finance, accounting, FP&A, and consulting roles, financial modeling is the s
 - Clear labeling of every section
 - Consistent formatting (blue font for hard-coded inputs is the universal convention)
 
-[AFFILIATE_LINK_HERE — Wall Street Prep financial modeling course]
-[AFFILIATE_LINK_HERE — CFI financial modeling fundamentals]
+[Wall Street Prep financial modeling course at wallstreetprep.com]
+[CFI financial modeling course at corporatefinanceinstitute.com]
 
 ---
 
@@ -225,8 +225,8 @@ These are lifetime effects, not single-year effects. A $15,000 salary increase a
 
 Set aside 30–45 minutes, three days per week. Most people reach solid intermediate proficiency in 90 days with this schedule. Advanced proficiency takes 6–12 months of regular application.
 
-[AFFILIATE_LINK_HERE — Excel with Business certificate course]
-[AFFILIATE_LINK_HERE — Chandoo Excel courses]
+[Excel with Business certificate at excelwithbusiness.com]
+[Chandoo Excel courses at chandoo.org]
 
 ---
 

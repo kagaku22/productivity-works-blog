@@ -58,7 +58,7 @@ Slack remains the dominant team messaging platform for good reason. The channel 
 
 The tool is only as good as the norms around it. Teams that win with Slack define response time expectations explicitly (e.g., "respond within 4 hours during work hours") and default to public channels over DMs.
 
-[AFFILIATE_LINK_HERE — Slack Pro plan]
+[Upgrade to Slack Pro at slack.com/pricing]
 
 **Alternative: Discord** — Better for smaller, informal teams or those with voice-heavy workflows. Free tier is generous. Less suited to enterprise environments.
 
@@ -76,7 +76,7 @@ Loom lets you record a screen + camera video and share a link within seconds. Fo
 
 **Realistic impact:** Teams that use async video effectively report 20–30% fewer scheduled meetings. For remote teams across multiple time zones, async video is often the only viable alternative to meetings that work for nobody's schedule.
 
-[AFFILIATE_LINK_HERE — Loom Business plan]
+[Upgrade to Loom Business at loom.com/pricing]
 
 ---
 
@@ -108,7 +108,7 @@ Notion functions as project management, documentation, and team wiki simultaneou
 
 **Limitations:** Requires intentional setup; out-of-box templates need customization. Can become disorganized without clear ownership.
 
-[AFFILIATE_LINK_HERE — Notion Plus plan]
+[Upgrade to Notion Plus at notion.so/pricing]
 
 ---
 
@@ -167,7 +167,7 @@ Reclaim.ai connects to your calendar and automatically schedules focus time, hab
 
 **Best feature:** Habit scheduling that automatically finds the best time for recurring tasks (gym, reading, writing blocks) based on your calendar and priorities.
 
-[AFFILIATE_LINK_HERE — Reclaim.ai subscription]
+[Try Reclaim.ai at reclaim.ai]
 
 ---
 
@@ -177,7 +177,7 @@ Freedom blocks distracting websites and apps across all your devices simultaneou
 
 **The productivity case:** Research on knowledge workers consistently shows that context switching — checking your phone or a website mid-task — adds 20–30 minutes to the time required to complete cognitive work. Freedom makes that context switching structurally difficult.
 
-[AFFILIATE_LINK_HERE — Freedom premium plan]
+[Try Freedom at freedom.to]
 
 ---
 
@@ -198,8 +198,8 @@ Remote work creates security vulnerabilities that office environments manage aut
 A VPN (Virtual Private Network) encrypts your internet traffic, protecting sensitive work data when you're not on a trusted network. Non-negotiable if you ever work from coffee shops, coworking spaces, hotels, or anywhere outside your home.
 
 **Recommended options:**
-- **NordVPN** — Fast, reliable, large server network [AFFILIATE_LINK_HERE]
-- **ExpressVPN** — Consistently fast, good apps for all platforms [AFFILIATE_LINK_HERE]
+- **NordVPN** — Fast, reliable, large server network
+- **ExpressVPN** — Consistently fast, good apps for all platforms
 - **Mullvad** — Best privacy credentials, slightly fewer features
 
 ---
@@ -214,7 +214,7 @@ Password reuse is the most common cause of account compromises in remote teams. 
 
 **Alternative: Bitwarden** — Open-source, cheaper, slightly less polished. The free individual tier is genuinely functional.
 
-[AFFILIATE_LINK_HERE — 1Password Teams subscription]
+[Try 1Password Teams at 1password.com]
 
 ---
 

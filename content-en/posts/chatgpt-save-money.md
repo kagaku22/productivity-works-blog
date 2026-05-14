@@ -177,7 +177,7 @@ Pick one item from this list — the easiest one — and spend 20 minutes on it 
 
 The goal isn't to become a financial expert. It's to stop leaving money on the table that's already yours.
 
-[AFFILIATE_LINK_HERE — ChatGPT Plus subscription]
+[Upgrade to ChatGPT Plus at openai.com/chatgpt]
 
 ---
 

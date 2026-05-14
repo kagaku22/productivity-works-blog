@@ -62,7 +62,7 @@ YNAB (You Need A Budget) operates on a philosophy rather than just a feature set
 
 Anyone carrying credit card debt, living paycheck to paycheck, or simply tired of wondering where their money went. YNAB users report saving an average of $600 in their first two months.
 
-[AFFILIATE_LINK_HERE — YNAB free 34-day trial]
+(Try YNAB free for 34 days at ynab.com)
 
 ---
 
@@ -86,7 +86,7 @@ Monarch Money was built from the ground up with shared finances in mind. Multipl
 
 Couples who have argued about money. Partners who want transparency without micromanagement. Families consolidating finances under one roof.
 
-[AFFILIATE_LINK_HERE — Monarch Money 7-day free trial]
+(Try Monarch Money free for 7 days at monarchmoney.com)
 
 ---
 
@@ -110,7 +110,7 @@ Copilot is iOS-only, which immediately disqualifies it for many users. If you're
 
 iPhone users who've bounced off clunky budgeting apps before and want something they'll actually open every day.
 
-[AFFILIATE_LINK_HERE — Copilot 30-day free trial]
+(Try Copilot free for 30 days at copilot.money)
 
 ---
 

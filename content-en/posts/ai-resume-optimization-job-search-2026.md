@@ -67,7 +67,7 @@ The most important thing your resume can do is match the language of the job pos
 
 Then: identify which of those keywords appear in your resume and which are missing. For keywords that accurately describe your experience but aren't in your current resume, add them using your actual experience.
 
-**Tools that automate this:** Jobscan, Resumeworded, and Teal all compare your resume against job postings and provide an ATS optimization score. [AFFILIATE_LINK_HERE — Jobscan subscription]
+**Tools that automate this:** Jobscan, Resumeworded, and Teal all compare your resume against job postings and provide an ATS optimization score. ([Try Jobscan at jobscan.co](https://jobscan.co))
 
 ### Step 3: Rewrite Bullet Points for Impact
 
@@ -199,8 +199,8 @@ Then practice saying this out loud. If the negotiation happens over the phone, y
 | Salary research | ChatGPT + LinkedIn Salary + Glassdoor |
 | Negotiation email | ChatGPT, Claude |
 
-[AFFILIATE_LINK_HERE — Teal job search platform]
-[AFFILIATE_LINK_HERE — Jobscan resume optimizer]
+[Try Teal free at tealhq.com]
+[Try Jobscan at jobscan.co]
 
 ---
 

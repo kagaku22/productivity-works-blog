@@ -120,7 +120,7 @@ Most first clients come from:
 
 If warm outreach doesn't yield results within 30 days, turn to platforms:
 
-**Upwork** — The largest freelance marketplace. Competitive, but higher-quality clients than Fiverr for most service categories. Requires patience building profile reviews. [AFFILIATE_LINK_HERE]
+**Upwork** — The largest freelance marketplace. Competitive, but higher-quality clients than Fiverr for most service categories. Requires patience building profile reviews.
 
 **LinkedIn** — The best platform for B2B service providers. Optimize your headline and About section for your service, post content consistently, and connect with potential clients directly.
 
@@ -226,8 +226,8 @@ Most people who follow this plan and do the outreach have their first paying cli
 - Don't work with clients who "can't pay now but will when the project succeeds." That's not a client relationship — it's volunteering.
 - Don't work without a contract. A simple one-page agreement covering scope, timeline, payment terms, and revision limits protects both parties.
 
-[AFFILIATE_LINK_HERE — Bonsai freelance contracts and invoicing]
-[AFFILIATE_LINK_HERE — Upwork profile setup]
+[Try Bonsai for contracts and invoicing at hellobonsai.com]
+[Get started on Upwork at upwork.com]
 
 ---
 

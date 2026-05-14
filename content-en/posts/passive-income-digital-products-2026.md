@@ -66,7 +66,7 @@ The main challenge is discoverability — you need traffic, and building traffic
 - Month 6–12: With 20–50 products and optimized listings: $500–$3,000/month
 - Established shops with strong niches: $5,000–$15,000/month
 
-**Tools:** Canva Pro [AFFILIATE_LINK_HERE], Adobe Illustrator, Notion, Google Workspace
+**Tools:** Canva Pro, Adobe Illustrator, Notion, Google Workspace
 
 ---
 
@@ -96,7 +96,7 @@ The main challenge is discoverability — you need traffic, and building traffic
 
 **Using AI:** ChatGPT dramatically speeds up the research and drafting process. A 10,000-word ebook that previously took 40+ hours to write can be drafted in 8–12 hours with AI assistance. You still need editing, fact-checking, and expert perspective — but the blank page problem is solved.
 
-[AFFILIATE_LINK_HERE — Gumroad store setup]
+[Start selling on Gumroad for free at gumroad.com]
 
 ---
 
@@ -115,7 +115,7 @@ The main challenge is discoverability — you need traffic, and building traffic
 
 **Platforms:**
 - Udemy — 50+ million students; competitive but large audience; platform controls pricing
-- Teachable / Kajabi — you own the customer relationship; higher revenue per sale [AFFILIATE_LINK_HERE]
+- Teachable / Kajabi — you own the customer relationship; higher revenue per sale
 - Thinkific — similar to Teachable; good free tier
 - Gumroad — simpler option for shorter courses
 
@@ -176,7 +176,7 @@ The main challenge is discoverability — you need traffic, and building traffic
 - A single popular template: $200–$800/month
 - A library of 10–20 targeted templates: $1,000–$5,000/month
 
-[AFFILIATE_LINK_HERE — Gumroad premium plan]
+[Upgrade to Gumroad premium at gumroad.com]
 
 ---
 

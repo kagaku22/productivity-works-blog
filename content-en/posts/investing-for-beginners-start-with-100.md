@@ -51,7 +51,7 @@ Start five years later, and you lose roughly $40,000 from that final figure. The
 
 Before putting money into the stock market, three things need to be in place:
 
-**Emergency fund:** Keep 1–3 months of expenses in a high-yield savings account before investing. Money you might need in six months doesn't belong in stocks, which can drop 30% in a bad year. [AFFILIATE_LINK_HERE — High-yield savings account comparison]
+**Emergency fund:** Keep 1–3 months of expenses in a high-yield savings account before investing. Money you might need in six months doesn't belong in stocks, which can drop 30% in a bad year. ([Compare high-yield savings accounts](https://payhip.com/productivityworks))
 
 **High-interest debt:** If you're carrying credit card balances at 18–25% APR, paying those down first is a guaranteed 18–25% return. No investment reliably matches that.
 
@@ -107,8 +107,8 @@ You need a place to hold your investments. For beginners, low fees and simplicit
 | Freetrade | UK | £0 | Commission-free, ISA available |
 | Trading 212 | UK | £1 | Fractional shares, commission-free ISA |
 
-[AFFILIATE_LINK_HERE — Fidelity brokerage account]
-[AFFILIATE_LINK_HERE — Trading 212 ISA (UK)]
+[Open a Fidelity brokerage account at fidelity.com — $0 minimum]
+[Open a Trading 212 Stocks and Shares ISA at trading212.com (UK)]
 
 Avoid any brokerage charging per-trade commissions. In 2026, commission-free trading is the baseline standard.
 
@@ -208,8 +208,8 @@ Investing isn't complicated — the financial industry profits from making it se
 
 A $100 investment made today is worth more than a $1,000 investment made next year. The best time to start was ten years ago. The second-best time is today.
 
-[AFFILIATE_LINK_HERE — Fidelity Roth IRA]
-[AFFILIATE_LINK_HERE — Trading 212 Stocks and Shares ISA]
+[Open a Roth IRA at Fidelity — $0 minimum at fidelity.com]
+[Open a Stocks and Shares ISA at Trading 212 (UK)]
 
 ---
 

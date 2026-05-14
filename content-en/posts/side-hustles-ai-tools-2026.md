@@ -42,7 +42,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** $50–$150 per article at entry level. Experienced writers with a niche earn $300–$800+.
 
-**Tools:** ChatGPT Plus, Claude, Grammarly, SurferSEO (for SEO writing) [AFFILIATE_LINK_HERE]
+**Tools:** ChatGPT Plus, Claude, Grammarly, SurferSEO (for SEO writing)
 
 ---
 
@@ -56,7 +56,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** $500–$1,500/month per client for basic management. 3–4 clients = meaningful income.
 
-**Tools:** ChatGPT, Buffer or Later (scheduling), Canva AI [AFFILIATE_LINK_HERE]
+**Tools:** ChatGPT, Buffer or Later (scheduling), Canva AI
 
 ---
 
@@ -82,7 +82,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** Slow start, but passive once established. Top Etsy digital sellers earn $2,000–$10,000+/month. Expect $100–$500/month in the first 3–6 months.
 
-**Tools:** Canva Pro [AFFILIATE_LINK_HERE], Midjourney, EverBee
+**Tools:** Canva Pro, Midjourney, EverBee
 
 ---
 
@@ -112,7 +112,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** $50–$500 per project. Logo packages for small businesses typically run $150–$400.
 
-[AFFILIATE_LINK_HERE — Midjourney subscription]
+[Subscribe to Midjourney at midjourney.com]
 
 ---
 
@@ -158,7 +158,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **How AI helps:** ChatGPT outlines the curriculum, writes scripts for video lessons, creates workbooks and quizzes, and drafts all sales copy. What used to take months to create now takes weeks.
 
-**Where to sell:** Udemy (large audience, lower price point), Teachable or Kajabi (your own audience, higher margin) [AFFILIATE_LINK_HERE].
+**Where to sell:** Udemy (large audience, lower price point), Teachable or Kajabi (your own audience, higher margin).
 
 **Realistic earnings:** Passive income once created. Udemy courses earn $200–$2,000+/month for well-reviewed courses on in-demand topics.
 
@@ -172,7 +172,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** Ad revenue ($2–$10 per 1,000 views) plus affiliate links. Top automation channels earn $5,000–$30,000/month. Expect 12–18 months before significant revenue.
 
-**Tools:** ChatGPT, ElevenLabs [AFFILIATE_LINK_HERE], Pictory or InVideo for video creation
+**Tools:** ChatGPT, ElevenLabs, Pictory or InVideo for video creation
 
 ---
 
@@ -208,7 +208,7 @@ Here are 15 side hustles that genuinely work in 2026, organized by time investme
 
 **Realistic earnings:** $500–$2,000 per audit report. Monthly retainers of $500–$1,500 for ongoing work.
 
-[AFFILIATE_LINK_HERE — SurferSEO]
+[Try SurferSEO at surferseo.com]
 
 ---
 

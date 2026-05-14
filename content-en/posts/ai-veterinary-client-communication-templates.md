@@ -74,14 +74,16 @@ Sunshine Veterinary Clinic | (555) 234-7890 | sunshinevet.com
 For text messages, brevity is everything. 160 characters or under is ideal.
 
 ```
-Reminder: [Pet Name]'s appt at [Clinic Name] is [Day] at [Time]. Reply CONFIRM or call [Phone] to reschedule. We look forward to seeing you!
+Reminder: Max's appt at Sunshine Vet is Tuesday at 10:30 AM. Reply CONFIRM or call (555) 234-7890 to reschedule. We look forward to seeing you!
 ```
 
 For clinics with automated SMS systems, you can create slightly longer variants:
 
 ```
-Hi [First Name]! [Pet Name]'s appointment is coming up: [Day, Date] at [Time] at [Clinic Name]. Preparing: [brief prep note if applicable]. Questions? Call [Phone]. See you soon!
+Hi Sarah! Max's appointment is coming up: Tuesday, June 10 at 10:30 AM at Sunshine Veterinary Clinic. No special prep needed. Questions? Call (555) 234-7890. See you soon!
 ```
+
+*(Customize pet name, client first name, clinic name, date, time, phone number, and any prep note.)*
 
 ### Template 3: AI-Generated Reminder for Overdue Preventive Care
 
