@@ -65,6 +65,8 @@ cover:
 
 楽天経済圏の方にとっては還元率の上乗せが圧倒的です。楽天証券でのクレカ積立にも対応しており、毎月の積立でさらにポイントが貯まります。
 
+**[楽天カードを申し込む（年会費永年無料）](https://hb.afl.rakuten.co.jp/hsc/53c8dc96.d22afdc6.53c8dc97.8a98bffe/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D)**
+
 [関連記事: SBI証券と楽天証券を徹底比較2026](/ja/posts/sbi-rakuten-hikaku-2026/)
 
 ### 2. 三井住友カード(NL)

@@ -86,7 +86,7 @@ cover:
 | auカブコム証券 | 最短3営業日 | オンライン/郵送 | 月100円 | ★★★☆☆ |
 
 [SBI証券で今すぐ口座開設する](https://payhip.com/productivityworks)
-[楽天証券で今すぐ口座開設する](https://payhip.com/productivityworks)
+[楽天証券で今すぐ口座開設する](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619)
 
 ---
 

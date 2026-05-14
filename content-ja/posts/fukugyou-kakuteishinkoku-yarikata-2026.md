@@ -96,7 +96,7 @@ cover:
 - e-Tax（電子申告）に対応
 - 銀行口座・クレジットカードと自動連携
 
-[freee公式サイトで無料トライアル開始](https://www.freee.co.jp/)
+[freee公式サイトで無料トライアル開始](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
 
 #### マネーフォワード クラウド確定申告
 
