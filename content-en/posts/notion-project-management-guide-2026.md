@@ -346,8 +346,8 @@ Notion has a learning curve, but it's shallower than people expect. The biggest 
 If you want a head start, our [Notion PM Starter Kit](https://payhip.com/productivityworks) (available on our Payhip store) includes a pre-built workspace with all the databases, views, templates, and formulas described in this guide — ready to duplicate into your account.
 
 **Related reads:**
-- Best AI Tools for Small Business 2026
-- Best Free Alternatives to ChatGPT 2026
+- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
+- [Best Free Alternatives to ChatGPT 2026](/posts/best-free-chatgpt-alternatives-2026/)
 
 ---
 

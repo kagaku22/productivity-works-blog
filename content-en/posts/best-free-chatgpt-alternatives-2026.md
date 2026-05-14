@@ -313,9 +313,9 @@ The tools that have earned paid subscriptions from the Productivity Works team: 
 Want a structured system for using these AI tools more effectively? Our [AI Productivity Starter Pack](https://payhip.com/productivityworks) on Payhip includes prompt templates for each major AI tool, a decision framework for choosing the right tool per task, and a 5-day quick-start plan — for writers, freelancers, and small business owners.
 
 **Related reads:**
-- Best AI Tools for Small Business 2026
+- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
 - How to Create a Resume with AI (Step-by-Step)
-- How to Use Notion for Project Management 2026
+- [How to Use Notion for Project Management 2026](/posts/notion-project-management-guide-2026/)
 
 ---
 
