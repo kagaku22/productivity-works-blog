@@ -42,7 +42,7 @@ A few principles for all veterinary client communication:
 
 Here is a ready-to-use example — customize the highlighted details for your practice:
 
-```
+```markdown
 Subject: Reminder: Max's appointment at Sunshine Veterinary Clinic — Tuesday, June 10
 
 Hi Sarah,
@@ -73,13 +73,13 @@ Sunshine Veterinary Clinic | (555) 234-7890 | sunshinevet.com
 
 For text messages, brevity is everything. 160 characters or under is ideal.
 
-```
+```markdown
 Reminder: Max's appt at Sunshine Vet is Tuesday at 10:30 AM. Reply CONFIRM or call (555) 234-7890 to reschedule. We look forward to seeing you!
 ```
 
 For clinics with automated SMS systems, you can create slightly longer variants:
 
-```
+```markdown
 Hi Sarah! Max's appointment is coming up: Tuesday, June 10 at 10:30 AM at Sunshine Veterinary Clinic. No special prep needed. Questions? Call (555) 234-7890. See you soon!
 ```
 
@@ -89,7 +89,7 @@ Hi Sarah! Max's appointment is coming up: Tuesday, June 10 at 10:30 AM at Sunshi
 
 Use this prompt when a patient is overdue for a wellness exam or vaccine:
 
-```
+```markdown
 Write a friendly, non-judgmental reminder message for a pet owner whose dog named Max is overdue for their annual wellness exam.
 
 The message should:
@@ -111,7 +111,7 @@ Phone/booking link: [details]
 
 Here is a ready-to-use example — customize the highlighted details for your practice:
 
-```
+```markdown
 Subject: Thanks for visiting Sunshine Veterinary Clinic with Luna
 
 Hi Michael,
@@ -136,7 +136,7 @@ Sunshine Veterinary Clinic
 
 ### Template 5: Post-Surgery Follow-Up (AI-Generated)
 
-```
+```markdown
 Write a post-surgery follow-up email for a pet owner whose dog named Cooper just had a routine dental cleaning with two extractions.
 
 Include:
@@ -156,7 +156,7 @@ Clinic name: [name], Phone: [number]
 
 For patients with ongoing conditions (diabetes, Cushing's, heart disease, osteoarthritis), a periodic check-in message builds trust and catches problems early.
 
-```
+```markdown
 Write a 3-month check-in message for a pet owner managing a cat named Whiskers with early-stage kidney disease.
 
 The message should:
@@ -175,7 +175,7 @@ Clinic name: [name], Vet name: [name], Phone: [number]
 
 ### Template 7: Post-Vaccination Care Instructions
 
-```
+```markdown
 Write a brief, clear post-vaccination care instruction sheet for pet owners.
 
 The vaccinations given were: [list vaccines given — e.g., DHPP, Rabies, Bordetella]
@@ -192,7 +192,7 @@ Format: short bullets under clear headings. Avoid medical jargon. The goal is th
 
 ### Template 8: New Puppy/Kitten Care Guide (Customizable)
 
-```
+```markdown
 Create a new [puppy/kitten] care guide for a client who just adopted a [breed/species] approximately [age] weeks/months old.
 
 Sections to include:
@@ -210,7 +210,7 @@ Clinic: [name], Phone: [number], Portal/website: [URL if applicable]
 
 ### Template 9: Dental Care Instructions (Post-Cleaning)
 
-```
+```markdown
 Write a post-dental cleaning care sheet for a dog/cat owner.
 
 The procedure: routine dental cleaning under anesthesia [with/without] extractions.
@@ -231,7 +231,7 @@ Clinic: [name], Phone: [number]
 
 ### Template 10: Weight Management Program Instructions
 
-```
+```markdown
 Write a customized weight management instruction sheet for a pet owner whose Labrador named Buddy is starting a weight loss program.
 
 Details:
@@ -256,7 +256,7 @@ Include a brief "tips for success" section with 4-5 practical suggestions.
 
 Here is a ready-to-use example — customize the highlighted details for your practice:
 
-```
+```markdown
 Subject: Time to schedule Bella's annual vaccines
 
 Hi Jennifer,
@@ -281,7 +281,7 @@ Sunshine Veterinary Clinic
 
 ### Template 12: Heartworm Prevention Reminder (Seasonal)
 
-```
+```markdown
 Write a spring heartworm awareness message for pet owners who are due for their annual heartworm test.
 
 Include:
@@ -303,7 +303,7 @@ Clinic name: [name], Phone/booking: [details]
 
 This is one of the most important communications a veterinary clinic sends. Done well, it creates a lasting bond with the client. Done poorly or not at all, it leaves a void at the moment a client is most vulnerable.
 
-```
+```markdown
 Write a sincere condolence message for a pet owner who recently lost their Golden Retriever named Charlie.
 
 Charlie passed away peacefully at our clinic after a long battle with cancer. We had the honor of caring for Charlie for the past 12 years.
@@ -323,7 +323,7 @@ From: [Vet name and clinic name]
 
 ### Template 14: Euthanasia Appointment Confirmation and Preparation
 
-```
+```markdown
 Write a compassionate message to a pet owner confirming a euthanasia appointment for their cat named Oliver.
 
 This message must:
@@ -343,7 +343,7 @@ Clinic: [name], Phone: [number]
 
 Negative reviews involving pet outcomes are among the most challenging to respond to. A defensive or dismissive response can escalate; a thoughtful response can demonstrate your practice's character.
 
-```
+```markdown
 Help me write a professional and empathetic public response to this negative review:
 
 [Paste the review text here]

@@ -56,7 +56,7 @@ ChatGPT remains the most versatile writing tool for agents because it can be cus
 
 A high-performing listing description prompt:
 
-```
+```markdown
 Write a compelling MLS listing description for this property:
 
 Address: [address]

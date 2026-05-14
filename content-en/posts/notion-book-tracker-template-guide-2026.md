@@ -342,22 +342,22 @@ Create a separate Notion page as your reading stats hub. Use Notion's linked dat
 **Add these calculated properties to your database:**
 
 **Reading Time (Formula property)**:
-```
+```markdown
 dateBetween(prop("Date Finished"), prop("Date Started"), "days")
 ```
 
 **Year Read (Formula property)**:
-```
+```markdown
 formatDate(prop("Date Finished"), "YYYY")
 ```
 
 **Month Read (Formula property)**:
-```
+```markdown
 formatDate(prop("Date Finished"), "MMMM")
 ```
 
 **Is This Year (Formula property for current year filter)**:
-```
+```markdown
 year(prop("Date Finished")) == year(now())
 ```
 

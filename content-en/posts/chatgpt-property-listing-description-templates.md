@@ -55,7 +55,7 @@ You'll get a solid first draft in under 2 minutes. Final polish takes another 5.
 
 **The prompt:**
 
-```
+```markdown
 Write a compelling real estate listing description for a single-family home with these details:
 - Bedrooms: [number]
 - Bathrooms: [number]
@@ -84,7 +84,7 @@ The second version creates a scene. It gives buyers something to imagine themsel
 
 **The prompt:**
 
-```
+```markdown
 Write a luxury real estate listing description for a high-end property:
 - Property type: [single-family / penthouse / estate]
 - Bedrooms: [number]
@@ -105,7 +105,7 @@ Write a luxury real estate listing description for a high-end property:
 
 **The prompt:**
 
-```
+```markdown
 Write a real estate listing description for an urban condo:
 - Floor: [floor number] of [total floors]
 - Bedrooms: [number]
@@ -127,7 +127,7 @@ Write a real estate listing description for an urban condo:
 
 **The prompt:**
 
-```
+```markdown
 Write a real estate listing description for a property being sold as a fixer-upper or investment opportunity:
 - Property type: [type]
 - Bedrooms/bathrooms: [numbers]
@@ -151,7 +151,7 @@ Write a real estate listing description for a property being sold as a fixer-upp
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a vacant lot or undeveloped land:
 - Total acreage or lot size: [size]
 - Zoning: [residential / commercial / agricultural / mixed-use]
@@ -169,7 +169,7 @@ Write a listing description for a vacant lot or undeveloped land:
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a vacation home or short-term rental investment:
 - Property type: [cabin / beach house / mountain retreat / lake house]
 - Bedrooms/bathrooms: [numbers]
@@ -189,7 +189,7 @@ Write a listing description for a vacation home or short-term rental investment:
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a newly constructed home:
 - Builder: [name if notable]
 - Bedrooms/bathrooms: [numbers]
@@ -208,7 +208,7 @@ Write a listing description for a newly constructed home:
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a property ideal for downsizing or senior buyers:
 - Property type: [ranch home / active adult community / accessible condo]
 - Bedrooms/bathrooms: [numbers]
@@ -225,7 +225,7 @@ Write a listing description for a property ideal for downsizing or senior buyers
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a multi-family investment property:
 - Property type: [duplex / triplex / small apartment building]
 - Total units: [number]
@@ -244,7 +244,7 @@ Write a listing description for a multi-family investment property:
 
 **The prompt:**
 
-```
+```markdown
 Write a listing description for a historic or architecturally significant property:
 - Year built and architectural style: [year and style, e.g., 1908 Craftsman bungalow]
 - Historic designation or registry status: [if applicable]

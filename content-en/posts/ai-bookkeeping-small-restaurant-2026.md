@@ -100,7 +100,7 @@ Before any AI can help you categorize expenses, your chart of accounts needs to 
 
 ### ChatGPT Prompt: Build Your Custom Chart of Accounts
 
-```
+```markdown
 I run a [TYPE OF RESTAURANT] with [# SEATS] seats in [CITY].
 We do dine-in, takeout, and delivery through [PLATFORMS].
 We [DO / DO NOT] serve alcohol.
@@ -141,7 +141,7 @@ For the remaining 20% — unfamiliar vendors, one-time purchases, or ambiguous t
 
 **Step 2**: Copy the list of vendor names and amounts into ChatGPT with this prompt:
 
-```
+```markdown
 I run a small restaurant. Below is a list of bank transactions
 that I need to categorize for my bookkeeping. For each transaction,
 suggest the most likely bookkeeping category from this list:
@@ -195,7 +195,7 @@ Create a Google Sheet with these tabs:
 
 ### ChatGPT Prompt: Analyze Your Food Cost Trends
 
-```
+```markdown
 Here is my restaurant's food cost data for the past 8 weeks:
 
 [PASTE YOUR WEEKLY DATA: Week, Food Purchases $, Food Sales $,
@@ -220,7 +220,7 @@ Most restaurant owners hate doing inventory. Here's a simplified system:
 
 After completing your count, use this prompt:
 
-```
+```markdown
 Here are my restaurant's inventory counts:
 
 Beginning inventory value: $[AMOUNT]
@@ -275,7 +275,7 @@ Simply recording $742 as revenue — this understates revenue and overstates you
 
 ### ChatGPT Prompt: Set Up Delivery Platform Journal Entries
 
-```
+```markdown
 I receive weekly payouts from [UBER EATS / DOORDASH / GRUBHUB].
 Each payout includes a breakdown showing: Gross Sales,
 Commission Fees, Promotions/Adjustments, and Net Payout.
@@ -295,7 +295,7 @@ Restaurant taxes have specific deductions and requirements that many owners miss
 
 ### Monthly Tax Prep Checklist Prompt
 
-```
+```markdown
 I run a restaurant and I'm preparing my records for
 [MONTH] tax review. Create a monthly bookkeeping
 checklist specific to restaurants that covers:
@@ -326,7 +326,7 @@ Use ChatGPT to generate a comprehensive list, but here are the commonly missed o
 
 ### Annual Tax Prep Prompt
 
-```
+```markdown
 I'm preparing for my annual tax filing as a restaurant owner.
 Here is a summary of my year:
 
@@ -368,7 +368,7 @@ Here's the exact weekly routine that keeps your books clean year-round:
 
 **Monthly Analysis Prompt:**
 
-```
+```markdown
 Here is my restaurant's P&L summary for [MONTH]:
 
 Revenue:

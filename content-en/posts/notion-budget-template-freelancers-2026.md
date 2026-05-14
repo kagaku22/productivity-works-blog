@@ -83,7 +83,7 @@ Let's build each one.
 
 ### The Quarter Formula
 
-```
+```markdown
 if(month(prop("Date Received")) <= 3, "Q1",
   if(month(prop("Date Received")) <= 6, "Q2",
     if(month(prop("Date Received")) <= 9, "Q3", "Q4")))
@@ -240,7 +240,7 @@ Add a **Notion reminder** on the Due Date property — Notion will send you a no
 
 A common freelancer heuristic: set aside **25-30% of every payment** into a dedicated tax savings account the moment it arrives. In Notion, you can add a "Tax Set-Aside" property to your Income tracker:
 
-```
+```markdown
 prop("Amount") * 0.28
 ```
 
@@ -273,7 +273,7 @@ Freelance income is lumpy. Some months are feast; some are famine. The standard 
 
 In Notion, track a rolling 3-month and 12-month income average:
 
-```
+```markdown
 (prop("Month -1 Income") + prop("Month -2 Income") + prop("Month -3 Income")) / 3
 ```
 

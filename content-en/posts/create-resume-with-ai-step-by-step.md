@@ -84,7 +84,7 @@ This raw material is the input for your AI. Garbage in, garbage out — the more
 
 Open ChatGPT and use this prompt structure:
 
-```
+```markdown
 I need help writing a professional resume. I'll share my raw work history
 and you'll help me turn it into polished, impactful resume bullet points.
 
@@ -129,7 +129,7 @@ Examples:
 
 Your summary (2-4 sentences at the top of the resume) is the highest-value real estate. Use this prompt:
 
-```
+```markdown
 Based on the resume content we just created, write a professional summary
 for my resume. The summary should:
 - Be 2-4 sentences (under 75 words)
@@ -193,7 +193,7 @@ Sending the same resume to 50 jobs is less effective than sending a tailored res
 
 Paste the full job posting into ChatGPT and use this prompt:
 
-```
+```markdown
 Here is a job description I'm applying for:
 
 [PASTE FULL JOB DESCRIPTION]
@@ -209,7 +209,7 @@ Please:
 
 Then:
 
-```
+```markdown
 Here is my current resume:
 [PASTE YOUR RESUME TEXT]
 
@@ -232,7 +232,7 @@ are truthful and based on the experience I've already described.
 
 For the highest-priority roles, ask ChatGPT to rewrite specific bullets to better align with the job:
 
-```
+```markdown
 Rewrite this bullet point to better emphasize [skill/outcome from job posting],
 while keeping it truthful to my experience:
 
@@ -251,7 +251,7 @@ After tailoring, run your resume through Jobscan. It compares your resume text t
 
 Most candidates write weak cover letters. Use AI to write one that actually addresses the job.
 
-```
+```markdown
 Write a cover letter for the following job application:
 
 My resume highlights:

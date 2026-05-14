@@ -174,7 +174,7 @@ Over time, they become a searchable diary of how you work.
 
 Create a template in a "Daily Notes" database with this structure:
 
-```
+```markdown
 
 ---
 

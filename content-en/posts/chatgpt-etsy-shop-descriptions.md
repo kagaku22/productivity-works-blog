@@ -66,7 +66,7 @@ The single most common use case — and the one that saves the most time. A good
 
 Here is the fill-in-the-blank prompt structure that consistently produces excellent Etsy descriptions:
 
-```
+```markdown
 Write an Etsy product description for the following item:
 
 Product name: [your product name]
@@ -107,7 +107,7 @@ Etsy titles have a 140-character limit and should front-load your most important
 
 ### The SEO Title Prompt
 
-```
+```markdown
 Write 5 Etsy SEO title options for this product: [product description in one sentence].
 
 Rules:
@@ -140,7 +140,7 @@ Etsy gives you 13 tags, each up to 20 characters. This is where most sellers lea
 
 ### The Tag Prompt
 
-```
+```markdown
 Generate 13 Etsy tags for this product: [product name and brief description].
 
 Rules:
@@ -178,7 +178,7 @@ Your About section is prime real estate that most sellers underpopulate. It's in
 
 ### The About Section Prompt
 
-```
+```markdown
 Write an Etsy shop About section for my shop called [shop name].
 
 About me: [2-3 sentences about who you are]
@@ -201,7 +201,7 @@ Policy sections are the ones sellers dread writing. They need to be legally clea
 
 ### FAQ Prompt
 
-```
+```markdown
 Write an Etsy FAQ section for my shop. I sell [product type]. Common questions buyers ask include:
 
 1. How long does shipping take?
@@ -228,7 +228,7 @@ The output eliminates the dreaded blank page problem and gives you a warm, reada
 
 Etsy's shop announcement section and listing descriptions benefit from seasonal updates. Instead of stressing over what to write for Mother's Day or the holiday rush, use this:
 
-```
+```markdown
 Write a short Etsy shop announcement for [season/holiday].
 
 Context: I sell [product type]. This season I'm offering [any discount or promotion]. My shipping cutoff for [holiday] is [date].

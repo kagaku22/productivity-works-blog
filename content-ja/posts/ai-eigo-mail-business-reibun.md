@@ -47,7 +47,7 @@ ShowBreadCrumbs: true
 
 日本語でメールの要点を伝えるだけで、AIが英語メールを書いてくれます。
 
-```
+```markdown
 以下の内容を英語のビジネスメールにしてください。
 
 相手：取引先の担当者（面識あり）
@@ -64,7 +64,7 @@ ShowBreadCrumbs: true
 
 AIへの指示に以下の情報を含めると、よりぴったりのメールになります。
 
-```
+```markdown
 【相手との関係】長年の取引先／初めてのコンタクト／社内の外国籍同僚
 【メールのトーン】フォーマル／セミフォーマル／カジュアル
 【メールの長さ】短く簡潔に／詳しく丁寧に
@@ -79,7 +79,7 @@ AIへの指示に以下の情報を含めると、よりぴったりのメール
 
 **日本語でAIに指示する例**:
 
-```
+```markdown
 初めて連絡する海外のサプライヤー（アメリカ企業）へのビジネスメールを作成してください。
 - 自己紹介：山田太郎、株式会社〇〇の購買部マネージャー
 - 目的：製品カタログと価格表の請求
@@ -89,7 +89,7 @@ AIへの指示に以下の情報を含めると、よりぴったりのメール
 
 **AIが生成する例文**:
 
-```
+```markdown
 Subject: Inquiry Regarding Product Catalog and Pricing – [Your Company Name]
 
 Dear [Recipient's Name],
@@ -116,7 +116,7 @@ Purchasing Manager
 
 **プロンプト例**:
 
-```
+```markdown
 オンライン会議のアポイントを依頼するメールを作成してください。
 - 相手：既存取引先（半年ほど付き合いがある）
 - 目的：新製品ラインの提案プレゼンをしたい
@@ -127,7 +127,7 @@ Purchasing Manager
 
 **例文**:
 
-```
+```markdown
 Subject: Meeting Request – Presentation on Our New Product Line
 
 Hi [Name],
@@ -157,7 +157,7 @@ Best,
 
 **プロンプト例**:
 
-```
+```markdown
 納期遅延を謝罪する英語メールを作成してください。
 - 状況：製造トラブルにより、予定の納期より2週間遅れる見込み
 - 新しい納期：6月末
@@ -168,7 +168,7 @@ Best,
 
 **例文**:
 
-```
+```markdown
 Subject: Important Update Regarding Your Order – Revised Delivery Schedule
 
 Dear [Name],
@@ -201,7 +201,7 @@ Sincerely,
 
 **プロンプト例**:
 
-```
+```markdown
 未払いの請求書の支払いを催促するメールを作成してください。
 - 状況：支払期限から2週間が過ぎている
 - 請求金額：$5,000
@@ -211,7 +211,7 @@ Sincerely,
 
 **例文**:
 
-```
+```markdown
 Subject: Friendly Payment Reminder – Invoice #INV-2026-042
 
 Dear [Name],
@@ -239,7 +239,7 @@ Best regards,
 
 **例文**:
 
-```
+```markdown
 Subject: Thank You for Your Proposal – Next Steps
 
 Dear [Name],
@@ -262,7 +262,7 @@ Best regards,
 
 **例文**:
 
-```
+```markdown
 Subject: Weekly Update – [Project Name]
 
 Hi Team,

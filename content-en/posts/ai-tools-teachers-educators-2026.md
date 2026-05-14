@@ -82,7 +82,7 @@ For teachers who prefer a more flexible tool, ChatGPT (particularly with the GPT
 
 **High-performing lesson plan prompt:**
 
-```
+```markdown
 You are an experienced [grade level] [subject] teacher. Create a complete lesson plan for the following:
 
 Grade: [grade level]
@@ -164,7 +164,7 @@ The most time-consuming part of grading essays and written work is providing mea
 2. Teacher reads the work (cannot be skipped — you need to understand it to evaluate the AI's feedback)
 3. Teacher pastes the work into ChatGPT or MagicSchool with a feedback prompt:
 
-```
+```markdown
 I am a [grade level] [subject] teacher. A student submitted this [essay/lab report/short answer]. The assignment asked them to [assignment description]. The rubric priorities are: [list 3-5 criteria].
 
 Please provide constructive feedback following these rules:
@@ -196,7 +196,7 @@ AI changes this calculation.
 
 **Prompt for text level adjustment:**
 
-```
+```markdown
 Rewrite the following text at a [Grade 5 / Grade 8 / Grade 11] reading level. Preserve all key information and vocabulary essential to the topic. Define technical terms inline (in parentheses) when appropriate for the lower reading level. Do not simplify concepts — only adjust sentence structure and vocabulary complexity.
 
 [Paste original text]
@@ -216,7 +216,7 @@ For students who need additional support, AI generates scaffolds quickly:
 
 **Prompt template:**
 
-```
+```markdown
 Create a graphic organizer scaffold for [grade level] students who struggle with [skill: e.g., comparing and contrasting, supporting claims with evidence, solving multi-step problems]. The activity they are working on is [describe task]. Include sentence starters and visual structure. Keep the text simple but not condescending.
 ```
 
@@ -224,7 +224,7 @@ Create a graphic organizer scaffold for [grade level] students who struggle with
 
 Equally important and equally under-resourced: teachers rarely have time to generate meaningful enrichment for students who complete work early or need additional challenge.
 
-```
+```markdown
 I have advanced learners who have mastered [standard/objective]. They need an extension activity that goes deeper — not just more problems, but genuinely higher-order thinking. Topic: [topic]. Grade: [grade level]. Available time: [15-30 minutes]. Format preference: [discussion, written, research, creative, problem-solving].
 
 Generate an extension task that requires synthesis, evaluation, or creation. Include 2-3 guiding questions.
@@ -240,7 +240,7 @@ Teacher-parent communication is important, time-consuming, and often anxiety-pro
 
 **Class newsletter / weekly update:**
 
-```
+```markdown
 Write a weekly classroom newsletter for a [grade level] [subject] class. This week we covered [topics]. Upcoming: [homework, tests, field trips, project deadlines]. Tone: warm and professional. Include one specific positive observation about the class. Length: 150-200 words. Avoid jargon.
 ```
 
@@ -252,7 +252,7 @@ ChatGPT and DeepL both handle translation well for parent communications. Always
 
 **Concern email about student behavior or performance:**
 
-```
+```markdown
 Help me draft an email to the parent of a student who is [specific concern: e.g., consistently missing homework, disrupting class, showing signs of academic struggle].
 
 Key points to convey:
@@ -292,7 +292,7 @@ For teachers who are not designers, Canva AI collapses the gap between "I know w
 
 Before a workshop, conference session, or professional learning community (PLC) meeting:
 
-```
+```markdown
 I am presenting a 45-minute PD session to [K-5 / middle school / high school] teachers on the topic of [topic]. The audience is [describe: mix of experience levels, subject areas, etc.]. The desired outcome is that participants leave with [specific takeaway or skill].
 
 Help me create:

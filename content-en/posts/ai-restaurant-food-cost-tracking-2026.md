@@ -31,12 +31,12 @@ Before diving into AI tools, let's make sure we're working from the same baselin
 
 **The formula:**
 
-```
+```markdown
 Food Cost % = (Cost of Goods Sold / Total Food Revenue) × 100
 ```
 
 **Cost of Goods Sold (COGS):**
-```
+```markdown
 COGS = Beginning Inventory + Purchases - Ending Inventory
 ```
 
@@ -82,7 +82,7 @@ You don't need an enterprise software suite to track food costs properly. A spre
 
 Ask ChatGPT to help you build the formulas and structure:
 
-```
+```markdown
 I run a small restaurant and want to build a recipe cost calculator in Google Sheets.
 
 For each recipe, I need to track:
@@ -106,7 +106,7 @@ ChatGPT will walk you through building a master ingredient price list that links
 
 ### Step 2: Set up a weekly inventory count sheet
 
-```
+```markdown
 Help me build a simple weekly inventory count sheet for a small restaurant in Google Sheets.
 
 I need:
@@ -125,7 +125,7 @@ Please give me the formula structure and conditional formatting rules.
 
 Once you have your inventory counted weekly and your purchase invoices entered, the COGS calculation is just arithmetic. But keeping it automated saves you from doing it manually each week:
 
-```
+```markdown
 I track weekly inventory counts and purchases in Google Sheets. Help me build a COGS calculation tab that:
 - Pulls beginning inventory from the previous week's ending inventory automatically
 - Has an input area for entering weekly purchases by category
@@ -146,7 +146,7 @@ A simple waste log — a clipboard or tablet at the prep station and line where 
 
 ### Setting up your waste log with ChatGPT
 
-```
+```markdown
 I want to set up a food waste tracking system for my restaurant. Help me:
 
 1. Design a simple daily waste log that line cooks and prep cooks can fill out in under 2 minutes. It should capture: item name, quantity wasted, reason for waste (spoilage / wrong order / prep waste / expired / other), and estimated cost.
@@ -162,7 +162,7 @@ My kitchen staff are [number] people. The log should be simple enough that it ge
 
 Once you have a few weeks of waste data, ChatGPT can help you interpret it:
 
-```
+```markdown
 Here is my restaurant's waste data for the past 4 weeks: [paste data or describe patterns]
 
 Please help me:
@@ -184,7 +184,7 @@ But if you're managing inventory manually or with basic spreadsheets, here's how
 
 Reorder points tell you the minimum quantity at which you should place a new order, factoring in lead time and usage rate.
 
-```
+```markdown
 Help me calculate reorder points for my key ingredients.
 
 For each ingredient, I have:
@@ -201,7 +201,7 @@ Create the spreadsheet formulas and also suggest what safety stock level I shoul
 
 ### Seasonal demand adjustments
 
-```
+```markdown
 My restaurant has significant seasonal variation. Help me think through how to adjust my par levels and ordering quantities for the following seasons: [describe your seasonal patterns — e.g., summer patio rush, slower January].
 
 Specifically:
@@ -218,7 +218,7 @@ Menu pricing is where food cost tracking pays off most directly. Here are prompt
 
 ### Pricing a new menu item
 
-```
+```markdown
 I'm adding a new dish to my menu and need to determine the right price. Here are the details:
 
 Dish: [name and description]
@@ -236,7 +236,7 @@ Please:
 
 ### Auditing your existing menu for profitability
 
-```
+```markdown
 Here is my current menu with pricing and approximate food cost per item: [paste or describe]
 
 Please perform a simple menu engineering analysis:
@@ -250,7 +250,7 @@ Note: I don't have exact sales counts, but I can estimate rough popularity for e
 
 ### Handling ingredient price increases
 
-```
+```markdown
 One of my key ingredients, [ingredient], has increased in price from $[old price] to $[new price] per [unit].
 
 This ingredient appears in [number] menu items. For each one:
@@ -273,7 +273,7 @@ The goal isn't to obsess over food costs daily — it's to build a monthly revie
 
 A practical monthly review template:
 
-```
+```markdown
 Help me build a monthly food cost review checklist for a small restaurant. It should cover:
 1. What numbers to pull and from where
 2. How to calculate the month's food cost % and compare to the previous 3 months

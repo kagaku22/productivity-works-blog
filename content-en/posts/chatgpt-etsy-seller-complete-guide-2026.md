@@ -39,7 +39,7 @@ Etsy's search algorithm (called "Rank") considers:
 
 The highest-performing Etsy titles typically follow this structure:
 
-```
+```markdown
 [Most Searched Keyword Phrase] | [Secondary Keyword] | [Descriptive Feature] | [Gift Occasion or Use Case]
 ```
 
@@ -56,7 +56,7 @@ You get 13 tags, each up to 20 characters. Use all 13. Every tag should be a phr
 
 ### Prompt 1: Generate an Optimized Etsy Title
 
-```
+```markdown
 I sell [PRODUCT] on Etsy. Write 5 different Etsy product title
 variations optimized for search. Each title should:
 - Be under 140 characters
@@ -75,7 +75,7 @@ What makes it unique: [YOUR DIFFERENTIATOR]
 
 ### Prompt 2: Find Your Main SEO Keyword
 
-```
+```markdown
 I make [TYPE OF PRODUCT] on Etsy. Help me find the best primary
 keyword phrase to lead my title with. Consider what a buyer would
 actually type into Etsy search — not what I would call it as a maker.
@@ -97,7 +97,7 @@ My style/aesthetic: [DESCRIBE]
 
 ### Prompt 3: Competitor Title Analysis
 
-```
+```markdown
 Here are 5 Etsy product titles from my competitors that rank
 well for my category. Analyze what SEO strategies they're using,
 what keywords they prioritize, and what patterns you notice.
@@ -123,7 +123,7 @@ Remember: descriptions don't rank your listing, but they do convert browsers int
 
 ### Prompt 4: Full Product Description (Standard)
 
-```
+```markdown
 Write a compelling Etsy product description for my listing.
 The description should:
 - Open with a hook that connects emotionally with the buyer
@@ -153,7 +153,7 @@ Product details:
 
 ### Prompt 5: Gift-Oriented Description
 
-```
+```markdown
 Rewrite this product description specifically for gift buyers —
 people who are shopping for someone else, not themselves.
 Emphasize giftability, packaging, personalization options,
@@ -170,7 +170,7 @@ Personalization available? [YES — WHAT OPTIONS / NO]
 
 ### Prompt 6: Variation Descriptions
 
-```
+```markdown
 I have a product that comes in [#] variations. Write a short
 description (2-3 sentences) for each variation that explains
 what makes that specific variation appealing, who it's best for,
@@ -194,7 +194,7 @@ This is where ChatGPT saves Etsy sellers the most time. Generating 13 relevant, 
 
 ### Prompt 7: Generate All 13 Etsy Tags
 
-```
+```markdown
 Generate exactly 13 Etsy tags for my product listing. Each tag must:
 - Be under 20 characters (including spaces)
 - Be a phrase a buyer would actually search (not just a single word)
@@ -216,7 +216,7 @@ on why each tag was chosen.
 
 ### Prompt 8: Tag Refresh for Underperforming Listing
 
-```
+```markdown
 This Etsy listing has been active for [# MONTHS] but is
 getting low views. Here are my current tags. Suggest a
 complete replacement set of 13 tags using different angles,
@@ -237,7 +237,7 @@ specific buyer searches?
 
 ### Prompt 9: Seasonal Tag Strategy
 
-```
+```markdown
 I sell [PRODUCT TYPE] on Etsy year-round, but I want to
 add seasonal tags during peak shopping periods. Create
 seasonal tag sets for each major shopping season:
@@ -260,7 +260,7 @@ Create seasonal tag sets (13 tags each) for:
 
 ### Prompt 10: Etsy Shop About Section
 
-```
+```markdown
 Write an engaging "About" section for my Etsy shop. It should:
 - Tell my maker's story authentically
 - Explain why I make what I make
@@ -288,7 +288,7 @@ My story:
 
 ### Prompt 11: Shop Policies That Convert
 
-```
+```markdown
 Write friendly, clear Etsy shop policies that protect me
 while building buyer confidence. Make them warm and human,
 not legalistic. Cover:
@@ -315,7 +315,7 @@ My details:
 
 ### Prompt 12: Response to "When Will My Order Arrive?"
 
-```
+```markdown
 Write a friendly, reassuring response to a customer asking
 when their order will arrive. The response should:
 - Acknowledge their inquiry warmly
@@ -335,7 +335,7 @@ Context:
 
 ### Prompt 13: Response to a Negative Review
 
-```
+```markdown
 Write a professional, empathetic public response to this
 negative Etsy review. The response should:
 - Thank the buyer for their feedback
@@ -352,7 +352,7 @@ Did you resolve it? [HOW]
 
 ### Prompt 14: Custom Order Inquiry Response
 
-```
+```markdown
 Write a warm, professional response to a custom order inquiry
 that confirms I can help, asks for the information I need
 to complete the order, explains my process for custom orders,
@@ -368,7 +368,7 @@ Approximate price range: $[RANGE]
 
 ### Prompt 15: Order Shipped Notification Message
 
-```
+```markdown
 Write a brief, warm Etsy message to send when I ship a
 customer's order. Make it feel personal and excited —
 like the handmade item is being sent with care. Include
@@ -390,7 +390,7 @@ Details:
 
 ### Prompt 16: Instagram Product Launch Caption
 
-```
+```markdown
 Write an Instagram caption to launch a new Etsy listing.
 Make it engaging and visual — help followers see the item
 in their mind. Include a clear CTA and relevant hashtags.
@@ -411,7 +411,7 @@ Include:
 
 ### Prompt 17: "Behind the Scenes" Content Ideas
 
-```
+```markdown
 I make [PRODUCT] and sell on Etsy. Generate 10 "behind the
 scenes" content ideas that would perform well on Instagram
 Reels, TikTok, and Pinterest. Each idea should show my
@@ -431,7 +431,7 @@ My brand vibe: [DESCRIBE]
 
 ### Prompt 18: Pinterest Pin Description
 
-```
+```markdown
 Write an optimized Pinterest pin description for my Etsy
 listing. Pinterest descriptions should be keyword-rich
 (Pinterest functions as a search engine), tell people
@@ -450,7 +450,7 @@ one long (150 words).
 
 ### Prompt 19: Holiday Marketing Email to Past Customers
 
-```
+```markdown
 Write a holiday email to send to my past Etsy customers
 promoting my shop for the holiday season. The tone should
 be warm and personal — like a letter from the maker, not
@@ -468,7 +468,7 @@ Keep it under 250 words. Include a subject line suggestion.
 
 ### Prompt 20: Monthly Shop Update Caption for Social
 
-```
+```markdown
 Write a casual, engaging "monthly shop update" post for
 Instagram or Facebook. It should feel like a personal update
 from the maker — not a sales pitch. Mention what I've been
@@ -493,7 +493,7 @@ Once a quarter, audit your lowest-performing listings. Use this prompt:
 
 ### Prompt 21: Full Listing Audit
 
-```
+```markdown
 Audit this Etsy listing and give me specific, actionable
 improvements. Rate each element 1-10 and explain what to fix.
 
@@ -543,7 +543,7 @@ Generic tags ("handmade gift") have massive competition. Niche tags ("gift for p
 
 Use ChatGPT to write 3-4 review request message variations. Rotate them when following up with buyers after delivery. Personalize with the product they bought.
 
-```
+```markdown
 Write 3 variations of a warm, non-pushy Etsy message asking
 a buyer to leave a review. Each should be under 75 words,
 feel genuine (not automated), and make it easy for them

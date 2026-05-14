@@ -56,12 +56,12 @@ VLOOKUP has been the most-cited Excel skill for 20 years, but XLOOKUP — introd
 - No need to count column numbers
 
 **Syntax:**
-```
+```excel
 =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found])
 ```
 
 **Example:** Find the salary for employee ID 1042 in a table:
-```
+```excel
 =XLOOKUP(1042, A:A, C:C, "Not found")
 ```
 
@@ -126,14 +126,14 @@ Despite XLOOKUP's advantages, INDEX/MATCH remains important because:
 - Many existing models use it; you need to read and modify them
 
 **Syntax:**
-```
+```excel
 =INDEX(return_range, MATCH(lookup_value, lookup_range, 0))
 ```
 
 The `0` at the end forces exact match — always use this unless you explicitly need approximate.
 
 **Two-way lookup (row and column):**
-```
+```excel
 =INDEX(data_table, MATCH(row_value, row_headers, 0), MATCH(col_value, col_headers, 0))
 ```
 

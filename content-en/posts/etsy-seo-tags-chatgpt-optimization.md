@@ -79,7 +79,7 @@ You have 13 tags per listing. Every one is valuable real estate. Here's how to t
 
 Here is the foundation prompt. Use this as your starting point for any product.
 
-```
+```markdown
 I sell on Etsy and need help generating SEO tags for one of my listings.
 
 Product: [describe your product in 2-3 sentences — what it is, how it's made, what it's for]
@@ -126,7 +126,7 @@ Check each candidate tag:
 
 After you've identified which candidates look strong and which are weak, go back to ChatGPT:
 
-```
+```markdown
 Here are the 20 Etsy tag candidates you generated: [paste list]
 
 After research, I found these tags have good search volume: [list strong tags]
@@ -156,7 +156,7 @@ Don't set-and-forget. Etsy search patterns shift dramatically by season. A stati
 
 ### For jewelry and accessories
 
-```
+```markdown
 Generate 20 Etsy tag candidates for a piece of jewelry:
 - Item: [e.g., "sterling silver birthstone ring, personalized with initial"]
 - Style: [e.g., minimalist, boho, vintage-inspired]
@@ -170,7 +170,7 @@ Focus heavily on gift-intent searches — phrases a person would use when buying
 
 ### For home decor and wall art
 
-```
+```markdown
 Generate 20 Etsy tag candidates for a home decor item:
 - Item: [e.g., "abstract watercolor print, 8x10, unframed"]
 - Style aesthetic: [e.g., maximalist, Scandinavian minimal, boho, traditional]
@@ -184,7 +184,7 @@ Include tags that combine room + style (e.g., "boho bedroom wall art"), color + 
 
 ### For digital downloads and printables
 
-```
+```markdown
 Generate 20 Etsy tag candidates for a digital download product:
 - Item: [e.g., "weekly meal planning printable, A4 and Letter size, instant download"]
 - Primary use case: [e.g., household organization, meal prep planning]
@@ -197,7 +197,7 @@ For digital products, include format-specific tags ("printable PDF," "instant do
 
 ### For clothing and wearables
 
-```
+```markdown
 Generate 20 Etsy tag candidates for a clothing item:
 - Item: [e.g., "unisex vintage-washed graphic tee, AI-generated artwork design"]
 - Target wearer: [age range, gender if applicable, lifestyle]
@@ -216,7 +216,7 @@ One of the biggest missed opportunities for Etsy sellers is seasonal tag rotatio
 
 Here's a ChatGPT prompt for building a seasonal tag calendar:
 
-```
+```markdown
 I sell [describe your product category] on Etsy.
 
 Please create a seasonal Etsy tag strategy for my shop across the following periods:

@@ -61,7 +61,7 @@ The goal is to build a set of templates for every routine communication scenario
 
 ### ChatGPT Prompt 1: New Client Welcome Message
 
-```
+```markdown
 Write a warm, professional welcome message to send to new
 clients before their first visit to our veterinary clinic.
 The message should:
@@ -84,7 +84,7 @@ Clinic personality/vibe: Friendly and relaxed, Fear Free Certified
 
 ### ChatGPT Prompt 2: Appointment Reminder (SMS/Short Version)
 
-```
+```markdown
 Write 3 versions of a brief appointment reminder text message
 for our veterinary clinic. Keep each under 160 characters
 (SMS limit). Include appointment date, time, clinic name,
@@ -100,7 +100,7 @@ Use these example details: client Sarah, pet Coco, your clinic name and phone nu
 
 ### ChatGPT Prompt 3: Post-Appointment Follow-Up (Wellness Visit)
 
-```
+```markdown
 Write a follow-up email to send 24 hours after a routine
 wellness appointment. The message should:
 - Thank them for coming in
@@ -115,7 +115,7 @@ Fill in your client name, pet name, species, procedures performed, vet name, nex
 
 ### ChatGPT Prompt 4: Post-Surgery/Procedure Care Reminder
 
-```
+```markdown
 Write a post-surgery follow-up email for a pet who just
 had a procedure at our clinic. The message should:
 - Express that we're thinking of the pet and hope
@@ -131,7 +131,7 @@ Fill in your client name, pet name, procedure details, post-op instructions, fol
 
 ### ChatGPT Prompt 5: Overdue Vaccination Reminder
 
-```
+```markdown
 Write an email reminder for a client whose pet's vaccinations
 are overdue. The message should:
 - Be warm, not guilt-inducing or scolding
@@ -146,7 +146,7 @@ Fill in your client name, pet name, overdue vaccines, last visit date, booking l
 
 ### ChatGPT Prompt 6: Condolence Message After Pet Loss
 
-```
+```markdown
 Write a heartfelt condolence message to send to a client
 after the loss of their pet. The tone should be:
 - Genuinely compassionate, not clinical
@@ -165,7 +165,7 @@ Keep it under 100 words. This should feel handwritten.
 
 ### ChatGPT Prompt 7: Difficult Conversation Follow-Up (Terminal Diagnosis)
 
-```
+```markdown
 Write a follow-up email to send after a client receives
 a serious or terminal diagnosis for their pet. The message should:
 - Acknowledge that this is difficult news
@@ -192,7 +192,7 @@ AI is excellent at generating first drafts of pet care guides that your veterina
 
 ### ChatGPT Prompt 8: Seasonal Pet Care Guide
 
-```
+```markdown
 Write a pet care guide for spring for our veterinary clinic's
 newsletter and website. Include:
 - Top spring-specific health risks for dogs and cats
@@ -211,7 +211,7 @@ Species your clinic sees most: dogs, cats, and small mammals
 
 ### ChatGPT Prompt 9: New Pet Owner Welcome Guide (Dog)
 
-```
+```markdown
 Write a comprehensive new dog owner guide for clients who
 just adopted or purchased a puppy or young dog. This will
 be given as a PDF handout at new patient appointments.
@@ -233,7 +233,7 @@ Clinic name: Sunshine Veterinary Clinic
 
 ### ChatGPT Prompt 10: Discharge Instructions (Post-Neuter — Male Dog)
 
-```
+```markdown
 Write clear, client-friendly discharge instructions for
 a male dog after a routine neuter surgery. The instructions
 should:
@@ -254,7 +254,7 @@ before clinic use.
 
 ### ChatGPT Prompt 11: FAQ Page for Clinic Website
 
-```
+```markdown
 Create a list of 20 frequently asked questions with clear,
 concise answers for a veterinary clinic's website FAQ page.
 Focus on questions that new clients or first-time pet owners
@@ -280,7 +280,7 @@ authoritative voice that builds trust.
 
 ### ChatGPT Prompt 12: No-Show Recovery Message
 
-```
+```markdown
 Write a message to send to a client who missed their
 appointment without canceling. The tone should be:
 - Completely non-judgmental (life happens)
@@ -297,7 +297,7 @@ Include fields for: client name, pet name, missed appointment date,
 
 ### ChatGPT Prompt 13: Appointment Confirmation With Prep Instructions
 
-```
+```markdown
 Write an appointment confirmation message that also includes
 specific preparation instructions for the visit type. Create
 versions for:
@@ -323,7 +323,7 @@ Keep each under 200 words.
 
 Train your AI tool (or create a script/lookup sheet) with standard answers to your 10 most common phone/email inquiries:
 
-```
+```markdown
 Create a reception script reference card covering the following
 10 most common client inquiries at a veterinary clinic.
 For each inquiry, provide:
@@ -356,7 +356,7 @@ Veterinary clinics have a natural advantage on social media: everyone loves anim
 
 ### ChatGPT Prompt 14: Monthly Social Media Content Calendar
 
-```
+```markdown
 Create a 30-day social media content calendar for a
 veterinary clinic. Each day should have:
 - The content type/topic
@@ -387,7 +387,7 @@ FEAR FREE FOCUSED / ETC.]
 
 ### ChatGPT Prompt 15: Educational Instagram Carousel
 
-```
+```markdown
 Write the text for a 6-slide Instagram carousel about
 [PET HEALTH TOPIC]. Each slide should have:
 - A bold headline (under 10 words)
@@ -409,7 +409,7 @@ includes clinical guidance.
 
 ### ChatGPT Prompt 16: "Meet the Team" Staff Spotlight
 
-```
+```markdown
 Write a warm, engaging social media post introducing a
 staff member. Make it personal and fun — show the human
 side of the clinic team.
@@ -431,7 +431,7 @@ commitment to their pets.
 
 ### ChatGPT Prompt 17: Google Business Review Request Message
 
-```
+```markdown
 Write 3 variations of a friendly text or email asking
 satisfied clients to leave a Google review for our clinic.
 Each version should:
@@ -460,7 +460,7 @@ While AI can't manage your inventory system directly, it can help you analyze da
 
 ### ChatGPT Prompt 18: Inventory Reorder Point Calculator
 
-```
+```markdown
 Help me calculate reorder points for the following veterinary
 supply items. For each item, tell me:
 - The reorder point (units to trigger a new order)
@@ -483,7 +483,7 @@ overstocked items.
 
 ### ChatGPT Prompt 19: Supplier Negotiation Email
 
-```
+```markdown
 Write a professional email to our pharmaceutical/supply
 vendor requesting a volume discount or better payment terms.
 I want to negotiate without damaging the relationship.
@@ -499,7 +499,7 @@ Tone: professional, collaborative, not confrontational
 
 ### ChatGPT Prompt 20: New Staff Onboarding Checklist
 
-```
+```markdown
 Create a comprehensive onboarding checklist for a new
 veterinary receptionist. Organize by their first day,
 first week, and first month. Include:

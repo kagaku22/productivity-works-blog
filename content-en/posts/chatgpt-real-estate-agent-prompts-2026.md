@@ -40,7 +40,7 @@ Property descriptions are where most agents waste the most time — and where AI
 
 ### Prompt 1: Standard MLS Listing Description
 
-```
+```markdown
 Write a compelling MLS property description for the following home.
 Keep it under 250 words, lead with the most impressive feature,
 and use active, sensory language. Avoid clichés like "cozy" or
@@ -61,7 +61,7 @@ Property details:
 
 ### Prompt 2: Luxury Property Description
 
-```
+```markdown
 Write a luxury real estate listing description for a high-end property.
 Use elevated language that evokes lifestyle and aspiration — not just
 features. Emphasize exclusivity, craftsmanship, and the experience
@@ -80,7 +80,7 @@ Property details:
 
 ### Prompt 3: Investment Property Description (for Investors)
 
-```
+```markdown
 Write a property listing description targeting real estate investors
 rather than owner-occupants. Lead with the financial opportunity.
 Include language about cash flow potential, appreciation, and
@@ -100,7 +100,7 @@ Property details:
 
 ### Prompt 4: Fixer-Upper Description (Turning Negatives into Positives)
 
-```
+```markdown
 Write a listing description for a fixer-upper property that honestly
 acknowledges its condition while emphasizing its potential and value.
 Target buyers who enjoy renovation projects or want to build equity.
@@ -118,7 +118,7 @@ Property details:
 
 ### Prompt 5: Condo/HOA Property Description
 
-```
+```markdown
 Write a condo listing description that highlights the lifestyle benefits
 of the community as much as the unit itself. Mention HOA amenities,
 fees (framed positively as what they include), and the lock-and-leave
@@ -143,7 +143,7 @@ Email follow-up is where deals are won and lost. These prompts generate professi
 
 ### Prompt 6: First-Contact Email After Inquiry
 
-```
+```markdown
 Write a warm, professional email response to someone who just inquired
 about a property listing online. The goal is to build rapport, answer
 their likely questions, and schedule a showing or call. Keep it under
@@ -159,7 +159,7 @@ Context:
 
 ### Prompt 7: Post-Showing Follow-Up Email
 
-```
+```markdown
 Write a post-showing follow-up email for a buyer who just toured a
 property. The tone should be friendly and consultative, not salesy.
 Ask for honest feedback, address any concerns they mentioned, and
@@ -176,7 +176,7 @@ Context:
 
 ### Prompt 8: Price Reduction Announcement to Buyer List
 
-```
+```markdown
 Write an email to my buyer prospect list announcing a price reduction
 on a property they may have previously considered. Frame this as good
 news and an opportunity, not desperation. Create urgency without
@@ -193,7 +193,7 @@ Details:
 
 ### Prompt 9: Expired Listing Outreach Email
 
-```
+```markdown
 Write a prospecting email to a homeowner whose listing recently expired
 with another agent. The tone must be empathetic and solution-focused —
 not critical of the previous agent. Offer a fresh perspective and
@@ -210,7 +210,7 @@ Context:
 
 ### Prompt 10: Closing Gift Thank-You and Referral Ask
 
-```
+```markdown
 Write a heartfelt thank-you email to send after closing, along with
 a natural, non-awkward request for referrals. The email should feel
 personal and celebratory, not transactional.
@@ -230,7 +230,7 @@ Context:
 
 ### Prompt 11: Neighborhood Market Update (for Newsletter or Social)
 
-```
+```markdown
 Write a concise neighborhood market update suitable for a real estate
 newsletter or social media. Use the data below to tell a clear story
 about what the market is doing and what it means for buyers and sellers.
@@ -248,7 +248,7 @@ Market data for [NEIGHBORHOOD/ZIP CODE], [MONTH/YEAR]:
 
 ### Prompt 12: Comparable Sales Summary for Sellers (CMA Narrative)
 
-```
+```markdown
 Write a plain-English CMA narrative to accompany a formal market
 analysis for a seller. Explain what the comps mean, why I chose
 them, and how they support my recommended list price. This should
@@ -267,7 +267,7 @@ CMA details:
 
 ### Prompt 13: Investment Property ROI Summary
 
-```
+```markdown
 Write a one-page ROI summary for a potential real estate investor
 evaluating this property. Present the numbers clearly and explain
 what they mean. Use bullet points for the financial metrics and
@@ -291,7 +291,7 @@ Property financials:
 
 ### Prompt 14: Opening Statement for Listing Presentation
 
-```
+```markdown
 Write a 2-minute verbal opening statement for a seller listing
 presentation. It should establish my credibility, show that I've
 done my homework on their specific property and neighborhood, and
@@ -309,7 +309,7 @@ My background:
 
 ### Prompt 15: Marketing Plan Section for Listing Presentation
 
-```
+```markdown
 Write a compelling "Marketing Your Home" section for a listing
 presentation. Each marketing channel should be described with
 specific actions I take and why each one matters. Make it sound
@@ -329,7 +329,7 @@ My marketing channels:
 
 ### Prompt 16: Objection Handler — "Your Commission Is Too High"
 
-```
+```markdown
 Write a calm, confident, non-defensive response to a seller who says
 my commission is too high. Focus on demonstrating value and ROI rather
 than defending the number. Keep it under 150 words and make it feel
@@ -349,7 +349,7 @@ My value points:
 
 ### Prompt 17: "Just Listed" Instagram Caption
 
-```
+```markdown
 Write an Instagram caption for a just-listed property. Make it
 engaging, lead with the lifestyle, and include a call to action.
 Include 20 relevant hashtags at the end. Under 150 words for
@@ -366,7 +366,7 @@ Property details:
 
 ### Prompt 18: "Just Sold" Social Post
 
-```
+```markdown
 Write a "Just Sold" social media post (works for Instagram, Facebook,
 and LinkedIn). Celebrate the win, thank the clients (without naming
 them), mention any notable aspects of the transaction, and invite
@@ -382,7 +382,7 @@ Transaction details:
 
 ### Prompt 19: Educational Carousel Post (Home Buying Tips)
 
-```
+```markdown
 Write the text for a 7-slide educational Instagram carousel about
 [TOPIC]. Each slide should have a bold headline and 2-3 sentences of
 supporting content. Make it genuinely informative — not a veiled ad.
@@ -396,7 +396,7 @@ My expertise angle: [BUYER'S AGENT / LUXURY / INVESTMENT / FIRST-TIME BUYERS]
 
 ### Prompt 20: LinkedIn Article for Sphere of Influence
 
-```
+```markdown
 Write a 500-word LinkedIn article I can post to stay top-of-mind
 with my professional network (not real estate agents — my sphere
 of potential clients). Make it informative, locally relevant, and
@@ -415,7 +415,7 @@ Tone: professional but personable
 
 ### Prompt 21: Difficult Client Situation — Managing Expectations
 
-```
+```markdown
 Help me draft a frank but diplomatic email to a seller client whose
 price expectations are significantly above market value. I need to
 reset their expectations using data, not opinions, while preserving
@@ -432,7 +432,7 @@ Situation:
 
 ### Prompt 22: New Agent Bio for Website
 
-```
+```markdown
 Write a compelling real estate agent bio for my website. Make it
 personal and story-driven — not a list of credentials. Help potential
 clients feel like they know me and would enjoy working with me.
@@ -451,7 +451,7 @@ My details:
 
 ### Prompt 23: Tenant Move-Out Notice to Seller's Tenants
 
-```
+```markdown
 Write a professional, legally neutral letter to inform tenants that
 the property they rent has been listed for sale. Explain the showing
 process, their rights, and how we will minimize disruption. Tone
@@ -469,7 +469,7 @@ Details:
 
 ### Prompt 24: Referral Partner Outreach (to Mortgage Brokers, Attorneys)
 
-```
+```markdown
 Write a short, professional outreach email to a mortgage broker or
 real estate attorney proposing a mutual referral relationship. Make
 it specific about what I offer and what I'm looking for. Not spammy.
@@ -486,7 +486,7 @@ My details:
 
 ### Prompt 25: Year-End Client Gift Note
 
-```
+```markdown
 Write a brief, warm, handwritten-style note to accompany a year-end
 gift to past clients. Reference their transaction if possible.
 Express genuine gratitude and keep the door open for future business
@@ -521,7 +521,7 @@ After getting an initial response, use follow-up prompts to refine:
 
 Ask ChatGPT to analyze 3-5 emails or posts you've written that you're proud of, then say: "Describe my writing style in bullet points." Save this description and paste it into future prompts as a style guide.
 
-```
+```markdown
 Write this in my personal writing style:
 [PASTE YOUR STYLE DESCRIPTION]
 

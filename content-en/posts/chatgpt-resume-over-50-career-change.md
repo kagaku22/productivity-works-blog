@@ -77,7 +77,7 @@ Before you write a single resume bullet, you need to do an inventory of your tra
 
 ### The skills inventory prompt
 
-```
+```markdown
 I'm preparing to change careers at age [your age]. I have [X] years of experience in [your current/previous industry/field].
 
 I want to transition into [target field or role — be specific].
@@ -99,7 +99,7 @@ This prompt is valuable because it forces you to articulate your history AND giv
 
 Once you have your skills inventory, use this prompt to rewrite specific experiences in the language of your target industry:
 
-```
+```markdown
 I'm transitioning from [current field] to [target field].
 
 Here is a bullet point from my current resume:
@@ -128,7 +128,7 @@ The summary (or professional profile) section at the top of your resume is the m
 
 ### The summary generation prompt
 
-```
+```markdown
 Write a professional resume summary for a career changer with this profile:
 
 Background: [2-3 sentences describing your field and most notable experience]
@@ -170,7 +170,7 @@ For most career-change resumes over 50, experience older than 15 years should ei
 
 ### The condensation prompt
 
-```
+```markdown
 I have the following work history that predates 2010: [list each role with basic details]
 
 I'm applying for roles in [target field]. My post-2010 experience is [summarize].
@@ -187,7 +187,7 @@ My goal is a resume that doesn't look like I'm hiding anything, but that focuses
 
 If you have a very long career, use this structure:
 
-```
+```markdown
 PROFESSIONAL EXPERIENCE
 
 [Most recent role — full treatment: title, company, dates, 4-6 bullets]
@@ -210,7 +210,7 @@ Language choices on a resume can inadvertently signal age in ways that trigger b
 
 ### The age-signal audit prompt
 
-```
+```markdown
 Please review this resume for language patterns that might inadvertently signal age to a recruiter or hiring manager who has unconscious ageist biases. I'm NOT asking you to hide my experience — I want to present it effectively.
 
 Specifically, look for:
@@ -241,7 +241,7 @@ If you've made an effort to stay current with modern tools — and you should �
 
 One of the most effective age-mitigation strategies is proactively demonstrating currency:
 
-```
+```markdown
 Professional Development:
 - [Certification name], [Platform], completed [recent date]
 - Currently enrolled: [Course or certification in progress]
@@ -258,7 +258,7 @@ Here are specific ChatGPT prompts for the most common career-change scenarios fo
 
 ### From corporate management to consulting/advisory
 
-```
+```markdown
 I spent [X] years in [corporate function] at [types of companies]. I want to position myself as an independent consultant or advisor in [target area].
 
 Help me translate these corporate titles and responsibilities into consulting-relevant language:
@@ -273,7 +273,7 @@ Specifically:
 
 ### From military/government to private sector
 
-```
+```markdown
 I'm transitioning from [X] years in [military branch / government agency] to the private sector, specifically targeting roles in [target area: e.g., operations, logistics, project management, cybersecurity].
 
 Help me translate this military/government background for a private-sector resume:
@@ -288,7 +288,7 @@ I need help:
 
 ### From education to corporate learning and development
 
-```
+```markdown
 I spent [X] years as a [teacher/professor/administrator] in [K-12 / higher education / vocational training]. I want to transition into corporate Learning and Development (L&D) or instructional design roles.
 
 Help me translate my education background for corporate L&D resumes:
@@ -310,7 +310,7 @@ Also: what specific L&D terminology should I be using in my resume to signal tha
 
 After you've drafted your resume using the prompts above, run this final review:
 
-```
+```markdown
 Please review this complete resume for a [target job title] position. The applicant is a career changer with [X] years of experience in [previous field] transitioning into [new field].
 
 Review the resume for:

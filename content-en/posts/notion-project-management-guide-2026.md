@@ -64,7 +64,7 @@ Notion has four key concepts to internalize:
 
 A clean sidebar is the backbone of navigable workspace. Here's a recommended structure for project management:
 
-```
+```markdown
 Workspace
 ├── Home Dashboard
 ├── Projects
@@ -231,12 +231,12 @@ Notion's notification system is simpler than dedicated PM tools like Asana. To c
 Formulas let you calculate values automatically. Useful examples:
 
 **Days until deadline:**
-```
+```markdown
 dateBetween(prop("Due Date"), now(), "days")
 ```
 
 **Is overdue? (returns "OVERDUE" or blank):**
-```
+```markdown
 if(dateBetween(prop("Due Date"), now(), "days") < 0 and prop("Status") != "Done", "OVERDUE", "")
 ```
 
