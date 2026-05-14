@@ -6,9 +6,9 @@ slug: chatgpt-api-使い方-初心者
 description: ChatGPT APIの使い方を初心者向けに解説。APIキーの取得から最初のリクエスト送信、実用的なアプリ作成まで、コピペで動くPythonサンプルコードとともに丁寧に説明します。
 author: Productivity Works編集部
 categories:
-- AI活用
+- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
 tags:
-- ChatGPT
+- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 - OpenAI
 ShowReadingTime: true
 ShowWordCount: true
@@ -325,9 +325,9 @@ ChatGPT APIを使いこなせるようになると、ビジネスの可能性が
 ---
 
 **関連記事**
-- ChatGPTを仕事で使う具体的な活用法10選
-- すぐ使えるChatGPTプロンプトテンプレート20選
-- AIでExcel作業を自動化する方法
+- [ChatGPTを仕事で使う具体的な活用法10選](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [すぐ使えるChatGPTプロンプトテンプレート20選](/ja/posts/chatgpt-プロンプト-テンプレート/)
+- [AIでExcel作業を自動化する方法](/ja/posts/ai-excel-自動化/)
 
 ---
 

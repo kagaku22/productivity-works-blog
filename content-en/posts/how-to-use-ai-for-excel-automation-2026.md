@@ -11,7 +11,7 @@ categories:
 tags:
 - how
 - AI
-- ChatGPT
+- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 - Copilot
 ShowReadingTime: true
 ShowWordCount: true

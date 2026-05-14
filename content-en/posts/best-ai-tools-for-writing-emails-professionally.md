@@ -11,7 +11,7 @@ categories:
 tags:
 - best
 - AI
-- ChatGPT
+- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 - professional
 ShowReadingTime: true
 ShowWordCount: true

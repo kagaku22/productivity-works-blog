@@ -8,8 +8,8 @@ author: Productivity Works編集部
 categories:
 - マネー・個人金融
 tags:
-- 新NISA
-- NISA
+- [新NISA](/ja/posts/nisa-osusume-meigara-2026/)
+- [NISA](/ja/posts/nisa-枠-使い切れない-どうする/)
 - つみたて投資枠
 ShowReadingTime: true
 ShowWordCount: true

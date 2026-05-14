@@ -6,10 +6,10 @@ slug: ai-英語学習-おすすめ
 description: AIを使った英語学習法を5つ紹介。ChatGPTを英会話相手にする方法、発音改善、語彙学習まで、独学でも効率よく英語力を伸ばすAI活用法を解説します。
 author: Productivity Works編集部
 categories:
-- AI活用
+- [AI活用](/ja/posts/ai-英語学習-おすすめ/)
 tags:
 - AI
-- ChatGPT
+- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true
@@ -246,9 +246,9 @@ AI英語学習を今日から始めるなら、最初のステップはシンプ
 ---
 
 **関連記事**
-- 無料で使えるAIツールおすすめ15選
-- ChatGPTを仕事で使う具体的な活用法10選
-- AIを使った副業の始め方完全ガイド
+- [無料で使えるAIツールおすすめ15選](/ja/posts/無料-ai-ツール-おすすめ/)
+- [ChatGPTを仕事で使う具体的な活用法10選](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [AIを使った副業の始め方完全ガイド](/ja/posts/ai-副業-始め方/)
 
 ---
 

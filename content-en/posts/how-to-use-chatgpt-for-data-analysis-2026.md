@@ -11,7 +11,7 @@ categories:
 - AI Productivity
 tags:
 - how
-- ChatGPT
+- [ChatGPT](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 - AI
 ShowReadingTime: true
 ShowWordCount: true

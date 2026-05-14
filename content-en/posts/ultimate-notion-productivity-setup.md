@@ -8,7 +8,7 @@ author: Productivity Works Editorial
 categories:
 - AI Productivity
 tags:
-- Notion
+- [Notion](/posts/notion-book-tracker-template-guide-2026/)
 - best
 ShowReadingTime: true
 ShowWordCount: true

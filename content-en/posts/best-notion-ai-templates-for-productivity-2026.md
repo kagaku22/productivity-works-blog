@@ -9,7 +9,7 @@ categories:
 - AI Productivity
 tags:
 - best
-- Notion
+- [Notion](/posts/notion-book-tracker-template-guide-2026/)
 ShowReadingTime: true
 ShowWordCount: true
 ShowToc: true

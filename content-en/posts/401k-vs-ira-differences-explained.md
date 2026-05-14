@@ -8,7 +8,7 @@ author: Productivity Works Editorial
 categories:
 - Personal Finance
 tags:
-- 401k
+- [401k](/posts/401k-vs-ira-differences-explained/)
 - IRA
 - retirement
 ShowReadingTime: true
