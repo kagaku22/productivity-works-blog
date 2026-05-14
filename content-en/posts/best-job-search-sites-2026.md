@@ -18,6 +18,10 @@ ShowWordCount: true
 ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
+cover:
+  image: "/images/covers/best-job-search-sites-2026.png"
+  alt: "Best Job Search Sites 2026: Where to Actually Find Good Jobs"
+  relative: false
 ---
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*
