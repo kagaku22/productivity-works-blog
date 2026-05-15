@@ -26,7 +26,7 @@ If you live in Japan as a foreign resident and have been thinking about getting 
 
 This guide walks through the entire account opening process in plain English — from checking your eligibility as a non-Japanese resident, to gathering the required documents, completing the online application, and making your first deposit. We also cover what happens after you open the account: the tax obligations that come with FX profits in Japan, and how to approach them as a salaried worker or self-employed resident.
 
-If you are still comparing brokers and have not decided on DMM FX yet, see our comparison post: [Best FX Brokers in Japan for English Speakers](/best-fx-brokers-japan-english).
+If you are still comparing brokers and have not decided on DMM FX yet, see our comparison post: [Best FX Brokers in Japan for English Speakers](../best-fx-brokers-japan-english/).
 
 ---
 
@@ -264,7 +264,7 @@ If you find the tax return process daunting — especially navigating Japanese t
 
 [Learn more about freee](https://www.freee.co.jp/) and consider using it when tax season arrives in February-March.
 
-For a detailed breakdown of how FX profits interact with salary income and the filing process, see our guide: [FX Tax in Japan for Salaried Workers](/fx-tax-japan-salary-worker).
+For a detailed breakdown of how FX profits interact with salary income and the filing process, see our guide: [FX Tax in Japan for Salaried Workers](../fx-tax-japan-salary-worker/).
 
 ### Rakuten Securities and NISA as a Complement
 
@@ -312,7 +312,7 @@ The key steps are:
 
 Once your account is active, take time to explore the demo account before trading with real money. Understand the tax obligations that apply to your FX profits — the 20.315% flat tax rate and the kakuteishinkoku filing requirement — so that you are not caught off guard when tax season arrives. Tools like freee can make the filing process significantly easier.
 
-If you are still weighing your options across different brokers, our comparison guide covers the major FX brokers available in Japan for English-speaking residents: [Best FX Brokers in Japan for English Speakers](/best-fx-brokers-japan-english).
+If you are still weighing your options across different brokers, our comparison guide covers the major FX brokers available in Japan for English-speaking residents: [Best FX Brokers in Japan for English Speakers](../best-fx-brokers-japan-english/).
 
 [Visit DMM FX Official Site](#) *(URL TBD — affiliate link pending)*
 
