@@ -236,12 +236,16 @@ cover:
 
 ---
 
-## 関連記事
+## 関連ツール・記事
 
-- [クラウドワークスで稼ぐ方法初心者](/posts/クラウドワークス-稼ぎ方-初心者/)
-- [ランサーズとクラウドワークスの比較](/posts/ランサーズ-クラウドワークス-比較/)
-- [フリーランスエンジニアの年収相場](/posts/フリーランス-エンジニア-年収-相場/)
-- [副業の確定申告やり方2026](/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+> フリーランスの税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
+> 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
+> 転職・独立後の年収を比較 → [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)
+
+- [クラウドワークスで稼ぐ方法初心者](/ja/posts/クラウドワークス-稼ぎ方-初心者/)
+- [ランサーズとクラウドワークスの比較](/ja/posts/ランサーズ-クラウドワークス-比較/)
+- [フリーランスエンジニアの年収相場](/ja/posts/フリーランス-エンジニア-年収-相場/)
+- [副業の確定申告やり方2026](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
 
 ---
 
