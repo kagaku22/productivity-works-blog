@@ -210,6 +210,8 @@ cover:
 
 [関連記事: 新NISAおすすめ銘柄 初心者向けガイド](/ja/posts/nisa-osusume-meigara-2026/)
 
+## 関連ツール
+
 > 毎月の積立額でどれだけ増えるかシミュレーション → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 積立の複利効果を年数別に確認 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > 配当型ファンドの年間収入を計算 → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)

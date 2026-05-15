@@ -185,6 +185,8 @@ cover:
 
 [関連記事: SBI証券と楽天証券を徹底比較](/ja/posts/sbi-rakuten-hikaku-2026/)
 
+## 関連ツール
+
 > 積立投資の複利効果をシミュレーション → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > NISAの非課税メリットを計算 → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 配当型ファンドの収入を計算 → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)

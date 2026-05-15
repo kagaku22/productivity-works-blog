@@ -206,7 +206,7 @@ FXで損失が出た年に確定申告をすることは、将来の節税につ
 - [副業FXで住民税がバレない方法と節税術](/ja/posts/fukugyou-fx-juuminzei-bareru/)
 - [NISA vs FX 税金の違いを徹底比較](/ja/posts/nisa-fx-zeikin-hikaku/)
 
-**関連ツール**
+## 関連ツール
 
 - 年間損益の計算には[FX利益計算ツール](/ja/tools/fx-profit-calculator/)をご活用ください。
 - 副業・投資全体の税金シミュレーションは[副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)で確認できます。
