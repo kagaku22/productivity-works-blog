@@ -324,13 +324,14 @@ Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/pro
 
 ---
 
-### Related Articles
+### Related Tools & Articles
 
+- [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income
+- [US Salary Calculator](/tools/salary-calculator/) — See your W-2 take-home pay breakdown
+- [Budget Planner](/tools/budget-planner/) — Plan your monthly budget including tax set-asides
 - [How to Start Freelancing in 2026: Complete Beginner's Guide](/posts/how-to-start-freelancing-2026/)
-- [Best Accounting Software for Freelancers 2026](/posts/best-accounting-software-freelancers-2026/)
 - [Side Job Tax Rules in Japan](/posts/side-job-tax-japan-rules/)
 - [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [How to Start Freelancing with No Experience 2026](/posts/how-to-start-freelancing-with-no-experience-2026/)
 
 ## Related Templates
 
