@@ -232,7 +232,10 @@ Start with LinkedIn optimization today — it's the single highest-ROI action in
 
 ---
 
-### Related Articles
+### Related Tools & Articles
+
+> Compare salary offers → [Salary Calculator](/tools/salary-calculator/)
+> Plan your budget during job transitions → [Budget Calculator](/tools/budget-calculator/)
 
 - [AI Resume Optimization for Job Search 2026](/posts/ai-resume-optimization-job-search-2026/)
 - [Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
