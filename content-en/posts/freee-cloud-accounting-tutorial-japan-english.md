@@ -336,7 +336,7 @@ The ¥650,000 blue-form deduction alone — which freee's double-entry bookkeepi
 
 **Ready to get started?**
 
-[Sign up for freee and start your free trial here.](https://www.freee.co.jp/) The setup takes about 20 minutes, and your first bank sync will happen within 24 hours. Use the Standard plan to get access to all the features described in this guide.
+[Sign up for freee and start your free trial here.](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) The setup takes about 20 minutes, and your first bank sync will happen within 24 hours. Use the Standard plan to get access to all the features described in this guide.
 
 If you do not yet have a dedicated business bank account to link with freee, [Rakuten Bank's business account](https://www.rakuten-bank.co.jp/) is an excellent choice — the online application is straightforward, the freee integration is real-time, and there are no minimum balance requirements.
 

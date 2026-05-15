@@ -99,7 +99,7 @@ cover:
 
 フリーランスにとって「働けない期間」は即収入ゼロを意味します。就業不能保険や所得補償保険は、フリーランスが真っ先に検討すべき保険です。
 
-> **フリーランスの方へ**: 収入管理・確定申告をシンプルにするなら [freee](https://www.freee.co.jp/)（アフィリエイトリンクはTBD）の活用もあわせて検討してみてください。収支を可視化することで、万一に備えた保険予算も組みやすくなります。
+> **フリーランスの方へ**: 収入管理・確定申告をシンプルにするなら [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)の活用もあわせて検討してみてください。収支を可視化することで、万一に備えた保険予算も組みやすくなります。
 
 ### (4) 持病があり将来加入が難しくなる可能性がある
 
@@ -160,7 +160,7 @@ cover:
 
 この2つを混同しないことが家計管理の鉄則です。終身保険で「貯蓄+保障」を一体化しようとすると、どちらも中途半端になりがちです。
 
-> **投資をはじめるなら**: NISAとiDeCoのどちらを優先すべきか悩んでいる方は、「[NISAとiDeCoどっちが先？優先順位と使い分けを解説](../nisa-ideco-docchi-saki/)」もあわせてご覧ください。[楽天証券](https://www.rakuten-sec.co.jp/)（アフィリエイトリンクはTBD）はNISA・iDeCo口座の開設に人気のサービスです。
+> **投資をはじめるなら**: NISAとiDeCoのどちらを優先すべきか悩んでいる方は、「[NISAとiDeCoどっちが先？優先順位と使い分けを解説](../nisa-ideco-docchi-saki/)」もあわせてご覧ください。[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)はNISA・iDeCo口座の開設に人気のサービスです。
 
 ### 保険と投資の目安配分
 
@@ -187,7 +187,7 @@ cover:
 - 自分のライフプランに合った保障額を客観的に試算してもらえる
 - 無料なので気軽に相談できる（勧誘が気になる場合は事前に確認を）
 
-> **保険の無料FP相談はこちら（URLはTBD）**
+> **保険の無料FP相談**（CEO A8.net提携申請後にリンク有効化予定）
 > - 保険マンモス（全国対応・オンライン相談可）
 > - 保険見直しラボ（担当者指名可・相談実績多数）
 
@@ -235,9 +235,9 @@ cover:
 
 > **本記事で紹介したサービス・リンク（まとめ）**
 >
-> - 保険無料FP相談: 保険マンモス（URLはTBD）/ 保険見直しラボ（URLはTBD）
-> - 投資口座: 楽天証券（URLはTBD）
-> - フリーランスの会計: freee（URLはTBD）
+> - 保険無料FP相談: 保険マンモス（CEO A8.net提携申請待ち）/ 保険見直しラボ（CEO A8.net提携申請待ち）
+> - 投資口座: [楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)
+> - フリーランスの会計: [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
 > - 関連記事: [NISAとiDeCoどっちが先？](../nisa-ideco-docchi-saki/) / [30代の保険見直しガイド](../30dai-hoken-minaoshi-guide/)
 
 ---
