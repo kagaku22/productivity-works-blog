@@ -248,4 +248,12 @@ FXの利益・損失の集計や確定申告書類の作成には、クラウド
 
 ---
 
+## 関連ツール
+
+> FXの利益を計算 → [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/)
+> 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+
+---
+
 ※本記事にはアフィリエイト広告が含まれています。

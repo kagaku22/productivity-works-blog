@@ -163,8 +163,12 @@ freeeとマネーフォワードはスマホアプリだけで確定申告が完
 
 ※本記事は情報提供を目的としており、特定のソフトウェアの利用を推奨するものではありません。料金・機能は変更される場合があります。
 
-> フリーランスの税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
-> 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
+## 関連ツール
+
+> フリーランスの税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
+> 手取り額をシミュレーション → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+> 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 借金の返済計画を立てる → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)
 
 ---
 

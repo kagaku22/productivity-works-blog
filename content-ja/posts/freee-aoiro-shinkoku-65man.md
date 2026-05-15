@@ -187,6 +187,15 @@ A. 可能です。「青色申告の取りやめ届出書」をその年の3月1
 
 青色申告への切り替えは「難しそう」と先送りにされがちですが、実態はソフトを使えば決してハードルは高くありません。今年の確定申告から適用するために、今すぐ開業届の準備を始めましょう。
 
+---
+
+## 関連ツール
+
+> 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
+> 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+> iDeCoの節税効果を計算 → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
+
 ### 関連記事
 
 - [freee vs マネーフォワード：副業向け会計ソフト比較](/ja/posts/freee-vs-moneyforward-fukugyou/)

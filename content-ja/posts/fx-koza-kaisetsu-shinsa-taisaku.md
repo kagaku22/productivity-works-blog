@@ -163,6 +163,14 @@ FX口座開設の審査に落ちる主な原因は、年齢・金融資産の過
 
 副業としてFXを始める方は、利益が出た場合の税金計算も重要です。[副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)で、FX所得にかかる税負担の目安を事前に確認しておきましょう。雑所得の申告漏れはペナルティの対象になるため、稼ぎ始める前に把握しておくことをおすすめします。
 
+---
+
+## 関連ツール
+
+> FXの利益を計算 → [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/)
+> 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+
 ### 関連記事
 
 - [海外FXおすすめ業者2026年版：スプレッドと特徴を比較](/ja/posts/kaigai-fx-osusume-2026/)
