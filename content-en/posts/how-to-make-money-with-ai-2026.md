@@ -347,6 +347,65 @@ With no-code tools (Bubble, Glide, Webflow) combined with AI APIs (OpenAI, Anthr
 
 ---
 
+<div style="max-width:600px;margin:1.5em auto;text-align:center;">
+<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="600" height="320" rx="12" fill="#f0f7ff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">AI Income Methods — Speed vs Potential</text>
+  <text x="300" y="42" text-anchor="middle" font-size="10" fill="#64748b">Organized by time to first dollar and long-term earning potential</text>
+  <!-- Axes -->
+  <line x1="80" y1="260" x2="560" y2="260" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="80" y1="260" x2="80" y2="60" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="320" y="280" text-anchor="middle" font-size="10" fill="#64748b">→ Time to First Dollar (Faster to Slower)</text>
+  <text x="30" y="160" text-anchor="middle" font-size="10" fill="#64748b" transform="rotate(-90 30 160)">↑ Earning Potential</text>
+  <!-- Axis labels -->
+  <text x="120" y="272" text-anchor="middle" font-size="9" fill="#64748b">1–2 wks</text>
+  <text x="230" y="272" text-anchor="middle" font-size="9" fill="#64748b">1–2 mo</text>
+  <text x="360" y="272" text-anchor="middle" font-size="9" fill="#64748b">3–6 mo</text>
+  <text x="490" y="272" text-anchor="middle" font-size="9" fill="#64748b">6–24 mo</text>
+  <!-- Bubbles: x=speed, y=potential, size=passivity -->
+  <!-- Freelance Services (fast, good income) -->
+  <circle cx="130" cy="160" r="28" fill="#4a9eff" opacity="0.85"/>
+  <text x="130" y="155" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">AI Freelance</text>
+  <text x="130" y="168" text-anchor="middle" font-size="8" fill="#fff">$2K–15K/mo</text>
+  <!-- Content Writing (fast, decent) -->
+  <circle cx="140" cy="210" r="22" fill="#4a9eff" opacity="0.75"/>
+  <text x="140" y="206" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">AI Writing</text>
+  <text x="140" y="218" text-anchor="middle" font-size="8" fill="#fff">$1K–8K/mo</text>
+  <!-- Social Media (medium speed) -->
+  <circle cx="240" cy="195" r="22" fill="#f59e0b" opacity="0.85"/>
+  <text x="240" y="191" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">Social Media</text>
+  <text x="240" y="203" text-anchor="middle" font-size="8" fill="#fff">$1K–5K/mo</text>
+  <!-- Automation Consulting (medium, high rate) -->
+  <circle cx="250" cy="130" r="26" fill="#10b981" opacity="0.85"/>
+  <text x="250" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">Automation</text>
+  <text x="250" y="137" text-anchor="middle" font-size="8" fill="#fff">Consulting</text>
+  <text x="250" y="149" text-anchor="middle" font-size="7" fill="#fff">$2K–20K/proj</text>
+  <!-- Digital Products (medium start, passive) -->
+  <circle cx="370" cy="145" r="30" fill="#10b981" opacity="0.85"/>
+  <text x="370" y="138" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">Digital</text>
+  <text x="370" y="150" text-anchor="middle" font-size="8" fill="#fff">Products</text>
+  <text x="370" y="162" text-anchor="middle" font-size="7" fill="#fff">$500–10K+/mo</text>
+  <!-- Blogging/SEO (slow, high potential) -->
+  <circle cx="490" cy="100" r="34" fill="#4a9eff" opacity="0.75"/>
+  <text x="490" y="93" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">AI Blogging</text>
+  <text x="490" y="105" text-anchor="middle" font-size="8" fill="#fff">&amp; SEO</text>
+  <text x="490" y="118" text-anchor="middle" font-size="7" fill="#fff">$500–20K+/mo</text>
+  <!-- YouTube (slow, high potential) -->
+  <circle cx="490" cy="190" r="28" fill="#f59e0b" opacity="0.8"/>
+  <text x="490" y="184" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">YouTube</text>
+  <text x="490" y="196" text-anchor="middle" font-size="8" fill="#fff">AI-Assisted</text>
+  <text x="490" y="208" text-anchor="middle" font-size="7" fill="#fff">$500–15K+/mo</text>
+  <!-- Legend -->
+  <circle cx="95" cy="298" r="7" fill="#4a9eff" opacity="0.85"/>
+  <text x="107" y="302" font-size="9" fill="#64748b">Service / Content</text>
+  <circle cx="220" cy="298" r="7" fill="#10b981" opacity="0.85"/>
+  <text x="232" y="302" font-size="9" fill="#64748b">Consulting / Products</text>
+  <circle cx="360" cy="298" r="7" fill="#f59e0b" opacity="0.85"/>
+  <text x="372" y="302" font-size="9" fill="#64748b">Platform-based</text>
+  <text x="490" y="302" font-size="9" fill="#64748b">Bubble size ≈ passivity</text>
+</svg>
+</div>
+
 ## The Honest Reality Check
 
 **Not all of these will work for you.** The best income stream depends on your:

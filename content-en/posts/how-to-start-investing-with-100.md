@@ -144,6 +144,77 @@ Make sure your brokerage account is set to automatically reinvest dividends (DRI
 
 ## Step-by-Step Guide: Invest Your First $100 Today
 
+<div style="max-width:600px;margin:1.5em auto;text-align:center;">
+<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="600" height="320" rx="12" fill="#f0f7ff"/>
+  <text x="300" y="36" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">5 Steps to Start Investing with $100</text>
+  <!-- Step boxes -->
+  <!-- Step 1 -->
+  <rect x="30" y="60" width="100" height="64" rx="8" fill="#4a9eff"/>
+  <text x="80" y="87" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">1</text>
+  <text x="80" y="108" text-anchor="middle" font-size="10" fill="#fff">Build Emergency</text>
+  <text x="80" y="120" text-anchor="middle" font-size="10" fill="#fff">Fund First</text>
+  <!-- Arrow -->
+  <polyline points="130,92 148,92" stroke="#4a9eff" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <!-- Step 2 -->
+  <rect x="148" y="60" width="100" height="64" rx="8" fill="#4a9eff"/>
+  <text x="198" y="87" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">2</text>
+  <text x="198" y="108" text-anchor="middle" font-size="10" fill="#fff">Open Roth IRA</text>
+  <text x="198" y="120" text-anchor="middle" font-size="10" fill="#fff">or Brokerage</text>
+  <!-- Arrow -->
+  <polyline points="248,92 266,92" stroke="#4a9eff" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <!-- Step 3 -->
+  <rect x="266" y="60" width="100" height="64" rx="8" fill="#4a9eff"/>
+  <text x="316" y="87" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">3</text>
+  <text x="316" y="108" text-anchor="middle" font-size="10" fill="#fff">Transfer</text>
+  <text x="316" y="120" text-anchor="middle" font-size="10" fill="#fff">Your $100</text>
+  <!-- Arrow -->
+  <polyline points="366,92 384,92" stroke="#4a9eff" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <!-- Step 4 -->
+  <rect x="384" y="60" width="100" height="64" rx="8" fill="#4a9eff"/>
+  <text x="434" y="87" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">4</text>
+  <text x="434" y="108" text-anchor="middle" font-size="10" fill="#fff">Buy One</text>
+  <text x="434" y="120" text-anchor="middle" font-size="10" fill="#fff">Index Fund</text>
+  <!-- Arrow -->
+  <polyline points="484,92 502,92" stroke="#4a9eff" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <!-- Step 5 -->
+  <rect x="502" y="60" width="68" height="64" rx="8" fill="#10b981"/>
+  <text x="536" y="87" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">5</text>
+  <text x="536" y="108" text-anchor="middle" font-size="10" fill="#fff">Auto-Invest</text>
+  <text x="536" y="120" text-anchor="middle" font-size="10" fill="#fff">Monthly</text>
+  <!-- Labels below -->
+  <text x="80" y="145" text-anchor="middle" font-size="9" fill="#1e293b">$500–$1,000</text>
+  <text x="198" y="145" text-anchor="middle" font-size="9" fill="#1e293b">10 min online</text>
+  <text x="316" y="145" text-anchor="middle" font-size="9" fill="#1e293b">Settles 1–3 days</text>
+  <text x="434" y="145" text-anchor="middle" font-size="9" fill="#1e293b">VTI / FZROX</text>
+  <text x="536" y="145" text-anchor="middle" font-size="9" fill="#1e293b">$25+/mo</text>
+  <!-- Compound growth illustration -->
+  <rect x="30" y="170" width="540" height="110" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="300" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">$100 invested at age 25 — power of compound growth</text>
+  <line x1="60" y1="260" x2="555" y2="260" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="60" y1="260" x2="60" y2="205" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Bars -->
+  <rect x="90" y="240" width="50" height="20" rx="3" fill="#4a9eff"/>
+  <text x="115" y="255" text-anchor="middle" font-size="9" fill="#fff">$100</text>
+  <text x="115" y="272" text-anchor="middle" font-size="9" fill="#1e293b">Today</text>
+  <rect x="200" y="228" width="50" height="32" rx="3" fill="#4a9eff"/>
+  <text x="225" y="248" text-anchor="middle" font-size="9" fill="#fff">$452</text>
+  <text x="225" y="272" text-anchor="middle" font-size="9" fill="#1e293b">10 yrs</text>
+  <rect x="310" y="218" width="50" height="42" rx="3" fill="#4a9eff"/>
+  <text x="335" y="242" text-anchor="middle" font-size="9" fill="#fff">$1,083</text>
+  <text x="335" y="272" text-anchor="middle" font-size="9" fill="#1e293b">20 yrs</text>
+  <rect x="420" y="207" width="50" height="53" rx="3" fill="#10b981"/>
+  <text x="445" y="237" text-anchor="middle" font-size="9" fill="#fff">$1,745</text>
+  <text x="445" y="272" text-anchor="middle" font-size="9" fill="#1e293b">40 yrs</text>
+  <text x="300" y="290" text-anchor="middle" font-size="9" fill="#64748b">Assumes 10%/yr historical average. Not a guarantee.</text>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4a9eff"/>
+    </marker>
+  </defs>
+</svg>
+</div>
+
 **Step 1: Build a $500–$1,000 emergency fund first**
 Before investing, make sure you have at least one month of expenses in a high-yield savings account. Investing money you might need in a few months is a recipe for being forced to sell at the worst time. If you already have an emergency fund, skip to Step 2.
 

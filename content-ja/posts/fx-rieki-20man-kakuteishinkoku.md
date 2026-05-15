@@ -28,6 +28,69 @@ FXを始めてしばらくたち、ようやく利益が出るようになって
 
 この記事では、**FXの利益に適用される税率**、**20万円ルールの正確な意味**、そして**実際の税額シミュレーション**を順を追って解説します。確定申告が初めての方でも理解できるよう、具体的な数字を使って丁寧に説明します。
 
+<div style="max-width:620px;margin:1.8em auto;text-align:center;">
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="FX利益が出たら確定申告が必要？判定フロー">
+  <!-- 背景 -->
+  <rect width="620" height="340" rx="12" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="310" y="28" text-anchor="middle" fill="#1e293b" font-size="13" font-family="sans-serif" font-weight="bold">FX利益が出たら確定申告が必要？</text>
+
+  <!-- スタートノード -->
+  <rect x="210" y="44" width="200" height="44" rx="22" fill="#4a9eff"/>
+  <text x="310" y="70" text-anchor="middle" fill="white" font-size="13" font-family="sans-serif" font-weight="bold">FX利益が発生した</text>
+
+  <!-- 矢印↓ -->
+  <line x1="310" y1="88" x2="310" y2="108" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- 菱形：会社員？ -->
+  <polygon points="310,112 420,148 310,184 200,148" fill="white" stroke="#4a9eff" stroke-width="2"/>
+  <text x="310" y="144" text-anchor="middle" fill="#1e293b" font-size="12" font-family="sans-serif">年末調整済みの</text>
+  <text x="310" y="162" text-anchor="middle" fill="#1e293b" font-size="12" font-family="sans-serif">会社員？</text>
+
+  <!-- YES → 右 -->
+  <line x1="420" y1="148" x2="500" y2="148" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="458" y="140" text-anchor="middle" fill="#10b981" font-size="11" font-family="sans-serif" font-weight="bold">YES</text>
+
+  <!-- 菱形：20万超？ -->
+  <polygon points="540,148 590,186 540,224 490,186" fill="white" stroke="#4a9eff" stroke-width="2"/>
+  <text x="540" y="182" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif">20万円</text>
+  <text x="540" y="198" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif">超え？</text>
+
+  <!-- YES → 下（申告必要） -->
+  <line x1="540" y1="224" x2="540" y2="264" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="555" y="248" fill="#f59e0b" font-size="11" font-family="sans-serif" font-weight="bold">YES</text>
+  <rect x="470" y="268" width="140" height="44" rx="8" fill="#f59e0b"/>
+  <text x="540" y="287" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">確定申告が必要</text>
+  <text x="540" y="304" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">（所得税20.315%）</text>
+
+  <!-- NO → 右側（住民税のみ） -->
+  <line x1="590" y1="186" x2="610" y2="186" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="610" y1="186" x2="610" y2="310" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- 会社員でない → 下 -->
+  <line x1="310" y1="184" x2="310" y2="224" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="325" y="210" fill="#f59e0b" font-size="11" font-family="sans-serif" font-weight="bold">NO</text>
+  <rect x="190" y="228" width="240" height="44" rx="8" fill="#f59e0b"/>
+  <text x="310" y="247" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">確定申告が必要</text>
+  <text x="310" y="264" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">（20万円ルール適用外）</text>
+
+  <!-- NO（20万以下） 結果 -->
+  <line x1="490" y1="186" x2="430" y2="186" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="430" y1="186" x2="430" y2="290" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="440" y="220" fill="#10b981" font-size="11" font-family="sans-serif" font-weight="bold">NO</text>
+  <rect x="330" y="292" width="200" height="36" rx="8" fill="#10b981"/>
+  <text x="430" y="307" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif" font-weight="bold">所得税申告は不要</text>
+  <text x="430" y="322" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">※住民税申告は別途必要</text>
+
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
+<p style="font-size:12px;color:#64748b;margin-top:4px;">※年収2,000万円超の会社員は20万円ルール適用外。住民税申告は利益額に関わらず必要。</p>
+</div>
+
 ---
 
 ## FXの利益にかかる税金の基本
@@ -157,6 +220,40 @@ FXの利益を入力する際は、「先物取引に係る雑所得等」とし
 ## FXの損失が出た場合も確定申告すべき理由
 
 FXで損失が出た年は「申告しなくていいや」と思うかもしれませんが、**損失を確定申告しておくことで大きなメリット**があります。
+
+<div style="max-width:600px;margin:1.6em auto;text-align:center;">
+<svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="FX税額シミュレーション">
+  <rect width="600" height="180" rx="10" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="300" y="24" text-anchor="middle" fill="#1e293b" font-size="13" font-family="sans-serif" font-weight="bold">FX利益別 税額シミュレーション（税率20.315%）</text>
+
+  <!-- バーチャート -->
+  <!-- 25万円 -->
+  <rect x="60" y="130" width="80" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="60" y="100" width="80" height="30" rx="4" fill="#4a9eff"/>
+  <text x="100" y="96" text-anchor="middle" fill="#4a9eff" font-size="11" font-family="sans-serif" font-weight="bold">約5万円</text>
+  <text x="100" y="150" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">利益25万円</text>
+
+  <!-- 50万円 -->
+  <rect x="200" y="130" width="80" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="200" y="70" width="80" height="60" rx="4" fill="#4a9eff"/>
+  <text x="240" y="66" text-anchor="middle" fill="#4a9eff" font-size="11" font-family="sans-serif" font-weight="bold">約10万円</text>
+  <text x="240" y="150" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">利益50万円</text>
+
+  <!-- 100万円 -->
+  <rect x="340" y="130" width="80" height="30" rx="4" fill="#e2e8f0"/>
+  <rect x="340" y="40" width="80" height="90" rx="4" fill="#f59e0b"/>
+  <text x="380" y="36" text-anchor="middle" fill="#f59e0b" font-size="11" font-family="sans-serif" font-weight="bold">約20万円</text>
+  <text x="380" y="150" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">利益100万円</text>
+
+  <!-- 凡例 -->
+  <rect x="460" y="60" width="14" height="14" rx="2" fill="#4a9eff"/>
+  <text x="480" y="72" fill="#64748b" font-size="11" font-family="sans-serif">税額</text>
+  <rect x="460" y="84" width="14" height="14" rx="2" fill="#e2e8f0"/>
+  <text x="480" y="96" fill="#64748b" font-size="11" font-family="sans-serif">手取り益（概算）</text>
+
+  <text x="300" y="170" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">※税率20.315%で概算。実際の税額は端数処理等で若干異なる場合があります。</text>
+</svg>
+</div>
 
 ### 損失の繰越控除（3年間）
 

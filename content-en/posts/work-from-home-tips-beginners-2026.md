@@ -109,6 +109,50 @@ Pick a start time and stick to it at least 4-5 days per week. This doesn't mean 
 
 **Morning productivity tip:** Many remote workers find that doing their most important, cognitively demanding task in the first 2 hours of the workday (before email and Slack) produces dramatically better results. This is called "eat the frog" — doing the hard thing first.
 
+<div style="max-width:600px;margin:1.5em auto;text-align:center;">
+<svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="600" height="310" rx="12" fill="#f0f7ff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Ideal WFH Daily Schedule</text>
+  <text x="300" y="42" text-anchor="middle" font-size="10" fill="#64748b">A balanced time-blocked day for remote workers</text>
+  <!-- Schedule bars -->
+  <!-- Morning routine -->
+  <rect x="30" y="55" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="75" text-anchor="middle" font-size="9" fill="#64748b">7:00–9:00</text>
+  <rect x="110" y="55" width="460" height="30" rx="5" fill="#10b981"/>
+  <text x="340" y="75" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Morning Routine + "Commute Substitute" (walk, workout, read)</text>
+  <!-- Deep work block 1 -->
+  <rect x="30" y="92" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="112" text-anchor="middle" font-size="9" fill="#64748b">9:00–11:00</text>
+  <rect x="110" y="92" width="460" height="30" rx="5" fill="#4a9eff"/>
+  <text x="340" y="112" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Deep Work Block — No meetings, no Slack, no email</text>
+  <!-- Email/Slack -->
+  <rect x="30" y="129" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="149" text-anchor="middle" font-size="9" fill="#64748b">11:00–11:30</text>
+  <rect x="110" y="129" width="460" height="30" rx="5" fill="#f59e0b"/>
+  <text x="340" y="149" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Email + Slack Processing (batch, don't react constantly)</text>
+  <!-- Meetings -->
+  <rect x="30" y="166" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="186" text-anchor="middle" font-size="9" fill="#64748b">11:30–12:30</text>
+  <rect x="110" y="166" width="460" height="30" rx="5" fill="#4a9eff" opacity="0.7"/>
+  <text x="340" y="186" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Meetings + Collaboration</text>
+  <!-- Lunch -->
+  <rect x="30" y="203" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="223" text-anchor="middle" font-size="9" fill="#64748b">12:30–1:30</text>
+  <rect x="110" y="203" width="460" height="30" rx="5" fill="#10b981" opacity="0.7"/>
+  <text x="340" y="223" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Lunch Away from Desk — real break, move your body</text>
+  <!-- Afternoon work -->
+  <rect x="30" y="240" width="70" height="30" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="260" text-anchor="middle" font-size="9" fill="#64748b">1:30–4:00</text>
+  <rect x="110" y="240" width="460" height="30" rx="5" fill="#4a9eff"/>
+  <text x="340" y="260" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Project Work + Admin + Email Review</text>
+  <!-- Shutdown -->
+  <rect x="30" y="277" width="70" height="25" rx="5" fill="#e2e8f0"/>
+  <text x="65" y="294" text-anchor="middle" font-size="9" fill="#64748b">4:00–5:00</text>
+  <rect x="110" y="277" width="460" height="25" rx="5" fill="#1e293b"/>
+  <text x="340" y="294" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Shutdown Ritual — review, write tomorrow's top 3, close tabs</text>
+</svg>
+</div>
+
 ### Time Blocking: Your Remote Work Superpower
 
 Time blocking means scheduling your calendar not just with meetings, but with blocks for specific types of work.

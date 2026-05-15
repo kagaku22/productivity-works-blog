@@ -120,6 +120,61 @@ Categories of passive income sources:
 
 ---
 
+<div style="max-width:600px;margin:1.5em auto;text-align:center;">
+<svg viewBox="0 0 600 300" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="600" height="300" rx="12" fill="#f0f7ff"/>
+  <text x="300" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Top Passive Income Types at a Glance</text>
+  <!-- Card 1: Dividends -->
+  <rect x="20" y="50" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="20" y="50" width="170" height="8" rx="10" fill="#4a9eff"/>
+  <text x="105" y="82" text-anchor="middle" font-size="24">📈</text>
+  <text x="105" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">Dividends</text>
+  <text x="105" y="118" text-anchor="middle" font-size="10" fill="#64748b">Capital-based</text>
+  <text x="105" y="133" text-anchor="middle" font-size="10" fill="#4a9eff">Very High passivity</text>
+  <text x="105" y="150" text-anchor="middle" font-size="9" fill="#1e293b">Needs: $10K+</text>
+  <!-- Card 2: Digital Products -->
+  <rect x="215" y="50" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="215" y="50" width="170" height="8" rx="10" fill="#f59e0b"/>
+  <text x="300" y="82" text-anchor="middle" font-size="24">📦</text>
+  <text x="300" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">Digital Products</text>
+  <text x="300" y="118" text-anchor="middle" font-size="10" fill="#64748b">Asset-based</text>
+  <text x="300" y="133" text-anchor="middle" font-size="10" fill="#f59e0b">High (after creation)</text>
+  <text x="300" y="150" text-anchor="middle" font-size="9" fill="#1e293b">Needs: Skills + time</text>
+  <!-- Card 3: REITs -->
+  <rect x="410" y="50" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="410" y="50" width="170" height="8" rx="10" fill="#4a9eff"/>
+  <text x="495" y="82" text-anchor="middle" font-size="24">🏢</text>
+  <text x="495" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">REITs</text>
+  <text x="495" y="118" text-anchor="middle" font-size="10" fill="#64748b">Capital-based</text>
+  <text x="495" y="133" text-anchor="middle" font-size="10" fill="#4a9eff">Very High passivity</text>
+  <text x="495" y="150" text-anchor="middle" font-size="9" fill="#1e293b">Needs: $1+</text>
+  <!-- Card 4: Affiliate -->
+  <rect x="20" y="175" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="20" y="175" width="170" height="8" rx="10" fill="#10b981"/>
+  <text x="105" y="207" text-anchor="middle" font-size="24">🔗</text>
+  <text x="105" y="227" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">Affiliate Marketing</text>
+  <text x="105" y="243" text-anchor="middle" font-size="10" fill="#64748b">Platform-based</text>
+  <text x="105" y="258" text-anchor="middle" font-size="10" fill="#10b981">High (after traction)</text>
+  <text x="105" y="275" text-anchor="middle" font-size="9" fill="#1e293b">Needs: Content + 6–24 mo</text>
+  <!-- Card 5: Print-on-Demand -->
+  <rect x="215" y="175" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="215" y="175" width="170" height="8" rx="10" fill="#f59e0b"/>
+  <text x="300" y="207" text-anchor="middle" font-size="24">🎨</text>
+  <text x="300" y="227" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">Print-on-Demand</text>
+  <text x="300" y="243" text-anchor="middle" font-size="10" fill="#64748b">Platform-based</text>
+  <text x="300" y="258" text-anchor="middle" font-size="10" fill="#f59e0b">High passivity</text>
+  <text x="300" y="275" text-anchor="middle" font-size="9" fill="#1e293b">Needs: Designs only</text>
+  <!-- Card 6: HYSA -->
+  <rect x="410" y="175" width="170" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="410" y="175" width="170" height="8" rx="10" fill="#10b981"/>
+  <text x="495" y="207" text-anchor="middle" font-size="24">🏦</text>
+  <text x="495" y="227" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">HYSA / Bonds</text>
+  <text x="495" y="243" text-anchor="middle" font-size="10" fill="#64748b">Capital-based</text>
+  <text x="495" y="258" text-anchor="middle" font-size="10" fill="#10b981">Extremely passive</text>
+  <text x="495" y="275" text-anchor="middle" font-size="9" fill="#1e293b">Needs: Any amount</text>
+</svg>
+</div>
+
 ## The Best Passive Income Strategies: Deep Dives
 
 ### 1. Dividend Investing: The Most Truly Passive Option

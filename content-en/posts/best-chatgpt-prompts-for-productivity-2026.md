@@ -58,6 +58,79 @@ Think of it this way: if you hired a world-class assistant and your only instruc
 
 ---
 
+<div style="max-width:600px;margin:1.5em auto;text-align:center;">
+<svg viewBox="0 0 600 300" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="600" height="300" rx="12" fill="#f0f7ff"/>
+  <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">ChatGPT Prompt Category Grid</text>
+  <text x="300" y="44" text-anchor="middle" font-size="10" fill="#64748b">Best prompt types for workplace productivity — organized by time saved</text>
+  <!-- Row 1 -->
+  <!-- Email -->
+  <rect x="20" y="58" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="20" y="58" width="130" height="6" rx="10" fill="#4a9eff"/>
+  <text x="85" y="90" text-anchor="middle" font-size="22">✉️</text>
+  <text x="85" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Email Drafting</text>
+  <text x="85" y="126" text-anchor="middle" font-size="10" fill="#10b981">3–5 hrs saved/wk</text>
+  <text x="85" y="140" text-anchor="middle" font-size="9" fill="#64748b">Beginner</text>
+  <!-- Meetings -->
+  <rect x="165" y="58" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="165" y="58" width="130" height="6" rx="10" fill="#4a9eff"/>
+  <text x="230" y="90" text-anchor="middle" font-size="22">📋</text>
+  <text x="230" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Meeting Summaries</text>
+  <text x="230" y="126" text-anchor="middle" font-size="10" fill="#10b981">1–2 hrs saved/wk</text>
+  <text x="230" y="140" text-anchor="middle" font-size="9" fill="#64748b">Beginner</text>
+  <!-- Content -->
+  <rect x="310" y="58" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="310" y="58" width="130" height="6" rx="10" fill="#f59e0b"/>
+  <text x="375" y="90" text-anchor="middle" font-size="22">✍️</text>
+  <text x="375" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Content Creation</text>
+  <text x="375" y="126" text-anchor="middle" font-size="10" fill="#10b981">4–6 hrs saved/wk</text>
+  <text x="375" y="140" text-anchor="middle" font-size="9" fill="#64748b">Intermediate</text>
+  <!-- Planning -->
+  <rect x="455" y="58" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="455" y="58" width="130" height="6" rx="10" fill="#f59e0b"/>
+  <text x="520" y="90" text-anchor="middle" font-size="22">🗓️</text>
+  <text x="520" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Project Planning</text>
+  <text x="520" y="126" text-anchor="middle" font-size="10" fill="#10b981">2–4 hrs saved/wk</text>
+  <text x="520" y="140" text-anchor="middle" font-size="9" fill="#64748b">Intermediate</text>
+  <!-- Row 2 -->
+  <!-- Research -->
+  <rect x="20" y="163" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="20" y="163" width="130" height="6" rx="10" fill="#4a9eff"/>
+  <text x="85" y="195" text-anchor="middle" font-size="22">🔬</text>
+  <text x="85" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Research Synthesis</text>
+  <text x="85" y="231" text-anchor="middle" font-size="10" fill="#10b981">3–6 hrs saved/wk</text>
+  <text x="85" y="245" text-anchor="middle" font-size="9" fill="#64748b">Advanced</text>
+  <!-- SOP -->
+  <rect x="165" y="163" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="165" y="163" width="130" height="6" rx="10" fill="#4a9eff"/>
+  <text x="230" y="195" text-anchor="middle" font-size="22">📄</text>
+  <text x="230" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">SOP Writing</text>
+  <text x="230" y="231" text-anchor="middle" font-size="10" fill="#10b981">3–5 hrs saved/wk</text>
+  <text x="230" y="245" text-anchor="middle" font-size="9" fill="#64748b">Intermediate</text>
+  <!-- Data -->
+  <rect x="310" y="163" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="310" y="163" width="130" height="6" rx="10" fill="#f59e0b"/>
+  <text x="375" y="195" text-anchor="middle" font-size="22">📊</text>
+  <text x="375" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Data Summaries</text>
+  <text x="375" y="231" text-anchor="middle" font-size="10" fill="#10b981">2–3 hrs saved/wk</text>
+  <text x="375" y="245" text-anchor="middle" font-size="9" fill="#64748b">Intermediate</text>
+  <!-- Code -->
+  <rect x="455" y="163" width="130" height="90" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="455" y="163" width="130" height="6" rx="10" fill="#10b981"/>
+  <text x="520" y="195" text-anchor="middle" font-size="22">💻</text>
+  <text x="520" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Code &amp; Automation</text>
+  <text x="520" y="231" text-anchor="middle" font-size="10" fill="#10b981">5–10 hrs saved/wk</text>
+  <text x="520" y="245" text-anchor="middle" font-size="9" fill="#64748b">Advanced</text>
+  <!-- Legend -->
+  <rect x="20" y="268" width="10" height="10" fill="#4a9eff" rx="2"/>
+  <text x="34" y="278" font-size="9" fill="#64748b">Beginner / Intermediate</text>
+  <rect x="180" y="268" width="10" height="10" fill="#f59e0b" rx="2"/>
+  <text x="194" y="278" font-size="9" fill="#64748b">Intermediate</text>
+  <rect x="290" y="268" width="10" height="10" fill="#10b981" rx="2"/>
+  <text x="304" y="278" font-size="9" fill="#64748b">Highest time-savings potential</text>
+</svg>
+</div>
+
 ## Best ChatGPT Prompts Compared: Categories & Effectiveness
 
 | Category | Time Saved/Week | Difficulty | Best For |
