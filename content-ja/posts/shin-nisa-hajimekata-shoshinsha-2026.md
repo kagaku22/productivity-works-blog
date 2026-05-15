@@ -26,7 +26,7 @@ cover:
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="新NISAつみたて投資枠と成長投資枠の比較">
   <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
-  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">新NISA：つみたて投資枠 vs 成長投資枠</text>
 
   <!-- 中央ラベル列 -->
@@ -68,7 +68,7 @@ cover:
   <!-- 合計バナー -->
   <rect x="20" y="208" width="580" height="38" rx="8" fill="#1e293b"/>
  <text x="310" y="224" text-anchor="middle" fill="white" font-size="12" font-weight="bold">合計年間360万円まで投資可能 ／ 生涯枠 1,800万円 ／ 非課税期間 無期限</text>
- <text x="310" y="240" text-anchor="middle" fill="#94a3b8" font-size="10">初心者はまずつみたて投資枠のみで始めるのが王道</text>
+ <text x="310" y="240" text-anchor="middle" fill="#cbd5e1" font-size="10">初心者はまずつみたて投資枠のみで始めるのが王道</text>
 </svg>
 </div>
 

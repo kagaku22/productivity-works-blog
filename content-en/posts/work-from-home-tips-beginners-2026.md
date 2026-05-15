@@ -112,7 +112,7 @@ Pick a start time and stick to it at least 4-5 days per week. This doesn't mean 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="310" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="310" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Ideal WFH Daily Schedule</text>
   <text x="300" y="42" text-anchor="middle" font-size="10" fill="#64748b">A balanced time-blocked day for remote workers</text>
   <!-- Schedule bars -->
@@ -129,17 +129,17 @@ Pick a start time and stick to it at least 4-5 days per week. This doesn't mean 
   <!-- Email/Slack -->
   <rect x="30" y="129" width="70" height="30" rx="5" fill="#e2e8f0"/>
   <text x="65" y="149" text-anchor="middle" font-size="9" fill="#64748b">11:00–11:30</text>
-  <rect x="110" y="129" width="460" height="30" rx="5" fill="#f59e0b"/>
+  <rect x="110" y="129" width="460" height="30" rx="5" fill="#4a9eff"/>
   <text x="340" y="149" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Email + Slack Processing (batch, don't react constantly)</text>
   <!-- Meetings -->
   <rect x="30" y="166" width="70" height="30" rx="5" fill="#e2e8f0"/>
   <text x="65" y="186" text-anchor="middle" font-size="9" fill="#64748b">11:30–12:30</text>
-  <rect x="110" y="166" width="460" height="30" rx="5" fill="#4a9eff" opacity="0.7"/>
+  <rect x="110" y="166" width="460" height="30" rx="5" fill="#93c5fd"/>
   <text x="340" y="186" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Meetings + Collaboration</text>
   <!-- Lunch -->
   <rect x="30" y="203" width="70" height="30" rx="5" fill="#e2e8f0"/>
   <text x="65" y="223" text-anchor="middle" font-size="9" fill="#64748b">12:30–1:30</text>
-  <rect x="110" y="203" width="460" height="30" rx="5" fill="#10b981" opacity="0.7"/>
+  <rect x="110" y="203" width="460" height="30" rx="5" fill="#6ee7b7"/>
   <text x="340" y="223" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Lunch Away from Desk — real break, move your body</text>
   <!-- Afternoon work -->
   <rect x="30" y="240" width="70" height="30" rx="5" fill="#e2e8f0"/>

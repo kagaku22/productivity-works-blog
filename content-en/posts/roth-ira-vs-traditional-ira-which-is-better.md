@@ -90,10 +90,10 @@ Think of it this way: Traditional IRA is "pay taxes later." Roth IRA is "pay tax
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 280" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Roth IRA vs Traditional IRA — Key Comparison</text>
   <!-- Roth column -->
-  <rect x="20" y="44" width="260" height="220" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="2"/>
+  <rect x="20" y="44" width="260" height="220" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="1.5"/>
   <rect x="20" y="44" width="260" height="38" rx="10" fill="#4a9eff"/>
   <rect x="20" y="70" width="260" height="12" fill="#4a9eff"/>
   <text x="150" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Roth IRA</text>
@@ -118,8 +118,8 @@ Think of it this way: Traditional IRA is "pay taxes later." Roth IRA is "pay tax
   <text x="150" y="265" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9eff">Young earners, lower tax now</text>
   <!-- Traditional column -->
   <rect x="320" y="44" width="260" height="220" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
-  <rect x="320" y="44" width="260" height="38" rx="10" fill="#f59e0b"/>
-  <rect x="320" y="70" width="260" height="12" fill="#f59e0b"/>
+  <rect x="320" y="44" width="260" height="38" rx="10" fill="#4a9eff"/>
+  <rect x="320" y="70" width="260" height="12" fill="#4a9eff"/>
   <text x="450" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Traditional IRA</text>
   <!-- Row: Tax on contributions -->
   <text x="450" y="100" text-anchor="middle" font-size="9" fill="#64748b">CONTRIBUTIONS</text>
@@ -127,19 +127,19 @@ Think of it this way: Traditional IRA is "pay taxes later." Roth IRA is "pay tax
   <line x1="336" y1="122" x2="564" y2="122" stroke="#e2e8f0" stroke-width="1"/>
   <!-- Row: Growth -->
   <text x="450" y="137" text-anchor="middle" font-size="9" fill="#64748b">GROWTH</text>
-  <text x="450" y="151" text-anchor="middle" font-size="11" font-weight="bold" fill="#f59e0b">Tax-deferred</text>
+  <text x="450" y="151" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">Tax-deferred</text>
   <line x1="336" y1="160" x2="564" y2="160" stroke="#e2e8f0" stroke-width="1"/>
   <!-- Row: Withdrawals -->
   <text x="450" y="175" text-anchor="middle" font-size="9" fill="#64748b">WITHDRAWALS</text>
-  <text x="450" y="189" text-anchor="middle" font-size="11" font-weight="bold" fill="#f59e0b">Taxed as ordinary income</text>
+  <text x="450" y="189" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">Taxed as ordinary income</text>
   <line x1="336" y1="198" x2="564" y2="198" stroke="#e2e8f0" stroke-width="1"/>
   <!-- Row: RMDs -->
   <text x="450" y="213" text-anchor="middle" font-size="9" fill="#64748b">REQUIRED MIN. DISTRIBUTIONS</text>
-  <text x="450" y="227" text-anchor="middle" font-size="10" fill="#f59e0b">Yes — starting age 73</text>
+  <text x="450" y="227" text-anchor="middle" font-size="10" fill="#4a9eff">Yes — starting age 73</text>
   <line x1="336" y1="236" x2="564" y2="236" stroke="#e2e8f0" stroke-width="1"/>
   <!-- Best for -->
   <text x="450" y="252" text-anchor="middle" font-size="9" fill="#64748b">BEST FOR</text>
-  <text x="450" y="265" text-anchor="middle" font-size="10" font-weight="bold" fill="#f59e0b">High earners, lower tax later</text>
+  <text x="450" y="265" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9eff">High earners, lower tax later</text>
   <!-- VS badge -->
   <circle cx="300" cy="155" r="20" fill="#1e293b"/>
   <text x="300" y="160" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">VS</text>

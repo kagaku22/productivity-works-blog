@@ -129,7 +129,7 @@ With $500/month:
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="310" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="310" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Avalanche vs Snowball: Which Path to Debt Freedom?</text>
   <!-- Center divider -->
   <line x1="300" y1="40" x2="300" y2="295" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5,4"/>
@@ -139,13 +139,13 @@ With $500/month:
   <text x="150" y="96" text-anchor="middle" font-size="10" fill="#1e293b">List debts by</text>
   <text x="150" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">Highest Interest Rate First</text>
   <!-- Avalanche debt bars (high rate first) -->
-  <rect x="40" y="125" width="220" height="22" rx="4" fill="#4a9eff" opacity="0.9"/>
+  <rect x="40" y="125" width="220" height="22" rx="4" fill="#4a9eff"/>
   <text x="150" y="140" text-anchor="middle" font-size="10" fill="#fff">Credit Card A — 24% APR  ← Attack first</text>
-  <rect x="40" y="152" width="165" height="22" rx="4" fill="#4a9eff" opacity="0.6"/>
+  <rect x="40" y="152" width="165" height="22" rx="4" fill="#93c5fd"/>
   <text x="150" y="167" text-anchor="middle" font-size="10" fill="#fff">Credit Card B — 19% APR</text>
-  <rect x="40" y="179" width="110" height="22" rx="4" fill="#4a9eff" opacity="0.4"/>
+  <rect x="40" y="179" width="110" height="22" rx="4" fill="#bfdbfe"/>
   <text x="150" y="194" text-anchor="middle" font-size="10" fill="#1e293b">Auto Loan — 7% APR</text>
-  <rect x="40" y="206" width="75" height="22" rx="4" fill="#4a9eff" opacity="0.2"/>
+  <rect x="40" y="206" width="75" height="22" rx="4" fill="#bfdbfe"/>
   <text x="150" y="221" text-anchor="middle" font-size="10" fill="#1e293b">Student Loan — 5% APR</text>
   <rect x="30" y="243" width="250" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
   <text x="155" y="260" text-anchor="middle" font-size="10" fill="#1e293b">Saves the most money in interest</text>
@@ -156,13 +156,13 @@ With $500/month:
   <text x="450" y="96" text-anchor="middle" font-size="10" fill="#1e293b">List debts by</text>
   <text x="450" y="110" text-anchor="middle" font-size="11" font-weight="bold" fill="#10b981">Smallest Balance First</text>
   <!-- Snowball debt bars (small balance first) -->
-  <rect x="340" y="125" width="75" height="22" rx="4" fill="#10b981" opacity="0.9"/>
+  <rect x="340" y="125" width="75" height="22" rx="4" fill="#10b981"/>
   <text x="450" y="140" text-anchor="middle" font-size="10" fill="#fff">Credit Card B — $1,200  ← Attack first</text>
-  <rect x="340" y="152" width="110" height="22" rx="4" fill="#10b981" opacity="0.6"/>
+  <rect x="340" y="152" width="110" height="22" rx="4" fill="#6ee7b7"/>
   <text x="450" y="167" text-anchor="middle" font-size="10" fill="#fff">Credit Card A — $3,500</text>
-  <rect x="340" y="179" width="165" height="22" rx="4" fill="#10b981" opacity="0.4"/>
+  <rect x="340" y="179" width="165" height="22" rx="4" fill="#a7f3d0"/>
   <text x="450" y="194" text-anchor="middle" font-size="10" fill="#1e293b">Auto Loan — $8,000</text>
-  <rect x="340" y="206" width="220" height="22" rx="4" fill="#10b981" opacity="0.2"/>
+  <rect x="340" y="206" width="220" height="22" rx="4" fill="#a7f3d0"/>
   <text x="450" y="221" text-anchor="middle" font-size="10" fill="#1e293b">Student Loan — $15,000</text>
   <rect x="320" y="243" width="260" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
   <text x="450" y="260" text-anchor="middle" font-size="10" fill="#1e293b">Quick wins build momentum &amp; motivation</text>

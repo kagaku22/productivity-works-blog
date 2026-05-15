@@ -29,7 +29,7 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="FX確定申告の手順フロー">
   <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
-  <rect width="620" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="620" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">FX確定申告 ステップフロー</text>
 
   <defs>
@@ -44,18 +44,18 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
  <text x="110" y="82" text-anchor="middle" fill="white" font-size="12" font-weight="bold">年間取引報告書</text>
  <text x="110" y="96" text-anchor="middle" fill="white" font-size="10">FX業者マイページから取得</text>
 
-  <line x1="190" y1="71" x2="220" y2="71" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr3)"/>
+  <line x1="190" y1="71" x2="220" y2="71" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr3)"/>
 
   <!-- Step 2 -->
-  <rect x="220" y="44" width="160" height="54" rx="10" fill="#4a9eff" opacity="0.85"/>
+  <rect x="220" y="44" width="160" height="54" rx="10" fill="#60a5fa"/>
  <text x="300" y="66" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 2</text>
  <text x="300" y="82" text-anchor="middle" fill="white" font-size="12" font-weight="bold">申告書類の準備</text>
  <text x="300" y="96" text-anchor="middle" fill="white" font-size="10">第三表・付表・源泉徴収票</text>
 
-  <line x1="380" y1="71" x2="410" y2="71" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr3)"/>
+  <line x1="380" y1="71" x2="410" y2="71" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr3)"/>
 
   <!-- Step 3 -->
-  <rect x="410" y="44" width="180" height="54" rx="10" fill="#4a9eff" opacity="0.7"/>
+  <rect x="410" y="44" width="180" height="54" rx="10" fill="#93c5fd"/>
  <text x="500" y="66" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 3</text>
  <text x="500" y="82" text-anchor="middle" fill="white" font-size="12" font-weight="bold">e-Tax入力・送信</text>
  <text x="500" y="96" text-anchor="middle" fill="white" font-size="10">マイナンバーカードで申請</text>
@@ -90,7 +90,7 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
  <text x="310" y="232" text-anchor="middle" fill="white" font-size="12" font-weight="bold">損失が出た年も申告を忘れずに！</text>
  <text x="310" y="252" text-anchor="middle" fill="white" font-size="11">損失繰越控除（3年間）で将来の利益と相殺できます</text>
 
- <text x="310" y="278" text-anchor="middle" fill="#94a3b8" font-size="10">確定申告期間：毎年2月16日〜3月15日</text>
+ <text x="310" y="278" text-anchor="middle" fill="#cbd5e1" font-size="10">確定申告期間：毎年2月16日〜3月15日</text>
 </svg>
 </div>
 

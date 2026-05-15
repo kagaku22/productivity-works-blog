@@ -32,7 +32,7 @@ cover:
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="ChatGPT仕事活用シーン10選">
   <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
-  <rect width="620" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="620" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">ChatGPT 仕事活用シーン 10選</text>
 
   <!-- アイコングリッド 2行×5列 -->
@@ -64,14 +64,14 @@ cover:
   <!-- 関数作成 -->
   <rect x="492" y="40" width="108" height="80" rx="10" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
  <text x="546" y="70" text-anchor="middle" font-size="22">📉</text>
- <text x="546" y="90" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="bold">Excel関数作成</text>
+ <text x="546" y="90" text-anchor="middle" fill="#4a9eff" font-size="10" font-weight="bold">Excel関数作成</text>
  <text x="546" y="106" text-anchor="middle" fill="#64748b" font-size="9">即答・即コード</text>
 
   <!-- 行2 -->
   <!-- SNS投稿 -->
   <rect x="20" y="136" width="108" height="80" rx="10" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
  <text x="74" y="166" text-anchor="middle" font-size="22">📱</text>
- <text x="74" y="186" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="bold">SNS投稿文</text>
+ <text x="74" y="186" text-anchor="middle" fill="#4a9eff" font-size="10" font-weight="bold">SNS投稿文</text>
  <text x="74" y="202" text-anchor="middle" fill="#64748b" font-size="9">複数媒体対応</text>
 
   <!-- 翻訳 -->
@@ -95,10 +95,10 @@ cover:
   <!-- マニュアル -->
   <rect x="492" y="136" width="108" height="80" rx="10" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
  <text x="546" y="166" text-anchor="middle" font-size="22">📋</text>
- <text x="546" y="186" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="bold">業務マニュアル</text>
+ <text x="546" y="186" text-anchor="middle" fill="#4a9eff" font-size="10" font-weight="bold">業務マニュアル</text>
  <text x="546" y="202" text-anchor="middle" fill="#64748b" font-size="9">属人化を解消</text>
 
- <text x="310" y="254" text-anchor="middle" fill="#94a3b8" font-size="11">「今日一番面倒な作業」からChatGPTに任せてみましょう</text>
+ <text x="310" y="254" text-anchor="middle" fill="#cbd5e1" font-size="11">「今日一番面倒な作業」からChatGPTに任せてみましょう</text>
  <text x="310" y="270" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">→ まず1つ試すだけで、使い方が自然に見えてきます</text>
 </svg>
 </div>

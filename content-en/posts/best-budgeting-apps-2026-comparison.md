@@ -94,10 +94,10 @@ Not all apps are built on the same philosophy:
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 260" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Top 3 Budgeting Apps — Quick Comparison</text>
   <!-- YNAB Column -->
-  <rect x="20" y="48" width="178" height="195" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="2"/>
+  <rect x="20" y="48" width="178" height="195" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="1.5"/>
   <rect x="20" y="48" width="178" height="36" rx="10" fill="#4a9eff"/>
   <rect x="20" y="68" width="178" height="16" fill="#4a9eff"/>
   <text x="109" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">YNAB</text>
@@ -124,8 +124,8 @@ Not all apps are built on the same philosophy:
   <text x="300" y="231" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Best for: Couples</text>
   <!-- Empower Column -->
   <rect x="402" y="48" width="178" height="195" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
-  <rect x="402" y="48" width="178" height="36" rx="10" fill="#f59e0b"/>
-  <rect x="402" y="68" width="178" height="16" fill="#f59e0b"/>
+  <rect x="402" y="48" width="178" height="36" rx="10" fill="#4a9eff"/>
+  <rect x="402" y="68" width="178" height="16" fill="#4a9eff"/>
   <text x="491" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Empower</text>
   <text x="491" y="102" text-anchor="middle" font-size="11" fill="#1e293b" font-weight="bold">Free</text>
   <line x1="422" y1="112" x2="560" y2="112" stroke="#e2e8f0" stroke-width="1"/>
@@ -133,7 +133,7 @@ Not all apps are built on the same philosophy:
   <text x="491" y="143" text-anchor="middle" font-size="10" fill="#64748b">Net worth dashboard</text>
   <text x="491" y="159" text-anchor="middle" font-size="10" fill="#64748b">Always free core</text>
   <text x="491" y="175" text-anchor="middle" font-size="10" fill="#64748b">⭐ 4.5 / 5</text>
-  <rect x="426" y="218" width="130" height="18" rx="9" fill="#f59e0b"/>
+  <rect x="426" y="218" width="130" height="18" rx="9" fill="#4a9eff"/>
   <text x="491" y="231" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Best for: Investors</text>
 </svg>
 </div>

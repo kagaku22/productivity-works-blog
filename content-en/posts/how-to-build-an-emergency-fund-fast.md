@@ -174,17 +174,17 @@ After you use your emergency fund, rebuild it before resuming normal investing c
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 280" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Emergency Fund Savings Milestones</text>
   <text x="300" y="50" text-anchor="middle" font-size="11" fill="#64748b">Your path from $0 to full 3–6 month coverage</text>
   <!-- Timeline spine -->
   <line x1="60" y1="140" x2="545" y2="140" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
   <!-- Milestone 1: Starter $1,000 -->
-  <circle cx="100" cy="140" r="18" fill="#f59e0b"/>
+  <circle cx="100" cy="140" r="18" fill="#4a9eff"/>
   <text x="100" y="145" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">$1K</text>
   <text x="100" y="115" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">Starter</text>
   <text x="100" y="102" text-anchor="middle" font-size="9" fill="#64748b">Fund opened</text>
-  <text x="100" y="170" text-anchor="middle" font-size="9" fill="#f59e0b">First win!</text>
+  <text x="100" y="170" text-anchor="middle" font-size="9" fill="#4a9eff">First win!</text>
   <!-- Milestone 2: 1 month -->
   <circle cx="220" cy="140" r="18" fill="#4a9eff"/>
   <text x="220" y="145" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">1 mo</text>
@@ -204,7 +204,7 @@ After you use your emergency fund, rebuild it before resuming normal investing c
   <text x="520" y="96" text-anchor="middle" font-size="9" fill="#64748b">Fully funded</text>
   <text x="520" y="179" text-anchor="middle" font-size="9" fill="#10b981">Start investing!</text>
   <!-- HYSA badge -->
-  <rect x="150" y="210" width="300" height="48" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="150" y="210" width="300" height="48" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="230" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">Best home for your fund: High-Yield Savings Account</text>
   <text x="300" y="248" text-anchor="middle" font-size="10" fill="#4a9eff">4–5% APY  •  FDIC insured  •  Access in 1–3 days</text>
 </svg>

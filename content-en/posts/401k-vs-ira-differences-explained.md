@@ -103,10 +103,10 @@ Key features:
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 270" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="270" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="270" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">401(k) vs IRA — Key Differences at a Glance</text>
   <!-- 401k column -->
-  <rect x="20" y="44" width="265" height="210" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="2"/>
+  <rect x="20" y="44" width="265" height="210" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="1.5"/>
   <rect x="20" y="44" width="265" height="38" rx="10" fill="#4a9eff"/>
   <rect x="20" y="70" width="265" height="12" fill="#4a9eff"/>
   <text x="152" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">401(k)</text>
@@ -123,14 +123,14 @@ Key features:
   <text x="152" y="238" text-anchor="middle" font-size="10" fill="#1e293b">Limited to plan menu</text>
   <!-- IRA column -->
   <rect x="315" y="44" width="265" height="210" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
-  <rect x="315" y="44" width="265" height="38" rx="10" fill="#f59e0b"/>
-  <rect x="315" y="70" width="265" height="12" fill="#f59e0b"/>
+  <rect x="315" y="44" width="265" height="38" rx="10" fill="#4a9eff"/>
+  <rect x="315" y="70" width="265" height="12" fill="#4a9eff"/>
   <text x="447" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">IRA</text>
   <text x="447" y="102" text-anchor="middle" font-size="10" fill="#64748b">Set up by</text>
   <text x="447" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">You (any brokerage)</text>
   <line x1="335" y1="126" x2="560" y2="126" stroke="#e2e8f0" stroke-width="1"/>
   <text x="447" y="143" text-anchor="middle" font-size="10" fill="#64748b">2026 Contribution Limit</text>
-  <text x="447" y="158" text-anchor="middle" font-size="13" font-weight="bold" fill="#f59e0b">$7,000 / year</text>
+  <text x="447" y="158" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a9eff">$7,000 / year</text>
   <line x1="335" y1="168" x2="560" y2="168" stroke="#e2e8f0" stroke-width="1"/>
   <text x="447" y="183" text-anchor="middle" font-size="10" fill="#64748b">Employer Match</text>
   <text x="447" y="198" text-anchor="middle" font-size="11" fill="#64748b">No</text>

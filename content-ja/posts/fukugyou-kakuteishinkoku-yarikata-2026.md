@@ -26,7 +26,7 @@ cover:
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="freee・マネーフォワードで副業確定申告の流れ">
   <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
-  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">副業確定申告の流れ（会計ソフト活用版）</text>
 
   <defs>
@@ -37,7 +37,7 @@ cover:
 
   <!-- Step boxes -->
   <!-- Step 1 -->
-  <rect x="20" y="44" width="108" height="90" rx="10" fill="white" stroke="#4a9eff" stroke-width="2"/>
+  <rect x="20" y="44" width="108" height="90" rx="10" fill="white" stroke="#4a9eff" stroke-width="1.5"/>
   <rect x="20" y="44" width="108" height="28" rx="10" fill="#4a9eff"/>
  <text x="74" y="62" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 1</text>
  <text x="74" y="88" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">収入・経費</text>
@@ -45,18 +45,18 @@ cover:
  <text x="74" y="126" text-anchor="middle" fill="#64748b" font-size="9">領収書・明細を</text>
  <text x="74" y="138" text-anchor="middle" fill="#64748b" font-size="9">アプリで記録</text>
 
-  <line x1="128" y1="89" x2="148" y2="89" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr4)"/>
+  <line x1="128" y1="89" x2="148" y2="89" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr4)"/>
 
   <!-- Step 2 -->
-  <rect x="148" y="44" width="108" height="90" rx="10" fill="white" stroke="#4a9eff" stroke-width="2"/>
-  <rect x="148" y="44" width="108" height="28" rx="10" fill="#4a9eff" opacity="0.85"/>
+  <rect x="148" y="44" width="108" height="90" rx="10" fill="white" stroke="#4a9eff" stroke-width="1.5"/>
+  <rect x="148" y="44" width="108" height="28" rx="10" fill="#60a5fa"/>
  <text x="202" y="62" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 2</text>
  <text x="202" y="88" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">会計ソフトを</text>
  <text x="202" y="104" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">選ぶ</text>
  <text x="202" y="120" text-anchor="middle" fill="#64748b" font-size="9">freee or</text>
  <text x="202" y="132" text-anchor="middle" fill="#64748b" font-size="9">マネーフォワード</text>
 
-  <line x1="256" y1="89" x2="276" y2="89" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr4)"/>
+  <line x1="256" y1="89" x2="276" y2="89" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr4)"/>
 
   <!-- Step 3 -->
   <rect x="276" y="44" width="108" height="90" rx="10" fill="white" stroke="#10b981" stroke-width="2"/>
@@ -67,22 +67,22 @@ cover:
  <text x="330" y="120" text-anchor="middle" fill="#64748b" font-size="9">入力するだけで</text>
  <text x="330" y="132" text-anchor="middle" fill="#64748b" font-size="9">書類が完成</text>
 
-  <line x1="384" y1="89" x2="404" y2="89" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr4)"/>
+  <line x1="384" y1="89" x2="404" y2="89" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr4)"/>
 
   <!-- Step 4 -->
   <rect x="404" y="44" width="108" height="90" rx="10" fill="white" stroke="#10b981" stroke-width="2"/>
-  <rect x="404" y="44" width="108" height="28" rx="10" fill="#10b981" opacity="0.85"/>
+  <rect x="404" y="44" width="108" height="28" rx="10" fill="#34d399"/>
  <text x="458" y="62" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 4</text>
  <text x="458" y="88" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">e-Taxで</text>
  <text x="458" y="104" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">電子申告</text>
  <text x="458" y="120" text-anchor="middle" fill="#64748b" font-size="9">マイナンバー</text>
  <text x="458" y="132" text-anchor="middle" fill="#64748b" font-size="9">カードで送信</text>
 
-  <line x1="512" y1="89" x2="532" y2="89" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr4)"/>
+  <line x1="512" y1="89" x2="532" y2="89" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arr4)"/>
 
   <!-- Step 5 -->
   <rect x="532" y="44" width="72" height="90" rx="10" fill="white" stroke="#f59e0b" stroke-width="2"/>
-  <rect x="532" y="44" width="72" height="28" rx="10" fill="#f59e0b"/>
+  <rect x="532" y="44" width="72" height="28" rx="10" fill="#4a9eff"/>
  <text x="568" y="62" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Step 5</text>
  <text x="568" y="88" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">納税</text>
  <text x="568" y="104" text-anchor="middle" fill="#64748b" font-size="9">3月15日</text>
@@ -101,8 +101,8 @@ cover:
  <text x="460" y="207" text-anchor="middle" fill="#64748b" font-size="10">・青色申告で最大65万円控除</text>
 
   <!-- 住民税注意 -->
-  <rect x="20" y="226" width="580" height="24" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
- <text x="310" y="242" text-anchor="middle" fill="#92400e" font-size="11" font-weight="bold">⚠ 住民税は「自分で納付」を選択 → 副業を会社にバレにくくする</text>
+  <rect x="20" y="226" width="580" height="24" rx="6" fill="#eff6ff" stroke="#f59e0b" stroke-width="1"/>
+ <text x="310" y="242" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">⚠ 住民税は「自分で納付」を選択 → 副業を会社にバレにくくする</text>
 </svg>
 </div>
 

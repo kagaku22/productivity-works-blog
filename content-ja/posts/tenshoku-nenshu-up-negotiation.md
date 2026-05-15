@@ -87,29 +87,29 @@ cover:
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="年収別手取り比較バーチャート">
   <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
-  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="620" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">年収別 手取り額の目安（東京・会社員・独身）</text>
 
   <!-- 年収300万円 -->
  <text x="90" y="52" text-anchor="middle" fill="#64748b" font-size="11">年収300万円</text>
   <!-- 手取りバー（約237万円 ≈ 79%） -->
-  <rect x="160" y="42" width="237" height="22" rx="4" fill="#4a9eff" opacity="0.7"/>
-  <rect x="397" y="42" width="63" height="22" rx="4" fill="#f59e0b" opacity="0.7"/>
- <text x="405" y="57" fill="#92400e" font-size="10">控除63万</text>
+  <rect x="160" y="42" width="237" height="22" rx="4" fill="#93c5fd"/>
+  <rect x="397" y="42" width="63" height="22" rx="4" fill="#93c5fd"/>
+ <text x="405" y="57" fill="#1e293b" font-size="10">控除63万</text>
  <text x="330" y="57" text-anchor="middle" fill="white" font-size="11" font-weight="bold">手取り約237万円</text>
 
   <!-- 年収400万円 -->
  <text x="90" y="92" text-anchor="middle" fill="#64748b" font-size="11">年収400万円</text>
-  <rect x="160" y="82" width="304" height="22" rx="4" fill="#4a9eff" opacity="0.8"/>
-  <rect x="464" y="82" width="96" height="22" rx="4" fill="#f59e0b" opacity="0.7"/>
- <text x="468" y="97" fill="#92400e" font-size="10">控除96万</text>
+  <rect x="160" y="82" width="304" height="22" rx="4" fill="#60a5fa"/>
+  <rect x="464" y="82" width="96" height="22" rx="4" fill="#93c5fd"/>
+ <text x="468" y="97" fill="#1e293b" font-size="10">控除96万</text>
  <text x="312" y="97" text-anchor="middle" fill="white" font-size="11" font-weight="bold">手取り約304万円</text>
 
   <!-- 年収500万円 -->
  <text x="90" y="132" text-anchor="middle" fill="#64748b" font-size="11">年収500万円</text>
-  <rect x="160" y="122" width="368" height="22" rx="4" fill="#4a9eff" opacity="0.9"/>
+  <rect x="160" y="122" width="368" height="22" rx="4" fill="#4a9eff"/>
  <text x="344" y="137" text-anchor="middle" fill="white" font-size="11" font-weight="bold">手取り約368万円</text>
- <text x="552" y="137" fill="#92400e" font-size="10">控除132万</text>
+ <text x="552" y="137" fill="#1e293b" font-size="10">控除132万</text>
 
   <!-- 年収700万円 -->
  <text x="90" y="172" text-anchor="middle" fill="#64748b" font-size="11">年収700万円</text>
@@ -119,10 +119,10 @@ cover:
   <!-- 凡例 -->
   <rect x="160" y="200" width="16" height="12" rx="2" fill="#4a9eff"/>
  <text x="182" y="211" fill="#64748b" font-size="11">手取り額（概算）</text>
-  <rect x="300" y="200" width="16" height="12" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <rect x="300" y="200" width="16" height="12" rx="2" fill="#93c5fd"/>
  <text x="322" y="211" fill="#64748b" font-size="11">社保・税金（控除）</text>
 
- <text x="310" y="238" text-anchor="middle" fill="#94a3b8" font-size="10">※東京都在住・独身・40歳未満の目安。扶養家族・年齢・勤務地により異なります。</text>
+ <text x="310" y="238" text-anchor="middle" fill="#cbd5e1" font-size="10">※東京都在住・独身・40歳未満の目安。扶養家族・年齢・勤務地により異なります。</text>
  <text x="310" y="252" text-anchor="middle" fill="#4a9eff" font-size="10" font-weight="bold">年収が上がるほど控除率も上昇 → 手取りベースで比較することが重要</text>
 </svg>
 </div>

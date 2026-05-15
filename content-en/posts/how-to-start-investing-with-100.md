@@ -147,7 +147,7 @@ Make sure your brokerage account is set to automatically reinvest dividends (DRI
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
 <svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
-  <rect width="600" height="320" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="600" height="320" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="36" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">5 Steps to Start Investing with $100</text>
   <!-- Step boxes -->
   <!-- Step 1 -->
@@ -190,7 +190,7 @@ Make sure your brokerage account is set to automatically reinvest dividends (DRI
   <text x="434" y="145" text-anchor="middle" font-size="9" fill="#1e293b">VTI / FZROX</text>
   <text x="536" y="145" text-anchor="middle" font-size="9" fill="#1e293b">$25+/mo</text>
   <!-- Compound growth illustration -->
-  <rect x="30" y="170" width="540" height="110" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="30" y="170" width="540" height="110" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
   <text x="300" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">$100 invested at age 25 — power of compound growth</text>
   <line x1="60" y1="260" x2="555" y2="260" stroke="#e2e8f0" stroke-width="1"/>
   <line x1="60" y1="260" x2="60" y2="205" stroke="#e2e8f0" stroke-width="1"/>
