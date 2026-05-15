@@ -291,6 +291,14 @@ Notionの最大の特徴は、**自分の使い方に合わせて自由にカス
 
 ---
 
+### 関連記事
+
+- [Notion完全ガイド：初心者向けセットアップと活用術](/ja/posts/notion-kanzen-guide-shoshinsha-2026/)
+- [NotionでフリーランスのKPI管理と確定申告準備](/ja/posts/notion-kakuteishinkoku-freelance/)
+- [ChatGPT仕事活用法2026：業務効率化の完全ガイド](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [AI要約ツールおすすめ：議事録・文書を瞬時に要約](/ja/posts/ai-youyaku-tool-osusume/)
+- [ChatGPT議事録テンプレート：会議を10倍効率化](/ja/posts/chatgpt-gijiroku-template/)
+
 ## 関連テンプレート
 
 この記事で紹介したテクニックをすぐ実践できるテンプレートはこちら：

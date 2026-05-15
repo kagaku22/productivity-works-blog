@@ -147,4 +147,12 @@ freeeに切り替えることで得られるメリットは明確です。
 
 ---
 
+### 関連記事
+
+- [副業フリーランスがfreeeで青色申告65万控除を取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)
+- [freee vs マネーフォワード：副業向け会計ソフト比較](/ja/posts/freee-vs-moneyforward-fukugyou/)
+- [AI×確定申告 フリーランス完全自動化ガイド2026](/ja/posts/ai-kakuteishinkoku-freelance-2026/)
+- [副業フリーランスの確定申告のやり方2026](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+- [フリーランス確定申告のやり方：完全ガイド](/ja/posts/フリーランス-確定申告-やり方/)
+
 *本記事は2026年5月時点の情報に基づいています。税制や料金は変更される場合があります。個別の税務相談については税理士にご確認ください。*

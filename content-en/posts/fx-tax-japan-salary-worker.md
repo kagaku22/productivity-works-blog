@@ -246,4 +246,12 @@ Check your [take-home pay](/ja/tools/salary-tedori-calculator/) after FX taxes t
 
 ---
 
+### Related Articles
+
+- [NISA vs FX in Japan: Which Is Better for Growing Your Money?](/posts/nisa-vs-fx-japan-investing/)
+- [FX Loss Carryforward in Japan: How to File](/posts/fx-loss-carryforward-japan-tax/)
+- [Best FX Brokers in Japan (English Guide)](/posts/best-fx-brokers-japan-english/)
+- [FX Spread Comparison Japan 2026](/posts/fx-spread-comparison-japan-2026/)
+- [Kakuteishinkoku FX Income Guide](/posts/kakuteishinkoku-fx-income-guide/)
+
 *This article is for informational purposes only and does not constitute tax advice. Tax rules can change. Consult a licensed tax accountant (税理士) for advice specific to your situation.*

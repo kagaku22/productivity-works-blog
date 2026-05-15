@@ -181,4 +181,12 @@ FX取引で年間を通じて損失が出た場合、その損失を翌年以降
 
 ---
 
+### 関連記事
+
+- [FXの損失繰越控除：3年間の申告手順と注意点](/ja/posts/fx-sonshitsu-kurikoshi-koujo/)
+- [FXのスワップポイントにかかる税金と申告方法](/ja/posts/fx-swap-point-zeikin/)
+- [FX利益20万円超の確定申告のやり方](/ja/posts/fx-rieki-20man-kakuteishinkoku/)
+- [FX確定申告に必要な書類一覧](/ja/posts/fx-kakuteishinkoku-shorui-ichiran/)
+- [副業フリーランスの確定申告のやり方2026](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+
 *本記事は2026年5月時点の税制・制度に基づいて作成しています。税制は改正されることがあるため、最新情報は国税庁の公式サイトまたは税理士にご確認ください。*

@@ -198,6 +198,14 @@ FXで損失が出た年に確定申告をすることは、将来の節税につ
 
 ---
 
+### 関連記事
+
+- [FX利益20万円超の確定申告のやり方](/ja/posts/fx-rieki-20man-kakuteishinkoku/)
+- [FXのスワップポイントにかかる税金と申告方法](/ja/posts/fx-swap-point-zeikin/)
+- [FX確定申告に必要な書類一覧](/ja/posts/fx-kakuteishinkoku-shorui-ichiran/)
+- [副業FXで住民税がバレない方法と節税術](/ja/posts/fukugyou-fx-juuminzei-bareru/)
+- [NISA vs FX 税金の違いを徹底比較](/ja/posts/nisa-fx-zeikin-hikaku/)
+
 **関連ツール**
 
 - 年間損益の計算には[FX利益計算ツール](/ja/tools/fx-profit-calculator/)をご活用ください。

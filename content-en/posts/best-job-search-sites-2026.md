@@ -232,6 +232,14 @@ Start with LinkedIn optimization today — it's the single highest-ROI action in
 
 ---
 
+### Related Articles
+
+- [AI Resume Optimization for Job Search 2026](/posts/ai-resume-optimization-job-search-2026/)
+- [Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
+- [ChatGPT Resume Tips for Career Changers Over 50](/posts/chatgpt-resume-over-50-career-change/)
+- [Salary Negotiation in Japan: Switching Jobs Guide](/posts/salary-negotiation-japan-switching-jobs/)
+- [How to Start Freelancing in 2026](/posts/how-to-start-freelancing-2026/)
+
 ## Related Templates
 
 Supercharge your job search with AI:

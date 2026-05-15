@@ -162,3 +162,11 @@ FX口座開設の審査に落ちる主な原因は、年齢・金融資産の過
 審査に落ちた場合でも、別業者への申し込みや期間を空けての再申請で口座開設できる可能性は十分あります。焦らず、申告内容を丁寧に見直すことが近道です。
 
 副業としてFXを始める方は、利益が出た場合の税金計算も重要です。[副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)で、FX所得にかかる税負担の目安を事前に確認しておきましょう。雑所得の申告漏れはペナルティの対象になるため、稼ぎ始める前に把握しておくことをおすすめします。
+
+### 関連記事
+
+- [海外FXおすすめ業者2026年版：スプレッドと特徴を比較](/ja/posts/kaigai-fx-osusume-2026/)
+- [FX利益20万円超の確定申告のやり方](/ja/posts/fx-rieki-20man-kakuteishinkoku/)
+- [FXの損失繰越控除：3年間の申告手順と注意点](/ja/posts/fx-sonshitsu-kurikoshi-koujo/)
+- [FXのスワップポイントにかかる税金と申告方法](/ja/posts/fx-swap-point-zeikin/)
+- [副業FXで住民税がバレない方法と節税術](/ja/posts/fukugyou-fx-juuminzei-bareru/)
