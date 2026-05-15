@@ -147,6 +147,14 @@ freeeに切り替えることで得られるメリットは明確です。
 
 ---
 
+---
+
+## 関連ツール
+
+> 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
+> 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+
 ### 関連記事
 
 - [副業フリーランスがfreeeで青色申告65万控除を取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)
