@@ -269,6 +269,8 @@ Write a listing description for a historic or architecturally significant proper
 
 ---
 
+> **Ready to Grow Your Real Estate Career?**  Agents who combine market expertise with AI-powered productivity are closing more deals with less effort. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> — Japan's top job platform with real estate and business development opportunities.
+
 ## How to Get Consistent Results
 
 A few extra tips for making ChatGPT listing descriptions reliably good:
@@ -288,3 +290,5 @@ A few extra tips for making ChatGPT listing descriptions reliably good:
 Ready to upgrade your entire listing workflow?
 
 - [ChatGPT Prompt Templates for Real Estate Agents](https://payhip.com/productivityworks) — A complete toolkit of 50+ tested prompts covering listings, client emails, market reports, social media, and more. Built specifically for agents who want to save hours every week without sacrificing quality.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

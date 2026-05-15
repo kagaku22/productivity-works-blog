@@ -256,6 +256,8 @@ Building from scratch is optional. These templates are worth the time:
 
 ---
 
+> **Productivity Tools Are Now Career Tools**  Employers increasingly look for candidates who can manage their work efficiently with modern tools like Notion. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> — discover thousands of roles across every industry on Japan's leading job platform.
+
 ## Getting Started This Week
 
 Day 1: Create the Tasks database with 5 properties. Capture everything on your mind into it.
@@ -282,3 +284,5 @@ Put these techniques into practice with our ready-made templates:
 
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

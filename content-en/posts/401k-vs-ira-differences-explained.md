@@ -223,6 +223,8 @@ A: For 2026: single filers begin to phase out at $150,000 and are fully phased o
 
 ---
 
+> **Open a Tax-Advantaged Account Today**  Whether you're maximizing your 401k match or opening your first IRA, the sooner you start the more compound growth works in your favor. <a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow">Open a Rakuten Securities account</a> to start investing in low-cost index funds inside a tax-advantaged account today.
+
 ## Conclusion: Use Both Accounts Strategically
 
 The 401k vs. IRA debate is a false choice for most workers — the optimal answer is to use both, in the right order. Here's the simple framework to remember:
@@ -247,6 +249,8 @@ Follow this order consistently over your career, invest in low-cost index funds,
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Investment decisions should be made based on your individual circumstances. Please consult a qualified financial advisor before making investment decisions. Information is current as of the publication date — verify details on official websites.
 
 **Disclosure:** This article may contain affiliate links. We may earn a commission at no additional cost to you.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*
 
 ---
 

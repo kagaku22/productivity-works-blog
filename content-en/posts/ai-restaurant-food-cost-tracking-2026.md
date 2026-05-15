@@ -273,6 +273,8 @@ Also help me draft a brief message I could share with regular guests explaining 
 
 ---
 
+> **Keep Your Restaurant's Finances Under Control**  Food cost tracking is only half the battle — clean books make the rest manageable. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow">Try freee — Japan's #1 cloud accounting</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt=""> to automate your invoicing, expense tracking, and tax prep so you can focus on what's actually on the menu.
+
 ## Building a Monthly Food Cost Review Habit
 
 The goal isn't to obsess over food costs daily — it's to build a monthly review rhythm that catches problems before they compound.
@@ -297,3 +299,5 @@ My restaurant has [number] seats, serves [lunch/dinner/both], and does approxima
 Ready to take control of your restaurant's finances with AI?
 
 - [The AI Productivity Playbook](https://payhip.com/productivityworks) — A complete guide to using AI tools for small business financial management, including restaurant-specific templates for food cost tracking, inventory management, cash flow monitoring, and more. Built for operators who want real results without a finance degree.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

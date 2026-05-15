@@ -318,6 +318,8 @@ It also pairs with our **AI Productivity Playbook**, which covers how to use AI 
 
 ---
 
+> **When Notion Isn't Enough, freee Has You Covered**  Your Notion budget tracker is great for planning — but for official accounting, invoicing, and tax filing, you need dedicated software. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow">Try freee — Japan's #1 cloud accounting</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt=""> to handle everything your Notion system can't, including bank sync, tax returns, and client invoicing.
+
 ## Final Thoughts
 
 The freelancers who build sustainable businesses are almost always the ones who treat their finances with the same care they give their craft. You don't need to be a numbers person. You need a system that handles the structure so you can see the signal clearly.
@@ -340,3 +342,5 @@ Start your freelance or side hustle journey with these resources:
 
 - [Side Hustle Starter Kit 2026](https://payhip.com/productivityworks) — 15 proven ideas with step-by-step guides
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Boost your productivity instantly
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

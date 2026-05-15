@@ -222,6 +222,8 @@ A: Research shows that lump-sum investing (all at once) outperforms dollar-cost 
 
 ---
 
+> **Your First $100 Deserves a Great Home**  Don't let your first investment sit in a low-yield account. <a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow">Open a Rakuten Securities account</a> and invest your first $100 in a diversified index fund — your future self will thank you for starting today.
+
 ## Conclusion: Your $100 Is the Starting Line, Not the Finish Line
 
 The most powerful investment you'll ever make isn't measured in dollars — it's the decision to start. Every wealthy investor started somewhere. Most started with far less than they wanted, in a moment when it felt almost too small to matter.
@@ -243,6 +245,8 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Investment decisions should be made based on your individual circumstances. Please consult a qualified financial advisor before making investment decisions. Information is current as of the publication date — verify details on official websites.
 
 **Disclosure:** This article may contain affiliate links. We may earn a commission at no additional cost to you.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*
 
 ---
 

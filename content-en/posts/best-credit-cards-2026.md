@@ -241,6 +241,8 @@ Yes. Credit card interest rates (18-28%) will always exceed your rewards earning
 
 ---
 
+> **Pair Great Rewards With Smart Investing**  Maximizing credit card cash back is smart — but investing those rewards is even smarter. <a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow">Open a Rakuten Securities account</a> to put your cash back rewards to work in a diversified portfolio and grow your net worth beyond just rewards points.
+
 ## Conclusion
 
 The best credit card is the one that matches how you actually spend. A 5% cash back card is worthless if the bonus categories don't align with your habits. A $695 premium card is a waste if you fly twice a year.
@@ -261,3 +263,5 @@ Take control of your finances with our ready-made tools:
 
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Including financial planning prompts
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows for smarter money management
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

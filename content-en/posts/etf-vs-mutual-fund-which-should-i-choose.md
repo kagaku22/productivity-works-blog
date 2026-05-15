@@ -253,6 +253,8 @@ A: Yes. Both can decline in value if the underlying securities decline. There is
 
 ---
 
+> **Put Your Investment Strategy Into Practice**  Understanding ETFs vs. mutual funds is step one — actually investing is step two. <a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow">Open a Rakuten Securities account</a> to access a wide selection of low-cost index ETFs and mutual funds with no minimum investment.
+
 ## Conclusion: The Answer for Most Investors
 
 For the vast majority of beginning investors, the ETF vs. mutual fund question comes down to:
@@ -278,6 +280,8 @@ Start simple. Stay consistent. Keep costs low.
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Investment decisions should be made based on your individual circumstances. Please consult a qualified financial advisor before making investment decisions. Information is current as of the publication date — verify details on official websites.
 
 **Disclosure:** This article may contain affiliate links. We may earn a commission at no additional cost to you.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*
 
 ---
 

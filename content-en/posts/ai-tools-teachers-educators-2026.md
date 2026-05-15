@@ -356,6 +356,8 @@ Our **ChatGPT Prompt Templates pack** on [Payhip](https://payhip.com) includes a
 
 ---
 
+> **Teaching Is a Career Worth Building — doda Can Help**  Whether you're looking to move into educational technology, curriculum design, or a new school environment, <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> — Japan's leading job platform with opportunities across education and beyond.
+
 ## Building Your Personal AI Workflow as a Teacher
 
 Start small. Pick one category from this guide — the one that currently takes the most of your time — and spend one week integrating an AI tool into that specific workflow.
@@ -384,3 +386,5 @@ Put these techniques into practice with our ready-made templates:
 
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Copy-paste prompts for every situation
 - [The AI Productivity Playbook 2026](https://payhip.com/productivityworks) — 50+ AI workflows and automation strategies
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

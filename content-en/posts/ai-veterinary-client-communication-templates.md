@@ -370,6 +370,8 @@ Tone: human, accountable, and warm. A grieving pet owner wrote this. Match that 
 
 ---
 
+> **Manage Your Clinic's Finances as Smoothly as Your Communications**  Great client communication keeps clients coming back — clean accounting keeps the lights on. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow">Try freee — Japan's #1 cloud accounting</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt=""> to automate your billing, track expenses, and simplify tax season for your veterinary practice.
+
 ## Building a Communication Template Library for Your Clinic
 
 These 15 templates are a starting point. The real goal is building a library your entire team can access — so communications are consistent regardless of who's sending them.
@@ -390,3 +392,5 @@ ChatGPT can help you expand this library on demand: "We keep getting calls askin
 Ready to build a complete AI-powered communication system for your clinic?
 
 - [The AI Productivity Playbook](https://payhip.com/productivityworks) — A practical guide to using AI tools across your veterinary practice: client communication, staff training, documentation, social media, and more. Includes customizable templates and step-by-step instructions for clinic teams of any size.
+
+*This article contains affiliate links. We may earn a commission at no extra cost to you.*

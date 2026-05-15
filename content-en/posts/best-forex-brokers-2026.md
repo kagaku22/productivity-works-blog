@@ -186,6 +186,8 @@ Yes, in most countries. In the US, forex brokers must be registered with the NFA
 
 ---
 
+> **Start Investing in Japan — Open a Rakuten Securities Account**  Before diving into forex, consider building your foundation with stocks and funds. <a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow">Open a Rakuten Securities account</a> — one of Japan's most trusted online brokers with low fees, a wide range of investment products, and a beginner-friendly platform.
+
 ## Conclusion
 
 Choosing the right forex broker is the foundation of successful trading. Prioritize **regulation** (never trade with unregulated brokers), then compare **spreads** and **platform quality**.
