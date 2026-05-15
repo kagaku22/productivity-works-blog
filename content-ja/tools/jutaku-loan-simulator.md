@@ -3,6 +3,8 @@ title: "住宅ローンシミュレーター｜月々返済額・総返済額を
 date: 2026-05-16
 draft: false
 slug: "jutaku-loan-simulator"
+aliases:
+  - /ja/tools/housing-loan-simulator/
 description: "住宅ローンの月々返済額・総返済額・利息総額を自動計算。借入額・金利・返済期間を入力するだけ。元利均等・元金均等の比較、繰上返済シミュレーションも対応。"
 author: "Productivity Works編集部"
 categories:
