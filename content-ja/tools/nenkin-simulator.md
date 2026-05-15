@@ -1,241 +1,569 @@
 ---
-title: "年金シミュレーター｜将来の年金受給額を無料で計算【2026年版】"
-date: 2026-05-14
+title: "年金シミュレーター｜将来の受給額を簡単計算"
+date: 2026-05-15
 draft: false
 slug: "nenkin-simulator"
-description: "年齢・年収・加入期間を入力するだけで、将来の年金受給額を自動計算。老齢基礎年金と老齢厚生年金の内訳、繰上げ・繰下げ受給の差額もわかる無料シミュレーター。"
+description: "現在の年収と加入期間から、将来受け取れる老齢基礎年金・厚生年金の月額・年額を簡単シミュレーション。繰上げ・繰下げ受給の影響も一目でわかります。"
+categories: ["無料ツール"]
+tags: ["年金", "シミュレーター", "老後資金", "厚生年金", "国民年金"]
 author: "Productivity Works編集部"
-categories:
-  - "投資・資産運用"
-tags:
-  - "年金"
-  - "シミュレーター"
-  - "老後"
-  - "計算ツール"
+ShowToc: false
 ShowReadingTime: false
 ShowWordCount: false
-ShowToc: false
-TocOpen: false
 ShowBreadCrumbs: true
 cover:
   image: "images/covers/nenkin-simulator.png"
-  alt: "年金シミュレーター｜将来の年金受給額を無料で計算"
-  relative: false
+  alt: "年金シミュレーター"
+  relative: true
 ---
 
-※本記事にはアフィリエイト広告が含まれています。
+※本ページにはアフィリエイト広告が含まれています。
 
-# 年金受給額シミュレーター【2026年版】
+<style>
+.nenkin-wrap {
+  max-width: 680px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+}
+.nenkin-card {
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.nenkin-card h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4a9eff;
+}
+.input-group {
+  margin-bottom: 22px;
+}
+.input-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+.input-label span:first-child {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
+.input-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #4a9eff;
+}
+.slider-wrap {
+  position: relative;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  outline: none;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4a9eff;
+  box-shadow: 0 2px 6px rgba(74,158,255,0.4);
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4a9eff;
+  box-shadow: 0 2px 6px rgba(74,158,255,0.4);
+  cursor: pointer;
+  border: none;
+}
+.slider-limits {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+select.nenkin-select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+select.nenkin-select:focus {
+  border-color: #4a9eff;
+  box-shadow: 0 0 0 3px rgba(74,158,255,0.15);
+}
+.result-hero {
+  background: linear-gradient(135deg, #2563eb 0%, #4a9eff 100%);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.result-hero .hero-label {
+  font-size: 14px;
+  opacity: 0.88;
+  margin-bottom: 6px;
+}
+.result-hero .hero-monthly {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.result-hero .hero-unit {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 4px;
+}
+.result-hero .hero-annual {
+  font-size: 15px;
+  opacity: 0.88;
+  margin-top: 8px;
+}
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.result-sub {
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+.result-sub.kiso {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+.result-sub.kousei {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+.result-sub .sub-label {
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+.result-sub .sub-annual {
+  font-size: 18px;
+  font-weight: 700;
+}
+.result-sub.kiso .sub-annual { color: #1d4ed8; }
+.result-sub.kousei .sub-annual { color: #15803d; }
+.result-sub .sub-monthly {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 4px;
+}
+.adjust-card {
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.adjust-card .adj-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 12px;
+}
+.adj-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+.adj-row:last-child { border-bottom: none; }
+.adj-row .adj-age { color: #475569; font-weight: 600; }
+.adj-row .adj-amount { font-weight: 700; }
+.adj-row .adj-rate {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.rate-down { background: #fee2e2; color: #dc2626; }
+.rate-base { background: #dbeafe; color: #2563eb; }
+.rate-up { background: #dcfce7; color: #16a34a; }
+.adj-row.selected { background: #eff6ff; border-radius: 6px; padding: 8px 6px; margin: 0 -6px; }
+.compare-box {
+  background: #fff7ed;
+  border: 1.5px solid #fed7aa;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.compare-box .cmp-label { font-size: 12px; color: #92400e; margin-bottom: 4px; }
+.compare-box .cmp-value { font-size: 18px; font-weight: 700; }
+.cmp-plus { color: #16a34a; }
+.cmp-minus { color: #dc2626; }
+.cmp-zero { color: #2563eb; }
+.notice-box {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.7;
+}
+.affiliate-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+}
+.affiliate-section h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 14px;
+}
+.aff-btn {
+  display: block;
+  background: linear-gradient(135deg, #4a9eff, #2563eb);
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+  transition: opacity 0.2s;
+}
+.aff-btn:hover { opacity: 0.88; }
+.aff-btn-sub {
+  display: block;
+  background: #fff;
+  color: #2563eb !important;
+  text-decoration: none !important;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1.5px solid #4a9eff;
+  margin-bottom: 10px;
+  transition: background 0.2s;
+}
+.aff-btn-sub:hover { background: #eff6ff; }
+.related-tools {
+  margin-top: 32px;
+}
+.related-tools h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 12px;
+}
+.tool-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.tool-link {
+  display: block;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  text-decoration: none !important;
+  color: #1e293b !important;
+  font-size: 13px;
+  font-weight: 600;
+  transition: border-color 0.2s, background 0.2s;
+}
+.tool-link:hover {
+  border-color: #4a9eff;
+  background: #eff6ff;
+  color: #2563eb !important;
+}
+@media (max-width: 480px) {
+  .result-grid { grid-template-columns: 1fr; }
+  .tool-links { grid-template-columns: 1fr; }
+  .result-hero .hero-monthly { font-size: 36px; }
+}
+</style>
 
-年齢・平均年収・加入期間を入力するだけで、**将来の年金受給額**（老齢基礎年金＋老齢厚生年金）を自動計算します。
+<div class="nenkin-wrap">
 
-<div id="nenkin-calc" style="max-width:640px;margin:0 auto;padding:24px;border:2px solid #2563eb;border-radius:12px;background:#f8fafc;">
+<div class="nenkin-card">
+<h2>入力項目</h2>
 
-<div style="margin-bottom:20px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;">現在の年齢</label>
-<input type="range" id="age" min="20" max="64" step="1" value="35" oninput="nenkinCalc()" style="width:100%;">
-<div style="display:flex;justify-content:space-between;font-size:13px;color:#64748b;"><span>20歳</span><span id="ageVal" style="font-weight:bold;font-size:18px;color:#2563eb;">35歳</span><span>64歳</span></div>
-</div>
-
-<div style="margin-bottom:20px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;">平均年収（額面・万円）</label>
-<input type="range" id="income" min="200" max="1500" step="10" value="500" oninput="nenkinCalc()" style="width:100%;">
-<div style="display:flex;justify-content:space-between;font-size:13px;color:#64748b;"><span>200万円</span><span id="incomeVal" style="font-weight:bold;font-size:18px;color:#2563eb;">500万円</span><span>1,500万円</span></div>
+<div class="input-group">
+  <div class="input-label">
+    <span>現在の年齢</span>
+    <span class="input-value"><span id="v-age">30</span>歳</span>
+  </div>
+  <input type="range" id="s-age" min="20" max="64" step="1" value="30" oninput="nenkinCalc()">
+  <div class="slider-limits"><span>20歳</span><span>64歳</span></div>
 </div>
 
-<div style="margin-bottom:20px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;">厚生年金の加入期間（年）</label>
-<input type="range" id="kousei" min="0" max="44" step="1" value="38" oninput="nenkinCalc()" style="width:100%;">
-<div style="display:flex;justify-content:space-between;font-size:13px;color:#64748b;"><span>0年</span><span id="kouseiVal" style="font-weight:bold;font-size:18px;color:#2563eb;">38年</span><span>44年</span></div>
+<div class="input-group">
+  <div class="input-label">
+    <span>年収（万円）</span>
+    <span class="input-value"><span id="v-income">400</span>万円</span>
+  </div>
+  <input type="range" id="s-income" min="100" max="2000" step="10" value="400" oninput="nenkinCalc()">
+  <div class="slider-limits"><span>100万円</span><span>2,000万円</span></div>
 </div>
 
-<div style="margin-bottom:24px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;">国民年金の加入期間（年）※厚生年金期間含む</label>
-<input type="range" id="kokumin" min="0" max="40" step="1" value="40" oninput="nenkinCalc()" style="width:100%;">
-<div style="display:flex;justify-content:space-between;font-size:13px;color:#64748b;"><span>0年</span><span id="kokuminVal" style="font-weight:bold;font-size:18px;color:#2563eb;">40年</span><span>40年</span></div>
+<div class="input-group">
+  <div class="input-label">
+    <span>国民年金加入期間（年）</span>
+    <span class="input-value"><span id="v-kokumin">40</span>年</span>
+  </div>
+  <input type="range" id="s-kokumin" min="0" max="40" step="1" value="40" oninput="nenkinCalc()">
+  <div class="slider-limits"><span>0年</span><span>40年</span></div>
 </div>
 
-<div style="background:#1e40af;color:white;border-radius:8px;padding:20px;text-align:center;margin-bottom:16px;">
-<div style="font-size:14px;margin-bottom:4px;">65歳からの年金受給額（年額）</div>
-<div id="totalNenkin" style="font-size:36px;font-weight:bold;">1,844,800円</div>
-<div style="font-size:14px;margin-top:4px;">月額: <span id="monthlyNenkin" style="font-weight:bold;">153,733円</span></div>
+<div class="input-group">
+  <div class="input-label">
+    <span>厚生年金加入期間（年）</span>
+    <span class="input-value"><span id="v-kousei">38</span>年</span>
+  </div>
+  <input type="range" id="s-kousei" min="0" max="40" step="1" value="38" oninput="nenkinCalc()">
+  <div class="slider-limits"><span>0年</span><span>40年</span></div>
 </div>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;">
-<div style="background:#e0f2fe;border-radius:8px;padding:12px;text-align:center;">
-<div style="font-size:12px;color:#64748b;">老齢基礎年金（年額）</div>
-<div id="kisonen" style="font-size:16px;font-weight:bold;color:#0369a1;">816,000円</div>
-<div style="font-size:11px;color:#64748b;">月額 <span id="kisoMonth">68,000</span>円</div>
+<div class="input-group" style="margin-bottom:0;">
+  <div class="input-label" style="margin-bottom:8px;">
+    <span>受給開始年齢</span>
+  </div>
+  <select id="s-start" class="nenkin-select" onchange="nenkinCalc()">
+    <option value="60">60歳（繰上げ受給）</option>
+    <option value="61">61歳（繰上げ受給）</option>
+    <option value="62">62歳（繰上げ受給）</option>
+    <option value="63">63歳（繰上げ受給）</option>
+    <option value="64">64歳（繰上げ受給）</option>
+    <option value="65" selected>65歳（通常受給）</option>
+    <option value="66">66歳（繰下げ受給）</option>
+    <option value="67">67歳（繰下げ受給）</option>
+    <option value="68">68歳（繰下げ受給）</option>
+    <option value="69">69歳（繰下げ受給）</option>
+    <option value="70">70歳（繰下げ受給）</option>
+    <option value="75">75歳（繰下げ受給）</option>
+  </select>
 </div>
-<div style="background:#dcfce7;border-radius:8px;padding:12px;text-align:center;">
-<div style="font-size:12px;color:#64748b;">老齢厚生年金（年額）</div>
-<div id="kouseinen" style="font-size:16px;font-weight:bold;color:#15803d;">1,028,800円</div>
-<div style="font-size:11px;color:#64748b;">月額 <span id="kouseiMonth">85,733</span>円</div>
+
+</div><!-- .nenkin-card -->
+
+<div id="result-area">
+
+<div class="result-hero">
+  <div class="hero-label">月額受給見込み</div>
+  <div class="hero-monthly"><span id="r-monthly">---</span><span class="hero-unit">円</span></div>
+  <div class="hero-annual">年額：<span id="r-annual">---</span>円</div>
+</div>
+
+<div class="result-grid">
+  <div class="result-sub kiso">
+    <div class="sub-label">老齢基礎年金</div>
+    <div class="sub-annual"><span id="r-kiso-annual">---</span>円／年</div>
+    <div class="sub-monthly">月額 <span id="r-kiso-monthly">---</span>円</div>
+  </div>
+  <div class="result-sub kousei">
+    <div class="sub-label">老齢厚生年金</div>
+    <div class="sub-annual"><span id="r-kousei-annual">---</span>円／年</div>
+    <div class="sub-monthly">月額 <span id="r-kousei-monthly">---</span>円</div>
+  </div>
+</div>
+
+<div class="compare-box">
+  <div class="cmp-label">65歳受給（基準）と比較した増減</div>
+  <div class="cmp-value" id="r-diff-rate">---</div>
+  <div style="font-size:12px;color:#92400e;margin-top:4px;">月額 <span id="r-diff-amount">---</span>円の<span id="r-diff-sign">---</span></div>
+</div>
+
+<div class="adjust-card">
+  <div class="adj-title">受給開始年齢別の月額一覧（65歳基準で比較）</div>
+  <div class="adj-row" id="row-60">
+    <span class="adj-age">60歳</span>
+    <span class="adj-amount" id="t-60">---円</span>
+    <span class="adj-rate rate-down">-24.0%</span>
+  </div>
+  <div class="adj-row" id="row-65">
+    <span class="adj-age">65歳（基準）</span>
+    <span class="adj-amount" id="t-65">---円</span>
+    <span class="adj-rate rate-base">±0%</span>
+  </div>
+  <div class="adj-row" id="row-70">
+    <span class="adj-age">70歳</span>
+    <span class="adj-amount" id="t-70">---円</span>
+    <span class="adj-rate rate-up">+42.0%</span>
+  </div>
+  <div class="adj-row" id="row-75">
+    <span class="adj-age">75歳</span>
+    <span class="adj-amount" id="t-75">---円</span>
+    <span class="adj-rate rate-up">+84.0%</span>
+  </div>
+</div>
+
+<div class="notice-box">
+  <strong>計算方法：</strong>
+  老齢基礎年金 = 816,000円 × (国民年金加入月数 ÷ 480)（2024年度満額）。
+  老齢厚生年金 = 平均標準報酬月額（上限650,000円）× 5.481 ÷ 1000 × 厚生年金加入月数。
+  繰上げ：65歳未満は1ヶ月あたり0.4%減額。繰下げ：66歳以上は1ヶ月あたり0.7%増額。
+  実際の受給額は加入履歴や標準報酬月額の実績により異なります。
+</div>
+
+</div><!-- #result-area -->
+
+<div class="affiliate-section">
+<h3>老後資金を今すぐ対策する</h3>
+<a href="https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow" class="aff-btn">楽天証券でiDeCo口座を開設する</a>
+<a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow" class="aff-btn-sub">freee会計を無料で試す</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt="">
+</div>
+
+<div class="related-tools">
+<h3>関連ツール</h3>
+<div class="tool-links">
+  <a href="/ja/tools/ideco-simulator/" class="tool-link">iDeCoシミュレーター</a>
+  <a href="/ja/tools/nisa-simulator/" class="tool-link">NISAシミュレーター</a>
+  <a href="/ja/tools/tedori-keisan/" class="tool-link">手取り計算機</a>
+  <a href="/ja/tools/kakeibo/" class="tool-link">家計簿ツール</a>
+  <a href="/ja/tools/fukugyo-tax/" class="tool-link">副業税金計算</a>
 </div>
 </div>
 
-<!-- 繰上げ・繰下げ比較 -->
-<div style="margin-bottom:16px;">
-<div style="font-weight:bold;font-size:14px;margin-bottom:8px;">受給開始年齢別の年金額</div>
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
-<div style="background:#fee2e2;border-radius:8px;padding:10px;text-align:center;">
-<div style="font-size:12px;color:#dc2626;font-weight:bold;">60歳（繰上げ）</div>
-<div id="age60" style="font-size:14px;font-weight:bold;">月額 107,613円</div>
-<div style="font-size:11px;color:#dc2626;">-30%</div>
-</div>
-<div style="background:#e0f2fe;border-radius:8px;padding:10px;text-align:center;">
-<div style="font-size:12px;color:#2563eb;font-weight:bold;">65歳（通常）</div>
-<div id="age65" style="font-size:14px;font-weight:bold;">月額 153,733円</div>
-<div style="font-size:11px;color:#2563eb;">基準</div>
-</div>
-<div style="background:#dcfce7;border-radius:8px;padding:10px;text-align:center;">
-<div style="font-size:12px;color:#15803d;font-weight:bold;">70歳（繰下げ）</div>
-<div id="age70" style="font-size:14px;font-weight:bold;">月額 218,302円</div>
-<div style="font-size:11px;color:#15803d;">+42%</div>
-</div>
-</div>
-</div>
-
-<div style="background:#fef9c3;border-radius:8px;padding:12px;text-align:center;margin-bottom:16px;">
-<div style="font-size:12px;color:#92400e;">年金だけでは不足する月額（ゆとりある老後に月35万円必要とした場合）</div>
-<div id="shortage" style="font-size:20px;font-weight:bold;color:#dc2626;">月額 196,267円 不足</div>
-</div>
-
-<div style="background:#f1f5f9;border-radius:8px;padding:12px;font-size:13px;color:#475569;">
-<strong>計算条件:</strong> 老齢基礎年金は2026年度満額816,000円/年（40年加入時）で按分。老齢厚生年金は平均標準報酬額×5.481/1000×加入月数で概算。繰上げは1月あたり0.5%減額、繰下げは1月あたり0.7%増額。実際の受給額は加入履歴・報酬月額により異なります。
-</div>
-
-</div>
+</div><!-- .nenkin-wrap -->
 
 <script>
-function nenkinCalc(){
-  var age=parseInt(document.getElementById('age').value);
-  var income=parseInt(document.getElementById('income').value)*10000;
-  var kouseiYears=parseInt(document.getElementById('kousei').value);
-  var kokuminYears=parseInt(document.getElementById('kokumin').value);
+function fmt(n) {
+  return Math.round(n).toLocaleString('ja-JP');
+}
 
-  // 老齢基礎年金（2026年度満額 816,000円/年、40年加入で満額）
-  var kisoFull=816000;
-  var kisoNenkin=Math.round(kisoFull*(Math.min(kokuminYears,40)/40));
+function nenkinCalc() {
+  var age      = parseInt(document.getElementById('s-age').value, 10);
+  var income   = parseInt(document.getElementById('s-income').value, 10);
+  var kokumin  = parseInt(document.getElementById('s-kokumin').value, 10);
+  var kousei   = parseInt(document.getElementById('s-kousei').value, 10);
+  var startAge = parseInt(document.getElementById('s-start').value, 10);
 
-  // 老齢厚生年金
-  // 平均標準報酬額（上限あり: 65万円/月 = 780万円/年）
-  var avgMonthly=Math.min(income/12,650000);
-  // 厚生年金計算: 平均標準報酬額 × 5.481/1000 × 加入月数
-  var kouseiNenkin=Math.round(avgMonthly*5.481/1000*kouseiYears*12);
+  // Update slider display values
+  document.getElementById('v-age').textContent     = age;
+  document.getElementById('v-income').textContent  = income.toLocaleString('ja-JP');
+  document.getElementById('v-kokumin').textContent = kokumin;
+  document.getElementById('v-kousei').textContent  = kousei;
 
-  var totalNenkin=kisoNenkin+kouseiNenkin;
-  var monthlyTotal=Math.round(totalNenkin/12);
+  // --- 老齢基礎年金 ---
+  // 2024年度満額: 816,000円/年 (40年=480ヶ月加入時)
+  var kisoFull      = 816000;
+  var kokuminMonths = Math.min(kokumin * 12, 480);
+  var kisoAnnual    = kisoFull * (kokuminMonths / 480);
+  var kisoMonthly   = kisoAnnual / 12;
 
-  // 繰上げ（60歳: -0.5%×60ヶ月=-30%）
-  var age60=Math.round(monthlyTotal*0.70);
-  // 繰下げ（70歳: +0.7%×60ヶ月=+42%）
-  var age70=Math.round(monthlyTotal*1.42);
+  // --- 老齢厚生年金 ---
+  // 平均標準報酬月額 = 年収/12 、上限 650,000円
+  var avgMonthlyWage = Math.min((income * 10000) / 12, 650000);
+  var kouseiMonths   = kousei * 12;
+  var kouseiAnnual   = avgMonthlyWage * (5.481 / 1000) * kouseiMonths;
+  var kouseiMonthly  = kouseiAnnual / 12;
 
-  // 不足額（ゆとりある老後: 月35万円）
-  var shortage=350000-monthlyTotal;
+  // --- 65歳時点の合計 ---
+  var base65Monthly = kisoMonthly + kouseiMonthly;
 
-  // Update display
-  document.getElementById('ageVal').textContent=age+'歳';
-  document.getElementById('incomeVal').textContent=(income/10000).toLocaleString()+'万円';
-  document.getElementById('kouseiVal').textContent=kouseiYears+'年';
-  document.getElementById('kokuminVal').textContent=kokuminYears+'年';
-
-  document.getElementById('totalNenkin').textContent=totalNenkin.toLocaleString()+'円';
-  document.getElementById('monthlyNenkin').textContent=monthlyTotal.toLocaleString()+'円';
-  document.getElementById('kisonen').textContent=kisoNenkin.toLocaleString()+'円';
-  document.getElementById('kisoMonth').textContent=Math.round(kisoNenkin/12).toLocaleString();
-  document.getElementById('kouseinen').textContent=kouseiNenkin.toLocaleString()+'円';
-  document.getElementById('kouseiMonth').textContent=Math.round(kouseiNenkin/12).toLocaleString();
-
-  document.getElementById('age60').textContent='月額 '+age60.toLocaleString()+'円';
-  document.getElementById('age65').textContent='月額 '+monthlyTotal.toLocaleString()+'円';
-  document.getElementById('age70').textContent='月額 '+age70.toLocaleString()+'円';
-
-  if(shortage>0){
-    document.getElementById('shortage').textContent='月額 '+shortage.toLocaleString()+'円 不足';
-    document.getElementById('shortage').style.color='#dc2626';
+  // --- 繰上げ/繰下げ調整 ---
+  var adjMonths = (startAge - 65) * 12;
+  var adjRate;
+  if (startAge < 65) {
+    // 繰上げ: 1ヶ月あたり 0.4% 減額
+    adjRate = 1 + adjMonths * 0.004; // adjMonths is negative here
+  } else if (startAge > 65) {
+    // 繰下げ: 1ヶ月あたり 0.7% 増額
+    adjRate = 1 + adjMonths * 0.007;
   } else {
-    document.getElementById('shortage').textContent='年金のみで月35万円を達成！';
-    document.getElementById('shortage').style.color='#15803d';
+    adjRate = 1.0;
+  }
+
+  var selectedMonthly = base65Monthly * adjRate;
+  var selectedAnnual  = selectedMonthly * 12;
+
+  // Adjusted kiso / kousei proportional split
+  var kisoAdj   = kisoMonthly   * adjRate;
+  var kouseiAdj = kouseiMonthly * adjRate;
+
+  // --- 比較 ---
+  var diffMonthly = selectedMonthly - base65Monthly;
+  var diffRate    = ((adjRate - 1) * 100);
+
+  // --- Update result display ---
+  document.getElementById('r-monthly').textContent       = fmt(selectedMonthly);
+  document.getElementById('r-annual').textContent        = fmt(selectedAnnual);
+  document.getElementById('r-kiso-annual').textContent   = fmt(kisoAdj * 12);
+  document.getElementById('r-kiso-monthly').textContent  = fmt(kisoAdj);
+  document.getElementById('r-kousei-annual').textContent  = fmt(kouseiAdj * 12);
+  document.getElementById('r-kousei-monthly').textContent = fmt(kouseiAdj);
+
+  // Diff display
+  var rateEl  = document.getElementById('r-diff-rate');
+  var amtEl   = document.getElementById('r-diff-amount');
+  var signEl  = document.getElementById('r-diff-sign');
+  rateEl.className = 'cmp-value';
+  if (startAge === 65) {
+    rateEl.textContent  = '±0%（65歳通常受給）';
+    rateEl.classList.add('cmp-zero');
+    amtEl.textContent   = '0';
+    signEl.textContent  = '変化なし';
+  } else if (diffRate < 0) {
+    rateEl.textContent  = diffRate.toFixed(1) + '%（繰上げ減額）';
+    rateEl.classList.add('cmp-minus');
+    amtEl.textContent   = fmt(Math.abs(diffMonthly));
+    signEl.textContent  = '減少';
+  } else {
+    rateEl.textContent  = '+' + diffRate.toFixed(1) + '%（繰下げ増額）';
+    rateEl.classList.add('cmp-plus');
+    amtEl.textContent   = fmt(diffMonthly);
+    signEl.textContent  = '増加';
+  }
+
+  // --- 年齢別一覧 ---
+  var ages = [60, 65, 70, 75];
+  ages.forEach(function(a) {
+    var m = (a - 65) * 12;
+    var r;
+    if (a < 65)       r = 1 + m * 0.004;
+    else if (a > 65)  r = 1 + m * 0.007;
+    else              r = 1.0;
+    var val = base65Monthly * r;
+    document.getElementById('t-' + a).textContent = fmt(val) + '円';
+  });
+
+  // Highlight selected row
+  ['60','65','70','75'].forEach(function(a) {
+    var row = document.getElementById('row-' + a);
+    row.classList.remove('selected');
+  });
+  if ([60,65,70,75].indexOf(startAge) !== -1) {
+    document.getElementById('row-' + startAge).classList.add('selected');
   }
 }
+
+// Initial calculation on load
 nenkinCalc();
 </script>
-
----
-
-## 年金の不足分を補う方法
-
-シミュレーション結果を見て、「年金だけでは足りない」と感じた方へ。不足分を補うための3つの方法を紹介します。
-
-### 1. iDeCo（個人型確定拠出年金）で老後資金を増やす
-
-iDeCoの掛金は**全額所得控除**。年収500万円で月2.3万円拠出すると、年間約5.5万円の節税効果。運用益も非課税です。
-
-→ [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/) で節税額を計算
-→ [iDeCoおすすめ証券会社の選び方](/ja/posts/ideco-osusume-shouken/)
-
-### 2. つみたてNISAで資産を育てる
-
-毎月3万円を年利5%で20年間積み立てると、約**1,233万円**に。NISAなら運用益が非課税です。
-
-→ [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/) で将来の資産額を計算
-
-### 3. 副業で収入を増やす
-
-副業の収入を投資に回せば、老後資金を大幅に増やせます。まずは月5万円の副業収入を目指しましょう。
-
-→ [副業の税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/) で手取りを確認
-→ [freeeで確定申告を簡単に](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
-
----
-
-## 年金の基礎知識
-
-### 老齢基礎年金
-
-- 対象: 国民年金に加入した全員（20〜60歳の40年間）
-- 満額: 年816,000円（2026年度）= **月68,000円**
-- 加入期間が40年未満なら、その分減額
-
-### 老齢厚生年金
-
-- 対象: 会社員・公務員（厚生年金加入者）
-- 計算式: 平均標準報酬額 × 5.481/1000 × 加入月数
-- 年収が高いほど、加入期間が長いほど多くなる
-
-### 繰上げ・繰下げ受給
-
-| 受給開始 | 増減率 | 65歳で月15万円の場合 |
-|---------|--------|-------------------|
-| 60歳 | -30%（0.5%×60月） | 月105,000円 |
-| 63歳 | -14.4% | 月128,400円 |
-| 65歳 | 基準 | 月150,000円 |
-| 68歳 | +25.2% | 月187,800円 |
-| 70歳 | +42% | 月213,000円 |
-| 75歳 | +84% | 月276,000円 |
-
----
-
-## よくある質問
-
-**Q. 年金は何歳からもらえますか？**
-原則65歳から。繰上げ受給で最短60歳から（減額あり）、繰下げで最長75歳まで遅らせる（増額あり）ことができます。
-
-**Q. 年金だけで生活できますか？**
-生命保険文化センターの調査では「ゆとりある老後生活費」は月約35万円。平均的な年金受給額は月約15万円なので、月20万円の不足が生じます。
-
-**Q. フリーランスの年金はどうなりますか？**
-フリーランスは国民年金のみで、老齢基礎年金（満額で月68,000円）しか受給できません。iDeCoや国民年金基金での上乗せが必須です。
-
----
-
-## 関連ツール・記事
-
-- [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/) — iDeCoの節税額と将来受取額を計算
-- [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/) — 資産運用で老後資金を増やす
-- [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 現在の手取り額を確認
-- [家計簿シミュレーター](/ja/tools/kakeibo-generator/) — 月々の貯蓄額を最適化
-- [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/) — 投資の損益を計算
-- [副業の税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/) — 副業収入の税金を確認
