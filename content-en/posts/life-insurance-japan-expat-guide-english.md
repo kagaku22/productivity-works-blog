@@ -237,7 +237,7 @@ Option B separates the insurance function (pure risk protection at minimal cost)
 
 > **Ready to start investing in NISA?** [Rakuten Securities (楽天証券)](https://www.rakuten-sec.co.jp/) is one of Japan's largest online brokers, offering a seamless NISA account with access to low-cost index funds, a Japanese and English interface, and a straightforward online application process. [Open a Rakuten Securities NISA account.](https://www.rakuten-sec.co.jp/)
 
-For a deeper dive into NISA accounts, contribution limits, and how to choose funds, see our guide: [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/posts/best-investment-account-japan-nisa-ideco/).
+For a deeper dive into NISA accounts, contribution limits, and how to choose funds, see our guide: [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](../best-investment-account-japan-nisa-ideco/).
 
 ---
 
@@ -298,7 +298,7 @@ Rather than a vague "talk to an expert" conclusion, here is a concrete checklist
 - [ ] Track your insurance premiums for the life insurance premium deduction on your kakuteishinkoku
 - [ ] Consider whether iDeCo (personal pension) or NISA better fits your retirement savings strategy
 
-For a comprehensive look at retirement planning for foreign residents in Japan, see our guide: [Retirement Planning in Japan for Foreign Residents](/posts/retirement-planning-japan-foreign-resident/).
+For a comprehensive look at retirement planning for foreign residents in Japan, see our guide: [Retirement Planning in Japan for Foreign Residents](../retirement-planning-japan-foreign-resident/).
 
 ---
 
