@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Productivity Works — Custom Styles
+   Reduces text-heavy AI feel, adds visual breathing room, improves readability
+   ========================================================================== */
+
+/* -- Typography: More human, less monotone -- */
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+.post-content p {
+  margin-bottom: 1.4em;
+}
+
+.post-content h2 {
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--tertiary);
+  font-size: 1.5rem;
+}
+
+.post-content h3 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+/* -- Callout/highlight boxes for key info -- */
+.post-content blockquote {
+  background: var(--code-bg);
+  border-left: 4px solid #4a9eff;
+  border-radius: 0 8px 8px 0;
+  padding: 1em 1.2em;
+  margin: 1.5em 0;
+  font-style: normal;
+}
+
+.post-content blockquote p {
+  margin-bottom: 0.5em;
+}
+
+.post-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* -- Tables: Cleaner, more visual -- */
+.post-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-content table thead th {
+  background: var(--tertiary);
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0.75em 1em;
+  text-align: left;
+}
+
+.post-content table tbody td {
+  padding: 0.65em 1em;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-content table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content table tbody tr:hover {
+  background: var(--code-bg);
+}
+
+/* -- Code blocks: Softer appearance -- */
+.post-content pre {
+  border-radius: 8px;
+  padding: 1.2em;
+  margin: 1.5em 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* -- Lists: Better spacing -- */
+.post-content ul, .post-content ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.post-content li {
+  margin-bottom: 0.5em;
+  line-height: 1.7;
+}
+
+.post-content li strong {
+  color: var(--primary);
+}
+
+/* -- HR dividers: Subtle -- */
+.post-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--tertiary), transparent);
+  margin: 2.5em 0;
+}
+
+/* -- Cover images: Better presentation -- */
+.entry-cover {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.entry-cover img {
+  border-radius: 12px;
+}
+
+/* -- Article cards on list pages -- */
+.post-entry {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 1em;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* -- Links: Subtler style -- */
+.post-content a {
+  color: #4a9eff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.post-content a:hover {
+  border-bottom-color: #4a9eff;
+}
+
+/* -- TOC: Cleaner -- */
+.toc {
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
+
+/* -- Strong text: Slightly colored for emphasis variety -- */
+.post-content strong {
+  color: var(--primary);
+}
+
+/* -- Reading time & word count: Subtle -- */
+.post-meta {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* -- Mobile responsiveness -- */
+@media (max-width: 768px) {
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .post-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .post-content table {
+    font-size: 0.85rem;
+  }
+}
