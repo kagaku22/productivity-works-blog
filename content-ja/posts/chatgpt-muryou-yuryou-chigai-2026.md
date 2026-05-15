@@ -176,9 +176,9 @@ ChatGPT以外にも主要なAIアシスタントがあります。
 
 ## 関連記事・おすすめリソース
 
-- [ChatGPTプロンプトテンプレート集](/posts/chatgpt-プロンプト-テンプレート/)
-- [ChatGPTを仕事に活用する方法2026](/posts/chatgpt-仕事-活用法-2026/)
-- [AI副業の始め方](/posts/ai-副業-始め方/)
+- [ChatGPTプロンプトテンプレート集](/ja/posts/chatgpt-プロンプト-テンプレート/)
+- [ChatGPTを仕事に活用する方法2026](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [AI副業の始め方](/ja/posts/ai-副業-始め方/)
 
 ---
 

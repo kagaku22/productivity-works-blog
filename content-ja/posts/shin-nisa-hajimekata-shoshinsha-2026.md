@@ -203,7 +203,7 @@ NISAは利益がまるまる手元に残る最強の非課税制度です。
 
 ### Q. NISAとiDeCoはどっちを優先すべき？
 
-詳しくは[NISA・iDeCo・どっちを先にやるべきか](/posts/nisa-ideco-docchi-saki/)をご参照ください。一般的には、まずNISAを最大活用してからiDeCoを検討するのが王道です。
+詳しくは[NISA・iDeCo・どっちを先にやるべきか](/ja/posts/nisa-ideco-docchi-saki/)をご参照ください。一般的には、まずNISAを最大活用してからiDeCoを検討するのが王道です。
 
 ---
 

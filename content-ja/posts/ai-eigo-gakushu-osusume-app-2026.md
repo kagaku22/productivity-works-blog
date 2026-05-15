@@ -269,9 +269,9 @@ ChatGPT Plusの音声会話モードを使えば、AIとのリアルタイム英
 
 ## 関連記事
 
-- [AIを使った英語メールの書き方](/posts/ai-eigo-mail-business-reibun/)
-- [ChatGPTプロンプトの書き方コツ](/posts/chatgpt-prompt-kakikata-kotsu/)
-- [無料AIツールおすすめ](/posts/無料-ai-ツール-おすすめ/)
+- [AIを使った英語メールの書き方](/ja/posts/ai-eigo-mail-business-reibun/)
+- [ChatGPTプロンプトの書き方コツ](/ja/posts/chatgpt-prompt-kakikata-kotsu/)
+- [無料AIツールおすすめ](/ja/posts/無料-ai-ツール-おすすめ/)
 
 ---
 
