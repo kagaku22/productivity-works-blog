@@ -236,13 +236,14 @@ Your future self will thank you.
 
 ---
 
-### Related Articles
+### Related Tools & Articles
 
+- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate dividend income from ETFs with DRIP compounding
+- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how investments grow over time
+- [Retirement Savings Calculator](/tools/retirement-calculator/) — Plan your 401(k) and IRA contributions
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [Investing for Beginners: Start with $100 in 2026](/posts/investing-for-beginners-start-with-100/)
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
-- [401k vs IRA: Key Differences Explained](/posts/401k-vs-ira-differences-explained/)
-- [Best High-Yield Savings Accounts 2026](/posts/best-high-yield-savings-accounts-2026/)
+- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 
 ## Related Templates
 

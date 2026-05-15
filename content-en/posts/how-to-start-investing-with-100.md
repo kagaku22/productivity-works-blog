@@ -320,13 +320,14 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 
 ---
 
-### Related Articles
+### Related Tools & Articles
 
+- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your $100 grows with compound interest
+- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate passive income from dividend stocks and ETFs
+- [Budget Planner](/tools/budget-planner/) — Find money to invest with a personalized budget
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 - [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

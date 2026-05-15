@@ -303,11 +303,12 @@ The most important decision is the one you actually make. Both accounts are vast
 
 ---
 
-### Related Articles
+### Related Tools & Articles
 
+- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your retirement nest egg with IRA and 401(k) projections
+- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate tax-free dividend income in a Roth IRA
+- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See the power of tax-advantaged compounding
 - [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
-- [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 - [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
 
