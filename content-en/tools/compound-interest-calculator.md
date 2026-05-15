@@ -66,7 +66,33 @@ Enter your monthly contribution, expected annual return, and investment timeline
 </div>
 </div>
 
-<div style="background:#f1f5f9;border-radius:8px;padding:12px;font-size:13px;color:#475569;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;">
+<div style="background:#fef3c7;border-radius:8px;padding:12px;text-align:center;">
+<div style="font-size:12px;color:#64748b;">Tax-Advantaged (Roth IRA/401k)</div>
+<div id="taxFreeNet" style="font-size:16px;font-weight:bold;color:#b45309;">$0</div>
+<div style="font-size:11px;color:#92400e;">No tax on gains</div>
+</div>
+<div style="background:#fce7f3;border-radius:8px;padding:12px;text-align:center;">
+<div style="font-size:12px;color:#64748b;">Taxable Account (15% cap gains)</div>
+<div id="taxedNet" style="font-size:16px;font-weight:bold;color:#be185d;">$0</div>
+<div style="font-size:11px;color:#9d174d;" id="taxSaved">Tax savings: $0</div>
+</div>
+</div>
+
+<h3 style="margin:20px 0 12px;font-size:16px;">Growth Timeline</h3>
+<div style="overflow-x:auto;">
+<table id="timeline" style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="background:#1e3a5f;color:white;">
+<th style="padding:6px 8px;text-align:center;">Year</th>
+<th style="padding:6px 8px;text-align:right;">Contributions</th>
+<th style="padding:6px 8px;text-align:right;">Portfolio Value</th>
+<th style="padding:6px 8px;text-align:right;">Gains</th>
+</tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<div style="background:#f1f5f9;border-radius:8px;padding:12px;font-size:13px;color:#475569;margin-top:16px;">
 <strong>Assumptions:</strong> Monthly contributions at end of each month, compounded monthly. Actual investment returns will vary based on market conditions. Past performance does not guarantee future results.
 </div>
 
@@ -82,12 +108,29 @@ function calc(){
   var fv=m*((Math.pow(1+mr,n)-1)/mr);
   var p=m*n;
   var g=fv-p;
+  var tax=g*0.15;
   document.getElementById('monthlyVal').textContent='$'+m.toLocaleString();
   document.getElementById('rateVal').textContent=(r*100).toFixed(1)+'%';
   document.getElementById('yearsVal').textContent=y+(y===1?' year':' years');
   document.getElementById('totalAsset').textContent='$'+Math.floor(fv).toLocaleString();
   document.getElementById('principal').textContent='$'+p.toLocaleString();
   document.getElementById('profit').textContent='$'+Math.floor(g).toLocaleString();
+  document.getElementById('taxFreeNet').textContent='$'+Math.floor(fv).toLocaleString();
+  document.getElementById('taxedNet').textContent='$'+Math.floor(fv-tax).toLocaleString();
+  document.getElementById('taxSaved').textContent='Tax savings: $'+Math.floor(tax).toLocaleString();
+  var tb=document.getElementById('tbody');
+  tb.innerHTML='';
+  var milestones=[1,3,5,10,15,20,25,30,35,40];
+  for(var i=0;i<milestones.length;i++){
+    var yr=milestones[i];
+    if(yr>y)break;
+    var nm=yr*12;
+    var fvY=m*((Math.pow(1+mr,nm)-1)/mr);
+    var pY=m*nm;
+    var gY=fvY-pY;
+    var bg=i%2===0?'#f8fafc':'#ffffff';
+    tb.innerHTML+='<tr style="background:'+bg+'"><td style="padding:6px 8px;text-align:center;border-bottom:1px solid #e2e8f0;">'+yr+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">$'+pY.toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;font-weight:bold;">$'+Math.floor(fvY).toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#15803d;">+$'+Math.floor(gY).toLocaleString()+'</td></tr>';
+  }
 }
 calc();
 </script>
@@ -134,4 +177,5 @@ Historically, lump-sum investing outperforms dollar-cost averaging about 2/3 of 
 - [Budget Planner](/tools/budget-planner/) — Find extra money to invest each month
 - [Salary Calculator](/tools/salary-calculator/) — Calculate your take-home pay
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
+- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate annual dividend income
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits
