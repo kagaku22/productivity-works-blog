@@ -3,6 +3,8 @@ title: "家計簿シミュレーター｜月収から理想の支出配分を自
 date: 2026-05-14
 draft: false
 slug: "kakeibo-generator"
+aliases:
+  - /ja/tools/kakeibo/
 description: "月収を入力するだけで理想の家計配分を自動計算。住居費・食費・貯蓄の目安がわかる無料シミュレーター。家計の見直しに最適です。"
 author: "Productivity Works編集部"
 categories:

@@ -3,6 +3,9 @@ title: "手取り計算シミュレーター｜年収から手取りを自動計
 date: 2026-05-14
 draft: false
 slug: "salary-tedori-calculator"
+aliases:
+  - /ja/tools/tedori-keisan/
+  - /ja/tools/tedori-keisan-tool/
 description: "年収・月収から手取り額を自動計算。所得税・住民税・社会保険料の内訳も表示。転職・副業の年収比較に便利な無料ツール。"
 author: "Productivity Works編集部"
 categories:
