@@ -336,6 +336,13 @@ Build it before you need it.
 
 ---
 
+## Related Tools
+
+> Create a quick monthly budget → [Budget Planner](/tools/budget-planner/)
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate take-home from salary + freelance → [Salary Calculator](/tools/salary-calculator/)
+> Plan your debt payoff strategy → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+
 ## Related Templates
 
 Start your freelance or side hustle journey with these resources:

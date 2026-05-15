@@ -188,6 +188,13 @@ The goal isn't to become a financial expert. It's to stop leaving money on the t
 
 ---
 
+## Related Tools
+
+> Create a personalized budget → [Budget Planner](/tools/budget-planner/)
+> See how your savings compound → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Pay off debt faster → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
+
 ## Related Templates
 
 Take control of your finances with these tools:

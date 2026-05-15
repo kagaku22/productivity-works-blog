@@ -255,6 +255,12 @@ Pick one. Not two or three — one. Work it consistently for 90 days before eval
 
 ---
 
+## Related Tools
+
+> Estimate taxes on side hustle income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Start your freelance or side hustle journey with these resources:
