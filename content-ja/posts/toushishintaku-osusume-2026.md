@@ -175,7 +175,7 @@ cover:
 
 ---
 
-> 投資信託の購入は**[楽天証券]()**が便利。楽天ポイントで購入でき、積立設定も簡単です。
+> 投資信託の購入は**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**が便利。楽天ポイントで購入でき、積立設定も簡単です。
 
 ## まとめ・行動の呼びかけ
 

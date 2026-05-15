@@ -200,7 +200,7 @@ cover:
 
 ---
 
-> つみたてNISAを始めるなら、**[楽天証券]()**が人気No.1。100円から積立可能で、楽天ポイントも使えます。
+> つみたてNISAを始めるなら、**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**が人気No.1。100円から積立可能で、楽天ポイントも使えます。
 
 ## まとめ・行動の呼びかけ
 

@@ -249,7 +249,7 @@ cover:
 
 迷ったらまずは**楽天カード**（楽天ユーザー）か**三井住友カード(NL)**（コンビニ・飲食店ユーザー）から始めるのが王道です。どちらも年会費無料で、使いながら自分に合ったカードが見えてきます。
 
-> クレジットカードのポイントを投資に活用したいなら、[楽天証券]()がおすすめです。楽天カードのクレカ積立でNISA口座への毎月の投資が可能で、積立額に応じて楽天ポイントも貯まります。NISA口座の開設も無料で簡単にできます。
+> クレジットカードのポイントを投資に活用したいなら、[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)がおすすめです。楽天カードのクレカ積立でNISA口座への毎月の投資が可能で、積立額に応じて楽天ポイントも貯まります。NISA口座の開設も無料で簡単にできます。
 
 [関連記事: 新NISAの始め方 初心者向け完全ガイド2026](/ja/posts/shin-nisa-hajimekata-shoshinsha-2026/)
 

@@ -172,7 +172,7 @@ iDeCo口座を開設できる金融機関は「運営管理機関」と呼ばれ
 
 「楽天・オールカントリー株式インデックス・ファンド」（信託報酬0.0561%）が利用できる唯一の機関です。楽天証券ユーザーや楽天経済圏の方に特におすすめです。アプリが使いやすく、iDeCoの管理がしやすいのも魅力。
 
-[楽天証券でiDeCo口座を開設する]()
+[楽天証券でiDeCo口座を開設する](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)
 
 **3位: マネックス証券**
 

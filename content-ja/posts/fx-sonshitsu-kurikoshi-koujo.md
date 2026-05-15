@@ -182,7 +182,7 @@ e-Taxで電子申告する場合はそのままオンライン送信します。
 
 ---
 
-> FXの損失を繰り越しつつ、NISAで非課税の長期投資も始められます。**[楽天証券]()**なら口座管理がシンプルです。
+> FXの損失を繰り越しつつ、NISAで非課税の長期投資も始められます。**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**なら口座管理がシンプルです。
 
 ## まとめ
 

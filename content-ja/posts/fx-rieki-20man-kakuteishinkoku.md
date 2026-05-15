@@ -277,7 +277,7 @@ FXの損失は、確定申告することで**翌年以降3年間にわたって
 
 ---
 
-> FX取引と並行して、NISAでの長期投資も検討してみませんか？**[楽天証券]()**ならNISA口座も同時に開設でき、FXとNISAを一括管理できます。
+> FX取引と並行して、NISAでの長期投資も検討してみませんか？**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**ならNISA口座も同時に開設でき、FXとNISAを一括管理できます。
 
 ## まとめ
 

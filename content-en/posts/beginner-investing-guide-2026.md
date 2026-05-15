@@ -301,7 +301,7 @@ For straightforward situations (young, investing in index funds, building toward
 
 ## Start Building Your Financial Future
 
-> Based in Japan? [Rakuten Securities]() is one of the most accessible brokerages for residents here — it supports NISA accounts, offers a broad range of index funds and ETFs, and has an English-friendly interface that makes getting started straightforward even if you're new to Japanese financial services.
+> Based in Japan? [Rakuten Securities](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9) is one of the most accessible brokerages for residents here — it supports NISA accounts, offers a broad range of index funds and ETFs, and has an English-friendly interface that makes getting started straightforward even if you're new to Japanese financial services.
 
 The best investing plan is the one you actually follow — simple, automated, and consistent.
 

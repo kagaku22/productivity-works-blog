@@ -154,7 +154,7 @@ FXの確定申告には[freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYY
 
 ---
 
-> NISAとFXの併用なら、両方を1つの証券会社で管理できると便利です。**[楽天証券]()**はNISA口座もFX口座も開設可能で、楽天ポイントも貯まります。
+> NISAとFXの併用なら、両方を1つの証券会社で管理できると便利です。**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**はNISA口座もFX口座も開設可能で、楽天ポイントも貯まります。
 
 ## まとめ
 

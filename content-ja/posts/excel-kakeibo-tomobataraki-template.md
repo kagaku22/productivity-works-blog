@@ -315,7 +315,7 @@ Excelテンプレートを作るだけでは家計は改善しません。夫婦
 
 ---
 
-> 家計管理で生まれた余剰資金は**[楽天証券]()**でNISA積立がおすすめ。毎月100円から始められます。
+> 家計管理で生まれた余剰資金は**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**でNISA積立がおすすめ。毎月100円から始められます。
 
 ## まとめ：共働きExcel家計簿を今すぐ始める
 

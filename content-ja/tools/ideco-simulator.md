@@ -215,7 +215,7 @@ iDeCoは**3段階**で節税できる、最強の節税制度です。
 3. **運用商品を選ぶ** — インデックスファンドが初心者にはおすすめ
 4. **毎月自動引き落とし** — 一度設定すれば放置でOK
 
-**おすすめの証券会社:** [楽天証券でiDeCo口座を開設する]()（手数料最安水準、商品数豊富）
+**おすすめの証券会社:** [楽天証券でiDeCo口座を開設する](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)（手数料最安水準、商品数豊富）
 
 ---
 
@@ -252,7 +252,7 @@ iDeCoは**3段階**で節税できる、最強の節税制度です。
 
 iDeCoの節税効果がわかったら、次のアクションに進みましょう。
 
-- **iDeCo口座を開設する** → [楽天証券]()なら手数料最安水準＆商品数豊富
+- **iDeCo口座を開設する** → [楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)なら手数料最安水準＆商品数豊富
 - **NISAも併用する** → [つみたてNISAシミュレーター](/ja/tools/nisa-simulator/)でNISA分の資産額も計算
 - **老後資金の全体像を確認** → [年金シミュレーター](/ja/tools/nenkin-simulator/)で将来の年金受給額をチェック
 - **確定申告を楽にする** → [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)なら控除申請も自動化

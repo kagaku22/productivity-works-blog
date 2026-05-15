@@ -116,7 +116,7 @@ cover:
 
 **結論：SBI証券か楽天証券が初心者に最もおすすめ。**
 
-楽天ユーザーなら**[楽天証券]()**、それ以外はSBI証券を選べば間違いありません。
+楽天ユーザーなら**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**、それ以外はSBI証券を選べば間違いありません。
 
 #### SBI証券でNISA口座を開設する手順
 

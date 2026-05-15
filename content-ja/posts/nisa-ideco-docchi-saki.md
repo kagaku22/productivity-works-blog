@@ -251,7 +251,7 @@ iDeCoは所得控除が主な恩恵ですが、専業主婦（夫）は課税所
 
 ---
 
-> NISAもiDeCoも、**[楽天証券]()**なら1つの口座で両方を管理できます。口座開設は無料・最短5分で完了します。
+> NISAもiDeCoも、**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**なら1つの口座で両方を管理できます。口座開設は無料・最短5分で完了します。
 
 ## まとめ・行動の呼びかけ
 

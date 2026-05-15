@@ -146,7 +146,7 @@ FX業者の中でも、口座数の多い大手業者は申込者の多様性を
 
 ---
 
-> FX口座を開設するなら、同時にNISA口座も検討してみてください。**[楽天証券]()**は審査基準も明確で、初心者に人気の証券会社です。
+> FX口座を開設するなら、同時にNISA口座も検討してみてください。**[楽天証券](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)**は審査基準も明確で、初心者に人気の証券会社です。
 
 ## まとめ
 
