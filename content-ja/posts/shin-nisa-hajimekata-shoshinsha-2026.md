@@ -25,49 +25,50 @@ cover:
 
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="新NISAつみたて投資枠と成長投資枠の比較">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="620" height="260" rx="12" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
-  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-family="sans-serif" font-weight="bold">新NISA：つみたて投資枠 vs 成長投資枠</text>
+  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">新NISA：つみたて投資枠 vs 成長投資枠</text>
 
   <!-- 中央ラベル列 -->
   <rect x="230" y="38" width="160" height="34" rx="6" fill="#1e293b"/>
-  <text x="310" y="59" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">比較項目</text>
+  <text x="310" y="59" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">比較項目</text>
 
   <!-- つみたて投資枠ヘッダー -->
   <rect x="20" y="38" width="200" height="34" rx="6" fill="#4a9eff"/>
-  <text x="120" y="59" text-anchor="middle" fill="white" font-size="13" font-family="sans-serif" font-weight="bold">つみたて投資枠</text>
+  <text x="120" y="59" text-anchor="middle" fill="white" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">つみたて投資枠</text>
 
   <!-- 成長投資枠ヘッダー -->
   <rect x="400" y="38" width="200" height="34" rx="6" fill="#10b981"/>
-  <text x="500" y="59" text-anchor="middle" fill="white" font-size="13" font-family="sans-serif" font-weight="bold">成長投資枠</text>
+  <text x="500" y="59" text-anchor="middle" fill="white" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">成長投資枠</text>
 
   <!-- 行1: 年間上限 -->
   <rect x="20" y="78" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="120" y="100" text-anchor="middle" fill="#4a9eff" font-size="15" font-family="sans-serif" font-weight="bold">120万円</text>
+  <text x="120" y="100" text-anchor="middle" fill="#4a9eff" font-size="15" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">120万円</text>
   <rect x="230" y="78" width="160" height="36" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="310" y="100" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">年間投資上限</text>
+  <text x="310" y="100" text-anchor="middle" fill="#64748b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">年間投資上限</text>
   <rect x="400" y="78" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="500" y="100" text-anchor="middle" fill="#10b981" font-size="15" font-family="sans-serif" font-weight="bold">240万円</text>
+  <text x="500" y="100" text-anchor="middle" fill="#10b981" font-size="15" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">240万円</text>
 
   <!-- 行2: 対象商品 -->
   <rect x="20" y="120" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="120" y="142" text-anchor="middle" fill="#1e293b" font-size="12" font-family="sans-serif">長期積立向け投資信託</text>
+  <text x="120" y="142" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">長期積立向け投資信託</text>
   <rect x="230" y="120" width="160" height="36" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="310" y="142" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">対象商品</text>
+  <text x="310" y="142" text-anchor="middle" fill="#64748b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">対象商品</text>
   <rect x="400" y="120" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="500" y="142" text-anchor="middle" fill="#1e293b" font-size="12" font-family="sans-serif">株式・ETF・投信など</text>
+  <text x="500" y="142" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">株式・ETF・投信など</text>
 
   <!-- 行3: 向いている人 -->
   <rect x="20" y="162" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="120" y="184" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif">初心者・コツコツ積立型</text>
+  <text x="120" y="184" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">初心者・コツコツ積立型</text>
   <rect x="230" y="162" width="160" height="36" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="310" y="184" text-anchor="middle" fill="#64748b" font-size="11" font-family="sans-serif">向いている人</text>
+  <text x="310" y="184" text-anchor="middle" fill="#64748b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">向いている人</text>
   <rect x="400" y="162" width="200" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="500" y="184" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif">中級者・個別株も買いたい人</text>
+  <text x="500" y="184" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">中級者・個別株も買いたい人</text>
 
   <!-- 合計バナー -->
   <rect x="20" y="208" width="580" height="38" rx="8" fill="#1e293b"/>
-  <text x="310" y="224" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">合計年間360万円まで投資可能 ／ 生涯枠 1,800万円 ／ 非課税期間 無期限</text>
-  <text x="310" y="240" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">初心者はまずつみたて投資枠のみで始めるのが王道</text>
+  <text x="310" y="224" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">合計年間360万円まで投資可能 ／ 生涯枠 1,800万円 ／ 非課税期間 無期限</text>
+  <text x="310" y="240" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">初心者はまずつみたて投資枠のみで始めるのが王道</text>
 </svg>
 </div>
 
@@ -115,7 +116,7 @@ cover:
 
 **結論：SBI証券か楽天証券が初心者に最もおすすめ。**
 
-楽天ユーザーなら**[楽天証券](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619)**、それ以外はSBI証券を選べば間違いありません。
+楽天ユーザーなら**[楽天証券]()**、それ以外はSBI証券を選べば間違いありません。
 
 #### SBI証券でNISA口座を開設する手順
 

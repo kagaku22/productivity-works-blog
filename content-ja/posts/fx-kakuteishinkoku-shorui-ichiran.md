@@ -28,8 +28,9 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
 
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="FX確定申告の手順フロー">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="620" height="290" rx="12" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
-  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-family="sans-serif" font-weight="bold">FX確定申告 ステップフロー</text>
+  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">FX確定申告 ステップフロー</text>
 
   <defs>
     <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
@@ -39,25 +40,25 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
 
   <!-- Step 1 -->
   <rect x="30" y="44" width="160" height="54" rx="10" fill="#4a9eff"/>
-  <text x="110" y="66" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif" font-weight="bold">Step 1</text>
-  <text x="110" y="82" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">年間取引報告書</text>
-  <text x="110" y="96" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">FX業者マイページから取得</text>
+  <text x="110" y="66" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">Step 1</text>
+  <text x="110" y="82" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">年間取引報告書</text>
+  <text x="110" y="96" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">FX業者マイページから取得</text>
 
   <line x1="190" y1="71" x2="220" y2="71" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr3)"/>
 
   <!-- Step 2 -->
   <rect x="220" y="44" width="160" height="54" rx="10" fill="#4a9eff" opacity="0.85"/>
-  <text x="300" y="66" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif" font-weight="bold">Step 2</text>
-  <text x="300" y="82" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">申告書類の準備</text>
-  <text x="300" y="96" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">第三表・付表・源泉徴収票</text>
+  <text x="300" y="66" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">Step 2</text>
+  <text x="300" y="82" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">申告書類の準備</text>
+  <text x="300" y="96" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">第三表・付表・源泉徴収票</text>
 
   <line x1="380" y1="71" x2="410" y2="71" stroke="#4a9eff" stroke-width="2" marker-end="url(#arr3)"/>
 
   <!-- Step 3 -->
   <rect x="410" y="44" width="180" height="54" rx="10" fill="#4a9eff" opacity="0.7"/>
-  <text x="500" y="66" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif" font-weight="bold">Step 3</text>
-  <text x="500" y="82" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">e-Tax入力・送信</text>
-  <text x="500" y="96" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">マイナンバーカードで申請</text>
+  <text x="500" y="66" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">Step 3</text>
+  <text x="500" y="82" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">e-Tax入力・送信</text>
+  <text x="500" y="96" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">マイナンバーカードで申請</text>
 
   <!-- 区切り線 -->
   <line x1="30" y1="116" x2="590" y2="116" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
@@ -65,31 +66,31 @@ FXで利益が出たとき、多くのトレーダーが戸惑うのが確定申
   <!-- 詳細説明ボックス -->
   <!-- 年間取引報告書 詳細 -->
   <rect x="30" y="126" width="160" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="110" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif" font-weight="bold">必要書類</text>
-  <text x="110" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・年間取引報告書</text>
-  <text x="110" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・確定申告書B</text>
-  <text x="110" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・本人確認書類</text>
+  <text x="110" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">必要書類</text>
+  <text x="110" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・年間取引報告書</text>
+  <text x="110" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・確定申告書B</text>
+  <text x="110" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・本人確認書類</text>
 
   <!-- 記入方法 詳細 -->
   <rect x="220" y="126" width="160" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="300" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif" font-weight="bold">記入ポイント</text>
-  <text x="300" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・申告分離課税を選択</text>
-  <text x="300" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・第三表に損益を記入</text>
-  <text x="300" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・税率は一律20.315%</text>
+  <text x="300" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">記入ポイント</text>
+  <text x="300" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・申告分離課税を選択</text>
+  <text x="300" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・第三表に損益を記入</text>
+  <text x="300" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・税率は一律20.315%</text>
 
   <!-- 提出 詳細 -->
   <rect x="410" y="126" width="180" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="500" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="sans-serif" font-weight="bold">提出と納付</text>
-  <text x="500" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・申告期限：3月15日</text>
-  <text x="500" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・e-Taxで自宅から送信</text>
-  <text x="500" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="sans-serif">・納税額も自動計算</text>
+  <text x="500" y="146" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">提出と納付</text>
+  <text x="500" y="162" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・申告期限：3月15日</text>
+  <text x="500" y="176" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・e-Taxで自宅から送信</text>
+  <text x="500" y="190" text-anchor="middle" fill="#64748b" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">・納税額も自動計算</text>
 
   <!-- 損失繰越バナー -->
   <rect x="30" y="210" width="560" height="50" rx="10" fill="#10b981"/>
-  <text x="310" y="232" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">損失が出た年も申告を忘れずに！</text>
-  <text x="310" y="252" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif">損失繰越控除（3年間）で将来の利益と相殺できます</text>
+  <text x="310" y="232" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">損失が出た年も申告を忘れずに！</text>
+  <text x="310" y="252" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">損失繰越控除（3年間）で将来の利益と相殺できます</text>
 
-  <text x="310" y="278" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">確定申告期間：毎年2月16日〜3月15日</text>
+  <text x="310" y="278" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">確定申告期間：毎年2月16日〜3月15日</text>
 </svg>
 </div>
 

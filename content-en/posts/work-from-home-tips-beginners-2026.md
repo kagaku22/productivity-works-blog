@@ -110,7 +110,8 @@ Pick a start time and stick to it at least 4-5 days per week. This doesn't mean 
 **Morning productivity tip:** Many remote workers find that doing their most important, cognitively demanding task in the first 2 hours of the workday (before email and Slack) produces dramatically better results. This is called "eat the frog" — doing the hard thing first.
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="600" height="310" rx="12" fill="#f0f7ff"/>
   <text x="300" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Ideal WFH Daily Schedule</text>
   <text x="300" y="42" text-anchor="middle" font-size="10" fill="#64748b">A balanced time-blocked day for remote workers</text>

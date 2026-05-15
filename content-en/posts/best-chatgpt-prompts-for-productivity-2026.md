@@ -59,7 +59,8 @@ Think of it this way: if you hired a world-class assistant and your only instruc
 ---
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 300" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<svg viewBox="0 0 600 300" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="600" height="300" rx="12" fill="#f0f7ff"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">ChatGPT Prompt Category Grid</text>
   <text x="300" y="44" text-anchor="middle" font-size="10" fill="#64748b">Best prompt types for workplace productivity — organized by time saved</text>

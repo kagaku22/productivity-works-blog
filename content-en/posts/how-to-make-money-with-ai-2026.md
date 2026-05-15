@@ -348,7 +348,8 @@ With no-code tools (Bubble, Glide, Webflow) combined with AI APIs (OpenAI, Anthr
 ---
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="600" height="320" rx="12" fill="#f0f7ff"/>
   <text x="300" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">AI Income Methods — Speed vs Potential</text>
   <text x="300" y="42" text-anchor="middle" font-size="10" fill="#64748b">Organized by time to first dollar and long-term earning potential</text>

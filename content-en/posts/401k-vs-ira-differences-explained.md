@@ -101,7 +101,8 @@ Key features:
 ---
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 270" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<svg viewBox="0 0 600 270" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
+  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
   <rect width="600" height="270" rx="12" fill="#f0f7ff"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">401(k) vs IRA — Key Differences at a Glance</text>
   <!-- 401k column -->
