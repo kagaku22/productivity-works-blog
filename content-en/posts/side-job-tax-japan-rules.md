@@ -259,4 +259,12 @@ The filing process itself — while conducted in Japanese — is navigable with 
 
 ---
 
+## Related Tools
+
+> Estimate your side income taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate Japan take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
+
+---
+
 *The information in this article is provided for general educational purposes and reflects the tax rules in effect as of early 2026. Tax laws change, and individual circumstances vary. For advice specific to your situation, consult a registered tax advisor (税理士) in Japan.*

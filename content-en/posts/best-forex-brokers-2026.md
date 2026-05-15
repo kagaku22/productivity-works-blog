@@ -204,6 +204,12 @@ Remember: forex trading is high-risk. Start with a demo account, learn proper ri
 
 ---
 
+## Related Tools
+
+> Calculate forex trading profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> See how reinvested profits grow → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+
 ## Related Templates
 
 Level up your financial knowledge with AI:

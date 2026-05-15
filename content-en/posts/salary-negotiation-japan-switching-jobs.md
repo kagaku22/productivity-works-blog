@@ -169,4 +169,12 @@ Run the real numbers first. Know which months will be tight. Understand where ne
 
 ---
 
+## Related Tools
+
+> Calculate your take-home pay in Japan → [Salary Calculator](/tools/salary-calculator/)
+> Compare side income tax implications → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+
+---
+
 *Affiliate Disclosure: This article contains affiliate links. If you register or make a purchase through these links, we may earn a commission at no additional cost to you. We only recommend services we believe are genuinely useful to our readers. Our editorial content is not influenced by affiliate relationships.*
