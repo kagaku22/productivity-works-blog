@@ -334,6 +334,15 @@ Excelテンプレートを作るだけでは家計は改善しません。夫婦
 
 ---
 
+## 関連ツール
+
+> 手取り月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+> リボ払い・ローンの返済を計画 → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)
+> 毎月の積立で資産がどう増えるか → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
+
+---
+
 ## 関連テンプレート
 
 この記事の内容をすぐ実践できるExcelテンプレートはこちら：

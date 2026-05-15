@@ -259,6 +259,14 @@ cover:
 
 ---
 
+## 関連ツール
+
+> リボ払いの返済計画を立てる → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)
+> 手取り額から支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+
+---
+
 ## 関連テンプレート
 
 家計管理・資産運用をすぐ始められるテンプレートはこちら：
