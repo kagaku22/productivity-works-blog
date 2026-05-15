@@ -145,9 +145,9 @@ Make sure your brokerage account is set to automatically reinvest dividends (DRI
 ## Step-by-Step Guide: Invest Your First $100 Today
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="600" height="320" rx="12" fill="#f0f7ff"/>
+<svg viewBox="0 0 600 320" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
+  <rect width="600" height="320" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
   <text x="300" y="36" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">5 Steps to Start Investing with $100</text>
   <!-- Step boxes -->
   <!-- Step 1 -->

@@ -32,75 +32,75 @@ cover:
 
 <div style="max-width:620px;margin:1.8em auto;text-align:center;">
 <svg viewBox="0 0 620 270" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="iDeCo主要証券会社比較">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="620" height="270" rx="12" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
-  <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">iDeCo おすすめ証券会社 比較チャート</text>
+  <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
+  <rect width="620" height="270" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+ <text x="310" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="bold">iDeCo おすすめ証券会社 比較チャート</text>
 
   <!-- ヘッダー行 -->
   <rect x="10" y="36" width="130" height="30" rx="4" fill="#1e293b"/>
-  <text x="75" y="55" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">証券会社</text>
+ <text x="75" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">証券会社</text>
   <rect x="146" y="36" width="110" height="30" rx="4" fill="#1e293b"/>
-  <text x="201" y="55" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">月額手数料</text>
+ <text x="201" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">月額手数料</text>
   <rect x="262" y="36" width="100" height="30" rx="4" fill="#1e293b"/>
-  <text x="312" y="55" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">商品数</text>
+ <text x="312" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">商品数</text>
   <rect x="368" y="36" width="120" height="30" rx="4" fill="#1e293b"/>
-  <text x="428" y="55" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">最低信託報酬</text>
+ <text x="428" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">最低信託報酬</text>
   <rect x="494" y="36" width="116" height="30" rx="4" fill="#1e293b"/>
-  <text x="552" y="55" text-anchor="middle" fill="white" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">おすすめ度</text>
+ <text x="552" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">おすすめ度</text>
 
   <!-- SBI証券（1位） -->
   <rect x="10" y="72" width="130" height="36" rx="4" fill="#4a9eff"/>
-  <text x="75" y="88" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">SBI証券</text>
-  <text x="75" y="102" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">🥇 1位</text>
+ <text x="75" y="88" text-anchor="middle" fill="white" font-size="12" font-weight="bold">SBI証券</text>
+ <text x="75" y="102" text-anchor="middle" fill="white" font-size="10">🥇 1位</text>
   <rect x="146" y="72" width="110" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="201" y="94" text-anchor="middle" fill="#10b981" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">171円</text>
+ <text x="201" y="94" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">171円</text>
   <rect x="262" y="72" width="100" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="312" y="94" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">約38本</text>
+ <text x="312" y="94" text-anchor="middle" fill="#1e293b" font-size="12">約38本</text>
   <rect x="368" y="72" width="120" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="428" y="94" text-anchor="middle" fill="#10b981" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">0.05775%</text>
+ <text x="428" y="94" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">0.05775%</text>
   <rect x="494" y="72" width="116" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="552" y="94" text-anchor="middle" fill="#f59e0b" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">★★★★★</text>
+ <text x="552" y="94" text-anchor="middle" fill="#f59e0b" font-size="13">★★★★★</text>
 
   <!-- 楽天証券（2位） -->
   <rect x="10" y="114" width="130" height="36" rx="4" fill="#4a9eff" opacity="0.85"/>
-  <text x="75" y="130" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">楽天証券</text>
-  <text x="75" y="144" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">🥈 2位</text>
+ <text x="75" y="130" text-anchor="middle" fill="white" font-size="12" font-weight="bold">楽天証券</text>
+ <text x="75" y="144" text-anchor="middle" fill="white" font-size="10">🥈 2位</text>
   <rect x="146" y="114" width="110" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="201" y="136" text-anchor="middle" fill="#10b981" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">171円</text>
+ <text x="201" y="136" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">171円</text>
   <rect x="262" y="114" width="100" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="312" y="136" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">約32本</text>
+ <text x="312" y="136" text-anchor="middle" fill="#1e293b" font-size="12">約32本</text>
   <rect x="368" y="114" width="120" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="428" y="136" text-anchor="middle" fill="#10b981" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">0.0561%</text>
+ <text x="428" y="136" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">0.0561%</text>
   <rect x="494" y="114" width="116" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="552" y="136" text-anchor="middle" fill="#f59e0b" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">★★★★★</text>
+ <text x="552" y="136" text-anchor="middle" fill="#f59e0b" font-size="13">★★★★★</text>
 
   <!-- マネックス（3位） -->
   <rect x="10" y="156" width="130" height="36" rx="4" fill="#64748b"/>
-  <text x="75" y="172" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">マネックス</text>
-  <text x="75" y="186" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">🥉 3位</text>
+ <text x="75" y="172" text-anchor="middle" fill="white" font-size="12" font-weight="bold">マネックス</text>
+ <text x="75" y="186" text-anchor="middle" fill="white" font-size="10">🥉 3位</text>
   <rect x="146" y="156" width="110" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="201" y="178" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">171円</text>
+ <text x="201" y="178" text-anchor="middle" fill="#1e293b" font-size="12">171円</text>
   <rect x="262" y="156" width="100" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="312" y="178" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">約26本</text>
+ <text x="312" y="178" text-anchor="middle" fill="#1e293b" font-size="12">約26本</text>
   <rect x="368" y="156" width="120" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="428" y="178" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">0.09889%</text>
+ <text x="428" y="178" text-anchor="middle" fill="#1e293b" font-size="12">0.09889%</text>
   <rect x="494" y="156" width="116" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="552" y="178" text-anchor="middle" fill="#f59e0b" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">★★★★☆</text>
+ <text x="552" y="178" text-anchor="middle" fill="#f59e0b" font-size="13">★★★★☆</text>
 
   <!-- 松井証券（4位） -->
   <rect x="10" y="198" width="130" height="36" rx="4" fill="#94a3b8"/>
-  <text x="75" y="214" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">松井証券</text>
-  <text x="75" y="228" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">4位</text>
+ <text x="75" y="214" text-anchor="middle" fill="white" font-size="12" font-weight="bold">松井証券</text>
+ <text x="75" y="228" text-anchor="middle" fill="white" font-size="10">4位</text>
   <rect x="146" y="198" width="110" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="201" y="220" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">171円</text>
+ <text x="201" y="220" text-anchor="middle" fill="#1e293b" font-size="12">171円</text>
   <rect x="262" y="198" width="100" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="312" y="220" text-anchor="middle" fill="#10b981" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">約40本</text>
+ <text x="312" y="220" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">約40本</text>
   <rect x="368" y="198" width="120" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="428" y="220" text-anchor="middle" fill="#1e293b" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">0.154%</text>
+ <text x="428" y="220" text-anchor="middle" fill="#1e293b" font-size="12">0.154%</text>
   <rect x="494" y="198" width="116" height="36" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="552" y="220" text-anchor="middle" fill="#f59e0b" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">★★★★☆</text>
+ <text x="552" y="220" text-anchor="middle" fill="#f59e0b" font-size="13">★★★★☆</text>
 
-  <text x="310" y="254" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">※手数料171円は国民年金基金連合会・事務委託先の手数料込みの最低額。2026年5月時点。</text>
+ <text x="310" y="254" text-anchor="middle" fill="#94a3b8" font-size="10">※手数料171円は国民年金基金連合会・事務委託先の手数料込みの最低額。2026年5月時点。</text>
 </svg>
 </div>
 
@@ -188,35 +188,35 @@ iDeCo商品数は少なめですが、「eMAXIS Slim 先進国株式インデッ
 
 <div style="max-width:620px;margin:1.6em auto;text-align:center;">
 <svg viewBox="0 0 620 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;" aria-label="iDeCo三重の節税効果">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="620" height="180" rx="10" fill="#f0f7ff" stroke="#e2e8f0" stroke-width="1.5"/>
-  <text x="310" y="24" text-anchor="middle" fill="#1e293b" font-size="13" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">iDeCo 三重の節税効果</text>
+  <style>text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; }</style>
+  <rect width="620" height="180" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+ <text x="310" y="24" text-anchor="middle" fill="#1e293b" font-size="13" font-weight="bold">iDeCo 三重の節税効果</text>
 
   <!-- 節税1 -->
   <rect x="20" y="38" width="180" height="100" rx="10" fill="#4a9eff"/>
-  <text x="110" y="68" text-anchor="middle" fill="white" font-size="22" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">💰</text>
-  <text x="110" y="92" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">① 掛金が</text>
-  <text x="110" y="108" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">全額所得控除</text>
-  <text x="110" y="128" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">毎年の所得税・住民税が</text>
-  <text x="110" y="140" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">すぐに減る</text>
+ <text x="110" y="68" text-anchor="middle" fill="white" font-size="22">💰</text>
+ <text x="110" y="92" text-anchor="middle" fill="white" font-size="12" font-weight="bold">① 掛金が</text>
+ <text x="110" y="108" text-anchor="middle" fill="white" font-size="12" font-weight="bold">全額所得控除</text>
+ <text x="110" y="128" text-anchor="middle" fill="white" font-size="10">毎年の所得税・住民税が</text>
+ <text x="110" y="140" text-anchor="middle" fill="white" font-size="10">すぐに減る</text>
 
   <!-- 節税2 -->
   <rect x="220" y="38" width="180" height="100" rx="10" fill="#10b981"/>
-  <text x="310" y="68" text-anchor="middle" fill="white" font-size="22" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">📈</text>
-  <text x="310" y="92" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">② 運用益が</text>
-  <text x="310" y="108" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">すべて非課税</text>
-  <text x="310" y="128" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">通常20.315%かかる税金が</text>
-  <text x="310" y="140" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">ゼロに</text>
+ <text x="310" y="68" text-anchor="middle" fill="white" font-size="22">📈</text>
+ <text x="310" y="92" text-anchor="middle" fill="white" font-size="12" font-weight="bold">② 運用益が</text>
+ <text x="310" y="108" text-anchor="middle" fill="white" font-size="12" font-weight="bold">すべて非課税</text>
+ <text x="310" y="128" text-anchor="middle" fill="white" font-size="10">通常20.315%かかる税金が</text>
+ <text x="310" y="140" text-anchor="middle" fill="white" font-size="10">ゼロに</text>
 
   <!-- 節税3 -->
   <rect x="420" y="38" width="180" height="100" rx="10" fill="#f59e0b"/>
-  <text x="510" y="68" text-anchor="middle" fill="white" font-size="22" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">🏦</text>
-  <text x="510" y="92" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">③ 受取時も</text>
-  <text x="510" y="108" text-anchor="middle" fill="white" font-size="12" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">控除が適用</text>
-  <text x="510" y="128" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">退職所得控除または</text>
-  <text x="510" y="140" text-anchor="middle" fill="white" font-size="10" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">公的年金等控除</text>
+ <text x="510" y="68" text-anchor="middle" fill="white" font-size="22">🏦</text>
+ <text x="510" y="92" text-anchor="middle" fill="white" font-size="12" font-weight="bold">③ 受取時も</text>
+ <text x="510" y="108" text-anchor="middle" fill="white" font-size="12" font-weight="bold">控除が適用</text>
+ <text x="510" y="128" text-anchor="middle" fill="white" font-size="10">退職所得控除または</text>
+ <text x="510" y="140" text-anchor="middle" fill="white" font-size="10">公的年金等控除</text>
 
-  <text x="310" y="168" text-anchor="middle" fill="#1e293b" font-size="11" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif" font-weight="bold">→ 長期で積み立てるほど節税効果が複利的に拡大します</text>
+ <text x="310" y="168" text-anchor="middle" fill="#1e293b" font-size="11" font-weight="bold">→ 長期で積み立てるほど節税効果が複利的に拡大します</text>
 </svg>
 </div>
 

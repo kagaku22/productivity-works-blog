@@ -92,9 +92,9 @@ Not all apps are built on the same philosophy:
 ---
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 260" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="600" height="260" rx="12" fill="#f0f7ff"/>
+<svg viewBox="0 0 600 260" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
+  <rect width="600" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
   <text x="300" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Top 3 Budgeting Apps — Quick Comparison</text>
   <!-- YNAB Column -->
   <rect x="20" y="48" width="178" height="195" rx="10" fill="#fff" stroke="#4a9eff" stroke-width="2"/>

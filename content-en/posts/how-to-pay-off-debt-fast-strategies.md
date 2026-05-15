@@ -127,9 +127,9 @@ With $500/month:
 **Snowball wins on psychology**: Dave Ramsey popularized this approach. The quick wins from eliminating small balances first build momentum and confidence. Research shows that people using the snowball method are more likely to stick with their payoff plan.
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="600" height="310" rx="12" fill="#f0f7ff"/>
+<svg viewBox="0 0 600 310" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
+  <rect width="600" height="310" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
   <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Avalanche vs Snowball: Which Path to Debt Freedom?</text>
   <!-- Center divider -->
   <line x1="300" y1="40" x2="300" y2="295" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5,4"/>

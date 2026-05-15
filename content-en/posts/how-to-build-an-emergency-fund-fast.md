@@ -172,9 +172,9 @@ After you use your emergency fund, rebuild it before resuming normal investing c
 ## Step-by-Step Guide: Build Your Emergency Fund Fast
 
 <div style="max-width:600px;margin:1.5em auto;text-align:center;">
-<svg viewBox="0 0 600 280" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif">
-  <style>text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans JP', sans-serif; }</style>
-  <rect width="600" height="280" rx="12" fill="#f0f7ff"/>
+<svg viewBox="0 0 600 280" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }</style>
+  <rect width="600" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
   <text x="300" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Emergency Fund Savings Milestones</text>
   <text x="300" y="50" text-anchor="middle" font-size="11" fill="#64748b">Your path from $0 to full 3–6 month coverage</text>
   <!-- Timeline spine -->
