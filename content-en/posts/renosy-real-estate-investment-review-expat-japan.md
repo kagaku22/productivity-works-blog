@@ -221,9 +221,9 @@ For foreign residents with assets in multiple jurisdictions, owning Japanese rea
 
 Real estate investment and securities investment serve different purposes in a portfolio. They are not directly competing products, but when capital is finite, you need to prioritize.
 
-For a deeper look at NISA and iDeCo specifically, see our guide: [Best Investment Account in Japan for Foreign Residents: NISA and iDeCo Explained](/best-investment-account-japan-nisa-ideco).
+For a deeper look at NISA and iDeCo specifically, see our guide: [Best Investment Account in Japan for Foreign Residents: NISA and iDeCo Explained](../best-investment-account-japan-nisa-ideco/).
 
-And for long-term financial planning as a foreign resident more broadly: [Retirement Planning in Japan as a Foreign Resident](/retirement-planning-japan-foreign-resident).
+And for long-term financial planning as a foreign resident more broadly: [Retirement Planning in Japan as a Foreign Resident](../retirement-planning-japan-foreign-resident/).
 
 Here is a framework for thinking about the two approaches:
 

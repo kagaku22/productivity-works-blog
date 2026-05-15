@@ -24,7 +24,7 @@ Switching jobs in Japan is one of the most reliable paths to a significant salar
 
 This article is your practical, step-by-step guide to using **doda** — one of Japan's largest job platforms, operated by Persol Career Co., Ltd. — to find higher-paying opportunities and negotiate compensation effectively. Whether you are an experienced bilingual professional, a mid-career foreigner working in Japan, or a recent hire looking to move up faster, this guide will walk you through everything from understanding how Japanese salaries are structured to closing a counter-offer with confidence.
 
-Related reading: [Salary Negotiation in Japan When Switching Jobs](/tools/salary-calculator/) | [Best Job Search Sites in Japan 2026](/tools/budget-planner/)
+Related reading: [Salary Negotiation in Japan When Switching Jobs](/en/tools/salary-calculator/) | [Best Job Search Sites in Japan 2026](/en/tools/budget-planner/)
 
 ---
 
@@ -344,5 +344,5 @@ Understand your salary structure. Know your market value. Let your advisor negot
 
 **Related Articles**
 
-- [Salary Negotiation in Japan When Switching Jobs](/tools/salary-calculator/)
-- [Best Job Search Sites in Japan 2026](/tools/budget-planner/)
+- [Salary Negotiation in Japan When Switching Jobs](/en/tools/salary-calculator/)
+- [Best Job Search Sites in Japan 2026](/en/tools/budget-planner/)
