@@ -224,6 +224,13 @@ Start with NISA. Explore FX when you are ready. Keep them separate, and let each
 
 ---
 
+### Related Tools
+
+> Calculate forex trading profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> See how NISA investments compound tax-free → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate retirement savings → [Retirement Calculator](/tools/retirement-calculator/)
+> Calculate dividend income from stocks → [Dividend Income Calculator](/tools/dividend-income-calculator/)
+
 ### Related Articles
 
 - [Best Investment Account in Japan: NISA vs iDeCo](/posts/best-investment-account-japan-nisa-ideco/)

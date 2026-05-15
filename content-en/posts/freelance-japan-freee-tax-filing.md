@@ -283,3 +283,11 @@ The combination of proper registration and good accounting software removes the 
 Manage your household budget alongside business finances with our [Budget Planner](/ja/tools/kakeibo-generator/) — keeping personal and business spending visible in one place makes it easier to plan quarterly tax payments and manage cash flow through slower months.
 
 Ready to get your books in order? **[Get started with freee today](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)** and take the administrative complexity out of going freelance in Japan.
+
+---
+
+## Related Tools
+
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)

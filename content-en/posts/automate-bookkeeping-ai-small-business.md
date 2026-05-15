@@ -365,6 +365,13 @@ Start with the bank connection today. Build from there.
 
 ---
 
+## Related Tools
+
+> Estimate self-employment taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Create a monthly business budget → [Budget Planner](/tools/budget-planner/)
+> Plan debt payoff for business loans → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> Calculate loan repayment schedules → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

@@ -306,6 +306,12 @@ For a complete system — from landing clients to delivering work to building pa
 
 ---
 
+## Related Tools
+
+> Estimate taxes on freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Start your freelance or side hustle journey with these resources:
