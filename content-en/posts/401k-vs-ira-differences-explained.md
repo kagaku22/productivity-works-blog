@@ -295,7 +295,11 @@ Follow this order consistently over your career, invest in low-cost index funds,
 
 ---
 
-### Related Articles
+### Related Tools & Articles
+
+> Plan your retirement contributions → [Retirement Savings Calculator](/tools/retirement-calculator/)
+> See how your investments grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)

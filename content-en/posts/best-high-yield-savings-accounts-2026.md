@@ -206,6 +206,9 @@ The money you earn in interest can fund your investments, build your emergency f
 
 [Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
 
+> See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Create a monthly savings plan → [Budget Calculator](/tools/budget-calculator/)
+
 ---
 
 *This article is for informational purposes only and does not constitute financial advice. APYs are variable and subject to change. Check each bank's website for current rates.*

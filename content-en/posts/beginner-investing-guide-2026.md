@@ -307,6 +307,11 @@ The best investing plan is the one you actually follow — simple, automated, an
 
 Our [Personal Finance Starter Pack](https://payhip.com/productivityworks) includes an investment tracker spreadsheet, budget templates, and a step-by-step account setup guide for all major brokerages.
 
+**Related Tools:**
+> See how your investments grow → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate dividend income → [Dividend Income Calculator](/tools/dividend-income-calculator/)
+> Plan your retirement → [Retirement Savings Calculator](/tools/retirement-calculator/)
+
 **Related Reading:**
 - [How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)

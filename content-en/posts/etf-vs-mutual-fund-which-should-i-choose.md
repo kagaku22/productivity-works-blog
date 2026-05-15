@@ -283,7 +283,11 @@ Start simple. Stay consistent. Keep costs low.
 
 ---
 
-### Related Articles
+### Related Tools & Articles
+
+> Compare long-term growth of your investments → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate dividend income from ETFs → [Dividend Income Calculator](/tools/dividend-income-calculator/)
+> Plan your retirement savings → [Retirement Savings Calculator](/tools/retirement-calculator/)
 
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
