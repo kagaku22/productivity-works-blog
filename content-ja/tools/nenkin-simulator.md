@@ -445,9 +445,9 @@ select.nenkin-select:focus {
 <div class="tool-links">
   <a href="/ja/tools/ideco-simulator/" class="tool-link">iDeCoシミュレーター</a>
   <a href="/ja/tools/nisa-simulator/" class="tool-link">NISAシミュレーター</a>
-  <a href="/ja/tools/tedori-keisan/" class="tool-link">手取り計算機</a>
-  <a href="/ja/tools/kakeibo/" class="tool-link">家計簿ツール</a>
-  <a href="/ja/tools/fukugyo-tax/" class="tool-link">副業税金計算</a>
+  <a href="/ja/tools/salary-tedori-calculator/" class="tool-link">手取り計算機</a>
+  <a href="/ja/tools/kakeibo-generator/" class="tool-link">家計簿ツール</a>
+  <a href="/ja/tools/fukugyou-tax-calculator/" class="tool-link">副業税金計算</a>
 </div>
 </div>
 
