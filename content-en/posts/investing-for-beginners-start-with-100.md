@@ -212,7 +212,7 @@ Investing isn't complicated — the financial industry profits from making it se
 
 A $100 investment made today is worth more than a $1,000 investment made next year. The best time to start was ten years ago. The second-best time is today.
 
-> Investing from Japan? [Rakuten Securities](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619) offers NISA accounts, low-cost index funds, and an interface accessible to English speakers — making it one of the most beginner-friendly brokerages for residents in Japan who want to start with a small amount.
+> Investing from Japan? [Rakuten Securities]() offers NISA accounts, low-cost index funds, and an interface accessible to English speakers — making it one of the most beginner-friendly brokerages for residents in Japan who want to start with a small amount.
 
 [Open a Roth IRA at Fidelity — $0 minimum at fidelity.com]
 [Open a Stocks and Shares ISA at Trading 212 (UK)]

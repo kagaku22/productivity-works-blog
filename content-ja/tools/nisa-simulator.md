@@ -104,7 +104,7 @@ calc();
 
 シミュレーション結果を見て、NISAを始めたくなりましたか？
 
-- **証券口座をまだお持ちでない方** → [楽天証券で口座開設する](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619)
+- **証券口座をまだお持ちでない方** → [楽天証券で口座開設する]()
 - **SBI証券と楽天証券で迷っている方** → [SBI証券 vs 楽天証券 徹底比較2026](/ja/posts/sbi-rakuten-hikaku-2026/)
 - **NISAの始め方を知りたい方** → [新NISA始め方 初心者向け完全ガイド](/ja/posts/shin-nisa-hajimekata-shoshinsha-2026/)
 - **おすすめ銘柄を知りたい方** → [NISAおすすめ銘柄2026](/ja/posts/nisa-osusume-meigara-2026/)

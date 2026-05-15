@@ -218,7 +218,7 @@ The best index fund is the one you actually invest in, starting today. Don't let
 
 Your future self will thank you.
 
-> Investing from Japan? [Rakuten Securities](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619) offers NISA accounts, a wide selection of low-cost index funds including global ETFs, and an English-friendly interface — a strong choice for residents in Japan looking to build a long-term index fund portfolio.
+> Investing from Japan? [Rakuten Securities]() offers NISA accounts, a wide selection of low-cost index funds including global ETFs, and an English-friendly interface — a strong choice for residents in Japan looking to build a long-term index fund portfolio.
 
 **Ready to start?**
 
