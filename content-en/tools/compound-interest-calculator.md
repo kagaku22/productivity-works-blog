@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/compound-interest-calculator.png"
+  image: "images/covers/compound-interest-calculator.png"
   alt: "Compound Interest Calculator | Free Investment Growth Simulator"
   relative: false
 ---

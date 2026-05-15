@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/nenkin-simulator.png"
+  image: "images/covers/nenkin-simulator.png"
   alt: "年金シミュレーター｜将来の年金受給額を無料で計算"
   relative: false
 ---

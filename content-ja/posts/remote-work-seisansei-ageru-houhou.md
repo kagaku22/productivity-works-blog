@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/remote-work-seisansei-ageru-houhou.png"
+  image: "images/covers/remote-work-seisansei-ageru-houhou.png"
   alt: "リモートワーク生産性を上げる方法15選【在宅勤務のコツ・ツール・環境構築】"
   relative: false
 ---

@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/nisa-simulator.png"
+  image: "images/covers/nisa-simulator.png"
   alt: "つみたてNISAシミュレーター｜将来の資産額を無料で計算"
   relative: false
 ---

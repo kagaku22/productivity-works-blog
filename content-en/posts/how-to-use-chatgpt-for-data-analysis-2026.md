@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/how-to-use-chatgpt-for-data-analysis-2026.png"
+  image: "images/covers/how-to-use-chatgpt-for-data-analysis-2026.png"
   alt: "How to Use ChatGPT for Data Analysis 2026"
   relative: false
 ---

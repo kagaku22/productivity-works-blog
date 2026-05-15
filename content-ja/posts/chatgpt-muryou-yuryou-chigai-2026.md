@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-muryou-yuryou-chigai-2026.png"
+  image: "images/covers/chatgpt-muryou-yuryou-chigai-2026.png"
   alt: "ChatGPT無料版と有料版の違い2026年完全比較【どっちを選ぶべき？】"
   relative: false
 ---

@@ -24,7 +24,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-etsy-shop-descriptions.png"
+  image: "images/covers/chatgpt-etsy-shop-descriptions.png"
   alt: "How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026"
   relative: false
 ---

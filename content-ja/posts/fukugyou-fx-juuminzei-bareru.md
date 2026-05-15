@@ -1,6 +1,6 @@
 ---
 title: "副業FXで年収いくらまで住民税でバレない？会社員の節税シミュレーション"
-date: 2026-05-14
+date: 2026-05-10
 draft: false
 slug: "fukugyou-fx-juuminzei-bareru"
 description: "副業FXの利益が会社にバレる仕組みと住民税の普通徴収の手続きを解説。利益20万円以下でも住民税申告は必要です。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fukugyou-fx-juuminzei-bareru.png"
+  image: "images/covers/fukugyou-fx-juuminzei-bareru.png"
   alt: "副業FXで年収いくらまで住民税でバレない？会社員の節税シミュレーション"
   relative: false
 ---

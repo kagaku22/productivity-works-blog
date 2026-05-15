@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-画像生成-無料.png"
+  image: "images/covers/ai-画像生成-無料.png"
   alt: "無料AI画像生成ツール比較2026年版【目的別おすすめランキング】"
   relative: false
 ---

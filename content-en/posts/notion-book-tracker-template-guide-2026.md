@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/notion-book-tracker-template-guide-2026.png"
+  image: "images/covers/notion-book-tracker-template-guide-2026.png"
   alt: "How to Build a Notion Book Tracker: Complete Template Guide "
   relative: false
 ---

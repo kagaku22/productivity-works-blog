@@ -24,7 +24,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-tools-teachers-educators-2026.png"
+  image: "images/covers/ai-tools-teachers-educators-2026.png"
   alt: "Best AI Tools for Teachers and Educators in 2026: The Comple"
   relative: false
 ---

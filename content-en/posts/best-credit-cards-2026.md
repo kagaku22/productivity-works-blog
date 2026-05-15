@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-credit-cards-2026.png"
+  image: "images/covers/best-credit-cards-2026.png"
   alt: "Best Credit Cards 2026: Complete Comparison Guide by Categor"
   relative: false
 ---

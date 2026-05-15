@@ -1,6 +1,6 @@
 ---
 title: "FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?"
-date: 2026-05-14
+date: 2026-05-06
 draft: false
 slug: "fx-loss-carryforward-japan-tax"
 description: "Lost money on FX in Japan? You can carry forward losses for 3 years to offset future profits. Learn the rules, requirements, and filing steps."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-loss-carryforward-japan-tax.png"
+  image: "images/covers/fx-loss-carryforward-japan-tax.png"
   alt: "FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?"
   relative: false
 ---

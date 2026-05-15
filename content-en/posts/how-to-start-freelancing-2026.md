@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/how-to-start-freelancing-2026.png"
+  image: "images/covers/how-to-start-freelancing-2026.png"
   alt: "How to Start Freelancing in 2026: Complete Beginner''s Guide"
   relative: false
 ---

@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/how-to-start-freelancing-with-no-experience-2026.png"
+  image: "images/covers/how-to-start-freelancing-with-no-experience-2026.png"
   alt: "How to Start Freelancing With No Experience in 2026: Step-by"
   relative: false
 ---

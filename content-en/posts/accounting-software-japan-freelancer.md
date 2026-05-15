@@ -1,6 +1,6 @@
 ---
 title: "Best Accounting Software for Freelancers in Japan 2026: freee vs Money Forward vs Yayoi"
-date: 2026-05-14
+date: 2026-05-04
 draft: false
 slug: "accounting-software-japan-freelancer"
 description: "Compare Japan's top 3 accounting software for freelancers: freee, Money Forward, and Yayoi. Features, pricing, English support, and tax filing capabilities."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/accounting-software-japan-freelancer.png"
+  image: "images/covers/accounting-software-japan-freelancer.png"
   alt: "Best Accounting Software for Freelancers in Japan 2026: freee vs Money Forward vs Yayoi"
   relative: false
 ---

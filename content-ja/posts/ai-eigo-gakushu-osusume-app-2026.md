@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-eigo-gakushu-osusume-app-2026.png"
+  image: "images/covers/ai-eigo-gakushu-osusume-app-2026.png"
   alt: "AI英語学習おすすめアプリ2026年版【比較ランキング・無料あり】初心者から上級者まで"
   relative: false
 ---

@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/programming-school-osusume-2026.png"
+  image: "images/covers/programming-school-osusume-2026.png"
   alt: "プログラミングスクール おすすめ2026年版！目的別に比較【未経験〜転職まで】"
   relative: false
 ---

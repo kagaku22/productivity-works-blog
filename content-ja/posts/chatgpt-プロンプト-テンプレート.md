@@ -16,7 +16,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-プロンプト-テンプレート.png"
+  image: "images/covers/chatgpt-プロンプト-テンプレート.png"
   alt: "すぐ使えるChatGPTプロンプトテンプレート20選【コピペOK】"
   relative: false
 ---

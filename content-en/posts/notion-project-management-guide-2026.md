@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/notion-project-management-guide-2026.png"
+  image: "images/covers/notion-project-management-guide-2026.png"
   alt: "How to Use Notion for Project Management 2026: The Complete "
   relative: false
 ---

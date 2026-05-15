@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/shufu-handmade-kakuteishinkoku.png"
+  image: "images/covers/shufu-handmade-kakuteishinkoku.png"
   alt: "主婦のハンドメイド販売、確定申告はいくらから必要？【2026年最新】"
   relative: false
 ---

@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/claude-ai-vs-chatgpt-comparison-2026.png"
+  image: "images/covers/claude-ai-vs-chatgpt-comparison-2026.png"
   alt: "Claude AI vs ChatGPT Comparison 2026"
   relative: false
 ---

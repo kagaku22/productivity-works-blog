@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/how-to-use-ai-for-excel-automation-2026.png"
+  image: "images/covers/how-to-use-ai-for-excel-automation-2026.png"
   alt: "How to Use AI for Excel Automation 2026"
   relative: false
 ---

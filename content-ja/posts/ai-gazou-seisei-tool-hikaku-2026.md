@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-gazou-seisei-tool-hikaku-2026.png"
+  image: "images/covers/ai-gazou-seisei-tool-hikaku-2026.png"
   alt: "AI画像生成おすすめツール比較2026年版【無料・有料・日本語対応】"
   relative: false
 ---

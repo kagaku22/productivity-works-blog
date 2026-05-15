@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/iryo-jimu-chatgpt-kanja-annai-sakusei.png"
+  image: "images/covers/iryo-jimu-chatgpt-kanja-annai-sakusei.png"
   alt: "医療事務 ChatGPTで患者案内文書を5分で作成する方法"
   relative: false
 ---

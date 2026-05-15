@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/credit-card-osusume-2026.png"
+  image: "images/covers/credit-card-osusume-2026.png"
   alt: "クレジットカード おすすめ2026年版！目的別に徹底比較【初心者向け】"
   relative: false
 ---

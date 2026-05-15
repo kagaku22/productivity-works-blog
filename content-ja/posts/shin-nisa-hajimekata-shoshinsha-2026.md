@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/shin-nisa-hajimekata-shoshinsha-2026.png"
+  image: "images/covers/shin-nisa-hajimekata-shoshinsha-2026.png"
   alt: "新NISA始め方2026年版【初心者向け完全ガイド】口座開設から投資スタートまで"
   relative: false
 ---

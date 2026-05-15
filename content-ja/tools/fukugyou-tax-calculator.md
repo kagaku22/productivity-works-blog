@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/fukugyou-tax-calculator.png"
+  image: "images/covers/fukugyou-tax-calculator.png"
   alt: "副業の税金計算シミュレーター｜確定申告が必要か自動判定"
   relative: false
 ---

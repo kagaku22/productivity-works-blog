@@ -21,7 +21,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-remote-work-tools-2026.png"
+  image: "images/covers/best-remote-work-tools-2026.png"
   alt: "Best Remote Work Tools in 2026: The Complete Stack"
   relative: false
 ---

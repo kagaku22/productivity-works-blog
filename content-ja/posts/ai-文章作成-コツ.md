@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-文章作成-コツ.png"
+  image: "images/covers/ai-文章作成-コツ.png"
   alt: "AIで高品質な文章を作成するコツ7つ【プロが使うテクニック】"
   relative: false
 ---

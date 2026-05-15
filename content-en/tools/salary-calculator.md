@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/salary-calculator.png"
+  image: "images/covers/salary-calculator.png"
   alt: "US Salary Calculator | Take-Home Pay After Taxes"
   relative: false
 ---

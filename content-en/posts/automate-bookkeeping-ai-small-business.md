@@ -25,7 +25,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/automate-bookkeeping-ai-small-business.png"
+  image: "images/covers/automate-bookkeeping-ai-small-business.png"
   alt: "How to Automate Bookkeeping with AI for Small Business (2026"
   relative: false
 ---

@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/fx-profit-calculator.png"
+  image: "images/covers/fx-profit-calculator.png"
   alt: "FX利益計算シミュレーター｜損益・税金・必要証拠金を自動計算"
   relative: false
 ---

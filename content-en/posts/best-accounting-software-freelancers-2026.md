@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-accounting-software-freelancers-2026.png"
+  image: "images/covers/best-accounting-software-freelancers-2026.png"
   alt: "Best Accounting Software for Freelancers 2026: Invoicing, Ex"
   relative: false
 ---

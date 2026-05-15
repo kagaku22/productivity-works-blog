@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/kakutei-kyoshutsu-nenkin-chigai.png"
+  image: "images/covers/kakutei-kyoshutsu-nenkin-chigai.png"
   alt: "確定拠出年金 企業型（DC）と個人型（iDeCo）の違いを徹底比較【2026年版】"
   relative: false
 ---

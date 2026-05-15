@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/chatgpt-real-estate-agent-prompts-2026.png"
+  image: "images/covers/chatgpt-real-estate-agent-prompts-2026.png"
   alt: "ChatGPT Prompts for Real Estate Agents: 30 Ready-to-Use Temp"
   relative: false
 ---

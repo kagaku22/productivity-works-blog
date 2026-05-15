@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/kakeibo-generator.png"
+  image: "images/covers/kakeibo-generator.png"
   alt: "家計簿シミュレーター｜月収から理想の支出配分を自動計算"
   relative: false
 ---

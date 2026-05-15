@@ -1,6 +1,6 @@
 ---
 title: "Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?"
-date: 2026-05-14
+date: 2026-05-08
 draft: false
 slug: "side-job-tax-japan-rules"
 description: "Understand Japan's side job tax rules: when filing is mandatory, the ¥200,000 threshold, penalty rates, and how to stay compliant as a salaried worker."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/side-job-tax-japan-rules.png"
+  image: "images/covers/side-job-tax-japan-rules.png"
   alt: "Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?"
   relative: false
 ---

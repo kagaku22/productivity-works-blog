@@ -1,6 +1,6 @@
 ---
 title: "How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide"
-date: 2026-05-14
+date: 2026-05-07
 draft: false
 slug: "kakuteishinkoku-fx-income-guide"
 description: "Step-by-step guide to filing a kakuteishinkoku (確定申告) for FX trading income in Japan. Covers required documents, e-Tax process, and deadlines."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/kakuteishinkoku-fx-income-guide.png"
+  image: "images/covers/kakuteishinkoku-fx-income-guide.png"
   alt: "How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide"
   relative: false
 ---

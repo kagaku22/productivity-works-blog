@@ -1,6 +1,6 @@
 ---
 title: "副業フリーランスがfreeeで青色申告65万控除を最速で取る方法"
-date: 2026-05-14
+date: 2026-05-09
 draft: false
 slug: "freee-aoiro-shinkoku-65man"
 description: "freee会計を使って副業フリーランスが青色申告65万円控除を取る手順を完全解説。開業届から帳簿付け、確定申告までの全ステップ。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/freee-aoiro-shinkoku-65man.png"
+  image: "images/covers/freee-aoiro-shinkoku-65man.png"
   alt: "副業フリーランスがfreeeで青色申告65万控除を最速で取る方法"
   relative: false
 ---

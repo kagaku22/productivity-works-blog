@@ -24,7 +24,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-tools-real-estate-agents-2026.png"
+  image: "images/covers/ai-tools-real-estate-agents-2026.png"
   alt: "Best AI Tools for Real Estate Agents in 2026: The Complete I"
   relative: false
 ---

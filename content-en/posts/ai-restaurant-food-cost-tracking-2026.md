@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/ai-restaurant-food-cost-tracking-2026.png"
+  image: "images/covers/ai-restaurant-food-cost-tracking-2026.png"
   alt: "How to Track Food Costs with AI: A Small Restaurant Owner's "
   relative: false
 ---

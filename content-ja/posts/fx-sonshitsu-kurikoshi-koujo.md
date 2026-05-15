@@ -1,6 +1,6 @@
 ---
 title: "FXの損失は3年繰り越せる？繰越控除の申告手順を図解で解説"
-date: 2026-05-14
+date: 2026-05-12
 draft: false
 slug: "fx-sonshitsu-kurikoshi-koujo"
 description: "FXで損失が出ても確定申告すれば3年間繰り越して将来の利益と相殺できます。繰越控除の仕組みと申告手順をわかりやすく解説。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-sonshitsu-kurikoshi-koujo.png"
+  image: "images/covers/fx-sonshitsu-kurikoshi-koujo.png"
   alt: "FXの損失は3年繰り越せる？繰越控除の申告手順を図解で解説"
   relative: false
 ---
@@ -34,7 +34,7 @@ FXの取引で生じた損失は、翌年以降**最大3年間にわたって繰
 
 仕組みを図で整理すると次のとおりです。
 
-```
+```text
 1年目: FX損失 50万円 → 確定申告して損失を記録
             ↓
 2年目: FX利益 30万円 → 繰越損失50万円と相殺 → 課税所得ゼロ（残り損失20万円）

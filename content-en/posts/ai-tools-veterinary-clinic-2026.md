@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/ai-tools-veterinary-clinic-2026.png"
+  image: "images/covers/ai-tools-veterinary-clinic-2026.png"
   alt: "AI Tools for Veterinary Clinics: Streamline Operations & Cli"
   relative: false
 ---

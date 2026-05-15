@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/notion-kakuteishinkoku-freelance.png"
+  image: "images/covers/notion-kakuteishinkoku-freelance.png"
   alt: "Notionでフリーランスの確定申告を完全管理する方法【テンプレート付き】"
   relative: false
 ---

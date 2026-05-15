@@ -18,7 +18,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-life-insurance-2026.png"
+  image: "images/covers/best-life-insurance-2026.png"
   alt: "Best Life Insurance 2026: Compare Policies, Rates & Coverage"
   relative: false
 ---

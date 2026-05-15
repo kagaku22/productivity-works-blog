@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/salary-tedori-calculator.png"
+  image: "images/covers/salary-tedori-calculator.png"
   alt: "手取り計算シミュレーター｜年収から手取りを自動計算"
   relative: false
 ---

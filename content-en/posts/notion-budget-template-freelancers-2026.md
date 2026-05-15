@@ -25,7 +25,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/notion-budget-template-freelancers-2026.png"
+  image: "images/covers/notion-budget-template-freelancers-2026.png"
   alt: "Notion Budget Template for Freelancers 2026: Track Income, E"
   relative: false
 ---

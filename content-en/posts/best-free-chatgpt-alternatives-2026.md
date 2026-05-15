@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-free-chatgpt-alternatives-2026.png"
+  image: "images/covers/best-free-chatgpt-alternatives-2026.png"
   alt: "Best Free Alternatives to ChatGPT 2026: Complete Comparison"
   relative: false
 ---

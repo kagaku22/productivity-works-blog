@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-ai-image-generators-free-2026.png"
+  image: "images/covers/best-ai-image-generators-free-2026.png"
   alt: "Best AI Image Generators Free 2026"
   relative: false
 ---

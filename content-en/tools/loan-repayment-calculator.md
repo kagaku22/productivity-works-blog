@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/loan-repayment-calculator.png"
+  image: "images/covers/loan-repayment-calculator.png"
   alt: "Loan Repayment Calculator | Free Monthly Payment Estimator"
   relative: false
 ---

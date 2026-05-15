@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/chatgpt-property-listing-description-templates.png"
+  image: "images/covers/chatgpt-property-listing-description-templates.png"
   alt: "How to Write Property Listing Descriptions with ChatGPT (10 "
   relative: false
 ---

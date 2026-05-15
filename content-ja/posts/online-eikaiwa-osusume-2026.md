@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/online-eikaiwa-osusume-2026.png"
+  image: "images/covers/online-eikaiwa-osusume-2026.png"
   alt: "オンライン英会話 おすすめ2026年版！料金・講師・教材で比較"
   relative: false
 ---

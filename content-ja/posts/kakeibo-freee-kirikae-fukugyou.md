@@ -1,6 +1,6 @@
 ---
 title: "家計簿アプリから卒業：収入が月10万円超えたらfreeeに切り替える理由"
-date: 2026-05-14
+date: 2026-05-13
 draft: false
 slug: "kakeibo-freee-kirikae-fukugyou"
 description: "副業収入が月10万円を超えたら家計簿アプリでは不十分。freee会計に切り替えるべき5つの理由と移行手順を解説。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/kakeibo-freee-kirikae-fukugyou.png"
+  image: "images/covers/kakeibo-freee-kirikae-fukugyou.png"
   alt: "家計簿アプリから卒業：収入が月10万円超えたらfreeeに切り替える理由"
   relative: false
 ---

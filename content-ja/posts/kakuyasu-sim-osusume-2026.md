@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/kakuyasu-sim-osusume-2026.png"
+  image: "images/covers/kakuyasu-sim-osusume-2026.png"
   alt: "格安SIM おすすめ2026年版！乗り換えで月5,000円節約する方法"
   relative: false
 ---

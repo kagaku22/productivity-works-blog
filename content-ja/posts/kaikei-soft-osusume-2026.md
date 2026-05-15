@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/kaikei-soft-osusume-2026.png"
+  image: "images/covers/kaikei-soft-osusume-2026.png"
   alt: "会計ソフト おすすめ2026年版！個人事業主・フリーランス向け比較"
   relative: false
 ---

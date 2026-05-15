@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/chatgpt-fudosan-eigyo-prompt.png"
+  image: "images/covers/chatgpt-fudosan-eigyo-prompt.png"
   alt: "不動産営業向けChatGPTプロンプト集 完全ガイド2026"
   relative: false
 ---

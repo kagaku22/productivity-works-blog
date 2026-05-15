@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-internet-service-providers-2026.png"
+  image: "images/covers/best-internet-service-providers-2026.png"
   alt: "Best Internet Service Providers 2026: Speed, Price & Reliabi"
   relative: false
 ---

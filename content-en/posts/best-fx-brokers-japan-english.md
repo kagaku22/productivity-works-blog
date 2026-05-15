@@ -1,6 +1,6 @@
 ---
 title: "Best FX Brokers for English Speakers in Japan 2026: What to Look For"
-date: 2026-05-14
+date: 2026-05-05
 draft: false
 slug: "best-fx-brokers-japan-english"
 description: "Guide to choosing an FX broker in Japan as an English speaker. Key factors: spreads, English support, regulation, platforms, and account opening requirements."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/best-fx-brokers-japan-english.png"
+  image: "images/covers/best-fx-brokers-japan-english.png"
   alt: "Best FX Brokers for English Speakers in Japan 2026: What to Look For"
   relative: false
 ---

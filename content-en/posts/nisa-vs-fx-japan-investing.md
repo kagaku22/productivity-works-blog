@@ -1,6 +1,6 @@
 ---
 title: "NISA vs FX in Japan: Which Is Better for Growing Your Money Tax-Efficiently?"
-date: 2026-05-14
+date: 2026-05-08
 draft: false
 slug: "nisa-vs-fx-japan-investing"
 description: "Compare NISA and FX trading in Japan: tax treatment, risk profiles, and which is better for beginners. Learn how to use both for optimal returns."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/nisa-vs-fx-japan-investing.png"
+  image: "images/covers/nisa-vs-fx-japan-investing.png"
   alt: "NISA vs FX in Japan: Which Is Better for Growing Your Money Tax-Efficiently?"
   relative: false
 ---

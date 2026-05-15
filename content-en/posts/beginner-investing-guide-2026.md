@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/beginner-investing-guide-2026.png"
+  image: "images/covers/beginner-investing-guide-2026.png"
   alt: "Beginner Investing Guide 2026: How to Start Building Wealth "
   relative: false
 ---

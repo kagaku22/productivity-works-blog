@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-gijiroku-template.png"
+  image: "images/covers/chatgpt-gijiroku-template.png"
   alt: "ChatGPTで議事録を自動作成する方法【コピペOKテンプレート付き】"
   relative: false
 ---

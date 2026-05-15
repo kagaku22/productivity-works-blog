@@ -19,7 +19,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-chatgpt-prompts-for-productivity-2026.png"
+  image: "images/covers/best-chatgpt-prompts-for-productivity-2026.png"
   alt: "Best ChatGPT Prompts for Productivity 2026"
   relative: false
 ---

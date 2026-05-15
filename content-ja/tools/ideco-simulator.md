@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/ideco-simulator.png"
+  image: "images/covers/ideco-simulator.png"
   alt: "iDeCoシミュレーター｜節税額・将来資産を自動計算"
   relative: false
 ---

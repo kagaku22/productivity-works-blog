@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/water-server-osusume-2026.png"
+  image: "images/covers/water-server-osusume-2026.png"
   alt: "ウォーターサーバー おすすめ2026年版！コスパ・デザイン・機能で比較"
   relative: false
 ---

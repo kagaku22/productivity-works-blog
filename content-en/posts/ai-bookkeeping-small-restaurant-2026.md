@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/ai-bookkeeping-small-restaurant-2026.png"
+  image: "images/covers/ai-bookkeeping-small-restaurant-2026.png"
   alt: "AI Bookkeeping for Small Restaurants: Complete Automation Gu"
   relative: false
 ---

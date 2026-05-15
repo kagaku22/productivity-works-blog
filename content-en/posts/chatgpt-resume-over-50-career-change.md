@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/chatgpt-resume-over-50-career-change.png"
+  image: "images/covers/chatgpt-resume-over-50-career-change.png"
   alt: "ChatGPT Resume Tips for Career Changers Over 50: Turn Experi"
   relative: false
 ---

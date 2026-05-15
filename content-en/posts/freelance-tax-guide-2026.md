@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/freelance-tax-guide-2026.png"
+  image: "images/covers/freelance-tax-guide-2026.png"
   alt: "Freelance Tax Guide 2026: Everything You Need to Know"
   relative: false
 ---

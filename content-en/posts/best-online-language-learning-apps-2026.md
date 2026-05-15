@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-online-language-learning-apps-2026.png"
+  image: "images/covers/best-online-language-learning-apps-2026.png"
   alt: "Best Language Learning Apps 2026: Actually Become Conversati"
   relative: false
 ---

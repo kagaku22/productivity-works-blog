@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/excel-kakeibo-tomobataraki-template.png"
+  image: "images/covers/excel-kakeibo-tomobataraki-template.png"
   alt: "共働き夫婦のExcel家計簿のつけ方【無料テンプレート付き・2026年版】"
   relative: false
 ---

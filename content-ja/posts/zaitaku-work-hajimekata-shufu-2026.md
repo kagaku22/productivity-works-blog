@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/zaitaku-work-hajimekata-shufu-2026.png"
+  image: "images/covers/zaitaku-work-hajimekata-shufu-2026.png"
   alt: "在宅ワーク 始め方【2026年版】主婦・ママが月3万〜10万円稼ぐロードマップ"
   relative: false
 ---

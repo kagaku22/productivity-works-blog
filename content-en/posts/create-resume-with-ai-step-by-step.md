@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/create-resume-with-ai-step-by-step.png"
+  image: "images/covers/create-resume-with-ai-step-by-step.png"
   alt: "How to Create a Resume with AI (Step-by-Step Guide for 2026)"
   relative: false
 ---

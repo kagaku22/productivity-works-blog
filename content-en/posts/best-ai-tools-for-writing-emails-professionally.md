@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-ai-tools-for-writing-emails-professionally.png"
+  image: "images/covers/best-ai-tools-for-writing-emails-professionally.png"
   alt: "Best AI Tools for Writing Emails Professionally"
   relative: false
 ---

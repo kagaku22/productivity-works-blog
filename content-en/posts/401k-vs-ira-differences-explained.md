@@ -1,6 +1,6 @@
 ---
 title: 401k vs IRA Differences Explained (2026)
-date: 2026-05-14
+date: 2026-05-04
 draft: false
 slug: 401k-vs-ira-differences-explained
 description: '401k vs IRA: what''s the difference and which should you use? Compare contribution limits, tax rules, employer match, and withdrawal rules for 2026 in this.'

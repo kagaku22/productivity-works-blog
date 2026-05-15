@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/無料-ai-ツール-おすすめ.png"
+  image: "images/covers/無料-ai-ツール-おすすめ.png"
   alt: "無料で使えるAIツールおすすめ15選【2026年版・目的別に厳選】"
   relative: false
 ---

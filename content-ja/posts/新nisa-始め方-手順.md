@@ -18,7 +18,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/新nisa-始め方-手順.png"
+  image: "images/covers/新nisa-始め方-手順.png"
   alt: "新NISA 始め方・手順を完全解説【2026年最新版】口座開設から積立設定まで"
   relative: false
 ---

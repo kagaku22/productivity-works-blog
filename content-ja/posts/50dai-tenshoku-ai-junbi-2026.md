@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/50dai-tenshoku-ai-junbi-2026.png"
+  image: "images/covers/50dai-tenshoku-ai-junbi-2026.png"
   alt: "50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ"
   relative: false
 ---

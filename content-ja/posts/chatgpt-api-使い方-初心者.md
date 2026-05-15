@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-api-使い方-初心者.png"
+  image: "images/covers/chatgpt-api-使い方-初心者.png"
   alt: "ChatGPT API初心者向け完全ガイド【2026年版・コピペで動くサンプルコード付き】"
   relative: false
 ---

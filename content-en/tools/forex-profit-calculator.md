@@ -18,7 +18,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/forex-profit-calculator.png"
+  image: "images/covers/forex-profit-calculator.png"
   alt: "Forex Profit Calculator | Free FX Trading Simulator"
   relative: false
 ---

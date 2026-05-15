@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/hikari-kaisen-osusume-2026.png"
+  image: "images/covers/hikari-kaisen-osusume-2026.png"
   alt: "光回線 おすすめ2026年版！速度・料金・キャッシュバックで比較"
   relative: false
 ---

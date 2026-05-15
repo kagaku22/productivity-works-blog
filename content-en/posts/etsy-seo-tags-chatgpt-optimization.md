@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/etsy-seo-tags-chatgpt-optimization.png"
+  image: "images/covers/etsy-seo-tags-chatgpt-optimization.png"
   alt: "Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by"
   relative: false
 ---

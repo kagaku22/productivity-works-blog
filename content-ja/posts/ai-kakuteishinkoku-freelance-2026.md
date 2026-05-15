@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/ai-kakuteishinkoku-freelance-2026.png"
+  image: "images/covers/ai-kakuteishinkoku-freelance-2026.png"
   alt: "AI×確定申告 フリーランス完全自動化ガイド2026"
   relative: false
 ---

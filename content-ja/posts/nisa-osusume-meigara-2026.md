@@ -19,7 +19,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/nisa-osusume-meigara-2026.png"
+  image: "images/covers/nisa-osusume-meigara-2026.png"
   alt: "新NISA おすすめ銘柄 初心者向け完全ガイド【2026年最新版】"
   relative: false
 ---

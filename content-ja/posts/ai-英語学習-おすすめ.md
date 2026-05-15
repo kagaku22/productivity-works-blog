@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-英語学習-おすすめ.png"
+  image: "images/covers/ai-英語学習-おすすめ.png"
   alt: "AI活用の英語学習法おすすめ5選【2026年版・独学で話せるようになる方法】"
   relative: false
 ---

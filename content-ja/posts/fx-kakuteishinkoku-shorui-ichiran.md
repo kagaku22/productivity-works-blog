@@ -1,6 +1,6 @@
 ---
 title: "FX確定申告に必要な書類一覧と取得方法｜初心者向け完全手順"
-date: 2026-05-14
+date: 2026-05-11
 draft: false
 slug: "fx-kakuteishinkoku-shorui-ichiran"
 description: "FX確定申告に必要な書類一覧と取得方法を解説。年間取引報告書のダウンロード手順、申告書の記入ポイント、e-Taxでの提出方法まで。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-kakuteishinkoku-shorui-ichiran.png"
+  image: "images/covers/fx-kakuteishinkoku-shorui-ichiran.png"
   alt: "FX確定申告に必要な書類一覧と取得方法｜初心者向け完全手順"
   relative: false
 ---

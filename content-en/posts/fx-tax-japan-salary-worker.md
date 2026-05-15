@@ -1,6 +1,6 @@
 ---
 title: "How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide"
-date: 2026-05-14
+date: 2026-05-07
 draft: false
 slug: "fx-tax-japan-salary-worker"
 description: "FX profits in Japan are taxed at a flat 20.315%. Learn the exact calculation, filing thresholds, and how to report FX income as a salaried employee."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-tax-japan-salary-worker.png"
+  image: "images/covers/fx-tax-japan-salary-worker.png"
   alt: "How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide"
   relative: false
 ---

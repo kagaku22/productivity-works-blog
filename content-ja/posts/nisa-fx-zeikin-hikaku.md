@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/nisa-fx-zeikin-hikaku.png"
+  image: "images/covers/nisa-fx-zeikin-hikaku.png"
   alt: "NISAで運用しながらFXもできる？税金の仕組みを比較してわかりやすく解説"
   relative: false
 ---

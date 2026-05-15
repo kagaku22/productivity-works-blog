@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/budget-planner.png"
+  image: "images/covers/budget-planner.png"
   alt: "Budget Planner | Free Monthly Budget Calculator"
   relative: false
 ---

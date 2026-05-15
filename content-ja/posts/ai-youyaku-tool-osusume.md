@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-youyaku-tool-osusume.png"
+  image: "images/covers/ai-youyaku-tool-osusume.png"
   alt: "AI要約ツール おすすめ無料10選【2026年版】用途別に徹底比較"
   relative: false
 ---

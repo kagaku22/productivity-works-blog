@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/wifi-router-osusume-2026.png"
+  image: "images/covers/wifi-router-osusume-2026.png"
   alt: "WiFiルーター おすすめ2026年版！速度・範囲・価格で選ぶ最強機種"
   relative: false
 ---

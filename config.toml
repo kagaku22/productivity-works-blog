@@ -100,10 +100,10 @@ summaryLength = 140
   comments = false
 
   [params.assets]
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon-16x16.png"
-    favicon32x32 = "/favicon-32x32.png"
-    apple_touch_icon = "/apple-touch-icon.png"
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
 
   [params.cover]
     hidden = false
@@ -134,53 +134,53 @@ summaryLength = 140
   [[languages.ja.menu.main]]
     identifier = "categories"
     name = "カテゴリ"
-    url = "/ja/categories/"
+    url = "categories/"
     weight = 10
   [[languages.ja.menu.main]]
     identifier = "tags"
     name = "タグ"
-    url = "/ja/tags/"
+    url = "tags/"
     weight = 20
   [[languages.ja.menu.main]]
     identifier = "archives"
     name = "アーカイブ"
-    url = "/ja/archives/"
+    url = "archives/"
     weight = 25
   [[languages.ja.menu.main]]
     identifier = "tools"
     name = "無料ツール"
-    url = "/ja/tools/"
+    url = "tools/"
     weight = 28
   [[languages.ja.menu.main]]
     identifier = "search"
     name = "検索"
-    url = "/ja/search/"
+    url = "search/"
     weight = 30
 
   [[languages.en.menu.main]]
     identifier = "categories"
     name = "Categories"
-    url = "/categories/"
+    url = "categories/"
     weight = 10
   [[languages.en.menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     weight = 20
   [[languages.en.menu.main]]
     identifier = "archives"
     name = "Archives"
-    url = "/archives/"
+    url = "archives/"
     weight = 25
   [[languages.en.menu.main]]
     identifier = "tools"
     name = "Free Tools"
-    url = "/tools/"
+    url = "tools/"
     weight = 28
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
-    url = "/search/"
+    url = "search/"
     weight = 30
 
 # =============================================================================

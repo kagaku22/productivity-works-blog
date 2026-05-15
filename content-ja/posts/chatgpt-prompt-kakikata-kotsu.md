@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-prompt-kakikata-kotsu.png"
+  image: "images/covers/chatgpt-prompt-kakikata-kotsu.png"
   alt: "ChatGPTプロンプトの書き方コツ【2026年版】すぐ使える例文テンプレート付き"
   relative: false
 ---

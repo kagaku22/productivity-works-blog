@@ -1,6 +1,6 @@
 ---
 title: "How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)"
-date: 2026-05-14
+date: 2026-05-09
 draft: false
 slug: "take-home-pay-japan-calculator"
 description: "Learn exactly how much of your salary you take home in Japan. Breakdown of income tax, residence tax, pension, and health insurance deductions for 2026."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/take-home-pay-japan-calculator.png"
+  image: "images/covers/take-home-pay-japan-calculator.png"
   alt: "How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)"
   relative: false
 ---

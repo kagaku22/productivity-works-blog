@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/excel-kansu-yoku-tsukau-ichiran.png"
+  image: "images/covers/excel-kansu-yoku-tsukau-ichiran.png"
   alt: "Excel関数よく使うもの一覧【2026年版・コピペ即使える】仕事で役立つ厳選50選"
   relative: false
 ---

@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-cell-phone-plans-2026.png"
+  image: "images/covers/best-cell-phone-plans-2026.png"
   alt: "Best Cell Phone Plans 2026: Save $50+/Month Without Sacrific"
   relative: false
 ---

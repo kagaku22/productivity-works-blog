@@ -1,6 +1,6 @@
 ---
 title: "FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY"
-date: 2026-05-14
+date: 2026-05-06
 draft: false
 slug: "fx-spread-comparison-japan-2026"
 description: "Compare FX spreads across major Japanese brokers for USD/JPY in 2026. Understand how spreads impact your trading costs and which brokers offer the best rates."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-spread-comparison-japan-2026.png"
+  image: "images/covers/fx-spread-comparison-japan-2026.png"
   alt: "FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY"
   relative: false
 ---
@@ -161,7 +161,7 @@ Once you have the key variables, calculating your annual trading cost is straigh
 
 **Basic formula:**
 
-```
+```text
 Total Cost = (Spread in pips × Pip Value per Lot × Number of Lots × Number of Trades) + Commissions + Net Swap Costs
 ```
 

@@ -18,7 +18,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-web-hosting-2026.png"
+  image: "images/covers/best-web-hosting-2026.png"
   alt: "Best Web Hosting 2026: Compared for Speed, Price & WordPress"
   relative: false
 ---

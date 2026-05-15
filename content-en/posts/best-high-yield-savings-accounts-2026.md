@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-high-yield-savings-accounts-2026.png"
+  image: "images/covers/best-high-yield-savings-accounts-2026.png"
   alt: "Best High-Yield Savings Accounts 2026: Where to Earn 4-5% AP"
   relative: false
 ---

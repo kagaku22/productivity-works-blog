@@ -19,7 +19,7 @@ ShowToc: false
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/retirement-calculator.png"
+  image: "images/covers/retirement-calculator.png"
   alt: "Retirement Savings Calculator | Free 401(k) & IRA Growth Estimator"
   relative: false
 ---

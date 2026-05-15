@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/tenshoku-site-osusume-2026.png"
+  image: "images/covers/tenshoku-site-osusume-2026.png"
   alt: "転職サイト おすすめ2026年版！年代・目的別に徹底比較"
   relative: false
 ---

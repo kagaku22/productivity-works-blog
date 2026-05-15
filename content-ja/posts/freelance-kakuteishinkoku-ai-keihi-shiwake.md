@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/freelance-kakuteishinkoku-ai-keihi-shiwake.png"
+  image: "images/covers/freelance-kakuteishinkoku-ai-keihi-shiwake.png"
   alt: "フリーランス確定申告 AIで経費仕訳を自動化する具体的手順"
   relative: false
 ---

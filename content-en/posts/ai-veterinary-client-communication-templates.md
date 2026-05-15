@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/ai-veterinary-client-communication-templates.png"
+  image: "images/covers/ai-veterinary-client-communication-templates.png"
   alt: "15 AI-Generated Client Communication Templates for Veterinar"
   relative: false
 ---

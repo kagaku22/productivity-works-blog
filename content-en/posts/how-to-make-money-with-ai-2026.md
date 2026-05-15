@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/how-to-make-money-with-ai-2026.png"
+  image: "images/covers/how-to-make-money-with-ai-2026.png"
   alt: "How to Make Money With AI in 2026: 15 Realistic Ways That Wo"
   relative: false
 ---

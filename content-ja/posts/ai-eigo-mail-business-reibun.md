@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/ai-eigo-mail-business-reibun.png"
+  image: "images/covers/ai-eigo-mail-business-reibun.png"
   alt: "AIで英語ビジネスメールを無料で書く方法【例文・プロンプト集2026】"
   relative: false
 ---

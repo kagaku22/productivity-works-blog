@@ -20,7 +20,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-online-coding-bootcamps-2026.png"
+  image: "images/covers/best-online-coding-bootcamps-2026.png"
   alt: "Best Online Coding Bootcamps 2026: Honest Comparison by Care"
   relative: false
 ---

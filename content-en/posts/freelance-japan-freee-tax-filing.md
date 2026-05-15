@@ -1,6 +1,6 @@
 ---
 title: "Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee"
-date: 2026-05-14
+date: 2026-05-05
 draft: false
 slug: "freelance-japan-freee-tax-filing"
 description: "Complete guide to registering as a sole proprietor (個人事業主) in Japan and using freee for bookkeeping and tax filing. Covers opening届, blue return, and e-Tax."
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/freelance-japan-freee-tax-filing.png"
+  image: "images/covers/freelance-japan-freee-tax-filing.png"
   alt: "Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee"
   relative: false
 ---

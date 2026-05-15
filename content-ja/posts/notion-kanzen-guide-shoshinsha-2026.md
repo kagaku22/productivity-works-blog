@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/notion-kanzen-guide-shoshinsha-2026.png"
+  image: "images/covers/notion-kanzen-guide-shoshinsha-2026.png"
   alt: "Notion使い方完全ガイド初心者2026年版【セットアップ・データベース・テンプレート】"
   relative: false
 ---

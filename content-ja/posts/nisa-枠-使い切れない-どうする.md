@@ -17,7 +17,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/nisa-枠-使い切れない-どうする.png"
+  image: "images/covers/nisa-枠-使い切れない-どうする.png"
   alt: "NISA枠を使い切れない場合どうする？賢い対処法と活用戦略【2026年版】"
   relative: false
 ---

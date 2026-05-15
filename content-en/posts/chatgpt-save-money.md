@@ -19,7 +19,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/chatgpt-save-money.png"
+  image: "images/covers/chatgpt-save-money.png"
   alt: "10 Ways ChatGPT Can Save You $500/Month"
   relative: false
 ---

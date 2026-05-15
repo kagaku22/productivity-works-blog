@@ -14,7 +14,7 @@ TocOpen: false
 ShowBreadCrumbs: true
 
 cover:
-  image: "/images/covers/best-ai-tools-small-business-2026.png"
+  image: "images/covers/best-ai-tools-small-business-2026.png"
   alt: "Best AI Tools for Small Business 2026: The Complete Roundup"
   relative: false
 ---

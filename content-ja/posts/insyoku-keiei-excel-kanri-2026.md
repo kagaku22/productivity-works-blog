@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/insyoku-keiei-excel-kanri-2026.png"
+  image: "images/covers/insyoku-keiei-excel-kanri-2026.png"
   alt: "飲食店経営Excel管理テンプレート活用ガイド2026"
   relative: false
 ---

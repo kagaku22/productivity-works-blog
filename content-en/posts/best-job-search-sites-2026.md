@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/best-job-search-sites-2026.png"
+  image: "images/covers/best-job-search-sites-2026.png"
   alt: "Best Job Search Sites 2026: Where to Actually Find Good Jobs"
   relative: false
 ---

@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/chatgpt-etsy-seller-complete-guide-2026.png"
+  image: "images/covers/chatgpt-etsy-seller-complete-guide-2026.png"
   alt: "ChatGPT for Etsy Sellers: Product Descriptions, SEO Tags & M"
   relative: false
 ---

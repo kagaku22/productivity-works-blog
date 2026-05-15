@@ -1,6 +1,6 @@
 ---
 title: "FX口座の開設審査に落ちる原因と通過率を上げる4つの対策"
-date: 2026-05-14
+date: 2026-05-11
 draft: false
 slug: "fx-koza-kaisetsu-shinsa-taisaku"
 description: "FX口座開設の審査に落ちる主な原因と、通過率を上げる4つの対策を解説。年齢・収入・投資経験の申告ポイントも紹介。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/fx-koza-kaisetsu-shinsa-taisaku.png"
+  image: "images/covers/fx-koza-kaisetsu-shinsa-taisaku.png"
   alt: "FX口座の開設審査に落ちる原因と通過率を上げる4つの対策"
   relative: false
 ---

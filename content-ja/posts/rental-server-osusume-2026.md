@@ -19,7 +19,7 @@ ShowToc: true
 TocOpen: false
 ShowBreadCrumbs: true
 cover:
-  image: "/images/covers/rental-server-osusume-2026.png"
+  image: "images/covers/rental-server-osusume-2026.png"
   alt: "レンタルサーバー おすすめ2026年版！ブログ・サイト制作向け比較"
   relative: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "freeeとマネーフォワードどっちが副業向き？実際の費用と機能を徹底比較"
-date: 2026-05-14
+date: 2026-05-10
 draft: false
 slug: "freee-vs-moneyforward-fukugyou"
 description: "freee会計とマネーフォワード確定申告を副業者目線で徹底比較。料金・使いやすさ・連携機能の違いを解説し、あなたに合うソフトを提案。"
@@ -14,7 +14,7 @@ ShowBreadCrumbs: true
 ShowWordCount: true
 
 cover:
-  image: "/images/covers/freee-vs-moneyforward-fukugyou.png"
+  image: "images/covers/freee-vs-moneyforward-fukugyou.png"
   alt: "freeeとマネーフォワードどっちが副業向き？実際の費用と機能を徹底比較"
   relative: false
 ---
