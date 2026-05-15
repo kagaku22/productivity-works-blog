@@ -19,6 +19,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 Here's the uncomfortable truth that career coaches sometimes dance around: ageism in hiring is real. Recruiters do make snap judgments. Some hiring managers do have unconscious (or conscious) biases about candidates with 25+ years of experience.
 
 Here's the equally true but less-discussed counterpoint: experienced candidates who know how to present themselves have enormous advantages that younger candidates simply cannot replicate. Deep industry knowledge. Proven judgment under pressure. Networks built over decades. Track records that speak for themselves.
@@ -342,6 +344,8 @@ Experienced professionals often underestimate themselves when writing resumes �
 ChatGPT won't manufacture qualifications you don't have. But it is very good at helping you see and articulate the genuine value that's already there — and at presenting your real experience in language that resonates with your target audience.
 
 The career change you're making isn't a retreat. It's a pivot. There's a big difference. Your resume should say the same.
+
+> Making a career change in Japan? [doda](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+8P60Z6+47GS+60WN6) specializes in career transitions and offers bilingual agent support — their advisors can help match your reframed experience to roles where your background is genuinely valued.
 
 ---
 

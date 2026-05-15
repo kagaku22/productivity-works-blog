@@ -19,6 +19,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 Freelancing offers freedom, flexibility, and the ability to work on your own terms. It also comes with a tax situation that catches most new freelancers completely off guard — often to the tune of thousands of dollars.
 
 This guide covers the tax fundamentals every freelancer in the United States needs to understand in 2026: how self-employment tax works, when and how to pay estimated taxes, which expenses are deductible, and how to structure your finances to keep more of what you earn.
@@ -252,6 +254,8 @@ Recommended: Mercury (free, no minimums, designed for freelancers and startups) 
 | Wave | Free | Budget-conscious freelancers |
 | Bonsai | $21/month | Contracts + invoicing + taxes in one |
 | HoneyBook | $16/month | Client management + bookkeeping |
+
+> Freelancing in Japan? [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) is built specifically for sole proprietors and small business owners here — it handles invoice creation, expense tracking, and guides you through kakuteishinkoku step by step, in a workflow that doesn't require accounting expertise.
 
 Connect your business bank account and credit card. These tools categorize transactions automatically, track mileage, and generate profit/loss statements that make tax prep far easier.
 

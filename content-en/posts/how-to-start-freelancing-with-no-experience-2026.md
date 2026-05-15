@@ -20,6 +20,8 @@ cover:
 ---
 
 
+*This article contains affiliate links.*
+
 ---
 
 ## How to Start Freelancing With No Experience in 2026
@@ -308,6 +310,8 @@ Total startup cost: **$0-30/month**.
 ---
 
 ## Start Your Freelance Journey Today
+
+> As your freelance income grows, staying on top of accounting becomes non-negotiable. If you're based in Japan, [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) is designed for exactly this situation — it helps sole proprietors manage invoices, track business expenses, and file taxes without needing an accounting background.
 
 The perfect time to start freelancing was last year. The second-best time is today.
 

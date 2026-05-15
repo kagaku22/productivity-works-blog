@@ -172,6 +172,8 @@ The best accounting software depends on your freelancing style:
 
 Whatever you choose, the return on investment is immediate — less time on bookkeeping, more deductions found, and zero stress at tax time.
 
+> Freelancing or running a small business in Japan? [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) is purpose-built for self-employed individuals and sole proprietors — it handles invoicing, expense tracking, and kakuteishinkoku (annual tax filing) in one guided workflow, even if Japanese isn't your first language.
+
 [Related: AI Tools for Freelancers to Earn More](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 [Related: Freelance Tax Guide 2026](/posts/freelance-tax-guide-2026/)

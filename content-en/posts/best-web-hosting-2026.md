@@ -181,6 +181,8 @@ For most people starting a website in 2026:
 
 Start with shared hosting, upgrade when your traffic demands it. Your hosting choice matters far less than your content — pick one, start publishing, and adjust later.
 
+> Before you can launch, you need a domain. [Onamae.com](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+29KENM+50+2HU3GX) is Japan's largest domain registrar — competitively priced, easy to set up, and a natural pairing with any of the hosting providers above.
+
 [Related: Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
 
 ---

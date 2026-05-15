@@ -200,6 +200,8 @@ Start with **Wealthfront** (4.50% APY) for maximum returns, or **Ally Bank** for
 
 The money you earn in interest can fund your investments, build your emergency fund faster, or simply give you more financial breathing room.
 
+> Once your savings are working harder, consider putting some to work in the market. [Rakuten Securities](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619) offers NISA accounts and low-cost index funds for residents in Japan — a logical next step once your emergency fund is in place and earning a competitive rate.
+
 [Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
 
 [Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)

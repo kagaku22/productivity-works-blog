@@ -25,6 +25,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 Freelancing is one of the few career paths where you can go from zero income to $3,000/month in 90 days without a degree, certification, or years of experience. It's also a path where most beginners waste their first six months on the wrong activities.
 
 This guide skips the fluff and gives you the specific steps that actually work in 2026 — including how AI tools have changed the competitive landscape and what that means for newcomers.
@@ -233,6 +235,8 @@ Most people who follow this plan and do the outreach have their first paying cli
 
 [Try Bonsai for contracts and invoicing at hellobonsai.com]
 [Get started on Upwork at upwork.com]
+
+> Once you're earning consistently, keeping your books clean becomes critical — especially at tax time. If you're freelancing in Japan, [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) makes accounting straightforward for sole proprietors: invoicing, expense tracking, and the kakuteishinkoku filing process, all in one place.
 
 ---
 

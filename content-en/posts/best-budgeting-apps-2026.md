@@ -24,6 +24,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 Managing money without a system is like navigating a city without a map. You might get somewhere eventually, but you'll waste a lot of time and fuel along the way. Budgeting apps solve that problem by giving you a real-time picture of where your money goes — and more importantly, where it *should* go.
 
 After testing dozens of apps over several months, we narrowed the field to seven that genuinely earn a place on your phone. Here's the unfiltered breakdown.
@@ -229,6 +231,8 @@ The worst outcome is spending three weeks choosing an app instead of actually us
 | Track investments for free | Empower |
 
 All seven apps offer free trials or free tiers. There's no reason not to test your top pick today — your future bank balance will thank you.
+
+> Running a freelance or side business in Japan? Budgeting apps track personal spending, but [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) goes further — it handles business invoicing, expense categorization, and tax filing in one platform designed for sole proprietors. A smart complement to whichever personal budgeting app you choose.
 
 ---
 

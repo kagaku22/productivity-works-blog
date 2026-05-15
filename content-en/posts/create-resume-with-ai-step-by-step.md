@@ -19,6 +19,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 Job searching in 2026 means competing with more applicants than ever — many of whom are using AI tools to craft their applications. The good news: if you use AI strategically, you don't just save time. You produce a resume that's sharper, more targeted, and better optimized than most of what hiring managers see.
 
 This guide walks you through the entire process of building a resume with AI, from raw notes to a polished, ATS-optimized document tailored to a specific job posting.
@@ -342,6 +344,8 @@ Save these for reuse:
 ---
 
 Building a great resume with AI takes about 2-3 hours for a strong first draft — compared to the days most people spend staring at a blank document. The work is real, but it's focused: gathering your raw material, prompting strategically, reviewing critically.
+
+> Once your resume is polished, you need the right platform to put it in front of employers. If you're job hunting in Japan, [doda](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+8P60Z6+47GS+60WN6) offers bilingual job listings and recruiter support for English-speaking professionals — a strong starting point for putting your AI-optimized resume to work.
 
 Want to skip the setup? Our [AI Resume Toolkit](https://payhip.com/productivityworks) on Payhip includes 25 tested ChatGPT prompts for resumes, a master resume template, a cover letter template, and an ATS keyword guide — everything you need to run this process for any job application.
 

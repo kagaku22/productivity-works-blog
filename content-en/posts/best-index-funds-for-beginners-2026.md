@@ -28,6 +28,8 @@ cover:
 
 ※本記事にはアフィリエイト広告が含まれています。
 
+*This article contains affiliate links.*
+
 # Best Index Funds for Beginners 2026 — Complete Guide
 
 If you've been wondering how ordinary people build extraordinary wealth over time, the secret is often hiding in plain sight: index funds. Warren Buffett famously recommended that his own estate be invested in low-cost S&P 500 index funds after his death. That's not a throwaway comment — it's a testament to a strategy that has consistently outperformed most professional money managers over the long run.
@@ -215,6 +217,8 @@ Index fund investing is not a get-rich-quick scheme — it's a get-rich-slowly s
 The best index fund is the one you actually invest in, starting today. Don't let perfection be the enemy of good. Open an account, choose a simple total market fund, set up automatic contributions, and resist the urge to tinker.
 
 Your future self will thank you.
+
+> Investing from Japan? [Rakuten Securities](//af.moshimo.com/af/c/click?a_id=5559477&p_id=54&pc_id=54&pl_id=619) offers NISA accounts, a wide selection of low-cost index funds including global ETFs, and an English-friendly interface — a strong choice for residents in Japan looking to build a long-term index fund portfolio.
 
 **Ready to start?**
 

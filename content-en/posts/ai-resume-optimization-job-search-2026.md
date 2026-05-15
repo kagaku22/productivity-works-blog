@@ -22,6 +22,8 @@ cover:
   relative: false
 ---
 
+*This article contains affiliate links.*
+
 The job market in 2026 has a strange duality. AI-powered Applicant Tracking Systems (ATS) screen out the majority of resumes before a human sees them. Meanwhile, AI tools available to job seekers can create resumes and cover letters that are more targeted than anything a human could produce manually.
 
 The result: job seekers who understand how to use AI tools are dramatically outperforming those who don't. Not because AI writes better than humans — it doesn't — but because it enables faster iteration, better keyword matching, and more thorough preparation than any individual can sustain manually.
@@ -223,6 +225,8 @@ Then practice saying this out loud. If the negotiation happens over the phone, y
 2. **Find a job posting that interests you.** Run it through Jobscan or use the keyword extraction prompt above. Note the gaps between your resume and the posting.
 
 3. **Generate 20 interview questions** for your target role. Answer three of them out loud, record yourself, and watch it back once.
+
+> Targeting the Japanese job market? [doda](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+8P60Z6+47GS+60WN6) offers bilingual job listings and agent support for English-speaking professionals — a useful complement to the AI-powered application strategy in this guide.
 
 The gap between where your resume is and where it needs to be is probably smaller than you think — and with AI assistance, closing that gap takes hours, not weeks.
 
