@@ -35,8 +35,8 @@ cover:
 freeeは銀行口座やクレジットカードと連携することで取引を自動取込し、AIが科目を推定してくれる機能を備えています。科目の知識とfreeeの自動仕訳機能を組み合わせれば、確定申告の手間を大幅に削減できます。
 
 > **関連記事**
-> - [freee青色申告で65万円控除を受ける方法【完全ガイド】](/posts/freee-aoiro-shinkoku-65man)
-> - [AIを使ったフリーランスの経費仕訳術](/posts/freelance-kakuteishinkoku-ai-keihi-shiwake)
+> - [freee青色申告で65万円控除を受ける方法【完全ガイド】](../freee-aoiro-shinkoku-65man/)
+> - [AIを使ったフリーランスの経費仕訳術](../freelance-kakuteishinkoku-ai-keihi-shiwake/)
 
 ---
 
@@ -187,7 +187,7 @@ freeeは国内の主要銀行・証券・クレジットカード会社と連携
 - freeeの**自動仕訳・学習機能**を活用すれば、毎月の経費入力は大幅に効率化できる
 - **事業用クレカ**をfreeeと連携させると、経費の取込・仕訳がほぼ自動化できる
 
-確定申告の全体的な流れや青色申告65万円控除の取り方については、[freee青色申告で65万円控除を受ける方法](/posts/freee-aoiro-shinkoku-65man)で詳しく解説しています。また、AIツールを活用した経費仕訳の効率化については[AIを使ったフリーランスの経費仕訳術](/posts/freelance-kakuteishinkoku-ai-keihi-shiwake)もあわせてご覧ください。
+確定申告の全体的な流れや青色申告65万円控除の取り方については、[freee青色申告で65万円控除を受ける方法](../freee-aoiro-shinkoku-65man/)で詳しく解説しています。また、AIツールを活用した経費仕訳の効率化については[AIを使ったフリーランスの経費仕訳術](../freelance-kakuteishinkoku-ai-keihi-shiwake/)もあわせてご覧ください。
 
 科目の迷いをなくして、確定申告を確実かつ楽に終わらせるために、まずはfreee会計の無料トライアルから始めてみましょう。
 
