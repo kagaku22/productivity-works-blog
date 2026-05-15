@@ -251,6 +251,16 @@ cover:
 
 ---
 
+### 関連記事
+
+- [転職サイト おすすめ2026年版！年代・目的別に徹底比較](/ja/posts/tenshoku-site-osusume-2026/)
+- [50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ](/ja/posts/50dai-tenshoku-ai-junbi-2026/)
+- [50代転職 ChatGPTで職務経歴書を劇的に改善する5つのプロンプト](/ja/posts/50dai-tenshoku-shokumu-keirekisho-chatgpt/)
+- [副業始め方 初心者向け完全ガイド2026年最新版](/ja/posts/副業-始め方-初心者-2026/)
+- [ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】](/ja/posts/chatgpt-仕事-活用法-2026/)
+
+---
+
 ## 関連ツール・サービス
 
 - [手取り計算ツール](/ja/tools/tedori-keisan/) — 年収・扶養・居住地から月次手取りを自動計算

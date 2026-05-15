@@ -292,6 +292,16 @@ FXで利益が出始めた段階から、税金のことを把握しておくこ
 
 ---
 
+### 関連記事
+
+- [FX確定申告に必要な書類一覧と取得方法｜初心者向け完全手順](/ja/posts/fx-kakuteishinkoku-shorui-ichiran/)
+- [FXの損失は3年繰り越せる？繰越控除の申告手順を図解で解説](/ja/posts/fx-sonshitsu-kurikoshi-koujo/)
+- [FXのスワップポイントに税金はかかる？計算方法と確定申告の注意点](/ja/posts/fx-swap-point-zeikin/)
+- [iDeCo節税シミュレーション｜年収別に実際いくら得するか計算](/ja/posts/ideco-tax-saving-simulation/)
+- [NISA iDeCo どっちを先に始めるべき？優先順位を徹底解説【2026年最新版】](/ja/posts/nisa-ideco-docchi-saki/)
+
+---
+
 ### 関連ツール
 
 確定申告の準備に役立つツールを用意しています。
