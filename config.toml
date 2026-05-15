@@ -3,7 +3,7 @@
 # Hugo version: 0.120+  |  Theme: PaperMod
 # =============================================================================
 
-baseURL = "https://kagaku22.github.io/productivity-works-blog/"
+baseURL = "https://productivity-works.com/"
 title = "Productivity Works"
 theme = "PaperMod"
 [pagination]
