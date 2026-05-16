@@ -310,6 +310,7 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 ---
 
 ### Related Tools & Articles
+> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
 > Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 
 - [Emergency Fund Calculator](/tools/emergency-fund-calculator/) — Calculate your ideal fund size and see your savings timeline

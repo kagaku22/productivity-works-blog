@@ -304,6 +304,7 @@ The most important decision is the one you actually make. Both accounts are vast
 ---
 
 ### Related Tools & Articles
+> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
 
 - [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your retirement nest egg with IRA and 401(k) projections
 - [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate

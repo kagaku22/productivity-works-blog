@@ -308,6 +308,7 @@ Google has been closing the gap for years, but Excel's depth in data analysis an
 ---
 
 ## Related Tools
+> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
 
 > Try our free online budget planner → [Budget Planner](/tools/budget-planner/)
 

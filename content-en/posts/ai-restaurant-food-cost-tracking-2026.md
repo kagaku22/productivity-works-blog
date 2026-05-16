@@ -295,6 +295,7 @@ My restaurant has [number] seats, serves [lunch/dinner/both], and does approxima
 ---
 
 ## Related Tools
+> Convert between units of measurement → [Unit Converter](/tools/unit-converter/)
 
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > Create a business budget → [Budget Planner](/tools/budget-planner/)

@@ -296,6 +296,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 ---
 
 ### Related Tools & Articles
+> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > Plan your retirement contributions → [Retirement Savings Calculator](/tools/retirement-calculator/)

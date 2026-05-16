@@ -243,6 +243,7 @@ cover:
 ---
 
 ## 関連ツール
+> 正確な年齢を今すぐ計算 → [年齢計算ツール](/ja/tools/age-calculator/)
 
 > BMIと適正体重をチェック → [BMI計算ツール](/ja/tools/bmi-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)

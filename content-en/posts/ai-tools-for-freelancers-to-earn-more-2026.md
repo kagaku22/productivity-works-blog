@@ -307,6 +307,7 @@ For a complete system — from landing clients to delivering work to building pa
 ---
 
 ## Related Tools
+> Count words and characters in your text → [Word Counter](/tools/word-counter/)
 
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate taxes on freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)

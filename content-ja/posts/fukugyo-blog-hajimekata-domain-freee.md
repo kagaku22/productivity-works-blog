@@ -190,6 +190,7 @@ freeeは銀行口座やクレジットカードと連携できます。副業専
 ---
 
 ## 関連ツール
+> 色をHEX・RGB・HSLで変換 → [カラーピッカー](/ja/tools/color-picker/)
 
 > 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)

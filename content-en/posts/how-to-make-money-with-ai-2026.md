@@ -459,6 +459,7 @@ Our [AI Income Starter Pack](https://payhip.com/productivityworks) includes prov
 ---
 
 ### Related Tools
+> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
 
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate taxes on your AI income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)

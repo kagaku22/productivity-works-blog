@@ -283,6 +283,7 @@ For a complete AI workflow that covers data, reporting, and decision-making, our
 ---
 
 ## Related Tools
+> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)

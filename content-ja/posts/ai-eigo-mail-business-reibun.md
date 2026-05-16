@@ -372,6 +372,7 @@ AIを使った英語ビジネスメール作成のポイントをまとめます
 ---
 
 ## 関連ツール
+> 文字数・単語数をリアルタイムでカウント → [文字数カウンター](/ja/tools/moji-counter/)
 
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)

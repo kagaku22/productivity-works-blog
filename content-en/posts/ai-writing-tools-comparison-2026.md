@@ -349,6 +349,7 @@ Our [AI Content Creator's Toolkit](https://payhip.com/productivityworks) include
 ---
 
 ## Related Tools
+> Count words and characters in your text → [Word Counter](/tools/word-counter/)
 
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)

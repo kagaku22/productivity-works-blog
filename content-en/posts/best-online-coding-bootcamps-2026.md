@@ -251,6 +251,7 @@ Whatever you choose, the most important factor is completion. 40% of bootcamp en
 ---
 
 ## Related Tools
+> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
 
 > Calculate your expected salary after bootcamp → [Salary Calculator](/tools/salary-calculator/)
 > Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)

@@ -237,6 +237,7 @@ All seven apps offer free trials or free tiers. There's no reason not to test yo
 ---
 
 ## Related Tools
+> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
 
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > Create a free monthly budget plan → [Budget Planner](/tools/budget-planner/)

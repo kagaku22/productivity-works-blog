@@ -253,6 +253,7 @@ cover:
 ---
 
 ### 関連ツール・記事
+> 正確な年齢を今すぐ計算 → [年齢計算ツール](/ja/tools/age-calculator/)
 
 > 割合・割引・変化率をすぐ計算 → [パーセント計算ツール](/ja/tools/percent-calculator/)
 - [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/) — 転職前後の年収・手取り・税金・生涯収入差額を自動計算

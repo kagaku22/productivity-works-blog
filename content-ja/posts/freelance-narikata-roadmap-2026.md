@@ -237,6 +237,7 @@ cover:
 ---
 
 ## 関連ツール・記事
+> 文字数・単語数をリアルタイムでカウント → [文字数カウンター](/ja/tools/moji-counter/)
 
 > BMIと適正体重をチェック → [BMI計算ツール](/ja/tools/bmi-calculator/)
 > フリーランスの税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)

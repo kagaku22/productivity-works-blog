@@ -228,6 +228,7 @@ Web系転職ならRuby（Ruby on Rails）またはPHP。副業ならHTML/CSS/Jav
 ---
 
 ## 関連ツール
+> JSONデータを即座に整形・検証 → [JSONフォーマッター](/ja/tools/json-formatter/)
 
 > フリーランスエンジニアとしての適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > エンジニア転職後の手取り額を確認する → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)

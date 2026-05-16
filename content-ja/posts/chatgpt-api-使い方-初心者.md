@@ -334,6 +334,7 @@ ChatGPT APIを使いこなせるようになると、ビジネスの可能性が
 ---
 
 ## 関連ツール
+> JSONデータを即座に整形・検証 → [JSONフォーマッター](/ja/tools/json-formatter/)
 
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 月々の支出バランスを見直す → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)

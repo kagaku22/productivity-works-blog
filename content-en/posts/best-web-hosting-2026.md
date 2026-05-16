@@ -194,6 +194,7 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 ---
 
 ## Related Tools
+> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)

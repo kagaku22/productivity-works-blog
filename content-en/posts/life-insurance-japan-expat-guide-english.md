@@ -321,6 +321,7 @@ Insurance is not exciting. It is not meant to be. The goal is to have exactly as
 ---
 
 ## Related Tools
+> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
 
 > Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Calculate your ideal emergency fund → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)

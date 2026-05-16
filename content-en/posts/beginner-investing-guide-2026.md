@@ -308,6 +308,7 @@ The best investing plan is the one you actually follow — simple, automated, an
 Our [Personal Finance Starter Pack](https://payhip.com/productivityworks) includes an investment tracker spreadsheet, budget templates, and a step-by-step account setup guide for all major brokerages.
 
 ## Related Tools
+> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > See how your investments grow → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate dividend income → [Dividend Income Calculator](/tools/dividend-income-calculator/)

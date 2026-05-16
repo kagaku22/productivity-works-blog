@@ -279,6 +279,7 @@ Done consistently, this process will take your tag quality from "good enough" to
 ---
 
 ## Related Tools
+> Count words and characters in your text → [Word Counter](/tools/word-counter/)
 
 > Estimate taxes on your Etsy profits → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 

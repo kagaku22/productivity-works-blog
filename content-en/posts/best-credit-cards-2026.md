@@ -266,6 +266,7 @@ The cards above represent the strongest options available in 2026, but always ch
 - [ChatGPT Tips to Save Money](/posts/chatgpt-save-money/)
 
 ## Related Tools
+> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
 
 > Plan your debt payoff strategy → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)

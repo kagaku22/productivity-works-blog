@@ -300,6 +300,7 @@ For the complete system — from identifying your first automation to building a
 ---
 
 ## Related Tools
+> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
 
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)

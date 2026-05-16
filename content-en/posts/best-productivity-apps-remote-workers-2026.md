@@ -335,6 +335,7 @@ Increasingly yes. Remote workers who use AI assistants effectively consistently 
 ---
 
 ## Related Tools
+> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
 
 > Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Plan your monthly budget → [Budget Planner](/tools/budget-planner/)

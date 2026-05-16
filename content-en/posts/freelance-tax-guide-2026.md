@@ -325,6 +325,7 @@ Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/pro
 ---
 
 ### Related Tools & Articles
+> Count words and characters in your text → [Word Counter](/tools/word-counter/)
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)

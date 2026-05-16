@@ -212,6 +212,7 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 ---
 
 ## Related Tools
+> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
 
 - [Retirement Calculator](/tools/retirement-calculator/) — Project your pension gap and required savings corpus
 - [Compound Interest Calculator](/tools/compound-interest/) — Model long-term growth of your monthly investments

@@ -356,6 +356,7 @@ Want to skip the setup? Our [AI Resume Toolkit](https://payhip.com/productivityw
 ---
 
 ## Related Tools
+> Count words and characters in your text → [Word Counter](/tools/word-counter/)
 
 > Calculate your take-home pay for any salary → [Salary Calculator](/tools/salary-calculator/)
 > Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)

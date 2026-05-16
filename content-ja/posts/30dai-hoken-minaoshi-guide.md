@@ -257,6 +257,7 @@ iDeCo（個人型確定拠出年金）は、掛け金が全額所得控除にな
 ---
 
 ### 関連ツール
+> 正確な年齢を今すぐ計算 → [年齢計算ツール](/ja/tools/age-calculator/)
 
 > BMIと適正体重をチェック → [BMI計算ツール](/ja/tools/bmi-calculator/)
 > 浮いた保険料を積立投資に → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)

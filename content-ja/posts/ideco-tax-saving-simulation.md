@@ -236,6 +236,7 @@ iDeCoの節税メリットを改めて整理します。
 ---
 
 ## 関連ツール・記事
+> ローンの返済額をシミュレーション → [ローン計算ツール](/ja/tools/loan-calculator/)
 
 > 割合・割引・変化率をすぐ計算 → [パーセント計算ツール](/ja/tools/percent-calculator/)
 - [iDeCoシミュレーター](/ja/tools/ideco-simulator/) — 年収・掛金・運用期間から節税額と将来資産を自動計算

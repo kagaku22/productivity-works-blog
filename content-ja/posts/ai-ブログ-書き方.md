@@ -249,6 +249,8 @@ AIブログ記事の本質は、AIと人間の分業です。
 ---
 
 ## 関連ツール
+> 色をHEX・RGB・HSLで変換 → [カラーピッカー](/ja/tools/color-picker/)
+> 文字数・単語数をリアルタイムでカウント → [文字数カウンター](/ja/tools/moji-counter/)
 
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 副業収入の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
