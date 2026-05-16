@@ -271,6 +271,7 @@ The cards above represent the strongest options available in 2026, but always ch
 > Create a monthly spending plan → [Budget Planner](/tools/budget-planner/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 
 ## Related Templates
 

@@ -217,6 +217,7 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 - [Compound Interest Calculator](/tools/compound-interest/) — Model long-term growth of your monthly investments
 - [NISA Simulator](/tools/nisa-simulator/) — Optimize your NISA tsumitate and seichyo slot allocation
 - [Take-home Pay Calculator](/tools/take-home-pay/) — Calculate net monthly income after all Japanese deductions
+- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 
 ---
 

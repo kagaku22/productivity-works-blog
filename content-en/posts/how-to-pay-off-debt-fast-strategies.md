@@ -364,6 +364,7 @@ The average person who follows a structured debt payoff plan gets out of consume
 - [Debt Payoff Calculator](/tools/debt-payoff-calculator/) — Compare snowball vs avalanche strategies with interactive charts
 - [Budget Planner](/tools/budget-planner/) — Create a personalized monthly budget to free up debt payments
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Estimate taxes on extra income from side gigs
+- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 - [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)

@@ -245,6 +245,7 @@ Most people who follow this plan and do the outreach have their first paying cli
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Plan your budget as a freelancer → [Budget Calculator](/tools/budget-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 
 - [How to Start Freelancing with No Experience 2026](/posts/how-to-start-freelancing-with-no-experience-2026/)
 - [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)

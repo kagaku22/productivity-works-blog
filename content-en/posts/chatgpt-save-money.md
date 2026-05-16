@@ -194,6 +194,7 @@ The goal isn't to become a financial expert. It's to stop leaving money on the t
 > See how your savings compound → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Pay off debt faster → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
 > How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 
 ## Related Templates
 
