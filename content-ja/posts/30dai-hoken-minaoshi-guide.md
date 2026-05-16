@@ -264,6 +264,7 @@ iDeCo（個人型確定拠出年金）は、掛け金が全額所得控除にな
 > iDeCoの節税効果をシミュレーション → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
 > 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 > 教育費の総額を計算 → [教育費シミュレーター](/ja/tools/kyouikuhi-simulator/)
+> 総資産・純資産を計算 → [資産管理シミュレーター](/ja/tools/shisan-simulator/)
 
 ### 関連記事
 

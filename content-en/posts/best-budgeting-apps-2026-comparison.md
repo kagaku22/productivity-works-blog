@@ -328,6 +328,7 @@ Start the free trial of your top choice today. Commit to 30 days. The data you g
 > See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 > Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
 
 - [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
 - [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)

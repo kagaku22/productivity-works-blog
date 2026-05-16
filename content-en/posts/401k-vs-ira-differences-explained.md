@@ -302,6 +302,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 > See how your investments grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
 
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)

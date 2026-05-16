@@ -444,6 +444,7 @@ The best time to start building passive income streams was five years ago. The s
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 - [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your nest egg with 401(k), IRA, and employer match
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Estimate taxes on your passive income streams
+> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
 - [15 Side Hustles You Can Start with AI Tools Today](/posts/side-hustles-ai-tools-2026/)
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
