@@ -1,886 +1,692 @@
 ---
-title: "Regex Tester - Free Online Regular Expression Tool"
+title: "Regex Tester"
 date: 2025-05-16
-description: "Test and debug regular expressions in real-time. Syntax highlighting, match groups, common patterns library. Free online regex tester for developers."
+description: "Free online regex tester. Test regular expressions against sample text with real-time match highlighting, capture groups, and flags — no sign-up required."
 categories: ["Free Tools"]
-tags: ["regex", "regular expression", "tester", "developer tool", "pattern matching"]
 slug: "regex-tester"
-aliases: ["/tools/regexp-tester/", "/tools/regular-expression/"]
+ShowToc: false
 cover:
   image: "/images/covers/regex-tester.png"
   alt: "Regex Tester"
-ShowToc: false
 ---
 
-<div id="regex-app">
+Test regular expressions instantly in your browser. Paste your pattern, choose flags, and see matches highlighted in real time — no sign-up, no server, no external libraries.
 
+<div id="rx-app">
 <style>
-#regex-app {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: #1a1a2e;
-  color: #e0e0e0;
-  padding: 24px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
+  #rx-app *,
+  #rx-app *::before,
+  #rx-app *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-#regex-app * {
-  box-sizing: border-box;
-}
-
-#regex-app h2 {
-  color: #00ff88;
-  margin: 0 0 20px 0;
-  font-size: 1.4rem;
-  letter-spacing: 0.5px;
-}
-
-#regex-app .ra-section {
-  margin-bottom: 20px;
-}
-
-#regex-app label {
-  display: block;
-  color: #a0a0c0;
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-
-#regex-app .ra-pattern-row {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-#regex-app .ra-pattern-wrap {
-  display: flex;
-  align-items: center;
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-radius: 8px;
-  flex: 1;
-  min-width: 200px;
-  transition: border-color 0.2s;
-}
-
-#regex-app .ra-pattern-wrap:focus-within {
-  border-color: #00ff88;
-}
-
-#regex-app .ra-slash {
-  color: #00ff88;
-  font-size: 1.3rem;
-  padding: 0 6px;
-  font-family: monospace;
-  user-select: none;
-}
-
-#regex-app .ra-pattern-input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #00ff88;
-  font-family: 'Courier New', monospace;
-  font-size: 1rem;
-  flex: 1;
-  padding: 10px 4px;
-  width: 0;
-}
-
-#regex-app .ra-flags-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-#regex-app .ra-flag-label {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  color: #b0b0d0;
-  text-transform: none;
-  letter-spacing: 0;
-  font-weight: 400;
-  margin: 0;
-  user-select: none;
-}
-
-#regex-app .ra-flag-label input[type="checkbox"] {
-  accent-color: #00ff88;
-  width: 14px;
-  height: 14px;
-  cursor: pointer;
-}
-
-#regex-app .ra-flag-key {
-  font-family: monospace;
-  color: #00ff88;
-  font-weight: 700;
-}
-
-#regex-app .ra-btn {
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  color: #e0e0e0;
-  padding: 10px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-
-#regex-app .ra-btn:hover {
-  border-color: #00ff88;
-  color: #00ff88;
-}
-
-#regex-app .ra-btn-primary {
-  background: #00ff88;
-  border-color: #00ff88;
-  color: #0d0d1a;
-  font-weight: 700;
-}
-
-#regex-app .ra-btn-primary:hover {
-  background: #00cc6e;
-  border-color: #00cc6e;
-  color: #0d0d1a;
-}
-
-#regex-app select {
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  color: #e0e0e0;
-  padding: 10px 12px;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  outline: none;
-  transition: border-color 0.2s;
-  width: 100%;
-}
-
-#regex-app select:focus {
-  border-color: #00ff88;
-}
-
-#regex-app textarea {
-  width: 100%;
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  color: #e0e0e0;
-  padding: 12px;
-  border-radius: 8px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  resize: vertical;
-  outline: none;
-  transition: border-color 0.2s;
-  line-height: 1.6;
-}
-
-#regex-app textarea:focus {
-  border-color: #00ff88;
-}
-
-#regex-app .ra-error {
-  background: #2a0a0a;
-  border: 1px solid #ff4444;
-  color: #ff8888;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-family: monospace;
-  display: none;
-}
-
-#regex-app .ra-error.visible {
-  display: block;
-}
-
-#regex-app .ra-stats-bar {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-
-#regex-app .ra-match-count {
-  background: #00ff8820;
-  border: 1px solid #00ff8840;
-  color: #00ff88;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-#regex-app .ra-match-count.no-match {
-  background: #ff444420;
-  border-color: #ff444440;
-  color: #ff8888;
-}
-
-#regex-app .ra-highlighted-display {
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-radius: 8px;
-  padding: 12px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  min-height: 120px;
-  white-space: pre-wrap;
-  word-break: break-all;
-  color: #e0e0e0;
-}
-
-#regex-app .ra-highlight {
-  background: #00ff8840;
-  border-bottom: 2px solid #00ff88;
-  border-radius: 2px;
-  color: #00ff88;
-}
-
-#regex-app .ra-highlight-alt {
-  background: #ff88ff30;
-  border-bottom: 2px solid #ff88ff;
-  border-radius: 2px;
-  color: #ff88ff;
-}
-
-#regex-app .ra-matches-panel {
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-radius: 8px;
-  max-height: 280px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #2a2a4a transparent;
-}
-
-#regex-app .ra-match-item {
-  padding: 10px 14px;
-  border-bottom: 1px solid #1a1a3a;
-  display: grid;
-  grid-template-columns: 60px 80px 1fr;
-  gap: 10px;
-  align-items: start;
-  font-size: 0.84rem;
-}
-
-#regex-app .ra-match-item:last-child {
-  border-bottom: none;
-}
-
-#regex-app .ra-match-idx {
-  color: #606080;
-  font-family: monospace;
-}
-
-#regex-app .ra-match-pos {
-  color: #8080a0;
-  font-family: monospace;
-  font-size: 0.78rem;
-}
-
-#regex-app .ra-match-val {
-  color: #00ff88;
-  font-family: 'Courier New', monospace;
-  word-break: break-all;
-}
-
-#regex-app .ra-match-groups {
-  grid-column: 1 / -1;
-  padding-left: 140px;
-}
-
-#regex-app .ra-group-item {
-  color: #ff88ff;
-  font-family: monospace;
-  font-size: 0.78rem;
-  margin-top: 3px;
-}
-
-#regex-app .ra-empty-state {
-  text-align: center;
-  color: #404060;
-  padding: 30px;
-  font-size: 0.9rem;
-}
-
-#regex-app .ra-tabs {
-  display: flex;
-  gap: 4px;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #2a2a4a;
-  padding-bottom: 0;
-}
-
-#regex-app .ra-tab {
-  padding: 8px 16px;
-  border: none;
-  background: none;
-  color: #606080;
-  cursor: pointer;
-  font-size: 0.85rem;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
-  transition: all 0.2s;
-}
-
-#regex-app .ra-tab.active {
-  color: #00ff88;
-  border-bottom-color: #00ff88;
-}
-
-#regex-app .ra-tab-panel {
-  display: none;
-}
-
-#regex-app .ra-tab-panel.active {
-  display: block;
-}
-
-#regex-app .ra-replace-out {
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-radius: 8px;
-  padding: 12px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  min-height: 80px;
-  white-space: pre-wrap;
-  word-break: break-all;
-  color: #ffe066;
-}
-
-#regex-app .ra-cheatsheet-toggle {
-  width: 100%;
-  text-align: left;
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-radius: 8px;
-  color: #a0a0c0;
-  padding: 10px 14px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: border-color 0.2s;
-}
-
-#regex-app .ra-cheatsheet-toggle:hover {
-  border-color: #00ff88;
-  color: #00ff88;
-}
-
-#regex-app .ra-cheatsheet-body {
-  display: none;
-  background: #0d0d1a;
-  border: 1px solid #2a2a4a;
-  border-top: none;
-  border-radius: 0 0 8px 8px;
-  padding: 14px;
-}
-
-#regex-app .ra-cheatsheet-body.open {
-  display: block;
-}
-
-#regex-app .ra-cs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 8px;
-}
-
-#regex-app .ra-cs-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 6px 8px;
-  background: #1a1a2e;
-  border-radius: 6px;
-}
-
-#regex-app .ra-cs-token {
-  font-family: 'Courier New', monospace;
-  color: #00ff88;
-  font-size: 0.88rem;
-  min-width: 52px;
-  font-weight: 700;
-}
-
-#regex-app .ra-cs-desc {
-  color: #8080a0;
-  font-size: 0.78rem;
-  line-height: 1.4;
-}
-
-#regex-app .ra-two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-
-#regex-app .ra-copy-success {
-  color: #00ff88;
-  font-size: 0.8rem;
-  margin-left: 8px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-#regex-app .ra-copy-success.show {
-  opacity: 1;
-}
-
-@media (max-width: 600px) {
-  #regex-app {
-    padding: 14px;
+  #rx-app {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    color: #1e293b;
+    max-width: 860px;
+    margin: 0 auto;
   }
-  #regex-app .ra-two-col {
-    grid-template-columns: 1fr;
+
+  #rx-app .rx-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
   }
-  #regex-app .ra-match-item {
-    grid-template-columns: 50px 70px 1fr;
-    gap: 6px;
+  #rx-app .rx-card-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 10px;
   }
-  #regex-app .ra-match-groups {
-    padding-left: 0;
+
+  /* Pattern row */
+  #rx-app .rx-pattern-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
   }
-  #regex-app .ra-cs-grid {
-    grid-template-columns: 1fr 1fr;
+  #rx-app .rx-slash {
+    font-size: 22px;
+    color: #94a3b8;
+    line-height: 1;
+    flex-shrink: 0;
+    font-family: "Fira Mono", "Consolas", monospace;
   }
-}
+  #rx-app #rx-pattern {
+    flex: 1;
+    min-width: 180px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 15px;
+    padding: 9px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    outline: none;
+    transition: border-color .15s;
+    background: #f8fafc;
+    color: #1e293b;
+  }
+  #rx-app #rx-pattern:focus { border-color: #6366f1; background: #fff; }
+  #rx-app #rx-pattern.rx-invalid { border-color: #ef4444; background: #fff5f5; }
+
+  /* Flag toggles */
+  #rx-app .rx-flags { display: flex; gap: 5px; flex-shrink: 0; flex-wrap: wrap; }
+  #rx-app .rx-flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid #e2e8f0;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #64748b;
+    background: #f8fafc;
+    transition: all .15s;
+    user-select: none;
+  }
+  #rx-app .rx-flag:hover { border-color: #6366f1; color: #6366f1; }
+  #rx-app .rx-flag.on { background: #6366f1; border-color: #6366f1; color: #fff; }
+
+  /* Error message */
+  #rx-app .rx-error-msg {
+    display: none;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 6px;
+    color: #b91c1c;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 12px;
+  }
+
+  /* Quick-insert buttons */
+  #rx-app .rx-quick-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+  #rx-app .rx-qbtn {
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1.5px solid #c7d2fe;
+    border-radius: 20px;
+    background: #eef2ff;
+    color: #4338ca;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  #rx-app .rx-qbtn:hover { background: #6366f1; border-color: #6366f1; color: #fff; }
+
+  /* Test-string textarea */
+  #rx-app #rx-test {
+    width: 100%;
+    min-height: 110px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    outline: none;
+    resize: vertical;
+    background: #f8fafc;
+    color: #1e293b;
+    transition: border-color .15s;
+  }
+  #rx-app #rx-test:focus { border-color: #6366f1; background: #fff; }
+
+  /* Highlighted output */
+  #rx-app #rx-hl {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-all;
+    min-height: 80px;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #1e293b;
+  }
+  #rx-app mark.rx-m0 {
+    background: #fde68a;
+    border-radius: 3px;
+    outline: 2px solid #f59e0b;
+    outline-offset: 0;
+    color: #1e293b;
+  }
+  #rx-app mark.rx-m1 {
+    background: #a5f3fc;
+    border-radius: 3px;
+    outline: 2px solid #0ea5e9;
+    outline-offset: 0;
+    color: #1e293b;
+  }
+
+  /* Stats bar */
+  #rx-app .rx-stats { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+  #rx-app .rx-stat { font-size: 12px; color: #64748b; }
+  #rx-app .rx-stat strong { color: #1e293b; }
+
+  /* Tabs */
+  #rx-app .rx-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid #e2e8f0;
+    margin-bottom: 14px;
+  }
+  #rx-app .rx-tab {
+    padding: 7px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all .15s;
+  }
+  #rx-app .rx-tab:hover { color: #6366f1; }
+  #rx-app .rx-tab.on { color: #6366f1; border-bottom-color: #6366f1; }
+
+  /* Match list */
+  #rx-app .rx-match-list { list-style: none; max-height: 280px; overflow-y: auto; }
+  #rx-app .rx-match-item {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    gap: 8px;
+    align-items: start;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  #rx-app .rx-match-item:last-child { border-bottom: none; }
+  #rx-app .rx-mi-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: #6366f1;
+    background: #eef2ff;
+    border-radius: 4px;
+    padding: 2px 5px;
+    text-align: center;
+  }
+  #rx-app .rx-mi-val {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    background: #fde68a;
+    border-radius: 3px;
+    padding: 1px 5px;
+    word-break: break-all;
+    color: #1e293b;
+  }
+  #rx-app .rx-mi-pos { font-size: 11px; color: #94a3b8; margin-top: 3px; }
+  #rx-app .rx-mi-groups { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  #rx-app .rx-group-chip {
+    font-size: 11px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    background: #e0f2fe;
+    color: #0369a1;
+    border-radius: 3px;
+    padding: 1px 6px;
+  }
+  #rx-app .rx-empty {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 13px;
+    padding: 22px 0;
+  }
+
+  /* Replace panel */
+  #rx-app .rx-replace-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #rx-app #rx-repl-in {
+    flex: 1;
+    min-width: 180px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    background: #f8fafc;
+    outline: none;
+    transition: border-color .15s;
+    color: #1e293b;
+  }
+  #rx-app #rx-repl-in:focus { border-color: #6366f1; background: #fff; }
+  #rx-app #rx-repl-out {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    min-height: 50px;
+    margin-top: 10px;
+    color: #1e293b;
+  }
+  #rx-app .rx-copy-btn {
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 6px;
+    background: #f8fafc;
+    color: #475569;
+    cursor: pointer;
+    transition: all .15s;
+    flex-shrink: 0;
+  }
+  #rx-app .rx-copy-btn:hover { border-color: #6366f1; color: #6366f1; }
+
+  /* Explain panel */
+  #rx-app .rx-explain-list { list-style: none; }
+  #rx-app .rx-explain-item {
+    display: flex;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #f1f5f9;
+    font-size: 12px;
+  }
+  #rx-app .rx-explain-item:last-child { border: none; }
+  #rx-app .rx-ex-tok {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-weight: 700;
+    color: #6366f1;
+    min-width: 96px;
+    flex-shrink: 0;
+  }
+  #rx-app .rx-ex-desc { color: #475569; line-height: 1.5; }
+
+  @media (max-width: 600px) {
+    #rx-app .rx-pattern-row { flex-direction: column; align-items: stretch; }
+    #rx-app .rx-slash { display: none; }
+    #rx-app #rx-pattern { font-size: 14px; }
+  }
 </style>
 
-<h2>Regex Tester</h2>
-
-<!-- Pattern Input -->
-<div class="ra-section">
-  <label>Regular Expression</label>
-  <div class="ra-pattern-row">
-    <div class="ra-pattern-wrap">
-      <span class="ra-slash">/</span>
-      <input class="ra-pattern-input" id="ra-pattern" type="text" placeholder="Enter pattern..." autocomplete="off" spellcheck="false" />
-      <span class="ra-slash">/</span>
+<!-- PATTERN INPUT -->
+<div class="rx-card">
+  <div class="rx-card-title">Regular Expression</div>
+  <div class="rx-pattern-row">
+    <span class="rx-slash">/</span>
+    <input id="rx-pattern" type="text" placeholder="Enter pattern…" autocomplete="off" spellcheck="false" />
+    <span class="rx-slash">/</span>
+    <div class="rx-flags">
+      <span class="rx-flag on"  data-flag="g" title="Global — find all matches">g</span>
+      <span class="rx-flag"     data-flag="i" title="Case-insensitive">i</span>
+      <span class="rx-flag"     data-flag="m" title="Multiline — ^ and $ match line boundaries">m</span>
+      <span class="rx-flag"     data-flag="s" title="Dotall — dot matches newline">s</span>
+      <span class="rx-flag"     data-flag="u" title="Unicode mode">u</span>
     </div>
-    <div class="ra-flags-wrap">
-      <label class="ra-flag-label"><input type="checkbox" id="ra-flag-g" checked /><span class="ra-flag-key">g</span> global</label>
-      <label class="ra-flag-label"><input type="checkbox" id="ra-flag-i" /><span class="ra-flag-key">i</span> case-insensitive</label>
-      <label class="ra-flag-label"><input type="checkbox" id="ra-flag-m" /><span class="ra-flag-key">m</span> multiline</label>
-      <label class="ra-flag-label"><input type="checkbox" id="ra-flag-s" /><span class="ra-flag-key">s</span> dotAll</label>
-      <label class="ra-flag-label"><input type="checkbox" id="ra-flag-u" /><span class="ra-flag-key">u</span> unicode</label>
+  </div>
+  <div class="rx-error-msg" id="rx-err"></div>
+</div>
+
+<!-- QUICK INSERT -->
+<div class="rx-card">
+  <div class="rx-card-title">Quick Insert — Common Patterns</div>
+  <div class="rx-quick-wrap">
+    <button class="rx-qbtn" data-p="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">Email</button>
+    <button class="rx-qbtn" data-p="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/=]*)">URL</button>
+    <button class="rx-qbtn" data-p="\+?[\d\s\-().]{7,20}">Phone</button>
+    <button class="rx-qbtn" data-p="\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b">IPv4</button>
+    <button class="rx-qbtn" data-p="\b\d{4}[-\/]\d{2}[-\/]\d{2}\b">Date YYYY-MM-DD</button>
+    <button class="rx-qbtn" data-p="#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b">Hex Color</button>
+    <button class="rx-qbtn" data-p="\b\d{1,3}(?:,\d{3})*(?:\.\d+)?\b">Number</button>
+    <button class="rx-qbtn" data-p="^[a-zA-Z0-9_]{3,16}$">Username</button>
+    <button class="rx-qbtn" data-p="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}">Strong Password</button>
+    <button class="rx-qbtn" data-p="<([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>[\s\S]*?<\/\1>">HTML Tag</button>
+  </div>
+</div>
+
+<!-- TEST STRING -->
+<div class="rx-card">
+  <div class="rx-card-title">Test String</div>
+  <textarea id="rx-test" spellcheck="false" placeholder="Paste or type your test string here…">Contact us at hello@example.com or support@company.org
+Visit https://www.example.com or http://docs.site.io/page
+Call +1 (800) 555-0123 or 020 7946 0958
+Server IP: 192.168.1.1, fallback: 10.0.0.254
+Today is 2025-05-16, event on 2025/12/31</textarea>
+</div>
+
+<!-- MATCH HIGHLIGHTS -->
+<div class="rx-card">
+  <div class="rx-card-title">Match Highlights</div>
+  <div id="rx-hl"></div>
+  <div class="rx-stats">
+    <span class="rx-stat">Matches: <strong id="rx-count">—</strong></span>
+    <span class="rx-stat">Execution: <strong id="rx-time">—</strong></span>
+  </div>
+</div>
+
+<!-- BOTTOM PANELS: Match Details / Replace / Explain -->
+<div class="rx-card">
+  <div class="rx-tabs">
+    <button class="rx-tab on"  data-tab="matches">Match Details</button>
+    <button class="rx-tab"     data-tab="replace">Replace</button>
+    <button class="rx-tab"     data-tab="explain">Explain</button>
+  </div>
+
+  <!-- Match Details -->
+  <div id="rx-panel-matches">
+    <ul class="rx-match-list" id="rx-mlist">
+      <li class="rx-empty">Enter a pattern above to see match details.</li>
+    </ul>
+  </div>
+
+  <!-- Replace -->
+  <div id="rx-panel-replace" style="display:none">
+    <div class="rx-replace-row">
+      <label style="font-size:12px;color:#64748b;font-weight:600;white-space:nowrap;">Replace with:</label>
+      <input id="rx-repl-in" type="text" placeholder="Replacement string — use $1, $2 for capture groups…" spellcheck="false" />
+      <button class="rx-copy-btn" id="rx-copy-repl">Copy result</button>
     </div>
-    <button class="ra-btn" id="ra-copy-btn">Copy Regex</button>
-    <span class="ra-copy-success" id="ra-copy-msg">Copied!</span>
+    <div id="rx-repl-out"></div>
   </div>
-</div>
 
-<!-- Error -->
-<div class="ra-error" id="ra-error"></div>
-
-<!-- Common Patterns -->
-<div class="ra-section">
-  <label>Common Patterns</label>
-  <select id="ra-presets">
-    <option value="">-- Select a pattern to load --</option>
-    <option value="email">[Email] Email Address</option>
-    <option value="url">[URL] HTTP/HTTPS URL</option>
-    <option value="phone_us">[Phone] US Phone Number</option>
-    <option value="phone_int">[Phone] International Phone</option>
-    <option value="ip4">[Network] IPv4 Address</option>
-    <option value="ip6">[Network] IPv6 Address</option>
-    <option value="date_iso">[Date] ISO 8601 (YYYY-MM-DD)</option>
-    <option value="date_us">[Date] US Format (MM/DD/YYYY)</option>
-    <option value="hex_color">[Color] Hex Color Code</option>
-    <option value="html_tag">[HTML] HTML Tag</option>
-    <option value="slug">[Web] URL Slug</option>
-    <option value="username">[Auth] Username (alphanumeric)</option>
-    <option value="password">[Auth] Strong Password</option>
-    <option value="credit_card">[Finance] Credit Card Number</option>
-    <option value="zip_us">[Address] US ZIP Code</option>
-    <option value="whitespace">[Utility] Multiple Whitespace</option>
-  </select>
-</div>
-
-<!-- Test String -->
-<div class="ra-section">
-  <label>Test String</label>
-  <textarea id="ra-teststr" rows="6" placeholder="Enter your test string here..."></textarea>
-</div>
-
-<!-- Stats -->
-<div class="ra-stats-bar">
-  <span class="ra-match-count" id="ra-count-badge">No matches</span>
-  <span style="color:#505070;font-size:0.8rem;" id="ra-flags-display"></span>
-</div>
-
-<!-- Tabs: Matches / Highlighted / Replace -->
-<div class="ra-tabs">
-  <button class="ra-tab active" data-tab="matches">Matches</button>
-  <button class="ra-tab" data-tab="highlight">Highlighted</button>
-  <button class="ra-tab" data-tab="replace">Replace</button>
-</div>
-
-<!-- Matches Panel -->
-<div class="ra-tab-panel active" id="ra-tab-matches">
-  <div class="ra-matches-panel" id="ra-matches-panel">
-    <div class="ra-empty-state" id="ra-empty-state">Enter a pattern and test string to see matches</div>
-  </div>
-</div>
-
-<!-- Highlighted Panel -->
-<div class="ra-tab-panel" id="ra-tab-highlight">
-  <div class="ra-highlighted-display" id="ra-highlighted-display">Matches will be highlighted here</div>
-</div>
-
-<!-- Replace Panel -->
-<div class="ra-tab-panel" id="ra-tab-replace">
-  <div class="ra-section" style="margin-top:4px;">
-    <label>Replacement Pattern</label>
-    <textarea id="ra-replace-input" rows="2" placeholder="Replacement string (use $1, $2 for groups)..."></textarea>
-  </div>
-  <div class="ra-section">
-    <label>Replace Result</label>
-    <div class="ra-replace-out" id="ra-replace-out">Result will appear here</div>
-  </div>
-</div>
-
-<!-- Cheat Sheet -->
-<div class="ra-section" style="margin-top:24px;">
-  <button class="ra-cheatsheet-toggle" id="ra-cs-toggle">
-    <span>Regex Cheat Sheet</span>
-    <span id="ra-cs-arrow">▼</span>
-  </button>
-  <div class="ra-cheatsheet-body" id="ra-cs-body">
-    <div class="ra-cs-grid">
-      <div class="ra-cs-item"><span class="ra-cs-token">\d</span><span class="ra-cs-desc">Digit [0-9]</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\D</span><span class="ra-cs-desc">Non-digit</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\w</span><span class="ra-cs-desc">Word char [a-zA-Z0-9_]</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\W</span><span class="ra-cs-desc">Non-word character</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\s</span><span class="ra-cs-desc">Whitespace char</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\S</span><span class="ra-cs-desc">Non-whitespace</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">.</span><span class="ra-cs-desc">Any char (except newline)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\b</span><span class="ra-cs-desc">Word boundary</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">^</span><span class="ra-cs-desc">Start of string/line</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">$</span><span class="ra-cs-desc">End of string/line</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">*</span><span class="ra-cs-desc">0 or more (greedy)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">+</span><span class="ra-cs-desc">1 or more (greedy)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">?</span><span class="ra-cs-desc">0 or 1 (optional)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">*?</span><span class="ra-cs-desc">0 or more (lazy)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">+?</span><span class="ra-cs-desc">1 or more (lazy)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">{n}</span><span class="ra-cs-desc">Exactly n times</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">{n,m}</span><span class="ra-cs-desc">Between n and m times</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">{n,}</span><span class="ra-cs-desc">n or more times</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">[abc]</span><span class="ra-cs-desc">Character class (a, b, or c)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">[^abc]</span><span class="ra-cs-desc">Negated class</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">[a-z]</span><span class="ra-cs-desc">Character range</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">(abc)</span><span class="ra-cs-desc">Capture group</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">(?:abc)</span><span class="ra-cs-desc">Non-capture group</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">(?=abc)</span><span class="ra-cs-desc">Lookahead</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">(?!abc)</span><span class="ra-cs-desc">Negative lookahead</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">a|b</span><span class="ra-cs-desc">Alternation (a or b)</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\n</span><span class="ra-cs-desc">Newline</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">\t</span><span class="ra-cs-desc">Tab character</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">$1</span><span class="ra-cs-desc">Backreference to group 1</span></div>
-      <div class="ra-cs-item"><span class="ra-cs-token">(?&lt;name&gt;)</span><span class="ra-cs-desc">Named capture group</span></div>
-    </div>
+  <!-- Explain -->
+  <div id="rx-panel-explain" style="display:none">
+    <ul class="rx-explain-list" id="rx-exlist">
+      <li class="rx-empty">Enter a pattern above to see a token-by-token explanation.</li>
+    </ul>
   </div>
 </div>
 
 <script>
-(function() {
-  var PRESETS = {
-    email: { pattern: '[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}', flags: {g:true,i:true,m:false,s:false,u:false}, test: 'Contact us at hello@example.com or support@company.org\nInvalid: not-an-email, @nodomain, missingat.com' },
-    url: { pattern: 'https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)', flags: {g:true,i:true,m:false,s:false,u:false}, test: 'Visit https://www.example.com or http://blog.example.org/path?q=1&page=2\nAlso check https://subdomain.example.co.uk/resource#section' },
-    phone_us: { pattern: '(?:\\+1[\\s\\-]?)?(?:\\(?[2-9]\\d{2}\\)?)[\\s\\-]?[2-9]\\d{2}[\\s\\-]?\\d{4}', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'Call us: (555) 123-4567 or 555-987-6543\nAlso: +1 (800) 555-0100 or 18005550100' },
-    phone_int: { pattern: '\\+?[1-9]\\d{1,14}', flags: {g:true,i:false,m:false,s:false,u:false}, test: '+1 555 123 4567\n+44 20 7946 0958\n+81-3-1234-5678' },
-    ip4: { pattern: '\\b(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\b', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'Server IPs: 192.168.1.1, 10.0.0.255, 172.16.254.1\nInvalid: 256.1.1.1, 192.168.1' },
-    ip6: { pattern: '(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,7}:|::(?:[0-9a-fA-F]{1,4}:){0,6}[0-9a-fA-F]{1,4}', flags: {g:true,i:true,m:false,s:false,u:false}, test: '2001:0db8:85a3:0000:0000:8a2e:0370:7334\n::1\nfe80::1' },
-    date_iso: { pattern: '\\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\\d|3[01])', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'Dates: 2025-05-16, 2024-12-31, 2023-01-01\nInvalid: 2025-13-01, 2025-00-15, 25-05-16' },
-    date_us: { pattern: '(?:0[1-9]|1[0-2])\\/(?:0[1-9]|[12]\\d|3[01])\\/(?:19|20)\\d{2}', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'Event dates: 05/16/2025, 12/31/2024, 01/01/2023\nInvalid: 13/01/2025, 00/15/2025' },
-    hex_color: { pattern: '#(?:[0-9a-fA-F]{3}){1,2}\\b', flags: {g:true,i:true,m:false,s:false,u:false}, test: 'Colors: #fff, #1a1a2e, #00ff88, #FF5733\nInvalid: #gggggg, #12345' },
-    html_tag: { pattern: '<\\/?[a-zA-Z][^>]*>', flags: {g:true,i:true,m:false,s:false,u:false}, test: '<div class="container"><p>Hello <strong>World</strong></p></div>\n<img src="image.png" alt="test" />' },
-    slug: { pattern: '[a-z0-9]+(?:-[a-z0-9]+)*', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'my-blog-post\nhello-world-2025\nthis-is-a-slug\nInvalid: Has Spaces, UPPERCASE, special@chars' },
-    username: { pattern: '[a-zA-Z0-9_]{3,16}', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'Valid: john_doe, User123, dev_42\nInvalid: ab (too short), has space, special@chars' },
-    password: { pattern: '(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*]).{8,}', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'StrongP@ss1\nWeakpass\nNoSpecial1A\nShort@1A\nAllgood$2025A' },
-    credit_card: { pattern: '(?:4\\d{3}|5[1-5]\\d{2}|6(?:011|5\\d{2})|3[47]\\d{2})[\\s\\-]?\\d{4}[\\s\\-]?\\d{4}[\\s\\-]?\\d{4}', flags: {g:true,i:false,m:false,s:false,u:false}, test: '4111 1111 1111 1111\n5500-0000-0000-0004\n378282246310005' },
-    zip_us: { pattern: '\\b\\d{5}(?:-\\d{4})?\\b', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'ZIP codes: 90210, 10001-1234, 60601\nInvalid: 1234, 123456' },
-    whitespace: { pattern: '\\s{2,}', flags: {g:true,i:false,m:false,s:false,u:false}, test: 'This  has   multiple    spaces\nAnd\t\ttabs\nAnd\n\nnewlines' }
-  };
+(function () {
+  'use strict';
 
-  var patternEl = document.getElementById('ra-pattern');
-  var testEl = document.getElementById('ra-teststr');
-  var errorEl = document.getElementById('ra-error');
-  var countEl = document.getElementById('ra-count-badge');
-  var matchesPanel = document.getElementById('ra-matches-panel');
-  var emptyState = document.getElementById('ra-empty-state');
-  var highlightEl = document.getElementById('ra-highlighted-display');
-  var replaceInput = document.getElementById('ra-replace-input');
-  var replaceOut = document.getElementById('ra-replace-out');
-  var flagsDisplay = document.getElementById('ra-flags-display');
-  var copyBtn = document.getElementById('ra-copy-btn');
-  var copyMsg = document.getElementById('ra-copy-msg');
-  var presets = document.getElementById('ra-presets');
-  var csToggle = document.getElementById('ra-cs-toggle');
-  var csBody = document.getElementById('ra-cs-body');
-  var csArrow = document.getElementById('ra-cs-arrow');
+  /* ── State ── */
+  var flagState = { g: true, i: false, m: false, s: false, u: false };
+  var activeTab = 'matches';
 
-  var flagIds = ['g','i','m','s','u'];
-  function getFlags() {
-    return flagIds.filter(function(f){ return document.getElementById('ra-flag-'+f).checked; }).join('');
-  }
-  function setFlags(flagObj) {
-    flagIds.forEach(function(f){ document.getElementById('ra-flag-'+f).checked = !!flagObj[f]; });
-  }
+  /* ── DOM refs ── */
+  var elPat    = document.getElementById('rx-pattern');
+  var elTest   = document.getElementById('rx-test');
+  var elErr    = document.getElementById('rx-err');
+  var elHl     = document.getElementById('rx-hl');
+  var elCount  = document.getElementById('rx-count');
+  var elTime   = document.getElementById('rx-time');
+  var elMlist  = document.getElementById('rx-mlist');
+  var elReplIn = document.getElementById('rx-repl-in');
+  var elReplOut= document.getElementById('rx-repl-out');
+  var elExlist = document.getElementById('rx-exlist');
 
-  function buildRegex() {
-    var p = patternEl.value;
-    if (!p) return null;
-    var flags = getFlags();
-    try {
-      return new RegExp(p, flags);
-    } catch(e) {
-      return e;
-    }
-  }
-
-  function escapeHtml(str) {
-    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  }
-
-  function run() {
-    var pattern = patternEl.value.trim();
-    var test = testEl.value;
-    var flags = getFlags();
-
-    flagsDisplay.textContent = pattern ? ('/' + pattern + '/' + flags) : '';
-
-    if (!pattern) {
-      errorEl.classList.remove('visible');
-      countEl.textContent = 'No matches';
-      countEl.classList.add('no-match');
-      matchesPanel.innerHTML = '<div class="ra-empty-state">Enter a pattern and test string to see matches</div>';
-      highlightEl.textContent = test || 'Matches will be highlighted here';
-      replaceOut.textContent = test || 'Result will appear here';
-      return;
-    }
-
-    var regex = buildRegex();
-    if (regex instanceof Error) {
-      errorEl.textContent = 'Invalid regex: ' + regex.message;
-      errorEl.classList.add('visible');
-      countEl.textContent = 'Error';
-      countEl.classList.add('no-match');
-      matchesPanel.innerHTML = '<div class="ra-empty-state" style="color:#ff6666;">Fix the regex error above</div>';
-      highlightEl.textContent = test;
-      replaceOut.textContent = '';
-      return;
-    }
-    errorEl.classList.remove('visible');
-
-    if (!test) {
-      countEl.textContent = 'No test string';
-      countEl.classList.add('no-match');
-      matchesPanel.innerHTML = '<div class="ra-empty-state">Enter a test string above</div>';
-      highlightEl.textContent = '';
-      replaceOut.textContent = '';
-      return;
-    }
-
-    // Collect all matches
-    var allMatches = [];
-    var re2 = new RegExp(pattern, flags.replace('g','') + 'g' + (flags.indexOf('g') === -1 ? '' : ''));
-    // Always collect with global for listing
-    var reG = new RegExp(pattern, (flags.indexOf('g') === -1 ? flags + 'g' : flags));
-    var m;
-    reG.lastIndex = 0;
-    while ((m = reG.exec(test)) !== null) {
-      allMatches.push({ index: m.index, value: m[0], groups: Array.from(m).slice(1) });
-      if (m[0].length === 0) reG.lastIndex++;
-      if (allMatches.length > 1000) break;
-    }
-
-    // Count badge
-    var cnt = allMatches.length;
-    countEl.textContent = cnt === 0 ? 'No matches' : (cnt === 1 ? '1 match' : cnt + ' matches');
-    countEl.classList.toggle('no-match', cnt === 0);
-
-    // Matches panel
-    if (cnt === 0) {
-      matchesPanel.innerHTML = '<div class="ra-empty-state">No matches found</div>';
-    } else {
-      var html = '';
-      allMatches.forEach(function(match, i) {
-        var hasGroups = match.groups && match.groups.some(function(g){ return g !== undefined; });
-        html += '<div class="ra-match-item">';
-        html += '<span class="ra-match-idx">#' + (i+1) + '</span>';
-        html += '<span class="ra-match-pos">@' + match.index + '</span>';
-        html += '<span class="ra-match-val">' + escapeHtml(match.value) + '</span>';
-        if (hasGroups) {
-          html += '<div class="ra-match-groups">';
-          match.groups.forEach(function(g, gi) {
-            if (g !== undefined) {
-              html += '<div class="ra-group-item">Group ' + (gi+1) + ': ' + escapeHtml(g) + '</div>';
-            }
-          });
-          html += '</div>';
-        }
-        html += '</div>';
-      });
-      matchesPanel.innerHTML = html;
-    }
-
-    // Highlighted display
-    if (cnt === 0) {
-      highlightEl.textContent = test;
-    } else {
-      var parts = [];
-      var last = 0;
-      allMatches.forEach(function(match, i) {
-        if (match.index > last) {
-          parts.push('<span>' + escapeHtml(test.slice(last, match.index)) + '</span>');
-        }
-        var cls = i % 2 === 0 ? 'ra-highlight' : 'ra-highlight-alt';
-        parts.push('<span class="' + cls + '" title="Match ' + (i+1) + '">' + escapeHtml(match.value) + '</span>');
-        last = match.index + match.value.length;
-      });
-      if (last < test.length) {
-        parts.push('<span>' + escapeHtml(test.slice(last)) + '</span>');
-      }
-      highlightEl.innerHTML = parts.join('');
-    }
-
-    // Replace
-    runReplace(pattern, flags, test);
-  }
-
-  function runReplace(pattern, flags, test) {
-    if (!pattern) { replaceOut.textContent = test || ''; return; }
-    try {
-      var rp = replaceInput.value;
-      // Ensure global flag for full replace
-      var repFlags = flags.indexOf('g') === -1 ? flags + 'g' : flags;
-      var re = new RegExp(pattern, repFlags);
-      var result = test.replace(re, rp);
-      replaceOut.textContent = result;
-    } catch(e) {
-      replaceOut.textContent = '';
-    }
-  }
-
-  // Tab switching
-  document.querySelectorAll('#regex-app .ra-tab').forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      document.querySelectorAll('#regex-app .ra-tab').forEach(function(t){ t.classList.remove('active'); });
-      document.querySelectorAll('#regex-app .ra-tab-panel').forEach(function(p){ p.classList.remove('active'); });
-      tab.classList.add('active');
-      document.getElementById('ra-tab-' + tab.dataset.tab).classList.add('active');
+  /* ── Flag toggles ── */
+  document.querySelectorAll('#rx-app .rx-flag').forEach(function (el) {
+    el.addEventListener('click', function () {
+      var f = el.dataset.flag;
+      flagState[f] = !flagState[f];
+      el.classList.toggle('on', flagState[f]);
+      run();
     });
   });
 
-  // Cheat sheet toggle
-  csToggle.addEventListener('click', function() {
-    csBody.classList.toggle('open');
-    csArrow.textContent = csBody.classList.contains('open') ? '▲' : '▼';
+  /* ── Tab switching ── */
+  document.querySelectorAll('#rx-app .rx-tab').forEach(function (el) {
+    el.addEventListener('click', function () {
+      activeTab = el.dataset.tab;
+      document.querySelectorAll('#rx-app .rx-tab').forEach(function (t) {
+        t.classList.toggle('on', t === el);
+      });
+      document.getElementById('rx-panel-matches').style.display = activeTab === 'matches' ? '' : 'none';
+      document.getElementById('rx-panel-replace').style.display = activeTab === 'replace'  ? '' : 'none';
+      document.getElementById('rx-panel-explain').style.display = activeTab === 'explain'  ? '' : 'none';
+    });
   });
 
-  // Copy button
-  copyBtn.addEventListener('click', function() {
-    var pattern = patternEl.value;
-    var flags = getFlags();
-    var text = '/' + pattern + '/' + flags;
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text).then(showCopied);
-    } else {
+  /* ── Quick-insert ── */
+  document.querySelectorAll('#rx-app .rx-qbtn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      elPat.value = btn.dataset.p;
+      run();
+      elPat.focus();
+    });
+  });
+
+  /* ── Copy result ── */
+  document.getElementById('rx-copy-repl').addEventListener('click', function () {
+    var txt = elReplOut.textContent;
+    if (!txt) return;
+    var btn = this;
+    navigator.clipboard.writeText(txt).catch(function () {
       var ta = document.createElement('textarea');
-      ta.value = text;
+      ta.value = txt;
       document.body.appendChild(ta);
       ta.select();
       document.execCommand('copy');
       document.body.removeChild(ta);
-      showCopied();
-    }
+    });
+    btn.textContent = 'Copied!';
+    setTimeout(function () { btn.textContent = 'Copy result'; }, 1600);
   });
 
-  function showCopied() {
-    copyMsg.classList.add('show');
-    setTimeout(function(){ copyMsg.classList.remove('show'); }, 1800);
+  /* ── Input listeners ── */
+  elPat.addEventListener('input', run);
+  elTest.addEventListener('input', run);
+  elReplIn.addEventListener('input', run);
+
+  /* ═══════════════════ CORE RUN ═══════════════════ */
+  function run() {
+    var rawPat  = elPat.value;
+    var testStr = elTest.value;
+    var fStr    = buildFlagStr();
+
+    /* Reset error */
+    elErr.style.display = 'none';
+    elPat.classList.remove('rx-invalid');
+
+    if (!rawPat) {
+      elHl.textContent = testStr;
+      elCount.textContent = '—';
+      elTime.textContent  = '—';
+      setEmpty('Enter a pattern above to see match details.');
+      elReplOut.textContent = '';
+      setExplain('');
+      return;
+    }
+
+    /* Build regex */
+    var re;
+    try { re = new RegExp(rawPat, fStr); }
+    catch (e) {
+      elPat.classList.add('rx-invalid');
+      elErr.textContent = e.message;
+      elErr.style.display = 'block';
+      elHl.textContent = testStr;
+      elCount.textContent = 'Error';
+      elTime.textContent  = '—';
+      setEmpty('Invalid pattern: ' + e.message);
+      elReplOut.textContent = '';
+      return;
+    }
+
+    /* Find matches */
+    var t0 = performance.now();
+    var matches = [];
+    if (flagState.g) {
+      var reG = new RegExp(rawPat, fStr);
+      var m;
+      while ((m = reG.exec(testStr)) !== null) {
+        matches.push({ val: m[0], idx: m.index, groups: Array.from(m).slice(1) });
+        if (m[0].length === 0) reG.lastIndex++;
+        if (matches.length >= 1000) break;
+      }
+    } else {
+      var m1 = re.exec(testStr);
+      if (m1) matches.push({ val: m1[0], idx: m1.index, groups: Array.from(m1).slice(1) });
+    }
+    var t1 = performance.now();
+
+    elCount.textContent = matches.length;
+    elTime.textContent  = (t1 - t0).toFixed(3) + ' ms';
+
+    renderHighlight(testStr, matches);
+    renderMatchList(matches);
+    renderReplace(testStr, re);
+    setExplain(rawPat);
   }
 
-  // Presets
-  presets.addEventListener('change', function() {
-    var key = presets.value;
-    if (!key || !PRESETS[key]) return;
-    var p = PRESETS[key];
-    patternEl.value = p.pattern;
-    setFlags(p.flags);
-    if (p.test && !testEl.value) testEl.value = p.test;
-    run();
-    presets.value = '';
-  });
+  /* ── Helpers ── */
+  function buildFlagStr() {
+    return Object.keys(flagState).filter(function (f) { return flagState[f]; }).join('');
+  }
 
-  // Events
-  patternEl.addEventListener('input', run);
-  testEl.addEventListener('input', run);
-  replaceInput.addEventListener('input', run);
-  flagIds.forEach(function(f) {
-    document.getElementById('ra-flag-'+f).addEventListener('change', run);
-  });
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
 
-  // Init
+  /* ── Highlight renderer ── */
+  function renderHighlight(str, matches) {
+    if (!matches.length) { elHl.textContent = str; return; }
+    var html = '', cur = 0;
+    matches.forEach(function (m, i) {
+      if (m.idx > cur) html += esc(str.slice(cur, m.idx));
+      html += '<mark class="rx-m' + (i % 2) + '">' + esc(m.val) + '</mark>';
+      cur = m.idx + m.val.length;
+    });
+    html += esc(str.slice(cur));
+    elHl.innerHTML = html;
+  }
+
+  /* ── Match list renderer ── */
+  function renderMatchList(matches) {
+    if (!matches.length) { setEmpty('No matches found.'); return; }
+    var html = '';
+    matches.forEach(function (m, i) {
+      html += '<li class="rx-match-item">';
+      html += '<span class="rx-mi-num">#' + (i + 1) + '</span>';
+      html += '<div>';
+      html += '<div class="rx-mi-val">' + esc(m.val) + '</div>';
+      html += '<div class="rx-mi-pos">index ' + m.idx + ' → ' + (m.idx + m.val.length) + '</div>';
+      if (m.groups.length) {
+        html += '<div class="rx-mi-groups">';
+        m.groups.forEach(function (g, gi) {
+          html += '<span class="rx-group-chip">$' + (gi + 1) + ': ' + esc(g === undefined ? 'undefined' : g) + '</span>';
+        });
+        html += '</div>';
+      }
+      html += '</div></li>';
+    });
+    elMlist.innerHTML = html;
+  }
+
+  function setEmpty(msg) {
+    elMlist.innerHTML = '<li class="rx-empty">' + esc(msg) + '</li>';
+  }
+
+  /* ── Replace renderer ── */
+  function renderReplace(str, re) {
+    var repl = elReplIn.value;
+    if (!repl && repl !== '0') { elReplOut.textContent = ''; return; }
+    try { elReplOut.textContent = str.replace(re, repl); }
+    catch (e) { elReplOut.textContent = ''; }
+  }
+
+  /* ══════════════════ EXPLAIN ══════════════════ */
+  var TOKENS = [
+    [/^\^/,                       'Start-of-string (or line with m flag) anchor'],
+    [/^\$/,                       'End-of-string (or line with m flag) anchor'],
+    [/^\(\?<=/,                   'Positive lookbehind assertion'],
+    [/^\(\?<!/,                   'Negative lookbehind assertion'],
+    [/^\(\?=/,                    'Positive lookahead assertion'],
+    [/^\(\?!/,                    'Negative lookahead assertion'],
+    [/^\(\?:/,                    'Non-capturing group'],
+    [/^\(\?<[a-zA-Z_]\w*>/,      'Named capturing group'],
+    [/^\(/,                       'Opening of a capturing group'],
+    [/^\)/,                       'Closing of a group'],
+    [/^\[^\]/,                    'Negated character class — match anything NOT listed'],
+    [/^\[/,                       'Character class — match any one of the listed characters'],
+    [/^\]/,                       'End of character class'],
+    [/^\\d/,                      'Shorthand: any digit [0-9]'],
+    [/^\\D/,                      'Shorthand: any non-digit'],
+    [/^\\w/,                      'Shorthand: word character [a-zA-Z0-9_]'],
+    [/^\\W/,                      'Shorthand: non-word character'],
+    [/^\\s/,                      'Shorthand: whitespace (space, tab, newline…)'],
+    [/^\\S/,                      'Shorthand: non-whitespace'],
+    [/^\\b/,                      'Word boundary assertion'],
+    [/^\\B/,                      'Non-word-boundary assertion'],
+    [/^\\n/,                      'Literal newline character'],
+    [/^\\t/,                      'Literal tab character'],
+    [/^\\r/,                      'Literal carriage-return character'],
+    [/^\\\\/,                     'Literal backslash'],
+    [/^\\u[0-9a-fA-F]{4}/,       'Unicode code-point escape'],
+    [/^\\x[0-9a-fA-F]{2}/,       'Hexadecimal character escape'],
+    [/^\\([0-9]+)/,               'Backreference to capture group N'],
+    [/^\\./,                      'Escaped special character — treated as literal'],
+    [/^\{[0-9]+,[0-9]+\}\?/,     'Lazy quantifier: between {n} and {m} times'],
+    [/^\{[0-9]+,\}\?/,           'Lazy quantifier: {n} or more times'],
+    [/^\{[0-9]+\}\?/,            'Lazy quantifier: exactly {n} times'],
+    [/^\{[0-9]+,[0-9]+\}/,       'Greedy quantifier: between {n} and {m} times'],
+    [/^\{[0-9]+,\}/,             'Greedy quantifier: {n} or more times'],
+    [/^\{[0-9]+\}/,              'Greedy quantifier: exactly {n} times'],
+    [/^\*\?/,                    'Lazy quantifier: zero or more times (as few as possible)'],
+    [/^\+\?/,                    'Lazy quantifier: one or more times (as few as possible)'],
+    [/^\?\?/,                    'Lazy quantifier: zero or one time (prefer zero)'],
+    [/^\*/,                      'Greedy quantifier: zero or more times'],
+    [/^\+/,                      'Greedy quantifier: one or more times'],
+    [/^\?/,                      'Greedy quantifier: zero or one time (optional)'],
+    [/^\|/,                      'Alternation — match either the left or right side'],
+    [/^\./,                      'Wildcard — any character except newline (unless s flag)'],
+    [/^./,                       'Literal character'],
+  ];
+
+  function tokenize(pat) {
+    var toks = [], rem = pat, limit = 300;
+    while (rem.length && limit-- > 0) {
+      var hit = false;
+      for (var i = 0; i < TOKENS.length; i++) {
+        var m = rem.match(TOKENS[i][0]);
+        if (m) {
+          toks.push({ t: m[0], d: TOKENS[i][1] });
+          rem = rem.slice(m[0].length);
+          hit = true;
+          break;
+        }
+      }
+      if (!hit) rem = rem.slice(1);
+    }
+    return toks;
+  }
+
+  function setExplain(pat) {
+    if (!pat) {
+      elExlist.innerHTML = '<li class="rx-empty">Enter a pattern above to see a token-by-token explanation.</li>';
+      return;
+    }
+    var toks = tokenize(pat);
+    if (!toks.length) { elExlist.innerHTML = '<li class="rx-empty">Nothing to explain.</li>'; return; }
+    var html = '';
+    toks.forEach(function (tk) {
+      html += '<li class="rx-explain-item"><span class="rx-ex-tok">' + esc(tk.t) + '</span><span class="rx-ex-desc">' + esc(tk.d) + '</span></li>';
+    });
+    elExlist.innerHTML = html;
+  }
+
+  /* Initial render */
   run();
 })();
 </script>
-
 </div>
 
 ---
 
-## How to Use Regular Expressions
-
-A **regular expression** (regex) is a sequence of characters that defines a search pattern. Regex patterns are used across virtually every programming language and text editor for tasks like input validation, data extraction, search-and-replace operations, and string parsing. At their core, regex patterns are built from literal characters combined with special **metacharacters** that control how and what gets matched — for example, `\d` matches any digit, `.` matches any character except newline, and `*` means "zero or more of the preceding element."
-
-To use the tester above, enter your pattern in the `/pattern/` field, select any flags you need (the **g** flag is enabled by default to find all matches rather than just the first), and then type or paste your test string in the large textarea. Matches are highlighted in real-time in the **Highlighted** tab with alternating colors. The **Matches** tab lists every match individually, showing its position index and any captured groups. Use the **Replace** tab to test substitution patterns — reference capture groups with `$1`, `$2`, and so on.
-
-When building complex expressions, use the **Common Patterns** dropdown to load a pre-built, tested pattern as a starting point and study how it is constructed. The **Cheat Sheet** panel at the bottom is a quick reference for the most common tokens and quantifiers. If your pattern contains a syntax error, a clear error message will appear immediately beneath the pattern field — common mistakes include unescaped special characters (use a backslash: `\.` to match a literal dot), unbalanced parentheses, and invalid quantifier syntax like `{,3}`.
-
----
-
-## Common Regex Patterns
-
-| Pattern | Regex | Description |
-|---|---|---|
-| Email address | `[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}` | Matches standard email addresses |
-| HTTP/HTTPS URL | `https?:\/\/[\w\-]+(\.[\w\-]+)+([\w.,@?^=%&:/~+#\-]*)` | Matches web URLs with optional path and query |
-| US phone number | `(\(?\d{3}\)?[\s\-]?)?\d{3}[\s\-]?\d{4}` | Matches common US phone number formats |
-| IPv4 address | `\b(?:\d{1,3}\.){3}\d{1,3}\b` | Matches dotted decimal IP addresses |
-| ISO date | `\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])` | Matches YYYY-MM-DD formatted dates |
-| Hex color | `#(?:[0-9a-fA-F]{3}){1,2}\b` | Matches 3- and 6-digit hex color codes |
-| Strong password | `(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}` | Requires uppercase, lowercase, digit, and symbol |
-| HTML tag | `<\/?[a-zA-Z][^>]*>` | Matches opening and closing HTML tags |
-
----
-
-## Related Tools
-
-> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
-
-> Encode and decode Base64 → [Base64 Encoder](/tools/base64-encoder/)
-
-> Count words and characters → [Word Counter](/tools/word-counter/)
+> Quick reference → [Regex Cheatsheet](/tools/regex-cheatsheet/)
+> Escape strings → [String Escape Tool](/tools/string-escape-tool/)

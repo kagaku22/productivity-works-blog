@@ -1,792 +1,696 @@
 ---
-title: "正規表現テスター - 無料オンラインRegexツール"
+title: "正規表現テスター"
 date: 2025-05-16
-description: "正規表現をリアルタイムでテスト・デバッグ。マッチハイライト、グループ表示、よく使うパターン集付き。開発者向け無料オンラインツール。"
+description: "無料の正規表現テスター。リアルタイムマッチハイライト、キャプチャグループ、フラグ設定でRegexを検証。登録不要、ブラウザで完結。"
 categories: ["無料ツール"]
-tags: ["正規表現", "Regex", "テスター", "開発ツール", "パターンマッチング"]
 slug: "regex-tester"
-aliases: ["/ja/tools/regexp-tester/", "/ja/tools/regular-expression/"]
+ShowToc: false
 cover:
   image: "/images/covers/regex-tester-ja.png"
   alt: "正規表現テスター"
-ShowToc: false
 ---
 
-<div id="regex-app">
+正規表現をブラウザ上でリアルタイムに検証。パターンを入力してフラグを選ぶだけで、マッチ箇所がハイライト表示されます。登録不要、外部ライブラリなし。
 
+<div id="rx-app">
 <style>
-#regex-app {
-  font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
-  background: #1a1a2e;
-  color: #e0e0e0;
-  border-radius: 12px;
-  padding: 24px;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-#regex-app * { box-sizing: border-box; }
+  #rx-app *,
+  #rx-app *::before,
+  #rx-app *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-#regex-app h2 {
-  color: #00ff88;
-  font-size: 1.1rem;
-  margin: 0 0 8px 0;
-  letter-spacing: 0.04em;
-}
+  #rx-app {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: #1e293b;
+    max-width: 860px;
+    margin: 0 auto;
+  }
 
-#regex-app .ra-section {
-  background: #16213e;
-  border: 1px solid #0f3460;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
-}
+  #rx-app .rx-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  #rx-app .rx-card-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 10px;
+  }
 
-#regex-app .ra-row {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  /* Pattern row */
+  #rx-app .rx-pattern-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  #rx-app .rx-slash {
+    font-size: 22px;
+    color: #94a3b8;
+    line-height: 1;
+    flex-shrink: 0;
+    font-family: "Fira Mono", "Consolas", monospace;
+  }
+  #rx-app #rx-pattern {
+    flex: 1;
+    min-width: 180px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 15px;
+    padding: 9px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    outline: none;
+    transition: border-color .15s;
+    background: #f8fafc;
+    color: #1e293b;
+  }
+  #rx-app #rx-pattern:focus { border-color: #6366f1; background: #fff; }
+  #rx-app #rx-pattern.rx-invalid { border-color: #ef4444; background: #fff5f5; }
 
-#regex-app input[type="text"],
-#regex-app textarea,
-#regex-app select {
-  background: #0d0d1a;
-  border: 1px solid #0f3460;
-  border-radius: 6px;
-  color: #e0e0e0;
-  font-size: 0.95rem;
-  padding: 8px 12px;
-  outline: none;
-  transition: border-color 0.2s;
-  font-family: 'Courier New', 'Consolas', monospace;
-}
-#regex-app input[type="text"]:focus,
-#regex-app textarea:focus,
-#regex-app select:focus {
-  border-color: #00ff88;
-}
+  /* Flag toggles */
+  #rx-app .rx-flags { display: flex; gap: 5px; flex-shrink: 0; flex-wrap: wrap; }
+  #rx-app .rx-flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid #e2e8f0;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #64748b;
+    background: #f8fafc;
+    transition: all .15s;
+    user-select: none;
+  }
+  #rx-app .rx-flag:hover { border-color: #6366f1; color: #6366f1; }
+  #rx-app .rx-flag.on { background: #6366f1; border-color: #6366f1; color: #fff; }
 
-#regex-app #ra-pattern {
-  flex: 1;
-  min-width: 200px;
-}
+  /* Error message */
+  #rx-app .rx-error-msg {
+    display: none;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 6px;
+    color: #b91c1c;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 12px;
+  }
 
-#regex-app .ra-flags {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-#regex-app .ra-flag-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.88rem;
-  color: #aaa;
-  cursor: pointer;
-  user-select: none;
-}
-#regex-app .ra-flag-item input[type="checkbox"] {
-  accent-color: #00ff88;
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-}
-#regex-app .ra-flag-item:hover { color: #00ff88; }
+  /* Quick-insert */
+  #rx-app .rx-quick-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+  #rx-app .rx-qbtn {
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1.5px solid #c7d2fe;
+    border-radius: 20px;
+    background: #eef2ff;
+    color: #4338ca;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  #rx-app .rx-qbtn:hover { background: #6366f1; border-color: #6366f1; color: #fff; }
 
-#regex-app textarea {
-  width: 100%;
-  resize: vertical;
-  min-height: 120px;
-  line-height: 1.6;
-}
+  /* Test string textarea */
+  #rx-app #rx-test {
+    width: 100%;
+    min-height: 110px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    outline: none;
+    resize: vertical;
+    background: #f8fafc;
+    color: #1e293b;
+    transition: border-color .15s;
+  }
+  #rx-app #rx-test:focus { border-color: #6366f1; background: #fff; }
 
-#regex-app .ra-error {
-  color: #ff4d6d;
-  font-size: 0.85rem;
-  margin-top: 6px;
-  min-height: 18px;
-  font-family: monospace;
-}
+  /* Highlight display */
+  #rx-app #rx-hl {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-all;
+    min-height: 80px;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #1e293b;
+  }
+  #rx-app mark.rx-m0 {
+    background: #fde68a;
+    border-radius: 3px;
+    outline: 2px solid #f59e0b;
+    outline-offset: 0;
+    color: #1e293b;
+  }
+  #rx-app mark.rx-m1 {
+    background: #a5f3fc;
+    border-radius: 3px;
+    outline: 2px solid #0ea5e9;
+    outline-offset: 0;
+    color: #1e293b;
+  }
 
-#regex-app .ra-match-count {
-  font-size: 0.88rem;
-  color: #00ff88;
-  font-weight: bold;
-  margin-top: 6px;
-  min-height: 18px;
-}
+  /* Stats bar */
+  #rx-app .rx-stats { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+  #rx-app .rx-stat { font-size: 12px; color: #64748b; }
+  #rx-app .rx-stat strong { color: #1e293b; }
 
-/* highlight inside textarea emulation: use a div overlay */
-#regex-app .ra-highlight-wrapper {
-  position: relative;
-  width: 100%;
-}
-#regex-app #ra-highlight-display {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  min-height: 120px;
-  padding: 8px 12px;
-  font-size: 0.95rem;
-  font-family: 'Courier New', 'Consolas', monospace;
-  line-height: 1.6;
-  color: transparent;
-  pointer-events: none;
-  white-space: pre-wrap;
-  word-break: break-all;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  overflow: hidden;
-}
-#regex-app #ra-highlight-display mark {
-  background: rgba(0,255,136,0.35);
-  color: transparent;
-  border-radius: 2px;
-}
-#regex-app #ra-test-input {
-  background: transparent;
-  color: #e0e0e0;
-  caret-color: #00ff88;
-  position: relative;
-  z-index: 1;
-}
+  /* Tabs */
+  #rx-app .rx-tabs {
+    display: flex;
+    border-bottom: 2px solid #e2e8f0;
+    margin-bottom: 14px;
+  }
+  #rx-app .rx-tab {
+    padding: 7px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all .15s;
+  }
+  #rx-app .rx-tab:hover { color: #6366f1; }
+  #rx-app .rx-tab.on { color: #6366f1; border-bottom-color: #6366f1; }
 
-/* Match result panel */
-#regex-app #ra-results {
-  max-height: 260px;
-  overflow-y: auto;
-  margin-top: 10px;
-}
-#regex-app .ra-match-item {
-  background: #0d0d1a;
-  border: 1px solid #0f3460;
-  border-left: 3px solid #00ff88;
-  border-radius: 5px;
-  padding: 8px 12px;
-  margin-bottom: 8px;
-  font-size: 0.88rem;
-}
-#regex-app .ra-match-header {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  color: #aaa;
-  margin-bottom: 4px;
-}
-#regex-app .ra-match-header span { color: #00ff88; }
-#regex-app .ra-match-val {
-  font-family: 'Courier New', monospace;
-  color: #fff;
-  word-break: break-all;
-  background: #1a1a2e;
-  border-radius: 3px;
-  padding: 2px 6px;
-  display: inline-block;
-}
-#regex-app .ra-group-list {
-  margin-top: 6px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-#regex-app .ra-group-badge {
-  background: #16213e;
-  border: 1px solid #00ff88;
-  border-radius: 4px;
-  padding: 2px 8px;
-  font-size: 0.82rem;
-  color: #00ff88;
-  font-family: monospace;
-}
+  /* Match list */
+  #rx-app .rx-match-list { list-style: none; max-height: 280px; overflow-y: auto; }
+  #rx-app .rx-match-item {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    gap: 8px;
+    align-items: start;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  #rx-app .rx-match-item:last-child { border-bottom: none; }
+  #rx-app .rx-mi-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: #6366f1;
+    background: #eef2ff;
+    border-radius: 4px;
+    padding: 2px 5px;
+    text-align: center;
+  }
+  #rx-app .rx-mi-val {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    background: #fde68a;
+    border-radius: 3px;
+    padding: 1px 5px;
+    word-break: break-all;
+    color: #1e293b;
+  }
+  #rx-app .rx-mi-pos { font-size: 11px; color: #94a3b8; margin-top: 3px; }
+  #rx-app .rx-mi-groups { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  #rx-app .rx-group-chip {
+    font-size: 11px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    background: #e0f2fe;
+    color: #0369a1;
+    border-radius: 3px;
+    padding: 1px 6px;
+  }
+  #rx-app .rx-empty { text-align: center; color: #94a3b8; font-size: 13px; padding: 22px 0; }
 
-/* Replace mode */
-#regex-app .ra-replace-row {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-#regex-app #ra-replace-pattern {
-  flex: 1;
-  min-width: 180px;
-}
-#regex-app #ra-replace-output {
-  background: #0d0d1a;
-  border: 1px solid #0f3460;
-  border-radius: 6px;
-  color: #e0e0e0;
-  font-size: 0.95rem;
-  padding: 8px 12px;
-  width: 100%;
-  min-height: 80px;
-  font-family: 'Courier New', monospace;
-  white-space: pre-wrap;
-  word-break: break-all;
-  margin-top: 10px;
-}
+  /* Replace panel */
+  #rx-app .rx-replace-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #rx-app #rx-repl-in {
+    flex: 1;
+    min-width: 180px;
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 7px;
+    background: #f8fafc;
+    outline: none;
+    transition: border-color .15s;
+    color: #1e293b;
+  }
+  #rx-app #rx-repl-in:focus { border-color: #6366f1; background: #fff; }
+  #rx-app #rx-repl-out {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    min-height: 50px;
+    margin-top: 10px;
+    color: #1e293b;
+  }
+  #rx-app .rx-copy-btn {
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 6px;
+    background: #f8fafc;
+    color: #475569;
+    cursor: pointer;
+    transition: all .15s;
+    flex-shrink: 0;
+  }
+  #rx-app .rx-copy-btn:hover { border-color: #6366f1; color: #6366f1; }
 
-/* Patterns dropdown */
-#regex-app select {
-  min-width: 200px;
-  cursor: pointer;
-}
+  /* Explain panel */
+  #rx-app .rx-explain-list { list-style: none; }
+  #rx-app .rx-explain-item {
+    display: flex;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #f1f5f9;
+    font-size: 12px;
+  }
+  #rx-app .rx-explain-item:last-child { border: none; }
+  #rx-app .rx-ex-tok {
+    font-family: "Fira Mono", "Consolas", monospace;
+    font-weight: 700;
+    color: #6366f1;
+    min-width: 96px;
+    flex-shrink: 0;
+  }
+  #rx-app .rx-ex-desc { color: #475569; line-height: 1.5; }
 
-/* Cheatsheet */
-#regex-app .ra-cheatsheet {
-  margin-top: 0;
-}
-#regex-app .ra-cs-toggle {
-  background: none;
-  border: 1px solid #0f3460;
-  border-radius: 6px;
-  color: #00ff88;
-  padding: 6px 14px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background 0.2s;
-}
-#regex-app .ra-cs-toggle:hover { background: #0f3460; }
-#regex-app #ra-cs-body {
-  display: none;
-  margin-top: 12px;
-  overflow-x: auto;
-}
-#regex-app #ra-cs-body.open { display: block; }
-#regex-app .ra-cs-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-}
-#regex-app .ra-cs-table th {
-  background: #0f3460;
-  color: #00ff88;
-  padding: 6px 10px;
-  text-align: left;
-  font-weight: 600;
-}
-#regex-app .ra-cs-table td {
-  padding: 5px 10px;
-  border-bottom: 1px solid #0f3460;
-  vertical-align: top;
-}
-#regex-app .ra-cs-table tr:hover td { background: #16213e; }
-#regex-app .ra-cs-table code {
-  color: #00ff88;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-}
+  /* freee CTA */
+  #rx-app .rx-freee-cta {
+    margin-top: 28px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 1.5px solid #bae6fd;
+    border-radius: 10px;
+  }
 
-/* Buttons */
-#regex-app .ra-btn {
-  background: #00ff88;
-  color: #1a1a2e;
-  border: none;
-  border-radius: 6px;
-  padding: 7px 16px;
-  font-size: 0.88rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: opacity 0.2s;
-  white-space: nowrap;
-}
-#regex-app .ra-btn:hover { opacity: 0.85; }
-#regex-app .ra-btn-ghost {
-  background: none;
-  border: 1px solid #00ff88;
-  color: #00ff88;
-  border-radius: 6px;
-  padding: 7px 16px;
-  font-size: 0.88rem;
-  cursor: pointer;
-  transition: background 0.2s;
-  white-space: nowrap;
-}
-#regex-app .ra-btn-ghost:hover { background: #00ff8822; }
-
-/* Mode tabs */
-#regex-app .ra-tabs {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-#regex-app .ra-tab {
-  background: #0d0d1a;
-  border: 1px solid #0f3460;
-  border-radius: 6px;
-  color: #aaa;
-  padding: 6px 18px;
-  cursor: pointer;
-  font-size: 0.88rem;
-  transition: all 0.2s;
-}
-#regex-app .ra-tab.active {
-  background: #00ff88;
-  color: #1a1a2e;
-  border-color: #00ff88;
-  font-weight: bold;
-}
-
-/* Copy feedback */
-#regex-app .ra-copy-msg {
-  font-size: 0.82rem;
-  color: #00ff88;
-  margin-left: 8px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-#regex-app .ra-copy-msg.show { opacity: 1; }
-
-/* Scrollbar */
-#regex-app ::-webkit-scrollbar { width: 6px; height: 6px; }
-#regex-app ::-webkit-scrollbar-track { background: #0d0d1a; }
-#regex-app ::-webkit-scrollbar-thumb { background: #0f3460; border-radius: 3px; }
-
-/* Responsive */
-@media (max-width: 600px) {
-  #regex-app { padding: 14px; }
-  #regex-app .ra-row { flex-direction: column; align-items: stretch; }
-  #regex-app select { min-width: 100%; }
-}
+  @media (max-width: 600px) {
+    #rx-app .rx-pattern-row { flex-direction: column; align-items: stretch; }
+    #rx-app .rx-slash { display: none; }
+    #rx-app #rx-pattern { font-size: 14px; }
+  }
 </style>
 
-<!-- ========== PATTERN & FLAGS ========== -->
-<div class="ra-section">
-  <h2>正規表現パターン</h2>
-  <div class="ra-row" style="margin-bottom:10px;">
-    <span style="color:#aaa;font-size:1.1rem;">/</span>
-    <input type="text" id="ra-pattern" placeholder="正規表現を入力... 例: \d{3}-\d{4}" autocomplete="off" spellcheck="false">
-    <span style="color:#aaa;font-size:1.1rem;">/</span>
-    <span id="ra-flag-display" style="color:#00ff88;font-family:monospace;min-width:40px;">g</span>
-  </div>
-  <div class="ra-flags">
-    <span style="font-size:0.85rem;color:#aaa;margin-right:4px;">フラグ:</span>
-    <label class="ra-flag-item"><input type="checkbox" id="flag-g" checked> g <span style="color:#666;font-size:0.78rem;">(全体)</span></label>
-    <label class="ra-flag-item"><input type="checkbox" id="flag-i"> i <span style="color:#666;font-size:0.78rem;">(大小無視)</span></label>
-    <label class="ra-flag-item"><input type="checkbox" id="flag-m"> m <span style="color:#666;font-size:0.78rem;">(複数行)</span></label>
-    <label class="ra-flag-item"><input type="checkbox" id="flag-s"> s <span style="color:#666;font-size:0.78rem;">(ドット改行)</span></label>
-    <label class="ra-flag-item"><input type="checkbox" id="flag-u"> u <span style="color:#666;font-size:0.78rem;">(Unicode)</span></label>
-  </div>
-  <div class="ra-error" id="ra-error"></div>
-
-  <!-- Preset patterns -->
-  <div class="ra-row" style="margin-top:12px;">
-    <span style="font-size:0.85rem;color:#aaa;white-space:nowrap;">よく使うパターン:</span>
-    <select id="ra-presets">
-      <option value="">-- 選択してください --</option>
-      <optgroup label="基本">
-        <option value="\\d+">数字 (\d+)</option>
-        <option value="\\w+">単語文字 (\w+)</option>
-        <option value="\\s+">空白文字 (\s+)</option>
-        <option value="[a-zA-Z]+">英字のみ</option>
-      </optgroup>
-      <optgroup label="連絡先">
-        <option value="[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}">メールアドレス</option>
-        <option value="https?://[\\w/:%#\\$&\\?\\(\\)~\\.=\\+\\-]+">URL (http/https)</option>
-        <option value="0\\d{1,4}[\\-\\s]?\\d{1,4}[\\-\\s]?\\d{4}">電話番号（固定・携帯）</option>
-        <option value="0[789]0[\\-\\s]?\\d{4}[\\-\\s]?\\d{4}">携帯電話番号</option>
-      </optgroup>
-      <optgroup label="日本の住所・コード">
-        <option value="\\d{3}-\\d{4}">郵便番号 (123-4567)</option>
-        <option value="〒?\\d{3}-\\d{4}">郵便番号 (〒付き)</option>
-        <option value="\\d{4}[年/\\-]\\d{1,2}[月/\\-]\\d{1,2}日?">日付（年月日）</option>
-        <option value="[A-Z]{2}\\d{2}[A-Z]\\d{7}">国際郵便追跡番号</option>
-      </optgroup>
-      <optgroup label="日本語文字">
-        <option value="[\\u3041-\\u3096]+">ひらがな</option>
-        <option value="[\\u30A1-\\u30FC]+">カタカナ（半角除く）</option>
-        <option value="[\\uFF65-\\uFF9F]+">半角カタカナ</option>
-        <option value="[\\u4E00-\\u9FFF]+">漢字（CJK統合）</option>
-        <option value="[\\u3041-\\u3096\\u30A1-\\u30FC\\u4E00-\\u9FFF]+">日本語（ひら・カタ・漢字）</option>
-        <option value="[\\uFF01-\\uFF5E]+">全角英数字・記号</option>
-        <option value="[\\u3000-\\u303F]+">CJK記号・句読点</option>
-      </optgroup>
-      <optgroup label="フォーマット">
-        <option value="#[0-9a-fA-F]{3,6}">カラーコード (HEX)</option>
-        <option value="\\d{4}-\\d{2}-\\d{2}">日付 (YYYY-MM-DD)</option>
-        <option value="\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}">IPアドレス (v4)</option>
-        <option value="([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}">MACアドレス</option>
-        <option value="[0-9]{4}[\\s\\-]?[0-9]{4}[\\s\\-]?[0-9]{4}[\\s\\-]?[0-9]{4}">クレジットカード番号</option>
-      </optgroup>
-    </select>
-    <button class="ra-btn-ghost" onclick="applyPreset()">適用</button>
-  </div>
-</div>
-
-<!-- ========== TEST STRING ========== -->
-<div class="ra-section">
-  <h2>テスト文字列</h2>
-  <div class="ra-highlight-wrapper">
-    <div id="ra-highlight-display" aria-hidden="true"></div>
-    <textarea id="ra-test-input" placeholder="テストしたい文字列を入力してください...&#10;例: 田中さんのメールはtanaka@example.co.jpです。電話は090-1234-5678。"></textarea>
-  </div>
-  <div class="ra-match-count" id="ra-match-count"></div>
-</div>
-
-<!-- ========== MODE TABS ========== -->
-<div class="ra-section">
-  <div class="ra-tabs">
-    <button class="ra-tab active" id="tab-match" onclick="setMode('match')">マッチ結果</button>
-    <button class="ra-tab" id="tab-replace" onclick="setMode('replace')">置換モード</button>
-  </div>
-
-  <!-- Match results -->
-  <div id="mode-match">
-    <div id="ra-results"><p style="color:#666;font-size:0.88rem;">マッチ結果がここに表示されます。</p></div>
-  </div>
-
-  <!-- Replace mode -->
-  <div id="mode-replace" style="display:none;">
-    <div class="ra-replace-row">
-      <span style="color:#aaa;font-size:0.88rem;white-space:nowrap;">置換パターン:</span>
-      <input type="text" id="ra-replace-pattern" placeholder="置換後の文字列（$1, $2 でグループ参照）" autocomplete="off" spellcheck="false">
-      <button class="ra-btn" onclick="copyReplaceOutput()">コピー</button>
-      <span class="ra-copy-msg" id="ra-copy-replace-msg">コピーしました</span>
+<!-- パターン入力 -->
+<div class="rx-card">
+  <div class="rx-card-title">正規表現パターン</div>
+  <div class="rx-pattern-row">
+    <span class="rx-slash">/</span>
+    <input id="rx-pattern" type="text" placeholder="パターンを入力… 例: \d{3}-\d{4}" autocomplete="off" spellcheck="false" />
+    <span class="rx-slash">/</span>
+    <div class="rx-flags">
+      <span class="rx-flag on"  data-flag="g" title="g — 全マッチを検索">g</span>
+      <span class="rx-flag"     data-flag="i" title="i — 大文字・小文字を無視">i</span>
+      <span class="rx-flag"     data-flag="m" title="m — 複数行モード">m</span>
+      <span class="rx-flag"     data-flag="s" title="s — ドットが改行にもマッチ">s</span>
+      <span class="rx-flag"     data-flag="u" title="u — Unicodeモード">u</span>
     </div>
-    <div id="ra-replace-output">置換結果がここに表示されます。</div>
+  </div>
+  <div class="rx-error-msg" id="rx-err"></div>
+</div>
+
+<!-- よく使うパターン -->
+<div class="rx-card">
+  <div class="rx-card-title">クイック挿入 — よく使うパターン</div>
+  <div class="rx-quick-wrap">
+    <button class="rx-qbtn" data-p="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">メールアドレス</button>
+    <button class="rx-qbtn" data-p="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/=]*)">URL</button>
+    <button class="rx-qbtn" data-p="0[789]0[\-\s]?\d{4}[\-\s]?\d{4}">携帯電話番号</button>
+    <button class="rx-qbtn" data-p="\d{3}-\d{4}">郵便番号</button>
+    <button class="rx-qbtn" data-p="\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b">IPv4アドレス</button>
+    <button class="rx-qbtn" data-p="\d{4}[-\/]\d{2}[-\/]\d{2}">日付 YYYY-MM-DD</button>
+    <button class="rx-qbtn" data-p="[\u3041-\u3096]+">ひらがな</button>
+    <button class="rx-qbtn" data-p="[\u30A1-\u30FC]+">カタカナ</button>
+    <button class="rx-qbtn" data-p="[\u4E00-\u9FFF]+">漢字</button>
+    <button class="rx-qbtn" data-p="#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b">カラーコード</button>
   </div>
 </div>
 
-<!-- ========== CHEATSHEET ========== -->
-<div class="ra-section ra-cheatsheet">
-  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-    <h2 style="margin:0;">正規表現チートシート</h2>
-    <button class="ra-cs-toggle" onclick="toggleCheatsheet()">▼ 表示する</button>
-  </div>
-  <div id="ra-cs-body">
-    <table class="ra-cs-table">
-      <thead><tr><th>パターン</th><th>説明</th><th>例</th></tr></thead>
-      <tbody>
-        <tr><td><code>.</code></td><td>任意の1文字（改行除く）</td><td><code>a.c</code> → "abc", "a1c"</td></tr>
-        <tr><td><code>^</code></td><td>行の先頭</td><td><code>^Hello</code></td></tr>
-        <tr><td><code>$</code></td><td>行の末尾</td><td><code>end$</code></td></tr>
-        <tr><td><code>*</code></td><td>0回以上の繰り返し</td><td><code>ab*c</code> → "ac", "abc", "abbc"</td></tr>
-        <tr><td><code>+</code></td><td>1回以上の繰り返し</td><td><code>ab+c</code> → "abc", "abbc"</td></tr>
-        <tr><td><code>?</code></td><td>0回または1回</td><td><code>colou?r</code></td></tr>
-        <tr><td><code>{n}</code></td><td>ちょうどn回</td><td><code>\d{4}</code> → 4桁の数字</td></tr>
-        <tr><td><code>{n,m}</code></td><td>n〜m回</td><td><code>\d{2,4}</code></td></tr>
-        <tr><td><code>[abc]</code></td><td>いずれか1文字</td><td><code>[aeiou]</code> → 母音</td></tr>
-        <tr><td><code>[^abc]</code></td><td>以外の1文字</td><td><code>[^0-9]</code> → 数字以外</td></tr>
-        <tr><td><code>(abc)</code></td><td>キャプチャグループ</td><td><code>(\d{3})-(\d{4})</code></td></tr>
-        <tr><td><code>(?:abc)</code></td><td>非キャプチャグループ</td><td><code>(?:https?)</code></td></tr>
-        <tr><td><code>a|b</code></td><td>aまたはb</td><td><code>cat|dog</code></td></tr>
-        <tr><td><code>\d</code></td><td>数字 [0-9]</td><td><code>\d+</code></td></tr>
-        <tr><td><code>\D</code></td><td>数字以外</td><td></td></tr>
-        <tr><td><code>\w</code></td><td>単語文字 [a-zA-Z0-9_]</td><td></td></tr>
-        <tr><td><code>\W</code></td><td>単語文字以外</td><td></td></tr>
-        <tr><td><code>\s</code></td><td>空白文字</td><td></td></tr>
-        <tr><td><code>\S</code></td><td>空白文字以外</td><td></td></tr>
-        <tr><td><code>\b</code></td><td>単語境界</td><td><code>\bword\b</code></td></tr>
-        <tr><td><code>(?=...)</code></td><td>肯定先読み</td><td><code>\d(?=px)</code></td></tr>
-        <tr><td><code>(?!...)</code></td><td>否定先読み</td><td><code>\d(?!px)</code></td></tr>
-        <tr><td><code>*?</code> / <code>+?</code></td><td>非貪欲マッチ</td><td><code>&lt;.+?&gt;</code></td></tr>
-      </tbody>
-    </table>
+<!-- テスト文字列 -->
+<div class="rx-card">
+  <div class="rx-card-title">テスト文字列</div>
+  <textarea id="rx-test" spellcheck="false" placeholder="テストしたい文字列を入力してください…">田中さんのメールはtanaka@example.co.jpです。
+電話番号: 090-1234-5678
+郵便番号: 〒100-0001
+ウェブサイト: https://www.example.com
+IPアドレス: 192.168.1.1
+日付: 2025-05-16</textarea>
+</div>
+
+<!-- マッチハイライト -->
+<div class="rx-card">
+  <div class="rx-card-title">マッチハイライト</div>
+  <div id="rx-hl"></div>
+  <div class="rx-stats">
+    <span class="rx-stat">マッチ数: <strong id="rx-count">—</strong></span>
+    <span class="rx-stat">実行時間: <strong id="rx-time">—</strong></span>
   </div>
 </div>
 
-</div><!-- #regex-app -->
+<!-- 下部パネル -->
+<div class="rx-card">
+  <div class="rx-tabs">
+    <button class="rx-tab on"  data-tab="matches">マッチ詳細</button>
+    <button class="rx-tab"     data-tab="replace">置換モード</button>
+    <button class="rx-tab"     data-tab="explain">パターン解説</button>
+  </div>
+
+  <!-- マッチ詳細 -->
+  <div id="rx-panel-matches">
+    <ul class="rx-match-list" id="rx-mlist">
+      <li class="rx-empty">パターンを入力するとマッチ結果が表示されます。</li>
+    </ul>
+  </div>
+
+  <!-- 置換モード -->
+  <div id="rx-panel-replace" style="display:none">
+    <div class="rx-replace-row">
+      <label style="font-size:12px;color:#64748b;font-weight:600;white-space:nowrap;">置換文字列:</label>
+      <input id="rx-repl-in" type="text" placeholder="置換後の文字列（$1, $2 でグループ参照）…" spellcheck="false" />
+      <button class="rx-copy-btn" id="rx-copy-repl">結果をコピー</button>
+    </div>
+    <div id="rx-repl-out"></div>
+  </div>
+
+  <!-- パターン解説 -->
+  <div id="rx-panel-explain" style="display:none">
+    <ul class="rx-explain-list" id="rx-exlist">
+      <li class="rx-empty">パターンを入力するとトークンごとの解説が表示されます。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- freee CTA -->
+<div class="rx-freee-cta">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">開発業務の経費管理もかんたんに</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、開発ツール・クラウドサービスの経費精算もクラウドで一元管理。無料トライアル実施中。</span>
+  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+</div>
 
 <script>
-(function() {
+(function () {
   'use strict';
 
-  var currentMode = 'match';
-  var debounceTimer = null;
+  var flagState = { g: true, i: false, m: false, s: false, u: false };
+  var activeTab = 'matches';
 
-  function getFlags() {
-    var f = '';
-    if (document.getElementById('flag-g').checked) f += 'g';
-    if (document.getElementById('flag-i').checked) f += 'i';
-    if (document.getElementById('flag-m').checked) f += 'm';
-    if (document.getElementById('flag-s').checked) f += 's';
-    if (document.getElementById('flag-u').checked) f += 'u';
-    return f;
+  var elPat    = document.getElementById('rx-pattern');
+  var elTest   = document.getElementById('rx-test');
+  var elErr    = document.getElementById('rx-err');
+  var elHl     = document.getElementById('rx-hl');
+  var elCount  = document.getElementById('rx-count');
+  var elTime   = document.getElementById('rx-time');
+  var elMlist  = document.getElementById('rx-mlist');
+  var elReplIn = document.getElementById('rx-repl-in');
+  var elReplOut= document.getElementById('rx-repl-out');
+  var elExlist = document.getElementById('rx-exlist');
+
+  /* フラグトグル */
+  document.querySelectorAll('#rx-app .rx-flag').forEach(function (el) {
+    el.addEventListener('click', function () {
+      var f = el.dataset.flag;
+      flagState[f] = !flagState[f];
+      el.classList.toggle('on', flagState[f]);
+      run();
+    });
+  });
+
+  /* タブ切替 */
+  document.querySelectorAll('#rx-app .rx-tab').forEach(function (el) {
+    el.addEventListener('click', function () {
+      activeTab = el.dataset.tab;
+      document.querySelectorAll('#rx-app .rx-tab').forEach(function (t) {
+        t.classList.toggle('on', t === el);
+      });
+      document.getElementById('rx-panel-matches').style.display = activeTab === 'matches' ? '' : 'none';
+      document.getElementById('rx-panel-replace').style.display = activeTab === 'replace'  ? '' : 'none';
+      document.getElementById('rx-panel-explain').style.display = activeTab === 'explain'  ? '' : 'none';
+    });
+  });
+
+  /* クイック挿入 */
+  document.querySelectorAll('#rx-app .rx-qbtn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      elPat.value = btn.dataset.p;
+      run();
+      elPat.focus();
+    });
+  });
+
+  /* 結果コピー */
+  document.getElementById('rx-copy-repl').addEventListener('click', function () {
+    var txt = elReplOut.textContent;
+    if (!txt) return;
+    var btn = this;
+    navigator.clipboard.writeText(txt).catch(function () {
+      var ta = document.createElement('textarea');
+      ta.value = txt;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    });
+    btn.textContent = 'コピーしました!';
+    setTimeout(function () { btn.textContent = '結果をコピー'; }, 1600);
+  });
+
+  elPat.addEventListener('input', run);
+  elTest.addEventListener('input', run);
+  elReplIn.addEventListener('input', run);
+
+  /* ═══════════ メイン実行 ═══════════ */
+  function run() {
+    var rawPat  = elPat.value;
+    var testStr = elTest.value;
+    var fStr    = buildFlagStr();
+
+    elErr.style.display = 'none';
+    elPat.classList.remove('rx-invalid');
+
+    if (!rawPat) {
+      elHl.textContent = testStr;
+      elCount.textContent = '—';
+      elTime.textContent  = '—';
+      setEmpty('パターンを入力するとマッチ結果が表示されます。');
+      elReplOut.textContent = '';
+      setExplain('');
+      return;
+    }
+
+    var re;
+    try { re = new RegExp(rawPat, fStr); }
+    catch (e) {
+      elPat.classList.add('rx-invalid');
+      elErr.textContent = 'エラー: ' + e.message;
+      elErr.style.display = 'block';
+      elHl.textContent = testStr;
+      elCount.textContent = 'エラー';
+      elTime.textContent  = '—';
+      setEmpty('正規表現が無効です: ' + e.message);
+      elReplOut.textContent = '';
+      return;
+    }
+
+    var t0 = performance.now();
+    var matches = [];
+    if (flagState.g) {
+      var reG = new RegExp(rawPat, fStr);
+      var m;
+      while ((m = reG.exec(testStr)) !== null) {
+        matches.push({ val: m[0], idx: m.index, groups: Array.from(m).slice(1) });
+        if (m[0].length === 0) reG.lastIndex++;
+        if (matches.length >= 1000) break;
+      }
+    } else {
+      var m1 = re.exec(testStr);
+      if (m1) matches.push({ val: m1[0], idx: m1.index, groups: Array.from(m1).slice(1) });
+    }
+    var t1 = performance.now();
+
+    elCount.textContent = matches.length + ' 件';
+    elTime.textContent  = (t1 - t0).toFixed(3) + ' ms';
+
+    renderHighlight(testStr, matches);
+    renderMatchList(matches);
+    renderReplace(testStr, re);
+    setExplain(rawPat);
   }
 
-  function updateFlagDisplay() {
-    document.getElementById('ra-flag-display').textContent = getFlags() || '(なし)';
+  function buildFlagStr() {
+    return Object.keys(flagState).filter(function (f) { return flagState[f]; }).join('');
   }
 
-  function escapeHtml(str) {
-    return str
+  function esc(s) {
+    return String(s)
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
   }
 
-  function run() {
-    var patternVal = document.getElementById('ra-pattern').value;
-    var testVal = document.getElementById('ra-test-input').value;
-    var errorEl = document.getElementById('ra-error');
-    var countEl = document.getElementById('ra-match-count');
-    var highlightEl = document.getElementById('ra-highlight-display');
-    var resultsEl = document.getElementById('ra-results');
-
-    updateFlagDisplay();
-
-    if (!patternVal) {
-      errorEl.textContent = '';
-      countEl.textContent = '';
-      highlightEl.innerHTML = '';
-      resultsEl.innerHTML = '<p style="color:#666;font-size:0.88rem;">マッチ結果がここに表示されます。</p>';
-      updateReplace(null, testVal);
-      return;
-    }
-
-    var flags = getFlags();
-    var regex;
-    try {
-      regex = new RegExp(patternVal, flags);
-      errorEl.textContent = '';
-    } catch(e) {
-      errorEl.textContent = 'エラー: ' + e.message;
-      countEl.textContent = '';
-      highlightEl.innerHTML = '';
-      resultsEl.innerHTML = '<p style="color:#ff4d6d;font-size:0.88rem;">正規表現が無効です。</p>';
-      updateReplace(null, testVal);
-      return;
-    }
-
-    // Find all matches
-    var matches = [];
-    var safeRegex;
-    try {
-      safeRegex = new RegExp(patternVal, flags.indexOf('g') === -1 ? flags : flags);
-      if (flags.indexOf('g') !== -1) {
-        var m;
-        // Reset lastIndex safety
-        safeRegex.lastIndex = 0;
-        while ((m = safeRegex.exec(testVal)) !== null) {
-          matches.push(m);
-          if (!m[0] && m.index === safeRegex.lastIndex) {
-            safeRegex.lastIndex++;
-          }
-          if (matches.length > 1000) break;
-        }
-      } else {
-        var single = safeRegex.exec(testVal);
-        if (single) matches.push(single);
-      }
-    } catch(e) {
-      matches = [];
-    }
-
-    // Match count
-    if (matches.length === 0) {
-      countEl.textContent = 'マッチなし';
-      countEl.style.color = '#ff4d6d';
-    } else {
-      countEl.textContent = matches.length + ' 件マッチ';
-      countEl.style.color = '#00ff88';
-    }
-
-    // Highlight
-    buildHighlight(testVal, matches, highlightEl);
-
-    // Results panel
-    buildResults(matches, resultsEl);
-
-    // Replace
-    updateReplace(regex, testVal);
+  function renderHighlight(str, matches) {
+    if (!matches.length) { elHl.textContent = str; return; }
+    var html = '', cur = 0;
+    matches.forEach(function (m, i) {
+      if (m.idx > cur) html += esc(str.slice(cur, m.idx));
+      html += '<mark class="rx-m' + (i % 2) + '">' + esc(m.val) + '</mark>';
+      cur = m.idx + m.val.length;
+    });
+    html += esc(str.slice(cur));
+    elHl.innerHTML = html;
   }
 
-  function buildHighlight(text, matches, el) {
-    if (matches.length === 0) {
-      el.innerHTML = escapeHtml(text);
-      return;
-    }
-    var result = '';
-    var last = 0;
-    for (var i = 0; i < matches.length; i++) {
-      var m = matches[i];
-      var start = m.index;
-      var end = m.index + m[0].length;
-      result += escapeHtml(text.slice(last, start));
-      result += '<mark>' + escapeHtml(m[0] || ' ') + '</mark>';
-      last = end;
-    }
-    result += escapeHtml(text.slice(last));
-    el.innerHTML = result;
-  }
-
-  function buildResults(matches, el) {
-    if (matches.length === 0) {
-      el.innerHTML = '<p style="color:#ff4d6d;font-size:0.88rem;">マッチする文字列が見つかりませんでした。</p>';
-      return;
-    }
+  function renderMatchList(matches) {
+    if (!matches.length) { setEmpty('マッチする文字列が見つかりませんでした。'); return; }
     var html = '';
-    var limit = Math.min(matches.length, 100);
-    for (var i = 0; i < limit; i++) {
-      var m = matches[i];
-      html += '<div class="ra-match-item">';
-      html += '<div class="ra-match-header">';
-      html += 'マッチ <span>#' + (i+1) + '</span>';
-      html += '&nbsp;&nbsp;インデックス: <span>' + m.index + '</span>';
-      html += '&nbsp;&nbsp;長さ: <span>' + m[0].length + '</span>';
-      html += '</div>';
-      html += '<div><span class="ra-match-val">' + escapeHtml(m[0]) + '</span></div>';
-      if (m.length > 1) {
-        html += '<div class="ra-group-list">';
-        for (var g = 1; g < m.length; g++) {
-          html += '<span class="ra-group-badge">$' + g + ': ' + (m[g] !== undefined ? escapeHtml(m[g]) : '<i style="color:#666">未定義</i>') + '</span>';
-        }
+    matches.forEach(function (m, i) {
+      html += '<li class="rx-match-item">';
+      html += '<span class="rx-mi-num">#' + (i + 1) + '</span>';
+      html += '<div>';
+      html += '<div class="rx-mi-val">' + esc(m.val) + '</div>';
+      html += '<div class="rx-mi-pos">インデックス ' + m.idx + ' → ' + (m.idx + m.val.length) + '</div>';
+      if (m.groups.length) {
+        html += '<div class="rx-mi-groups">';
+        m.groups.forEach(function (g, gi) {
+          html += '<span class="rx-group-chip">$' + (gi + 1) + ': ' + esc(g === undefined ? '未定義' : g) + '</span>';
+        });
         html += '</div>';
       }
-      html += '</div>';
-    }
-    if (matches.length > 100) {
-      html += '<p style="color:#aaa;font-size:0.82rem;">... 他 ' + (matches.length - 100) + ' 件（表示は100件まで）</p>';
-    }
-    el.innerHTML = html;
+      html += '</div></li>';
+    });
+    elMlist.innerHTML = html;
   }
 
-  function updateReplace(regex, testVal) {
-    var replaceOutput = document.getElementById('ra-replace-output');
-    if (currentMode !== 'replace') return;
-    if (!regex) {
-      replaceOutput.textContent = testVal || '置換結果がここに表示されます。';
+  function setEmpty(msg) {
+    elMlist.innerHTML = '<li class="rx-empty">' + esc(msg) + '</li>';
+  }
+
+  function renderReplace(str, re) {
+    var repl = elReplIn.value;
+    if (!repl && repl !== '0') { elReplOut.textContent = ''; return; }
+    try { elReplOut.textContent = str.replace(re, repl); }
+    catch (e) { elReplOut.textContent = ''; }
+  }
+
+  /* ═══════════ パターン解説 ═══════════ */
+  var TOKENS = [
+    [/^\^/,                       '行頭（または文字列先頭）のアンカー'],
+    [/^\$/,                       '行末（または文字列末尾）のアンカー'],
+    [/^\(\?<=/,                   '肯定後読みアサーション'],
+    [/^\(\?<!/,                   '否定後読みアサーション'],
+    [/^\(\?=/,                    '肯定先読みアサーション'],
+    [/^\(\?!/,                    '否定先読みアサーション'],
+    [/^\(\?:/,                    '非キャプチャグループ'],
+    [/^\(\?<[a-zA-Z_]\w*>/,      '名前付きキャプチャグループ'],
+    [/^\(/,                       'キャプチャグループの開始'],
+    [/^\)/,                       'グループの終了'],
+    [/^\[\^/,                     '否定文字クラス — 列挙した文字以外にマッチ'],
+    [/^\[/,                       '文字クラス — 列挙した文字のいずれか1文字にマッチ'],
+    [/^\]/,                       '文字クラスの終了'],
+    [/^\\d/,                      'ショートハンド: 数字 [0-9]'],
+    [/^\\D/,                      'ショートハンド: 数字以外'],
+    [/^\\w/,                      'ショートハンド: 単語文字 [a-zA-Z0-9_]'],
+    [/^\\W/,                      'ショートハンド: 単語文字以外'],
+    [/^\\s/,                      'ショートハンド: 空白文字（スペース・タブ・改行など）'],
+    [/^\\S/,                      'ショートハンド: 空白文字以外'],
+    [/^\\b/,                      '単語境界アサーション'],
+    [/^\\B/,                      '非単語境界アサーション'],
+    [/^\\n/,                      '改行文字（リテラル）'],
+    [/^\\t/,                      'タブ文字（リテラル）'],
+    [/^\\r/,                      'キャリッジリターン（リテラル）'],
+    [/^\\\\/,                     'バックスラッシュ（リテラル）'],
+    [/^\\u[0-9a-fA-F]{4}/,       'Unicodeコードポイントエスケープ'],
+    [/^\\x[0-9a-fA-F]{2}/,       '16進数文字エスケープ'],
+    [/^\\([0-9]+)/,               'キャプチャグループN への後方参照'],
+    [/^\\./,                      'エスケープされた特殊文字 — リテラルとして扱う'],
+    [/^\{[0-9]+,[0-9]+\}\?/,     '非貪欲量指定子: {n}〜{m}回（できるだけ少なく）'],
+    [/^\{[0-9]+,\}\?/,           '非貪欲量指定子: {n}回以上（できるだけ少なく）'],
+    [/^\{[0-9]+\}\?/,            '非貪欲量指定子: ちょうど{n}回'],
+    [/^\{[0-9]+,[0-9]+\}/,       '貪欲量指定子: {n}〜{m}回'],
+    [/^\{[0-9]+,\}/,             '貪欲量指定子: {n}回以上'],
+    [/^\{[0-9]+\}/,              '量指定子: ちょうど{n}回'],
+    [/^\*\?/,                    '非貪欲量指定子: 0回以上（できるだけ少なく）'],
+    [/^\+\?/,                    '非貪欲量指定子: 1回以上（できるだけ少なく）'],
+    [/^\?\?/,                    '非貪欲量指定子: 0または1回（0を優先）'],
+    [/^\*/,                      '貪欲量指定子: 0回以上'],
+    [/^\+/,                      '貪欲量指定子: 1回以上'],
+    [/^\?/,                      '量指定子: 0または1回（省略可能）'],
+    [/^\|/,                      '選択（OR）— 左右どちらかにマッチ'],
+    [/^\./,                      'ワイルドカード — 改行以外の任意の1文字（s フラグで改行にもマッチ）'],
+    [/^./,                       'リテラル文字'],
+  ];
+
+  function tokenize(pat) {
+    var toks = [], rem = pat, limit = 300;
+    while (rem.length && limit-- > 0) {
+      var hit = false;
+      for (var i = 0; i < TOKENS.length; i++) {
+        var m = rem.match(TOKENS[i][0]);
+        if (m) {
+          toks.push({ t: m[0], d: TOKENS[i][1] });
+          rem = rem.slice(m[0].length);
+          hit = true;
+          break;
+        }
+      }
+      if (!hit) rem = rem.slice(1);
+    }
+    return toks;
+  }
+
+  function setExplain(pat) {
+    if (!pat) {
+      elExlist.innerHTML = '<li class="rx-empty">パターンを入力するとトークンごとの解説が表示されます。</li>';
       return;
     }
-    var replPat = document.getElementById('ra-replace-pattern').value;
-    try {
-      var result = testVal.replace(regex, replPat);
-      replaceOutput.textContent = result;
-    } catch(e) {
-      replaceOutput.textContent = 'エラー: ' + e.message;
-    }
-  }
-
-  window.setMode = function(mode) {
-    currentMode = mode;
-    document.getElementById('tab-match').className = 'ra-tab' + (mode === 'match' ? ' active' : '');
-    document.getElementById('tab-replace').className = 'ra-tab' + (mode === 'replace' ? ' active' : '');
-    document.getElementById('mode-match').style.display = mode === 'match' ? '' : 'none';
-    document.getElementById('mode-replace').style.display = mode === 'replace' ? '' : 'none';
-    run();
-  };
-
-  window.applyPreset = function() {
-    var sel = document.getElementById('ra-presets');
-    var val = sel.value;
-    if (!val) return;
-    document.getElementById('ra-pattern').value = val;
-    // Set flags appropriately
-    document.getElementById('flag-g').checked = true;
-    document.getElementById('flag-u').checked = (val.indexOf('\\u') !== -1);
-    run();
-  };
-
-  window.toggleCheatsheet = function() {
-    var body = document.getElementById('ra-cs-body');
-    var btn = document.querySelector('.ra-cs-toggle');
-    if (body.classList.contains('open')) {
-      body.classList.remove('open');
-      btn.textContent = '▼ 表示する';
-    } else {
-      body.classList.add('open');
-      btn.textContent = '▲ 閉じる';
-    }
-  };
-
-  window.copyReplaceOutput = function() {
-    var text = document.getElementById('ra-replace-output').textContent;
-    if (!text) return;
-    navigator.clipboard.writeText(text).then(function() {
-      showCopyMsg('ra-copy-replace-msg');
-    }).catch(function() {
-      var ta = document.createElement('textarea');
-      ta.value = text;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      showCopyMsg('ra-copy-replace-msg');
+    var toks = tokenize(pat);
+    if (!toks.length) { elExlist.innerHTML = '<li class="rx-empty">解説できるトークンがありません。</li>'; return; }
+    var html = '';
+    toks.forEach(function (tk) {
+      html += '<li class="rx-explain-item"><span class="rx-ex-tok">' + esc(tk.t) + '</span><span class="rx-ex-desc">' + esc(tk.d) + '</span></li>';
     });
-  };
-
-  function showCopyMsg(id) {
-    var el = document.getElementById(id);
-    el.classList.add('show');
-    setTimeout(function() { el.classList.remove('show'); }, 2000);
+    elExlist.innerHTML = html;
   }
 
-  function debounce(fn, ms) {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(fn, ms);
-  }
-
-  // Sync highlight overlay scroll with textarea scroll
-  var testInput = document.getElementById('ra-test-input');
-  var highlightDisplay = document.getElementById('ra-highlight-display');
-
-  testInput.addEventListener('scroll', function() {
-    highlightDisplay.scrollTop = testInput.scrollTop;
-    highlightDisplay.scrollLeft = testInput.scrollLeft;
-  });
-
-  // Event listeners
-  document.getElementById('ra-pattern').addEventListener('input', function() { debounce(run, 120); });
-  document.getElementById('ra-test-input').addEventListener('input', function() { debounce(run, 80); });
-  document.getElementById('ra-replace-pattern').addEventListener('input', function() { debounce(run, 120); });
-
-  var flags = ['flag-g','flag-i','flag-m','flag-s','flag-u'];
-  flags.forEach(function(id) {
-    document.getElementById(id).addEventListener('change', function() { run(); });
-  });
-
-  // Initial state
-  document.getElementById('ra-test-input').value = '田中さんのメールはtanaka@example.co.jpです。\n電話番号: 090-1234-5678\n郵便番号: 〒100-0001\nウェブサイト: https://www.example.com';
-  document.getElementById('ra-pattern').value = '[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}';
   run();
 })();
 </script>
+</div>
 
 ---
 
-## 正規表現の基礎
-
-正規表現（Regular Expression、略して「regex」または「regexp」）は、文字列のパターンを記述するための特殊な記法です。テキスト検索・抽出・置換・バリデーションなど、開発現場のあらゆる場面で活用されています。たとえば、メールアドレスの検証、ログファイルからの特定データ抽出、Webスクレイピングでの情報取得など、正規表現を使いこなすことでコードを大幅に簡潔にできます。
-
-JavaScriptでは `new RegExp(pattern, flags)` またはリテラル記法 `/pattern/flags` で正規表現を作成できます。フラグには `g`（グローバル：全てのマッチを検索）、`i`（大文字小文字を無視）、`m`（複数行モード）、`s`（`.` で改行にもマッチ）、`u`（Unicodeモード）があり、目的に合わせて組み合わせて使います。日本語テキストを扱う場合は `u` フラグを有効にすることで、Unicodeのコードポイントを正しく処理できます。
-
-正規表現はメタ文字（`. * + ? ^ $ { } [ ] | ( ) \`）を使って柔軟なパターンを表現します。最初は複雑に見えますが、基本的なメタ文字の意味を覚えれば、あとは組み合わせるだけです。上のチートシートや、よく使うパターン集を参考に、まずはシンプルなパターンから試してみましょう。
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
 ---
 
-## よく使う正規表現パターン
-
-| パターン | 正規表現 | 説明 |
-|---|---|---|
-| メールアドレス | `[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}` | 標準的なメールアドレス形式 |
-| 日本の携帯番号 | `0[789]0[\-\s]?\d{4}[\-\s]?\d{4}` | 070/080/090 始まりの携帯番号 |
-| 郵便番号 | `\d{3}-\d{4}` | 123-4567 形式 |
-| ひらがな | `[\u3041-\u3096]+` | ひらがなのみを抽出 |
-| カタカナ | `[\u30A1-\u30FC]+` | 全角カタカナのみを抽出 |
-| 漢字 | `[\u4E00-\u9FFF]+` | CJK統合漢字ブロック |
-| 日付 (YYYY-MM-DD) | `\d{4}-\d{2}-\d{2}` | ISO 8601形式の日付 |
-| IPアドレス (v4) | `\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` | IPv4アドレスの簡易マッチ |
-
----
-
-## 関連ツール
-
-> JSONデータを整形・検証 → [JSONフォーマッター](/ja/tools/json-formatter/)
-
-> Base64のエンコード・デコード → [Base64エンコーダー](/ja/tools/base64-encoder/)
-
-> 文字数をリアルタイムでカウント → [文字数カウンター](/ja/tools/moji-counter/)
-
----
-
-**エンジニアの経理業務を自動化**
-
-正規表現で効率化するように、経理も自動化しませんか？クラウド会計ソフト「freee」なら、API連携で経費データの取り込みも自動化できます。
-
-<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">
-freee会計を無料で試す</a>
-<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" alt="">
+> クイックリファレンス → [正規表現チートシート](/ja/tools/regex-cheatsheet/)
+> 文字列をエスケープ → [文字列エスケープツール](/ja/tools/string-escape-tool/)
