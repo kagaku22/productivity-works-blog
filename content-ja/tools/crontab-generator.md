@@ -1,7 +1,7 @@
 ---
-title: "Crontab生成ツール - Cronスケジュールビルダー"
+title: "Crontab生成ツール"
 date: 2025-05-16
-description: "無料のCrontab生成ツール。直感的なUIでCron式を作成。分・時・日・月・曜日を選択し、次の実行時刻と人間が読める説明を即座に表示。"
+description: "無料のCrontab生成ツール。ドロップダウンでcron式をビジュアル作成。プリセット・人間語での説明・次回5回の実行時刻・コピー・既存cron式の検証まで対応。"
 categories: ["無料ツール"]
 slug: "crontab-generator"
 ShowToc: false
@@ -12,599 +12,679 @@ cover:
   alt: "Crontab生成ツール"
 ---
 
-<div id="cron-app">
+<div id="cg-app">
 
 <style>
-#cron-app {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: #0f1117;
+#cg-app {
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', 'Meiryo', system-ui, sans-serif;
+  background: #0f0f13;
   color: #e2e8f0;
-  padding: 24px;
   border-radius: 12px;
-  max-width: 860px;
+  padding: 24px;
   margin: 0 auto;
+  max-width: 900px;
   box-sizing: border-box;
 }
-#cron-app * { box-sizing: border-box; }
+#cg-app * { box-sizing: border-box; }
 
-#cron-app h2 {
-  font-size: 1.4rem;
+#cg-app h2 {
+  font-size: 1.05rem;
   font-weight: 700;
-  color: #a78bfa;
-  margin: 0 0 6px 0;
+  color: #f1f5f9;
+  margin: 0 0 14px 0;
 }
-#cron-app .subtitle {
-  font-size: 0.88rem;
+#cg-app h3 {
+  font-size: 0.82rem;
+  font-weight: 700;
   color: #94a3b8;
-  margin: 0 0 24px 0;
-}
-
-#cron-app .expr-box {
-  background: #1e2030;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  padding: 20px 24px;
-  margin-bottom: 24px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-#cron-app .expr-label {
-  font-size: 0.78rem;
+  margin: 0 0 12px 0;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #64748b;
-  white-space: nowrap;
-}
-#cron-app .expr-value {
-  font-family: 'Courier New', 'Fira Mono', monospace;
-  font-size: 1.55rem;
-  font-weight: 700;
-  color: #a78bfa;
-  flex: 1;
-  word-break: break-all;
-}
-#cron-app .copy-btn {
-  background: #4f46e5;
-  color: #fff;
-  border: none;
-  border-radius: 7px;
-  padding: 9px 18px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.15s;
-}
-#cron-app .copy-btn:hover { background: #6366f1; }
-#cron-app .copy-btn.copied { background: #059669; }
-
-#cron-app .desc-box {
-  background: #161b27;
-  border-left: 3px solid #a78bfa;
-  border-radius: 0 8px 8px 0;
-  padding: 12px 18px;
-  margin-bottom: 24px;
-  font-size: 0.95rem;
-  color: #cbd5e1;
-  font-style: italic;
+  letter-spacing: 0.04em;
 }
 
-#cron-app .section-title {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #64748b;
-  margin: 0 0 10px 0;
-}
-#cron-app .presets {
+.cg-presets {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
 }
-#cron-app .preset-btn {
-  background: #1e2030;
-  border: 1px solid #334155;
-  color: #94a3b8;
-  border-radius: 20px;
+.cg-preset-btn {
   padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #2d2d4d;
+  background: #1a1a24;
+  color: #a5b4fc;
   font-size: 0.82rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.15s;
+  font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
+}
+.cg-preset-btn:hover { background: #22224a; border-color: #6366f1; color: #c7d2fe; }
+.cg-preset-btn.active { background: #3730a3; border-color: #6366f1; color: #fff; }
+
+.cg-builder {
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+.cg-fields {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.cg-field-label {
+  font-size: 0.72rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  display: block;
+}
+.cg-field-select {
+  width: 100%;
+  background: #0f0f18;
+  border: 1px solid #2d2d3d;
+  border-radius: 6px;
+  color: #e2e8f0;
+  font-size: 0.84rem;
+  padding: 7px 10px;
+  outline: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 26px;
+}
+.cg-field-select:focus { border-color: #6366f1; }
+
+.cg-expr-wrap {
+  background: #12192e;
+  border: 1px solid #1e2a4a;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.cg-expr-code {
+  font-family: 'Courier New', 'Consolas', monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #7dd3fc;
+  letter-spacing: 0.06em;
+  flex: 1;
+  min-width: 200px;
+}
+.cg-btn {
+  padding: 7px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, transform 0.1s;
   white-space: nowrap;
 }
-#cron-app .preset-btn:hover {
-  background: #2d2f45;
-  border-color: #a78bfa;
-  color: #e2e8f0;
+.cg-btn:active { transform: scale(0.97); }
+.cg-btn-copy { background: #1a1a24; color: #a5b4fc; border: 1px solid #2d2d4d; }
+.cg-btn-copy:hover { background: #22224a; }
+.cg-btn-primary { background: #6366f1; color: #fff; }
+.cg-btn-primary:hover { background: #4f46e5; }
+.cg-btn-danger { background: #1a1a24; color: #f87171; border: 1px solid #3d2020; }
+.cg-btn-danger:hover { background: #2d1a1a; }
+
+.cg-desc-wrap {
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+.cg-desc-text {
+  font-size: 0.95rem;
+  color: #c7d2fe;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
-#cron-app .fields-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
-  margin-bottom: 28px;
+.cg-runs-wrap {
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
 }
-#cron-app .field-card {
-  background: #1e2030;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  padding: 16px;
-}
-#cron-app .field-name {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: #64748b;
-  margin-bottom: 4px;
-}
-#cron-app .field-range {
-  font-size: 0.7rem;
-  color: #475569;
-  margin-bottom: 12px;
-}
-#cron-app .field-card select,
-#cron-app .field-card input[type="text"] {
-  width: 100%;
-  background: #0f1117;
-  border: 1px solid #334155;
-  color: #e2e8f0;
-  border-radius: 6px;
-  padding: 7px 10px;
-  font-size: 0.85rem;
-  margin-bottom: 8px;
-  outline: none;
-  transition: border-color 0.15s;
-}
-#cron-app .field-card select:focus,
-#cron-app .field-card input[type="text"]:focus {
-  border-color: #a78bfa;
-}
-#cron-app .field-card select option { background: #1e2030; }
-#cron-app .custom-label {
-  font-size: 0.72rem;
-  color: #475569;
-  margin-bottom: 4px;
-}
-#cron-app .field-preview {
-  font-family: 'Courier New', monospace;
-  font-size: 1.1rem;
-  color: #a78bfa;
-  text-align: center;
-  padding: 6px 0 2px;
-  font-weight: 700;
-}
-
-#cron-app .next-runs {
-  background: #1e2030;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  padding: 18px 20px;
-  margin-bottom: 28px;
-}
-#cron-app .next-runs-title {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #64748b;
-  margin-bottom: 12px;
-}
-#cron-app .run-list {
+.cg-run-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-#cron-app .run-list li {
+.cg-run-item {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 8px 0;
-  border-bottom: 1px solid #1a2030;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid #1e1e2c;
   font-size: 0.88rem;
 }
-#cron-app .run-list li:last-child { border-bottom: none; }
-#cron-app .run-idx {
-  width: 22px;
-  height: 22px;
-  background: #2d2f45;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  color: #a78bfa;
-  font-weight: 700;
+.cg-run-item:last-child { border-bottom: none; }
+.cg-run-num {
+  font-size: 0.72rem;
+  color: #475569;
+  width: 20px;
+  text-align: right;
   flex-shrink: 0;
 }
-#cron-app .run-time { color: #e2e8f0; font-family: 'Courier New', monospace; }
-#cron-app .run-rel { color: #64748b; font-size: 0.78rem; margin-left: auto; }
-#cron-app .error-msg {
-  color: #f87171;
-  font-size: 0.85rem;
-  padding: 10px 0 0;
+.cg-run-time {
+  font-family: 'Courier New', monospace;
+  color: #7dd3fc;
+  font-weight: 600;
+}
+.cg-run-rel {
+  color: #64748b;
+  font-size: 0.78rem;
 }
 
-#cron-app .freee-cta {
-  background: #1e2030;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  padding: 18px 22px;
+.cg-validate-wrap {
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+.cg-validate-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cg-validate-input {
+  flex: 1;
+  min-width: 200px;
+  background: #0f0f18;
+  border: 1px solid #2d2d3d;
+  border-radius: 6px;
+  color: #e2e8f0;
   font-size: 0.9rem;
-  color: #cbd5e1;
-  line-height: 1.7;
+  font-family: 'Courier New', monospace;
+  padding: 8px 12px;
+  outline: none;
+  transition: border-color 0.2s;
 }
-#cron-app .freee-cta a { color: #a78bfa; }
-#cron-app .freee-cta a:hover { color: #c4b5fd; }
+.cg-validate-input:focus { border-color: #6366f1; }
+.cg-validate-input::placeholder { color: #3a3a5a; font-family: inherit; }
+.cg-validate-result {
+  margin-top: 10px;
+  font-size: 0.88rem;
+  min-height: 1.2em;
+  line-height: 1.5;
+}
+.cg-valid { color: #4ade80; }
+.cg-invalid { color: #f87171; }
 
-@media (max-width: 540px) {
-  #cron-app .expr-value { font-size: 1.1rem; }
-  #cron-app .fields-grid { grid-template-columns: 1fr 1fr; }
+@media (max-width: 640px) {
+  #cg-app { padding: 16px 12px; }
+  .cg-fields { grid-template-columns: repeat(3, 1fr); }
+  .cg-expr-code { font-size: 1.1rem; }
+}
+@media (max-width: 400px) {
+  .cg-fields { grid-template-columns: repeat(2, 1fr); }
 }
 </style>
 
-<h2>Crontab 生成ツール</h2>
-<p class="subtitle">各フィールドを選択するだけでCron式を視覚的に作成。すぐにコピーできます。</p>
+<h2>Cron式をビジュアル作成</h2>
 
-<!-- Expression display -->
-<div class="expr-box">
-  <span class="expr-label">Cron式</span>
-  <span class="expr-value" id="cron-expr">* * * * *</span>
-  <button class="copy-btn" id="copy-btn" onclick="cronCopyJa()">コピー</button>
-</div>
-<div class="desc-box" id="cron-desc">毎分実行</div>
-
-<!-- Presets -->
-<div class="section-title">よく使うプリセット</div>
-<div class="presets">
-  <button class="preset-btn" onclick="cronPresetJa('* * * * *')">毎分</button>
-  <button class="preset-btn" onclick="cronPresetJa('0 * * * *')">毎時0分</button>
-  <button class="preset-btn" onclick="cronPresetJa('0 0 * * *')">毎日0時</button>
-  <button class="preset-btn" onclick="cronPresetJa('0 9 * * 1')">毎週月曜9時</button>
-  <button class="preset-btn" onclick="cronPresetJa('0 0 1 * *')">毎月1日0時</button>
-  <button class="preset-btn" onclick="cronPresetJa('*/5 * * * *')">5分ごと</button>
-  <button class="preset-btn" onclick="cronPresetJa('0 */6 * * *')">6時間ごと</button>
-  <button class="preset-btn" onclick="cronPresetJa('30 23 * * *')">毎日23:30</button>
+<!-- プリセット -->
+<div class="cg-presets" id="cg-presets">
+  <button class="cg-preset-btn" data-expr="* * * * *" onclick="cgApplyPreset(this)">毎分</button>
+  <button class="cg-preset-btn" data-expr="0 * * * *" onclick="cgApplyPreset(this)">毎時00分</button>
+  <button class="cg-preset-btn" data-expr="0 0 * * *" onclick="cgApplyPreset(this)">毎日深夜0時</button>
+  <button class="cg-preset-btn" data-expr="0 9 * * *" onclick="cgApplyPreset(this)">毎日9時</button>
+  <button class="cg-preset-btn" data-expr="0 0 * * 0" onclick="cgApplyPreset(this)">毎週日曜深夜</button>
+  <button class="cg-preset-btn" data-expr="0 0 1 * *" onclick="cgApplyPreset(this)">毎月1日深夜</button>
+  <button class="cg-preset-btn" data-expr="0 9 * * 1-5" onclick="cgApplyPreset(this)">平日9時</button>
+  <button class="cg-preset-btn" data-expr="*/5 * * * *" onclick="cgApplyPreset(this)">5分ごと</button>
+  <button class="cg-preset-btn" data-expr="*/15 * * * *" onclick="cgApplyPreset(this)">15分ごと</button>
+  <button class="cg-preset-btn" data-expr="0 0 1 1 *" onclick="cgApplyPreset(this)">元日深夜（年次）</button>
 </div>
 
-<!-- Fields -->
-<div class="section-title">スケジュールフィールド</div>
-<div class="fields-grid">
-
-  <!-- Minute -->
-  <div class="field-card">
-    <div class="field-name">分</div>
-    <div class="field-range">0 – 59</div>
-    <select id="sel-min" onchange="cronFieldChangeJa('min')">
-      <option value="*">毎分 (*)</option>
-      <option value="custom">特定の値</option>
-      <option value="range">範囲 (例: 0-30)</option>
-      <option value="step">間隔 (例: */5)</option>
-    </select>
-    <div class="custom-label" id="lbl-min" style="display:none">値 / 式</div>
-    <input type="text" id="inp-min" placeholder="例: 0" style="display:none" oninput="cronUpdateJa()">
-    <div class="field-preview" id="prev-min">*</div>
+<!-- フィールドビルダー -->
+<div class="cg-builder">
+  <div class="cg-fields">
+    <div class="cg-field-wrap">
+      <label class="cg-field-label" for="cg-min">分（Minute）</label>
+      <select class="cg-field-select" id="cg-min" onchange="cgUpdate()"></select>
+    </div>
+    <div class="cg-field-wrap">
+      <label class="cg-field-label" for="cg-hr">時（Hour）</label>
+      <select class="cg-field-select" id="cg-hr" onchange="cgUpdate()"></select>
+    </div>
+    <div class="cg-field-wrap">
+      <label class="cg-field-label" for="cg-dom">日（Month）</label>
+      <select class="cg-field-select" id="cg-dom" onchange="cgUpdate()"></select>
+    </div>
+    <div class="cg-field-wrap">
+      <label class="cg-field-label" for="cg-mon">月（Month）</label>
+      <select class="cg-field-select" id="cg-mon" onchange="cgUpdate()"></select>
+    </div>
+    <div class="cg-field-wrap">
+      <label class="cg-field-label" for="cg-dow">曜日（Week）</label>
+      <select class="cg-field-select" id="cg-dow" onchange="cgUpdate()"></select>
+    </div>
   </div>
-
-  <!-- Hour -->
-  <div class="field-card">
-    <div class="field-name">時</div>
-    <div class="field-range">0 – 23</div>
-    <select id="sel-hour" onchange="cronFieldChangeJa('hour')">
-      <option value="*">毎時 (*)</option>
-      <option value="custom">特定の値</option>
-      <option value="range">範囲 (例: 9-17)</option>
-      <option value="step">間隔 (例: */2)</option>
-    </select>
-    <div class="custom-label" id="lbl-hour" style="display:none">値 / 式</div>
-    <input type="text" id="inp-hour" placeholder="例: 9" style="display:none" oninput="cronUpdateJa()">
-    <div class="field-preview" id="prev-hour">*</div>
-  </div>
-
-  <!-- Day of Month -->
-  <div class="field-card">
-    <div class="field-name">日 (月内)</div>
-    <div class="field-range">1 – 31</div>
-    <select id="sel-dom" onchange="cronFieldChangeJa('dom')">
-      <option value="*">毎日 (*)</option>
-      <option value="custom">特定の日</option>
-      <option value="range">範囲 (例: 1-15)</option>
-      <option value="step">間隔 (例: */2)</option>
-    </select>
-    <div class="custom-label" id="lbl-dom" style="display:none">値 / 式</div>
-    <input type="text" id="inp-dom" placeholder="例: 1" style="display:none" oninput="cronUpdateJa()">
-    <div class="field-preview" id="prev-dom">*</div>
-  </div>
-
-  <!-- Month -->
-  <div class="field-card">
-    <div class="field-name">月</div>
-    <div class="field-range">1 – 12</div>
-    <select id="sel-month" onchange="cronFieldChangeJa('month')">
-      <option value="*">毎月 (*)</option>
-      <option value="custom">特定の月</option>
-      <option value="range">範囲 (例: 1-6)</option>
-      <option value="step">間隔 (例: */3)</option>
-    </select>
-    <div class="custom-label" id="lbl-month" style="display:none">値 / 式</div>
-    <input type="text" id="inp-month" placeholder="例: 1" style="display:none" oninput="cronUpdateJa()">
-    <div class="field-preview" id="prev-month">*</div>
-  </div>
-
-  <!-- Day of Week -->
-  <div class="field-card">
-    <div class="field-name">曜日</div>
-    <div class="field-range">0=日 … 6=土</div>
-    <select id="sel-dow" onchange="cronFieldChangeJa('dow')">
-      <option value="*">毎日 (*)</option>
-      <option value="custom">特定の曜日</option>
-      <option value="range">範囲 (例: 1-5)</option>
-      <option value="step">間隔 (例: */2)</option>
-    </select>
-    <div class="custom-label" id="lbl-dow" style="display:none">値 / 式</div>
-    <input type="text" id="inp-dow" placeholder="例: 1" style="display:none" oninput="cronUpdateJa()">
-    <div class="field-preview" id="prev-dow">*</div>
-  </div>
-
 </div>
 
-<!-- Next runs -->
-<div class="next-runs">
-  <div class="next-runs-title">次の5回の実行予定時刻</div>
-  <ul class="run-list" id="run-list"><li><span style="color:#64748b">計算中…</span></li></ul>
+<!-- Cron式出力 -->
+<div class="cg-expr-wrap">
+  <span class="cg-expr-code" id="cg-expr">* * * * *</span>
+  <button class="cg-btn cg-btn-copy" id="cg-copy-btn" onclick="cgCopyExpr()">コピー</button>
 </div>
 
-<!-- freee CTA -->
-<div class="freee-cta">
-  <strong>確定申告・会計をもっとラクに？</strong> <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee会計</a> なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+<!-- 日本語説明 -->
+<div class="cg-desc-wrap">
+  <h3>日本語での説明</h3>
+  <div class="cg-desc-text" id="cg-desc">毎分実行</div>
 </div>
 
-</div><!-- #cron-app -->
+<!-- 次回5回の実行時刻 -->
+<div class="cg-runs-wrap">
+  <h3>次回5回の実行予定時刻</h3>
+  <ul class="cg-run-list" id="cg-run-list"></ul>
+</div>
+
+<!-- バリデーター -->
+<div class="cg-validate-wrap">
+  <h3>既存のCron式を検証</h3>
+  <div class="cg-validate-row">
+    <input class="cg-validate-input" id="cg-val-input" placeholder="例: 0 9 * * 1-5" />
+    <button class="cg-btn cg-btn-primary" onclick="cgValidate()">検証</button>
+    <button class="cg-btn cg-btn-danger" onclick="cgClearValidate()">クリア</button>
+  </div>
+  <div class="cg-validate-result" id="cg-val-result"></div>
+</div>
 
 <script>
-(function() {
-  var fields = {
-    min:   { sel: 'sel-min',   inp: 'inp-min',   lbl: 'lbl-min',   prev: 'prev-min'   },
-    hour:  { sel: 'sel-hour',  inp: 'inp-hour',  lbl: 'lbl-hour',  prev: 'prev-hour'  },
-    dom:   { sel: 'sel-dom',   inp: 'inp-dom',   lbl: 'lbl-dom',   prev: 'prev-dom'   },
-    month: { sel: 'sel-month', inp: 'inp-month', lbl: 'lbl-month', prev: 'prev-month' },
-    dow:   { sel: 'sel-dow',   inp: 'inp-dow',   lbl: 'lbl-dow',   prev: 'prev-dow'   }
+(function(){
+
+  var FIELDS = {
+    min: {
+      el: null,
+      options: (function(){
+        var o = [{ v: '*', l: '毎分 (*)' }];
+        for (var i = 0; i <= 59; i++) o.push({ v: String(i), l: i + '分' });
+        o.push({ v: '*/2', l: '2分ごと (*/2)' });
+        o.push({ v: '*/5', l: '5分ごと (*/5)' });
+        o.push({ v: '*/10', l: '10分ごと (*/10)' });
+        o.push({ v: '*/15', l: '15分ごと (*/15)' });
+        o.push({ v: '*/30', l: '30分ごと (*/30)' });
+        return o;
+      })()
+    },
+    hr: {
+      el: null,
+      options: (function(){
+        var o = [{ v: '*', l: '毎時 (*)' }];
+        for (var i = 0; i <= 23; i++) o.push({ v: String(i), l: i + '時' });
+        o.push({ v: '*/2', l: '2時間ごと (*/2)' });
+        o.push({ v: '*/3', l: '3時間ごと (*/3)' });
+        o.push({ v: '*/6', l: '6時間ごと (*/6)' });
+        o.push({ v: '*/12', l: '12時間ごと (*/12)' });
+        return o;
+      })()
+    },
+    dom: {
+      el: null,
+      options: (function(){
+        var o = [{ v: '*', l: '毎日 (*)' }];
+        for (var i = 1; i <= 31; i++) o.push({ v: String(i), l: i + '日' });
+        o.push({ v: '*/2', l: '2日ごと' });
+        o.push({ v: '1,15', l: '1日と15日' });
+        o.push({ v: 'L', l: '月末日' });
+        return o;
+      })()
+    },
+    mon: {
+      el: null,
+      options: [
+        { v: '*', l: '毎月 (*)' },
+        { v: '1', l: '1月' }, { v: '2', l: '2月' }, { v: '3', l: '3月' },
+        { v: '4', l: '4月' }, { v: '5', l: '5月' }, { v: '6', l: '6月' },
+        { v: '7', l: '7月' }, { v: '8', l: '8月' }, { v: '9', l: '9月' },
+        { v: '10', l: '10月' }, { v: '11', l: '11月' }, { v: '12', l: '12月' },
+        { v: '1-3', l: '第1四半期（1〜3月）' }, { v: '4-6', l: '第2四半期（4〜6月）' },
+        { v: '7-9', l: '第3四半期（7〜9月）' }, { v: '10-12', l: '第4四半期（10〜12月）' }
+      ]
+    },
+    dow: {
+      el: null,
+      options: [
+        { v: '*', l: '毎日（曜日問わず）(*)' },
+        { v: '0', l: '日曜日 (0)' }, { v: '1', l: '月曜日 (1)' }, { v: '2', l: '火曜日 (2)' },
+        { v: '3', l: '水曜日 (3)' }, { v: '4', l: '木曜日 (4)' }, { v: '5', l: '金曜日 (5)' },
+        { v: '6', l: '土曜日 (6)' },
+        { v: '1-5', l: '平日（月〜金）' }, { v: '0,6', l: '週末（土・日）' },
+        { v: '1,3,5', l: '月・水・金' }, { v: '2,4', l: '火・木' }
+      ]
+    }
   };
 
-  var stepHints    = { min:'*/5', hour:'*/2', dom:'*/2', month:'*/3', dow:'*/2' };
-  var rangeHints   = { min:'0-30', hour:'9-17', dom:'1-15', month:'1-6', dow:'1-5' };
-  var specificHints = { min:'0', hour:'9', dom:'1', month:'1', dow:'1' };
+  var MONTHS_JA = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  var DAYS_JA = ['日曜','月曜','火曜','水曜','木曜','金曜','土曜'];
+  var DAYS_SHORT_JA = ['日','月','火','水','木','金','土'];
 
-  window.cronFieldChangeJa = function(key) {
-    var f = fields[key];
-    var mode = document.getElementById(f.sel).value;
-    var inp = document.getElementById(f.inp);
-    var lbl = document.getElementById(f.lbl);
-    if (mode === '*') {
-      inp.style.display = 'none'; lbl.style.display = 'none';
-    } else {
-      inp.style.display = 'block'; lbl.style.display = 'block';
-      if (mode === 'step')   inp.placeholder = stepHints[key];
-      if (mode === 'range')  inp.placeholder = rangeHints[key];
-      if (mode === 'custom') inp.placeholder = specificHints[key];
-      inp.value = '';
-    }
-    cronUpdateJa();
-  };
-
-  function getFieldVal(key) {
-    var f = fields[key];
-    var mode = document.getElementById(f.sel).value;
-    if (mode === '*') return '*';
-    var raw = document.getElementById(f.inp).value.trim();
-    if (!raw) {
-      if (mode === 'step')  return stepHints[key];
-      if (mode === 'range') return rangeHints[key];
-      if (mode === 'custom') return specificHints[key];
-    }
-    if (mode === 'step') return raw.startsWith('*/') ? raw : '*/' + raw.replace(/[^0-9]/g,'');
-    return raw;
+  function buildSelects() {
+    ['min','hr','dom','mon','dow'].forEach(function(key) {
+      var sel = document.getElementById('cg-' + key);
+      FIELDS[key].el = sel;
+      FIELDS[key].options.forEach(function(opt) {
+        var o = document.createElement('option');
+        o.value = opt.v; o.textContent = opt.l;
+        sel.appendChild(o);
+      });
+    });
   }
 
-  function buildExpr() {
-    return [
-      getFieldVal('min'),
-      getFieldVal('hour'),
-      getFieldVal('dom'),
-      getFieldVal('month'),
-      getFieldVal('dow')
-    ].join(' ');
+  function getExpr() {
+    return ['min','hr','dom','mon','dow'].map(function(k){ return FIELDS[k].el.value; }).join(' ');
   }
 
-  // ── 日本語 人間語 説明 ────────────────────────────────────────────────
-  var MONTHS_JA = ['','1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
-  var DAYS_JA   = ['日曜','月曜','火曜','水曜','木曜','金曜','土曜'];
-
-  function describeFieldJa(val, type) {
-    if (val === '*') return null;
-    if (val.startsWith('*/')) {
-      var n = val.slice(2);
-      var unit = {min:'分',hour:'時間',dom:'日',month:'ヶ月',dow:'日'}[type];
-      return n + unit + 'ごと';
-    }
-    if (val.includes('-')) {
-      var parts = val.split('-');
-      if (type === 'dow')   return DAYS_JA[+parts[0]] + 'から' + DAYS_JA[+parts[1]] + 'まで';
-      if (type === 'month') return (MONTHS_JA[+parts[0]]||parts[0]) + 'から' + (MONTHS_JA[+parts[1]]||parts[1]) + 'まで';
-      return parts[0] + 'から' + parts[1] + 'まで';
-    }
-    if (type === 'dow')   return DAYS_JA[+val] || val;
-    if (type === 'month') return MONTHS_JA[+val] || val;
-    if (type === 'dom')   return val + '日';
-    if (type === 'hour')  return val + '時';
-    if (type === 'min')   return val + '分';
-    return val;
-  }
-
-  function buildDescJa(expr) {
-    var p = expr.split(' ');
-    if (p.length !== 5) return '無効な式です';
-    var min=p[0], hr=p[1], dom=p[2], mon=p[3], dow=p[4];
+  function describe(expr) {
+    var parts = expr.trim().split(/\s+/);
+    if (parts.length !== 5) return '無効なcron式です';
+    var min = parts[0], hr = parts[1], dom = parts[2], mon = parts[3], dow = parts[4];
 
     if (expr === '* * * * *') return '毎分実行';
     if (expr === '0 * * * *') return '毎時0分に実行';
-    if (expr === '0 0 * * *') return '毎日0時0分に実行';
-    if (expr === '0 9 * * 1') return '毎週月曜日の9時0分に実行';
-    if (expr === '0 0 1 * *') return '毎月1日の0時0分に実行';
+    if (expr === '0 0 * * *') return '毎日深夜0時（0:00）に実行';
+    if (expr === '0 0 * * 0') return '毎週日曜日の深夜0時に実行';
+    if (expr === '0 0 1 * *') return '毎月1日の深夜0時に実行';
+    if (expr === '0 0 1 1 *') return '毎年1月1日の深夜0時に実行';
+    if (expr === '0 9 * * 1-5') return '平日（月〜金）の毎朝9時に実行';
 
-    var parts = [];
-    var minDesc  = describeFieldJa(min,  'min');
-    var hrDesc   = describeFieldJa(hr,   'hour');
-    var domDesc  = describeFieldJa(dom,  'dom');
-    var monDesc  = describeFieldJa(mon,  'month');
-    var dowDesc  = describeFieldJa(dow,  'dow');
+    var desc_parts = [];
 
-    var when = '';
-    if (min === '*' && hr === '*') {
-      when = '毎分';
-    } else if (/^\d+$/.test(hr) && /^\d+$/.test(min)) {
-      when = hr + '時' + String(min).padStart(2,'0') + '分に';
-    } else {
-      if (hrDesc)  parts.push(hrDesc);
-      if (minDesc) parts.push(minDesc);
-      when = parts.join(' ') + 'に';
-      parts = [];
+    if (min === '*') desc_parts.push('毎分');
+    else if (min.startsWith('*/')) desc_parts.push(min.slice(2) + '分ごと');
+    else desc_parts.push(min + '分に');
+
+    if (hr === '*') { /* omit */ }
+    else if (hr.startsWith('*/')) desc_parts.push(hr.slice(2) + '時間ごと');
+    else desc_parts.push(hr + '時');
+
+    if (dom !== '*' && dom !== '*/1') {
+      if (dom === 'L') desc_parts.push('月末日');
+      else if (dom.includes('-')) desc_parts.push(dom + '日の間');
+      else if (dom.includes(',')) desc_parts.push(dom.replace(/,/g,'日・') + '日');
+      else if (dom.startsWith('*/')) desc_parts.push(dom.slice(2) + '日ごと');
+      else desc_parts.push(dom + '日に');
     }
 
-    var extras = [domDesc, monDesc, dowDesc].filter(Boolean);
-    return when + (extras.length ? '、' + extras.join('・') : '') + ' 実行';
-  }
+    if (mon !== '*') {
+      if (mon.includes('-')) {
+        var sp = mon.split('-');
+        desc_parts.push((MONTHS_JA[parseInt(sp[0])-1]||sp[0]+'月') + '〜' + (MONTHS_JA[parseInt(sp[1])-1]||sp[1]+'月'));
+      } else if (mon.includes(',')) {
+        var ms = mon.split(',').map(function(m){ return MONTHS_JA[parseInt(m)-1]||m+'月'; });
+        desc_parts.push(ms.join('・'));
+      } else {
+        desc_parts.push(MONTHS_JA[parseInt(mon)-1] || mon + '月');
+      }
+    }
 
-  // ── 次の実行時刻 ────────────────────────────────────────────────────
-  function matchesCron(d, p) {
-    var min=p[0], hr=p[1], dom=p[2], mon=p[3], dow=p[4];
-    return matchVal(d.getMinutes(), min, 0,59) &&
-           matchVal(d.getHours(),   hr,  0,23) &&
-           matchVal(d.getDate(),    dom, 1,31) &&
-           matchVal(d.getMonth()+1, mon, 1,12) &&
-           matchVal(d.getDay(),     dow, 0,6);
-  }
+    if (dow !== '*') {
+      if (dow === '1-5') desc_parts.push('平日（月〜金）');
+      else if (dow === '0,6' || dow === '6,0') desc_parts.push('週末（土・日）');
+      else if (dow.includes('-')) {
+        var sp2 = dow.split('-');
+        desc_parts.push((DAYS_SHORT_JA[parseInt(sp2[0])]||sp2[0]) + '〜' + (DAYS_SHORT_JA[parseInt(sp2[1])]||sp2[1]) + '曜日');
+      } else if (dow.includes(',')) {
+        var ds = dow.split(',').map(function(d){ return (DAYS_SHORT_JA[parseInt(d)]||d) + '曜'; });
+        desc_parts.push(ds.join('・'));
+      } else {
+        desc_parts.push(DAYS_JA[parseInt(dow)] || '曜日' + dow);
+      }
+    }
 
-  function matchVal(v, expr, lo, hi) {
-    if (expr === '*') return true;
-    if (expr.startsWith('*/')) { var step=+expr.slice(2); return v % step === 0; }
-    if (expr.includes('-')) { var rp=expr.split('-'); return v>=+rp[0] && v<=+rp[1]; }
-    if (expr.includes(',')) { return expr.split(',').some(function(x){ return +x===v; }); }
-    return +expr === v;
+    return desc_parts.length ? desc_parts.join(' ') + 'に実行' : 'カスタムスケジュール';
   }
 
   function nextRuns(expr, count) {
-    var p = expr.split(' ');
-    if (p.length !== 5) return [];
-    var results = [];
-    var d = new Date();
-    d.setSeconds(0, 0);
-    d.setMinutes(d.getMinutes() + 1);
-    var limit = 60*24*400;
-    for (var i = 0; i < limit && results.length < count; i++) {
-      if (matchesCron(d, p)) results.push(new Date(d));
-      d.setMinutes(d.getMinutes() + 1);
+    var parts = expr.trim().split(/\s+/);
+    if (parts.length !== 5) return [];
+
+    function parseField(str, min, max) {
+      var values = [];
+      if (str === '*') {
+        for (var i = min; i <= max; i++) values.push(i);
+        return values;
+      }
+      var segments = str.split(',');
+      segments.forEach(function(seg) {
+        seg = seg.trim();
+        if (seg === '*') {
+          for (var i = min; i <= max; i++) values.push(i);
+        } else if (seg.startsWith('*/')) {
+          var step = parseInt(seg.slice(2));
+          for (var i = min; i <= max; i += step) values.push(i);
+        } else if (seg.includes('-')) {
+          var rng = seg.split('-');
+          var from = parseInt(rng[0]), to = parseInt(rng[1]);
+          for (var i = from; i <= to; i++) values.push(i);
+        } else {
+          var n = parseInt(seg);
+          if (!isNaN(n)) values.push(n);
+        }
+      });
+      return values.filter(function(v,i,a){ return a.indexOf(v)===i; }).sort(function(a,b){return a-b;});
     }
-    return results;
+
+    try {
+      var mins = parseField(parts[0], 0, 59);
+      var hrs  = parseField(parts[1], 0, 23);
+      var doms = parts[2] === '*' ? null : parseField(parts[2], 1, 31);
+      var mons = parseField(parts[3], 1, 12);
+      var dows = parts[4] === '*' ? null : parseField(parts[4], 0, 6);
+
+      var runs = [];
+      var cur = new Date();
+      cur = new Date(cur.getFullYear(), cur.getMonth(), cur.getDate(), cur.getHours(), cur.getMinutes() + 1, 0);
+      var limit = 50000;
+
+      while (runs.length < count && limit-- > 0) {
+        var m = cur.getMonth() + 1;
+        var dom = cur.getDate();
+        var dow = cur.getDay();
+        var h = cur.getHours();
+        var mi = cur.getMinutes();
+
+        if (mons.indexOf(m) >= 0
+          && (doms === null || doms.indexOf(dom) >= 0)
+          && (dows === null || dows.indexOf(dow) >= 0)
+          && hrs.indexOf(h) >= 0
+          && mins.indexOf(mi) >= 0) {
+          runs.push(new Date(cur));
+        }
+        cur = new Date(cur.getTime() + 60000);
+      }
+      return runs;
+    } catch(e) {
+      return [];
+    }
   }
 
   function relTimeJa(d) {
     var diff = Math.round((d - Date.now()) / 1000);
-    if (diff < 60)    return diff + '秒後';
-    if (diff < 3600)  return Math.round(diff/60) + '分後';
+    if (diff < 60) return diff + '秒後';
+    if (diff < 3600) return Math.round(diff/60) + '分後';
     if (diff < 86400) return Math.round(diff/3600) + '時間後';
     return Math.round(diff/86400) + '日後';
   }
 
-  function formatDateJa(d) {
+  function padZ(n) { return n < 10 ? '0' + n : String(n); }
+
+  function fmtDate(d) {
     var wd = ['日','月','火','水','木','金','土'];
-    return d.getFullYear() + '/' +
-           String(d.getMonth()+1).padStart(2,'0') + '/' +
-           String(d.getDate()).padStart(2,'0') +
-           '(' + wd[d.getDay()] + ') ' +
-           String(d.getHours()).padStart(2,'0') + ':' +
-           String(d.getMinutes()).padStart(2,'0');
+    return d.getFullYear() + '/' + padZ(d.getMonth()+1) + '/' + padZ(d.getDate())
+      + '(' + wd[d.getDay()] + ') '
+      + padZ(d.getHours()) + ':' + padZ(d.getMinutes());
   }
 
-  // ── メイン更新 ─────────────────────────────────────────────────────────
-  window.cronUpdateJa = function() {
-    var expr = buildExpr();
-    document.getElementById('cron-expr').textContent = expr;
-
-    var keys = ['min','hour','dom','month','dow'];
-    var vals = expr.split(' ');
-    keys.forEach(function(k, i) {
-      document.getElementById(fields[k].prev).textContent = vals[i] || '*';
-    });
-
-    document.getElementById('cron-desc').textContent = buildDescJa(expr);
-
+  function renderRuns(expr) {
+    var list = document.getElementById('cg-run-list');
     var runs = nextRuns(expr, 5);
-    var ul = document.getElementById('run-list');
-    if (runs.length === 0) {
-      ul.innerHTML = '<li><span class="error-msg">次の実行時刻を計算できません。式を確認してください。</span></li>';
+    if (!runs.length) {
+      list.innerHTML = '<li class="cg-run-item"><span style="color:#64748b;">この式では次回実行時刻を計算できませんでした。</span></li>';
       return;
     }
-    ul.innerHTML = runs.map(function(d, i) {
-      return '<li><span class="run-idx">' + (i+1) + '</span>' +
-             '<span class="run-time">' + formatDateJa(d) + '</span>' +
-             '<span class="run-rel">' + relTimeJa(d) + '</span></li>';
+    list.innerHTML = runs.map(function(d, i) {
+      return '<li class="cg-run-item">'
+        + '<span class="cg-run-num">' + (i+1) + '</span>'
+        + '<span class="cg-run-time">' + fmtDate(d) + '</span>'
+        + '<span class="cg-run-rel">' + relTimeJa(d) + '</span>'
+        + '</li>';
     }).join('');
-  };
+  }
 
-  window.cronPresetJa = function(expr) {
-    var p = expr.split(' ');
-    var keys = ['min','hour','dom','month','dow'];
-    keys.forEach(function(k, i) {
-      var f = fields[k];
-      var val = p[i];
-      var sel = document.getElementById(f.sel);
-      var inp = document.getElementById(f.inp);
-      var lbl = document.getElementById(f.lbl);
-      if (val === '*') {
-        sel.value = '*';
-        inp.style.display = 'none'; lbl.style.display = 'none';
-      } else if (val.startsWith('*/')) {
-        sel.value = 'step';
-        inp.style.display = 'block'; lbl.style.display = 'block';
-        inp.value = val;
-      } else if (val.includes('-')) {
-        sel.value = 'range';
-        inp.style.display = 'block'; lbl.style.display = 'block';
-        inp.value = val;
-      } else {
-        sel.value = 'custom';
-        inp.style.display = 'block'; lbl.style.display = 'block';
-        inp.value = val;
-      }
+  function cgUpdate() {
+    var expr = getExpr();
+    document.getElementById('cg-expr').textContent = expr;
+    document.getElementById('cg-desc').textContent = describe(expr);
+    renderRuns(expr);
+    document.querySelectorAll('.cg-preset-btn').forEach(function(b){
+      b.classList.toggle('active', b.getAttribute('data-expr') === expr);
     });
-    cronUpdateJa();
+  }
+
+  window.cgApplyPreset = function(btn) {
+    var expr = btn.getAttribute('data-expr');
+    var parts = expr.split(' ');
+    var keys = ['min','hr','dom','mon','dow'];
+    keys.forEach(function(k, i) {
+      var sel = FIELDS[k].el;
+      var found = false;
+      for (var j = 0; j < sel.options.length; j++) {
+        if (sel.options[j].value === parts[i]) { sel.selectedIndex = j; found = true; break; }
+      }
+      if (!found) sel.selectedIndex = 0;
+    });
+    cgUpdate();
   };
 
-  window.cronCopyJa = function() {
-    var expr = document.getElementById('cron-expr').textContent;
-    var btn = document.getElementById('copy-btn');
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(expr).then(function() {
-        btn.textContent = 'コピー完了!'; btn.classList.add('copied');
-        setTimeout(function(){ btn.textContent = 'コピー'; btn.classList.remove('copied'); }, 1800);
+  window.cgCopyExpr = function() {
+    var expr = getExpr();
+    var btn = document.getElementById('cg-copy-btn');
+    try {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(expr).then(function(){
+          btn.textContent = 'コピー完了!';
+          setTimeout(function(){ btn.textContent = 'コピー'; }, 1600);
+        });
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = expr;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        btn.textContent = 'コピー完了!';
+        setTimeout(function(){ btn.textContent = 'コピー'; }, 1600);
+      }
+    } catch(e) {}
+  };
+
+  function validateExpr(expr) {
+    var parts = expr.trim().split(/\s+/);
+    if (parts.length !== 5) return { ok: false, msg: 'cron式はスペース区切りの5フィールド（分 時 日 月 曜日）で入力してください。' };
+    var ranges = [[0,59],[0,23],[1,31],[1,12],[0,7]];
+    var names  = ['分','時','日','月','曜日'];
+    for (var i = 0; i < 5; i++) {
+      var f = parts[i];
+      if (f === '*') continue;
+      if (/^\*\/\d+$/.test(f)) {
+        var step = parseInt(f.slice(2));
+        if (step < 1) return { ok: false, msg: '"' + names[i] + '" フィールド: ステップ値は1以上にしてください。' };
+        continue;
+      }
+      var segs = f.split(',');
+      for (var j = 0; j < segs.length; j++) {
+        var seg = segs[j].trim();
+        if (/^\d+$/.test(seg)) {
+          var n = parseInt(seg);
+          if (n < ranges[i][0] || n > ranges[i][1]) {
+            return { ok: false, msg: '"' + names[i] + '" フィールド: 値 ' + n + ' は範囲外です（' + ranges[i][0] + '〜' + ranges[i][1] + '）。' };
+          }
+        } else if (/^\d+-\d+$/.test(seg)) {
+          var rp = seg.split('-').map(Number);
+          if (rp[0] > rp[1]) return { ok: false, msg: '"' + names[i] + '" フィールド: 範囲の開始値は終了値以下にしてください。' };
+          if (rp[0] < ranges[i][0] || rp[1] > ranges[i][1]) {
+            return { ok: false, msg: '"' + names[i] + '" フィールド: 範囲 ' + seg + ' は許容範囲外です（' + ranges[i][0] + '〜' + ranges[i][1] + '）。' };
+          }
+        } else if (/^\d+-\d+\/\d+$/.test(seg)) {
+          continue;
+        } else if (seg === 'L' && i === 2) {
+          continue;
+        } else {
+          return { ok: false, msg: '"' + names[i] + '" フィールド: 認識できない値 "' + seg + '"。' };
+        }
+      }
+    }
+    return { ok: true, msg: '有効なcron式です: ' + describe(parts.join(' ')) };
+  }
+
+  window.cgValidate = function() {
+    var val = document.getElementById('cg-val-input').value.trim();
+    var res = document.getElementById('cg-val-result');
+    if (!val) { res.textContent = '検証するcron式を入力してください。'; res.className = 'cg-validate-result'; return; }
+    var r = validateExpr(val);
+    res.textContent = r.msg;
+    res.className = 'cg-validate-result ' + (r.ok ? 'cg-valid' : 'cg-invalid');
+    if (r.ok) {
+      var parts = val.trim().split(/\s+/);
+      var keys = ['min','hr','dom','mon','dow'];
+      keys.forEach(function(k, i) {
+        var sel = FIELDS[k].el;
+        for (var j = 0; j < sel.options.length; j++) {
+          if (sel.options[j].value === parts[i]) { sel.selectedIndex = j; break; }
+        }
       });
-    } else {
-      var ta = document.createElement('textarea');
-      ta.value = expr; document.body.appendChild(ta); ta.select();
-      document.execCommand('copy'); document.body.removeChild(ta);
-      btn.textContent = 'コピー完了!'; btn.classList.add('copied');
-      setTimeout(function(){ btn.textContent = 'コピー'; btn.classList.remove('copied'); }, 1800);
+      cgUpdate();
     }
   };
 
-  // 初期化
-  cronUpdateJa();
+  window.cgClearValidate = function() {
+    document.getElementById('cg-val-input').value = '';
+    document.getElementById('cg-val-result').textContent = '';
+    document.getElementById('cg-val-result').className = 'cg-validate-result';
+  };
+
+  buildSelects();
+  cgUpdate();
+
+  document.getElementById('cg-val-input').addEventListener('keydown', function(e){
+    if (e.key === 'Enter') cgValidate();
+  });
+
 })();
 </script>
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。
+
+> Cron式 → [Cron式ビルダー](/ja/tools/cron-expression-builder/)
+
+<div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
----
-
-> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+</div>
