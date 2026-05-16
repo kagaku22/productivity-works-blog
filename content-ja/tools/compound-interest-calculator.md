@@ -1,5 +1,5 @@
 ---
-title: "複利計算ツール"
+title: "複利計算ツール｜元本・利率・期間から将来の資産額を自動計算【無料】"
 slug: "compound-interest-calculator"
 description: "無料の複利計算ツール。定期積立・複利頻度を設定して資産成長をシミュレート。成長チャート付き。"
 categories: ["無料ツール"]

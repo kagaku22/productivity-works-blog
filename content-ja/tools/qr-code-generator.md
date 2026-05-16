@@ -1,5 +1,5 @@
 ---
-title: "QRコードジェネレーター"
+title: "QRコードジェネレーター｜URL・テキストからQRコードを無料作成"
 date: 2025-05-16
 description: "無料のQRコード作成ツール。URL・テキスト・WiFi・メールアドレスのQRコードをブラウザで即生成。PNG/SVGダウンロード対応、会員登録不要。"
 categories: ["無料ツール"]
