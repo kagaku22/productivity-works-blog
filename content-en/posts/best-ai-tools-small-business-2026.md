@@ -330,6 +330,11 @@ Want a done-for-you AI tool setup guide tailored to your specific business type?
 
 ---
 
+## Related Tools
+
+> Create a business budget → [Budget Planner](/tools/budget-planner/)
+> Estimate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

@@ -200,6 +200,10 @@ The key is starting today and practicing daily — even 15 minutes counts.
 
 ---
 
+## Related Tools
+
+> Planning to work abroad? Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+
 ## Related Templates
 
 Accelerate your learning with AI:

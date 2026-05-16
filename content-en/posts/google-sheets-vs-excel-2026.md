@@ -307,6 +307,10 @@ Google has been closing the gap for years, but Excel's depth in data analysis an
 
 ---
 
+## Related Tools
+
+> Try our free online budget planner → [Budget Planner](/tools/budget-planner/)
+
 > **Spreadsheet Skills Are One of the Highest-ROI Career Investments**  Finance, analytics, marketing, and operations roles all reward candidates who can work confidently with data. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> — browse finance and analytics roles on Japan's top job platform.
 
 ## Become a Spreadsheet Power User

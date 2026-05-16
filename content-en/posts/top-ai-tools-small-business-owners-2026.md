@@ -262,6 +262,11 @@ Read privacy policies carefully. Most reputable tools offer business agreements 
 
 ---
 
+## Related Tools
+
+> Plan your business budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+
 > **Round Out Your Small Business Stack with Cloud Accounting**  AI tools handle marketing and operations — freee handles the money. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow">Try freee — Japan's #1 cloud accounting</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt=""> to automate bookkeeping, invoicing, and tax preparation so every part of your business runs efficiently.
 
 ## Get More from Your AI Tools

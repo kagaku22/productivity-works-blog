@@ -250,6 +250,11 @@ Whatever you choose, the most important factor is completion. 40% of bootcamp en
 
 ---
 
+## Related Tools
+
+> Calculate your expected salary after bootcamp → [Salary Calculator](/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
 ## Related Templates
 
 Level up your career change with our ready-made tools:

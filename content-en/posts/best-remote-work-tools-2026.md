@@ -272,6 +272,11 @@ A remote team with three tools used well outperforms a team with twelve tools us
 
 ---
 
+## Related Tools
+
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

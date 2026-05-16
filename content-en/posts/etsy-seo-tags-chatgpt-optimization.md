@@ -278,6 +278,10 @@ Done consistently, this process will take your tag quality from "good enough" to
 
 ---
 
+## Related Tools
+
+> Estimate taxes on your Etsy profits → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+
 ## Related Templates
 
 Want a complete ChatGPT prompt toolkit for your Etsy shop?

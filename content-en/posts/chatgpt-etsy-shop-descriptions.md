@@ -302,6 +302,10 @@ Your products deserve descriptions that do them justice. Now you have the tools 
 
 ---
 
+## Related Tools
+
+> Calculate your Etsy income taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+
 ## Related Templates
 
 Grow your Etsy business with these resources:

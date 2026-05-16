@@ -595,6 +595,11 @@ Start with Prompt 7 (the 13-tag generator) for your worst-performing listing. Co
 
 ---
 
+## Related Tools
+
+> Calculate your Etsy shop taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Track your shop's profitability → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Grow your Etsy business with these resources:
