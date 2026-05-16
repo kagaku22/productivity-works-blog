@@ -258,6 +258,12 @@ Whatever you choose, the most important factor is completion. 40% of bootcamp en
 > Calculate your expected salary after bootcamp → [Salary Calculator](/tools/salary-calculator/)
 > Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+
+> Design with gradients → [CSS Gradient Generator](/tools/css-gradient-generator/) — create beautiful CSS gradients visually
+
+> Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+
 ## Related Templates
 
 Level up your career change with our ready-made tools:

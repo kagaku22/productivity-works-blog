@@ -306,6 +306,7 @@ Notionの最大の特徴は、**自分の使い方に合わせて自由にカス
 > Notionで管理するフリーランス案件の適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 月々の家計支出をNotionと合わせて管理する → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > ポモドーロテクニックで集中力アップ → [ポモドーロタイマー](/ja/tools/pomodoro-timer/)
+> イベントまでのカウントダウン → [カウントダウンタイマー](/ja/tools/countdown-timer/)
 
 ## 関連テンプレート
 

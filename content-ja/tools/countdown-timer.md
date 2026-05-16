@@ -830,6 +830,8 @@ ShowToc: false
 
 > 時間の単位を変換 → [単位変換ツール](/ja/tools/unit-converter/)
 
+> 海外チームと時間を合わせる → [タイムゾーン変換ツール](/ja/tools/timezone-converter/) — 世界中の都市間で時刻を即変換
+
 ---
 
 **年末の確定申告に向けて準備を**

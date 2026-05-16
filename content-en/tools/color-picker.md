@@ -1063,3 +1063,7 @@ Contrast and accessibility go hand in hand. WCAG (Web Content Accessibility Guid
 > Count words and characters → [Word Counter](/tools/word-counter/)
 
 > Generate secure passwords → [Password Generator](/tools/password-generator/)
+
+> Design with gradients → [CSS Gradient Generator](/tools/css-gradient-generator/) — create beautiful CSS gradients visually
+
+> Need placeholder text? → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — generate filler content for mockups

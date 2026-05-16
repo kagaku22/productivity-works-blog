@@ -691,3 +691,5 @@ Because JSON is strictly text-based and language-independent, it is widely used 
 > Generate secure passwords → [Password Generator](/tools/password-generator/)
 
 > Stay focused while coding → [Pomodoro Timer](/tools/pomodoro-timer/)
+
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live

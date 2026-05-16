@@ -161,9 +161,12 @@ AIの文章クオリティは、プロンプトで決まります。読者像・
 
 ## 関連ツール
 > 文字数・単語数をリアルタイムでカウント → [文字数カウンター](/ja/tools/moji-counter/)
+> テキストの差分を検出 → [テキスト比較ツール](/ja/tools/text-diff/)
 
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 月々の支出バランスを見直す → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+
+> マークダウンエディターが必要？ → [マークダウンプレビュー](/ja/tools/markdown-preview/) — リアルタイムでプレビュー
 
 ---
 

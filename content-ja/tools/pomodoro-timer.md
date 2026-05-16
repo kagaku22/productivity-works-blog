@@ -827,6 +827,8 @@ ShowToc: false
 
 > 時給と年収を相互変換 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 
+> 海外チームと時間を合わせる → [タイムゾーン変換ツール](/ja/tools/timezone-converter/) — 世界中の都市間で時刻を即変換
+
 ---
 
 **確定申告・経費管理を自動化しませんか？**

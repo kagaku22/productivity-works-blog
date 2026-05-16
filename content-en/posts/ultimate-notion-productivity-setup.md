@@ -285,6 +285,7 @@ The system will evolve as you use it. That's not a problem — it's evidence the
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
 
 ## Related Templates
 

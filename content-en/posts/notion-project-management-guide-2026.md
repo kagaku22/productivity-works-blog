@@ -360,6 +360,7 @@ If you want a head start, our [Notion PM Starter Kit](https://payhip.com/product
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
 
 ## Related Templates
 

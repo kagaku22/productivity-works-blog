@@ -862,6 +862,8 @@ ShowToc: false
 
 > 長さ・重さ・温度を即座に変換 → [単位変換ツール](/ja/tools/unit-converter/)
 
+> 海外チームと時間を合わせる → [タイムゾーン変換ツール](/ja/tools/timezone-converter/) — 世界中の都市間で時刻を即変換
+
 ---
 
 **ライフプランに合わせた資産管理を**

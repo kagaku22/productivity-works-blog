@@ -202,6 +202,12 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 > Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
 > Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
 
+> Design with gradients → [CSS Gradient Generator](/tools/css-gradient-generator/) — create beautiful CSS gradients visually
+
+> Generate placeholder text for your site → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+
 ---
 
 ## Related Templates

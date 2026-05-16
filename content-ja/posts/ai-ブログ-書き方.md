@@ -255,6 +255,8 @@ AIブログ記事の本質は、AIと人間の分業です。
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 副業収入の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 
+> マークダウンエディターが必要？ → [マークダウンプレビュー](/ja/tools/markdown-preview/) — リアルタイムでプレビュー
+
 ---
 
 ## 関連テンプレート

@@ -307,6 +307,9 @@ cover:
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 時給と年収を換算 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 > ポモドーロテクニックで集中力アップ → [ポモドーロタイマー](/ja/tools/pomodoro-timer/)
+> イベントまでのカウントダウン → [カウントダウンタイマー](/ja/tools/countdown-timer/)
+
+> 海外チームと時間を合わせる → [タイムゾーン変換ツール](/ja/tools/timezone-converter/) — 世界中の都市間で時刻を即変換
 
 ---
 

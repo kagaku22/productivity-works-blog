@@ -283,6 +283,7 @@ And if you want to build a full communication system that handles email, proposa
 
 ## Related Tools
 > Count words and characters in your text → [Word Counter](/tools/word-counter/)
+> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
 
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)

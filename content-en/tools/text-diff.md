@@ -750,3 +750,5 @@ ShowToc: false
 > Test regular expressions → [Regex Tester](/tools/regex-tester/)
 
 > Count words and characters → [Word Counter](/tools/word-counter/)
+
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live

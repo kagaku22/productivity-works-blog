@@ -191,10 +191,18 @@ freeeは銀行口座やクレジットカードと連携できます。副業専
 
 ## 関連ツール
 > 色をHEX・RGB・HSLで変換 → [カラーピッカー](/ja/tools/color-picker/)
+> SHA-256・MD5ハッシュを生成 → [ハッシュ生成ツール](/ja/tools/hash-generator/)
+> Base64のエンコード・デコード → [Base64エンコーダー](/ja/tools/base64-encoder/)
 
 > 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+
+> マークダウンエディターが必要？ → [マークダウンプレビュー](/ja/tools/markdown-preview/) — リアルタイムでプレビュー
+
+> ダミーテキストを生成 → [ダミーテキスト生成ツール](/ja/tools/lorem-ipsum-generator/) — レイアウト確認用のプレースホルダーを即作成
+
+> グラデーションをビジュアルで作成 → [CSSグラデーションジェネレーター](/ja/tools/css-gradient-generator/) — 美しいCSSグラデーションを視覚的に生成
 
 ### 関連記事
 

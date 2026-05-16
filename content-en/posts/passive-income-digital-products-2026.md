@@ -269,6 +269,10 @@ The income builds slowly, then compounds. Most creators who hit $3,000+/month in
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Calculate tax on your digital product income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+
+> Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+
 - [Side Hustles with AI Tools 2026: Best Ways to Earn](/posts/side-hustles-ai-tools-2026/)
 - [How to Make Money with AI in 2026](/posts/how-to-make-money-with-ai-2026/)
 - [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)

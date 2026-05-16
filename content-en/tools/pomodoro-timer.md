@@ -681,3 +681,5 @@ Finally, the visible progress created by counting completed sessions provides co
 > Calculate your freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 
 > Convert between hourly and annual salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+
+> Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly

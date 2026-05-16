@@ -350,8 +350,13 @@ Our [AI Content Creator's Toolkit](https://payhip.com/productivityworks) include
 
 ## Related Tools
 > Count words and characters in your text → [Word Counter](/tools/word-counter/)
+> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
 
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+
+> Generate placeholder text for drafts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

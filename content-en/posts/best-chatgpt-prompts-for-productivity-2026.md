@@ -366,6 +366,8 @@ Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/producti
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
 
 ## Related Templates
 

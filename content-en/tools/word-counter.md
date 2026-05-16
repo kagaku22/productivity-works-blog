@@ -549,3 +549,7 @@ In academic and professional writing, word counts are often hard requirements. U
 > Generate secure passwords for your accounts → [Password Generator](/tools/password-generator/)
 
 > Calculate your freelance writing rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
+> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+
+> Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
