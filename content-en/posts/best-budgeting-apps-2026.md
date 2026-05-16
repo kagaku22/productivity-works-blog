@@ -241,6 +241,7 @@ All seven apps offer free trials or free tiers. There's no reason not to test yo
 > Create a free monthly budget plan → [Budget Planner](/tools/budget-planner/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 
 ## Related Templates
 

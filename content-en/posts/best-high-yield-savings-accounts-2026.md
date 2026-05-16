@@ -209,6 +209,7 @@ The money you earn in interest can fund your investments, build your emergency f
 ## Related Tools
 > See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Create a monthly savings plan → [Budget Calculator](/tools/budget-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 
 ---
 
