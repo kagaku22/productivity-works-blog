@@ -182,6 +182,13 @@ ChatGPT以外にも主要なAIアシスタントがあります。
 
 ---
 
+## 関連ツール
+
+> 月々の支出バランスを見直す → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> サブスクの年間コストを計算 → [サブスク管理計算ツール](/ja/tools/subscription-cost-calculator/)
+
+---
+
 ## Productivity Worksのテンプレート・ツールも活用しよう
 
 ChatGPTをより効率的に使いこなすための**プロンプトテンプレートや業務効率化ツール**をBOOTHで販売中です。

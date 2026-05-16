@@ -299,6 +299,13 @@ Notionの最大の特徴は、**自分の使い方に合わせて自由にカス
 - [AI要約ツールおすすめ：議事録・文書を瞬時に要約](/ja/posts/ai-youyaku-tool-osusume/)
 - [ChatGPT議事録テンプレート：会議を10倍効率化](/ja/posts/chatgpt-gijiroku-template/)
 
+---
+
+## 関連ツール
+
+> Notionで管理するフリーランス案件の適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
+> 月々の家計支出をNotionと合わせて管理する → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+
 ## 関連テンプレート
 
 この記事で紹介したテクニックをすぐ実践できるテンプレートはこちら：

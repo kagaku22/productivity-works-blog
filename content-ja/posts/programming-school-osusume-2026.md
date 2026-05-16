@@ -225,6 +225,14 @@ Web系転職ならRuby（Ruby on Rails）またはPHP。副業ならHTML/CSS/Jav
 
 ---
 
+---
+
+## 関連ツール
+
+> フリーランスエンジニアとしての適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
+> エンジニア転職後の手取り額を確認する → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+> 副業収入が発生した場合の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
+
 ## 関連テンプレート
 
 スキルアップ・キャリアチェンジをサポートするテンプレート：
