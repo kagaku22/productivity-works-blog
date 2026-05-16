@@ -244,6 +244,7 @@ Run your own numbers with the [NISA Simulator](/ja/tools/nisa-simulator/), the [
 > Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Plan your retirement → [Retirement Calculator](/tools/retirement-calculator/)
 > Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 ---
 

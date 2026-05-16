@@ -225,6 +225,7 @@ A $100 investment made today is worth more than a $1,000 investment made next ye
 > Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 > Create a budget to free up investment funds → [Budget Calculator](/tools/budget-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)

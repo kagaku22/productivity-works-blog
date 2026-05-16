@@ -196,6 +196,7 @@ The goal isn't to become a financial expert. It's to stop leaving money on the t
 > How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 > Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 ## Related Templates
 

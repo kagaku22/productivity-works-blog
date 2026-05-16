@@ -243,6 +243,7 @@ All seven apps offer free trials or free tiers. There's no reason not to test yo
 > See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 ## Related Templates
 

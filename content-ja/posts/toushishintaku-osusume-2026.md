@@ -194,6 +194,7 @@ cover:
 > 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 > 教育費の総額を計算 → [教育費シミュレーター](/ja/tools/kyouikuhi-simulator/)
 > 総資産・純資産を計算 → [資産管理シミュレーター](/ja/tools/shisan-simulator/)
+> インフレによる購買力低下を計算 → [インフレ計算ツール](/ja/tools/inflation-calculator/)
 
 ---
 

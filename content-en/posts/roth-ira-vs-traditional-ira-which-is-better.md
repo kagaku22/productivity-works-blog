@@ -312,6 +312,7 @@ The most important decision is the one you actually make. Both accounts are vast
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
 > Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 - [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
 - [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)

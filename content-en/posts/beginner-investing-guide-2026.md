@@ -313,6 +313,7 @@ Our [Personal Finance Starter Pack](https://payhip.com/productivityworks) includ
 > Plan your retirement → [Retirement Savings Calculator](/tools/retirement-calculator/)
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
 > Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 **Related Reading:**
 - [How to Start Investing with $100](/posts/how-to-start-investing-with-100/)

@@ -242,3 +242,4 @@ iDeCoの節税メリットを改めて整理します。
 - [手取り計算ツール](/ja/tools/salary-tedori-calculator/) — iDeCo加入後の毎月の手取り変化を確認
 
 > 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
+> インフレによる購買力低下を計算 → [インフレ計算ツール](/ja/tools/inflation-calculator/)

@@ -221,6 +221,7 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 
 > Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
 > Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 
 ---
 
