@@ -352,3 +352,9 @@ Excelテンプレートを作るだけでは家計は改善しません。夫婦
 - [Excel請求書テンプレート](https://prod-works.booth.pm/) — インボイス制度対応
 - [OKR管理テンプレート](https://prod-works.booth.pm/) — 信号機表示付き目標管理
 - [KPIダッシュボード](https://prod-works.booth.pm/) — 前月比自動計算
+
+## あわせて読みたい
+
+- [家計簿アプリから卒業：収入が月10万円超えたらfreeeに切り替える理由](/ja/posts/kakeibo-freee-kirikae-fukugyou/)
+- [freeeとマネーフォワードどっちが副業向き？実際の費用と機能を徹底比較](/ja/posts/freee-vs-moneyforward-fukugyou/)
+- [飲食店経営Excel管理テンプレート活用ガイド2026](/ja/posts/insyoku-keiei-excel-kanri-2026/)

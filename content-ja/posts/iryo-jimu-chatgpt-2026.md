@@ -399,3 +399,9 @@ ChatGPTが文書のたたき台を作る時間（15〜30分 → 5分）が短縮
 
 - [医療事務向けChatGPT活用術10選](https://prod-works.booth.pm/) — レセプト・患者案内・院内掲示物まで
 - [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — 業務全般で使えるプロンプト集
+
+## あわせて読みたい
+
+- [医療事務 ChatGPTで患者案内文書を5分で作成する方法](/ja/posts/iryo-jimu-chatgpt-kanja-annai-sakusei/)
+- [ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [ChatGPTプロンプトの書き方コツ【2026年版】すぐ使える例文テンプレート付き](/ja/posts/chatgpt-prompt-kakikata-kotsu/)

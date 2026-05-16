@@ -251,3 +251,9 @@ Run your own numbers with the [NISA Simulator](/ja/tools/nisa-simulator/), the [
 ## Disclaimer
 
 *This article contains affiliate links. If you open an account via the links on this page, we may receive a commission at no extra cost to you. All opinions are our own. This article is for informational purposes only and does not constitute investment advice. Investment returns are not guaranteed, and the value of your investments can go down as well as up. Tax rules described reflect Japanese tax law as understood in May 2026 — always verify current rules with a tax professional or the NTA (国税庁) website before making decisions. iDeCo rules and contribution limits are subject to change.*
+
+## You May Also Like
+
+- [iDeCo Tax Deduction Calculator: How Much Can You Actually Save in Japan?](/posts/ideco-tax-deduction-calculator-japan/)
+- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+- [Beginner Investing Guide 2026: How to Start Building Wealth Today](/posts/beginner-investing-guide-2026/)

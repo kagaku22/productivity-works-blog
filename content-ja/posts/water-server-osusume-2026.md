@@ -200,3 +200,9 @@ amadana（アマダナ）やcado（カドー）とのコラボモデルはイン
 
 - [Excel家計簿テンプレート](https://prod-works.booth.pm/) — 固定費・水道光熱費の見える化
 - [AI仕事術ガイド](https://prod-works.booth.pm/) — AIで日々の家事・買い物を効率化
+
+## あわせて読みたい
+
+- [光回線 おすすめ2026年版！速度・料金・キャッシュバックで比較](/ja/posts/hikari-kaisen-osusume-2026/)
+- [格安SIM おすすめ2026年版！乗り換えで月5,000円節約する方法](/ja/posts/kakuyasu-sim-osusume-2026/)
+- [ネット銀行 おすすめ2026年版！金利・手数料・使いやすさで比較](/ja/posts/net-bank-osusume-2026/)

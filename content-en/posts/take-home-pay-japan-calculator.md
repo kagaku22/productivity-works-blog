@@ -307,3 +307,9 @@ Understanding your payslip is the first step to managing your money confidently 
 ---
 
 *Disclaimer: This article provides general information about Japan's tax and social insurance system as of 2026. Individual circumstances vary. For advice on your specific tax situation, consult a qualified tax accountant (税理士, zeirishi) or the Japan National Tax Agency (国税庁) website at nta.go.jp.*
+
+## You May Also Like
+
+- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/posts/salary-negotiation-japan-switching-jobs/)
+- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/posts/side-job-tax-japan-rules/)
+- [How to Use doda for Salary Negotiation in Japan: An English Guide for Career Changers (2026)](/posts/doda-japan-salary-negotiation-english-guide/)

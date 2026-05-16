@@ -181,3 +181,9 @@ FXで得た利益が手取りや税負担にどう影響するかを知りたい
 > FXの利益を計算 → [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/)
 > 積立投資の複利効果を試算 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
+
+## あわせて読みたい
+
+- [新NISA始め方2026年版【初心者向け完全ガイド】口座開設から投資スタートまで](/ja/posts/shin-nisa-hajimekata-shoshinsha-2026/)
+- [FX利益20万円超えたら確定申告が必要？サラリーマン向けに税額を実計算](/ja/posts/fx-rieki-20man-kakuteishinkoku/)
+- [NISA iDeCo どっちを先に始めるべき？優先順位を徹底解説【2026年最新版】](/ja/posts/nisa-ideco-docchi-saki/)

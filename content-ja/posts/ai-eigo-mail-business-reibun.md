@@ -386,3 +386,9 @@ AIを使った英語ビジネスメール作成のポイントをまとめます
 - [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — コピペで即使えるプロンプト集
 - [AI仕事術 完全ガイド](https://prod-works.booth.pm/) — 50のAIワークフロー収録
 - [AI副業スタートキット](https://prod-works.booth.pm/) — AIで副収入を得る実践ガイド
+
+## あわせて読みたい
+
+- [AI英語学習おすすめアプリ2026年版【比較ランキング・無料あり】](/ja/posts/ai-eigo-gakushu-osusume-app-2026/)
+- [AI活用の英語学習法おすすめ5選【2026年版・独学で話せるようになる方法】](/ja/posts/ai-英語学習-おすすめ/)
+- [オンライン英会話 おすすめ2026年版！料金・講師・教材で比較](/ja/posts/online-eikaiwa-osusume-2026/)

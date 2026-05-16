@@ -207,3 +207,9 @@ freeeは国内の主要銀行・証券・クレジットカード会社と連携
 > 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 
 ※本記事にはアフィリエイト広告が含まれています。
+
+## あわせて読みたい
+
+- [副業フリーランスがfreeeで青色申告65万控除を最速で取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)
+- [freeeとマネーフォワードどっちが副業向き？実際の費用と機能を徹底比較](/ja/posts/freee-vs-moneyforward-fukugyou/)
+- [フリーランス確定申告 AIで経費仕訳を自動化する具体的手順](/ja/posts/freelance-kakuteishinkoku-ai-keihi-shiwake/)

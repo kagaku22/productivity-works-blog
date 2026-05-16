@@ -270,3 +270,9 @@ FX確定申告に必要な書類は大きく6種類です。
 > 副業の税金を計算 → [副業税金計算シミュレーター](/ja/tools/fukugyou-tax-calculator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
+
+## あわせて読みたい
+
+- [FX利益20万円超えたら確定申告が必要？サラリーマン向けに税額を実計算](/ja/posts/fx-rieki-20man-kakuteishinkoku/)
+- [FXの損失は3年繰り越せる？繰越控除の申告手順を図解で解説](/ja/posts/fx-sonshitsu-kurikoshi-koujo/)
+- [副業の確定申告やり方2026年版【freee・マネーフォワード対応】](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)

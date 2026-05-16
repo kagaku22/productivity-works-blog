@@ -357,3 +357,9 @@ Understand your salary structure. Know your market value. Let your advisor negot
 
 - [Salary Negotiation in Japan When Switching Jobs](/en/tools/salary-calculator/)
 - [Best Job Search Sites in Japan 2026](/en/tools/budget-planner/)
+
+## You May Also Like
+
+- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/posts/salary-negotiation-japan-switching-jobs/)
+- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/posts/best-job-search-sites-2026/)
+- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/posts/take-home-pay-japan-calculator/)

@@ -193,3 +193,9 @@ freeeとマネーフォワードは、どちらも副業の確定申告に十分
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
+
+## あわせて読みたい
+
+- [副業フリーランスがfreeeで青色申告65万控除を最速で取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)
+- [会計ソフト おすすめ2026年版！個人事業主・フリーランス向け比較](/ja/posts/kaikei-soft-osusume-2026/)
+- [freeeの経費科目一覧｜個人事業主・フリーランスが迷わない仕訳ガイド【2026年版】](/ja/posts/freee-keihi-kamoku-ichiran-2026/)

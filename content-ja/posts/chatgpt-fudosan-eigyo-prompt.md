@@ -429,3 +429,9 @@ AIは「仕事を奪うもの」ではなく「あなたの時間を作り出す
 
 - [不動産営業向けChatGPTプロンプト集](https://prod-works.booth.pm/) — 物件紹介・顧客対応・内見フォローまで網羅
 - [ChatGPTプロンプト集100選](https://prod-works.booth.pm/) — ビジネス全般で使えるプロンプト集
+
+## あわせて読みたい
+
+- [不動産営業 ChatGPTで物件紹介メールを3分で作成する方法](/ja/posts/fudosan-eigyo-chatgpt-bukken-shoukai-mail/)
+- [ChatGPTプロンプトの書き方コツ【2026年版】すぐ使える例文テンプレート付き](/ja/posts/chatgpt-prompt-kakikata-kotsu/)
+- [ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】](/ja/posts/chatgpt-仕事-活用法-2026/)

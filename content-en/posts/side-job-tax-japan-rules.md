@@ -270,3 +270,9 @@ The filing process itself — while conducted in Japanese — is navigable with 
 ---
 
 *The information in this article is provided for general educational purposes and reflects the tax rules in effect as of early 2026. Tax laws change, and individual circumstances vary. For advice specific to your situation, consult a registered tax advisor (税理士) in Japan.*
+
+## You May Also Like
+
+- [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)
+- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/posts/kakuteishinkoku-fx-income-guide/)
+- [How to Start Freelancing in 2026: Complete Beginner''s Guide](/posts/how-to-start-freelancing-2026/)

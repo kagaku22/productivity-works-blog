@@ -245,3 +245,9 @@ Ace your next career move with these resources:
 
 - [Job Interview Prep Guide: AI-Powered](https://payhip.com/productivityworks) — 50 questions, STAR method templates, salary negotiation scripts
 - [ChatGPT Prompt Templates: 100 Ready-to-Use Prompts](https://payhip.com/productivityworks) — Resume and interview prep prompts included
+
+## You May Also Like
+
+- [How to Create a Resume with AI (Step-by-Step Guide for 2026)](/posts/create-resume-with-ai-step-by-step/)
+- [ChatGPT Resume Tips for Career Changers Over 50 (2026)](/posts/chatgpt-resume-over-50-career-change/)
+- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/posts/best-job-search-sites-2026/)

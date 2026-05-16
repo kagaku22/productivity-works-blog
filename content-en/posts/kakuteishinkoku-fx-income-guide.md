@@ -258,3 +258,9 @@ Start collecting your documents in January, authenticate your My Number card for
 ---
 
 *This article is for general informational purposes. Tax rules change annually — always confirm the current rules with the NTA website ([nta.go.jp](https://www.nta.go.jp)) or a qualified tax professional (税理士) before filing.*
+
+## You May Also Like
+
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
+- [FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?](/posts/fx-loss-carryforward-japan-tax/)
+- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/posts/side-job-tax-japan-rules/)

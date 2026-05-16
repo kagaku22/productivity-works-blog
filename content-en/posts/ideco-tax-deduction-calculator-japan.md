@@ -274,3 +274,9 @@ Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal
 ---
 
 *Affiliate Disclosure: This article contains affiliate links. If you sign up for services through links on this page, Productivity Works may receive a commission at no additional cost to you. All product recommendations are based on independent research. Tax figures are based on Japan's tax code as of 2026 and are provided for informational purposes only; consult a licensed tax advisor (税理士) for advice specific to your situation.*
+
+## You May Also Like
+
+- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/posts/best-investment-account-japan-nisa-ideco/)
+- [Retirement Planning in Japan for Foreign Residents: What the Pension System Won't Cover](/posts/retirement-planning-japan-foreign-resident/)
+- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
