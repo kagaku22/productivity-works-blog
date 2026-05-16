@@ -1,840 +1,755 @@
 ---
-title: "ポモドーロタイマー - 無料オンライン集中タイマー"
+title: "ポモドーロタイマー"
 date: 2025-05-16
-description: "無料のポモドーロタイマー。作業・休憩時間をカスタマイズして集中力アップ。セッション記録・目標設定機能付き。"
+description: "無料のポモドーロタイマー。作業・休憩のインターバルをカスタマイズして集中力をアップ。セッション管理・音声通知付き、会員登録不要。"
 categories: ["無料ツール"]
-tags: ["ポモドーロ", "タイマー", "集中力", "生産性", "時間管理"]
 slug: "pomodoro-timer"
-aliases: ["/ja/tools/focus-timer/", "/ja/tools/productivity-timer/"]
+ShowToc: false
 cover:
   image: "/images/covers/pomodoro-timer-ja.png"
   alt: "ポモドーロタイマー"
-ShowToc: false
 ---
 
-<div id="pomodoro-app">
+25分の集中と5分の休憩を繰り返す「ポモドーロ・テクニック」を、ブラウザだけで手軽に実践できるタイマーです。作業時間・休憩時間のカスタマイズ、音声通知、セッション記録に対応し、会員登録なしで今すぐ使えます。
+
+<div id="pm-app">
 
 <style>
-#pomodoro-app {
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-  max-width: 700px;
+#pm-app {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 16px;
-  color: #2c3e50;
+  color: #1e293b;
 }
 
-/* Mode tabs */
-#pomodoro-app .mode-tabs {
+#pm-app * {
+  box-sizing: border-box;
+}
+
+/* Preset buttons */
+#pm-app .pm-presets {
   display: flex;
-  justify-content: center;
   gap: 8px;
-  margin-bottom: 28px;
   flex-wrap: wrap;
+  margin-bottom: 24px;
 }
 
-#pomodoro-app .mode-btn {
-  padding: 8px 20px;
-  border: 2px solid #e74c3c;
-  background: transparent;
-  color: #e74c3c;
-  border-radius: 24px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.2s;
+#pm-app .pm-preset-btn {
+  padding: 6px 14px;
+  border: 1.5px solid #94a3b8;
+  border-radius: 20px;
+  background: #fff;
+  color: #475569;
+  font-size: 13px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all .18s;
 }
 
-#pomodoro-app .mode-btn.active,
-#pomodoro-app .mode-btn:hover {
-  background: #e74c3c;
+#pm-app .pm-preset-btn:hover,
+#pm-app .pm-preset-btn.active {
+  background: #1e293b;
+  border-color: #1e293b;
+  color: #fff;
+}
+
+/* Phase tabs */
+#pm-app .pm-phase-tabs {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#pm-app .pm-phase-tab {
+  padding: 5px 16px;
+  border-radius: 20px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #e2e8f0;
+  color: #64748b;
+  transition: all .18s;
+}
+
+#pm-app .pm-phase-tab.active {
+  background: #0f172a;
   color: #fff;
 }
 
 /* Circular timer */
-#pomodoro-app .timer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 28px;
+#pm-app .pm-timer-wrap {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 24px;
 }
 
-#pomodoro-app .ring-svg {
-  width: 220px;
-  height: 220px;
+#pm-app .pm-ring-svg {
+  width: 240px;
+  height: 240px;
   transform: rotate(-90deg);
 }
 
-#pomodoro-app .ring-bg {
+#pm-app .pm-ring-bg {
   fill: none;
-  stroke: #f0e0de;
-  stroke-width: 12;
+  stroke: #e2e8f0;
+  stroke-width: 10;
 }
 
-#pomodoro-app .ring-progress {
+#pm-app .pm-ring-progress {
   fill: none;
-  stroke: #e74c3c;
-  stroke-width: 12;
+  stroke: #0ea5e9;
+  stroke-width: 10;
   stroke-linecap: round;
-  transition: stroke-dashoffset 0.8s linear, stroke 0.5s;
+  transition: stroke-dashoffset .8s linear, stroke .4s;
 }
 
-#pomodoro-app .timer-inner {
-  position: relative;
-  width: 220px;
-  height: 220px;
-}
-
-#pomodoro-app .timer-text-wrap {
+#pm-app .pm-timer-center {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#pomodoro-app .timer-display {
+#pm-app .pm-time-display {
   font-size: 54px;
   font-weight: 700;
-  color: #e74c3c;
-  line-height: 1;
   letter-spacing: -2px;
+  color: #0f172a;
+  line-height: 1;
 }
 
-#pomodoro-app .timer-mode-label {
-  font-size: 13px;
-  color: #888;
-  margin-top: 4px;
-  font-weight: 500;
+#pm-app .pm-phase-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 6px;
 }
 
-/* Session counter */
-#pomodoro-app .session-counter {
+/* Controls */
+#pm-app .pm-controls {
   display: flex;
-  justify-content: center;
-  gap: 6px;
-  margin-bottom: 24px;
-}
-
-#pomodoro-app .pom-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 2px solid #e74c3c;
-  background: transparent;
-  transition: background 0.3s;
-}
-
-#pomodoro-app .pom-dot.done {
-  background: #e74c3c;
-}
-
-/* Control buttons */
-#pomodoro-app .controls {
-  display: flex;
-  justify-content: center;
   gap: 12px;
-  margin-bottom: 28px;
+  justify-content: center;
+  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
-#pomodoro-app .ctrl-btn {
-  padding: 12px 28px;
-  border: none;
+#pm-app .pm-btn {
+  padding: 10px 22px;
   border-radius: 8px;
-  font-size: 16px;
+  border: none;
+  font-size: 15px;
   font-weight: 700;
   cursor: pointer;
-  transition: opacity 0.2s, transform 0.1s;
+  transition: all .18s;
 }
 
-#pomodoro-app .ctrl-btn:active {
-  transform: scale(0.97);
-}
-
-#pomodoro-app .btn-start {
-  background: #e74c3c;
+#pm-app .pm-btn-primary {
+  background: #0ea5e9;
   color: #fff;
-  min-width: 120px;
+  min-width: 110px;
 }
 
-#pomodoro-app .btn-reset {
-  background: #ecf0f1;
-  color: #555;
+#pm-app .pm-btn-primary:hover {
+  background: #0284c7;
 }
 
-#pomodoro-app .btn-skip {
-  background: #ecf0f1;
-  color: #555;
+#pm-app .pm-btn-secondary {
+  background: #e2e8f0;
+  color: #475569;
 }
 
-#pomodoro-app .ctrl-btn:hover {
-  opacity: 0.85;
+#pm-app .pm-btn-secondary:hover {
+  background: #cbd5e1;
 }
 
-/* Customize settings */
-#pomodoro-app .settings-toggle {
+#pm-app .pm-btn-skip {
+  background: #f1f5f9;
+  color: #64748b;
+  font-size: 13px;
+  padding: 10px 16px;
+}
+
+#pm-app .pm-btn-skip:hover {
+  background: #e2e8f0;
+}
+
+/* Session dots */
+#pm-app .pm-sessions {
   text-align: center;
-  margin-bottom: 12px;
-}
-
-#pomodoro-app .settings-toggle button {
-  background: none;
-  border: none;
-  color: #e74c3c;
-  font-size: 14px;
-  cursor: pointer;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-#pomodoro-app .settings-panel {
-  display: none;
-  background: #fff8f7;
-  border: 1px solid #f5c6c2;
-  border-radius: 10px;
-  padding: 16px 20px;
   margin-bottom: 20px;
 }
 
-#pomodoro-app .settings-panel.open {
-  display: block;
-}
-
-#pomodoro-app .settings-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-}
-
-#pomodoro-app .setting-item label {
-  display: block;
-  font-size: 12px;
-  color: #888;
+#pm-app .pm-session-dots {
+  font-size: 22px;
+  letter-spacing: 4px;
   margin-bottom: 4px;
-  font-weight: 500;
 }
 
-#pomodoro-app .setting-item input[type="number"] {
-  width: 100%;
-  padding: 8px 10px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 15px;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-#pomodoro-app .settings-apply-btn {
-  display: block;
-  width: 100%;
-  margin-top: 12px;
-  padding: 9px;
-  background: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-#pomodoro-app .settings-apply-btn:hover {
-  opacity: 0.87;
-}
-
-/* Notification banner */
-#pomodoro-app .notification-banner {
-  display: none;
-  background: #e74c3c;
-  color: #fff;
-  border-radius: 8px;
-  padding: 12px 18px;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 15px;
-  animation: fadeIn 0.4s;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Session log */
-#pomodoro-app .log-section {
-  margin-top: 8px;
-}
-
-#pomodoro-app .log-section h3 {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 10px;
-  font-weight: 600;
-  border-left: 3px solid #e74c3c;
-  padding-left: 8px;
-}
-
-#pomodoro-app .log-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  max-height: 180px;
-  overflow-y: auto;
-}
-
-#pomodoro-app .log-list li {
+#pm-app .pm-session-info {
+  font-size: 13px;
+  color: #64748b;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 7px 10px;
-  border-radius: 6px;
-  font-size: 13px;
-  background: #fdf5f4;
-  margin-bottom: 5px;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-#pomodoro-app .log-list li .log-type {
+#pm-app .pm-session-info span {
   font-weight: 600;
-  color: #e74c3c;
+  color: #334155;
 }
 
-#pomodoro-app .log-list li .log-time {
-  color: #999;
-  font-size: 12px;
-}
-
-#pomodoro-app .log-empty {
-  color: #bbb;
-  font-size: 13px;
-  text-align: center;
-  padding: 10px 0;
-}
-
-#pomodoro-app .log-clear-btn {
+/* Settings */
+#pm-app .pm-settings-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   background: none;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 4px 12px;
-  font-size: 12px;
-  color: #999;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-#pomodoro-app .log-clear-btn:hover {
-  background: #f5f5f5;
-}
-
-#pomodoro-app .log-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-#pomodoro-app .log-header h3 {
-  margin-bottom: 0;
-  flex: 1;
-}
-
-/* Long break suggestion */
-#pomodoro-app .long-break-banner {
-  display: none;
-  background: #27ae60;
-  color: #fff;
-  border-radius: 8px;
-  padding: 12px 18px;
-  text-align: center;
+  border: none;
+  font-size: 14px;
   font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 15px;
-}
-
-#pomodoro-app .long-break-banner button {
-  margin-left: 10px;
-  padding: 4px 14px;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  background: transparent;
-  color: #fff;
+  color: #64748b;
   cursor: pointer;
-  font-size: 13px;
-  font-weight: 700;
+  margin: 0 auto 12px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background .18s;
 }
 
-/* Responsive */
-@media (max-width: 480px) {
-  #pomodoro-app .ring-svg,
-  #pomodoro-app .timer-inner {
-    width: 180px;
-    height: 180px;
-  }
-  #pomodoro-app .timer-display {
-    font-size: 42px;
-  }
-  #pomodoro-app .settings-grid {
+#pm-app .pm-settings-toggle:hover {
+  background: #f1f5f9;
+}
+
+#pm-app .pm-settings-toggle .pm-chevron {
+  transition: transform .25s;
+}
+
+#pm-app .pm-settings-toggle.open .pm-chevron {
+  transform: rotate(180deg);
+}
+
+#pm-app .pm-settings-panel {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#pm-app .pm-settings-panel.open {
+  display: block;
+}
+
+#pm-app .pm-settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 420px) {
+  #pm-app .pm-settings-grid {
     grid-template-columns: 1fr;
   }
-  #pomodoro-app .ctrl-btn {
-    padding: 10px 18px;
-    font-size: 14px;
+  #pm-app .pm-timer-wrap,
+  #pm-app .pm-ring-svg {
+    width: 200px;
+    height: 200px;
   }
+  #pm-app .pm-time-display {
+    font-size: 44px;
+  }
+}
+
+#pm-app .pm-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#pm-app .pm-field label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+#pm-app .pm-field input[type="number"] {
+  padding: 8px 10px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  background: #fff;
+  width: 100%;
+  outline: none;
+  transition: border-color .18s;
+}
+
+#pm-app .pm-field input[type="number"]:focus {
+  border-color: #0ea5e9;
+}
+
+#pm-app .pm-field-full {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#pm-app .pm-toggle-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+}
+
+#pm-app .pm-toggle {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+#pm-app .pm-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#pm-app .pm-toggle-slider {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #cbd5e1;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+#pm-app .pm-toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+#pm-app .pm-toggle input:checked + .pm-toggle-slider {
+  background: #0ea5e9;
+}
+
+#pm-app .pm-toggle input:checked + .pm-toggle-slider::before {
+  transform: translateX(18px);
+}
+
+#pm-app .pm-apply-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 9px;
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .18s;
+}
+
+#pm-app .pm-apply-btn:hover {
+  background: #1e293b;
 }
 </style>
 
-<!-- Mode selector -->
-<div class="mode-tabs">
-  <button class="mode-btn active" id="btn-work">作業 (25分)</button>
-  <button class="mode-btn" id="btn-short">短い休憩 (5分)</button>
-  <button class="mode-btn" id="btn-long">長い休憩 (15分)</button>
+<!-- Preset buttons -->
+<div class="pm-presets">
+  <button class="pm-preset-btn active" data-work="25" data-short="5" data-long="15" data-sessions="4">クラシック（25/5）</button>
+  <button class="pm-preset-btn" data-work="50" data-short="10" data-long="30" data-sessions="4">ディープワーク（50/10）</button>
+  <button class="pm-preset-btn" data-work="15" data-short="3" data-long="15" data-sessions="4">スプリント（15/3）</button>
 </div>
 
-<!-- Long break suggestion banner -->
-<div class="long-break-banner" id="long-break-banner">
-  4ポモドーロ達成！長い休憩を取りましょう。
-  <button id="take-long-break-btn">今すぐ休憩</button>
+<!-- Phase indicator tabs -->
+<div class="pm-phase-tabs">
+  <button class="pm-phase-tab active" id="pm-tab-work">作業</button>
+  <button class="pm-phase-tab" id="pm-tab-short">小休憩</button>
+  <button class="pm-phase-tab" id="pm-tab-long">大休憩</button>
 </div>
-
-<!-- Notification banner -->
-<div class="notification-banner" id="notification-banner"></div>
 
 <!-- Circular timer -->
-<div class="timer-container">
-  <div class="timer-inner">
-    <svg class="ring-svg" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
-      <circle class="ring-bg" cx="110" cy="110" r="95"/>
-      <circle class="ring-progress" id="ring-progress" cx="110" cy="110" r="95"/>
-    </svg>
-    <div class="timer-text-wrap">
-      <div class="timer-display" id="timer-display">25:00</div>
-      <div class="timer-mode-label" id="timer-mode-label">作業セッション</div>
-    </div>
+<div class="pm-timer-wrap">
+  <svg class="pm-ring-svg" viewBox="0 0 240 240">
+    <circle class="pm-ring-bg" cx="120" cy="120" r="108"/>
+    <circle class="pm-ring-progress" id="pm-ring" cx="120" cy="120" r="108"/>
+  </svg>
+  <div class="pm-timer-center">
+    <div class="pm-time-display" id="pm-display">25:00</div>
+    <div class="pm-phase-label" id="pm-phase-text">作業中</div>
   </div>
-</div>
-
-<!-- Session counter (4 dots) -->
-<div class="session-counter" id="session-counter">
-  <div class="pom-dot" id="dot-0"></div>
-  <div class="pom-dot" id="dot-1"></div>
-  <div class="pom-dot" id="dot-2"></div>
-  <div class="pom-dot" id="dot-3"></div>
 </div>
 
 <!-- Controls -->
-<div class="controls">
-  <button class="ctrl-btn btn-start" id="start-btn">スタート</button>
-  <button class="ctrl-btn btn-reset" id="reset-btn">リセット</button>
-  <button class="ctrl-btn btn-skip" id="skip-btn">スキップ</button>
+<div class="pm-controls">
+  <button class="pm-btn pm-btn-primary" id="pm-start-btn">スタート</button>
+  <button class="pm-btn pm-btn-secondary" id="pm-reset-btn">リセット</button>
+  <button class="pm-btn pm-btn-skip" id="pm-skip-btn">次へ &#8594;</button>
 </div>
 
-<!-- Settings -->
-<div class="settings-toggle">
-  <button id="settings-toggle-btn">時間をカスタマイズ ▾</button>
+<!-- Session tracker -->
+<div class="pm-sessions">
+  <div class="pm-session-dots" id="pm-dots">○○○○</div>
+  <div class="pm-session-info">
+    <div>セッション: <span id="pm-session-num">1 / 4</span></div>
+    <div>本日の集中時間: <span id="pm-focus-total">0分</span></div>
+  </div>
 </div>
-<div class="settings-panel" id="settings-panel">
-  <div class="settings-grid">
-    <div class="setting-item">
+
+<!-- Settings toggle -->
+<button class="pm-settings-toggle" id="pm-settings-btn">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3"/>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+  </svg>
+  設定
+  <svg class="pm-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="6 9 12 15 18 9"/>
+  </svg>
+</button>
+
+<!-- Settings panel -->
+<div class="pm-settings-panel" id="pm-settings-panel">
+  <div class="pm-settings-grid">
+    <div class="pm-field">
       <label>作業時間（分）</label>
-      <input type="number" id="inp-work" min="1" max="60" value="25">
+      <input type="number" id="pm-set-work" min="1" max="120" value="25">
     </div>
-    <div class="setting-item">
-      <label>短い休憩（分）</label>
-      <input type="number" id="inp-short" min="1" max="30" value="5">
+    <div class="pm-field">
+      <label>小休憩（分）</label>
+      <input type="number" id="pm-set-short" min="1" max="60" value="5">
     </div>
-    <div class="setting-item">
-      <label>長い休憩（分）</label>
-      <input type="number" id="inp-long" min="1" max="60" value="15">
+    <div class="pm-field">
+      <label>大休憩（分）</label>
+      <input type="number" id="pm-set-long" min="1" max="60" value="15">
+    </div>
+    <div class="pm-field">
+      <label>大休憩までのセッション数</label>
+      <input type="number" id="pm-set-sessions" min="1" max="10" value="4">
+    </div>
+    <div class="pm-field-full">
+      <span class="pm-toggle-label">フェーズ終了後に自動スタート</span>
+      <label class="pm-toggle">
+        <input type="checkbox" id="pm-set-auto">
+        <span class="pm-toggle-slider"></span>
+      </label>
     </div>
   </div>
-  <button class="settings-apply-btn" id="settings-apply-btn">設定を適用</button>
-</div>
-
-<!-- Session log -->
-<div class="log-section">
-  <div class="log-header">
-    <h3>セッション履歴</h3>
-    <button class="log-clear-btn" id="log-clear-btn">クリア</button>
-  </div>
-  <ul class="log-list" id="log-list">
-    <li class="log-empty" id="log-empty">まだセッションがありません</li>
-  </ul>
+  <button class="pm-apply-btn" id="pm-apply-btn">設定を適用</button>
 </div>
 
 <script>
 (function() {
-  // --- State ---
-  var MODES = {
-    work:  { label: '作業セッション', color: '#e74c3c', ringColor: '#e74c3c' },
-    short: { label: '短い休憩',       color: '#e67e22', ringColor: '#e67e22' },
-    long:  { label: '長い休憩',       color: '#27ae60', ringColor: '#27ae60' }
+  // --- Config & State ---
+  var cfg = { work: 25, short: 5, long: 15, sessions: 4, auto: false };
+
+  var phaseNames   = { work: '作業中', short: '小休憩', long: '大休憩' };
+  var phaseColors  = { work: '#0ea5e9', short: '#10b981', long: '#8b5cf6' };
+
+  var state = {
+    phase: 'work',
+    sessionsDone: 0,
+    secondsLeft: cfg.work * 60,
+    totalSeconds: cfg.work * 60,
+    running: false,
+    timer: null,
+    focusMinutesToday: 0
   };
 
-  var durations = { work: 25, short: 5, long: 15 }; // minutes
-  var currentMode = 'work';
-  var totalSeconds = durations.work * 60;
-  var remainingSeconds = totalSeconds;
-  var isRunning = false;
-  var timerId = null;
-  var completedPomodoros = 0; // in current cycle of 4
-  var totalPomodoros = 0;
-  var sessionLog = [];
+  // SVG ring geometry
+  var R    = 108;
+  var CIRC = 2 * Math.PI * R;
 
-  // Ring circumference
-  var RADIUS = 95;
-  var CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+  // --- DOM refs ---
+  var display       = document.getElementById('pm-display');
+  var phaseText     = document.getElementById('pm-phase-text');
+  var ring          = document.getElementById('pm-ring');
+  var startBtn      = document.getElementById('pm-start-btn');
+  var resetBtn      = document.getElementById('pm-reset-btn');
+  var skipBtn       = document.getElementById('pm-skip-btn');
+  var dotsEl        = document.getElementById('pm-dots');
+  var sessionNumEl  = document.getElementById('pm-session-num');
+  var focusTotalEl  = document.getElementById('pm-focus-total');
+  var settingsBtn   = document.getElementById('pm-settings-btn');
+  var settingsPanel = document.getElementById('pm-settings-panel');
+  var applyBtn      = document.getElementById('pm-apply-btn');
+  var tabWork       = document.getElementById('pm-tab-work');
+  var tabShort      = document.getElementById('pm-tab-short');
+  var tabLong       = document.getElementById('pm-tab-long');
 
-  // --- DOM ---
-  var ringProgress   = document.getElementById('ring-progress');
-  var timerDisplay   = document.getElementById('timer-display');
-  var timerModeLabel = document.getElementById('timer-mode-label');
-  var startBtn       = document.getElementById('start-btn');
-  var resetBtn       = document.getElementById('reset-btn');
-  var skipBtn        = document.getElementById('skip-btn');
-  var notifBanner    = document.getElementById('notification-banner');
-  var longBrkBanner  = document.getElementById('long-break-banner');
-  var logList        = document.getElementById('log-list');
-  var logEmpty       = document.getElementById('log-empty');
-  var logClearBtn    = document.getElementById('log-clear-btn');
-  var settingsToggle = document.getElementById('settings-toggle-btn');
-  var settingsPanel  = document.getElementById('settings-panel');
-  var settingsApply  = document.getElementById('settings-apply-btn');
-  var inpWork        = document.getElementById('inp-work');
-  var inpShort       = document.getElementById('inp-short');
-  var inpLong        = document.getElementById('inp-long');
-  var btnWork        = document.getElementById('btn-work');
-  var btnShort       = document.getElementById('btn-short');
-  var btnLong        = document.getElementById('btn-long');
-  var takeLongBreak  = document.getElementById('take-long-break-btn');
-  var dots           = [
-    document.getElementById('dot-0'),
-    document.getElementById('dot-1'),
-    document.getElementById('dot-2'),
-    document.getElementById('dot-3')
-  ];
+  // Init ring
+  ring.style.strokeDasharray  = CIRC;
+  ring.style.strokeDashoffset = 0;
 
-  // --- Ring setup ---
-  ringProgress.setAttribute('stroke-dasharray', CIRCUMFERENCE);
-  ringProgress.setAttribute('stroke-dashoffset', '0');
-
-  function setRingProgress(fraction) {
-    // fraction: 1.0 = full, 0.0 = empty
-    var offset = CIRCUMFERENCE * (1 - fraction);
-    ringProgress.setAttribute('stroke-dashoffset', offset);
-  }
-
-  function updateRingColor(mode) {
-    ringProgress.style.stroke = MODES[mode].ringColor;
-  }
-
-  // --- Format ---
-  function formatTime(secs) {
-    var m = Math.floor(secs / 60);
-    var s = secs % 60;
-    return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
-  }
-
-  // --- Display update ---
-  function updateDisplay() {
-    timerDisplay.textContent = formatTime(remainingSeconds);
-    timerModeLabel.textContent = MODES[currentMode].label;
-    var fraction = totalSeconds > 0 ? remainingSeconds / totalSeconds : 1;
-    setRingProgress(fraction);
-    updateRingColor(currentMode);
-  }
-
-  // --- Dots ---
-  function updateDots() {
-    for (var i = 0; i < 4; i++) {
-      if (i < completedPomodoros) {
-        dots[i].classList.add('done');
+  // --- Audio (Web Audio API) ---
+  function beep(type) {
+    try {
+      var ctx  = new (window.AudioContext || window.webkitAudioContext)();
+      var osc  = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      if (type === 'work') {
+        // Two-tone descending: session starting
+        osc.frequency.setValueAtTime(880, ctx.currentTime);
+        osc.frequency.setValueAtTime(660, ctx.currentTime + 0.15);
+        gain.gain.setValueAtTime(0.3, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.5);
       } else {
-        dots[i].classList.remove('done');
+        // Three-tone ascending: break starting
+        osc.frequency.setValueAtTime(440, ctx.currentTime);
+        osc.frequency.setValueAtTime(550, ctx.currentTime + 0.2);
+        osc.frequency.setValueAtTime(660, ctx.currentTime + 0.4);
+        gain.gain.setValueAtTime(0.25, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.7);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.7);
       }
+    } catch(e) {}
+  }
+
+  // --- Helpers ---
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  // --- Render ---
+  function render() {
+    var m = Math.floor(state.secondsLeft / 60);
+    var s = state.secondsLeft % 60;
+    var timeStr = pad(m) + ':' + pad(s);
+
+    display.textContent   = timeStr;
+    phaseText.textContent = phaseNames[state.phase];
+    document.title        = timeStr + ' | ポモドーロタイマー';
+
+    // Ring progress
+    var progress = state.totalSeconds > 0 ? state.secondsLeft / state.totalSeconds : 0;
+    ring.style.strokeDashoffset = CIRC * (1 - progress);
+    ring.style.stroke           = phaseColors[state.phase];
+
+    // Start/pause button label
+    startBtn.textContent = state.running ? '一時停止' : 'スタート';
+
+    // Phase tabs
+    tabWork.classList.toggle('active',  state.phase === 'work');
+    tabShort.classList.toggle('active', state.phase === 'short');
+    tabLong.classList.toggle('active',  state.phase === 'long');
+
+    // Session dots (●○)
+    var total = cfg.sessions;
+    var done  = state.sessionsDone;
+    var dots  = '';
+    for (var i = 0; i < total; i++) {
+      dots += i < done ? '●' : '○';
+    }
+    dotsEl.textContent = dots;
+
+    // Session number label
+    var cur = state.phase === 'work'
+      ? (state.sessionsDone + 1)
+      : state.sessionsDone;
+    sessionNumEl.textContent = Math.min(cur, cfg.sessions) + ' / ' + cfg.sessions;
+
+    // Today's focus time
+    focusTotalEl.textContent = state.focusMinutesToday + '分';
+  }
+
+  // --- Phase transition ---
+  function goNextPhase(skipForward) {
+    clearInterval(state.timer);
+    state.running = false;
+
+    var prev = state.phase;
+
+    // Count the completed work session (only when not manually skipping from idle)
+    if (prev === 'work' && !skipForward) {
+      state.sessionsDone = Math.min(state.sessionsDone + 1, cfg.sessions);
+      state.focusMinutesToday += cfg.work;
+    }
+
+    // Determine next phase
+    if (prev === 'work') {
+      if (state.sessionsDone >= cfg.sessions) {
+        state.phase        = 'long';
+        state.sessionsDone = 0;
+      } else {
+        state.phase = 'short';
+      }
+    } else {
+      state.phase = 'work';
+    }
+
+    // Set new duration
+    var dur = cfg[state.phase === 'work' ? 'work' : state.phase === 'short' ? 'short' : 'long'];
+    state.secondsLeft  = dur * 60;
+    state.totalSeconds = dur * 60;
+
+    // Sound
+    if (!skipForward) {
+      beep(state.phase === 'work' ? 'work' : 'break');
+    }
+
+    if (cfg.auto) {
+      startTimer();
+    } else {
+      render();
     }
   }
 
-  // --- Mode switch ---
-  function switchMode(mode) {
-    stopTimer();
-    currentMode = mode;
-    totalSeconds = durations[mode] * 60;
-    remainingSeconds = totalSeconds;
-    updateDisplay();
-    updateDots();
-    hideLongBreakBanner();
-    hideNotif();
-    updateModeButtons();
-  }
-
-  function updateModeButtons() {
-    btnWork.classList.toggle('active', currentMode === 'work');
-    btnShort.classList.toggle('active', currentMode === 'short');
-    btnLong.classList.toggle('active', currentMode === 'long');
-    // Update button labels with current durations
-    btnWork.textContent  = '作業 (' + durations.work + '分)';
-    btnShort.textContent = '短い休憩 (' + durations.short + '分)';
-    btnLong.textContent  = '長い休憩 (' + durations.long + '分)';
-  }
-
-  // --- Timer control ---
+  // --- Timer controls ---
   function startTimer() {
-    if (isRunning) return;
-    isRunning = true;
-    startBtn.textContent = '一時停止';
-    hideNotif();
-    hideLongBreakBanner();
-    timerId = setInterval(function() {
-      if (remainingSeconds <= 0) {
-        onTimerEnd();
+    if (state.running) return;
+    state.running = true;
+    render();
+    state.timer = setInterval(function() {
+      state.secondsLeft--;
+      if (state.secondsLeft <= 0) {
+        state.secondsLeft = 0;
+        render();
+        goNextPhase(false);
         return;
       }
-      remainingSeconds--;
-      updateDisplay();
+      render();
     }, 1000);
   }
 
   function pauseTimer() {
-    if (!isRunning) return;
-    isRunning = false;
-    startBtn.textContent = 'スタート';
-    clearInterval(timerId);
-    timerId = null;
-  }
-
-  function stopTimer() {
-    isRunning = false;
-    startBtn.textContent = 'スタート';
-    clearInterval(timerId);
-    timerId = null;
+    clearInterval(state.timer);
+    state.running = false;
+    render();
   }
 
   function resetTimer() {
-    stopTimer();
-    totalSeconds = durations[currentMode] * 60;
-    remainingSeconds = totalSeconds;
-    updateDisplay();
-    hideNotif();
-    hideLongBreakBanner();
+    clearInterval(state.timer);
+    state.running      = false;
+    state.phase        = 'work';
+    state.sessionsDone = 0;
+    state.secondsLeft  = cfg.work * 60;
+    state.totalSeconds = cfg.work * 60;
+    render();
   }
 
-  function skipSession() {
-    if (isRunning || remainingSeconds < totalSeconds) {
-      // Count as complete if work mode and partially done or running
-      if (currentMode === 'work') {
-        handleWorkComplete(true);
-      } else {
-        // Just switch to work
-        switchMode('work');
-      }
-    } else {
-      // Nothing has started, just skip to next
-      if (currentMode === 'work') {
-        switchMode('short');
-      } else {
-        switchMode('work');
-      }
-    }
-  }
-
-  function onTimerEnd() {
-    stopTimer();
-    remainingSeconds = 0;
-    updateDisplay();
-    playBell();
-    if (currentMode === 'work') {
-      handleWorkComplete(false);
-    } else {
-      // Break ended — prompt to start work
-      showNotif('休憩終了！作業セッションを始めましょう。');
-      addLog(currentMode === 'short' ? '短い休憩' : '長い休憩', '完了');
-      setTimeout(function() {
-        switchMode('work');
-      }, 1500);
-    }
-  }
-
-  function handleWorkComplete(skipped) {
-    completedPomodoros++;
-    totalPomodoros++;
-    var label = skipped ? 'スキップ' : '完了';
-    addLog('作業セッション #' + totalPomodoros, label);
-    updateDots();
-
-    if (completedPomodoros >= 4) {
-      completedPomodoros = 0;
-      updateDots();
-      showLongBreakBanner();
-      showNotif('4ポモドーロ達成！長い休憩を取りましょう！');
-    } else {
-      showNotif('セッション完了！短い休憩を取りましょう。');
-      setTimeout(function() {
-        switchMode('short');
-      }, 1500);
-    }
-  }
-
-  // --- Notifications ---
-  function showNotif(msg) {
-    notifBanner.textContent = msg;
-    notifBanner.style.display = 'block';
-    clearTimeout(notifBanner._hideTimer);
-    notifBanner._hideTimer = setTimeout(hideNotif, 5000);
-  }
-
-  function hideNotif() {
-    notifBanner.style.display = 'none';
-  }
-
-  function showLongBreakBanner() {
-    longBrkBanner.style.display = 'block';
-  }
-
-  function hideLongBreakBanner() {
-    longBrkBanner.style.display = 'none';
-  }
-
-  // --- Audio bell (Web Audio API) ---
-  function playBell() {
-    try {
-      var ctx = new (window.AudioContext || window.webkitAudioContext)();
-      function tone(freq, start, dur, vol) {
-        var osc = ctx.createOscillator();
-        var gain = ctx.createGain();
-        osc.connect(gain);
-        gain.connect(ctx.destination);
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(freq, ctx.currentTime + start);
-        gain.gain.setValueAtTime(vol, ctx.currentTime + start);
-        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + start + dur);
-        osc.start(ctx.currentTime + start);
-        osc.stop(ctx.currentTime + start + dur);
-      }
-      tone(880, 0,    0.6, 0.5);
-      tone(1046, 0.15, 0.6, 0.4);
-      tone(1318, 0.30, 0.8, 0.35);
-    } catch(e) {}
-  }
-
-  // --- Session log ---
-  function addLog(type, status) {
-    var now = new Date();
-    var hh = now.getHours().toString().padStart(2, '0');
-    var mm = now.getMinutes().toString().padStart(2, '0');
-    var entry = { type: type, status: status, time: hh + ':' + mm };
-    sessionLog.unshift(entry);
-    renderLog();
-  }
-
-  function renderLog() {
-    if (sessionLog.length === 0) {
-      logList.innerHTML = '<li class="log-empty" id="log-empty">まだセッションがありません</li>';
-      return;
-    }
-    logList.innerHTML = '';
-    sessionLog.forEach(function(e) {
-      var li = document.createElement('li');
-      li.innerHTML =
-        '<span class="log-type">' + e.type + '</span>' +
-        '<span>' + e.status + '</span>' +
-        '<span class="log-time">' + e.time + '</span>';
-      logList.appendChild(li);
-    });
-  }
-
-  // --- Event listeners ---
+  // --- Button listeners ---
   startBtn.addEventListener('click', function() {
-    if (isRunning) { pauseTimer(); } else { startTimer(); }
+    if (state.running) { pauseTimer(); } else { startTimer(); }
   });
 
   resetBtn.addEventListener('click', resetTimer);
 
-  skipBtn.addEventListener('click', skipSession);
+  skipBtn.addEventListener('click', function() { goNextPhase(true); });
 
-  btnWork.addEventListener('click', function() { switchMode('work'); });
-  btnShort.addEventListener('click', function() { switchMode('short'); });
-  btnLong.addEventListener('click', function() { switchMode('long'); });
-
-  takeLongBreak.addEventListener('click', function() {
-    hideLongBreakBanner();
-    switchMode('long');
-    setTimeout(startTimer, 300);
+  // Phase tabs (manual switch when paused)
+  tabWork.addEventListener('click', function() {
+    if (state.running) return;
+    state.phase        = 'work';
+    state.secondsLeft  = cfg.work * 60;
+    state.totalSeconds = cfg.work * 60;
+    render();
   });
 
-  settingsToggle.addEventListener('click', function() {
+  tabShort.addEventListener('click', function() {
+    if (state.running) return;
+    state.phase        = 'short';
+    state.secondsLeft  = cfg.short * 60;
+    state.totalSeconds = cfg.short * 60;
+    render();
+  });
+
+  tabLong.addEventListener('click', function() {
+    if (state.running) return;
+    state.phase        = 'long';
+    state.secondsLeft  = cfg.long * 60;
+    state.totalSeconds = cfg.long * 60;
+    render();
+  });
+
+  // --- Settings panel ---
+  settingsBtn.addEventListener('click', function() {
+    settingsBtn.classList.toggle('open');
     settingsPanel.classList.toggle('open');
-    settingsToggle.textContent = settingsPanel.classList.contains('open')
-      ? '時間をカスタマイズ ▴'
-      : '時間をカスタマイズ ▾';
   });
 
-  settingsApply.addEventListener('click', function() {
-    var w = parseInt(inpWork.value, 10) || 25;
-    var s = parseInt(inpShort.value, 10) || 5;
-    var l = parseInt(inpLong.value, 10) || 15;
-    w = Math.min(60, Math.max(1, w));
-    s = Math.min(30, Math.max(1, s));
-    l = Math.min(60, Math.max(1, l));
-    durations.work  = w;
-    durations.short = s;
-    durations.long  = l;
-    inpWork.value  = w;
-    inpShort.value = s;
-    inpLong.value  = l;
-    switchMode(currentMode);
+  applyBtn.addEventListener('click', function() {
+    var w  = parseInt(document.getElementById('pm-set-work').value,     10);
+    var sh = parseInt(document.getElementById('pm-set-short').value,    10);
+    var lo = parseInt(document.getElementById('pm-set-long').value,     10);
+    var se = parseInt(document.getElementById('pm-set-sessions').value, 10);
+    var au = document.getElementById('pm-set-auto').checked;
+
+    cfg.work     = w  > 0 ? w  : 25;
+    cfg.short    = sh > 0 ? sh : 5;
+    cfg.long     = lo > 0 ? lo : 15;
+    cfg.sessions = se > 0 ? se : 4;
+    cfg.auto     = au;
+
+    resetTimer();
+    settingsBtn.classList.remove('open');
     settingsPanel.classList.remove('open');
-    settingsToggle.textContent = '時間をカスタマイズ ▾';
-    showNotif('設定を更新しました。');
   });
 
-  logClearBtn.addEventListener('click', function() {
-    sessionLog = [];
-    renderLog();
-  });
+  // --- Presets ---
+  var presetBtns = document.querySelectorAll('#pm-app .pm-preset-btn');
+  for (var pi = 0; pi < presetBtns.length; pi++) {
+    (function(btn) {
+      btn.addEventListener('click', function() {
+        for (var i = 0; i < presetBtns.length; i++) {
+          presetBtns[i].classList.remove('active');
+        }
+        btn.classList.add('active');
+
+        cfg.work     = parseInt(btn.getAttribute('data-work'),     10);
+        cfg.short    = parseInt(btn.getAttribute('data-short'),    10);
+        cfg.long     = parseInt(btn.getAttribute('data-long'),     10);
+        cfg.sessions = parseInt(btn.getAttribute('data-sessions'), 10);
+
+        document.getElementById('pm-set-work').value     = cfg.work;
+        document.getElementById('pm-set-short').value    = cfg.short;
+        document.getElementById('pm-set-long').value     = cfg.long;
+        document.getElementById('pm-set-sessions').value = cfg.sessions;
+
+        resetTimer();
+      });
+    })(presetBtns[pi]);
+  }
 
   // --- Init ---
-  updateDisplay();
-  updateDots();
-  updateModeButtons();
-
+  render();
 })();
 </script>
+
+<!-- freee CTA -->
+<div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;width:fit-content;">freeeを無料で試す →</a>
+</div>
 
 </div>
 
 ---
 
-## ポモドーロテクニックとは
+> タイピング速度を測定 → [タイピング速度テスト](/ja/tools/typing-speed-test/)
+> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
+> 時差を計算 → [タイムゾーン変換ツール](/ja/tools/timezone-converter/)
 
-ポモドーロテクニックは、1980年代後半にイタリアの開発者フランチェスコ・シリロが考案した時間管理術です。「ポモドーロ（pomidoro）」はイタリア語でトマトを意味し、シリロが大学生のころにトマト型のキッチンタイマーを使って実践したことが名前の由来です。基本的なルールはシンプルで、25分間の集中作業（ポモドーロ）と5分間の短い休憩を繰り返し、4回の作業セッションを終えたら15〜30分の長い休憩を取ります。
-
-ポモドーロテクニックの実践は5つのステップで構成されています。まず「やるべきタスクを書き出す」、次に「タイマーを25分にセットする」、そして「タイマーが鳴るまで一つのタスクに集中する」、続いて「5分休憩を取る」、最後に「4セット完了したら長い休憩に入る」というサイクルです。このシンプルな構造が、誰でも今日から実践できる手軽さを実現しています。
-
-ポモドーロテクニックの最大の効果は、「集中→休憩」のリズムを体に覚えさせることで生産性と持続性が同時に高まる点です。作業中に別のことが気になっても「あとで」と記録するだけで安心でき、タスクの先延ばしを防ぐことができます。また、1セッション単位で進捗を実感できるため、モチベーションを維持しやすいという利点もあります。これまで多くのプログラマー、ライター、研究者、学生などが活用し、世界中で広まっています。
-
-始め方のコツとして、最初の数日は「スマートフォンをサイレントモードにする」「ブラウザのタブを最小限にする」「メールやSNSの通知をオフにする」といった環境整備から始めると効果的です。25分が長く感じる場合は、最初は15〜20分から始めて徐々に延ばしていくのも良い方法です。慣れてくると、集中の質が大きく変わることを実感できるでしょう。
-
-## ポモドーロテクニックが効果的な理由
-
-科学的な観点から見ると、ポモドーロテクニックは人間の注意持続時間と深く関係しています。認知心理学の研究によれば、人間が高い集中力を維持できる時間は20〜30分程度とされており、それを超えると注意散漫や疲労が蓄積されやすくなります。ポモドーロの25分という単位は、この認知的な限界に合わせて設計されており、脳への過負荷を防ぎながら効率よく作業を進めることが可能です。また、作業と休憩の明確な区切りが「切り替えコスト（スイッチングコスト）」を下げ、再集中をスムーズにすることも確認されています。
-
-さらに、ポモドーロテクニックはドーパミンの分泌サイクルとも相性が良いとされています。セッションを1つ完了するごとに小さな達成感を得ることで、脳は「もう1回やろう」という動機付けを自然に得やすくなります。この「小さな成功の積み重ね」は、長期プロジェクトや勉強など、ゴールが遠く感じられる作業において特に力を発揮します。時間を可視化し、成果を記録するという行為自体が、自己効力感の向上にもつながっていると言えるでしょう。
-
-## 関連ツール
-
-> サブスクの年間コストを把握しよう → [サブスク管理計算ツール](/ja/tools/subscription-cost-calculator/)
-
-> フリーランスの適正報酬を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
-
-> 時給と年収を相互変換 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
-
-> 海外チームと時間を合わせる → [タイムゾーン変換ツール](/ja/tools/timezone-converter/) — 世界中の都市間で時刻を即変換
-
----
-
-**確定申告・経費管理を自動化しませんか？**
-
-ポモドーロテクニックで作業効率を上げたら、バックオフィス業務も効率化。クラウド会計ソフト「freee」なら、経費精算・確定申告がスマホで完結します。
-
-<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">
-freee会計を無料で試す</a>
-<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" alt="">
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
