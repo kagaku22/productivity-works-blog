@@ -303,4 +303,12 @@ ShowToc: false
 
 ---
 
-Related: Format your JSON with our [JSON Formatter](/tools/json-formatter/)
+## Related Tools
+
+> Format your JSON with ease → [JSON Formatter](/tools/json-formatter/)
+
+> Remove extra spaces, blank lines, and tabs from text → [Whitespace Remover](/tools/whitespace-remover/)
+
+> Count words, characters, and lines → [Word Counter](/tools/word-counter/)
+
+> Encode special characters to HTML entities → [HTML Entity Encoder](/tools/html-entity-encoder/)

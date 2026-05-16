@@ -329,6 +329,7 @@ Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/pro
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create professional invoices for your clients → [Invoice Generator](/tools/invoice-generator/)
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income
 - [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
 - [US Salary Calculator](/tools/salary-calculator/) — See your W-2 take-home pay breakdown

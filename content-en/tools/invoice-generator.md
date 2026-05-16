@@ -758,4 +758,10 @@ Fill in the form below to build a **professional invoice** in seconds. Add line 
 
 ---
 
-Related: Calculate freelance rates with our [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+## Related Tools
+
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
+> Generate a QR code for your payment link or business card → [QR Code Generator](/tools/qr-code-generator/)
+
+> Estimate taxes on your freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)

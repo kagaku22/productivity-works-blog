@@ -278,6 +278,7 @@ A remote team with three tools used well outperforms a team with twelve tools us
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
 > Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
 
 > Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly

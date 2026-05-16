@@ -244,6 +244,8 @@ cover:
 > 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
 > 転職・独立後の年収を比較 → [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
+> クライアントへのプロ品質な請求書を無料作成 → [請求書作成ツール](/ja/tools/invoice-generator/)
+> ポートフォリオや支払いリンクのQRコードを生成 → [QRコードジェネレーター](/ja/tools/qr-code-generator/)
 > 時給と年収を換算 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 
 - [クラウドワークスで稼ぐ方法初心者](/ja/ja/posts/クラウドワークス-稼ぎ方-初心者/)

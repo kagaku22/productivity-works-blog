@@ -729,6 +729,16 @@ cover:
 
 ---
 
+## 関連ツール
+
+> フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
+
+> 支払いリンクやビジネスカードにQRコードを生成 → [QRコードジェネレーター](/ja/tools/qr-code-generator/)
+
+> 副業・フリーランス収入の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
+
+---
+
 **請求書管理の自動化ならfreee**
 
 請求書の作成・管理を効率化したい方に。freeeなら請求書の作成から入金管理まで一括で行えます。インボイス制度にも対応。

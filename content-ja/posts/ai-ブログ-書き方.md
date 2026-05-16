@@ -257,6 +257,10 @@ AIブログ記事の本質は、AIと人間の分業です。
 
 > マークダウンエディターが必要？ → [マークダウンプレビュー](/ja/tools/markdown-preview/) — リアルタイムでプレビュー
 
+> ブログのアイキャッチ画像をリサイズ → [画像リサイズツール](/ja/tools/image-resizer/)
+
+> ブログURL・SNSリンクのQRコードを作成 → [QRコードジェネレーター](/ja/tools/qr-code-generator/)
+
 ---
 
 ## 関連テンプレート

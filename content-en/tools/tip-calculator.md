@@ -656,4 +656,10 @@ ShowToc: false
 - **20%** — Great service
 - **25%+** — Excellent / exceptional experience
 
-Related: Calculate your budget with our [Loan Calculator](/tools/loan-calculator/)
+## Related Tools
+
+> Calculate loan payments and interest → [Loan Calculator](/tools/loan-calculator/)
+
+> Generate a QR code for restaurant menus or payment links → [QR Code Generator](/tools/qr-code-generator/)
+
+> Calculate percentages for any purpose → [Percentage Calculator](/tools/percentage-calculator/)

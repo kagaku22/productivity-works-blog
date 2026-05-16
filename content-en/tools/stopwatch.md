@@ -643,4 +643,10 @@ ShowToc: false
 
 ---
 
-Related: Boost focus with our [Pomodoro Timer](/tools/pomodoro-timer/)
+## Related Tools
+
+> Boost focus with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+
+> Count down to a deadline or event → [Countdown Timer](/tools/countdown-timer/)
+
+> Generate random numbers for games or decisions → [Random Number Generator](/tools/random-number-generator/)

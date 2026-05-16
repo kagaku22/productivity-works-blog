@@ -333,7 +333,9 @@ Want a done-for-you AI tool setup guide tailored to your specific business type?
 ## Related Tools
 
 > Create a business budget → [Budget Planner](/tools/budget-planner/)
-> Estimate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Estimate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator())
+> Generate professional client invoices instantly → [Invoice Generator](/tools/invoice-generator/)
+> Generate QR codes for marketing, menus, and payments → [QR Code Generator](/tools/qr-code-generator/)
 > Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
 > Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
 

@@ -345,6 +345,7 @@ Increasingly yes. Remote workers who use AI assistants effectively consistently 
 
 > **Find a Remote Job That Matches Your Productivity Setup**  Having the perfect remote work toolkit means nothing without the right remote role. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> to discover remote-friendly positions where your productivity skills will be valued and rewarded.
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
 > Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
 
 ## Build Your Ideal Remote Work Setup

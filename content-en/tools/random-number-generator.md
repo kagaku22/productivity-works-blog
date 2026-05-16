@@ -849,4 +849,10 @@ ShowToc: false
 
 ---
 
-Related: Generate secure passwords with our [Password Generator](/tools/password-generator/)
+## Related Tools
+
+> Generate secure random passwords → [Password Generator](/tools/password-generator/)
+
+> Time your events or intervals → [Stopwatch](/tools/stopwatch/)
+
+> Generate a QR code for giveaway links → [QR Code Generator](/tools/qr-code-generator/)

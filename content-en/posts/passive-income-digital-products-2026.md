@@ -273,6 +273,10 @@ The income builds slowly, then compounds. Most creators who hit $3,000+/month in
 
 > Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
 
+> Resize images for your digital product covers and thumbnails → [Image Resizer](/tools/image-resizer/)
+
+> Generate a QR code for your product landing page → [QR Code Generator](/tools/qr-code-generator/)
+
 - [Side Hustles with AI Tools 2026: Best Ways to Earn](/posts/side-hustles-ai-tools-2026/)
 - [How to Make Money with AI in 2026](/posts/how-to-make-money-with-ai-2026/)
 - [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)

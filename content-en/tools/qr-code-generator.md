@@ -877,3 +877,13 @@ qrRender();
 
 })();
 </script>
+
+---
+
+## Related Tools
+
+> Resize images for your QR code marketing materials → [Image Resizer](/tools/image-resizer/)
+
+> Generate a random number for giveaways or lotteries → [Random Number Generator](/tools/random-number-generator/)
+
+> Pick the perfect colors for your QR code design → [Color Picker](/tools/color-picker/)

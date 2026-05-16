@@ -488,5 +488,15 @@ aliases:
 
 ---
 
+## 関連ツール
+
+> Webデザイン用に画像をリサイズ → [画像リサイズツール](/ja/tools/image-resizer/)
+
+> デザインに使う色を選択・変換 → [カラーピッカー](/ja/tools/color-picker/)
+
+> CSSグラジエントを視覚的に生成 → [CSSグラジエントジェネレーター](/ja/tools/css-gradient-generator/)
+
+---
+
 **デバイス管理もfreeeで効率化**
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">freeeを無料で試す</a>

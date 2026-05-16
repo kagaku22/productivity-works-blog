@@ -904,4 +904,10 @@ All presets above are built into the tool — just click the button and resize i
 
 ---
 
-Related: Pick colors for your images with our [Color Picker](/tools/color-picker/)
+## Related Tools
+
+> Pick colors for your image designs → [Color Picker](/tools/color-picker/)
+
+> Generate a QR code to link to your image or portfolio → [QR Code Generator](/tools/qr-code-generator/)
+
+> Check what screen resolution your visitors use → [Screen Resolution Checker](/tools/screen-resolution/)

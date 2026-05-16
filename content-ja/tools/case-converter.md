@@ -343,5 +343,15 @@ ShowToc: false
 
 ---
 
+## 関連ツール
+
+> 余分なスペースや空白行を除去 → [ホワイトスペース除去ツール](/ja/tools/whitespace-remover/)
+
+> HTMLの特殊文字をエンティティに変換 → [HTMLエンティティエンコーダー](/ja/tools/html-entity-encoder/)
+
+> JSONを整形・バリデーション → [JSONフォーマッター](/ja/tools/json-formatter/)
+
+---
+
 **文書管理の効率化にはfreee**
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">freeeを無料で試す</a>

@@ -629,6 +629,16 @@ ShowToc: false
 
 ---
 
+## 関連ツール
+
+> ポモドーロテクニックで集中力アップ → [ポモドーロタイマー](/ja/tools/pomodoro-timer/)
+
+> イベントや締め切りまでカウントダウン → [カウントダウンタイマー](/ja/tools/countdown-timer/)
+
+> ランダムな数字・サイコロ・コインを生成 → [乱数生成ツール](/ja/tools/random-number-generator/)
+
+---
+
 **時間管理の効率化にはfreee**
 業務の時間計測をしている方、freeeの工数管理機能で時間と経費を一元管理。
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">freeeを無料で試す</a>

@@ -458,3 +458,13 @@ ShowToc: false
   process();
 })();
 </script>
+
+---
+
+## Related Tools
+
+> Convert text between UPPERCASE, lowercase, camelCase, and more → [Case Converter](/tools/case-converter/)
+
+> Count words, characters, and lines in your text → [Word Counter](/tools/word-counter/)
+
+> Encode special HTML characters safely → [HTML Entity Encoder](/tools/html-entity-encoder/)

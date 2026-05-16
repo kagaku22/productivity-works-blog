@@ -397,6 +397,7 @@ Our [Remote Work Starter Kit](https://payhip.com/productivityworks) includes a h
 > Calculate tax on side income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 > Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
 > Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
 
 > Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly

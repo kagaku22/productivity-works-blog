@@ -815,3 +815,13 @@ qrRender();
 
 })();
 </script>
+
+---
+
+## 関連ツール
+
+> マーケティング素材の画像をリサイズ → [画像リサイズツール](/ja/tools/image-resizer/)
+
+> ランダム抽選・サイコロ・コイントスに → [乱数生成ツール](/ja/tools/random-number-generator/)
+
+> デザインに使う色を選択・変換 → [カラーピッカー](/ja/tools/color-picker/)

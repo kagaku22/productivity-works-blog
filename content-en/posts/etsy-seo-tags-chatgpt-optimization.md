@@ -283,6 +283,10 @@ Done consistently, this process will take your tag quality from "good enough" to
 
 > Estimate taxes on your Etsy profits → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 
+> Resize product images for Etsy listings and social media → [Image Resizer](/tools/image-resizer/)
+
+> Generate a QR code to link your Etsy shop from physical products → [QR Code Generator](/tools/qr-code-generator/)
+
 ## Related Templates
 
 Want a complete ChatGPT prompt toolkit for your Etsy shop?

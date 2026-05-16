@@ -184,6 +184,7 @@ Whatever you choose, the return on investment is immediate — less time on book
 
 ## Related Tools
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create and download professional invoices for free → [Invoice Generator](/tools/invoice-generator/)
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 

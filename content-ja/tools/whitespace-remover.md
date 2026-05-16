@@ -477,3 +477,13 @@ ShowToc: false
   process();
 })();
 </script>
+
+---
+
+## 関連ツール
+
+> テキストのケースを一括変換（大文字・小文字・camelCase等） → [ケースコンバーター](/ja/tools/case-converter/)
+
+> HTMLの特殊文字をエンティティに変換 → [HTMLエンティティエンコーダー](/ja/tools/html-entity-encoder/)
+
+> 文字数・単語数・行数をカウント → [文字数カウンター](/ja/tools/moji-counter/)

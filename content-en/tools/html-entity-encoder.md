@@ -486,4 +486,10 @@ Encode special characters to HTML entities or decode HTML entities back to plain
 
 ---
 
-Related: Encode URLs with our [URL Encoder](/tools/url-encoder/)
+## Related Tools
+
+> Encode URLs for safe use in links and APIs → [URL Encoder](/tools/url-encoder/)
+
+> Convert text between camelCase, snake_case, kebab-case, and more → [Case Converter](/tools/case-converter/)
+
+> Remove extra whitespace from HTML or code → [Whitespace Remover](/tools/whitespace-remover/)

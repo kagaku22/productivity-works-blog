@@ -202,6 +202,10 @@ freeeは銀行口座やクレジットカードと連携できます。副業専
 
 > ダミーテキストを生成 → [ダミーテキスト生成ツール](/ja/tools/lorem-ipsum-generator/) — レイアウト確認用のプレースホルダーを即作成
 
+> ブログ記事のアイキャッチ画像をリサイズ → [画像リサイズツール](/ja/tools/image-resizer/)
+
+> ブログURLをQRコードに変換して拡散 → [QRコードジェネレーター](/ja/tools/qr-code-generator())
+
 > グラデーションをビジュアルで作成 → [CSSグラデーションジェネレーター](/ja/tools/css-gradient-generator/) — 美しいCSSグラデーションを視覚的に生成
 
 ### 関連記事

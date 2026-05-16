@@ -850,6 +850,16 @@ ShowToc: false
 
 ---
 
+## 関連ツール
+
+> QRコードを生成してマーケティング素材やURLを共有 → [QRコードジェネレーター](/ja/tools/qr-code-generator/)
+
+> 画面の解像度・ビューポートサイズを確認 → [画面解像度チェッカー](/ja/tools/screen-resolution/)
+
+> デザインに使う色を選択・変換 → [カラーピッカー](/ja/tools/color-picker/)
+
+---
+
 **画像管理もfreeeで効率化**
 ブログやSNSの画像を編集している方、経費管理もfreeeで一括管理しませんか？
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">freeeを無料で試す</a>

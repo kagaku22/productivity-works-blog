@@ -454,4 +454,10 @@ Check your screen resolution, viewport size, pixel ratio, and active CSS breakpo
 
 ---
 
-Related: Resize images for any screen with our [Image Resizer](/tools/image-resizer/).
+## Related Tools
+
+> Resize images to exact pixel dimensions → [Image Resizer](/tools/image-resizer/)
+
+> Pick and convert colors for your web designs → [Color Picker](/tools/color-picker/)
+
+> Generate CSS gradients for your site backgrounds → [CSS Gradient Generator](/tools/css-gradient-generator/)
