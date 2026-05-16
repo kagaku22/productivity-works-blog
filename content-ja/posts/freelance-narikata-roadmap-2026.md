@@ -238,6 +238,7 @@ cover:
 
 ## 関連ツール・記事
 
+> BMIと適正体重をチェック → [BMI計算ツール](/ja/tools/bmi-calculator/)
 > フリーランスの税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 > 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
 > 転職・独立後の年収を比較 → [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)

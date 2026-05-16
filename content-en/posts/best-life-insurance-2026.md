@@ -207,6 +207,7 @@ The best time to buy life insurance was yesterday. The second-best time is today
 
 ## Related Tools
 
+> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)

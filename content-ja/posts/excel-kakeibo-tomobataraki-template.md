@@ -336,6 +336,7 @@ Excelテンプレートを作るだけでは家計は改善しません。夫婦
 
 ## 関連ツール
 
+> 割合・割引・変化率をすぐ計算 → [パーセント計算ツール](/ja/tools/percent-calculator/)
 > 手取り月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > リボ払い・ローンの返済を計画 → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)

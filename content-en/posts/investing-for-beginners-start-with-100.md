@@ -220,6 +220,7 @@ A $100 investment made today is worth more than a $1,000 investment made next ye
 ---
 
 ### Related Tools & Articles
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > See how $100/month grows over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)

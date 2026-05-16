@@ -325,6 +325,7 @@ Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/pro
 ---
 
 ### Related Tools & Articles
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income

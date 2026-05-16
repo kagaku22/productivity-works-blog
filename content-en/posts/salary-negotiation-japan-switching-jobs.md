@@ -171,6 +171,7 @@ Run the real numbers first. Know which months will be tight. Understand where ne
 
 ## Related Tools
 
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > Calculate your take-home pay in Japan → [Salary Calculator](/tools/salary-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Compare side income tax implications → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)

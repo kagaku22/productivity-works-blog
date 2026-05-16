@@ -244,6 +244,7 @@ cover:
 
 ## 関連ツール
 
+> BMIと適正体重をチェック → [BMI計算ツール](/ja/tools/bmi-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 保険料の節約分を積立投資に回すと → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)

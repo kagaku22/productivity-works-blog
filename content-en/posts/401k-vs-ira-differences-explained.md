@@ -296,6 +296,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 ---
 
 ### Related Tools & Articles
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 > Plan your retirement contributions → [Retirement Savings Calculator](/tools/retirement-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)

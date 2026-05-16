@@ -336,6 +336,7 @@ Increasingly yes. Remote workers who use AI assistants effectively consistently 
 
 ## Related Tools
 
+> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 

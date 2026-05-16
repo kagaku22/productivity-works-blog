@@ -254,6 +254,7 @@ cover:
 
 ### 関連ツール・記事
 
+> 割合・割引・変化率をすぐ計算 → [パーセント計算ツール](/ja/tools/percent-calculator/)
 - [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/) — 転職前後の年収・手取り・税金・生涯収入差額を自動計算
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取り・税金・社会保険料を自動計算
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/) — 副収入追加時の税負担シミュレーション

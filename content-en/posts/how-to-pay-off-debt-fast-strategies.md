@@ -360,6 +360,7 @@ The average person who follows a structured debt payoff plan gets out of consume
 ---
 
 ### Related Tools & Articles
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 - [Debt Payoff Calculator](/tools/debt-payoff-calculator/) — Compare snowball vs avalanche strategies with interactive charts
 - [Budget Planner](/tools/budget-planner/) — Create a personalized monthly budget to free up debt payments

@@ -244,6 +244,7 @@ The gap between where most people are and where they need to be is smaller than 
 
 ## Related Tools
 
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > See how investing your raise compounds → [Compound Interest Calculator](/tools/compound-interest-calculator/)

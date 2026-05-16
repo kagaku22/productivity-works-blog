@@ -392,6 +392,7 @@ Working from home successfully is a skill, not a trait. The routines, boundaries
 Our [Remote Work Starter Kit](https://payhip.com/productivityworks) includes a home office setup checklist, daily schedule templates, and a 30-day habit-building plan for new remote workers.
 
 ## Related Tools
+> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Plan your freelance budget → [Budget Planner](/tools/budget-planner/)
 > Calculate tax on side income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)

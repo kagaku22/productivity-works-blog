@@ -274,6 +274,7 @@ A remote team with three tools used well outperforms a team with twelve tools us
 
 ## Related Tools
 
+> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
 

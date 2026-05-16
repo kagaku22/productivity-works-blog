@@ -185,6 +185,7 @@ Put the savings toward your emergency fund, investments, or something more enjoy
 
 ## Related Tools
 
+> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 

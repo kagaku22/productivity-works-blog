@@ -237,6 +237,7 @@ Your future self will thank you.
 ---
 
 ### Related Tools & Articles
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
 - [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate dividend income from ETFs with DRIP compounding
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how investments grow over time

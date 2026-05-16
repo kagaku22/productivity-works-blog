@@ -298,6 +298,7 @@ Understanding your payslip is the first step to managing your money confidently 
 
 ## Related Tools
 
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
