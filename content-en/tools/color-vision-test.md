@@ -1,5 +1,6 @@
 ---
 title: "Color Vision Test - Check Your Color Perception"
+description: "Test your color vision with an interactive Ishihara-style color blindness screening tool. Free online color perception test."
 date: 2025-05-16
 slug: "color-vision-test"
 categories: ["Free Tools"]

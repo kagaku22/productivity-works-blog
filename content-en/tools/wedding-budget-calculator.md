@@ -1,5 +1,6 @@
 ---
 title: "Wedding Budget Calculator - Plan Your Wedding Expenses"
+description: "Plan your wedding budget with category breakdowns and cost estimates. Free wedding expense planner."
 date: 2025-05-16
 slug: "wedding-budget-calculator"
 categories: ["Free Tools"]

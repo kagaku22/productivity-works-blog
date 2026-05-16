@@ -1,5 +1,6 @@
 ---
 title: "Tip & Bill Splitter - Split Bills Fairly"
+description: "Calculate tips and split bills evenly among friends. Free tip calculator with per-person breakdown."
 date: 2025-05-16
 slug: "tip-splitter"
 categories: ["Free Tools"]

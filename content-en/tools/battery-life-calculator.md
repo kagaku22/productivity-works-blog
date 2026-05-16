@@ -1,5 +1,6 @@
 ---
 title: "Battery Life Calculator - Estimate Device Runtime"
+description: "Estimate your device's battery life based on capacity, usage patterns, and power consumption. Free online battery duration calculator."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "battery-life-calculator"

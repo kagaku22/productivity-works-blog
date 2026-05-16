@@ -1,5 +1,6 @@
 ---
 title: "Screen Time Calculator - Track Your Daily Screen Usage"
+description: "Track and analyze your daily screen time across devices. Get recommendations for healthier digital habits."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "screen-time-calculator"

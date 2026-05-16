@@ -1,5 +1,6 @@
 ---
 title: "Word Frequency Analyzer"
+description: "Analyze word frequency and text statistics. Count word occurrences and find the most common words in any text."
 date: 2025-05-16
 slug: "word-frequency"
 categories: ["Free Tools"]

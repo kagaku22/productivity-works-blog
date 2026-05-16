@@ -1,5 +1,6 @@
 ---
 title: "Download Time Calculator - Estimate File Transfer Speed"
+description: "Calculate how long a file download will take based on file size and internet speed. Free download time estimator."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "download-time-calculator"

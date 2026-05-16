@@ -1,5 +1,6 @@
 ---
 title: "Meta Tag Generator — SEO & Open Graph Tags"
+description: "Generate SEO-optimized meta tags for your website including title, description, and Open Graph tags. Free meta tag creator."
 date: 2025-05-16
 slug: "meta-tag-generator"
 categories: ["Free Tools"]

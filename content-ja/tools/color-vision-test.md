@@ -1,5 +1,6 @@
 ---
 title: "色覚テスト - あなたの色覚をチェック"
+description: "石原式カラーテスト風のインタラクティブ色覚スクリーニング。無料オンライン色覚検査ツール。"
 date: 2025-05-16
 slug: "color-vision-test"
 categories: ["無料ツール"]

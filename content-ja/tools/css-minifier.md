@@ -1,5 +1,6 @@
 ---
 title: "CSS圧縮ツール"
+description: "CSSコードを圧縮してファイルサイズを削減、ページ読み込み速度を改善。無料CSS圧縮ツール。"
 date: 2025-05-16
 slug: "css-minifier"
 categories: ["無料ツール"]

@@ -1,5 +1,6 @@
 ---
 title: "結婚式費用シミュレーター - 結婚式の予算を簡単計算"
+description: "カテゴリ別の内訳と費用見積もりで結婚式の予算を計画。無料ウェディング費用プランナー。"
 date: 2025-05-16
 slug: "wedding-budget-calculator"
 categories: ["無料ツール"]

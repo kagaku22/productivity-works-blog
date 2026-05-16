@@ -1,5 +1,6 @@
 ---
 title: "Tax Withholding Calculator - Estimate Paycheck Deductions"
+description: "Calculate federal and state tax withholding from your paycheck. Estimate your take-home pay after taxes."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "tax-withholding-calculator"

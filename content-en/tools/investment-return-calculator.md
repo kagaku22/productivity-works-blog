@@ -1,5 +1,6 @@
 ---
 title: "Investment Return Calculator - CAGR & Total Growth"
+description: "Calculate your investment returns with compound growth, dividends, and fees. Free ROI and portfolio growth calculator."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "investment-return-calculator"

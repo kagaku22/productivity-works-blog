@@ -1,5 +1,6 @@
 ---
 title: "スクリーンタイム計算ツール - 1日の画面時間を可視化"
+description: "デバイス別の1日のスクリーンタイムを記録・分析。健康的なデジタル習慣のアドバイス付き。"
 date: 2025-05-16
 categories: ["無料ツール"]
 slug: "screen-time-calculator"

@@ -1,5 +1,6 @@
 ---
 title: "CSS Minifier & Beautifier"
+description: "Minify your CSS code to reduce file size and improve page load speed. Free online CSS compression tool."
 date: 2025-05-16
 slug: "css-minifier"
 categories: ["Free Tools"]

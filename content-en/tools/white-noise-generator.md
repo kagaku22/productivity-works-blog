@@ -1,5 +1,6 @@
 ---
 title: "White Noise Generator - Focus & Sleep Sounds"
+description: "Generate white, pink, and brown noise for focus, sleep, or relaxation. Free online ambient sound generator."
 date: 2025-05-16
 slug: "white-noise-generator"
 categories: ["Free Tools"]

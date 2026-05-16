@@ -1,5 +1,6 @@
 ---
 title: "YAML Validator & Converter"
+description: "Validate and format YAML files online. Check syntax errors and convert between YAML and JSON formats."
 date: 2025-05-16
 slug: "yaml-validator"
 categories: ["Free Tools"]

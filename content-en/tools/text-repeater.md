@@ -1,5 +1,6 @@
 ---
 title: "Text Repeater — Repeat, Format & Transform Text Online"
+description: "Repeat any text string multiple times with custom separators. Free online text repetition tool."
 date: 2025-05-16
 slug: "text-repeater"
 categories: ["Free Tools"]

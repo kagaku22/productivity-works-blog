@@ -1,5 +1,6 @@
 ---
 title: "Pixel Art Maker - Draw Pixel Art Online"
+description: "Create pixel art with an interactive grid editor. Export as PNG. Free online pixel art drawing tool."
 date: 2025-05-16
 slug: "pixel-art-maker"
 categories: ["Free Tools"]

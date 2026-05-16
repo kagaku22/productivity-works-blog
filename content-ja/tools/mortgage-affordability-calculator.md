@@ -1,5 +1,6 @@
 ---
 title: "住宅ローン借入可能額シミュレーター - いくらまで借りられる？"
+description: "年収・負債・頭金から住宅ローンの借入可能額を計算。無料住宅ローン借入可能額シミュレーター。"
 date: 2025-05-16
 categories: ["無料ツール"]
 slug: "mortgage-affordability-calculator"

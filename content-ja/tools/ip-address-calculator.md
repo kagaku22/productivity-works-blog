@@ -1,5 +1,6 @@
 ---
 title: "IPアドレス計算ツール - サブネット＆CIDR計算"
+description: "IPサブネット・ネットワーク範囲・CIDR表記を計算。無料IPアドレス・サブネット計算ツール。"
 date: 2025-05-16
 slug: "ip-address-calculator"
 categories: ["無料ツール"]

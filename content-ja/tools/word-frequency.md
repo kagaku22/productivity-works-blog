@@ -1,5 +1,6 @@
 ---
 title: "単語頻度分析ツール"
+description: "単語の出現頻度とテキスト統計を分析。最頻出単語を見つける無料ワード頻度分析ツール。"
 date: 2025-05-16
 slug: "word-frequency"
 categories: ["無料ツール"]

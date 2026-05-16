@@ -1,5 +1,6 @@
 ---
 title: "Carbon Footprint Calculator - Estimate Your CO2 Emissions"
+description: "Calculate your annual carbon footprint from travel, energy use, and lifestyle choices. Free CO2 emissions calculator with reduction tips."
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "carbon-footprint-calculator"

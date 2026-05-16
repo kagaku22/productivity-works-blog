@@ -1,5 +1,6 @@
 ---
 title: "IP Address Calculator - Subnet & CIDR Tools"
+description: "Calculate IP subnets, network ranges, and CIDR notation. Free online IP address and subnet calculator."
 date: 2025-05-16
 slug: "ip-address-calculator"
 categories: ["Free Tools"]

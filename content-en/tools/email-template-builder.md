@@ -1,5 +1,6 @@
 ---
 title: "Email Template Builder"
+description: "Create professional HTML email templates with a visual builder. Free responsive email template generator."
 date: 2025-05-16
 slug: "email-template-builder"
 categories: ["Free Tools"]

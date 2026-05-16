@@ -1,5 +1,6 @@
 ---
 title: "源泉徴収計算ツール - 給与天引き額を簡単計算"
+description: "給与からの源泉徴収税額を計算。手取り額の見積もりに。無料源泉徴収計算ツール。"
 date: 2025-05-16
 categories: ["無料ツール"]
 slug: "tax-withholding-calculator"
