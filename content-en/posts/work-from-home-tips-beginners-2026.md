@@ -394,6 +394,7 @@ Our [Remote Work Starter Kit](https://payhip.com/productivityworks) includes a h
 ## Related Tools
 > Plan your freelance budget → [Budget Planner](/tools/budget-planner/)
 > Calculate tax on side income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 **Related Reading:**
 - [Best Productivity Apps for Remote Workers 2026](/posts/best-productivity-apps-remote-workers-2026/)

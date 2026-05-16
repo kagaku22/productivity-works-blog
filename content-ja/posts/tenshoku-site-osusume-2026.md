@@ -231,6 +231,7 @@ dodaは転職サイトとエージェントの機能を1つのサービスで使
 
 > 転職後の年収・手取りをシミュレーション → [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)
 > 手取り額の変化を確認 → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
+> 時給と年収を換算 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 
 ---
 

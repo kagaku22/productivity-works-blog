@@ -301,6 +301,7 @@ Understanding your payslip is the first step to managing your money confidently 
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 ---
 

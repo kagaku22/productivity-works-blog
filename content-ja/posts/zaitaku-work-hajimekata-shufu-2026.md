@@ -304,6 +304,7 @@ cover:
 > 副業収入の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 > 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 時給と年収を換算 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 
 ---
 

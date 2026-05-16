@@ -175,6 +175,7 @@ Run the real numbers first. Know which months will be tight. Understand where ne
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Compare side income tax implications → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 ---
 

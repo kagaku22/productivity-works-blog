@@ -349,6 +349,7 @@ Understand your salary structure. Know your market value. Let your advisor negot
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 ---
 

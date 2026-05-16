@@ -242,6 +242,7 @@ cover:
 > 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
 > 転職・独立後の年収を比較 → [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
+> 時給と年収を換算 → [時給換算ツール](/ja/tools/jikyuu-kansan-calculator/)
 
 - [クラウドワークスで稼ぐ方法初心者](/ja/ja/posts/クラウドワークス-稼ぎ方-初心者/)
 - [ランサーズとクラウドワークスの比較](/ja/ja/posts/ランサーズ-クラウドワークス-比較/)

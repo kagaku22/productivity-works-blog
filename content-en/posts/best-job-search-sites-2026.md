@@ -236,6 +236,7 @@ Start with LinkedIn optimization today — it's the single highest-ROI action in
 
 > Compare salary offers → [Salary Calculator](/tools/salary-calculator/)
 > Plan your budget during job transitions → [Budget Calculator](/tools/budget-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 - [AI Resume Optimization for Job Search 2026](/posts/ai-resume-optimization-job-search-2026/)
 - [Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
