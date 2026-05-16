@@ -589,7 +589,7 @@ cover:
     <strong>フリーランス・個人事業主の方へ — freeeで経理・確定申告を自動化</strong>
     <p>ツール制作などの副業・フリーランス収入も、freeeなら帳簿付けから確定申告まで簡単に管理できます。</p>
   </div>
-  <a class="cp-freee-cta-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを試す</a>
+  <a class="cp-freee-cta-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを試す</a>
 </div>
 
 </div><!-- /cp-app -->

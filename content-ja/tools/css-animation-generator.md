@@ -481,7 +481,7 @@ cover:
   <p>CSSアニメーションでWebサイトをリッチにしたら、バックオフィスも効率化しませんか？<br>
      freee 会計・freee 人事労務は、スモールビジネスの経理・給与計算を自動化します。<br>
      まずは30日間の無料トライアルでお試しください。</p>
-  <a class="freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">
+  <a class="freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">
     freee を無料で試す &rarr;
   </a>
 </div>

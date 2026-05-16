@@ -790,7 +790,7 @@ URLを貼り付けるか、以下のフィールドを入力すると、Facebook
   <div class="og-freee-body">
     <h3>ビジネスの会計・経理もスマートに管理しませんか？</h3>
     <p>freeeなら請求書発行・確定申告・給与計算をクラウドで一元管理。個人事業主から法人まで対応。面倒な帳簿作業を自動化して、本業に集中できます。</p>
-    <a class="og-freee-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+    <a class="og-freee-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
   </div>
 </div>
 

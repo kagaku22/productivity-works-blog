@@ -800,7 +800,7 @@ cover:
   <div class="cl-cta-body">
     <strong>リリース管理と経費・請求書をまとめて効率化</strong>
     <p>開発チームの経費精算・請求書発行・給与計算を自動化するなら freee が便利です。無料プランから始められます。</p>
-    <a class="cl-cta-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee を無料で試す</a>
+    <a class="cl-cta-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee を無料で試す</a>
   </div>
 </div>
 </div>

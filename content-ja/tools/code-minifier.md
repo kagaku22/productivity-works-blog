@@ -315,7 +315,7 @@ HTML・CSS・JavaScriptを貼り付けて **圧縮** ボタンを押すだけ。
 <div class="mn-cta-freee">
   <h3>事業の会計・確定申告を自動化しませんか？</h3>
   <p>freee会計なら、銀行・カードの明細を自動取得して帳簿作成を大幅に省力化。個人事業主から法人まで対応しています。</p>
-  <a class="mn-cta-btn" href="https://www.freee.co.jp/?referral=productivity_works" target="_blank" rel="noopener sponsored">freee会計を無料で試す</a>
+  <a class="mn-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP?referral=productivity_works" target="_blank" rel="noopener sponsored">freee会計を無料で試す</a>
 </div>
 
 <!-- A8 affiliate footer -->

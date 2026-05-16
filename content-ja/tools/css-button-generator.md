@@ -809,5 +809,5 @@ cover:
     <h3>freee会計で経理をもっとスマートに</h3>
     <p>請求書・経費・確定申告をAIが自動化。個人事業主から中小企業まで、freeeならバックオフィス業務を大幅に削減できます。まずは無料でお試しください。</p>
   </div>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" class="cta-btn">freeeを無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" class="cta-btn">freeeを無料で試す</a>
 </div>

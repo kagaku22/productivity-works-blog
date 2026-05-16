@@ -508,5 +508,5 @@ cover:
     <div style="font-size:0.95rem;font-weight:700;color:#92400e;margin-bottom:0.2rem;">freee会計でビジネスをもっとスマートに</div>
     <div style="font-size:0.82rem;color:#6b7280;line-height:1.5;">確定申告・請求書・経費管理をまとめて自動化。個人事業主・フリーランスに人気のクラウド会計ソフト。</div>
   </div>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;background:#d97706;color:#fff;border-radius:8px;padding:0.5rem 1.2rem;font-size:0.88rem;font-weight:700;text-decoration:none;white-space:nowrap;">freeeを無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;background:#d97706;color:#fff;border-radius:8px;padding:0.5rem 1.2rem;font-size:0.88rem;font-weight:700;text-decoration:none;white-space:nowrap;">freeeを無料で試す</a>
 </div>

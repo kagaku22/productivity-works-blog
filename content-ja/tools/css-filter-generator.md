@@ -1155,7 +1155,7 @@ cover:
     <h4>freee で経理・請求書を自動化しよう</h4>
     <p>フリーランス・中小企業向けのクラウド会計ソフト。銀行口座・クレカと自動連携で、確定申告もラクラク。30日間無料トライアル実施中。</p>
   </div>
-  <a class="cf-freee-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">無料で試す</a>
+  <a class="cf-freee-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">無料で試す</a>
 </div>
 
 </div>

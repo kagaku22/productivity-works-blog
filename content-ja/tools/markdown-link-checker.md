@@ -411,7 +411,7 @@ cover:
 <div class="mlc-freee-cta">
   <h3>フリーランス・中小企業の方へ</h3>
   <p>リンク管理や文書作成だけでなく、請求書・経費・確定申告もまとめて効率化しませんか？<br>クラウド会計ソフト <strong>freee</strong> なら、面倒な経理作業をシンプルに。</p>
-  <a class="mlc-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
+  <a class="mlc-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
 </div>
 
 <script>

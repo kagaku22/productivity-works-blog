@@ -347,7 +347,7 @@ Markdownドキュメントからクリック可能な目次（TOC）を自動生
     <h3>フリーランス・個人事業主の確定申告をかんたんに</h3>
     <p>freee会計なら請求書・帳簿・確定申告書類をまとめて管理。クラウドだからどこからでもアクセスできます。</p>
   </div>
-  <a class="cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
+  <a class="cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
 </div>
 
 <script>

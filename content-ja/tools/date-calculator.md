@@ -374,7 +374,7 @@ cover:
 <div class="dt-cta">
   <h3>請求書・経費管理をもっとラクに</h3>
   <p>freee会計なら日付入力・締め日管理・営業日ベースの支払サイクル設定がすべて自動化。個人事業主から法人まで無料トライアルで試せます。</p>
-  <a class="dt-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freeeを無料で試す &rarr;</a>
+  <a class="dt-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freeeを無料で試す &rarr;</a>
 </div>
 
 <!-- 関連ツール -->

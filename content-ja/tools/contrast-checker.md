@@ -371,7 +371,7 @@ cover:
 
 <div class="cc-freee-box">
   <strong>freee会計でデザイン制作の経費管理もラクラク</strong>
-  アクセシビリティ対応のデザイン業務や外注費も、<a href="https://www.freee.co.jp/" target="_blank" rel="nofollow noopener">freee会計</a>なら自動仕訳でスマートに管理。確定申告もまとめてサポートします。
+  アクセシビリティ対応のデザイン業務や外注費も、<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="nofollow noopener">freee会計</a>なら自動仕訳でスマートに管理。確定申告もまとめてサポートします。
 </div>
 
 <div class="cc-cta-box">

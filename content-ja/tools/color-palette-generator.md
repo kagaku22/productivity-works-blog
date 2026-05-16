@@ -131,7 +131,7 @@ cover:
     <h3>デザイン作業の請求書・経費管理は freee で</h3>
     <p>フリーランスデザイナー・クリエイター向けの会計ソフト。請求書作成から確定申告まで自動化。初月無料で試せます。</p>
   </div>
-  <a class="pa-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee を無料で試す</a>
+  <a class="pa-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee を無料で試す</a>
 </div>
 
 </div>

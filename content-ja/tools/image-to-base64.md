@@ -442,5 +442,5 @@ cover:
     <strong>freee で経理・請求書をもっとスムーズに</strong>
     <span>中小企業・フリーランス向けのクラウド会計ソフト。無料トライアルから始められます。</span>
   </div>
-  <a id="i2b-freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freee を試してみる</a>
+  <a id="i2b-freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freee を試してみる</a>
 </div>

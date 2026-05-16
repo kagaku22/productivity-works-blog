@@ -693,7 +693,7 @@ cover:
 <div class="ts-freee-cta">
   <div class="ts-freee-cta-title">freeeで会計・請求書をもっとラクに</div>
   <p>タイムスタンプの確認だけでなく、日々の会計処理・請求書発行・給与計算も自動化しませんか？freeeならタイムログ・経費精算・確定申告まで一括管理できます。</p>
-  <a class="ts-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
+  <a class="ts-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
 </div>
 </div>
 

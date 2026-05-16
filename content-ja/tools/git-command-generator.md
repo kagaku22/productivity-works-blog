@@ -540,7 +540,7 @@ cover:
   <div class="git-cta-body">
     <strong>開発チームの経費・請求書・給与計算もまとめて効率化</strong>
     <p>freee なら経費精算・請求書発行・給与計算をクラウドで自動化。エンジニアチームのバックオフィス業務をスリムにできます。無料プランから始められます。</p>
-    <a class="git-cta-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee を無料で試す</a>
+    <a class="git-cta-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee を無料で試す</a>
   </div>
 </div>
 

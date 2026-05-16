@@ -853,7 +853,7 @@ renderTable();
   <div style="font-size:13px;font-weight:600;opacity:0.8;margin-bottom:6px;letter-spacing:0.05em;">PR / 広告</div>
   <h3 style="margin:0 0 10px;font-size:20px;font-weight:800;">freee会計 — 個人事業主・スタートアップの定番クラウド会計</h3>
   <p style="margin:0 0 18px;font-size:14px;opacity:0.9;line-height:1.6;">確定申告・請求書・経費精算をまとめて自動化。OSSプロジェクトの副業収入や受託開発の請求管理にも最適。30日間無料トライアル実施中。</p>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored" style="display:inline-block;background:#fff;color:#1a56db;font-weight:700;font-size:14px;padding:11px 26px;border-radius:8px;text-decoration:none;">freeeを無料で試す →</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored" style="display:inline-block;background:#fff;color:#1a56db;font-weight:700;font-size:14px;padding:11px 26px;border-radius:8px;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 ---

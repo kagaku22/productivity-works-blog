@@ -144,7 +144,7 @@ cover:
 <div class="ci-cta">
   <h3>資産管理・確定申告は freee で効率化</h3>
   <p>投資収益の記録や確定申告の手続きを、freee 会計なら自動仕訳でラクに管理できます。個人投資家にも対応した国内シェアNo.1のクラウド会計ソフトです。</p>
-  <a class="ci-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
+  <a class="ci-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
   <p class="ci-af">※本リンクはアフィリエイトリンクを含む場合があります。</p>
 </div>
 

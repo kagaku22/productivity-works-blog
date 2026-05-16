@@ -555,7 +555,7 @@ cover:
   <div class="freee-cta-text">
     <h4>スモールビジネスの会計・請求書管理はfreeeで</h4>
     <p>ファビコンができたら次はサイトのビジネス基盤を整えましょう。freeeなら請求書の発行・経費管理・確定申告まで一括管理。はじめての方も安心のサポート付き。</p>
-    <a class="freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試してみる &rarr;</a>
+    <a class="freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試してみる &rarr;</a>
   </div>
 </div>
 

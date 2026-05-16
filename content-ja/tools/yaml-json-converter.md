@@ -212,7 +212,7 @@ YAMLとJSONをブラウザ上で即時相互変換できます。入力を貼り
     <strong>freee会計</strong> を使えば、請求書・経費・確定申告をまとめて自動化。<br>
     中小企業・フリーランスの経理をラクにしましょう。
   </div>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>
 
 <script>

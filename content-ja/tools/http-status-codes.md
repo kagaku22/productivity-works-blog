@@ -865,7 +865,7 @@ cover:
     API 開発をしながら経理・請求書・給与計算もまとめて効率化。<br>
     freee は中小企業・フリーランス向けのオールインワン業務管理クラウドです。
   </p>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">
     freee を無料で試す →
   </a>
 </div>

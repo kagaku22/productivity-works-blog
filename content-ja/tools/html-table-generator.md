@@ -420,7 +420,7 @@ cover:
     <strong>請求書・帳票もfreeeでラクラク管理</strong>
     <p>表データの作成から経理・請求書発行まで、freeeならすべてをひとつにまとめて自動化できます。30日間無料トライアル実施中。</p>
   </div>
-  <a class="ht-freee-cta-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a class="ht-freee-cta-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>
 
 <div class="ht-toast" id="ht-toast">コピーしました!</div>

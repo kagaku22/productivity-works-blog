@@ -409,7 +409,7 @@ cover:
     <h3>事業の数字管理はfreeeで自動化</h3>
     <p>請求書・経費・確定申告まで一括管理。個人事業主・中小企業に選ばれるクラウド会計ソフト。</p>
   </div>
-  <a href="https://www.freee.co.jp/?utm_source=productivity-works&utm_medium=referral&utm_campaign=matrix-calculator" class="mx-freee-btn" target="_blank" rel="noopener">freeeを試す（無料）</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP?utm_source=productivity-works&utm_medium=referral&utm_campaign=matrix-calculator" class="mx-freee-btn" target="_blank" rel="noopener">freeeを試す（無料）</a>
 </div>
 <p class="mx-freee-footer">※本リンクはアフィリエイトリンクです。</p>
 

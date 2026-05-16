@@ -690,7 +690,7 @@ cover:
 <div class="br-cta-box">
   <h4>経理・会計をもっとスマートに</h4>
   <p>freee会計なら、請求書・確定申告・経費精算をまとめて自動化。エンジニアやフリーランスにも選ばれています。</p>
-  <a class="br-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a class="br-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>
 
 </div>

@@ -447,7 +447,7 @@ aliases:
     <div class="ca-freee-cta-desc">
       Cron定期実行と freee API を組み合わせることで、売上集計・請求書作成・経費仕訳を完全自動化できます。スモールビジネスから上場企業まで対応のクラウド会計ソフトです。
     </div>
-    <a class="ca-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freeeを無料で試す &rarr;</a>
+    <a class="ca-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freeeを無料で試す &rarr;</a>
   </div>
 </div>
 

@@ -479,7 +479,7 @@ cover:
     <strong>freee で請求書・経費管理もスマートに</strong>
     <p>メール署名が整ったら、次は業務効率化。freee の無料プランで請求書作成・経費精算・確定申告をまとめて管理できます。</p>
   </div>
-  <a href="https://www.freee.co.jp/" class="sa-freee-cta-btn" target="_blank" rel="noopener">freee を無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" class="sa-freee-cta-btn" target="_blank" rel="noopener">freee を無料で試す</a>
 </div>
 
 <script>

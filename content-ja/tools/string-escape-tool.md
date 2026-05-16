@@ -482,7 +482,7 @@ cover:
     開発者・フリーランスの方も、freeeなら請求書発行・経費精算・確定申告をまとめて自動化できます。<br>
     面倒な帳簿作業から解放されて、本業に集中しましょう。
   </p>
-  <a class="esc-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">
+  <a class="esc-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">
     freeeを無料で試す &rarr;
   </a>
 </div>

@@ -439,7 +439,7 @@ cover:
     <h3>freeeで経理・会計をもっとスマートに</h3>
     <p>デザイン作業の請求書発行・経費管理もクラウドで完結。フリーランス・個人事業主に最適な会計ソフト。</p>
   </div>
-  <a class="ts-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a class="ts-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>
 
 <div class="ts-card">

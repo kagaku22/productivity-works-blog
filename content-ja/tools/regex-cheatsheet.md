@@ -950,7 +950,7 @@ cover:
   <div class="rxcs-cta-body">
     <div class="rxcs-cta-title">freee会計で請求書・帳簿をラクに管理</div>
     <div class="rxcs-cta-desc">正規表現でデータ抽出・加工を自動化しても、最終的な帳簿管理はfreeeにお任せ。エンジニア・フリーランスに人気のクラウド会計ソフトです。初月無料でお試しいただけます。</div>
-    <a class="rxcs-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+    <a class="rxcs-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
   </div>
 </div>
 

@@ -439,7 +439,7 @@ cover:
     インボイス対応まで一括管理。Webマーケティング費用の経費処理も簡単です。
     中小企業・個人事業主の方に選ばれています。
   </p>
-  <a class="cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee会計を無料で試す</a>
+  <a class="cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee会計を無料で試す</a>
 </div>
 
 </div>

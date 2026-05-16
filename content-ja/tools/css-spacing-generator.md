@@ -841,5 +841,5 @@ padding: 8px 16px 12px 16px;
     <h3>フリーランス・個人事業主の方へ</h3>
     <p>Webデザインの収益管理も、freeeなら簡単。請求書発行・確定申告・経費管理をまとめて自動化できます。</p>
   </div>
-  <a href="https://www.freee.co.jp/" class="sp-cta-btn" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" class="sp-cta-btn" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>

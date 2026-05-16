@@ -848,7 +848,7 @@ transition: opacity 0.3s ease 0s,
     <h4>会計・経費管理もスマートに</h4>
     <p>フリーランス・個人事業主のCSS作業と同じくらい、会計もシンプルにしませんか？<br>
     freeeなら確定申告・請求書・経費管理をすべてまとめて自動化。面倒な帳簿付けから解放されます。</p>
-    <a href="https://www.freee.co.jp/" class="tr-freee-btn" target="_blank" rel="noopener">freeeを無料で試す</a>
+    <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" class="tr-freee-btn" target="_blank" rel="noopener">freeeを無料で試す</a>
     <span class="tr-freee-note">※ 30日間無料トライアルあり。クレジットカード不要。</span>
   </div>
 </div>

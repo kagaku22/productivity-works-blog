@@ -262,7 +262,7 @@ cover:
 <div class="bd-freee-cta">
   <h3>経理・会計の効率化も自動化しませんか？</h3>
   <p>freee会計は、請求書・領収書の管理から確定申告・法人決算まで自動化できるクラウド会計ソフトです。銀行口座・クレジットカードと連携して仕訳を自動作成。今なら30日間無料でお試しいただけます。</p>
-  <a class="bd-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freee会計を無料で試す</a>
+  <a class="bd-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freee会計を無料で試す</a>
 </div>
 
 <script>

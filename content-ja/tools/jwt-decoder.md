@@ -439,7 +439,7 @@ cover:
   <div class="jwt-freee-cta-body">
     <strong>freee会計 — 中小企業・フリーランス向けクラウド会計</strong>
     <p>請求書・経費・確定申告をひとつにまとめて自動化。JWTを使うAPIとの連携もかんたん。無料トライアルでお試しください。</p>
-    <a class="jwt-freee-cta-link" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す &rarr;</a>
+    <a class="jwt-freee-cta-link" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す &rarr;</a>
   </div>
 </div>
 

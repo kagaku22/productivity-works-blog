@@ -330,7 +330,7 @@ cover:
 <div class="ar-freee-cta">
   <h3>フリーランス・法人の経費管理をもっとスマートに</h3>
   <p>CSSを書くだけでなく、事業の経費・請求書・確定申告もスッキリ整理。freee会計なら面倒な経理を自動化できます。</p>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee会計を無料で試す →</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee会計を無料で試す →</a>
 </div>
 
 <script>

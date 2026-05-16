@@ -543,7 +543,7 @@ cover:
     <h3>個人事業主・フリーランスの方へ：会計をもっとかんたんに</h3>
     <p>freee会計なら、確定申告・請求書・経費管理をまとめて自動化。面倒な帳簿作業から解放されます。</p>
   </div>
-  <a class="sp-freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
+  <a class="sp-freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
 </div>
 </div>
 

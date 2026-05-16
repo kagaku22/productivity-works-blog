@@ -557,7 +557,7 @@ cover:
 <div class="ue-freee-cta" style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
   <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">Webサイト運営の経費管理もかんたんに</p>
   <span style="font-size:13px;color:#0c4a6e;">freee会計なら、ドメイン・サーバー費用の経費精算もクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 ---

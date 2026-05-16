@@ -499,7 +499,7 @@ cover:
 <div class="ctgja-freee-cta">
   <h3>freee会計で経理をもっとスマートに</h3>
   <p>個人事業主・フリーランスの方に。確定申告・請求書・経費管理をクラウドで一元化。面倒な帳簿付けを自動化して、本業に集中しましょう。</p>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener noreferrer">freeeを無料で試す</a>
 </div>
 
 </div>

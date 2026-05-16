@@ -363,7 +363,7 @@ aliases:
   <div class="fc-body">
     <div class="fc-title">freee 会計 — 個人事業主・フリーランスの帳簿をAIで自動化</div>
     <div class="fc-desc">銀行・クレカ明細を自動取込。確定申告書類をワンクリック作成。ITエンジニア・フリーランスに選ばれるクラウド会計ソフト。</div>
-    <a href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
+    <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
   </div>
 </div>
 

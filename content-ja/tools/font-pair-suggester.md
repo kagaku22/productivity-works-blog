@@ -928,7 +928,7 @@ cover:
     <h3>フリーランス・個人事業主の方へ — freeeで経理を自動化</h3>
     <p>デザイン・制作業務に集中するために、請求書・確定申告・経費管理を freee でまとめて効率化。無料プランから始められます。</p>
   </div>
-  <a class="fp-freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
+  <a class="fp-freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
 </div>
 
 </div><!-- /#fp-app -->

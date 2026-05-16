@@ -318,7 +318,7 @@ cover:
 <div class="ph-freee-cta">
   <p>事業の請求書・経費管理もかんたんに</p>
   <span>freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す &rarr;</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す &rarr;</a>
 </div>
 
 <script>

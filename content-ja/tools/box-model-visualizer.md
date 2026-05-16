@@ -499,7 +499,7 @@ cover:
     <h3>フリーランス・個人事業主の会計をかんたんに</h3>
     <p>freee会計なら請求書・経費・確定申告をまるごとクラウド管理。面倒な帳簿付けから解放されます。</p>
   </div>
-  <a class="bm-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
+  <a class="bm-freee-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freeeを無料で試す</a>
 </div>
 
 <script>

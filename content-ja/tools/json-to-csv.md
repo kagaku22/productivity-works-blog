@@ -421,7 +421,7 @@ JSONをCSVに、CSVをJSONに変換します。サーバー送信なし・外部
       <strong>freee会計 — CSVインポートで仕訳を自動化</strong>
       <p>変換したCSVをfreeeに取り込めば、売上・経費の入力を大幅に削減。小規模事業者・フリーランスに最適。</p>
     </div>
-    <a class="j2c-freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+    <a class="j2c-freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
   </div>
 
 </div>

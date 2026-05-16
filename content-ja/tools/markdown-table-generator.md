@@ -282,7 +282,7 @@ cover:
     <strong>freee で会計・経費管理を自動化しませんか？</strong>
     <p>表でまとめた経費データも、freee なら自動で仕訳・集計。中小企業・フリーランスに最適なクラウド会計ソフトです。</p>
   </div>
-  <a class="freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee を無料で試す</a>
+  <a class="freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee を無料で試す</a>
 </div>
 
 </div><!-- #mdtable-app -->

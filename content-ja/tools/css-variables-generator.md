@@ -677,7 +677,7 @@ cover:
       デザイン案件の請求書作成・経費管理をシンプルに。<strong>freee</strong>なら確定申告まで自動化できます。
     </div>
   </div>
-  <a class="cv-freee-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+  <a class="cv-freee-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す</a>
 </div>
 
 </div><!-- #cssvar-app -->

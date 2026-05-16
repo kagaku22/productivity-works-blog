@@ -265,8 +265,8 @@ ShowToc: false
 
 <div class="freee-cta">
   <strong>業務効率化をもっと加速させたいなら</strong>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee会計・freee人事労務</a> なら、請求書・給与計算・確定申告をまとめてクラウドで自動化。手作業を減らして本来の業務に集中しましょう。<br>
-  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す →</a>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freee会計・freee人事労務</a> なら、請求書・給与計算・確定申告をまとめてクラウドで自動化。手作業を減らして本来の業務に集中しましょう。<br>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener">freeeを無料で試す →</a>
 </div>
 
 </div>
