@@ -657,3 +657,10 @@ calculate();
 
 })();
 </script>
+</div>
+
+---
+
+> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+
+> Estimate mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
