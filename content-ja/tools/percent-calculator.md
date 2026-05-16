@@ -387,3 +387,8 @@ cover:
 > 複利の効果を計算 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 
 > サブスクの年間コストを計算 → [サブスク管理計算ツール](/ja/tools/subscription-cost-calculator/)
+
+---
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+

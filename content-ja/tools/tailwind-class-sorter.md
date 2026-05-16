@@ -627,3 +627,8 @@ Tailwind CSS公式の[Prettier プラグイン](https://tailwindcss.com/blog/aut
 - すべてブラウザ内で処理します。入力内容はサーバーに送信されません。
 
 関連ツール：[CSS変数ジェネレーター](/ja/tools/css-variables-generator/) · [CSSメディアクエリジェネレーター](/ja/tools/media-query-generator/)
+
+---
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+

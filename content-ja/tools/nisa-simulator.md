@@ -134,3 +134,8 @@ S&P500の過去30年平均リターンは年約10%、全世界株式は年約7-8
 - [積立NISAは毎月いくら？平均と最適額](/ja/posts/積立nisa-毎月いくら-平均/)
 - [NISAとiDeCo、どちらを先に始めるべき？](/ja/posts/nisa-ideco-docchi-saki/)
 - [投資信託おすすめ2026年版](/ja/posts/toushishintaku-osusume-2026/)
+
+---
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+

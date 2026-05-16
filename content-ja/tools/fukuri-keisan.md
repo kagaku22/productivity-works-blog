@@ -169,3 +169,8 @@ calcFK();
 - [配当金シミュレーター](/ja/tools/haitoukin-simulator/) — 配当投資の年間収入を計算
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取りを計算
 - [家計簿シミュレーター](/ja/tools/kakeibo-generator/) — 月収から理想の支出配分を計算
+
+---
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
