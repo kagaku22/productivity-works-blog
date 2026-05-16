@@ -308,6 +308,7 @@ For a complete system — from landing clients to delivering work to building pa
 
 ## Related Tools
 
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate taxes on freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)

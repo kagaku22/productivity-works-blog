@@ -257,6 +257,7 @@ Pick one. Not two or three — one. Work it consistently for 90 days before eval
 
 ## Related Tools
 
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate taxes on side hustle income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)

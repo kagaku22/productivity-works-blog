@@ -268,6 +268,10 @@ If you are ready to get your bookkeeping under control and stop dreading every M
 
 **[Start your free trial of freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)**
 
+## Related Tools
+
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ---
 
 *Disclaimer: Tax rules and software pricing change regularly. This article reflects information available as of May 2026. Always verify current pricing on each provider's official website and consult a qualified tax accountant (税理士) for advice specific to your situation.*

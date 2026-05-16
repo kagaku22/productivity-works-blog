@@ -239,6 +239,10 @@ Use [お名前.com](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+29KENM+50+2HU3GX) to 
 
 Good luck — and welcome to self-employment in Japan.
 
+## Related Tools
+
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ---
 
 *This article provides general informational guidance only and does not constitute legal, tax, or immigration advice. Regulations change; verify current rules with a qualified tax accountant (税理士), immigration lawyer, or the relevant government authorities before making decisions.*

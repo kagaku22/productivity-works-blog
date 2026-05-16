@@ -288,6 +288,7 @@ Ready to get your books in order? **[Get started with freee today](https://px.a8
 
 ## Related Tools
 
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)

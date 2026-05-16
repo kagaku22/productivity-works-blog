@@ -264,6 +264,7 @@ The income builds slowly, then compounds. Most creators who hit $3,000+/month in
 
 ### Related Tools & Articles
 
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > See how passive income compounds → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Calculate tax on your digital product income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)

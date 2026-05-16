@@ -183,6 +183,7 @@ Whatever you choose, the return on investment is immediate — less time on book
 *This article is for informational purposes only and does not constitute tax or financial advice. Consult a tax professional for advice specific to your situation.*
 
 ## Related Tools
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 

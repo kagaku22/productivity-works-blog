@@ -261,6 +261,7 @@ The filing process itself — while conducted in Japanese — is navigable with 
 
 ## Related Tools
 
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Estimate your side income taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Calculate Japan take-home pay → [Salary Calculator](/tools/salary-calculator/)
