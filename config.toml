@@ -184,11 +184,17 @@ summaryLength = 140
     weight = 30
 
 # =============================================================================
+# Minification — disable JS minification (inline scripts with template literals)
+# =============================================================================
+[minify]
+  disableJS = true
+
+# =============================================================================
 # Privacy settings
 # =============================================================================
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
     respectDoNotTrack = true
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
