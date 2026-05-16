@@ -450,3 +450,8 @@ cover:
 ---
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
+
+## 関連記事
+
+- [無料AI画像生成ツール比較2026年版【目的別おすすめランキング】](/ja/posts/ai-画像生成-無料/)
+- [AI画像生成おすすめツール比較2026年版【無料・有料・日本語対応】](/ja/posts/ai-gazou-seisei-tool-hikaku-2026/)

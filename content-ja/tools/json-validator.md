@@ -756,3 +756,7 @@ cover:
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
 </div>
+
+## 関連記事
+
+- [ChatGPT API初心者向け完全ガイド【2026年版・サンプルコード付き】](/ja/posts/chatgpt-api-使い方-初心者/)

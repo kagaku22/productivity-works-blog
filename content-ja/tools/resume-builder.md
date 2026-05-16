@@ -732,3 +732,9 @@ cover:
 **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
 </div>
+
+## 関連記事
+
+- [50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ](/ja/posts/50dai-tenshoku-ai-junbi-2026/)
+- [50代転職 ChatGPTで職務経歴書を劇的に改善する5つのプロンプト](/ja/posts/50dai-tenshoku-shokumu-keirekisho-chatgpt/)
+- [転職サイト おすすめ2026年版！年代・目的別に徹底比較](/ja/posts/tenshoku-site-osusume-2026/)

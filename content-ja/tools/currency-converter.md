@@ -348,3 +348,7 @@ cover:
 > FX利益計算 → [FX利益計算ツール](/ja/tools/forex-profit-calculator/)
 > FX利益計算 → [FX利益計算ツール](/ja/tools/fx-profit-calculator/)
 
+## 関連記事
+
+- [DMM FXの口座開設のやり方｜初心者でも10分で完了する全手順【2026年版】](/ja/posts/dmm-fx-koza-kaisetsu-yarikata-2026/)
+- [FX口座 おすすめ2026年版！初心者向けに比較【少額から始められる】](/ja/posts/kaigai-fx-osusume-2026/)

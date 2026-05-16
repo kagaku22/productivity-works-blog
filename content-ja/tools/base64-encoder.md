@@ -618,3 +618,7 @@ URLセーフBase64は標準版の `+` と `/` をそれぞれ `-` と `_` に置
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">
 freee会計を無料で試す</a>
 <img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" alt="">
+
+## 関連記事
+
+- [ChatGPT API初心者向け完全ガイド【2026年版・サンプルコード付き】](/ja/posts/chatgpt-api-使い方-初心者/)

@@ -534,3 +534,8 @@ cover:
 > 複利計算 → [複利計算ツール](/ja/tools/compound-interest-calculator/)
 > FIRE計算 → [FIRE計算ツール](/ja/tools/fire-calculator/)
 
+## 関連記事
+
+- [新NISA おすすめ銘柄 初心者向け完全ガイド【2026年最新版】](/ja/posts/nisa-osusume-meigara-2026/)
+- [投資信託 おすすめ 初心者向け厳選ファンド完全比較【2026年最新版】](/ja/posts/toushishintaku-osusume-2026/)
+- [会社員が不動産投資を始めるならRENOSY？｜NISAやiDeCoとの使い分けガイド](/ja/posts/kaishain-fudousan-toushi-renosy/)

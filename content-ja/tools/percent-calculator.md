@@ -392,3 +392,8 @@ cover:
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
+## 関連記事
+
+- [Excel関数よく使うもの一覧【2026年版・コピペ即使える】仕事で役立つ厳選50選](/ja/posts/excel-kansu-yoku-tsukau-ichiran/)
+- [飲食店の原価率計算をExcelで簡単管理する方法2026](/ja/posts/insyoku-excel-genkaritu-keisan-2026/)
+- [飲食店経営Excel管理テンプレート活用ガイド2026](/ja/posts/insyoku-keiei-excel-kanri-2026/)

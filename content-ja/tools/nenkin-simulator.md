@@ -582,3 +582,8 @@ nenkinCalc();
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
+## 関連記事
+
+- [iDeCo おすすめ証券会社ランキング【2026年最新版】手数料・商品数を徹底比較](/ja/posts/ideco-osusume-shouken/)
+- [iDeCo節税シミュレーション｜年収別に実際いくら得するか計算](/ja/posts/ideco-tax-saving-simulation/)
+- [老後2000万円問題を自分で検証｜退職金なしの会社員がとるべき行動](/ja/posts/rougo-2000man-taisaku/)

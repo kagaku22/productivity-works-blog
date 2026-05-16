@@ -354,3 +354,7 @@ cover:
 </div>
 
 </div>
+
+## 関連記事
+
+- [Notion 使い方 完全ガイド【2026年版・初心者向け】セットアップから活用術まで](/ja/posts/notion-tsukaikata-shoshinsha-2026/)

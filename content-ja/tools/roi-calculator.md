@@ -847,3 +847,9 @@ cover:
 > 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [AI副業で稼ぐ方法2026年最新完全ガイド](/ja/posts/ai-副業-稼ぐ-方法-2026/)
+- [会社員が不動産投資を始めるならRENOSY？｜NISAやiDeCoとの使い分けガイド](/ja/posts/kaishain-fudousan-toushi-renosy/)
+- [RENOSYの利回りは本当？｜評判・口コミを徹底検証【2026年版データ分析】](/ja/posts/renosy-rimawari-hyoban-kensho-2026/)

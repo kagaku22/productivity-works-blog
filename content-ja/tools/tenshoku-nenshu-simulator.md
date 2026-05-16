@@ -232,3 +232,9 @@ calcTC();
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 - [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/)
 - [住宅ローンシミュレーター](/ja/tools/jutaku-loan-simulator/)
+
+## 関連記事
+
+- [50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ](/ja/posts/50dai-tenshoku-ai-junbi-2026/)
+- [50代転職 ChatGPTで職務経歴書を劇的に改善する5つのプロンプト](/ja/posts/50dai-tenshoku-shokumu-keirekisho-chatgpt/)
+- [dodaスカウトの使い方と評判｜返信率を上げるプロフィール設定術【2026年版】](/ja/posts/doda-scout-tsukaikata-hyoban/)

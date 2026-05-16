@@ -139,3 +139,8 @@ S&P500の過去30年平均リターンは年約10%、全世界株式は年約7-8
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
+## 関連記事
+
+- [NISAで運用しながらFXもできる？税金の仕組みを比較してわかりやすく解説](/ja/posts/nisa-fx-zeikin-hikaku/)
+- [新NISA始め方2026年版【初心者向け完全ガイド】口座開設から投資スタートまで](/ja/posts/shin-nisa-hajimekata-shoshinsha-2026/)
+- [新NISA おすすめ銘柄 初心者向け完全ガイド【2026年最新版】](/ja/posts/nisa-osusume-meigara-2026/)

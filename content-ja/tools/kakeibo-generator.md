@@ -180,3 +180,9 @@ calcBudget();
 - [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/) — 投資の損益を計算
 - [NISAとiDeCo、どっちを先に？](/ja/posts/nisa-ideco-docchi-saki/)
 - [クレジットカードおすすめ](/ja/posts/credit-card-osusume-2026/)
+
+## 関連記事
+
+- [freeeとマネーフォワードどっちが副業向き？実際の費用と機能を徹底比較](/ja/posts/freee-vs-moneyforward-fukugyou/)
+- [家計簿アプリから卒業：収入が月10万円超えたらfreeeに切り替える理由](/ja/posts/kakeibo-freee-kirikae-fukugyou/)
+- [共働き夫婦のExcel家計簿のつけ方【無料テンプレート付き・2026年版】](/ja/posts/excel-kakeibo-tomobataraki-template/)

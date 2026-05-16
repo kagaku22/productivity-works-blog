@@ -162,3 +162,9 @@ calcBudget();
 ---
 
 > 資産管理を効率化 → [freee会計で家計を自動管理](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
+
+## 関連記事
+
+- [家計簿アプリから卒業：収入が月10万円超えたらfreeeに切り替える理由](/ja/posts/kakeibo-freee-kirikae-fukugyou/)
+- [30代の保険見直し完全ガイド｜無料相談で年間5万円節約できるケースも](/ja/posts/30dai-hoken-minaoshi-guide/)
+- [独身に生命保険は必要？｜20代・30代が本当に必要な保障額をデータで解説【2026年版】](/ja/posts/dokushin-hoken-hitsuyou-20dai-30dai/)

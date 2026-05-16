@@ -724,3 +724,7 @@ cover:
 > Email Template Builder → [Email Template Builderツール](/ja/tools/email-template-builder/)
 > メールアドレス検証 → [メールアドレス検証ツール](/ja/tools/email-validator/)
 
+## 関連記事
+
+- [不動産営業向けChatGPTプロンプト集 完全ガイド2026](/ja/posts/chatgpt-fudosan-eigyo-prompt/)
+- [不動産営業 ChatGPTで物件紹介メールを3分で作成する方法](/ja/posts/fudosan-eigyo-chatgpt-bukken-shoukai-mail/)

@@ -489,3 +489,7 @@ cover:
 ---
 
 **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [FXの損失は3年繰り越せる？繰越控除の申告手順を図解で解説](/ja/posts/fx-sonshitsu-kurikoshi-koujo/)

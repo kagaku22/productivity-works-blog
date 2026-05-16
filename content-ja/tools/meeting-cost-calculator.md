@@ -447,3 +447,8 @@ cover:
 > 投資利益率を計算 → [ROI計算ツール](/ja/tools/roi-calculator/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [ChatGPTを仕事で使う具体的な活用法10選【2026年最新版】](/ja/posts/chatgpt-仕事-活用法-2026/)
+- [リモートワーク生産性を上げる方法15選【在宅勤務のコツ・ツール・環境構築】](/ja/posts/remote-work-seisansei-ageru-houhou/)

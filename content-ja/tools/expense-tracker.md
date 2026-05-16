@@ -711,3 +711,9 @@ cover:
 ---
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [副業の確定申告やり方2026年版【freee・マネーフォワード対応】](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
+- [フリーランス確定申告 AIで経費仕訳を自動化する具体的手順](/ja/posts/freelance-kakuteishinkoku-ai-keihi-shiwake/)
+- [副業フリーランスがfreeeで青色申告65万控除を最速で取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)

@@ -246,3 +246,7 @@ calcFN();
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 - [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/)
 - [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/)
+
+## 関連記事
+
+- [ふるさと納税 やり方 完全ガイド【2026年版・初心者向け】](/ja/posts/furusato-nozei-yarikata-2026/)

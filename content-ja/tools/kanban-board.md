@@ -980,3 +980,8 @@ cover:
 ---
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [Notion使い方完全ガイド2026年版【初心者向けセットアップ解説】](/ja/posts/notion-kanzen-guide-shoshinsha-2026/)
+- [Notion 使い方 完全ガイド【2026年版・初心者向け】セットアップから活用術まで](/ja/posts/notion-tsukaikata-shoshinsha-2026/)

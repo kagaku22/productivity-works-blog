@@ -333,3 +333,9 @@ cover:
 
 - [貯蓄目標計算ツール](/tools/savings-goal-calculator/) — 目標金額に到達するために必要な毎月の積立額を逆算できます。
 - [ROI計算ツール](/tools/roi-calculator/) — 投資・施策のリターンをすばやく計測できます。
+
+## 関連記事
+
+- [新NISA始め方2026年版【初心者向け完全ガイド】口座開設から投資スタートまで](/ja/posts/shin-nisa-hajimekata-shoshinsha-2026/)
+- [NISA iDeCo どっちを先に始めるべき？優先順位を徹底解説【2026年最新版】](/ja/posts/nisa-ideco-docchi-saki/)
+- [投資信託 おすすめ 初心者向け厳選ファンド完全比較【2026年最新版】](/ja/posts/toushishintaku-osusume-2026/)

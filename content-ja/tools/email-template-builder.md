@@ -516,3 +516,9 @@ cover:
 ---
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 </div>
+
+## 関連記事
+
+- [不動産営業向けChatGPTプロンプト集 完全ガイド2026](/ja/posts/chatgpt-fudosan-eigyo-prompt/)
+- [不動産営業 ChatGPTで物件紹介メールを3分で作成する方法](/ja/posts/fudosan-eigyo-chatgpt-bukken-shoukai-mail/)
+- [医療事務向けChatGPT活用術 業務効率化10選](/ja/posts/iryo-jimu-chatgpt-2026/)

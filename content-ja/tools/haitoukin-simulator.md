@@ -287,3 +287,8 @@ calcDiv();
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
+## 関連記事
+
+- [新NISA おすすめ銘柄 初心者向け完全ガイド【2026年最新版】](/ja/posts/nisa-osusume-meigara-2026/)
+- [SBI証券 楽天証券 比較 2026年版！どちらを選ぶべきか徹底解説](/ja/posts/sbi-rakuten-hikaku-2026/)
+- [株の始め方 初心者ガイド！必要な金額と最初の一歩を完全解説【2026年版】](/ja/posts/株-始め方-初心者-必要な金額/)

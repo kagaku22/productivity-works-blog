@@ -514,3 +514,8 @@ downloadBtn.addEventListener('click', function() {
 > Markdownテーブル → [Markdownテーブル生成](/ja/tools/markdown-table-generator/)
 ---
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [AIでExcel作業を自動化する方法【マクロ不要で誰でもできる】](/ja/posts/ai-excel-自動化/)
+- [Excel関数よく使うもの一覧【2026年版・コピペ即使える】仕事で役立つ厳選50選](/ja/posts/excel-kansu-yoku-tsukau-ichiran/)

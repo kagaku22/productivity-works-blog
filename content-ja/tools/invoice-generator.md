@@ -908,3 +908,9 @@ cover:
 > 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [AI×確定申告 フリーランス完全自動化ガイド2026](/ja/posts/ai-kakuteishinkoku-freelance-2026/)
+- [フリーランス確定申告 AIで経費仕訳を自動化する具体的手順](/ja/posts/freelance-kakuteishinkoku-ai-keihi-shiwake/)
+- [フリーランスエンジニアの開業届と青色申告｜初年度にやるべき手続き全リスト](/ja/posts/freelance-engineer-kaigyou-aoiro-shinkoku/)

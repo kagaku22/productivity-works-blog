@@ -815,3 +815,8 @@ cover:
 > テキストの差分を確認 → [テキスト差分比較ツール](/ja/tools/text-diff-checker/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [AI英語学習おすすめアプリ2026年版【比較ランキング・無料あり】](/ja/posts/ai-eigo-gakushu-osusume-app-2026/)
+- [AI活用の英語学習法おすすめ5選【2026年版・独学で話せるようになる方法】](/ja/posts/ai-英語学習-おすすめ/)

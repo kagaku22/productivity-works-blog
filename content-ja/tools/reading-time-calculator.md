@@ -519,3 +519,6 @@ cover:
 > Case Converter → [Case Converterツール](/ja/tools/case-converter/)
 > Character Counter → [Character Counterツール](/ja/tools/character-counter/)
 
+## 関連記事
+
+- [AI要約ツール おすすめ無料10選【2026年版】用途別に徹底比較](/ja/posts/ai-youyaku-tool-osusume/)

@@ -750,3 +750,8 @@ cover:
 ---
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+## 関連記事
+
+- [副業ブログの始め方｜お名前.comでドメイン取得→freeeで経費管理まで](/ja/posts/fukugyo-blog-hajimekata-domain-freee/)
+- [レンタルサーバー おすすめ2026年版！ブログ・サイト制作向け比較](/ja/posts/rental-server-osusume-2026/)

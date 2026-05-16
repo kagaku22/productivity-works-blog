@@ -269,3 +269,7 @@ calcLoan();
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 - [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/)
+
+## 関連記事
+
+- [会社員が不動産投資を始めるならRENOSY？｜NISAやiDeCoとの使い分けガイド](/ja/posts/kaishain-fudousan-toushi-renosy/)

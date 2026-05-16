@@ -478,3 +478,8 @@ cover:
 })();
 </script>
 </div>
+
+## 関連記事
+
+- [光回線 おすすめ2026年版！速度・料金・キャッシュバックで比較](/ja/posts/hikari-kaisen-osusume-2026/)
+- [WiFiルーター おすすめ2026年版！速度・範囲・価格で選ぶ最強機種](/ja/posts/wifi-router-osusume-2026/)

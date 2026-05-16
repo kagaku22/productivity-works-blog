@@ -207,3 +207,9 @@ calcTedori();
 - [FX利益計算シミュレーター](/ja/tools/fx-profit-calculator/) — 投資の損益を計算
 - [フリーランス確定申告ガイド](/ja/posts/フリーランス-確定申告-やり方/)
 - [会計ソフトおすすめ比較](/ja/posts/kaikei-soft-osusume-2026/)
+
+## 関連記事
+
+- [フリーランスエンジニア年収相場完全ガイド2026年版](/ja/posts/フリーランス-エンジニア-年収-相場/)
+- [独身に生命保険は必要？｜20代・30代が本当に必要な保障額をデータで解説【2026年版】](/ja/posts/dokushin-hoken-hitsuyou-20dai-30dai/)
+- [ふるさと納税 やり方 完全ガイド【2026年版・初心者向け】](/ja/posts/furusato-nozei-yarikata-2026/)
