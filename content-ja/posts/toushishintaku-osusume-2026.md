@@ -190,6 +190,7 @@ cover:
 > 積立投資の複利効果をシミュレーション → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > NISAの非課税メリットを計算 → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 配当型ファンドの収入を計算 → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)
+> 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 
 ---
 

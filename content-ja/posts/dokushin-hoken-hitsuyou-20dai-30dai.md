@@ -248,6 +248,7 @@ cover:
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 保険料の節約分を積立投資に回すと → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > iDeCoの節税効果を計算 → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
+> 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 
 ---
 

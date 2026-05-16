@@ -240,3 +240,5 @@ iDeCoの節税メリットを改めて整理します。
 - [iDeCoシミュレーター](/ja/tools/ideco-simulator/) — 年収・掛金・運用期間から節税額と将来資産を自動計算
 - [NISAシミュレーター](/ja/tools/nisa-simulator/) — iDeCoとNISAの併用効果を試算
 - [手取り計算ツール](/ja/tools/salary-tedori-calculator/) — iDeCo加入後の毎月の手取り変化を確認
+
+> 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)

@@ -300,6 +300,7 @@ iDeCoの証券会社選びは「手数料最安のネット証券」が基本で
 > iDeCoの節税効果を年収別にシミュレーションできます → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
 > 配当投資に興味がある方は → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)
 > 積立投資の複利効果を確認 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
+> 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 
 - [NISA iDeCo どっちを先に始めるべき？優先順位を徹底解説【2026年最新版】](/ja/posts/nisa-ideco-docchi-saki/)
 - [iDeCo節税シミュレーション｜年収別に実際いくら得するか計算](/ja/posts/ideco-tax-saving-simulation/)
