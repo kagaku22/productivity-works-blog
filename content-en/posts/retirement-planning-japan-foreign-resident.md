@@ -103,7 +103,7 @@ For the tsumitate (accumulative) slot, focus on low-cost global index funds. The
 - A global all-market or MSCI World index fund (e.g., eMAXIS Slim All Country)
 - A domestic bond or money market fund as a ballast (especially if you are within 10 years of retirement)
 
-Use the **[NISA Simulator](/tools/nisa-simulator/)** to model how ¥100,000/month in the tsumitate slot compounds over 10, 20, and 30 years at different assumed return rates.
+Use the **[NISA Simulator](/ja/tools/nisa-simulator/)** to model how ¥100,000/month in the tsumitate slot compounds over 10, 20, and 30 years at different assumed return rates.
 
 ### iDeCo: The Pension Supplement
 
@@ -178,7 +178,7 @@ At a 6% average annual return, ¥123,000/month (iDeCo + NISA) invested for 30 ye
 
 - **[Retirement Calculator](/tools/retirement-calculator/)** — Model your pension gap and required corpus in under 5 minutes
 - **[Compound Interest Calculator](/tools/compound-interest/)** — See exactly how your monthly contributions grow over time at different return assumptions
-- **[NISA Simulator](/tools/nisa-simulator/)** — Optimize your NISA contribution allocation between the tsumitate and seichyo slots
+- **[NISA Simulator](/ja/tools/nisa-simulator/)** — Optimize your NISA contribution allocation between the tsumitate and seichyo slots
 - **[Take-home Pay Calculator](/tools/take-home-pay/)** — Calculate your actual net monthly income after pension, health insurance, and income tax deductions to know your true investable surplus
 
 ---
@@ -215,7 +215,7 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 
 - [Retirement Calculator](/tools/retirement-calculator/) — Project your pension gap and required savings corpus
 - [Compound Interest Calculator](/tools/compound-interest/) — Model long-term growth of your monthly investments
-- [NISA Simulator](/tools/nisa-simulator/) — Optimize your NISA tsumitate and seichyo slot allocation
+- [NISA Simulator](/ja/tools/nisa-simulator/) — Optimize your NISA tsumitate and seichyo slot allocation
 - [Take-home Pay Calculator](/tools/take-home-pay/) — Calculate net monthly income after all Japanese deductions
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 

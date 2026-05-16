@@ -64,7 +64,7 @@ That is money that stays in your pocket each year — before any investment grow
 
 Inside the account, dividends and capital gains accumulate without annual tax. When you eventually withdraw, a **lump-sum withdrawal qualifies for the retirement income deduction (退職所得控除)**, which is extremely generous — ¥800,000 plus ¥700,000 for every year of contributions beyond 20 years. In many cases the effective tax on the withdrawal approaches zero.
 
-The one hard constraint: **you cannot withdraw until age 60**. iDeCo is a lock-in instrument. If liquidity matters, pair it with [NISA](/tools/nisa-simulator/) rather than substituting for it.
+The one hard constraint: **you cannot withdraw until age 60**. iDeCo is a lock-in instrument. If liquidity matters, pair it with [NISA](/ja/tools/nisa-simulator/) rather than substituting for it.
 
 ---
 
@@ -259,7 +259,7 @@ The main points to remember:
 4. Opening an account at Rakuten Securities takes about 1–2 months and is fully online.
 5. The hard constraint is the **no-withdrawal-until-60 rule** — plan your liquidity needs with NISA and other accounts accordingly.
 
-Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal numbers, compare with the **[NISA Simulator](/tools/nisa-simulator/)** for the flexible counterpart, and check your monthly take-home with the **[Take-Home Pay Calculator](/tools/take-home-pay/)**.
+Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal numbers, compare with the **[NISA Simulator](/ja/tools/nisa-simulator/)** for the flexible counterpart, and check your monthly take-home with the **[Take-Home Pay Calculator](/tools/take-home-pay/)**.
 
 ---
 

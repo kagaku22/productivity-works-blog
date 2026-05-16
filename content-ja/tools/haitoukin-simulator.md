@@ -280,5 +280,5 @@ calcDiv();
 **関連記事**
 - [新NISAシミュレーター](/ja/tools/nisa-simulator/)
 - [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/)
-- [複利計算シミュレーター](/tools/fukuri-calculator/)
+- [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)

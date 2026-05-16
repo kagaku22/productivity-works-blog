@@ -25,7 +25,7 @@ Most foreign professionals in Japan start with NISA or iDeCo. Both are excellent
 
 This article walks through all three pillars, explains how they interact, and helps you figure out where to focus based on your income level. If you have already set up your NISA and iDeCo accounts, or want to model your retirement projections first, the tools below are a good starting point before you continue reading.
 
-- [NISA Simulator — model your tax-free investment returns](/tools/nisa-simulator/)
+- [NISA Simulator — model your tax-free investment returns](/ja/tools/nisa-simulator/)
 - [iDeCo Simulator — calculate your annual tax deduction](/ja/tools/ideco-simulator/)
 - [Retirement Calculator — project your total retirement assets](/tools/retirement-calculator/)
 
@@ -207,7 +207,7 @@ At this income level, your marginal income tax rate is relatively low (5-20%). T
 2. Contribute to iDeCo (even a modest amount captures meaningful deductions at this bracket)
 3. Real estate: monitor and consider later as income grows
 
-Use the [NISA Simulator](/tools/nisa-simulator/) to model how consistent contributions compound over 20-30 years. The results are often more compelling than people expect.
+Use the [NISA Simulator](/ja/tools/nisa-simulator/) to model how consistent contributions compound over 20-30 years. The results are often more compelling than people expect.
 
 ### 5-8 Million Yen Annual Income: Build All Three in Parallel
 
@@ -280,7 +280,7 @@ For most salaried professionals in Japan, the practical starting point is:
 
 And use these tools to anchor your planning with real numbers:
 
-- [NISA Simulator](/tools/nisa-simulator/) — project your NISA account growth
+- [NISA Simulator](/ja/tools/nisa-simulator/) — project your NISA account growth
 - [iDeCo Simulator](/ja/tools/ideco-simulator/) — calculate your annual iDeCo tax saving
 - [Retirement Calculator](/tools/retirement-calculator/) — combine all sources into a retirement projection
 - [Take-home Pay Calculator](/tools/take-home-pay/) — understand your net income baseline
