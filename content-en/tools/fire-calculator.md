@@ -461,3 +461,12 @@ In practical terms, the 4% rule means your **FIRE number is 25 times your annual
 ---
 
 *This calculator is provided for educational and informational purposes only. It does not constitute financial advice. Investment returns are not guaranteed, and past market performance does not predict future results. Consult a qualified financial professional before making major financial decisions.*
+
+---
+
+## Related Tools
+
+> [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> [Ideco Simulator](/tools/ideco-simulator/)
+> [Investment Return Calculator](/tools/investment-return-calculator/)
+

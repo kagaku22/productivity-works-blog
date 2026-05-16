@@ -557,3 +557,12 @@ cover:
 </div>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Case Converter → [Case Converterツール](/ja/tools/case-converter/)
+> Character Counter → [Character Counterツール](/ja/tools/character-counter/)
+> Lorem Ipsum Generator → [Lorem Ipsum Generatorツール](/ja/tools/lorem-ipsum-generator/)
+

@@ -458,3 +458,12 @@ FIREとは**Financial Independence, Retire Early**（経済的自立・早期退
 ---
 
 > 資産管理を効率化 → [freee会計で家計を自動管理](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
+
+---
+
+## 関連ツール
+
+> 貯蓄目標シミュレーター → [貯蓄目標シミュレーターツール](/ja/tools/chochiku-mokuhyo-simulator/)
+> 複利計算 → [複利計算ツール](/ja/tools/compound-interest-calculator/)
+> iDeCo シミュレーター → [iDeCo シミュレーターツール](/ja/tools/ideco-simulator/)
+

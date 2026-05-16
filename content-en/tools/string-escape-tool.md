@@ -846,3 +846,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Case Converter](/tools/case-converter/)
+> [Character Counter](/tools/character-counter/)
+> [Regex Cheatsheet](/tools/regex-cheatsheet/)
+

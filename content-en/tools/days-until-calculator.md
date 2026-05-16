@@ -638,3 +638,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Age Calculator](/tools/age-calculator/)
+> [Countdown Timer](/tools/countdown-timer/)
+> [Date Calculator](/tools/date-calculator/)
+

@@ -548,3 +548,12 @@ cover:
 </div>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Favicon Generator → [Favicon Generatorツール](/ja/tools/favicon-generator/)
+> Image Color Picker → [Image Color Pickerツール](/ja/tools/image-color-picker/)
+> 画像圧縮 → [画像圧縮ツール](/ja/tools/image-compressor/)
+

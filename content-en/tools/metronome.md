@@ -600,3 +600,10 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Noise Generator](/tools/noise-generator/)
+

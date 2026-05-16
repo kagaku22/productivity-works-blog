@@ -611,3 +611,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 料理単位変換 → [料理単位変換ツール](/ja/tools/cooking-unit-converter/)
+> 電気代計算 → [電気代計算ツール](/ja/tools/electricity-cost-calculator/)
+> Fuel Cost Calculator → [Fuel Cost Calculatorツール](/ja/tools/fuel-cost-calculator/)
+

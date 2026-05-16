@@ -622,3 +622,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Email Signature Generator](/tools/email-signature-generator/)
+> [Email Template Builder](/tools/email-template-builder/)
+

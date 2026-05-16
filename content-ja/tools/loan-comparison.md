@@ -359,3 +359,12 @@ cover:
 </div>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 借金返済計算 → [借金返済計算ツール](/ja/tools/debt-payoff-calculator/)
+> 住宅ローン借入可能額 → [住宅ローン借入可能額ツール](/ja/tools/mortgage-affordability-calculator/)
+> 住宅ローン計算 → [住宅ローン計算ツール](/ja/tools/mortgage-calculator/)
+

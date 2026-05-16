@@ -642,3 +642,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Cooking Unit Converter](/tools/cooking-unit-converter/)
+> [Electricity Cost Calculator](/tools/electricity-cost-calculator/)
+> [Fuel Cost Calculator](/tools/fuel-cost-calculator/)
+

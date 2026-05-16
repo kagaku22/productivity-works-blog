@@ -416,3 +416,12 @@ cover:
 ---
 
 **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
+
+---
+
+## 関連ツール
+
+> 借金返済計算 → [借金返済計算ツール](/ja/tools/debt-payoff-calculator/)
+> ローン比較 → [ローン比較ツール](/ja/tools/loan-comparison/)
+> 住宅ローン借入可能額 → [住宅ローン借入可能額ツール](/ja/tools/mortgage-affordability-calculator/)
+

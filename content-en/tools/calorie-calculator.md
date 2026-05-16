@@ -823,3 +823,12 @@ Find out how many calories your body needs each day — then plan smarter with m
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Bmi Calculator](/tools/bmi-calculator/)
+> [Body Fat Calculator](/tools/body-fat-calculator/)
+> [Water Intake Calculator](/tools/water-intake-calculator/)
+

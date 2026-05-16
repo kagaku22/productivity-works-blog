@@ -546,3 +546,10 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Qr Code Generator](/tools/qr-code-generator/)
+

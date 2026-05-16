@@ -678,3 +678,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> [Loan Comparison](/tools/loan-comparison/)
+> [Mortgage Calculator](/tools/mortgage-calculator/)
+

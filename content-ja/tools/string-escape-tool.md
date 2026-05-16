@@ -907,3 +907,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Case Converter → [Case Converterツール](/ja/tools/case-converter/)
+> Character Counter → [Character Counterツール](/ja/tools/character-counter/)
+> Regex Cheatsheet → [Regex Cheatsheetツール](/ja/tools/regex-cheatsheet/)
+

@@ -720,3 +720,12 @@ loremGenerate();
 **Webサイト制作の会計管理にはfreee**
 ダミーテキストを使ってサイト制作中の方、制作費用の経理もfreeeで簡単管理。
 <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">freeeを無料で試す</a>
+
+---
+
+## 関連ツール
+
+> Case Converter → [Case Converterツール](/ja/tools/case-converter/)
+> Character Counter → [Character Counterツール](/ja/tools/character-counter/)
+> Reading Time Calculator → [Reading Time Calculatorツール](/ja/tools/reading-time-calculator/)
+

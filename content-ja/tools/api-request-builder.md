@@ -775,3 +775,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Dns Record Guide → [Dns Record Guideツール](/ja/tools/dns-record-guide/)
+> Http Status Codes → [Http Status Codesツール](/ja/tools/http-status-codes/)
+> Ip Address Calculator → [Ip Address Calculatorツール](/ja/tools/ip-address-calculator/)
+

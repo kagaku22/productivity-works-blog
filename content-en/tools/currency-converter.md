@@ -361,3 +361,11 @@ Convert any amount between 12 major world currencies using reference exchange ra
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Dividend Income Calculator](/tools/dividend-income-calculator/)
+> [Forex Profit Calculator](/tools/forex-profit-calculator/)
+

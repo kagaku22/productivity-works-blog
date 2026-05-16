@@ -617,3 +617,11 @@ The old "multiply by 7" rule is a myth. Dogs age rapidly in their first two year
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Age Calculator](/tools/age-calculator/)
+> [Pregnancy Due Date Calculator](/tools/pregnancy-due-date-calculator/)
+

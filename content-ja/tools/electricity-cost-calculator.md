@@ -594,3 +594,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> CO2排出量計算 → [CO2排出量計算ツール](/ja/tools/carbon-footprint-calculator/)
+> 料理単位変換 → [料理単位変換ツール](/ja/tools/cooking-unit-converter/)
+> Fuel Cost Calculator → [Fuel Cost Calculatorツール](/ja/tools/fuel-cost-calculator/)
+

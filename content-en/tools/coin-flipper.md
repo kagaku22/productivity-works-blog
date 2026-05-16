@@ -423,3 +423,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Dice Roller](/tools/dice-roller/)
+> [Password Generator](/tools/password-generator/)
+> [Random Number Generator](/tools/random-number-generator/)
+

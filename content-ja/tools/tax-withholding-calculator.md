@@ -582,3 +582,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> フリーランス報酬計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-rate-calculator/)
+> 時給年収換算 → [時給年収換算ツール](/ja/tools/hourly-to-salary-calculator/)
+> 年金シミュレーター → [年金シミュレーターツール](/ja/tools/pension-simulator/)
+

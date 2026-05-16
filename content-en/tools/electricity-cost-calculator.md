@@ -650,3 +650,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Carbon Footprint Calculator](/tools/carbon-footprint-calculator/)
+> [Cooking Unit Converter](/tools/cooking-unit-converter/)
+> [Fuel Cost Calculator](/tools/fuel-cost-calculator/)
+

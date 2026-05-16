@@ -456,3 +456,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## 関連ツール
+
+> BMI計算 → [BMI計算ツール](/ja/tools/bmi-calculator/)
+> 体脂肪率計算 → [体脂肪率計算ツール](/ja/tools/body-fat-calculator/)
+> カロリー計算 → [カロリー計算ツール](/ja/tools/calorie-calculator/)
+

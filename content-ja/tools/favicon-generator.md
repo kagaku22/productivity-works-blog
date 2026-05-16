@@ -834,3 +834,12 @@ cover:
   init();
 })();
 </script>
+
+---
+
+## 関連ツール
+
+> Image Color Picker → [Image Color Pickerツール](/ja/tools/image-color-picker/)
+> 画像圧縮 → [画像圧縮ツール](/ja/tools/image-compressor/)
+> Image Cropper → [Image Cropperツール](/ja/tools/image-cropper/)
+

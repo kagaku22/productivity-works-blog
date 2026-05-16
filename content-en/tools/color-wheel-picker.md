@@ -842,3 +842,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Color Blindness Simulator](/tools/color-blindness-simulator/)
+> [Color Contrast Checker](/tools/color-contrast-checker/)
+> [Color Converter](/tools/color-converter/)
+

@@ -681,3 +681,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Age Calculator](/tools/age-calculator/)
+> [Dog Age Calculator](/tools/dog-age-calculator/)
+

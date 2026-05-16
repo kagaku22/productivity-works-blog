@@ -566,3 +566,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Email Signature Generator → [Email Signature Generatorツール](/ja/tools/email-signature-generator/)
+> Email Template Builder → [Email Template Builderツール](/ja/tools/email-template-builder/)
+

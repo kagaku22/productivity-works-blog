@@ -482,3 +482,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Bmi Calculator](/tools/bmi-calculator/)
+> [Body Fat Calculator](/tools/body-fat-calculator/)
+> [Calorie Calculator](/tools/calorie-calculator/)
+

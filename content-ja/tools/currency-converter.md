@@ -339,3 +339,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 配当金計算 → [配当金計算ツール](/ja/tools/dividend-income-calculator/)
+> FX利益計算 → [FX利益計算ツール](/ja/tools/forex-profit-calculator/)
+> FX利益計算 → [FX利益計算ツール](/ja/tools/fx-profit-calculator/)
+

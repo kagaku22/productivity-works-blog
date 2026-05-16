@@ -876,3 +876,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> CO2排出量計算 → [CO2排出量計算ツール](/ja/tools/carbon-footprint-calculator/)
+> 電気代計算 → [電気代計算ツール](/ja/tools/electricity-cost-calculator/)
+> Fuel Cost Calculator → [Fuel Cost Calculatorツール](/ja/tools/fuel-cost-calculator/)
+

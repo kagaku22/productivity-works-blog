@@ -860,3 +860,12 @@ ShowToc: false
 
 })();
 </script>
+
+---
+
+## 関連ツール
+
+> Html Beautifier → [Html Beautifierツール](/ja/tools/html-beautifier/)
+> Html Entity Converter → [Html Entity Converterツール](/ja/tools/html-entity-converter/)
+> Html Entity Encoder → [Html Entity Encoderツール](/ja/tools/html-entity-encoder/)
+

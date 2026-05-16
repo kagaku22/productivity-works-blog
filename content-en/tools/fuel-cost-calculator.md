@@ -796,3 +796,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Carbon Footprint Calculator](/tools/carbon-footprint-calculator/)
+> [Cooking Unit Converter](/tools/cooking-unit-converter/)
+> [Electricity Cost Calculator](/tools/electricity-cost-calculator/)
+

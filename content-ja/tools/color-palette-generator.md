@@ -370,3 +370,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Color Blindness Simulator → [Color Blindness Simulatorツール](/ja/tools/color-blindness-simulator/)
+> Color Contrast Checker → [Color Contrast Checkerツール](/ja/tools/color-contrast-checker/)
+> Color Converter → [Color Converterツール](/ja/tools/color-converter/)
+

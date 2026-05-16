@@ -649,3 +649,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 年齢計算 → [年齢計算ツール](/ja/tools/age-calculator/)
+> 犬の年齢計算 → [犬の年齢計算ツール](/ja/tools/dog-age-calculator/)
+

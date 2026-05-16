@@ -510,3 +510,12 @@ cover:
   </div>
   <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;background:#d97706;color:#fff;border-radius:8px;padding:0.5rem 1.2rem;font-size:0.88rem;font-weight:700;text-decoration:none;white-space:nowrap;">freeeを無料で試す</a>
 </div>
+
+---
+
+## 関連ツール
+
+> 年齢計算 → [年齢計算ツール](/ja/tools/age-calculator/)
+> Case Converter → [Case Converterツール](/ja/tools/case-converter/)
+> Character Counter → [Character Counterツール](/ja/tools/character-counter/)
+

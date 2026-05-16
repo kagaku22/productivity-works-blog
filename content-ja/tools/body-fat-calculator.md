@@ -583,3 +583,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> BMI計算 → [BMI計算ツール](/ja/tools/bmi-calculator/)
+> カロリー計算 → [カロリー計算ツール](/ja/tools/calorie-calculator/)
+> 水分摂取量計算 → [水分摂取量計算ツール](/ja/tools/water-intake-calculator/)
+

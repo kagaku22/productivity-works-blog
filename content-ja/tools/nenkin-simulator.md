@@ -569,3 +569,12 @@ function nenkinCalc() {
 // Initial calculation on load
 nenkinCalc();
 </script>
+
+---
+
+## 関連ツール
+
+> 副業税金計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
+> ふるさと納税シミュレーター → [ふるさと納税シミュレーターツール](/ja/tools/furusato-nozei-simulator/)
+> iDeCo シミュレーター → [iDeCo シミュレーターツール](/ja/tools/ideco-simulator/)
+

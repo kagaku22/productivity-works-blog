@@ -622,3 +622,12 @@ Hourly rates create a ceiling on your income. As you gain expertise, consider pr
 ---
 
 *Disclaimer: This calculator provides estimates for educational purposes only and does not constitute financial, tax, or legal advice. Tax rates vary based on your total income, filing status, state of residence, and deductions. Consult a qualified tax professional or financial advisor for guidance specific to your situation.*
+
+---
+
+## Related Tools
+
+> [Hourly To Salary Calculator](/tools/hourly-to-salary-calculator/)
+> [Pension Simulator](/tools/pension-simulator/)
+> [Salary Calculator](/tools/salary-calculator/)
+

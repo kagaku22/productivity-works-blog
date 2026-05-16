@@ -529,3 +529,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> APIリクエストビルダー → [APIリクエストビルダーツール](/ja/tools/api-request-builder/)
+> Dns Record Guide → [Dns Record Guideツール](/ja/tools/dns-record-guide/)
+> Http Status Codes → [Http Status Codesツール](/ja/tools/http-status-codes/)
+

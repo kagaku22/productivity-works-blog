@@ -458,3 +458,12 @@ Paste your HTML in the left panel and get clean Markdown output instantly — no
 }());
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Html Beautifier](/tools/html-beautifier/)
+> [Html Entity Converter](/tools/html-entity-converter/)
+> [Html Entity Encoder](/tools/html-entity-encoder/)
+

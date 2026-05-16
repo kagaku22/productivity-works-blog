@@ -542,3 +542,12 @@ cover:
   mgUpdate();
 })();
 </script>
+
+---
+
+## Related Tools
+
+> [Html Beautifier](/tools/html-beautifier/)
+> [Html Entity Converter](/tools/html-entity-converter/)
+> [Html Entity Encoder](/tools/html-entity-encoder/)
+

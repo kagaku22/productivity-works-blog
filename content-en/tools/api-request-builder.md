@@ -792,3 +792,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Dns Record Guide](/tools/dns-record-guide/)
+> [Http Status Codes](/tools/http-status-codes/)
+> [Ip Address Calculator](/tools/ip-address-calculator/)
+

@@ -567,3 +567,10 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> ノイズ生成 → [ノイズ生成ツール](/ja/tools/noise-generator/)
+

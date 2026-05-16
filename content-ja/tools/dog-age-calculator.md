@@ -582,3 +582,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 年齢計算 → [年齢計算ツール](/ja/tools/age-calculator/)
+> 出産予定日計算 → [出産予定日計算ツール](/ja/tools/pregnancy-due-date-calculator/)
+

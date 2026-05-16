@@ -600,3 +600,12 @@ Estimate your paycheck deductions in seconds. Enter your gross pay and filing de
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> [Hourly To Salary Calculator](/tools/hourly-to-salary-calculator/)
+> [Pension Simulator](/tools/pension-simulator/)
+

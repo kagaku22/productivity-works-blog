@@ -716,3 +716,11 @@ cover:
 **送信前にテスト。** 署名を設定したら、まず自分宛にテストメールを送り、モバイルとデスクトップ両方で表示を確認しましょう。
 
 **定期的に更新。** 役職や連絡先が変わった際は忘れずに署名も更新してください。常に正確な情報を相手に届けることが信頼の基本です。
+
+---
+
+## 関連ツール
+
+> Email Template Builder → [Email Template Builderツール](/ja/tools/email-template-builder/)
+> メールアドレス検証 → [メールアドレス検証ツール](/ja/tools/email-validator/)
+

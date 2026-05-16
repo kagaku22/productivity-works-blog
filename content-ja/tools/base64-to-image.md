@@ -419,3 +419,12 @@ cover:
 </div>
 
 </div>
+
+---
+
+## 関連ツール
+
+> Base64エンコーダー → [Base64エンコーダーツール](/ja/tools/base64-encoder/)
+> Encoder Decoder → [Encoder Decoderツール](/ja/tools/encoder-decoder/)
+> ハッシュ生成 → [ハッシュ生成ツール](/ja/tools/hash-generator/)
+

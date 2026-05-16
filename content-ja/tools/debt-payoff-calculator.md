@@ -441,3 +441,12 @@ dpcjaAddDebt('消費者金融',200000,18,10000);
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> ローン比較 → [ローン比較ツール](/ja/tools/loan-comparison/)
+> 住宅ローン借入可能額 → [住宅ローン借入可能額ツール](/ja/tools/mortgage-affordability-calculator/)
+> 住宅ローン計算 → [住宅ローン計算ツール](/ja/tools/mortgage-calculator/)
+

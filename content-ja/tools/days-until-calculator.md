@@ -672,3 +672,12 @@ cover:
 })();
 </script>
 </div>
+
+---
+
+## 関連ツール
+
+> 年齢計算 → [年齢計算ツール](/ja/tools/age-calculator/)
+> カウントダウンタイマー → [カウントダウンタイマーツール](/ja/tools/countdown-timer/)
+> 日付計算 → [日付計算ツール](/ja/tools/date-calculator/)
+

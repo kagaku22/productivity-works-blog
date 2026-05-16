@@ -524,3 +524,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 貯蓄目標シミュレーター → [貯蓄目標シミュレーターツール](/ja/tools/chochiku-mokuhyo-simulator/)
+> 複利計算 → [複利計算ツール](/ja/tools/compound-interest-calculator/)
+> FIRE計算 → [FIRE計算ツール](/ja/tools/fire-calculator/)
+

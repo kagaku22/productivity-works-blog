@@ -467,3 +467,11 @@ Enter your ideal sleep hours and how much you actually slept each night this wee
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Pomodoro Timer](/tools/pomodoro-timer/)
+> [Sleep Calculator](/tools/sleep-calculator/)
+

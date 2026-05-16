@@ -451,3 +451,11 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> ポモドーロタイマー → [ポモドーロタイマーツール](/ja/tools/pomodoro-timer/)
+> 睡眠計算 → [睡眠計算ツール](/ja/tools/sleep-calculator/)
+

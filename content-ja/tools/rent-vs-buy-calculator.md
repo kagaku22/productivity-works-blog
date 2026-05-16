@@ -717,3 +717,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## 関連ツール
+
+> 借金返済計算 → [借金返済計算ツール](/ja/tools/debt-payoff-calculator/)
+> ローン比較 → [ローン比較ツール](/ja/tools/loan-comparison/)
+> 住宅ローン借入可能額 → [住宅ローン借入可能額ツール](/ja/tools/mortgage-affordability-calculator/)
+

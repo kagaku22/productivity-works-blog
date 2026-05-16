@@ -676,3 +676,12 @@ Stay focused and accomplish more with this free browser-based Pomodoro timer —
 })();
 </script>
 </div>
+
+---
+
+## Related Tools
+
+> [Age Calculator](/tools/age-calculator/)
+> [Countdown Timer](/tools/countdown-timer/)
+> [Date Calculator](/tools/date-calculator/)
+

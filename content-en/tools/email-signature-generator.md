@@ -667,3 +667,11 @@ Create a polished, professional email signature in seconds — no account requir
 **Test before sending.** Send yourself a test email after installing your signature. Check it on mobile and desktop.
 
 **Update regularly.** Changed roles or phone numbers? Refresh your signature so contacts always have accurate information.
+
+---
+
+## Related Tools
+
+> [Email Template Builder](/tools/email-template-builder/)
+> [Email Validator](/tools/email-validator/)
+

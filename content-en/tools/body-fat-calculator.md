@@ -607,3 +607,12 @@ cover:
 </script>
 
 </div>
+
+---
+
+## Related Tools
+
+> [Bmi Calculator](/tools/bmi-calculator/)
+> [Calorie Calculator](/tools/calorie-calculator/)
+> [Water Intake Calculator](/tools/water-intake-calculator/)
+
