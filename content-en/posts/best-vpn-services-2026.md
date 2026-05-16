@@ -203,6 +203,7 @@ Whatever you choose, any reputable paid VPN is dramatically better than no VPN o
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
 
 ---
 

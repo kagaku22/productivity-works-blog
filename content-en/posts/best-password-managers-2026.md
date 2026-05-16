@@ -199,6 +199,7 @@ The best time to start using a password manager was years ago. The second best t
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
 
 ---
 

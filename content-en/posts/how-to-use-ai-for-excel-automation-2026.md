@@ -293,6 +293,7 @@ For a complete system to automate your work with AI, our **[AI Productivity Play
 
 ## Related Tools
 > Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
+> Test regular expressions in real-time → [Regex Tester](/tools/regex-tester/)
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)

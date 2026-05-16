@@ -199,6 +199,8 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
+> Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
 
 ---
 

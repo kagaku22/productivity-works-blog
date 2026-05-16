@@ -252,6 +252,8 @@ Whatever you choose, the most important factor is completion. 40% of bootcamp en
 
 ## Related Tools
 > Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
+> Test regular expressions in real-time → [Regex Tester](/tools/regex-tester/)
+> Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
 
 > Calculate your expected salary after bootcamp → [Salary Calculator](/tools/salary-calculator/)
 > Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
