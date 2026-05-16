@@ -268,6 +268,7 @@ The cards above represent the strongest options available in 2026, but always ch
 ## Related Tools
 
 > Plan your debt payoff strategy → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Create a monthly spending plan → [Budget Planner](/tools/budget-planner/)
 > Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)

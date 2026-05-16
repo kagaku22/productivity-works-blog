@@ -319,6 +319,7 @@ Our [Freelance Starter Toolkit](https://payhip.com/productivityworks) includes a
 
 ## Related Tools
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Plan your freelance budget → [Budget Calculator](/tools/budget-calculator/)
 
 **Related Reading:**

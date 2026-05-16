@@ -440,6 +440,7 @@ The best time to start building passive income streams was five years ago. The s
 ### Related Tools & Articles
 
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how investments grow with compound interest over time
+- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 - [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your nest egg with 401(k), IRA, and employer match
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Estimate taxes on your passive income streams

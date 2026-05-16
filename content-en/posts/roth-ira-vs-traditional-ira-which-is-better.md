@@ -306,6 +306,7 @@ The most important decision is the one you actually make. Both accounts are vast
 ### Related Tools & Articles
 
 - [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your retirement nest egg with IRA and 401(k) projections
+- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
 - [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate tax-free dividend income in a Roth IRA
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See the power of tax-advantaged compounding
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target

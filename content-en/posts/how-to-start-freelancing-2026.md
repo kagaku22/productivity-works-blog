@@ -243,6 +243,7 @@ Most people who follow this plan and do the outreach have their first paying cli
 ### Related Tools & Articles
 
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
 > Plan your budget as a freelancer → [Budget Calculator](/tools/budget-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)

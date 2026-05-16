@@ -327,6 +327,7 @@ Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/pro
 ### Related Tools & Articles
 
 - [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income
+- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
 - [US Salary Calculator](/tools/salary-calculator/) — See your W-2 take-home pay breakdown
 - [Budget Planner](/tools/budget-planner/) — Plan your monthly budget including tax set-asides
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target

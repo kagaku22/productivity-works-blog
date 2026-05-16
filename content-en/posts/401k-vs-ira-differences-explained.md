@@ -298,6 +298,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 ### Related Tools & Articles
 
 > Plan your retirement contributions → [Retirement Savings Calculator](/tools/retirement-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > See how your investments grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
