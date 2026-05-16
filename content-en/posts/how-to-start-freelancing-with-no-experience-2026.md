@@ -317,7 +317,7 @@ The perfect time to start freelancing was last year. The second-best time is tod
 
 Our [Freelance Starter Toolkit](https://payhip.com/productivityworks) includes a contract template, rate calculator, client pitch scripts, and 30-day action plan — everything you need to launch professionally from day one.
 
-**Related Tools:**
+## Related Tools
 > Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
 > Plan your freelance budget → [Budget Calculator](/tools/budget-calculator/)
 
