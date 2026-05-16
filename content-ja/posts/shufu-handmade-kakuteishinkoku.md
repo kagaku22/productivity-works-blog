@@ -314,6 +314,7 @@ minne（ミンネ）やCreema（クリーマ）でハンドメイド作品を販
 
 > ハンドメイド収入の税金を計算 → [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/)
 > 手取り額をシミュレーション → [手取り計算ツール](/ja/tools/salary-tedori-calculator/)
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 
 - [副業収入20万円以下でも確定申告は必要？やり方を解説](/ja/posts/副業-確定申告-20万以下-やり方/)
 - [副業フリーランスの確定申告のやり方2026](/ja/posts/fukugyou-kakuteishinkoku-yarikata-2026/)
