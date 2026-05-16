@@ -353,6 +353,13 @@ If you want a head start, our [Notion PM Starter Kit](https://payhip.com/product
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

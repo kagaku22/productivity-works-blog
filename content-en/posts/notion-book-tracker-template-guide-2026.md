@@ -546,6 +546,13 @@ Start with your last five books. Add them to the database this weekend. Everythi
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

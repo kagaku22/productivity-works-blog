@@ -289,6 +289,13 @@ For a complete system to automate your work with AI, our **[AI Productivity Play
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Start using these techniques right away with our Excel templates:
