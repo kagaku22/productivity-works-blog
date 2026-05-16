@@ -263,4 +263,14 @@ Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal
 
 ---
 
+---
+
+## Related Tools
+
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Plan your retirement → [Retirement Calculator](/tools/retirement-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+
+---
+
 *Affiliate Disclosure: This article contains affiliate links. If you sign up for services through links on this page, Productivity Works may receive a commission at no additional cost to you. All product recommendations are based on independent research. Tax figures are based on Japan's tax code as of 2026 and are provided for informational purposes only; consult a licensed tax advisor (税理士) for advice specific to your situation.*

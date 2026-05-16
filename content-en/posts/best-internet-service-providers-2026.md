@@ -196,6 +196,15 @@ Whatever you choose, buy your own router and negotiate your rate annually. These
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+
+---
+
 ## Related Templates
 
 Optimize your household expenses with AI:

@@ -321,6 +321,13 @@ Want a structured system for using these AI tools more effectively? Our [AI Prod
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

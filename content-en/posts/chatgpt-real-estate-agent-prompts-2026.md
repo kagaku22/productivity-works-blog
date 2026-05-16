@@ -570,7 +570,10 @@ Save this guide. Bookmark the prompts most relevant to your business. And start 
 
 ---
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+## Related Tools
+
+> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 
 ## Related Templates
 

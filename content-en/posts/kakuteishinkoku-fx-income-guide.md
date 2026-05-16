@@ -248,4 +248,13 @@ Start collecting your documents in January, authenticate your My Number card for
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 *This article is for general informational purposes. Tax rules change annually — always confirm the current rules with the NTA website ([nta.go.jp](https://www.nta.go.jp)) or a qualified tax professional (税理士) before filing.*

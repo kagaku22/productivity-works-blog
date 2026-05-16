@@ -307,6 +307,13 @@ Want a complete framework for integrating AI into your daily work? The **[AI Pro
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

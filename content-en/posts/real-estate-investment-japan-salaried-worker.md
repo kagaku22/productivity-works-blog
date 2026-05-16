@@ -291,6 +291,16 @@ And use these tools to anchor your planning with real numbers:
 
 ## Disclaimer
 
+---
+
+## Related Tools
+
+> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+
+---
+
 *This article is for informational purposes only and does not constitute financial, tax, or legal advice. Tax rules in Japan are complex and change over time. Please consult a qualified tax accountant (税理士) or financial advisor before making investment decisions. Individual circumstances vary significantly.*
 
 *This article contains affiliate links. Productivity Works may receive compensation if you sign up for services through these links. This does not affect our editorial position or the information provided.*

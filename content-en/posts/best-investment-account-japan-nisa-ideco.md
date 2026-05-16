@@ -239,6 +239,14 @@ Run your own numbers with the [NISA Simulator](/tools/nisa-simulator/), the [iDe
 
 ---
 
+## Related Tools
+
+> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Plan your retirement → [Retirement Calculator](/tools/retirement-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 ## Disclaimer
 
 *This article contains affiliate links. If you open an account via the links on this page, we may receive a commission at no extra cost to you. All opinions are our own. This article is for informational purposes only and does not constitute investment advice. Investment returns are not guaranteed, and the value of your investments can go down as well as up. Tax rules described reflect Japanese tax law as understood in May 2026 — always verify current rules with a tax professional or the NTA (国税庁) website before making decisions. iDeCo rules and contribution limits are subject to change.*

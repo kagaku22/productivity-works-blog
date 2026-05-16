@@ -254,4 +254,14 @@ Check your [take-home pay](/ja/tools/salary-tedori-calculator/) after FX taxes t
 - [FX Spread Comparison Japan 2026](/posts/fx-spread-comparison-japan-2026/)
 - [Kakuteishinkoku FX Income Guide](/posts/kakuteishinkoku-fx-income-guide/)
 
+---
+
+## Related Tools
+
+> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+
+---
+
 *This article is for informational purposes only and does not constitute tax advice. Tax rules can change. Consult a licensed tax accountant (税理士) for advice specific to your situation.*

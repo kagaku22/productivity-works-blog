@@ -197,6 +197,14 @@ Whatever you choose, any reputable paid VPN is dramatically better than no VPN o
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
+---
+
 ## Related Templates
 
 Protect your digital life and boost productivity:

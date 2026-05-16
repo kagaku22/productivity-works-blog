@@ -191,6 +191,15 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
+---
+
 ## Related Templates
 
 Build your online presence with AI:

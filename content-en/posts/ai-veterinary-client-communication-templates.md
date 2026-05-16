@@ -387,6 +387,13 @@ ChatGPT can help you expand this library on demand: "We keep getting calls askin
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Ready to build a complete AI-powered communication system for your clinic?

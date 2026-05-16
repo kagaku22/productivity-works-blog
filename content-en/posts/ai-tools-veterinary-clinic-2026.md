@@ -611,6 +611,11 @@ Start with your appointment reminders. Build your template library one scenario 
 
 ---
 
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Streamline your veterinary practice with these AI tools:

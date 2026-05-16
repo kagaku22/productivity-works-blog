@@ -359,6 +359,13 @@ Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/producti
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

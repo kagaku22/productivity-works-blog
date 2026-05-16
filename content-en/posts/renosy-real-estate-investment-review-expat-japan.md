@@ -323,4 +323,14 @@ Before or alongside real estate, NISA is the most efficient savings vehicle avai
 
 ---
 
+---
+
+## Related Tools
+
+> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+
+---
+
 *This article contains affiliate links. If you sign up for a service through a link in this article, we may earn a commission at no additional cost to you. All opinions are our own. This article is for informational purposes only and does not constitute financial or tax advice. Consult a qualified financial advisor and tax accountant before making investment decisions.*

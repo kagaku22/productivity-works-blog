@@ -294,4 +294,14 @@ Understanding your payslip is the first step to managing your money confidently 
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
+---
+
 *Disclaimer: This article provides general information about Japan's tax and social insurance system as of 2026. Individual circumstances vary. For advice on your specific tax situation, consult a qualified tax accountant (税理士, zeirishi) or the Japan National Tax Agency (国税庁) website at nta.go.jp.*

@@ -342,6 +342,16 @@ Understand your salary structure. Know your market value. Let your advisor negot
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+
+---
+
 **Related Articles**
 
 - [Salary Negotiation in Japan When Switching Jobs](/en/tools/salary-calculator/)

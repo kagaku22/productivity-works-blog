@@ -385,6 +385,13 @@ For building a complete AI-powered productivity system (Notion + automation + Ch
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

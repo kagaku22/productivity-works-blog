@@ -285,7 +285,10 @@ A few extra tips for making ChatGPT listing descriptions reliably good:
 
 ---
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+## Related Tools
+
+> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 
 ## Related Templates
 

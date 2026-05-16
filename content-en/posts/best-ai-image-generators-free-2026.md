@@ -274,6 +274,13 @@ For building a complete AI-powered content creation workflow (writing + images +
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

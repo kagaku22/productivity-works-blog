@@ -181,6 +181,15 @@ Put the savings toward your emergency fund, investments, or something more enjoy
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+
+---
+
 ## Related Templates
 
 Save more money with AI-powered financial tools:

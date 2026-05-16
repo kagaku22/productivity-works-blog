@@ -193,6 +193,14 @@ The best time to start using a password manager was years ago. The second best t
 
 ---
 
+---
+
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+
+---
+
 ## Related Templates
 
 Secure your digital life with AI:

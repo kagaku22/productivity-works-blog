@@ -244,3 +244,10 @@ If you want to get a clear picture of your numbers before you start filing, use 
 - Understand your total tax liability across all side income with our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/)
 
 Getting the filing right in a loss year costs you nothing but time — and it can save you over ¥100,000 in future years.
+
+---
+
+## Related Tools
+
+> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)

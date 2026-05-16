@@ -258,4 +258,13 @@ With the right broker, the right expectations, and a solid understanding of Japa
 
 ---
 
+---
+
+## Related Tools
+
+> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 *This article is for informational purposes only and does not constitute financial advice. FX trading involves the risk of loss. Please consult a qualified financial advisor before making investment decisions.*
