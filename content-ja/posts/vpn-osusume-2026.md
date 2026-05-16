@@ -210,6 +210,7 @@ VPN選びで最も重要なのは**セキュリティとノーログポリシー
 
 > VPN代など月々の固定費を家計全体で把握する → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > VPNを含む複数サブスクの年間コストを計算 → [サブスク管理計算ツール](/ja/tools/subscription-cost-calculator/)
+> 安全なパスワードを即座に生成 → [パスワード生成ツール](/ja/tools/password-generator/)
 
 ## 関連テンプレート
 

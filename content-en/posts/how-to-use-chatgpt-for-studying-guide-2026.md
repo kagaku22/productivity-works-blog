@@ -334,5 +334,6 @@ Our [Student Productivity Toolkit](https://payhip.com/productivityworks) include
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

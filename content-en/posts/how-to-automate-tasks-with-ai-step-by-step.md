@@ -303,6 +303,7 @@ For the complete system — from identifying your first automation to building a
 
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
 
 ## Related Templates
 

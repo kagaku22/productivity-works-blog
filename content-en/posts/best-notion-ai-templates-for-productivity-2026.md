@@ -391,6 +391,7 @@ For building a complete AI-powered productivity system (Notion + automation + Ch
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
 
 ## Related Templates
 

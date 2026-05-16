@@ -334,6 +334,7 @@ Want a done-for-you AI tool setup guide tailored to your specific business type?
 
 > Create a business budget → [Budget Planner](/tools/budget-planner/)
 > Estimate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
 
 ## Related Templates
 

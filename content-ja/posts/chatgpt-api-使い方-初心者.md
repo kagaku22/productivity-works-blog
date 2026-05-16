@@ -337,6 +337,7 @@ ChatGPT APIを使いこなせるようになると、ビジネスの可能性が
 
 > フリーランスの適正時給を計算 → [フリーランス報酬計算ツール](/ja/tools/freelance-hoshu-calculator/)
 > 月々の支出バランスを見直す → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
+> 安全なパスワードを即座に生成 → [パスワード生成ツール](/ja/tools/password-generator/)
 
 ---
 

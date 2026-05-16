@@ -327,6 +327,7 @@ Want a structured system for using these AI tools more effectively? Our [AI Prod
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 > Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
 
 ## Related Templates
 

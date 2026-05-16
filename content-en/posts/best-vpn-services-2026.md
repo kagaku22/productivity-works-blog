@@ -202,6 +202,7 @@ Whatever you choose, any reputable paid VPN is dramatically better than no VPN o
 ## Related Tools
 
 > Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
 
 ---
 
