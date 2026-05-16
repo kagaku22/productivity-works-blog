@@ -1,767 +1,834 @@
 ---
-title: "Free Invoice Generator | Create Professional Invoices Instantly"
+title: "Invoice Generator"
 date: 2025-05-16
-draft: false
+description: "Free online invoice generator. Create professional invoices with line items, tax calculation, and PDF download — no sign-up required, fully client-side."
+categories: ["Free Tools"]
 slug: "invoice-generator"
-aliases:
-  - "/tools/invoice-maker/"
-  - "/tools/free-invoice/"
-description: "Create professional invoices instantly with our free online invoice generator. Add line items, set tax rates, choose currency, and print or save as PDF — no sign-up required."
-categories:
-  - "Free Tools"
-tags:
-  - "invoice generator"
-  - "free invoice"
-  - "invoice maker"
-  - "freelance tools"
-  - "billing"
-  - "calculator"
-author: "Productivity Works Editorial"
 ShowToc: false
-ShowReadingTime: false
-ShowWordCount: false
-ShowBreadCrumbs: true
 cover:
-  image: /images/covers/invoice-generator.png
-  alt: "Free Invoice Generator | Create Professional Invoices Instantly"
-  relative: false
+  image: "/images/covers/invoice-generator.png"
+  alt: "Invoice Generator"
 ---
 
-*This article contains affiliate links. We may earn a commission at no extra cost to you.*
+Create professional invoices in seconds — fill in your details, add line items, and download a clean PDF. Everything runs in your browser; no data is sent to any server.
 
-# Free Invoice Generator
-
-Fill in the form below to build a **professional invoice** in seconds. Add line items, apply tax, pick your currency, and hit Print to save as PDF — no account needed.
-
+<div id="ig-app">
 <style>
-#inv-app * { box-sizing: border-box; margin: 0; padding: 0; }
-#inv-app {
-  max-width: 860px;
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+#ig-app *,
+#ig-app *::before,
+#ig-app *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#ig-app {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #1e293b;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
-#inv-app h2 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1e40af;
-  margin-bottom: 14px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #dbeafe;
-}
-#inv-app .inv-section {
-  background: #fff;
-  border: 1px solid #e2e8f0;
+
+/* ── Cards ── */
+#ig-app .ig-card {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
-  padding: 22px;
+  padding: 24px;
   margin-bottom: 20px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
-#inv-app .inv-grid-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+#ig-app .ig-section-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #64748b;
+  margin-bottom: 16px;
 }
-#inv-app .inv-field {
+
+/* ── Grid helpers ── */
+#ig-app .ig-row {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 16px;
+  flex-wrap: wrap;
 }
-#inv-app label {
+#ig-app .ig-col {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+#ig-app .ig-col-sm {
+  flex: 1 1 130px;
+  min-width: 0;
+}
+
+/* ── Form controls ── */
+#ig-app label {
+  display: block;
   font-size: 12px;
   font-weight: 600;
-  color: #64748b;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  color: #475569;
+  margin-bottom: 4px;
 }
-#inv-app input[type="text"],
-#inv-app input[type="email"],
-#inv-app input[type="number"],
-#inv-app input[type="date"],
-#inv-app select,
-#inv-app textarea {
+#ig-app input[type="text"],
+#ig-app input[type="number"],
+#ig-app input[type="email"],
+#ig-app input[type="date"],
+#ig-app textarea,
+#ig-app select {
+  width: 100%;
+  padding: 8px 10px;
   border: 1px solid #cbd5e1;
   border-radius: 6px;
-  padding: 8px 10px;
+  font-family: inherit;
   font-size: 14px;
   color: #1e293b;
-  background: #f8fafc;
-  transition: border-color 0.15s;
-  width: 100%;
-  font-family: inherit;
-}
-#inv-app input:focus,
-#inv-app select:focus,
-#inv-app textarea:focus {
-  outline: none;
-  border-color: #1e40af;
   background: #fff;
+  outline: none;
+  transition: border-color 0.15s;
 }
-#inv-app textarea { resize: vertical; min-height: 72px; }
-#inv-app .inv-meta-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 14px;
+#ig-app input:focus,
+#ig-app textarea:focus,
+#ig-app select:focus {
+  border-color: #475569;
 }
-/* Line items */
-#inv-app .line-items-header {
+#ig-app textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* ── Buttons ── */
+#ig-app .ig-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+#ig-app .ig-btn:hover { opacity: 0.85; }
+#ig-app .ig-btn-primary {
+  background: #1e293b;
+  color: #fff;
+}
+#ig-app .ig-btn-secondary {
+  background: #475569;
+  color: #fff;
+}
+#ig-app .ig-btn-danger {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#ig-app .ig-btn-add {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px dashed #94a3b8;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+#ig-app .ig-btn-add:hover { background: #e2e8f0; }
+
+/* ── Top actions bar ── */
+#ig-app .ig-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 24px;
+}
+#ig-app .ig-currency-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 8px;
+}
+#ig-app .ig-currency-wrap label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+#ig-app .ig-currency-wrap select {
+  width: auto;
+  min-width: 110px;
+}
+
+/* ── Line items ── */
+#ig-app .ig-items-header {
   display: grid;
   grid-template-columns: 3fr 1fr 1.2fr 1.2fr 36px;
   gap: 8px;
-  padding: 0 0 6px;
-  border-bottom: 1px solid #e2e8f0;
-  margin-bottom: 8px;
-}
-#inv-app .line-items-header span {
   font-size: 11px;
   font-weight: 700;
   color: #64748b;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #cbd5e1;
+  margin-bottom: 10px;
 }
-#inv-app .line-item-row {
+#ig-app .ig-item-row {
   display: grid;
   grid-template-columns: 3fr 1fr 1.2fr 1.2fr 36px;
   gap: 8px;
+  align-items: center;
   margin-bottom: 8px;
-  align-items: center;
 }
-#inv-app .line-item-row input { margin: 0; }
-#inv-app .line-item-total {
+#ig-app .ig-item-total {
   font-size: 14px;
   font-weight: 600;
-  color: #1e40af;
-  padding: 8px 4px;
-  background: #eff6ff;
-  border-radius: 6px;
-  text-align: right;
-  padding-right: 10px;
-}
-#inv-app .btn-remove {
-  background: none;
-  border: 1px solid #fca5a5;
-  border-radius: 6px;
-  color: #dc2626;
-  cursor: pointer;
-  font-size: 16px;
-  width: 34px;
-  height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.15s;
-}
-#inv-app .btn-remove:hover { background: #fee2e2; }
-#inv-app .btn-add {
-  background: #eff6ff;
-  border: 1px dashed #93c5fd;
-  border-radius: 7px;
-  color: #1e40af;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 9px 18px;
-  margin-top: 6px;
-  transition: background 0.15s;
-  font-family: inherit;
-}
-#inv-app .btn-add:hover { background: #dbeafe; }
-/* Totals */
-#inv-app .totals-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
-}
-#inv-app .total-row {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  min-width: 280px;
-  justify-content: space-between;
-}
-#inv-app .total-row span:first-child {
-  font-size: 13px;
-  color: #64748b;
-  font-weight: 500;
-}
-#inv-app .total-row span:last-child {
-  font-size: 15px;
-  font-weight: 700;
   color: #1e293b;
-  min-width: 100px;
   text-align: right;
-}
-#inv-app .total-row.grand {
-  border-top: 2px solid #1e40af;
-  padding-top: 8px;
-  margin-top: 4px;
-}
-#inv-app .total-row.grand span:last-child {
-  font-size: 20px;
-  color: #1e40af;
-}
-#inv-app .tax-row-input {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-#inv-app .tax-row-input input {
-  width: 70px;
-}
-/* Buttons */
-#inv-app .btn-primary {
-  background: #1e40af;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 28px;
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.15s;
-  font-family: inherit;
-}
-#inv-app .btn-primary:hover { background: #1d3a9e; }
-#inv-app .btn-secondary {
-  background: #f1f5f9;
-  color: #334155;
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.15s;
-  font-family: inherit;
-}
-#inv-app .btn-secondary:hover { background: #e2e8f0; }
-#inv-app .actions-bar {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
+  padding-right: 4px;
 }
 
-/* ===== PREVIEW ===== */
-#inv-app .preview-wrapper {
-  background: #f1f5f9;
-  border-radius: 10px;
-  padding: 24px;
-  margin-top: 8px;
+/* ── Totals section ── */
+#ig-app .ig-totals-wrap {
+  max-width: 340px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-#inv-app .invoice-preview {
+#ig-app .ig-total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+#ig-app .ig-total-row label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0;
+}
+#ig-app .ig-total-val {
+  font-weight: 600;
+  color: #1e293b;
+  min-width: 90px;
+  text-align: right;
+}
+#ig-app .ig-total-row.ig-grand {
+  border-top: 2px solid #1e293b;
+  padding-top: 10px;
+  margin-top: 4px;
+}
+#ig-app .ig-total-row.ig-grand label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+}
+#ig-app .ig-total-row.ig-grand .ig-total-val {
+  font-size: 18px;
+  font-weight: 800;
+}
+#ig-app .ig-inline-num {
+  width: 90px;
+  text-align: right;
+}
+#ig-app .ig-discount-controls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+#ig-app .ig-discount-controls select {
+  width: auto;
+  min-width: 64px;
+  padding: 7px 8px;
+  font-size: 13px;
+}
+#ig-app .ig-discount-controls input {
+  width: 80px;
+  text-align: right;
+}
+
+/* ── Invoice Preview ── */
+#ig-app #ig-preview-wrap {
+  display: none;
+  margin-top: 32px;
+}
+#ig-app #ig-preview-wrap.visible {
+  display: block;
+}
+#ig-app .ig-preview-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+#ig-app .ig-preview-box {
   background: #fff;
-  border-radius: 8px;
-  padding: 40px 44px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
-  max-width: 720px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 48px 52px;
+  max-width: 860px;
   margin: 0 auto;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
 }
-#inv-app .inv-preview-header {
+
+/* Preview internals */
+#ig-app .igpv-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 32px;
-  padding-bottom: 20px;
-  border-bottom: 3px solid #1e40af;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-#inv-app .inv-preview-title {
-  font-size: 36px;
+#ig-app .igpv-from h2 {
+  font-size: 20px;
   font-weight: 800;
-  color: #1e40af;
-  letter-spacing: -1px;
-}
-#inv-app .inv-preview-logo {
-  text-align: right;
-}
-#inv-app .inv-preview-from-name {
-  font-size: 18px;
-  font-weight: 700;
   color: #1e293b;
-}
-#inv-app .inv-preview-from-detail {
-  font-size: 12px;
-  color: #64748b;
-  margin-top: 2px;
-  white-space: pre-line;
-}
-#inv-app .inv-preview-meta {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  margin-bottom: 28px;
-}
-#inv-app .inv-preview-to-label {
-  font-size: 11px;
-  font-weight: 700;
-  color: #1e40af;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
   margin-bottom: 4px;
 }
-#inv-app .inv-preview-to-name {
+#ig-app .igpv-from p {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.7;
+}
+#ig-app .igpv-to {
+  text-align: right;
+}
+#ig-app .igpv-to-eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+#ig-app .igpv-to h4 {
   font-size: 16px;
   font-weight: 700;
   color: #1e293b;
+  margin-bottom: 4px;
 }
-#inv-app .inv-preview-to-detail {
-  font-size: 12px;
-  color: #64748b;
-  margin-top: 2px;
-  white-space: pre-line;
-}
-#inv-app .inv-preview-info-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  background: #eff6ff;
-  border-radius: 8px;
-  padding: 14px 18px;
-  margin-bottom: 28px;
-}
-#inv-app .inv-preview-info-item label {
-  font-size: 10px;
-  font-weight: 700;
-  color: #1e40af;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-}
-#inv-app .inv-preview-info-item span {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #1e293b;
-  margin-top: 2px;
-}
-/* Preview table */
-#inv-app .inv-preview-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 24px;
-}
-#inv-app .inv-preview-table th {
-  background: #1e40af;
-  color: #fff;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 9px 12px;
-  text-align: left;
-}
-#inv-app .inv-preview-table th:not(:first-child) { text-align: right; }
-#inv-app .inv-preview-table td {
-  padding: 10px 12px;
+#ig-app .igpv-to p {
   font-size: 13px;
-  color: #334155;
-  border-bottom: 1px solid #e2e8f0;
+  color: #475569;
+  line-height: 1.7;
 }
-#inv-app .inv-preview-table td:not(:first-child) { text-align: right; }
-#inv-app .inv-preview-table tr:nth-child(even) td { background: #f8fafc; }
-/* Preview totals */
-#inv-app .inv-preview-totals {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
-  margin-bottom: 28px;
-}
-#inv-app .inv-preview-total-row {
+#ig-app .igpv-meta {
   display: flex;
   justify-content: space-between;
-  min-width: 240px;
-  font-size: 13px;
-  color: #475569;
-}
-#inv-app .inv-preview-total-row.grand-total {
-  font-size: 18px;
-  font-weight: 800;
-  color: #1e40af;
-  border-top: 2px solid #1e40af;
-  padding-top: 8px;
-  margin-top: 4px;
-}
-#inv-app .inv-preview-notes {
+  flex-wrap: wrap;
+  gap: 12px;
   background: #f8fafc;
-  border-left: 3px solid #1e40af;
-  padding: 12px 16px;
-  border-radius: 0 6px 6px 0;
-  font-size: 12px;
-  color: #475569;
-  white-space: pre-line;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 32px;
 }
-#inv-app .inv-preview-notes-label {
+#ig-app .igpv-meta-item > span {
+  display: block;
   font-size: 11px;
-  font-weight: 700;
-  color: #1e40af;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  margin-bottom: 5px;
-}
-#inv-app .inv-preview-footer {
-  text-align: center;
-  font-size: 11px;
   color: #94a3b8;
-  margin-top: 28px;
-  padding-top: 14px;
-  border-top: 1px solid #e2e8f0;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+#ig-app .igpv-meta-item > strong {
+  display: block;
+  font-size: 14px;
+  color: #1e293b;
+}
+#ig-app .igpv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+#ig-app .igpv-table th {
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #64748b;
+  padding: 8px 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+#ig-app .igpv-table th:not(:first-child),
+#ig-app .igpv-table td:not(:first-child) {
+  text-align: right;
+}
+#ig-app .igpv-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+  vertical-align: top;
+}
+#ig-app .igpv-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+#ig-app .igpv-notes h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #94a3b8;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+#ig-app .igpv-notes p {
+  font-size: 13px;
+  color: #475569;
+  white-space: pre-wrap;
+}
+#ig-app .igpv-totals {
+  min-width: 240px;
+}
+#ig-app .igpv-total-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  padding: 5px 0;
+  color: #475569;
+}
+#ig-app .igpv-total-row strong {
+  color: #1e293b;
+}
+#ig-app .igpv-total-row.grand {
+  border-top: 2px solid #1e293b;
+  margin-top: 6px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #1e293b;
 }
 
-/* Responsive */
-@media (max-width: 640px) {
-  #inv-app .inv-grid-2 { grid-template-columns: 1fr; }
-  #inv-app .inv-meta-row { grid-template-columns: 1fr 1fr; }
-  #inv-app .line-items-header { display: none; }
-  #inv-app .line-item-row {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-  }
-  #inv-app .line-item-row input:first-child { grid-column: 1 / -1; }
-  #inv-app .invoice-preview { padding: 20px 16px; }
-  #inv-app .inv-preview-header { flex-direction: column; gap: 12px; }
-  #inv-app .inv-preview-meta { grid-template-columns: 1fr; }
-  #inv-app .inv-preview-info-grid { grid-template-columns: 1fr 1fr; }
-}
-
-/* Print styles */
+/* ── Print ── */
 @media print {
-  body > *:not(#inv-app) { display: none !important; }
-  #inv-app .no-print { display: none !important; }
-  #inv-app .preview-wrapper { padding: 0; background: none; }
-  #inv-app .invoice-preview { box-shadow: none; padding: 20px; }
-  #inv-app { max-width: 100%; }
+  #ig-app .ig-form-area,
+  #ig-app .ig-actions,
+  #ig-app .ig-preview-label {
+    display: none !important;
+  }
+  #ig-app #ig-preview-wrap {
+    display: block !important;
+    margin-top: 0;
+  }
+  #ig-app .ig-preview-box {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  #ig-app .ig-items-header {
+    grid-template-columns: 2fr 1fr 1fr 36px;
+  }
+  #ig-app .ig-items-header .ig-hdr-unit { display: none; }
+  #ig-app .ig-item-row {
+    grid-template-columns: 2fr 1fr 1fr 36px;
+  }
+  #ig-app .ig-item-row .ig-unit-price { display: none; }
+  #ig-app .ig-preview-box { padding: 24px 18px; }
+  #ig-app .igpv-header { flex-direction: column; }
+  #ig-app .igpv-to { text-align: left; }
 }
 </style>
 
-<div id="inv-app">
-
-<!-- ===== FORM ===== -->
-<div class="no-print">
-
-<div class="inv-section">
-<h2>Your Details (From)</h2>
-<div class="inv-grid-2">
-  <div class="inv-field">
-    <label>Your Name / Company</label>
-    <input type="text" id="inv-from-name" placeholder="Acme Freelance Co." oninput="invRender()">
-  </div>
-  <div class="inv-field">
-    <label>Email</label>
-    <input type="email" id="inv-from-email" placeholder="you@example.com" oninput="invRender()">
-  </div>
-  <div class="inv-field" style="grid-column:1/-1">
-    <label>Address</label>
-    <textarea id="inv-from-address" placeholder="123 Main St, City, State 10001" oninput="invRender()"></textarea>
-  </div>
-</div>
-</div>
-
-<div class="inv-section">
-<h2>Client Details (To)</h2>
-<div class="inv-grid-2">
-  <div class="inv-field">
-    <label>Client Name / Company</label>
-    <input type="text" id="inv-to-name" placeholder="Client Corp Ltd." oninput="invRender()">
-  </div>
-  <div class="inv-field">
-    <label>Client Email</label>
-    <input type="email" id="inv-to-email" placeholder="client@example.com" oninput="invRender()">
-  </div>
-  <div class="inv-field" style="grid-column:1/-1">
-    <label>Client Address</label>
-    <textarea id="inv-to-address" placeholder="456 Business Ave, City, State 20002" oninput="invRender()"></textarea>
-  </div>
-</div>
-</div>
-
-<div class="inv-section">
-<h2>Invoice Details</h2>
-<div class="inv-meta-row">
-  <div class="inv-field">
-    <label>Invoice #</label>
-    <input type="text" id="inv-number" oninput="invRender()">
-  </div>
-  <div class="inv-field">
-    <label>Currency</label>
-    <select id="inv-currency" onchange="invRender()">
-      <option value="$">$ USD</option>
-      <option value="€">€ EUR</option>
-      <option value="£">£ GBP</option>
-      <option value="¥">¥ JPY</option>
+<!-- ── Actions bar ── -->
+<div class="ig-actions">
+  <div class="ig-currency-wrap">
+    <label for="ig-currency">Currency:</label>
+    <select id="ig-currency" onchange="igRecalc()">
+      <option value="$">USD $</option>
+      <option value="€">EUR €</option>
+      <option value="£">GBP £</option>
+      <option value="¥">JPY ¥</option>
     </select>
   </div>
-  <div class="inv-field">
-    <label>Invoice Date</label>
-    <input type="date" id="inv-date" oninput="invRender()">
-  </div>
-  <div class="inv-field">
-    <label>Due Date</label>
-    <input type="date" id="inv-due" oninput="invRender()">
-  </div>
-</div>
+  <button class="ig-btn ig-btn-primary" onclick="igPreview()">&#128065; Preview Invoice</button>
+  <button class="ig-btn ig-btn-secondary" onclick="igPrint()">&#128438; Print / Save PDF</button>
 </div>
 
-<div class="inv-section">
-<h2>Line Items</h2>
-<div class="line-items-header">
-  <span>Description</span>
-  <span>Qty</span>
-  <span>Unit Price</span>
-  <span>Total</span>
-  <span></span>
-</div>
-<div id="inv-lines"></div>
-<button class="btn-add" onclick="invAddLine()">+ Add Line Item</button>
-</div>
+<!-- ── Form ── -->
+<div class="ig-form-area">
 
-<div class="inv-section">
-<h2>Totals &amp; Notes</h2>
-<div style="display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;align-items:flex-start;">
-  <div class="inv-field" style="flex:1;min-width:200px;">
-    <label>Notes / Payment Terms</label>
-    <textarea id="inv-notes" placeholder="Payment due within 30 days. Thank you for your business!" oninput="invRender()"></textarea>
-  </div>
-  <div class="totals-block">
-    <div class="total-row">
-      <span>Subtotal</span>
-      <span id="inv-subtotal-display">—</span>
-    </div>
-    <div class="total-row">
-      <span>Tax Rate</span>
-      <div class="tax-row-input">
-        <input type="number" id="inv-tax-rate" value="0" min="0" max="100" step="0.1" oninput="invRender()" style="width:70px;text-align:right;">
-        <span style="font-size:14px;color:#64748b;">%</span>
+  <!-- Your Business -->
+  <div class="ig-card">
+    <div class="ig-section-title">Your Business</div>
+    <div class="ig-row">
+      <div class="ig-col">
+        <label for="ig-from-name">Company / Your Name</label>
+        <input type="text" id="ig-from-name" placeholder="Acme Corp">
+      </div>
+      <div class="ig-col">
+        <label for="ig-from-email">Email</label>
+        <input type="email" id="ig-from-email" placeholder="hello@acme.com">
+      </div>
+      <div class="ig-col">
+        <label for="ig-from-phone">Phone</label>
+        <input type="text" id="ig-from-phone" placeholder="+1 555-000-0000">
       </div>
     </div>
-    <div class="total-row">
-      <span>Tax Amount</span>
-      <span id="inv-tax-display">—</span>
-    </div>
-    <div class="total-row grand">
-      <span style="font-size:16px;font-weight:700;color:#1e40af;">Grand Total</span>
-      <span id="inv-grand-display" style="color:#1e40af;">—</span>
+    <div class="ig-row" style="margin-top:12px">
+      <div class="ig-col">
+        <label for="ig-from-addr">Address</label>
+        <textarea id="ig-from-addr" rows="2" placeholder="123 Main St&#10;New York, NY 10001"></textarea>
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-<div class="actions-bar" style="margin-bottom:28px;">
-  <button class="btn-primary" onclick="invPrint()">&#128438; Print / Save PDF</button>
-  <button class="btn-secondary" onclick="invReset()">&#x21BA; Reset</button>
-</div>
-
-</div><!-- /no-print -->
-
-<!-- ===== LIVE PREVIEW ===== -->
-<div class="preview-wrapper">
-  <p style="font-size:12px;color:#64748b;margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;" class="no-print">Live Preview</p>
-  <div class="invoice-preview" id="inv-preview-box">
-    <!-- rendered by JS -->
+  <!-- Client -->
+  <div class="ig-card">
+    <div class="ig-section-title">Bill To (Client)</div>
+    <div class="ig-row">
+      <div class="ig-col">
+        <label for="ig-to-name">Client Company / Name</label>
+        <input type="text" id="ig-to-name" placeholder="Client Inc.">
+      </div>
+      <div class="ig-col">
+        <label for="ig-to-email">Client Email</label>
+        <input type="email" id="ig-to-email" placeholder="accounts@client.com">
+      </div>
+    </div>
+    <div class="ig-row" style="margin-top:12px">
+      <div class="ig-col">
+        <label for="ig-to-addr">Client Address</label>
+        <textarea id="ig-to-addr" rows="2" placeholder="456 Oak Ave&#10;Los Angeles, CA 90001"></textarea>
+      </div>
+    </div>
   </div>
-</div>
 
-</div><!-- /#inv-app -->
+  <!-- Invoice details -->
+  <div class="ig-card">
+    <div class="ig-section-title">Invoice Details</div>
+    <div class="ig-row">
+      <div class="ig-col-sm">
+        <label for="ig-inv-num">Invoice Number</label>
+        <input type="text" id="ig-inv-num" placeholder="INV-001">
+      </div>
+      <div class="ig-col-sm">
+        <label for="ig-inv-date">Invoice Date</label>
+        <input type="date" id="ig-inv-date">
+      </div>
+      <div class="ig-col-sm">
+        <label for="ig-due-date">Due Date</label>
+        <input type="date" id="ig-due-date">
+      </div>
+    </div>
+  </div>
+
+  <!-- Line items -->
+  <div class="ig-card">
+    <div class="ig-section-title">Line Items</div>
+    <div class="ig-items-header">
+      <span>Description</span>
+      <span>Qty</span>
+      <span class="ig-hdr-unit">Unit Price</span>
+      <span style="text-align:right">Total</span>
+      <span></span>
+    </div>
+    <div id="ig-lines-body"></div>
+    <button class="ig-btn-add" onclick="igAddRow()">+ Add Line Item</button>
+  </div>
+
+  <!-- Totals -->
+  <div class="ig-card">
+    <div class="ig-section-title">Totals</div>
+    <div class="ig-totals-wrap">
+      <div class="ig-total-row">
+        <label>Subtotal</label>
+        <span class="ig-total-val" id="ig-disp-sub">$0.00</span>
+      </div>
+      <div class="ig-total-row">
+        <label for="ig-tax-rate">Tax Rate (%)</label>
+        <input type="number" id="ig-tax-rate" class="ig-inline-num" value="10" min="0" max="100" step="0.1" oninput="igRecalc()">
+      </div>
+      <div class="ig-total-row">
+        <label>Tax Amount</label>
+        <span class="ig-total-val" id="ig-disp-tax">$0.00</span>
+      </div>
+      <div class="ig-total-row">
+        <label>Discount</label>
+        <div class="ig-discount-controls">
+          <select id="ig-disc-type" onchange="igRecalc()">
+            <option value="flat">Flat</option>
+            <option value="pct">%</option>
+          </select>
+          <input type="number" id="ig-disc-val" value="0" min="0" step="0.01" oninput="igRecalc()">
+        </div>
+      </div>
+      <div class="ig-total-row">
+        <label>Discount Amount</label>
+        <span class="ig-total-val" id="ig-disp-disc">$0.00</span>
+      </div>
+      <div class="ig-total-row ig-grand">
+        <label>Grand Total</label>
+        <span class="ig-total-val" id="ig-disp-grand">$0.00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notes -->
+  <div class="ig-card">
+    <div class="ig-section-title">Notes / Terms</div>
+    <textarea id="ig-notes" rows="4" placeholder="Payment due within 30 days. Bank transfer to Account #XXXX. Thank you for your business!"></textarea>
+  </div>
+
+</div><!-- /.ig-form-area -->
+
+<!-- ── Preview pane ── -->
+<div id="ig-preview-wrap">
+  <div class="ig-preview-label">Invoice Preview</div>
+  <div class="ig-preview-box" id="ig-preview-box"></div>
+</div>
 
 <script>
-(function() {
-  // Auto-generate invoice number & dates
-  var today = new Date();
-  var pad = function(n){ return String(n).padStart(2,'0'); };
-  var fmtDate = function(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); };
-  var due = new Date(today); due.setDate(due.getDate()+30);
-  var invNum = 'INV-'+today.getFullYear()+pad(today.getMonth()+1)+pad(today.getDate())+'-'+Math.floor(Math.random()*900+100);
+(function () {
+  /* ── State ── */
+  var igRows = [];
+  var igNextId = 0;
 
-  document.getElementById('inv-number').value = invNum;
-  document.getElementById('inv-date').value = fmtDate(today);
-  document.getElementById('inv-due').value = fmtDate(due);
+  /* ── Utilities ── */
+  function igSym() {
+    return document.getElementById('ig-currency').value;
+  }
+  function igFmt(n) {
+    var s = igSym();
+    if (s === '¥') return s + Math.round(n).toLocaleString();
+    return s + Number(n).toFixed(2);
+  }
+  function igEsc(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+  function igVal(id) { return document.getElementById(id).value.trim(); }
+  function igNum(id) { return parseFloat(document.getElementById(id).value) || 0; }
+  function igPad(n) { return n < 10 ? '0' + n : String(n); }
+  function igToday() {
+    var d = new Date();
+    return d.getFullYear() + '-' + igPad(d.getMonth() + 1) + '-' + igPad(d.getDate());
+  }
+  function igDuePlus30() {
+    var d = new Date(); d.setDate(d.getDate() + 30);
+    return d.getFullYear() + '-' + igPad(d.getMonth() + 1) + '-' + igPad(d.getDate());
+  }
+  function igDisplayDate(val) {
+    if (!val) return '—';
+    var p = val.split('-');
+    if (p.length !== 3) return val;
+    var mo = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return mo[parseInt(p[1], 10) - 1] + ' ' + parseInt(p[2], 10) + ', ' + p[0];
+  }
 
-  // Line items store
-  var lines = [{ desc:'', qty:1, price:0 }];
+  /* ── Row management ── */
+  window.igAddRow = function () {
+    var id = ++igNextId;
+    igRows.push({ id: id, desc: '', qty: 1, price: 0 });
+    igRenderRows();
+    igRecalc();
+  };
 
-  function renderLines() {
-    var container = document.getElementById('inv-lines');
-    container.innerHTML = '';
-    lines.forEach(function(line, i) {
-      var row = document.createElement('div');
-      row.className = 'line-item-row';
-      var total = (parseFloat(line.qty)||0) * (parseFloat(line.price)||0);
-      var sym = document.getElementById('inv-currency').value;
-      row.innerHTML =
-        '<input type="text" placeholder="Service or product description" value="'+escHtml(line.desc)+'" oninput="invLineUpdate('+i+',\'desc\',this.value)">' +
-        '<input type="number" placeholder="1" value="'+line.qty+'" min="0" step="any" oninput="invLineUpdate('+i+',\'qty\',this.value)">' +
-        '<input type="number" placeholder="0.00" value="'+line.price+'" min="0" step="any" oninput="invLineUpdate('+i+',\'price\',this.value)">' +
-        '<div class="line-item-total">'+sym+fmtNum(total)+'</div>' +
-        '<button class="btn-remove" onclick="invRemoveLine('+i+')" title="Remove">&#215;</button>';
-      container.appendChild(row);
+  window.igRemoveRow = function (id) {
+    igRows = igRows.filter(function (r) { return r.id !== id; });
+    igRenderRows();
+    igRecalc();
+  };
+
+  window.igRowDesc = function (id, val) {
+    igRows.forEach(function (r) { if (r.id === id) r.desc = val; });
+  };
+
+  window.igRowQty = function (id, val) {
+    igRows.forEach(function (r) { if (r.id === id) { r.qty = parseFloat(val) || 0; } });
+    igRecalc();
+  };
+
+  window.igRowPrice = function (id, val) {
+    igRows.forEach(function (r) { if (r.id === id) { r.price = parseFloat(val) || 0; } });
+    igRecalc();
+  };
+
+  function igRenderRows() {
+    var body = document.getElementById('ig-lines-body');
+    body.innerHTML = '';
+    igRows.forEach(function (r) {
+      var line = document.createElement('div');
+      line.className = 'ig-item-row';
+      line.id = 'ig-row-' + r.id;
+      var total = r.qty * r.price;
+      line.innerHTML =
+        '<input type="text" placeholder="Service or product description" value="' + igEsc(r.desc) + '"' +
+        ' oninput="igRowDesc(' + r.id + ', this.value)">' +
+        '<input type="number" value="' + r.qty + '" min="0" step="any" oninput="igRowQty(' + r.id + ', this.value)">' +
+        '<input class="ig-unit-price" type="number" value="' + r.price + '" min="0" step="any" oninput="igRowPrice(' + r.id + ', this.value)">' +
+        '<div class="ig-item-total" id="ig-row-tot-' + r.id + '">' + igFmt(total) + '</div>' +
+        '<button class="ig-btn-danger" onclick="igRemoveRow(' + r.id + ')" title="Remove">&#10005;</button>';
+      body.appendChild(line);
     });
   }
 
-  window.invLineUpdate = function(i, field, val) {
-    lines[i][field] = val;
-    invRender();
-  };
-  window.invAddLine = function() {
-    lines.push({ desc:'', qty:1, price:0 });
-    invRender();
-  };
-  window.invRemoveLine = function(i) {
-    if(lines.length === 1) return;
-    lines.splice(i,1);
-    invRender();
-  };
+  /* ── Recalculate totals ── */
+  window.igRecalc = function () {
+    var subtotal = 0;
+    igRows.forEach(function (r) {
+      var t = r.qty * r.price;
+      subtotal += t;
+      var el = document.getElementById('ig-row-tot-' + r.id);
+      if (el) el.textContent = igFmt(t);
+    });
+    var taxRate = igNum('ig-tax-rate');
+    var taxAmt = subtotal * taxRate / 100;
+    var discType = document.getElementById('ig-disc-type').value;
+    var discVal = igNum('ig-disc-val');
+    var discAmt = discType === 'pct'
+      ? (subtotal + taxAmt) * discVal / 100
+      : discVal;
+    var grand = Math.max(0, subtotal + taxAmt - discAmt);
 
-  function fmtNum(n) {
-    var sym = document.getElementById('inv-currency') ? document.getElementById('inv-currency').value : '$';
-    // JPY: no decimals
-    if(sym === '¥') return Number(n).toLocaleString('ja-JP', {minimumFractionDigits:0,maximumFractionDigits:0});
-    return Number(n).toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:2});
-  }
-
-  function escHtml(s) {
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
-
-  function calcTotals() {
-    var sub = lines.reduce(function(acc,l){ return acc + (parseFloat(l.qty)||0)*(parseFloat(l.price)||0); },0);
-    var rate = parseFloat(document.getElementById('inv-tax-rate').value)||0;
-    var tax = sub * rate / 100;
-    var grand = sub + tax;
-    return { sub:sub, tax:tax, grand:grand };
-  }
-
-  window.invRender = function() {
-    renderLines();
-    var sym = document.getElementById('inv-currency').value;
-    var t = calcTotals();
-    document.getElementById('inv-subtotal-display').textContent = sym+fmtNum(t.sub);
-    document.getElementById('inv-tax-display').textContent = sym+fmtNum(t.tax);
-    document.getElementById('inv-grand-display').textContent = sym+fmtNum(t.grand);
-    renderPreview(t, sym);
+    document.getElementById('ig-disp-sub').textContent = igFmt(subtotal);
+    document.getElementById('ig-disp-tax').textContent = igFmt(taxAmt);
+    document.getElementById('ig-disp-disc').textContent = igFmt(discAmt);
+    document.getElementById('ig-disp-grand').textContent = igFmt(grand);
   };
 
-  function renderPreview(t, sym) {
-    var fromName = document.getElementById('inv-from-name').value || 'Your Name';
-    var fromEmail = document.getElementById('inv-from-email').value;
-    var fromAddr = document.getElementById('inv-from-address').value;
-    var toName = document.getElementById('inv-to-name').value || 'Client Name';
-    var toEmail = document.getElementById('inv-to-email').value;
-    var toAddr = document.getElementById('inv-to-address').value;
-    var invNo = document.getElementById('inv-number').value;
-    var invDate = document.getElementById('inv-date').value;
-    var invDue = document.getElementById('inv-due').value;
-    var notes = document.getElementById('inv-notes').value;
-    var taxRate = parseFloat(document.getElementById('inv-tax-rate').value)||0;
+  /* ── Build preview ── */
+  window.igPreview = function () {
+    var sym = igSym();
+    var fromName  = igVal('ig-from-name')  || 'Your Company';
+    var fromEmail = igVal('ig-from-email');
+    var fromPhone = igVal('ig-from-phone');
+    var fromAddr  = igVal('ig-from-addr');
+    var toName    = igVal('ig-to-name')    || 'Client';
+    var toEmail   = igVal('ig-to-email');
+    var toAddr    = igVal('ig-to-addr');
+    var invNum    = igVal('ig-inv-num')    || 'INV-001';
+    var invDate   = igVal('ig-inv-date');
+    var dueDate   = igVal('ig-due-date');
+    var notes     = igVal('ig-notes');
+    var taxRate   = igNum('ig-tax-rate');
 
-    var fromDetail = [fromEmail, fromAddr].filter(Boolean).join('\n');
-    var toDetail = [toEmail, toAddr].filter(Boolean).join('\n');
+    var subtotal = 0;
+    igRows.forEach(function (r) { subtotal += r.qty * r.price; });
+    var taxAmt = subtotal * taxRate / 100;
+    var discType = document.getElementById('ig-disc-type').value;
+    var discVal = igNum('ig-disc-val');
+    var discAmt = discType === 'pct' ? (subtotal + taxAmt) * discVal / 100 : discVal;
+    var grand = Math.max(0, subtotal + taxAmt - discAmt);
 
-    var tableRows = lines.map(function(l) {
-      var qty = parseFloat(l.qty)||0;
-      var price = parseFloat(l.price)||0;
-      var total = qty * price;
+    /* From block */
+    var fromLines = [fromEmail, fromPhone, fromAddr.replace(/\n/g, '<br>')].filter(Boolean);
+    var fromExtra = fromLines.join('<br>');
+
+    /* To block */
+    var toLines = [toEmail, toAddr.replace(/\n/g, '<br>')].filter(Boolean);
+    var toExtra = toLines.join('<br>');
+
+    /* Line item rows */
+    var rowsHtml = igRows.map(function (r) {
       return '<tr>' +
-        '<td>'+(escHtml(l.desc)||'<span style="color:#94a3b8;font-style:italic;">Item</span>')+'</td>' +
-        '<td>'+qty+'</td>' +
-        '<td>'+sym+fmtNum(price)+'</td>' +
-        '<td>'+sym+fmtNum(total)+'</td>' +
+        '<td>' + igEsc(r.desc || '(no description)') + '</td>' +
+        '<td>' + r.qty + '</td>' +
+        '<td>' + igFmt(r.price) + '</td>' +
+        '<td style="font-weight:600">' + igFmt(r.qty * r.price) + '</td>' +
         '</tr>';
-    }).join('');
+    }).join('') || '<tr><td colspan="4" style="color:#94a3b8;font-style:italic">No items added</td></tr>';
 
-    var notesHtml = notes ? '<div class="inv-preview-notes-label">Notes</div><div class="inv-preview-notes">'+escHtml(notes)+'</div>' : '';
+    /* Discount row */
+    var discRow = discAmt > 0
+      ? '<div class="igpv-total-row"><span>Discount</span><strong>-' + igFmt(discAmt) + '</strong></div>'
+      : '';
 
-    document.getElementById('inv-preview-box').innerHTML =
-      '<div class="inv-preview-header">' +
-        '<div class="inv-preview-title">INVOICE</div>' +
-        '<div class="inv-preview-logo">' +
-          '<div class="inv-preview-from-name">'+escHtml(fromName)+'</div>' +
-          '<div class="inv-preview-from-detail">'+escHtml(fromDetail)+'</div>' +
+    /* Notes block */
+    var notesBlock = notes
+      ? '<div class="igpv-notes"><h4>Notes / Terms</h4><p>' + igEsc(notes) + '</p></div>'
+      : '<div></div>';
+
+    document.getElementById('ig-preview-box').innerHTML =
+      '<div class="igpv-header">' +
+        '<div class="igpv-from">' +
+          '<h2>' + igEsc(fromName) + '</h2>' +
+          (fromExtra ? '<p>' + fromExtra + '</p>' : '') +
+        '</div>' +
+        '<div class="igpv-to">' +
+          '<div class="igpv-to-eyebrow">Bill To</div>' +
+          '<h4>' + igEsc(toName) + '</h4>' +
+          (toExtra ? '<p>' + toExtra + '</p>' : '') +
         '</div>' +
       '</div>' +
-      '<div class="inv-preview-meta">' +
-        '<div>' +
-          '<div class="inv-preview-to-label">Bill To</div>' +
-          '<div class="inv-preview-to-name">'+escHtml(toName)+'</div>' +
-          '<div class="inv-preview-to-detail">'+escHtml(toDetail)+'</div>' +
-        '</div>' +
-        '<div>' +
-          '<div class="inv-preview-info-grid" style="background:#eff6ff;border-radius:8px;padding:14px 18px;display:grid;grid-template-columns:1fr 1fr;gap:12px;">' +
-            '<div class="inv-preview-info-item"><label>Invoice #</label><span>'+escHtml(invNo)+'</span></div>' +
-            '<div class="inv-preview-info-item"><label>Currency</label><span>'+escHtml(sym)+'</span></div>' +
-            '<div class="inv-preview-info-item"><label>Date</label><span>'+escHtml(invDate)+'</span></div>' +
-            '<div class="inv-preview-info-item"><label>Due Date</label><span>'+escHtml(invDue)+'</span></div>' +
-          '</div>' +
-        '</div>' +
+      '<div class="igpv-meta">' +
+        '<div class="igpv-meta-item"><span>Invoice</span><strong>' + igEsc(invNum) + '</strong></div>' +
+        '<div class="igpv-meta-item"><span>Date</span><strong>' + igDisplayDate(invDate) + '</strong></div>' +
+        '<div class="igpv-meta-item"><span>Due Date</span><strong>' + igDisplayDate(dueDate) + '</strong></div>' +
+        '<div class="igpv-meta-item"><span>Amount Due</span><strong>' + igFmt(grand) + '</strong></div>' +
       '</div>' +
-      '<table class="inv-preview-table">' +
+      '<table class="igpv-table">' +
         '<thead><tr>' +
-          '<th>Description</th><th style="text-align:right">Qty</th><th style="text-align:right">Unit Price</th><th style="text-align:right">Total</th>' +
+          '<th>Description</th>' +
+          '<th style="text-align:right">Qty</th>' +
+          '<th style="text-align:right">Unit Price</th>' +
+          '<th style="text-align:right">Total</th>' +
         '</tr></thead>' +
-        '<tbody>'+tableRows+'</tbody>' +
+        '<tbody>' + rowsHtml + '</tbody>' +
       '</table>' +
-      '<div class="inv-preview-totals">' +
-        '<div class="inv-preview-total-row"><span>Subtotal</span><span>'+sym+fmtNum(t.sub)+'</span></div>' +
-        '<div class="inv-preview-total-row"><span>Tax ('+taxRate+'%)</span><span>'+sym+fmtNum(t.tax)+'</span></div>' +
-        '<div class="inv-preview-total-row grand-total"><span>Total Due</span><span>'+sym+fmtNum(t.grand)+'</span></div>' +
-      '</div>' +
-      notesHtml +
-      '<div class="inv-preview-footer">Thank you for your business!</div>';
+      '<div class="igpv-bottom">' +
+        notesBlock +
+        '<div class="igpv-totals">' +
+          '<div class="igpv-total-row"><span>Subtotal</span><strong>' + igFmt(subtotal) + '</strong></div>' +
+          '<div class="igpv-total-row"><span>Tax (' + taxRate + '%)</span><strong>' + igFmt(taxAmt) + '</strong></div>' +
+          discRow +
+          '<div class="igpv-total-row grand"><span>Grand Total</span><span>' + igFmt(grand) + '</span></div>' +
+        '</div>' +
+      '</div>';
+
+    var wrap = document.getElementById('ig-preview-wrap');
+    wrap.classList.add('visible');
+    wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  window.igPrint = function () {
+    igPreview();
+    setTimeout(function () { window.print(); }, 220);
+  };
+
+  /* ── Init ── */
+  function igInit() {
+    document.getElementById('ig-inv-num').value  = 'INV-' + Date.now().toString().slice(-5);
+    document.getElementById('ig-inv-date').value = igToday();
+    document.getElementById('ig-due-date').value = igDuePlus30();
+    igAddRow();
+    igAddRow();
   }
 
-  window.invPrint = function() {
-    window.print();
-  };
-
-  window.invReset = function() {
-    document.getElementById('inv-from-name').value='';
-    document.getElementById('inv-from-email').value='';
-    document.getElementById('inv-from-address').value='';
-    document.getElementById('inv-to-name').value='';
-    document.getElementById('inv-to-email').value='';
-    document.getElementById('inv-to-address').value='';
-    document.getElementById('inv-notes').value='';
-    document.getElementById('inv-tax-rate').value=0;
-    document.getElementById('inv-currency').value='$';
-    var today2=new Date();
-    var due2=new Date(today2); due2.setDate(due2.getDate()+30);
-    document.getElementById('inv-number').value='INV-'+today2.getFullYear()+pad(today2.getMonth()+1)+pad(today2.getDate())+'-'+Math.floor(Math.random()*900+100);
-    document.getElementById('inv-date').value=fmtDate(today2);
-    document.getElementById('inv-due').value=fmtDate(due2);
-    lines=[{desc:'',qty:1,price:0}];
-    invRender();
-  };
-
-  // Initial render
-  invRender();
-})();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', igInit);
+  } else {
+    igInit();
+  }
+}());
 </script>
+</div>
 
 ---
 
-## How to Use the Invoice Generator
-
-1. **Fill in Your Details** — Enter your name or company name, email, and address in the "From" section.
-2. **Add Client Info** — Enter your client's name, email, and address.
-3. **Set Invoice Details** — The invoice number is auto-generated. Adjust the date, due date, and currency as needed.
-4. **Add Line Items** — Click "+ Add Line Item" for each service or product. Quantity and unit price calculate the line total automatically.
-5. **Set Tax Rate** — Enter a tax percentage (e.g., 10 for 10%). The tax amount and grand total update instantly.
-6. **Add Notes** — Include payment terms, bank details, or any other message to your client.
-7. **Print or Save as PDF** — Click the "Print / Save PDF" button. In the print dialog, choose "Save as PDF" to get a PDF file.
-
-## Tips for Professional Invoices
-
-- **Use consistent invoice numbering** — sequential numbers (INV-001, INV-002) make record-keeping easy.
-- **State your payment terms clearly** — "Net 30" or "Due on receipt" removes ambiguity.
-- **Include your bank or payment details** in the Notes field (PayPal, bank transfer, etc.).
-- **Keep copies** — save the PDF to a cloud folder for each client.
-
----
-
-## Related Tools
-
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-
-> Generate a QR code for your payment link or business card → [QR Code Generator](/tools/qr-code-generator/)
-
-> Estimate taxes on your freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Estimate retirement savings -> [Pension Simulator](/tools/pension-simulator/)
+> Calculate take-home pay -> [Salary Calculator](/tools/salary-calculator/)
+> Plan your budget -> [50/30/20 Budget Calculator](/tools/budget-calculator/)
