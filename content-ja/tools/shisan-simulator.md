@@ -404,6 +404,7 @@ cover:
 
 ## 関連ツール
 
+> FIRE（経済的自立）までの年数を計算 → [FIREシミュレーター](/ja/tools/fire-simulator/)
 > 毎月の支出を見直す → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 貯蓄目標を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 > 借入返済を計画 → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)

@@ -443,6 +443,7 @@ select.nenkin-select:focus {
 <div class="related-tools">
 <h3>関連ツール</h3>
 <div class="tool-links">
+  <a href="/ja/tools/fire-simulator/" class="tool-link">FIREシミュレーター</a>
   <a href="/ja/tools/ideco-simulator/" class="tool-link">iDeCoシミュレーター</a>
   <a href="/ja/tools/nisa-simulator/" class="tool-link">NISAシミュレーター</a>
   <a href="/ja/tools/salary-tedori-calculator/" class="tool-link">手取り計算機</a>

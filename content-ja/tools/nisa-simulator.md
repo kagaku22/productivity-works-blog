@@ -126,6 +126,7 @@ S&P500の過去30年平均リターンは年約10%、全世界株式は年約7-8
 
 ## 関連ツール・記事
 
+- [FIREシミュレーター](/ja/tools/fire-simulator/) — FIRE（経済的自立）までの年数を計算
 - [iDeCo節税シミュレーター](/ja/tools/ideco-simulator/) — iDeCoの節税額と将来受取額を計算
 - [年金シミュレーター](/ja/tools/nenkin-simulator/) — 将来の年金受給額を確認
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取りを計算

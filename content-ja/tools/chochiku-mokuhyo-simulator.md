@@ -333,6 +333,7 @@ calcCS();
 
 ## 関連ツール
 
+> FIRE（経済的自立）までの年数を計算 → [FIREシミュレーター](/ja/tools/fire-simulator/)
 > 複利効果で資産がどう増えるか確認 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)

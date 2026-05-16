@@ -187,6 +187,7 @@ cover:
 
 ## 関連ツール
 
+> FIRE（経済的自立）までの年数を計算 → [FIREシミュレーター](/ja/tools/fire-simulator/)
 > 積立投資の複利効果をシミュレーション → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > NISAの非課税メリットを計算 → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 配当型ファンドの収入を計算 → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)
