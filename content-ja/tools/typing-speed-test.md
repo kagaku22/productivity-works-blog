@@ -1,731 +1,817 @@
 ---
-title: "タイピング速度テスト — 無料CPM測定ツール"
-description: "タイピング速度と正確さをオンラインで測定。登録不要・ダウンロード不要。リアルタイムフィードバックで1分間の文字数（CPM）を即座に計測。"
+title: "タイピング速度テスト"
 date: 2025-05-16
+description: "無料のタイピング速度テスト。WPM・正確率・キーストロークをリアルタイム測定。難易度別のテキストで練習可能、会員登録不要。"
 categories: ["無料ツール"]
 slug: "typing-speed-test"
 ShowToc: false
-aliases: ["/ja/tools/typing-test/", "/ja/tools/wpm-test/"]
 cover:
   image: "/images/covers/typing-speed-test-ja.png"
   alt: "タイピング速度テスト"
 ---
 
-<div id="type-app">
+自分のタイピング速度を計測してみましょう。難易度を選んでテキストを入力するだけで、WPM・正確率・ミス数をリアルタイムで確認できます。会員登録不要、完全無料です。
+
+<div id="tt-app">
 
 <style>
-  #type-app {
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #e2e8f0;
-  }
-  #type-app * { box-sizing: border-box; }
+#tt-app *,
+#tt-app *::before,
+#tt-app *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  #type-app .ta-card {
-    background: #1e293b;
-    border: 1px solid #334155;
-    border-radius: 12px;
-    padding: 24px;
-    margin-bottom: 20px;
-  }
+#tt-app {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 760px;
+  margin: 0 auto;
+  color: #1e293b;
+}
 
-  #type-app .ta-controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    align-items: center;
-    margin-bottom: 0;
-  }
+#tt-app h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
-  #type-app .ta-control-group {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
+/* Controls */
+#tt-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+  align-items: center;
+}
 
-  #type-app .ta-label {
-    font-size: 13px;
-    color: #94a3b8;
-    font-weight: 500;
-    white-space: nowrap;
-  }
+#tt-controls label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+  margin-right: 4px;
+}
 
-  #type-app .ta-btn-group {
-    display: flex;
-    gap: 4px;
-  }
+#tt-controls select {
+  font-size: 13px;
+  padding: 6px 10px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  background: #fff;
+  color: #1e293b;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
 
-  #type-app .ta-btn {
-    background: #0f172a;
-    border: 1px solid #334155;
-    color: #94a3b8;
-    padding: 6px 14px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 500;
-    transition: all 0.15s;
-  }
-  #type-app .ta-btn:hover {
-    border-color: #2563eb;
-    color: #60a5fa;
-  }
-  #type-app .ta-btn.active {
-    background: #2563eb;
-    border-color: #2563eb;
-    color: #fff;
-  }
+#tt-controls select:focus {
+  border-color: #3b82f6;
+}
 
-  #type-app .ta-start-btn {
-    background: #2563eb;
-    border: none;
-    color: #fff;
-    padding: 8px 22px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: background 0.15s;
-    margin-left: auto;
-  }
-  #type-app .ta-start-btn:hover { background: #1d4ed8; }
-  #type-app .ta-start-btn:disabled { background: #475569; cursor: not-allowed; }
+#tt-btn-start {
+  padding: 7px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3b82f6;
+  color: #fff;
+  transition: background 0.15s, transform 0.1s;
+}
 
-  #type-app .ta-progress-bar {
-    height: 6px;
-    background: #0f172a;
-    border-radius: 3px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  #type-app .ta-progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #2563eb, #60a5fa);
-    border-radius: 3px;
-    transition: width 0.25s linear;
-    width: 0%;
-  }
+#tt-btn-start:hover {
+  background: #2563eb;
+}
 
-  #type-app .ta-passage {
-    font-size: 20px;
-    line-height: 2.0;
-    letter-spacing: 0.05em;
-    background: #0f172a;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 16px;
-    min-height: 110px;
-    user-select: none;
-    word-break: break-all;
-  }
+#tt-btn-start:active {
+  transform: scale(0.97);
+}
 
-  #type-app .ta-char { color: #475569; }
-  #type-app .ta-char.correct { color: #4ade80; }
-  #type-app .ta-char.incorrect { color: #f87171; background: rgba(248,113,113,0.12); border-radius: 2px; }
-  #type-app .ta-char.cursor {
-    border-left: 2px solid #60a5fa;
-    margin-left: -1px;
-    padding-left: 1px;
-    animation: ta-blink 1s step-end infinite;
-  }
-  @keyframes ta-blink { 0%,100%{opacity:1} 50%{opacity:0} }
+#tt-btn-reset {
+  padding: 7px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1.5px solid #94a3b8;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+  color: #475569;
+  transition: background 0.15s, border-color 0.15s;
+}
 
-  #type-app .ta-input {
-    width: 100%;
-    background: #0f172a;
-    border: 2px solid #334155;
-    border-radius: 8px;
-    color: #e2e8f0;
-    font-size: 16px;
-    padding: 12px 16px;
-    outline: none;
-    transition: border-color 0.15s;
-    resize: none;
-    font-family: inherit;
-    caret-color: #60a5fa;
-  }
-  #type-app .ta-input:focus { border-color: #2563eb; }
-  #type-app .ta-input:disabled { opacity: 0.5; cursor: not-allowed; }
+#tt-btn-reset:hover {
+  background: #f1f5f9;
+  border-color: #64748b;
+}
 
-  #type-app .ta-timer-display {
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    color: #60a5fa;
-    font-variant-numeric: tabular-nums;
-    margin: 4px 0;
-  }
-  #type-app .ta-timer-label {
-    text-align: center;
-    font-size: 12px;
-    color: #64748b;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
+/* Timer */
+#tt-timer-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
 
-  #type-app .ta-stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    margin-top: 4px;
-  }
-  @media (max-width: 600px) {
-    #type-app .ta-stats-grid { grid-template-columns: repeat(2, 1fr); }
-  }
+#tt-timer-display {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+  min-width: 56px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
 
-  #type-app .ta-stat {
-    background: #0f172a;
-    border-radius: 10px;
-    padding: 14px;
-    text-align: center;
-  }
-  #type-app .ta-stat-val {
-    font-size: 28px;
-    font-weight: 700;
-    color: #60a5fa;
-    font-variant-numeric: tabular-nums;
-  }
-  #type-app .ta-stat-lbl {
-    font-size: 11px;
-    color: #64748b;
-    letter-spacing: 0.04em;
-    margin-top: 2px;
-  }
+#tt-timer-display.tt-warning {
+  color: #ef4444;
+}
 
-  #type-app .ta-result-card {
-    background: #1e293b;
-    border: 1px solid #2563eb44;
-    border-radius: 12px;
-    padding: 28px;
-    text-align: center;
-    display: none;
-  }
-  #type-app .ta-result-card.visible { display: block; }
-  #type-app .ta-result-title {
-    font-size: 22px;
-    font-weight: 700;
-    color: #e2e8f0;
-    margin-bottom: 20px;
-  }
-  #type-app .ta-result-cpm {
-    font-size: 64px;
-    font-weight: 800;
-    color: #60a5fa;
-    line-height: 1;
-  }
-  #type-app .ta-result-cpm-lbl {
-    font-size: 14px;
-    color: #94a3b8;
-    margin-bottom: 20px;
-    margin-top: 4px;
-  }
-  #type-app .ta-result-grid {
-    display: grid;
+#tt-progress-track {
+  flex: 1;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+#tt-progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 99px;
+  transition: width 0.5s linear, background 0.3s;
+  width: 100%;
+}
+
+#tt-progress-fill.tt-warning {
+  background: #ef4444;
+}
+
+/* Text display */
+#tt-text-box {
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 18px;
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+  margin-bottom: 14px;
+  min-height: 88px;
+  word-break: break-all;
+  user-select: none;
+  cursor: text;
+  transition: border-color 0.15s;
+}
+
+#tt-text-box.tt-active {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+}
+
+#tt-text-box .char-pending {
+  color: #94a3b8;
+}
+
+#tt-text-box .char-current {
+  color: #1e40af;
+  background: #dbeafe;
+  border-radius: 3px;
+  padding: 0 1px;
+  animation: tt-blink 1s step-end infinite;
+}
+
+@keyframes tt-blink {
+  50% { background: #bfdbfe; }
+}
+
+#tt-text-box .char-correct {
+  color: #16a34a;
+}
+
+#tt-text-box .char-wrong {
+  color: #dc2626;
+  text-decoration: line-through;
+  text-decoration-color: #dc2626;
+}
+
+/* Input */
+#tt-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  color: #1e293b;
+  background: #fff;
+  transition: border-color 0.15s;
+  margin-bottom: 16px;
+  font-family: inherit;
+}
+
+#tt-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+}
+
+#tt-input:disabled {
+  background: #f1f5f9;
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Stats */
+#tt-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 560px) {
+  #tt-stats {
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-bottom: 24px;
   }
-  @media (max-width: 500px) {
-    #type-app .ta-result-grid { grid-template-columns: repeat(1, 1fr); }
-  }
+}
 
-  #type-app .ta-retry-btn {
-    background: #2563eb;
-    border: none;
-    color: #fff;
-    padding: 10px 32px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 600;
-    transition: background 0.15s;
+@media (max-width: 380px) {
+  #tt-stats {
+    grid-template-columns: repeat(2, 1fr);
   }
-  #type-app .ta-retry-btn:hover { background: #1d4ed8; }
+}
 
-  #type-app .ta-history {
-    margin-top: 4px;
-  }
-  #type-app .ta-history-title {
-    font-size: 14px;
-    font-weight: 600;
-    color: #94a3b8;
-    margin-bottom: 10px;
-    letter-spacing: 0.04em;
-  }
-  #type-app .ta-history-empty {
-    color: #475569;
-    font-size: 13px;
-    text-align: center;
-    padding: 16px;
-  }
-  #type-app .ta-history-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
-  #type-app .ta-history-table th {
-    color: #64748b;
-    font-weight: 500;
-    text-align: left;
-    padding: 6px 10px;
-    border-bottom: 1px solid #1e293b;
-  }
-  #type-app .ta-history-table td {
-    padding: 8px 10px;
-    color: #cbd5e1;
-    border-bottom: 1px solid #1e293b22;
-  }
-  #type-app .ta-history-table tr:last-child td { border-bottom: none; }
-  #type-app .ta-history-clear {
-    background: none;
-    border: 1px solid #334155;
-    color: #64748b;
-    padding: 4px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 12px;
-    float: right;
-    transition: all 0.15s;
-  }
-  #type-app .ta-history-clear:hover { border-color: #f87171; color: #f87171; }
+.tt-stat-card {
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 8px;
+  text-align: center;
+}
 
-  #type-app .ta-msg {
-    font-size: 13px;
-    color: #64748b;
-    text-align: center;
-    padding: 8px 0 0;
-  }
+.tt-stat-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
 
-  /* freee CTA */
-  #type-app .ta-cta {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border: 1px solid #2563eb55;
-    border-radius: 12px;
-    padding: 24px 28px;
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  #type-app .ta-cta-text { flex: 1; min-width: 200px; }
-  #type-app .ta-cta-title {
-    font-size: 16px;
-    font-weight: 700;
-    color: #e2e8f0;
-    margin-bottom: 6px;
-  }
-  #type-app .ta-cta-desc {
-    font-size: 13px;
-    color: #94a3b8;
-    line-height: 1.6;
-  }
-  #type-app .ta-cta-btn {
-    background: #2563eb;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 24px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    white-space: nowrap;
-    transition: background 0.15s;
-  }
-  #type-app .ta-cta-btn:hover { background: #1d4ed8; }
+.tt-stat-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.tt-stat-value.tt-wpm {
+  color: #2563eb;
+}
+
+.tt-stat-value.tt-acc {
+  color: #16a34a;
+}
+
+/* Result */
+#tt-result {
+  display: none;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1.5px solid #bae6fd;
+  border-radius: 10px;
+  padding: 22px 20px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#tt-result h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0369a1;
+  margin-bottom: 14px;
+}
+
+#tt-result-level {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+#tt-result-stats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tt-res-item {
+  text-align: center;
+}
+
+.tt-res-item .rval {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0c4a6e;
+  font-variant-numeric: tabular-nums;
+  display: block;
+  line-height: 1.1;
+}
+
+.tt-res-item .rlbl {
+  font-size: 12px;
+  color: #0369a1;
+  font-weight: 600;
+}
+
+#tt-result-comment {
+  font-size: 13px;
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+#tt-btn-retry {
+  padding: 9px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background: #0284c7;
+  color: #fff;
+  transition: background 0.15s;
+}
+
+#tt-btn-retry:hover {
+  background: #0369a1;
+}
+
+/* Status message */
+#tt-status {
+  font-size: 13px;
+  color: #64748b;
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 18px;
+}
 </style>
 
-<!-- Controls -->
-<div class="ta-card">
-  <div class="ta-controls">
-    <div class="ta-control-group">
-      <span class="ta-label">制限時間</span>
-      <div class="ta-btn-group" id="ta-dur-group">
-        <button class="ta-btn" data-dur="30">30秒</button>
-        <button class="ta-btn active" data-dur="60">60秒</button>
-        <button class="ta-btn" data-dur="120">120秒</button>
-      </div>
-    </div>
-    <div class="ta-control-group">
-      <span class="ta-label">難易度</span>
-      <div class="ta-btn-group" id="ta-diff-group">
-        <button class="ta-btn active" data-diff="easy">かんたん</button>
-        <button class="ta-btn" data-diff="medium">ふつう</button>
-        <button class="ta-btn" data-diff="hard">むずかしい</button>
-      </div>
-    </div>
-    <button class="ta-start-btn" id="ta-reset-btn">リセット</button>
+<h2>&#9000; タイピング速度テスト</h2>
+
+<div id="tt-controls">
+  <div>
+    <label for="tt-select-diff">難易度：</label>
+    <select id="tt-select-diff">
+      <option value="easy">初級</option>
+      <option value="medium" selected>中級</option>
+      <option value="hard">上級</option>
+    </select>
+  </div>
+  <div>
+    <label for="tt-select-time">制限時間：</label>
+    <select id="tt-select-time">
+      <option value="30">30秒</option>
+      <option value="60" selected>60秒</option>
+      <option value="120">120秒</option>
+    </select>
+  </div>
+  <button id="tt-btn-start">スタート</button>
+  <button id="tt-btn-reset">リセット</button>
+</div>
+
+<div id="tt-timer-bar">
+  <div id="tt-timer-display">60</div>
+  <div id="tt-progress-track">
+    <div id="tt-progress-fill"></div>
   </div>
 </div>
 
-<!-- Timer + Progress -->
-<div class="ta-card" style="padding:16px 24px;">
-  <div class="ta-timer-label">残り時間</div>
-  <div class="ta-timer-display" id="ta-timer">60</div>
-  <div class="ta-progress-bar">
-    <div class="ta-progress-fill" id="ta-progress"></div>
+<div id="tt-text-box" aria-label="タイピングテキスト"></div>
+
+<p id="tt-status">難易度と制限時間を選んで「スタート」を押すか、入力欄に最初の文字を入力してください。</p>
+
+<input
+  type="text"
+  id="tt-input"
+  placeholder="ここに入力してください（入力開始で自動スタート）"
+  autocomplete="off"
+  autocorrect="off"
+  autocapitalize="off"
+  spellcheck="false"
+  disabled
+/>
+
+<div id="tt-stats">
+  <div class="tt-stat-card">
+    <div class="tt-stat-label">WPM</div>
+    <div class="tt-stat-value tt-wpm" id="tt-s-wpm">0</div>
   </div>
-  <div class="ta-stats-grid">
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-cpm-live">0</div>
-      <div class="ta-stat-lbl">CPM（文字/分）</div>
-    </div>
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-acc-live">—</div>
-      <div class="ta-stat-lbl">正確率</div>
-    </div>
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-chars-live">0</div>
-      <div class="ta-stat-lbl">打鍵数</div>
-    </div>
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-errors-live">0</div>
-      <div class="ta-stat-lbl">ミス数</div>
-    </div>
+  <div class="tt-stat-card">
+    <div class="tt-stat-label">正確率</div>
+    <div class="tt-stat-value tt-acc" id="tt-s-acc">100%</div>
+  </div>
+  <div class="tt-stat-card">
+    <div class="tt-stat-label">文字数</div>
+    <div class="tt-stat-value" id="tt-s-chars">0</div>
+  </div>
+  <div class="tt-stat-card">
+    <div class="tt-stat-label">ミス</div>
+    <div class="tt-stat-value" id="tt-s-errors">0</div>
+  </div>
+  <div class="tt-stat-card">
+    <div class="tt-stat-label">経過時間</div>
+    <div class="tt-stat-value" id="tt-s-elapsed">0s</div>
   </div>
 </div>
 
-<!-- Passage + Input -->
-<div class="ta-card">
-  <div class="ta-passage" id="ta-passage" aria-label="入力するテキスト"></div>
-  <textarea
-    class="ta-input"
-    id="ta-input"
-    rows="3"
-    placeholder="ここをクリックして入力を開始するとタイマーが始まります…"
-    autocomplete="off"
-    autocorrect="off"
-    autocapitalize="off"
-    spellcheck="false"
-  ></textarea>
-  <p class="ta-msg" id="ta-msg">最初のキー入力でタイマーがスタートします。</p>
-</div>
-
-<!-- Result -->
-<div class="ta-result-card" id="ta-result">
-  <div class="ta-result-title">テスト完了！</div>
-  <div class="ta-result-cpm" id="ta-res-cpm">0</div>
-  <div class="ta-result-cpm-lbl">1分あたりの文字数（CPM）</div>
-  <div class="ta-result-grid">
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-res-acc">0%</div>
-      <div class="ta-stat-lbl">正確率</div>
+<div id="tt-result">
+  <h3>テスト結果</h3>
+  <div id="tt-result-level"></div>
+  <div id="tt-result-stats">
+    <div class="tt-res-item">
+      <span class="rval" id="tt-r-wpm">0</span>
+      <span class="rlbl">WPM</span>
     </div>
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-res-time">0秒</div>
-      <div class="ta-stat-lbl">経過時間</div>
+    <div class="tt-res-item">
+      <span class="rval" id="tt-r-acc">0%</span>
+      <span class="rlbl">正確率</span>
     </div>
-    <div class="ta-stat">
-      <div class="ta-stat-val" id="ta-res-chars">0</div>
-      <div class="ta-stat-lbl">打鍵数</div>
+    <div class="tt-res-item">
+      <span class="rval" id="tt-r-chars">0</span>
+      <span class="rlbl">総文字数</span>
+    </div>
+    <div class="tt-res-item">
+      <span class="rval" id="tt-r-errors">0</span>
+      <span class="rlbl">ミス数</span>
     </div>
   </div>
-  <button class="ta-retry-btn" id="ta-retry-btn">もう一度挑戦</button>
+  <p id="tt-result-comment"></p>
+  <button id="tt-btn-retry">もう一度挑戦</button>
 </div>
 
-<!-- History -->
-<div class="ta-card ta-history" id="ta-history-card">
-  <div class="ta-history-title">
-    過去の結果
-    <button class="ta-history-clear" id="ta-clear-hist">クリア</button>
-  </div>
-  <div id="ta-history-body"></div>
-</div>
-
-<!-- freee CTA -->
-<div class="ta-cta">
-  <div class="ta-cta-text">
-    <div class="ta-cta-title">freee で経理・給与計算を自動化しませんか？</div>
-    <div class="ta-cta-desc">タイピングスピードが上がっても、入力業務そのものをなくす方が効果的。freeeなら請求書・経費・給与を自動処理。バックオフィスの時間を本来の仕事に。</div>
-  </div>
-  <a class="ta-cta-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freeeを無料で試す</a>
+<div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;width:fit-content;">freeeを無料で試す →</a>
 </div>
 
 <script>
-(function(){
-  // ─── 文章データ ───────────────────────────────────────────────────────────────
-  const PASSAGES = {
+(function () {
+  "use strict";
+
+  /* ── Sample texts (English, romaji-input friendly) ── */
+  var TEXTS = {
     easy: [
-      "あいうえお かきくけこ さしすせそ たちつてと なにぬねの はひふへほ まみむめも やゆよ らりるれろ わをん",
-      "はるはあけぼの やうやうしろくなりゆくやまぎわ すこしあかりて むらさきだちたるくもの ほそくたなびきたる",
-      "ふるいけや かわずとびこむ みずのおと まつおばしょうのはいく せかいにしられた にほんのしぜんびがあふれる",
-      "きょうはいいてんきです あおいそらに しろいくもが うかんでいます こどもたちが こうえんであそんでいます",
-      "むかしむかし あるところに おじいさんと おばあさんが いました ふたりはなかよく くらしていました",
-      "さくらのはなが さいています はるのかぜが やさしくふいて はなびらが まいあがっています",
-      "やまのむこうに おひさまが しずんでいきます そらがあかくそまり うつくしいゆうやけです",
-      "かわのながれは とまることなく つづいていきます いのちのながれも おなじようなものです",
-      "たなかさんは まいあさ ろくじにおきます そして ジョギングをしてから しごとにいきます",
-      "でんしゃにのって しごとにいく とちゅうで ほんをよむ それがわたしの まいにちのたのしみです",
+      "the cat sat on the mat and looked at the dog by the big red barn near the old oak tree",
+      "she has a big blue ball and two small red cars for her little dog to play with every day",
+      "my dog runs fast and likes to jump over the fence in the yard on hot sunny days in june",
+      "he can see the sun and the moon at the same time on a clear cold night in the open field",
+      "we like to eat cake and drink milk at the table with our family on friday night each week",
+      "the old man has a hat and a bag and he walks to the shop every day to buy bread and eggs"
     ],
     medium: [
-      "生産性を高めるには、正しいことに集中し、不要な作業を排除し、質の高い休息をとることが重要です。速さだけを追い求めても、方向性が間違っていては意味がありません。",
-      "タイピングの速度は、繰り返しの練習だけでは伸びません。正確さを意識しながら練習することで、筋肉の記憶が定着し、自然と速度が上がっていきます。",
-      "朝のルーティンを確立することで、一日の生産性が大きく変わります。起床時刻を一定にし、最初の30分はスマートフォンを見ずに過ごすことをお勧めします。",
-      "集中力を維持するには、作業と休憩のバランスが大切です。25分作業して5分休む「ポモドーロ・テクニック」は多くの人に効果的とされています。",
-      "読書は思考を広げ、異なる分野のアイデアをつなげる力を養います。週に一冊の本を読む習慣は、長期的な知識の蓄積につながります。",
-      "デジタルツールは使い方次第で生産性を上げも下げもします。通知をオフにし、必要なときだけメールを確認するだけで、集中力は大幅に向上します。",
-      "目標を紙に書き出すことで、達成率が高まるという研究があります。具体的で測定可能な目標を設定し、進捗を定期的に振り返る習慣をつけましょう。",
-      "チームの生産性を高めるためには、明確なコミュニケーションと役割分担が欠かせません。会議の目的を明確にし、必要な人だけが参加する仕組みを作りましょう。",
-      "仕事の優先順位をつけるとき、緊急度と重要度のマトリックスが役立ちます。重要だが緊急ではないことに時間を使うことが、長期的な成功につながります。",
-      "睡眠は生産性の基盤です。7〜8時間の質の高い睡眠は、集中力、記憶力、判断力を大幅に向上させます。徹夜は短期的な成果よりも長期的な損失が大きいです。",
+      "practice makes perfect and consistent effort over time leads to remarkable improvements in skill",
+      "the quick brown fox jumps over the lazy dog while the sun sets slowly beyond the distant hills",
+      "reading books every day is one of the most effective ways to expand your vocabulary and knowledge",
+      "good communication skills are essential in any workplace and help teams collaborate more effectively",
+      "regular exercise improves both physical and mental health and can increase productivity during work",
+      "learning to type faster requires daily practice and focus on accuracy before increasing your speed"
     ],
     hard: [
-      "機械学習モデルの訓練においては、損失関数の勾配を各パラメータに関して偏微分し、その勾配の反対方向にパラメータを更新する確率的勾配降下法が広く用いられています。",
-      "量子コンピュータは、重ね合わせと量子もつれを利用して、従来のビット演算では指数関数的な時間を要する問題を多項式時間で解ける可能性を持っています。",
-      "ブロックチェーン技術は、分散型台帳にトランザクションを記録し、暗号学的ハッシュ関数によってデータの改ざんを防ぐ仕組みで、金融・物流・医療など幅広い分野での活用が進んでいます。",
-      "Kubernetesは、コンテナ化されたアプリケーションのデプロイ・スケーリング・管理を自動化するオーケストレーションシステムで、宣言的な設定ファイルによってインフラを管理します。",
-      "ゼロ知識証明は、ある命題が真であることを、命題の内容に関する情報を一切開示せずに証明できる暗号プロトコルであり、プライバシー保護型認証システムの基盤となっています。",
-      "マイクロサービスアーキテクチャでは、アプリケーションを独立してデプロイ可能な小さなサービスに分割し、APIを通じて通信させることで、スケーラビリティと保守性を高めます。",
-      "トランスフォーマーアーキテクチャは、自己注意機構を用いてトークン間の依存関係を並列に計算することで、自然言語処理における革命的な性能向上をもたらしました。",
-      "差分プライバシーは、統計的なクエリ結果にキャリブレーションされたノイズを加えることで、個々のレコードが推定されないことを数学的に保証するプライバシー保護手法です。",
-      "コンパイラは、字句解析・構文解析・意味解析・中間表現生成・最適化・コード生成という各フェーズを経て、高水準言語のソースコードを機械語に変換するシステムソフトウェアです。",
-      "分散合意プロトコルであるRaftは、リーダー選出とログ複製によってフォールトトレランスを実現し、少数のノード障害が発生してもシステム全体の一貫性を維持します。",
-    ],
+      "asynchronous programming paradigms allow developers to write non-blocking code that improves application throughput significantly",
+      "the implementation of machine learning algorithms requires careful consideration of data preprocessing normalization and feature engineering",
+      "distributed systems must handle network partitions gracefully while maintaining consistency availability and partition tolerance trade-offs",
+      "containerization with docker and orchestration via kubernetes enables scalable microservice deployments across heterogeneous cloud infrastructure",
+      "the cryptographic hash function produces a fixed-length digest from arbitrary input data ensuring integrity verification in blockchain protocols",
+      "functional programming emphasizes immutability pure functions and declarative composition enabling more predictable and testable software architectures"
+    ]
   };
 
-  // ─── 状態 ────────────────────────────────────────────────────────────────────
-  let duration = 60;
-  let difficulty = "easy";
-  let passage = "";
-  let totalTyped = 0;
-  let totalErrors = 0;
-  let startTime = null;
-  let timerInterval = null;
-  let running = false;
-  let finished = false;
+  /* ── State ── */
+  var state = {
+    phase: "idle",
+    text: "",
+    typed: [],
+    currentIndex: 0,
+    totalChars: 0,
+    errors: 0,
+    startTime: null,
+    elapsed: 0,
+    limitSec: 60,
+    timerInterval: null,
+    statsInterval: null,
+    textPoolIndex: 0
+  };
 
-  // ─── 要素 ────────────────────────────────────────────────────────────────────
-  const elPassage    = document.getElementById("ta-passage");
-  const elInput      = document.getElementById("ta-input");
-  const elTimer      = document.getElementById("ta-timer");
-  const elProgress   = document.getElementById("ta-progress");
-  const elCpmLive    = document.getElementById("ta-cpm-live");
-  const elAccLive    = document.getElementById("ta-acc-live");
-  const elCharsLive  = document.getElementById("ta-chars-live");
-  const elErrorsLive = document.getElementById("ta-errors-live");
-  const elResult     = document.getElementById("ta-result");
-  const elResCpm     = document.getElementById("ta-res-cpm");
-  const elResAcc     = document.getElementById("ta-res-acc");
-  const elResTime    = document.getElementById("ta-res-time");
-  const elResChars   = document.getElementById("ta-res-chars");
-  const elMsg        = document.getElementById("ta-msg");
-  const elRetryBtn   = document.getElementById("ta-retry-btn");
-  const elResetBtn   = document.getElementById("ta-reset-btn");
-  const elHistBody   = document.getElementById("ta-history-body");
-  const elClearHist  = document.getElementById("ta-clear-hist");
+  /* ── DOM refs ── */
+  function ge(id) { return document.getElementById(id); }
+  var elTextBox    = ge("tt-text-box");
+  var elInput      = ge("tt-input");
+  var elBtnStart   = ge("tt-btn-start");
+  var elBtnReset   = ge("tt-btn-reset");
+  var elBtnRetry   = ge("tt-btn-retry");
+  var elSelectDiff = ge("tt-select-diff");
+  var elSelectTime = ge("tt-select-time");
+  var elTimer      = ge("tt-timer-display");
+  var elFill       = ge("tt-progress-fill");
+  var elStatus     = ge("tt-status");
+  var elResult     = ge("tt-result");
+  var elSWpm       = ge("tt-s-wpm");
+  var elSAcc       = ge("tt-s-acc");
+  var elSChars     = ge("tt-s-chars");
+  var elSErrors    = ge("tt-s-errors");
+  var elSElapsed   = ge("tt-s-elapsed");
+  var elRWpm       = ge("tt-r-wpm");
+  var elRAcc       = ge("tt-r-acc");
+  var elRChars     = ge("tt-r-chars");
+  var elRErrors    = ge("tt-r-errors");
+  var elRLevel     = ge("tt-result-level");
+  var elRComment   = ge("tt-result-comment");
 
-  // ─── ヘルパー ─────────────────────────────────────────────────────────────────
-  function pickPassage() {
-    const pool = PASSAGES[difficulty];
-    return pool[Math.floor(Math.random() * pool.length)];
+  /* ── Helpers ── */
+  function pickText(diff) {
+    var pool = TEXTS[diff];
+    var idx = state.textPoolIndex % pool.length;
+    state.textPoolIndex++;
+    return pool[idx];
   }
 
-  function renderPassage() {
-    elPassage.innerHTML = passage.split("").map((ch, i) => {
-      let cls = "ta-char";
-      if (i === 0) cls += " cursor";
-      const display = ch === " " ? "&nbsp;" : ch;
-      return `<span class="${cls}" data-i="${i}">${display}</span>`;
-    }).join("");
+  function calcWpm(chars, elapsedMs) {
+    if (elapsedMs < 500) return 0;
+    var minutes = elapsedMs / 60000;
+    return Math.round((chars / 5) / minutes);
   }
 
-  function updatePassageDisplay(typed) {
-    const spans = elPassage.querySelectorAll(".ta-char");
-    spans.forEach((s, i) => {
-      s.className = "ta-char";
-      if (i < typed.length) {
-        s.classList.add(typed[i] === passage[i] ? "correct" : "incorrect");
+  function calcAcc(totalTyped, errors) {
+    if (totalTyped === 0) return 100;
+    return Math.max(0, Math.round(((totalTyped - errors) / totalTyped) * 100));
+  }
+
+  function levelInfo(wpm) {
+    if (wpm < 30)  return { label: "初心者",     comment: "焦らず正確さを意識しましょう。毎日練習すれば必ず上達します！" };
+    if (wpm < 50)  return { label: "一般レベル", comment: "平均的な速さです。正確率を維持しながら速度アップを目指しましょう。" };
+    if (wpm < 70)  return { label: "上手",       comment: "なかなかの速さです！あと少しでプロレベルに届きます。" };
+    if (wpm < 100) return { label: "プロレベル", comment: "素晴らしいタイピング力です。多くのプロと同等以上の速さです！" };
+    return            { label: "エリート",       comment: "驚異的なスピード！トップクラスのタイピスト水準です。" };
+  }
+
+  /* ── Render text display ── */
+  function renderText() {
+    var text = state.text;
+    var html = "";
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i] === " " ? "\u00a0" : text[i];
+      ch = ch.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      if (i < state.currentIndex) {
+        var t = state.typed[i];
+        if (t && t.correct) {
+          html += '<span class="char-correct">' + ch + '</span>';
+        } else {
+          html += '<span class="char-wrong">' + ch + '</span>';
+        }
+      } else if (i === state.currentIndex) {
+        html += '<span class="char-current">' + ch + '</span>';
+      } else {
+        html += '<span class="char-pending">' + ch + '</span>';
       }
-      if (i === typed.length) s.classList.add("cursor");
-    });
+    }
+    elTextBox.innerHTML = html;
   }
 
-  function calcCpm(elapsed) {
-    // CPM: 打鍵数 / 分
-    const minutes = elapsed / 60000;
-    if (minutes === 0) return 0;
-    return Math.round(totalTyped / minutes);
+  /* ── Update live stats ── */
+  function updateStats() {
+    var now = Date.now();
+    var elapsed = state.startTime ? now - state.startTime : 0;
+    state.elapsed = elapsed;
+    var wpm = calcWpm(state.totalChars, elapsed);
+    var acc = calcAcc(state.totalChars, state.errors);
+    elSWpm.textContent     = wpm;
+    elSAcc.textContent     = acc + "%";
+    elSChars.textContent   = state.totalChars;
+    elSErrors.textContent  = state.errors;
+    elSElapsed.textContent = Math.floor(elapsed / 1000) + "s";
   }
 
-  function calcAcc() {
-    if (totalTyped === 0) return null;
-    return Math.round(((totalTyped - totalErrors) / totalTyped) * 100);
+  /* ── Timer tick ── */
+  function timerTick() {
+    var now = Date.now();
+    var elapsed = now - state.startTime;
+    var remaining = Math.max(0, state.limitSec * 1000 - elapsed);
+    var remainSec = Math.ceil(remaining / 1000);
+    var pct = (remaining / (state.limitSec * 1000)) * 100;
+
+    elTimer.textContent = remainSec;
+    elFill.style.width  = pct + "%";
+
+    var warn = remainSec <= 10;
+    if (warn) {
+      elTimer.classList.add("tt-warning");
+      elFill.classList.add("tt-warning");
+    } else {
+      elTimer.classList.remove("tt-warning");
+      elFill.classList.remove("tt-warning");
+    }
+
+    if (remaining <= 0) {
+      finishTest();
+    }
   }
 
-  function updateLiveStats() {
-    const elapsed = Date.now() - startTime;
-    elCpmLive.textContent = calcCpm(elapsed);
-    const acc = calcAcc();
-    elAccLive.textContent = acc !== null ? acc + "%" : "—";
-    elCharsLive.textContent = totalTyped;
-    elErrorsLive.textContent = totalErrors;
-  }
+  /* ── Initialize / ready state ── */
+  function initReady() {
+    var diff = elSelectDiff.value;
+    state.limitSec     = parseInt(elSelectTime.value, 10);
+    state.text         = pickText(diff);
+    state.typed        = [];
+    state.currentIndex = 0;
+    state.totalChars   = 0;
+    state.errors       = 0;
+    state.startTime    = null;
+    state.elapsed      = 0;
+    state.phase        = "ready";
 
-  function startTimer() {
-    startTime = Date.now();
-    running = true;
-    elMsg.textContent = "テスト中…";
+    clearInterval(state.timerInterval);
+    clearInterval(state.statsInterval);
 
-    timerInterval = setInterval(() => {
-      const elapsed = Date.now() - startTime;
-      const remaining = Math.max(0, duration * 1000 - elapsed);
-      const secs = Math.ceil(remaining / 1000);
-      elTimer.textContent = secs;
-      elProgress.style.width = ((1 - remaining / (duration * 1000)) * 100) + "%";
-      updateLiveStats();
+    elInput.value       = "";
+    elInput.disabled    = false;
+    elInput.placeholder = "ここに入力してください（入力開始で自動スタート）";
+    elResult.style.display = "none";
+    elTimer.textContent = state.limitSec;
+    elTimer.classList.remove("tt-warning");
+    elFill.style.width  = "100%";
+    elFill.classList.remove("tt-warning");
+    elBtnStart.textContent = "スタート";
 
-      if (remaining <= 0) {
-        clearInterval(timerInterval);
-        finishTest();
-      }
-    }, 100);
-  }
+    elSWpm.textContent     = "0";
+    elSAcc.textContent     = "100%";
+    elSChars.textContent   = "0";
+    elSErrors.textContent  = "0";
+    elSElapsed.textContent = "0s";
 
-  function finishTest() {
-    running = false;
-    finished = true;
-    elInput.disabled = true;
-    const elapsed = startTime ? Date.now() - startTime : duration * 1000;
-    const actualSecs = Math.min(Math.round(elapsed / 1000), duration);
-    const cpm = calcCpm(Math.min(elapsed, duration * 1000));
-    const acc = calcAcc();
-
-    elResCpm.textContent = cpm;
-    elResAcc.textContent = (acc !== null ? acc : 0) + "%";
-    elResTime.textContent = actualSecs + "秒";
-    elResChars.textContent = totalTyped;
-    elResult.classList.add("visible");
-    elMsg.textContent = "テスト完了！";
-
-    saveHistory({ cpm, acc: acc ?? 0, time: actualSecs, chars: totalTyped, diff: difficulty, dur: duration });
-    renderHistory();
-  }
-
-  function reset() {
-    clearInterval(timerInterval);
-    running = false;
-    finished = false;
-    totalTyped = 0;
-    totalErrors = 0;
-    startTime = null;
-    passage = pickPassage();
-    elInput.value = "";
-    elInput.disabled = false;
+    elTextBox.classList.add("tt-active");
+    elStatus.textContent = "入力を開始するとタイマーがスタートします。";
+    renderText();
     elInput.focus();
-    elTimer.textContent = duration;
-    elProgress.style.width = "0%";
-    elCpmLive.textContent = "0";
-    elAccLive.textContent = "—";
-    elCharsLive.textContent = "0";
-    elErrorsLive.textContent = "0";
-    elResult.classList.remove("visible");
-    elMsg.textContent = "最初のキー入力でタイマーがスタートします。";
-    renderPassage();
   }
 
-  // ─── 入力処理 ──────────────────────────────────────────────────────────────
-  elInput.addEventListener("input", function() {
-    if (finished) return;
-    const typed = this.value;
+  /* ── Start running ── */
+  function startRunning() {
+    state.phase     = "running";
+    state.startTime = Date.now();
+    elStatus.textContent   = "入力中...";
+    elBtnStart.textContent = "進行中";
 
-    if (!running && typed.length > 0) startTimer();
-    if (!running && typed.length === 0) return;
+    state.timerInterval = setInterval(timerTick, 200);
+    state.statsInterval = setInterval(updateStats, 300);
+  }
 
-    const clamped = typed.slice(0, passage.length);
+  /* ── Finish ── */
+  function finishTest() {
+    if (state.phase === "finished") return;
+    state.phase = "finished";
 
-    totalTyped = clamped.length;
-    totalErrors = 0;
-    for (let i = 0; i < clamped.length; i++) {
-      if (clamped[i] !== passage[i]) totalErrors++;
+    clearInterval(state.timerInterval);
+    clearInterval(state.statsInterval);
+
+    elInput.disabled = true;
+    elTextBox.classList.remove("tt-active");
+    elTimer.textContent = "0";
+    elFill.style.width  = "0%";
+    elStatus.textContent = "テスト終了！";
+
+    var elapsed = state.elapsed || (Date.now() - (state.startTime || Date.now()));
+    var wpm  = calcWpm(state.totalChars, elapsed);
+    var acc  = calcAcc(state.totalChars, state.errors);
+    var info = levelInfo(wpm);
+
+    elRWpm.textContent    = wpm;
+    elRAcc.textContent    = acc + "%";
+    elRChars.textContent  = state.totalChars;
+    elRErrors.textContent = state.errors;
+    elRLevel.textContent  = "レベル判定：" + info.label;
+    elRComment.textContent = info.comment;
+
+    elResult.style.display = "block";
+    elResult.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    updateStats();
+  }
+
+  /* ── Input handler ── */
+  elInput.addEventListener("input", function () {
+    if (state.phase === "idle" || state.phase === "finished") return;
+
+    var val = this.value;
+
+    /* Auto-start on first keystroke */
+    if (state.phase === "ready" && val.length > 0) {
+      startRunning();
     }
 
-    updatePassageDisplay(clamped);
-    updateLiveStats();
+    if (state.phase !== "running") return;
 
-    // パッセージ完了時に次のパッセージへ
-    if (clamped.length === passage.length && running) {
-      passage = pickPassage();
-      this.value = "";
-      renderPassage();
+    var expected = state.text[state.currentIndex];
+    if (expected === undefined) return;
+
+    var lastChar = val[val.length - 1];
+
+    if (lastChar !== undefined) {
+      var correct = lastChar === expected;
+      state.typed[state.currentIndex] = { char: lastChar, correct: correct };
+      state.currentIndex++;
+      state.totalChars++;
+      if (!correct) state.errors++;
+    }
+
+    /* Clear input to keep processing char-by-char */
+    this.value = "";
+
+    renderText();
+    updateStats();
+
+    /* If all text consumed, load next passage */
+    if (state.currentIndex >= state.text.length) {
+      var diff = elSelectDiff.value;
+      state.text         = pickText(diff);
+      state.typed        = [];
+      state.currentIndex = 0;
+      renderText();
+      elStatus.textContent = "次のテキストに進みました。続けて入力してください。";
     }
   });
 
-  // ペースト禁止
-  elInput.addEventListener("paste", e => e.preventDefault());
-
-  // ─── コントロール ─────────────────────────────────────────────────────────────
-  document.getElementById("ta-dur-group").addEventListener("click", e => {
-    const btn = e.target.closest("[data-dur]");
-    if (!btn) return;
-    document.querySelectorAll("#ta-dur-group .ta-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    duration = parseInt(btn.dataset.dur);
-    reset();
+  /* Prevent paste */
+  elInput.addEventListener("paste", function (e) {
+    e.preventDefault();
   });
 
-  document.getElementById("ta-diff-group").addEventListener("click", e => {
-    const btn = e.target.closest("[data-diff]");
-    if (!btn) return;
-    document.querySelectorAll("#ta-diff-group .ta-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    difficulty = btn.dataset.diff;
-    reset();
+  /* ── Button handlers ── */
+  elBtnStart.addEventListener("click", function () {
+    initReady();
   });
 
-  elResetBtn.addEventListener("click", reset);
-  elRetryBtn.addEventListener("click", reset);
+  elBtnReset.addEventListener("click", function () {
+    clearInterval(state.timerInterval);
+    clearInterval(state.statsInterval);
+    state.phase = "idle";
 
-  // ─── 履歴 ────────────────────────────────────────────────────────────────────
-  const HIST_KEY = "ta_history_ja";
+    elInput.disabled    = true;
+    elInput.value       = "";
+    elInput.placeholder = "ここに入力してください（入力開始で自動スタート）";
+    elResult.style.display = "none";
+    elTextBox.classList.remove("tt-active");
+    elTextBox.innerHTML = "";
 
-  function saveHistory(entry) {
-    const hist = getHistory();
-    hist.unshift({ ...entry, date: new Date().toLocaleDateString("ja-JP") });
-    if (hist.length > 15) hist.length = 15;
-    localStorage.setItem(HIST_KEY, JSON.stringify(hist));
-  }
+    var limitSec = parseInt(elSelectTime.value, 10);
+    elTimer.textContent = limitSec;
+    elTimer.classList.remove("tt-warning");
+    elFill.style.width  = "100%";
+    elFill.classList.remove("tt-warning");
 
-  function getHistory() {
-    try { return JSON.parse(localStorage.getItem(HIST_KEY)) || []; }
-    catch { return []; }
-  }
+    elSWpm.textContent     = "0";
+    elSAcc.textContent     = "100%";
+    elSChars.textContent   = "0";
+    elSErrors.textContent  = "0";
+    elSElapsed.textContent = "0s";
+    elBtnStart.textContent = "スタート";
+    elStatus.textContent   = "難易度と制限時間を選んで「スタート」を押すか、入力欄に最初の文字を入力してください。";
+  });
 
-  const DIFF_LABEL = { easy: "かんたん", medium: "ふつう", hard: "むずかしい" };
+  elBtnRetry.addEventListener("click", function () {
+    initReady();
+  });
 
-  function renderHistory() {
-    const hist = getHistory();
-    if (hist.length === 0) {
-      elHistBody.innerHTML = '<div class="ta-history-empty">まだ記録がありません。テストを完了すると履歴が表示されます。</div>';
-      return;
+  /* Update timer display when time selector changes in idle/ready */
+  elSelectTime.addEventListener("change", function () {
+    if (state.phase === "idle" || state.phase === "ready") {
+      elTimer.textContent = this.value;
+      state.limitSec = parseInt(this.value, 10);
     }
-    elHistBody.innerHTML = `<table class="ta-history-table">
-      <thead><tr>
-        <th>#</th><th>CPM</th><th>正確率</th><th>時間</th><th>打鍵数</th><th>難易度</th><th>日付</th>
-      </tr></thead>
-      <tbody>${hist.map((r, i) => `<tr>
-        <td>${i + 1}</td>
-        <td><strong style="color:#60a5fa">${r.cpm}</strong></td>
-        <td>${r.acc}%</td>
-        <td>${r.time}秒 / ${r.dur}秒</td>
-        <td>${r.chars}</td>
-        <td>${DIFF_LABEL[r.diff] || r.diff}</td>
-        <td>${r.date}</td>
-      </tr>`).join("")}</tbody>
-    </table>`;
-  }
-
-  elClearHist.addEventListener("click", () => {
-    localStorage.removeItem(HIST_KEY);
-    renderHistory();
   });
 
-  // ─── 初期化 ──────────────────────────────────────────────────────────────────
-  reset();
-  renderHistory();
+  /* ── Init display ── */
+  elTimer.textContent  = elSelectTime.value;
+  elStatus.textContent = "難易度と制限時間を選んで「スタート」を押すか、入力欄に最初の文字を入力してください。";
+
 })();
 </script>
 
 </div>
+
+---
+
+> コード行数をカウント → [行数カウンター](/ja/tools/line-counter/)
+> コードを整形 → [コード圧縮ツール](/ja/tools/code-minifier/)
+> テキストの差分を確認 → [テキスト差分比較ツール](/ja/tools/text-diff-checker/)
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
