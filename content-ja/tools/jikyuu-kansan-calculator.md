@@ -3,7 +3,7 @@ title: "時給換算ツール｜年収↔時給を自動変換【月収・日給
 date: 2026-05-16
 draft: false
 slug: "jikyuu-kansan-calculator"
-aliases: ["/ja/tools/hourly-to-salary/", "/ja/tools/wage-calculator/"]
+aliases: ["/ja/tools/hourly-to-salary-calculator/", "/ja/tools/salary-calculator/"]
 description: "年収から時給、時給から年収を自動換算。月収・日給・週給もまとめて表示。残業代シミュレーション、時給アップの年収インパクトも計算できる無料ツール。"
 author: "Productivity Works編集部"
 categories: ["無料ツール"]

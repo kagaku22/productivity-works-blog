@@ -4,7 +4,7 @@ description: "Format, beautify, and minify SQL queries instantly in your browser
 date: 2025-05-16
 categories: ["Free Tools"]
 slug: "sql-formatter"
-aliases: ["/tools/sql-beautifier/", "/tools/sql-pretty-print/"]
+aliases: ["/tools/sql-formatter/", "/tools/sql-formatter/"]
 ShowToc: false
 cover:
   image: "/images/covers/sql-formatter.png"

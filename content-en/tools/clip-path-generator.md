@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "clip-path-generator"
 ShowToc: false
 aliases:
-  - "/tools/clip-path/"
-  - "/tools/shape-builder/"
+  - "/tools/clip-path-generator/"
+  - "/tools/clip-path-generator/"
 cover:
   image: "/images/covers/clip-path-generator.png"
   alt: "CSS Clip-Path Generator"

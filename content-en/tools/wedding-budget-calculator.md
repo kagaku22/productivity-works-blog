@@ -356,7 +356,7 @@ cover:
 <div class="wb-related">
   <h3>Related Free Tools</h3>
   <ul>
-    <li><a href="/tools/budget-calculator/">Monthly Budget Calculator</a></li>
+    <li><a href="/tools/budget-planner/">Monthly Budget Calculator</a></li>
     <li><a href="/tools/savings-goal-calculator/">Savings Goal Calculator</a></li>
     <li><a href="/tools/debt-payoff-calculator/">Debt Payoff Calculator</a></li>
     <li><a href="/tools/net-worth-calculator/">Net Worth Calculator</a></li>

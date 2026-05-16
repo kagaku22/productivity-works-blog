@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "chmod-calculator"
 ShowToc: false
 aliases:
-  - "/ja/tools/chmod/"
-  - "/ja/tools/permissions-calculator/"
+  - "/ja/tools/chmod-calculator/"
+  - "/ja/tools/chmod-calculator/"
 cover:
   image: "/images/covers/chmod-calculator-ja.png"
   alt: "Chmod計算ツール"

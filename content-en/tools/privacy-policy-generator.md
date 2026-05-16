@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "privacy-policy-generator"
 ShowToc: false
 aliases:
-  - "/tools/privacy-generator/"
-  - "/tools/privacy-template/"
+  - "/tools/privacy-policy-generator/"
+  - "/tools/privacy-policy-generator/"
 cover:
   image: "/images/covers/privacy-policy-generator.png"
   alt: "Privacy Policy Generator"

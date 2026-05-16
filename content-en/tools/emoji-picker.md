@@ -5,7 +5,7 @@ description: "Browse, search, and copy emojis by category. Includes recently use
 categories: ["Free Tools"]
 tags: ["emoji picker", "emoji copy", "emoji search", "emoji keyboard", "free tool"]
 slug: "emoji-picker"
-aliases: ["/tools/emoji-search/", "/tools/emoji-copy/"]
+aliases: ["/tools/emoji-search/", "/tools/emoji-picker/"]
 cover:
   image: "/images/covers/emoji-picker.png"
   alt: "Emoji Picker"

@@ -5,7 +5,7 @@ description: "JSONデータに対してJSONPath式をリアルタイムでテス
 categories: ["無料ツール"]
 tags: ["JSONPath", "JSONクエリ", "JSONPathテスター", "JSONフィルター", "JSONパーサー", "ドット記法", "再帰探索"]
 slug: "json-path-tester"
-aliases: ["/ja/tools/jsonpath/"]
+aliases: ["/ja/tools/json-path-finder/"]
 cover:
   image: "/images/covers/json-path-tester-ja.png"
   alt: "JSONPathテスター"

@@ -6,8 +6,8 @@ slug: "email-template-builder"
 categories: ["無料ツール"]
 ShowToc: false
 aliases:
-  - "/ja/tools/html-email-builder/"
-  - "/ja/tools/email-template/"
+  - "/ja/tools/email-template-builder/"
+  - "/ja/tools/email-template-builder/"
 cover:
   image: "/images/covers/email-template-builder-ja.png"
   alt: "メールテンプレートビルダー"

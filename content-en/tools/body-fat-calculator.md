@@ -440,8 +440,8 @@ cover:
     <ul>
       <li><a href="/tools/bmi-calculator/">BMI Calculator</a> — Check your body mass index</li>
       <li><a href="/tools/calorie-calculator/">Calorie Calculator</a> — Daily calorie needs based on your stats</li>
-      <li><a href="/tools/tdee-calculator/">TDEE Calculator</a> — Total daily energy expenditure</li>
-      <li><a href="/tools/ideal-weight-calculator/">Ideal Weight Calculator</a> — Find your target weight range</li>
+      <li><a href="/tools/calorie-calculator/">TDEE Calculator</a> — Total daily energy expenditure</li>
+      <li><a href="/tools/bmi-calculator/">Ideal Weight Calculator</a> — Find your target weight range</li>
     </ul>
   </div>
 </div>

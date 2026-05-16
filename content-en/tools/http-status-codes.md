@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "http-status-codes"
 ShowToc: false
 aliases:
-  - "/tools/http-codes/"
-  - "/tools/status-codes/"
+  - "/tools/http-status-codes/"
+  - "/tools/http-status-codes/"
 cover:
   image: "/images/covers/http-status-codes.png"
   alt: "HTTP Status Codes Reference"

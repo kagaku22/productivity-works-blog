@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "favicon-generator"
 ShowToc: false
 aliases:
-  - "/tools/favicon-maker/"
-  - "/tools/ico-generator/"
+  - "/tools/favicon-generator/"
+  - "/tools/favicon-generator/"
 cover:
   image: "/images/covers/favicon-generator.png"
   alt: "Favicon Generator"

@@ -876,7 +876,7 @@ cover:
   <div class="fp-related-title">Related Tools</div>
   <div class="fp-related-links">
     <a href="/tools/css-variables-generator/">CSS Variables Generator</a>
-    <a href="/tools/css-text-gradient-generator/">CSS Text Gradient Generator</a>
+    <a href="/tools/text-gradient-generator/">CSS Text Gradient Generator</a>
     <a href="/tools/reading-time-calculator/">Reading Time Calculator</a>
   </div>
 </div>

@@ -7,7 +7,7 @@ categories: ["Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/csv-to-json/"
-  - "/tools/json-csv/"
+  - "/tools/json-to-csv/"
 cover:
   image: "/images/covers/json-to-csv.png"
   alt: "JSON to CSV Converter"

@@ -3,7 +3,7 @@ title: "インフレ計算ツール｜物価上昇で将来お金の価値はど
 date: 2026-05-16
 draft: false
 slug: "inflation-calculator"
-aliases: ["/ja/tools/inflation-simulator/"]
+aliases: ["/ja/tools/inflation-calculator/"]
 description: "インフレ率を入力するだけで、将来のお金の実質価値を自動計算。100万円が10年後・20年後にいくらの価値になるか、購買力の低下を見える化する無料ツール。"
 author: "Productivity Works編集部"
 categories: ["無料ツール"]

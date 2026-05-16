@@ -355,7 +355,7 @@ cover:
 ---
 
 > 画像をリサイズ &#x2192; [画像リサイズツール](/ja/tools/image-resizer/)
-> CSSアスペクト比を生成 &#x2192; [CSSアスペクト比計算ツール](/ja/tools/css-aspect-ratio-calculator/)
+> CSSアスペクト比を生成 &#x2192; [CSSアスペクト比計算ツール](/ja/tools/css-aspect-ratio/)
 > ダミー画像を作成 &#x2192; [プレースホルダー画像生成ツール](/ja/tools/placeholder-image/)
 
 ---

@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "regex-cheatsheet"
 ShowToc: false
 aliases:
-  - "/ja/tools/regex-reference/"
-  - "/ja/tools/regex-guide/"
+  - "/ja/tools/regex-cheatsheet/"
+  - "/ja/tools/regex-cheatsheet/"
 cover:
   image: "/images/covers/regex-cheatsheet-ja.png"
   alt: "正規表現チートシート"

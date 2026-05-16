@@ -831,7 +831,7 @@ Create professional invoices in seconds — fill in your details, add line items
 
 > Estimate retirement savings -> [Pension Simulator](/tools/pension-simulator/)
 > Calculate take-home pay -> [Salary Calculator](/tools/salary-calculator/)
-> Plan your budget -> [50/30/20 Budget Calculator](/tools/budget-calculator/)
+> Plan your budget -> [50/30/20 Budget Calculator](/tools/budget-planner/)
 
 ## Related Articles
 

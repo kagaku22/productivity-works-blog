@@ -6,7 +6,7 @@ categories: ["Free Tools"]
 slug: "tax-calculator"
 ShowToc: false
 aliases:
-  - "/tools/tax-estimator/"
+  - "/tools/tax-calculator/"
 cover:
   image: "/images/covers/tax-calculator.png"
   alt: "Income Tax Calculator"

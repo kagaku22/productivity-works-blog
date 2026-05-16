@@ -4,7 +4,7 @@ date: 2025-05-16
 description: "テキストを貼り付けるだけで読書時間を瞬時に計算。読書速度の調整、文字数・語数・文数のカウント、可読性スコアも確認できる無料ツールです。"
 categories: ["無料ツール"]
 slug: "reading-time-calculator"
-aliases: ["/ja/tools/reading-speed/", "/ja/tools/wpm-calculator/"]
+aliases: ["/ja/tools/reading-speed-calculator/", "/ja/tools/reading-speed-calculator/"]
 ShowToc: false
 cover:
   image: "/images/covers/reading-time-calculator-ja.png"

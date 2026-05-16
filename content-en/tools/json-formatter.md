@@ -5,7 +5,7 @@ description: "Format, validate, and minify JSON data instantly. Syntax highlight
 categories: ["Free Tools"]
 tags: ["json", "formatter", "validator", "developer tool", "code"]
 slug: "json-formatter"
-aliases: ["/tools/json-validator/", "/tools/json-beautifier/", "/tools/json-minifier/"]
+aliases: ["/tools/json-validator/", "/tools/json-formatter/", "/tools/code-minifier/"]
 cover:
   image: "/images/covers/json-formatter.png"
   alt: "JSON Formatter"

@@ -3,7 +3,7 @@ title: "ROT13 / シーザー暗号 エンコーダー & デコーダー"
 date: 2025-05-16
 slug: "rot13-encoder"
 categories: ["無料ツール"]
-aliases: ["/ja/tools/caesar-cipher/", "/ja/tools/rot13/"]
+aliases: ["/ja/tools/rot13-encoder/", "/ja/tools/rot13-encoder/"]
 ShowToc: false
 cover:
   image: "/images/covers/rot13-encoder-ja.png"

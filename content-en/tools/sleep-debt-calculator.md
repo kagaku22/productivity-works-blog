@@ -360,8 +360,8 @@ Enter your ideal sleep hours and how much you actually slept each night this wee
   <h3>Related Free Tools</h3>
   <ul>
     <li><a href="/tools/pomodoro-timer/">Pomodoro Timer - Focus in 25-minute blocks</a></li>
-    <li><a href="/tools/deep-work-planner/">Deep Work Planner - Schedule your peak focus hours</a></li>
-    <li><a href="/tools/energy-level-tracker/">Energy Level Tracker - Map your daily energy curve</a></li>
+    <li><a href="/tools/daily-planner/">Deep Work Planner - Schedule your peak focus hours</a></li>
+    <li><a href="/tools/habit-tracker/">Energy Level Tracker - Map your daily energy curve</a></li>
   </ul>
 </div>
 

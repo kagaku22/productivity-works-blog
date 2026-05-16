@@ -6,7 +6,7 @@ categories: ["無料ツール"]
 slug: "placeholder-image"
 ShowToc: false
 aliases:
-  - "/ja/tools/dummy-image/"
+  - "/ja/tools/placeholder-image/"
   - "/ja/tools/placeholder-generator/"
 cover:
   image: "/images/covers/placeholder-image-ja.png"

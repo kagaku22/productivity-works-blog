@@ -5,7 +5,7 @@ description: "Create beautiful CSS gradients online. Supports linear, radial, an
 categories: ["Free Tools"]
 tags: ["css gradient", "gradient generator", "linear gradient", "radial gradient", "css tool", "web design"]
 slug: "css-gradient-generator"
-aliases: ["/tools/gradient-maker/", "/tools/gradient-generator/"]
+aliases: ["/tools/css-gradient-generator/", "/tools/css-gradient-generator/"]
 cover:
   image: "/images/covers/css-gradient-generator.png"
   alt: "CSS Gradient Generator"

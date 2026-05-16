@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "changelog-generator"
 ShowToc: false
 aliases:
-  - "/tools/changelog/"
-  - "/tools/release-notes/"
+  - "/tools/changelog-generator/"
+  - "/tools/changelog-generator/"
 cover:
   image: "/images/covers/changelog-generator.png"
   alt: "Changelog Generator"

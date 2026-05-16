@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "timestamp-converter"
 ShowToc: false
 aliases:
-  - "/ja/tools/unix-timestamp/"
-  - "/ja/tools/epoch-converter/"
+  - "/ja/tools/timestamp-converter/"
+  - "/ja/tools/timestamp-converter/"
 cover:
   image: "/images/covers/timestamp-converter-ja.png"
   alt: "Unixタイムスタンプ変換ツール"

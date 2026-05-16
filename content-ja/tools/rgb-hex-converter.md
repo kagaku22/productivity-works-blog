@@ -6,7 +6,7 @@ categories: ["無料ツール"]
 slug: "rgb-hex-converter"
 ShowToc: false
 aliases:
-  - "/ja/tools/hex-to-rgb/"
+  - "/ja/tools/rgb-hex-converter/"
   - "/ja/tools/color-converter/"
 cover:
   image: "/images/covers/rgb-hex-converter-ja.png"

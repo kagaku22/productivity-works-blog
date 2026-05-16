@@ -135,7 +135,7 @@ NISA is the right choice for most people in most situations. Choose NISA if:
 
 To illustrate the tax advantage: if you invest 3 million yen over 10 years inside NISA and it doubles to 6 million yen, the 3 million yen in gains is yours, entirely. The same gain outside a tax-advantaged account would trigger a tax bill of roughly 609,450 yen (20.315% of 3 million yen). That is money that stays working for you inside NISA.
 
-Simulate your NISA growth with our [NISA Simulator](/ja/tools/nisa-simulator/).
+Simulate your NISA growth with our [NISA Simulator](/ja/tools/compound-interest-calculator/).
 
 ---
 
@@ -151,7 +151,7 @@ FX is not the right starting point for most beginners, but it has legitimate use
 
 Even experienced FX traders are advised to treat it as a speculative allocation rather than a core savings strategy.
 
-Calculate potential FX profits with our [FX Profit Calculator](/ja/tools/fx-profit-calculator/).
+Calculate potential FX profits with our [FX Profit Calculator](/ja/tools/forex-profit-calculator/).
 
 ---
 

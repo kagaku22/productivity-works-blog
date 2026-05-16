@@ -402,7 +402,7 @@ Stay focused and accomplish more with this free browser-based Pomodoro timer —
 <!-- Cross-links -->
 <div class="pm-links">
   &rsaquo; Test your typing speed &rarr; <a href="/tools/typing-speed-test/">Typing Speed Test</a><br>
-  &rsaquo; Plan your budget &rarr; <a href="/tools/budget-calculator/">50/30/20 Budget Calculator</a><br>
+  &rsaquo; Plan your budget &rarr; <a href="/tools/budget-planner/">50/30/20 Budget Calculator</a><br>
   &rsaquo; Track time zones &rarr; <a href="/tools/timezone-converter/">Time Zone Converter</a>
 </div>
 

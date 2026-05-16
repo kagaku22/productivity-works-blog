@@ -416,7 +416,7 @@ cover:
   <ul>
     <li><a href="/tools/gpa-calculator/">GPA Calculator</a> — Convert letter grades to GPA across multiple courses</li>
     <li><a href="/tools/percentage-calculator/">Percentage Calculator</a> — Quick percent change, of, and off calculations</li>
-    <li><a href="/tools/study-timer/">Study Timer (Pomodoro)</a> — Focus sessions with automatic break reminders</li>
+    <li><a href="/tools/pomodoro-timer/">Study Timer (Pomodoro)</a> — Focus sessions with automatic break reminders</li>
     <li><a href="/tools/unit-converter/">Unit Converter</a> — Length, weight, temperature, and more</li>
   </ul>
 </div>

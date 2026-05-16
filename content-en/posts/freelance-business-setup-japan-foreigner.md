@@ -173,7 +173,7 @@ For B2B freelancers, registering under the invoice system is increasingly a prac
 
 Once your bookkeeping is running, take thirty minutes to map your financial projections using our [Budget Planner](/tools/budget-planner/). Input your expected monthly revenue, your fixed costs (domain, software subscriptions, phone, coworking space), and your variable costs (travel, equipment). The planner will show you your projected net income and help you estimate quarterly tax payment obligations.
 
-For a clearer picture of what you will actually take home after income tax and resident tax, use the [Take-home Pay calculator](/tools/take-home-pay/). Japan's tax brackets and resident tax (住民税) can take a significant share of income above ¥3–4 million, so understanding your effective take-home rate early helps you price your services correctly.
+For a clearer picture of what you will actually take home after income tax and resident tax, use the [Take-home Pay calculator](/tools/salary-calculator/). Japan's tax brackets and resident tax (住民税) can take a significant share of income above ¥3–4 million, so understanding your effective take-home rate early helps you price your services correctly.
 
 ---
 
@@ -199,7 +199,7 @@ Here is a compressed checklist for turning a weekend into a fully operational fr
 - [ ] Create your [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) account and complete initial setup.
 - [ ] Connect your bank account.
 - [ ] Create your first invoice template.
-- [ ] Run your numbers through the [Budget Planner](/tools/budget-planner/) and [Take-home Pay calculator](/tools/take-home-pay/).
+- [ ] Run your numbers through the [Budget Planner](/tools/budget-planner/) and [Take-home Pay calculator](/tools/salary-calculator/).
 
 By Sunday evening, you have a registered business, a professional web presence, and accounting software tracking every yen from day one.
 
@@ -225,7 +225,7 @@ Once you are operational, the next milestones to plan for are:
 
 - **Incorporating as a KK** when your annual revenue consistently exceeds ¥5–6 million and the tax planning advantages of a corporation begin to outweigh the administrative overhead.
 - **Hiring** — even one part-time assistant changes your compliance obligations significantly. freee's payroll module handles withholding tax and social insurance calculations.
-- **Expanding savings and investment** — as a sole proprietor, you can contribute to an **iDeCo** (individual defined contribution pension) account, which offers significant income deductions. Use the [Compound Interest calculator](/tools/compound-interest/) to model the long-term impact of consistent iDeCo contributions.
+- **Expanding savings and investment** — as a sole proprietor, you can contribute to an **iDeCo** (individual defined contribution pension) account, which offers significant income deductions. Use the [Compound Interest calculator](/tools/compound-interest-calculator/) to model the long-term impact of consistent iDeCo contributions.
 
 ---
 

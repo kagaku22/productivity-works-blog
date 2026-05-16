@@ -3,7 +3,7 @@ title: "BMI Calculator | Check Your Body Mass Index Instantly"
 date: 2026-05-16
 draft: false
 slug: "bmi-calculator"
-aliases: ["/tools/body-mass-index/"]
+aliases: ["/tools/bmi-calculator/"]
 description: "Free BMI calculator. Enter your height and weight to instantly calculate your Body Mass Index, see your BMI category, and get a healthy weight range for your height."
 categories: ["Free Tools"]
 tags: ["BMI", "body mass index", "health calculator", "weight", "fitness"]

@@ -743,5 +743,5 @@ update();
 ---
 
 > Encode/decode URLs &#8594; [URL Encoder/Decoder](/tools/url-encoder-decoder/)
-> Convert to Base64 &#8594; [Base64 Encoder/Decoder](/tools/base64-encoder-decoder/)
+> Convert to Base64 &#8594; [Base64 Encoder/Decoder](/tools/base64-encoder/)
 > Generate placeholder images &#8594; [Placeholder Image Generator](/tools/placeholder-image/)

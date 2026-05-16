@@ -622,7 +622,7 @@ cover:
 ---
 
 > BMIを計算 → [BMI計算ツール](/ja/tools/bmi-calculator/)
-> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
+> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-planner/)
 > 投資利益率を計算 → [ROI計算ツール](/ja/tools/roi-calculator/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。

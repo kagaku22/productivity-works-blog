@@ -5,7 +5,7 @@ description: "Calculate tips instantly with quick percentage buttons, custom rat
 categories: ["Free Tools"]
 tags: ["tip calculator", "gratuity calculator", "split bill", "restaurant", "personal finance"]
 slug: "tip-calculator"
-aliases: ["/tools/gratuity-calculator/", "/tools/split-bill/"]
+aliases: ["/tools/tip-calculator/", "/tools/split-bill-calculator/"]
 cover:
   image: "/images/covers/tip-calculator.png"
   alt: "Tip Calculator"

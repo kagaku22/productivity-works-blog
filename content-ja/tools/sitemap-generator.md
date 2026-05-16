@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "sitemap-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/sitemap-xml/"
-  - "/ja/tools/xml-sitemap/"
+  - "/ja/tools/sitemap-generator/"
+  - "/ja/tools/sitemap-generator/"
 cover:
   image: "/images/covers/sitemap-generator-ja.png"
   alt: "サイトマップXMLジェネレーター"

@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "color-palette-generator"
 ShowToc: false
 aliases:
-  - "/tools/palette-generator/"
-  - "/tools/color-scheme/"
+  - "/tools/color-palette-generator/"
+  - "/tools/color-scheme-generator/"
 cover:
   image: "/images/covers/color-palette-generator.png"
   alt: "Color Palette Generator"

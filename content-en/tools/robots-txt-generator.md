@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "robots-txt-generator"
 ShowToc: false
 aliases:
-  - "/tools/robotstxt/"
-  - "/tools/robots-generator/"
+  - "/tools/robots-txt-generator/"
+  - "/tools/robots-txt-generator/"
 cover:
   image: "/images/covers/robots-txt-generator.png"
   alt: "Robots.txt Generator"

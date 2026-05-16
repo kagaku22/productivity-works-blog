@@ -434,9 +434,9 @@ cover:
   <ul>
     <li><a href="/tools/pomodoro-timer/">Pomodoro Timer — Focus in 25-minute sprints</a></li>
     <li><a href="/tools/sleep-debt-calculator/">Sleep Debt Calculator — Find out if you're sleep-deprived</a></li>
-    <li><a href="/tools/work-hours-tracker/">Work Hours Tracker — Log and analyze your working time</a></li>
-    <li><a href="/tools/distraction-cost-calculator/">Distraction Cost Calculator — See how much interruptions cost you</a></li>
-    <li><a href="/tools/habit-streak-tracker/">Habit Streak Tracker — Build screen-free routines</a></li>
+    <li><a href="/tools/stopwatch-timer/">Work Hours Tracker — Log and analyze your working time</a></li>
+    <li><a href="/tools/meeting-cost-calculator/">Distraction Cost Calculator — See how much interruptions cost you</a></li>
+    <li><a href="/tools/habit-tracker/">Habit Streak Tracker — Build screen-free routines</a></li>
   </ul>
 </div>
 

@@ -6,7 +6,7 @@ categories: ["Free Tools"]
 slug: "rgb-hex-converter"
 ShowToc: false
 aliases:
-  - "/tools/hex-to-rgb/"
+  - "/tools/rgb-hex-converter/"
   - "/tools/color-converter/"
 cover:
   image: "/images/covers/rgb-hex-converter.png"

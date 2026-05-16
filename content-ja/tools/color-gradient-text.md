@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "color-gradient-text"
 ShowToc: false
 aliases:
-  - "/ja/tools/gradient-text/"
-  - "/ja/tools/rainbow-text/"
+  - "/ja/tools/color-gradient-text/"
+  - "/ja/tools/color-gradient-text/"
 cover:
   image: "/images/covers/color-gradient-text-ja.png"
   alt: "グラデーションテキスト生成ツール"

@@ -4,9 +4,9 @@ date: 2026-05-14
 draft: false
 slug: "fukugyou-tax-calculator"
 aliases:
-  - /ja/tools/fukugyou-zeikin-keisan/
-  - /ja/tools/side-job-tax/
-  - /ja/tools/freelance-zeikin/
+  - /ja/tools/fukugyou-tax-calculator/
+  - /ja/tools/fukugyou-tax-calculator/
+  - /ja/tools/fukugyou-tax-calculator/
 description: "副業の税金を自動計算。本業年収と副業収入を入力するだけで、追加税額・確定申告の要否・手取り額がわかる無料シミュレーター。"
 author: "Productivity Works編集部"
 categories:

@@ -8,7 +8,7 @@ ShowToc: false
 cover:
   image: "/images/covers/csv-editor.png"
   alt: "CSV Editor"
-aliases: ["/tools/csv-viewer/", "/tools/spreadsheet-editor/"]
+aliases: ["/tools/csv-editor/", "/tools/csv-editor/"]
 ---
 
 Free, browser-based CSV editor with a spreadsheet-like table interface. Import by pasting or uploading a file, edit cells directly, add/delete rows and columns, sort and filter, then export — all locally with no server involved.

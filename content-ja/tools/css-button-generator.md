@@ -798,7 +798,7 @@ cover:
 
 ## 関連する無料ツール
 
-- [CSSボックスシャドウジェネレーター](/ja/tools/css-box-shadow-generator/) — 多層シャドウのビルドとプレビュー
+- [CSSボックスシャドウジェネレーター](/ja/tools/box-shadow-generator/) — 多層シャドウのビルドとプレビュー
 - [CSSグラデーションジェネレーター](/ja/tools/css-gradient-generator/) — リニア・ラジアル・コニックグラデーション
 - [CSSアニメーションジェネレーター](/ja/tools/css-animation-generator/) — キーフレームアニメーションとイージング設定
 

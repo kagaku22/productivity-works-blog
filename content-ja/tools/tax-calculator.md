@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "tax-calculator"
 ShowToc: false
 aliases:
-  - "/ja/tools/tax-estimator/"
-  - "/ja/tools/shotokuzei/"
+  - "/ja/tools/tax-calculator/"
+  - "/ja/tools/shotokuzei-simulator/"
 cover:
   image: "/images/covers/tax-calculator-ja.png"
   alt: "所得税計算ツール"

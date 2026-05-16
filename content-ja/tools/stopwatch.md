@@ -5,7 +5,7 @@ description: "無料のオンラインストップウォッチ。ラップタイ
 categories: ["無料ツール"]
 tags: ["ストップウォッチ", "ラップタイム", "カウントダウン", "時間計測", "タイマー"]
 slug: "stopwatch"
-aliases: ["/ja/tools/online-stopwatch/", "/ja/tools/timer/"]
+aliases: ["/ja/tools/stopwatch-timer/", "/ja/tools/countdown-timer/"]
 cover:
   image: "/images/covers/stopwatch-ja.png"
   alt: "無料オンラインストップウォッチ・ラップタイム計測"

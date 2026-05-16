@@ -5,7 +5,7 @@ description: "Free online weather unit converter. Convert temperature (°C, °F,
 categories: ["Free Tools"]
 slug: "weather-unit-converter"
 ShowToc: false
-aliases: ["/tools/temperature-converter/", "/tools/weather-units/"]
+aliases: ["/tools/weather-unit-converter/", "/tools/weather-unit-converter/"]
 cover:
   image: "/images/covers/weather-unit-converter.png"
   alt: "Weather Unit Converter"

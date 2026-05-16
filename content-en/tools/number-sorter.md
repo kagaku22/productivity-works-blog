@@ -5,7 +5,7 @@ description: "Sort a list of numbers ascending or descending instantly. Remove d
 categories: ["Free Tools"]
 tags: ["number sorter", "sort numbers", "ascending descending", "remove duplicates", "statistics", "free tool"]
 slug: "number-sorter"
-aliases: ["/tools/sort-numbers/", "/tools/number-sort/"]
+aliases: ["/tools/number-sorter/", "/tools/number-sorter/"]
 cover:
   image: "/images/covers/number-sorter.png"
   alt: "Number Sorter"

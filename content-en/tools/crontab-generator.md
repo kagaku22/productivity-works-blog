@@ -7,7 +7,7 @@ slug: "crontab-generator"
 ShowToc: false
 aliases:
   - "/tools/cron-generator/"
-  - "/tools/cron-expression/"
+  - "/tools/cron-expression-builder/"
 cover:
   image: "/images/covers/crontab-generator.png"
   alt: "Crontab Generator"

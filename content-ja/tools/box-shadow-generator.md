@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "box-shadow-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/css-shadow/"
-  - "/ja/tools/shadow-generator/"
+  - "/ja/tools/box-shadow-generator/"
+  - "/ja/tools/box-shadow-generator/"
 cover:
   image: "/images/covers/box-shadow-generator-ja.png"
   alt: "CSSボックスシャドウ ジェネレーター"

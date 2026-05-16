@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "text-statistics"
 ShowToc: false
 aliases:
-  - "/tools/text-analyzer/"
-  - "/tools/readability-checker/"
+  - "/tools/text-statistics/"
+  - "/tools/reading-speed-calculator/"
 cover:
   image: "/images/covers/text-statistics.png"
   alt: "Text Statistics Analyzer"

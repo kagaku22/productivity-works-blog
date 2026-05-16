@@ -491,8 +491,8 @@ cover:
 ## 関連ツール
 
 - [CSSアニメーションジェネレーター](/ja/tools/css-animation-generator/) — キーフレームアニメーションをビジュアルで作成
-- [CSS Flexboxジェネレーター](/ja/tools/css-flexbox-generator/) — フレックスレイアウトをライブプレビューで設計
-- [CSS ボックスシャドウジェネレーター](/ja/tools/css-box-shadow-generator/) — 多層シャドウをインタラクティブに作成
+- [CSS Flexboxジェネレーター](/ja/tools/flexbox-generator/) — フレックスレイアウトをライブプレビューで設計
+- [CSS ボックスシャドウジェネレーター](/ja/tools/box-shadow-generator/) — 多層シャドウをインタラクティブに作成
 
 ---
 

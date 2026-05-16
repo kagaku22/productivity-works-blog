@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "svg-path-editor"
 ShowToc: false
 aliases:
-  - "/ja/tools/svg-editor/"
-  - "/ja/tools/svg-path/"
+  - "/ja/tools/svg-icon-maker/"
+  - "/ja/tools/svg-path-editor/"
 cover:
   image: "/images/covers/svg-path-editor-ja.png"
   alt: "SVGパスエディター"

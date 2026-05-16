@@ -279,7 +279,7 @@ cover:
   <ul>
     <li><a href="/tools/unit-converter/">Unit Converter — mm, cm, inches, feet</a></li>
     <li><a href="/tools/aspect-ratio-calculator/">Aspect Ratio Calculator</a></li>
-    <li><a href="/tools/pdf-page-size-checker/">PDF Page Size Checker</a></li>
+    <li><a href="/tools/paper-size-guide/">PDF Page Size Checker</a></li>
   </ul>
 </div>
 

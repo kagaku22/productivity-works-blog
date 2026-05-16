@@ -9,7 +9,7 @@ cover:
   image: "/images/covers/cron-generator.png"
   alt: "Cron Expression Generator"
 aliases:
-  - "/tools/cron-expression/"
+  - "/tools/cron-expression-builder/"
   - "/tools/crontab-generator/"
 ---
 

@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "border-radius-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/border-radius/"
-  - "/ja/tools/rounded-corners/"
+  - "/ja/tools/border-radius-generator/"
+  - "/ja/tools/border-radius-generator/"
 cover:
   image: "/images/covers/border-radius-generator-ja.png"
   alt: "CSS角丸ジェネレーター"

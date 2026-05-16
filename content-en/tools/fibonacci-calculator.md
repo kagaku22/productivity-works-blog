@@ -5,7 +5,7 @@ description: "Free Fibonacci calculator. Compute the Nth Fibonacci number up to 
 categories: ["Free Tools"]
 slug: "fibonacci-calculator"
 ShowToc: false
-aliases: ["/tools/fibonacci-sequence/", "/tools/fibonacci/"]
+aliases: ["/tools/fibonacci-calculator/", "/tools/fibonacci-calculator/"]
 cover:
   image: "/images/covers/fibonacci-calculator.png"
   alt: "Fibonacci Calculator"

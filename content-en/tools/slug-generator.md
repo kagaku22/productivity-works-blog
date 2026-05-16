@@ -8,7 +8,7 @@ ShowToc: false
 cover:
   image: "/images/covers/slug-generator.png"
   alt: "URL Slug Generator"
-aliases: ["/tools/url-slug/", "/tools/slugify/"]
+aliases: ["/tools/slug-generator/", "/tools/slug-generator/"]
 ---
 
 <div id="sg-app">

@@ -5,7 +5,7 @@ description: "テキストを丸ごと逆順にする・単語の順番だけ反
 categories: ["無料ツール"]
 tags: ["文字列反転", "テキスト逆順", "ケース変換", "文字ツール", "無料ツール"]
 slug: "string-reverser"
-aliases: ["/ja/tools/reverse-text/"]
+aliases: ["/ja/tools/string-reverser/"]
 cover:
   image: "/images/covers/string-reverser-ja.png"
   alt: "文字列反転ツール"

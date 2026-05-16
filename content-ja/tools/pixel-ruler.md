@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "pixel-ruler"
 ShowToc: false
 aliases:
-  - "/ja/tools/screen-ruler/"
-  - "/ja/tools/pixel-measure/"
+  - "/ja/tools/pixel-ruler/"
+  - "/ja/tools/pixel-ruler/"
 cover:
   image: "/images/covers/pixel-ruler-ja.png"
   alt: "ピクセル定規ツール"

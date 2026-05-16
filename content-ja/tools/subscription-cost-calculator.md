@@ -4,7 +4,7 @@ date: 2026-05-16
 draft: false
 slug: "subscription-cost-calculator"
 aliases:
-  - /ja/tools/subscription-tracker/
+  - /ja/tools/subscription-cost-calculator/
 description: "Netflix、Spotify、Amazon Primeなど月額サブスクを一覧入力するだけで、年間コスト・1日あたりの金額・投資した場合の将来額を自動計算。無駄なサブスクを発見して節約しましょう。"
 author: "Productivity Works編集部"
 categories:

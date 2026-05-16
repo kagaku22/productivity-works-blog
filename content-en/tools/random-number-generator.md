@@ -5,7 +5,7 @@ description: "Generate random numbers instantly. Set min/max range, generate mul
 categories: ["Free Tools"]
 tags: ["random number", "dice roller", "coin flip", "number generator", "random picker", "online tool"]
 slug: "random-number-generator"
-aliases: ["/tools/random-generator/", "/tools/number-picker/"]
+aliases: ["/tools/random-number-generator/", "/tools/random-number-generator/"]
 cover:
   image: "/images/covers/random-number-generator.png"
   alt: "Random Number Generator"

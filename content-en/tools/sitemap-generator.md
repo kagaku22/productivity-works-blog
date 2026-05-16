@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "sitemap-generator"
 ShowToc: false
 aliases:
-  - "/tools/sitemap-xml/"
-  - "/tools/xml-sitemap/"
+  - "/tools/sitemap-generator/"
+  - "/tools/sitemap-generator/"
 cover:
   image: "/images/covers/sitemap-generator.png"
   alt: "Sitemap XML Generator"

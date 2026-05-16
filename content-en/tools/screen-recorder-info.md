@@ -5,7 +5,7 @@ description: "Free screen info and display tester. Check screen resolution, view
 categories: ["Free Tools"]
 slug: "screen-recorder-info"
 ShowToc: false
-aliases: ["/tools/display-tester/", "/tools/screen-info/"]
+aliases: ["/tools/viewport-tester/", "/tools/screen-resolution/"]
 cover:
   image: "/images/covers/screen-recorder-info.png"
   alt: "Screen Info & Display Tester"

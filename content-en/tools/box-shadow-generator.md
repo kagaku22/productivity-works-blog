@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "box-shadow-generator"
 ShowToc: false
 aliases:
-  - "/tools/css-shadow/"
-  - "/tools/shadow-generator/"
+  - "/tools/box-shadow-generator/"
+  - "/tools/box-shadow-generator/"
 cover:
   image: "/images/covers/box-shadow-generator.png"
   alt: "CSS Box Shadow Generator"

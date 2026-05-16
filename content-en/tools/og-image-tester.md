@@ -5,7 +5,7 @@ description: "Free OG image preview tool. Paste your Open Graph meta tags and in
 categories: ["Free Tools"]
 slug: "og-image-tester"
 ShowToc: false
-aliases: ["/tools/og-preview/", "/tools/social-preview/"]
+aliases: ["/tools/og-preview/", "/tools/og-preview/"]
 cover:
   image: "/images/covers/og-image-tester.png"
   alt: "OG Image Tester"

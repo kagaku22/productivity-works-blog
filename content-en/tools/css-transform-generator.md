@@ -460,7 +460,7 @@ Transforms are applied right to left. `translate(50px, 0) rotate(45deg)` first r
 ## Related Tools
 
 - [CSS Animation Generator](/tools/css-animation-generator/) — Build keyframe animations visually
-- [CSS Flexbox Generator](/tools/css-flexbox-generator/) — Design flex layouts with live preview
-- [CSS Box Shadow Generator](/tools/css-box-shadow-generator/) — Craft multi-layer shadows interactively
+- [CSS Flexbox Generator](/tools/flexbox-generator/) — Design flex layouts with live preview
+- [CSS Box Shadow Generator](/tools/box-shadow-generator/) — Craft multi-layer shadows interactively
 
 </div>

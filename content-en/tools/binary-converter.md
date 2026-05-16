@@ -5,7 +5,7 @@ description: "Convert instantly between binary, decimal, hexadecimal, and octal.
 categories: ["Free Tools"]
 tags: ["binary converter", "hex converter", "decimal converter", "octal", "number base", "two's complement", "bit manipulation"]
 slug: "binary-converter"
-aliases: ["/tools/hex-converter/", "/tools/decimal-converter/"]
+aliases: ["/tools/rgb-hex-converter/", "/tools/number-base-converter/"]
 cover:
   image: "/images/covers/binary-converter.png"
   alt: "Binary Converter"

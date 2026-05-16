@@ -6,8 +6,8 @@ slug: "meta-tag-generator"
 categories: ["無料ツール"]
 ShowToc: false
 aliases:
-  - "/ja/tools/seo-meta-tags/"
-  - "/ja/tools/og-tag-generator/"
+  - "/ja/tools/meta-tag-generator/"
+  - "/ja/tools/meta-tag-generator/"
 cover:
   image: "/images/covers/meta-tag-generator-ja.png"
   alt: "メタタグジェネレーター"

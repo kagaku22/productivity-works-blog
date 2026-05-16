@@ -591,7 +591,7 @@ cover:
 ---
 
 > チップを計算 → [チップ計算ツール](/ja/tools/tip-calculator/)
-> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
+> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-planner/)
 > パーセントを計算 → [パーセント計算ツール](/ja/tools/percentage-calculator/)
 
 ---

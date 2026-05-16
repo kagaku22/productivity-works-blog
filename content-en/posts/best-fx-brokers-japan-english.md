@@ -230,7 +230,7 @@ This makes it particularly important to file in loss years — many traders skip
 
 ### Calculating Your After-Tax Returns
 
-Use our [FX Profit Calculator](/ja/tools/fx-profit-calculator/) to estimate your after-tax returns on individual trades and across a full year. The calculator accounts for the 20.315% rate and can help you model the impact of the loss carryforward across multiple years.
+Use our [FX Profit Calculator](/ja/tools/forex-profit-calculator/) to estimate your after-tax returns on individual trades and across a full year. The calculator accounts for the 20.315% rate and can help you model the impact of the loss carryforward across multiple years.
 
 ### Managing FX Tax Records
 
@@ -252,7 +252,7 @@ The checklist for choosing a broker comes down to these essentials: FSA registra
 
 Before you start trading, make sure your capital allocation is realistic. Trading with money you can afford to lose is a cliche, but in Japan's tightly leveraged environment it is especially relevant — the 25:1 cap means you cannot use leverage to amplify small capital into large position sizes the way traders in some other jurisdictions can.
 
-Check your [take-home pay](/ja/tools/salary-tedori-calculator/) to plan your trading capital — understanding your net monthly cash flow after tax, social insurance, and other deductions gives you a clear picture of how much you can realistically allocate to an FX account without affecting your day-to-day financial stability.
+Check your [take-home pay](/ja/tools/salary-calculator/) to plan your trading capital — understanding your net monthly cash flow after tax, social insurance, and other deductions gives you a clear picture of how much you can realistically allocate to an FX account without affecting your day-to-day financial stability.
 
 With the right broker, the right expectations, and a solid understanding of Japan's regulatory and tax environment, FX trading can be a rewarding part of a broader personal finance strategy for English-speaking residents in Japan.
 

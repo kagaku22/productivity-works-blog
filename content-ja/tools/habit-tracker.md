@@ -893,7 +893,7 @@ render();
 
 > ポモドーロで集中 → [ポモドーロタイマー](/ja/tools/pomodoro-timer/)
 > フラッシュカードで学習 → [フラッシュカードメーカー](/ja/tools/flashcard-maker/)
-> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
+> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-planner/)
 
 ---
 

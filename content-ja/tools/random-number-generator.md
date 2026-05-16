@@ -5,7 +5,7 @@ description: "最小値・最大値を指定してランダムな数字を即座
 categories: ["無料ツール"]
 tags: ["乱数", "ランダム", "サイコロ", "コイントス", "数字生成", "無料ツール"]
 slug: "random-number-generator"
-aliases: ["/ja/tools/random-generator/", "/ja/tools/number-picker/"]
+aliases: ["/ja/tools/random-number-generator/", "/ja/tools/random-number-generator/"]
 cover:
   image: "/images/covers/random-number-generator-ja.png"
   alt: "乱数生成ツール"

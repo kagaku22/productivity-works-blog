@@ -3,7 +3,7 @@ title: "Percentage Calculator | Calculate Any Percentage Instantly"
 date: 2026-05-16
 draft: false
 slug: "percentage-calculator"
-aliases: ["/tools/percent-calculator/", "/tools/discount-calculator/"]
+aliases: ["/tools/percentage-calculator/", "/tools/percentage-calculator/"]
 description: "Free percentage calculator with 5 modes: find percentage of a number, what percent one number is of another, percentage increase/decrease, tip calculator, and discount calculator."
 categories: ["Free Tools"]
 tags: ["percentage", "calculator", "math", "discount", "tip calculator"]

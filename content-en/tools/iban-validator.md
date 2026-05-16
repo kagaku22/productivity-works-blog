@@ -269,11 +269,11 @@ cover:
 <div class="related-links">
   <h3>Related Tools</h3>
   <ul>
-    <li><a href="/tools/bic-swift-validator/">BIC / SWIFT Code Validator</a></li>
+    <li><a href="/tools/iban-validator/">BIC / SWIFT Code Validator</a></li>
     <li><a href="/tools/currency-converter/">Currency Converter</a></li>
-    <li><a href="/tools/vat-number-validator/">VAT Number Validator</a></li>
-    <li><a href="/tools/routing-number-lookup/">Routing Number Lookup</a></li>
-    <li><a href="/tools/wire-transfer-calculator/">Wire Transfer Fee Calculator</a></li>
+    <li><a href="/tools/tax-calculator/">VAT Number Validator</a></li>
+    <li><a href="/tools/iban-validator/">Routing Number Lookup</a></li>
+    <li><a href="/tools/currency-converter/">Wire Transfer Fee Calculator</a></li>
   </ul>
 </div>
 

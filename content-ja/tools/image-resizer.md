@@ -5,7 +5,7 @@ description: "画像を無料でオンラインリサイズ。カスタムサイ
 categories: ["無料ツール"]
 tags: ["画像リサイズ", "画像圧縮", "サイズ変更", "SNS画像", "無料ツール"]
 slug: "image-resizer"
-aliases: ["/ja/tools/image-compressor/", "/ja/tools/resize-image/"]
+aliases: ["/ja/tools/image-compressor/", "/ja/tools/image-resizer/"]
 cover:
   image: "/images/covers/image-resizer-ja.png"
   alt: "画像リサイザー"

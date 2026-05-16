@@ -5,7 +5,7 @@ description: "ローンの毎月返済額・総利息・返済期間を即座に
 categories: ["無料ツール"]
 tags: ["ローン計算", "返済シミュレーション", "利息計算", "繰上返済", "住宅ローン"]
 slug: "loan-calculator"
-aliases: ["/ja/tools/debt-calculator/", "/ja/tools/hensai-calculator/"]
+aliases: ["/ja/tools/debt-payoff-calculator/", "/ja/tools/debt-payoff-calculator/"]
 cover:
   image: "/images/covers/loan-calculator-ja.png"
   alt: "ローン計算ツール"

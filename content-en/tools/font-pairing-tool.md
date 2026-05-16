@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "font-pairing-tool"
 ShowToc: false
 aliases:
-  - "/tools/font-combinations/"
-  - "/tools/font-pairing/"
+  - "/tools/font-pair-suggester/"
+  - "/tools/font-pairing-tool/"
 cover:
   image: "/images/covers/font-pairing-tool.png"
   alt: "Font Pairing Tool"

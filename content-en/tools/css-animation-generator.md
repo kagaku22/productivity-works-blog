@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "css-animation-generator"
 ShowToc: false
 aliases:
-  - "/tools/animation-generator/"
-  - "/tools/keyframe-generator/"
+  - "/tools/css-animation-generator/"
+  - "/tools/css-animation-generator/"
 cover:
   image: "/images/covers/css-animation-generator.png"
   alt: "CSS Animation Generator"

@@ -5,7 +5,7 @@ description: "Free online timezone converter with live world clock, date/time co
 categories: ["Free Tools"]
 tags: ["timezone", "world clock", "time converter", "meeting planner", "international time"]
 slug: "timezone-converter"
-aliases: ["/tools/time-zone-converter/", "/tools/world-clock/"]
+aliases: ["/tools/timezone-converter/", "/tools/world-clock/"]
 cover:
   image: "/images/covers/timezone-converter.png"
   alt: "Timezone Converter"

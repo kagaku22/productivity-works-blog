@@ -789,6 +789,6 @@ Because `outline` does not affect layout, it is ideal for **focus indicators** â
 
 ## Related Tools
 
-- [CSS Border Radius Generator](/tools/css-border-radius-generator/)
-- [CSS Box Shadow Generator](/tools/css-box-shadow-generator/)
+- [CSS Border Radius Generator](/tools/border-radius-generator/)
+- [CSS Box Shadow Generator](/tools/box-shadow-generator/)
 - [CSS Button Generator](/tools/css-button-generator/)

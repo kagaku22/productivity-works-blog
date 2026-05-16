@@ -5,7 +5,7 @@ description: "Calculate monthly loan payments, total interest, and payoff timeli
 categories: ["Free Tools"]
 tags: ["loan calculator", "debt payoff", "amortization", "interest", "personal finance"]
 slug: "loan-calculator"
-aliases: ["/tools/debt-calculator/", "/tools/payment-calculator/", "/tools/amortization-calculator/"]
+aliases: ["/tools/debt-payoff-calculator/", "/tools/loan-calculator/", "/tools/loan-repayment-calculator/"]
 cover:
   image: "/images/covers/loan-calculator.png"
   alt: "Loan Calculator"

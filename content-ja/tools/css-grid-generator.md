@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "css-grid-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/grid-generator/"
-  - "/ja/tools/css-grid/"
+  - "/ja/tools/css-grid-generator/"
+  - "/ja/tools/css-grid-generator/"
 cover:
   image: "/images/covers/css-grid-generator-ja.png"
   alt: "CSS Gridジェネレーター"

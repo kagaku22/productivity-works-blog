@@ -335,7 +335,7 @@ cover:
   <ul>
     <li><a href="/tools/compound-interest-calculator/">Compound Interest Calculator</a> — See how interest compounds over time</li>
     <li><a href="/tools/savings-goal-calculator/">Savings Goal Calculator</a> — How much to save monthly to hit your target</li>
-    <li><a href="/tools/net-worth-tracker/">Net Worth Tracker</a> — Track assets vs liabilities over time</li>
+    <li><a href="/tools/net-worth-calculator/">Net Worth Tracker</a> — Track assets vs liabilities over time</li>
     <li><a href="/tools/retirement-calculator/">Retirement Calculator</a> — Plan your retirement nest egg</li>
   </ul>
 </div>

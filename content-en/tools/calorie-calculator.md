@@ -559,7 +559,7 @@ Find out how many calories your body needs each day — then plan smarter with m
 <!-- Cross-links -->
 <div class="cc-crosslinks">
   <span>Check your BMI &rarr; <a href="/tools/bmi-calculator/">BMI Calculator</a></span>
-  <span>Plan your budget &rarr; <a href="/tools/budget-calculator/">50/30/20 Budget Calculator</a></span>
+  <span>Plan your budget &rarr; <a href="/tools/budget-planner/">50/30/20 Budget Calculator</a></span>
   <span>Track your investments &rarr; <a href="/tools/roi-calculator/">ROI Calculator</a></span>
 </div>
 

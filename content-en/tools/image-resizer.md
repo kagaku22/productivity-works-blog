@@ -5,7 +5,7 @@ description: "Resize images online for free. Set custom dimensions, lock aspect 
 categories: ["Free Tools"]
 tags: ["image resizer", "resize image", "image compressor", "photo resize", "canvas api"]
 slug: "image-resizer"
-aliases: ["/tools/image-compressor/", "/tools/resize-image/"]
+aliases: ["/tools/image-compressor/", "/tools/image-resizer/"]
 cover:
   image: "/images/covers/image-resizer.png"
   alt: "Image Resizer"

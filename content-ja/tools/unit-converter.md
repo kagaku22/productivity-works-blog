@@ -5,7 +5,7 @@ description: "長さ・重さ・温度・体積・面積・速度などの単位
 categories: ["無料ツール"]
 tags: ["単位変換", "換算", "メートル", "計算", "ツール"]
 slug: "unit-converter"
-aliases: ["/ja/tools/measurement-converter/", "/ja/tools/tani-henkan/"]
+aliases: ["/ja/tools/unit-converter/", "/ja/tools/unit-converter/"]
 cover:
   image: "/images/covers/unit-converter-ja.png"
   alt: "単位変換ツール"

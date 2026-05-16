@@ -5,7 +5,7 @@ description: "テキストをバイナリに、バイナリをテキストにリ
 categories: ["無料ツール"]
 tags: ["バイナリ", "テキスト変換", "binary to text", "text to binary", "16進数", "8進数", "開発ツール", "エンコーディング"]
 slug: "binary-text-converter"
-aliases: ["/ja/tools/text-to-binary/", "/ja/tools/binary-converter/"]
+aliases: ["/ja/tools/binary-text-converter/", "/ja/tools/binary-converter/"]
 cover:
   image: "/images/covers/binary-text-converter-ja.png"
   alt: "バイナリ⇔テキスト変換ツール"

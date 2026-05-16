@@ -5,7 +5,7 @@ description: "Translate text to Morse code and Morse code to text instantly. Pla
 categories: ["Free Tools"]
 tags: ["morse code", "morse translator", "morse decoder", "audio morse", "encoder"]
 slug: "morse-code-translator"
-aliases: ["/tools/morse-code/", "/tools/morse-converter/"]
+aliases: ["/tools/morse-code/", "/tools/morse-code-translator/"]
 cover:
   image: "/images/covers/morse-code-translator.png"
   alt: "Morse Code Translator"

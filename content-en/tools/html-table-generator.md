@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "html-table-generator"
 ShowToc: false
 aliases:
-  - "/tools/table-generator/"
-  - "/tools/html-table/"
+  - "/tools/html-table-generator/"
+  - "/tools/html-table-generator/"
 cover:
   image: "/images/covers/html-table-generator.png"
   alt: "HTML Table Generator"

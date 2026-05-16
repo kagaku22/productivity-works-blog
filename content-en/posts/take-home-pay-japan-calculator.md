@@ -170,7 +170,7 @@ Total deductions = ¥245,508 + ¥450,180 + ¥30,000 + ¥180,000 + ¥280,000 = **
 
 That means on a ¥5,000,000 gross salary, you take home roughly **76.3%** of your gross pay, or about ¥318,000 per month. The effective deduction rate is approximately 23.7%.
 
-For instant, accurate results tailored to your exact salary and situation, use our [Take-Home Pay Calculator](/ja/tools/salary-tedori-calculator/).
+For instant, accurate results tailored to your exact salary and situation, use our [Take-Home Pay Calculator](/ja/tools/salary-calculator/).
 
 ---
 
@@ -234,7 +234,7 @@ Many workers in Japan supplement their main salary with freelance work, online b
 
 **Crypto and investment income:** Capital gains from cryptocurrency are taxed as miscellaneous income (雑所得) at your marginal rate. Gains from stock trading in non-NISA accounts are typically taxed at a flat 20.315% (15% income tax + 2.1% surcharge + 3% residence tax equivalent) if you use a specific account type (申告分離課税).
 
-To accurately track and calculate your side income taxes, use our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/).
+To accurately track and calculate your side income taxes, use our [Side Income Tax Calculator](/ja/tools/tax-calculator/).
 
 When your side income grows to the point where you need to manage invoices, expenses, and tax filings, [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) is Japan's most popular cloud accounting software. It handles invoice creation, expense tracking, and tax return preparation in Japanese — essential if you are navigating the Japanese tax system as a freelancer or small business owner.
 
@@ -258,7 +258,7 @@ NISA is Japan's version of a tax-free investment account. Under the reformed NIS
 
 Unlike iDeCo, NISA contributions are **not** deductible from taxable income — the tax benefit comes on the way out, with no tax on gains or dividends. NISA is ideal for medium-to-long-term savings goals, not just retirement.
 
-See how much your investments could grow with our [NISA Simulator](/ja/tools/nisa-simulator/).
+See how much your investments could grow with our [NISA Simulator](/ja/tools/compound-interest-calculator/).
 
 ### Furusato Nozei (故郷納税 — Hometown Tax Donation)
 
@@ -288,7 +288,7 @@ For a ¥5,000,000 gross salary in Tokyo, expect to take home roughly ¥3,800,000
 
 The best way to improve your take-home pay is not to avoid paying taxes — it is to use the tools the government provides: iDeCo for tax-deferred retirement savings, NISA for tax-free investment growth, and furusato nozei to get real value from your residence tax.
 
-Use our [Take-Home Pay Calculator](/ja/tools/salary-tedori-calculator/) to run the numbers for your specific salary and situation, and our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/) if you have freelance or investment income to account for.
+Use our [Take-Home Pay Calculator](/ja/tools/salary-calculator/) to run the numbers for your specific salary and situation, and our [Side Income Tax Calculator](/ja/tools/tax-calculator/) if you have freelance or investment income to account for.
 
 Understanding your payslip is the first step to managing your money confidently in Japan.
 

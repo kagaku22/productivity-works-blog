@@ -4,7 +4,7 @@ date: 2026-05-14
 draft: false
 slug: "compound-interest-calculator"
 aliases:
-  - /tools/compound-interest/
+  - /tools/compound-interest-calculator/
 description: "Free compound interest calculator. Enter your monthly contribution, expected return rate, and time horizon to see your investment growth. Includes tax savings comparison."
 author: "Productivity Works Editorial"
 categories:

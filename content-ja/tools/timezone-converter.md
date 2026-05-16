@@ -5,7 +5,7 @@ description: "ライブ世界時計、日時変換、複数タイムゾーン比
 categories: ["無料ツール"]
 tags: ["タイムゾーン", "世界時計", "時差計算", "会議時間", "国際時間"]
 slug: "timezone-converter"
-aliases: ["/ja/tools/time-zone-converter/", "/ja/tools/world-clock/"]
+aliases: ["/ja/tools/timezone-converter/", "/ja/tools/world-clock/"]
 cover:
   image: "/images/covers/timezone-converter-ja.png"
   alt: "タイムゾーン変換ツール"

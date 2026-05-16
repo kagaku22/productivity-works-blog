@@ -9,9 +9,9 @@ cover:
   alt: "HTML Entity Encoder"
 ShowToc: false
 aliases:
-  - "/tools/html-encoder/"
-  - "/tools/html-decoder/"
-  - "/tools/html-entities/"
+  - "/tools/html-entity-encoder/"
+  - "/tools/html-entity-converter/"
+  - "/tools/html-entity-converter/"
 description: "Free online HTML entity encoder and decoder. Convert special characters to HTML entities and back. Searchable reference table of 30+ common named entities."
 ---
 

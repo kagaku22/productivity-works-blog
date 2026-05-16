@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "robots-txt-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/robotstxt/"
-  - "/ja/tools/robots-generator/"
+  - "/ja/tools/robots-txt-generator/"
+  - "/ja/tools/robots-txt-generator/"
 cover:
   image: "/images/covers/robots-txt-generator-ja.png"
   alt: "Robots.txt ジェネレーター"

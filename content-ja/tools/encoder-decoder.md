@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "encoder-decoder"
 ShowToc: false
 aliases:
-  - "/ja/tools/encode-decode/"
-  - "/ja/tools/universal-encoder/"
+  - "/ja/tools/encoder-decoder/"
+  - "/ja/tools/encoder-decoder/"
 cover:
   image: "/images/covers/encoder-decoder-ja.png"
   alt: "万能エンコーダー/デコーダー"

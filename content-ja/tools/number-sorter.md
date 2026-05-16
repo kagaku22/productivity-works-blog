@@ -5,7 +5,7 @@ description: "数字を昇順・降順にワンクリックで並べ替え。重
 categories: ["無料ツール"]
 tags: ["数値ソート", "並べ替え", "昇順", "降順", "重複削除", "統計", "無料ツール"]
 slug: "number-sorter"
-aliases: ["/ja/tools/sort-numbers/"]
+aliases: ["/ja/tools/number-sorter/"]
 cover:
   image: "/images/covers/number-sorter-ja.png"
   alt: "数値ソートツール"

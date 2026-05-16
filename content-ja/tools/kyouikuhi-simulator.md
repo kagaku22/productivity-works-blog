@@ -4,7 +4,7 @@ date: 2026-05-16
 draft: false
 slug: "kyouikuhi-simulator"
 aliases:
-  - /ja/tools/education-cost-calculator/
+  - /ja/tools/kyouikuhi-simulator/
 description: "教育費シミュレーター。幼稚園から大学まで進路を選択するだけで、子供1人にかかる教育費の総額を自動計算。積立シミュレーションや児童手当の活用額も確認できます。"
 categories:
   - "無料ツール"

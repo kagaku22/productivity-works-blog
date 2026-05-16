@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "regex-cheatsheet"
 ShowToc: false
 aliases:
-  - "/tools/regex-reference/"
-  - "/tools/regex-guide/"
+  - "/tools/regex-cheatsheet/"
+  - "/tools/regex-cheatsheet/"
 cover:
   image: "/images/covers/regex-cheatsheet.png"
   alt: "Regex Cheatsheet"

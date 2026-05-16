@@ -5,7 +5,7 @@ description: "タブをスペースに、またはスペースをタブに変換
 categories: ["無料ツール"]
 slug: "tab-converter"
 ShowToc: false
-aliases: ["/ja/tools/tabs-to-spaces/", "/ja/tools/indent-converter/"]
+aliases: ["/ja/tools/tab-converter/", "/ja/tools/indent-converter/"]
 cover:
   image: "/images/covers/tab-converter-ja.png"
   alt: "タブ⇔スペース変換ツール"

@@ -4,7 +4,7 @@ date: 2026-05-14
 draft: false
 slug: "budget-planner"
 aliases:
-  - /ja/tools/budget-calculator/
+  - /ja/tools/budget-planner/
 description: "無料の予算プランナー計算ツール。月収を入力するだけで50/30/20ルールに基づく推奨支出配分を瞬時に表示します。"
 author: "Productivity Works Editorial"
 categories:

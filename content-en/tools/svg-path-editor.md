@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "svg-path-editor"
 ShowToc: false
 aliases:
-  - "/tools/svg-editor/"
-  - "/tools/svg-path/"
+  - "/tools/svg-icon-maker/"
+  - "/tools/svg-path-editor/"
 cover:
   image: "/images/covers/svg-path-editor.png"
   alt: "SVG Path Editor"

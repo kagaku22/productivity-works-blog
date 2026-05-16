@@ -449,7 +449,7 @@ cover:
     <ul>
       <li><a href="/tools/mortgage-calculator/">Mortgage Payment Calculator</a></li>
       <li><a href="/tools/compound-interest-calculator/">Compound Interest Calculator</a></li>
-      <li><a href="/tools/net-worth-tracker/">Net Worth Tracker</a></li>
+      <li><a href="/tools/net-worth-calculator/">Net Worth Tracker</a></li>
       <li><a href="/tools/emergency-fund-calculator/">Emergency Fund Calculator</a></li>
     </ul>
   </div>

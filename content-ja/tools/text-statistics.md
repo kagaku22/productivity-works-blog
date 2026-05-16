@@ -6,7 +6,7 @@ categories: ["無料ツール"]
 slug: "text-statistics"
 ShowToc: false
 aliases:
-  - "/ja/tools/text-analyzer/"
+  - "/ja/tools/text-statistics/"
 cover:
   image: "/images/covers/text-statistics-ja.png"
   alt: "テキスト統計分析ツール"

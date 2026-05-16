@@ -470,5 +470,5 @@ The **padding-bottom hack** achieves the same result in older browsers (pre-2021
 
 **Related Tools:**
 - [Aspect Ratio Calculator](/tools/aspect-ratio-calculator/) — Find the missing dimension from any ratio
-- [CSS Flexbox Generator](/tools/css-flexbox-generator/) — Build flexbox layouts visually
+- [CSS Flexbox Generator](/tools/flexbox-generator/) — Build flexbox layouts visually
 - [Image Resizer](/tools/image-resizer/) — Resize images while preserving aspect ratio

@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "color-gradient-text"
 ShowToc: false
 aliases:
-  - "/tools/gradient-text/"
-  - "/tools/rainbow-text/"
+  - "/tools/color-gradient-text/"
+  - "/tools/color-gradient-text/"
 cover:
   image: "/images/covers/color-gradient-text.png"
   alt: "Color Gradient Text Generator"

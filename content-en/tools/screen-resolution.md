@@ -10,8 +10,8 @@ cover:
   alt: "Screen Resolution Checker"
 ShowToc: false
 aliases:
-  - "/tools/screen-size/"
-  - "/tools/display-info/"
+  - "/tools/screen-resolution/"
+  - "/tools/screen-resolution/"
 ---
 
 Check your screen resolution, viewport size, pixel ratio, and active CSS breakpoints in real time. Resize your window to see live updates.

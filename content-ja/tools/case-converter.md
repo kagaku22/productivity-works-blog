@@ -5,7 +5,7 @@ description: "テキストをUPPERCASE・lowercase・Title Case・camelCase・sn
 categories: ["無料ツール"]
 tags: ["文字変換", "大文字", "小文字", "キャメルケース", "スネークケース", "ひらがな", "カタカナ", "全角", "半角"]
 slug: "case-converter"
-aliases: ["/ja/tools/text-case/", "/ja/tools/uppercase-lowercase/"]
+aliases: ["/ja/tools/text-case-converter/", "/ja/tools/case-converter/"]
 cover:
   image: "/images/covers/case-converter-ja.png"
   alt: "文字変換ツール"

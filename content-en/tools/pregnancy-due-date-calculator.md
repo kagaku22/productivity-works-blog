@@ -500,7 +500,7 @@ cover:
 <div class="pdd-related">
   <h3>Related Tools</h3>
   <ul>
-    <li><a href="/tools/ovulation-calculator/">Ovulation & Fertile Window Calculator</a></li>
+    <li><a href="/tools/date-calculator/">Ovulation & Fertile Window Calculator</a></li>
     <li><a href="/tools/bmi-calculator/">BMI Calculator</a></li>
     <li><a href="/tools/calorie-calculator/">Daily Calorie Calculator</a></li>
     <li><a href="/tools/age-calculator/">Age Calculator</a></li>

@@ -524,7 +524,7 @@ cover:
 <h3>Other Free Tools</h3>
 <ul>
   <li><a href="/tools/pomodoro-timer/">Pomodoro Timer — stay focused with timed work sessions</a></li>
-  <li><a href="/tools/text-counter/">Text Counter — count characters, words, and lines instantly</a></li>
+  <li><a href="/tools/character-counter/">Text Counter — count characters, words, and lines instantly</a></li>
   <li><a href="/tools/color-palette-generator/">Color Palette Generator — create harmonious color schemes</a></li>
   <li><a href="/tools/image-resizer/">Image Resizer — resize images in your browser without uploading</a></li>
 </ul>

@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "og-preview"
 ShowToc: false
 aliases:
-  - "/ja/tools/open-graph/"
-  - "/ja/tools/social-preview/"
+  - "/ja/tools/og-preview/"
+  - "/ja/tools/og-preview/"
 cover:
   image: "/images/covers/og-preview-ja.png"
   alt: "OGPプレビュー"

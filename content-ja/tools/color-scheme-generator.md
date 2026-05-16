@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "color-scheme-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/color-scheme/"
-  - "/ja/tools/color-harmony/"
+  - "/ja/tools/color-scheme-generator/"
+  - "/ja/tools/color-scheme-generator/"
 cover:
   image: "/images/covers/color-scheme-generator-ja.png"
   alt: "配色ジェネレーター"

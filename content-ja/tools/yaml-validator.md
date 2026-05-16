@@ -9,8 +9,8 @@ cover:
   image: "/images/covers/yaml-validator-ja.png"
   alt: "YAMLバリデーター"
 aliases:
-  - "/ja/tools/yaml-to-json/"
-  - "/ja/tools/yaml-formatter/"
+  - "/ja/tools/yaml-json-converter/"
+  - "/ja/tools/yaml-validator/"
 ---
 
 <div id="ym-app">

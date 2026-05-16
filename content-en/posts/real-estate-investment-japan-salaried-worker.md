@@ -25,7 +25,7 @@ Most foreign professionals in Japan start with NISA or iDeCo. Both are excellent
 
 This article walks through all three pillars, explains how they interact, and helps you figure out where to focus based on your income level. If you have already set up your NISA and iDeCo accounts, or want to model your retirement projections first, the tools below are a good starting point before you continue reading.
 
-- [NISA Simulator — model your tax-free investment returns](/ja/tools/nisa-simulator/)
+- [NISA Simulator — model your tax-free investment returns](/ja/tools/compound-interest-calculator/)
 - [iDeCo Simulator — calculate your annual tax deduction](/ja/tools/ideco-simulator/)
 - [Retirement Calculator — project your total retirement assets](/tools/retirement-calculator/)
 
@@ -126,7 +126,7 @@ Let's say you are a salaried worker earning 9 million yen per year and you own a
 
 That -1,300,000 yen (net rental loss) is aggregated with your salary income, reducing your taxable income from 9 million to 7.7 million yen. In the 23-33% marginal bracket range, this could reduce your income and residence tax liability by 350,000 to 450,000 yen that year.
 
-To confirm your take-home pay under different income scenarios, try the [Take-home Pay Calculator](/tools/take-home-pay/).
+To confirm your take-home pay under different income scenarios, try the [Take-home Pay Calculator](/tools/salary-calculator/).
 
 ### The Important Caveat: Depreciation Runs Out
 
@@ -207,7 +207,7 @@ At this income level, your marginal income tax rate is relatively low (5-20%). T
 2. Contribute to iDeCo (even a modest amount captures meaningful deductions at this bracket)
 3. Real estate: monitor and consider later as income grows
 
-Use the [NISA Simulator](/ja/tools/nisa-simulator/) to model how consistent contributions compound over 20-30 years. The results are often more compelling than people expect.
+Use the [NISA Simulator](/ja/tools/compound-interest-calculator/) to model how consistent contributions compound over 20-30 years. The results are often more compelling than people expect.
 
 ### 5-8 Million Yen Annual Income: Build All Three in Parallel
 
@@ -280,10 +280,10 @@ For most salaried professionals in Japan, the practical starting point is:
 
 And use these tools to anchor your planning with real numbers:
 
-- [NISA Simulator](/ja/tools/nisa-simulator/) — project your NISA account growth
+- [NISA Simulator](/ja/tools/compound-interest-calculator/) — project your NISA account growth
 - [iDeCo Simulator](/ja/tools/ideco-simulator/) — calculate your annual iDeCo tax saving
 - [Retirement Calculator](/tools/retirement-calculator/) — combine all sources into a retirement projection
-- [Take-home Pay Calculator](/tools/take-home-pay/) — understand your net income baseline
+- [Take-home Pay Calculator](/tools/salary-calculator/) — understand your net income baseline
 
 > Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
 

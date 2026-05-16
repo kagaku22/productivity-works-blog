@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "jwt-decoder"
 ShowToc: false
 aliases:
-  - "/ja/tools/jwt/"
-  - "/ja/tools/jwt-inspector/"
+  - "/ja/tools/jwt-decoder/"
+  - "/ja/tools/jwt-decoder/"
 cover:
   image: "/images/covers/jwt-decoder-ja.png"
   alt: "JWTデコーダー"

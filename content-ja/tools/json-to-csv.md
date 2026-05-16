@@ -7,7 +7,7 @@ categories: ["無料ツール"]
 ShowToc: false
 aliases:
   - "/ja/tools/csv-to-json/"
-  - "/ja/tools/json-csv/"
+  - "/ja/tools/json-to-csv/"
 cover:
   image: "/images/covers/json-to-csv-ja.png"
   alt: "JSON→CSV変換ツール"

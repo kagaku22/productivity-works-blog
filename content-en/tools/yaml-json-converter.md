@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "yaml-json-converter"
 ShowToc: false
 aliases:
-  - "/tools/yaml-to-json/"
-  - "/tools/json-to-yaml/"
+  - "/tools/yaml-json-converter/"
+  - "/tools/yaml-json-converter/"
 cover:
   image: "/images/covers/yaml-json-converter.png"
   alt: "YAML JSON Converter"

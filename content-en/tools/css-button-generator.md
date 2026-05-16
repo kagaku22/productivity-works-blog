@@ -841,6 +841,6 @@ Design professional CSS buttons visually — no coding required. Adjust every st
 
 ## Related Free Tools
 
-- [CSS Box Shadow Generator](/tools/css-box-shadow-generator/) — build and preview multi-layer shadows
+- [CSS Box Shadow Generator](/tools/box-shadow-generator/) — build and preview multi-layer shadows
 - [CSS Gradient Generator](/tools/css-gradient-generator/) — linear, radial, and conic gradients with live preview
 - [CSS Animation Generator](/tools/css-animation-generator/) — keyframe animations with timing and easing controls

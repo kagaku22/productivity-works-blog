@@ -855,6 +855,6 @@ cover:
 - [Time Zone Converter](/tools/timezone-converter/) — Convert times across world time zones instantly
 - [Unit Converter](/tools/unit-converter/) — Length, weight, temperature, and more
 - [Currency Converter](/tools/currency-converter/) — Live exchange rates for 150+ currencies
-- [QR Code Generator](/tools/qr-generator/) — Create QR codes for URLs, text, and contact info
+- [QR Code Generator](/tools/qr-code-generator/) — Create QR codes for URLs, text, and contact info
 
 </div>

@@ -5,7 +5,7 @@ description: "任意の日付までのカウントダウンを作成。日・時
 categories: ["無料ツール"]
 tags: ["カウントダウン", "タイマー", "日数計算", "イベント", "あと何日"]
 slug: "countdown-timer"
-aliases: ["/ja/tools/date-countdown/", "/ja/tools/event-timer/"]
+aliases: ["/ja/tools/event-countdown/", "/ja/tools/event-countdown/"]
 cover:
   image: "/images/covers/countdown-timer-ja.png"
   alt: "カウントダウンタイマー"

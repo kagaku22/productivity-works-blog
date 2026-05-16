@@ -6,7 +6,7 @@ categories: ["Free Tools"]
 slug: "placeholder-image"
 ShowToc: false
 aliases:
-  - "/tools/dummy-image/"
+  - "/tools/placeholder-image/"
   - "/tools/placeholder-generator/"
 cover:
   image: "/images/covers/placeholder-image.png"

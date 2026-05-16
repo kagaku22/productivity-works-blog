@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "css-grid-generator"
 ShowToc: false
 aliases:
-  - "/tools/grid-generator/"
-  - "/tools/css-grid/"
+  - "/tools/css-grid-generator/"
+  - "/tools/css-grid-generator/"
 cover:
   image: "/images/covers/css-grid-generator.png"
   alt: "CSS Grid Generator"

@@ -5,7 +5,7 @@ description: "Encode and decode Base64 strings instantly. Supports text, URLs, a
 categories: ["Free Tools"]
 tags: ["base64", "encoder", "decoder", "developer tool", "encoding"]
 slug: "base64-encoder"
-aliases: ["/tools/base64-decoder/", "/tools/base64-converter/"]
+aliases: ["/tools/base64-encoder/", "/tools/base64-encoder/"]
 cover:
   image: "/images/covers/base64-encoder.png"
   alt: "Base64 Encoder Decoder"

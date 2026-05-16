@@ -5,7 +5,7 @@ description: "Convert between units of length, weight, temperature, volume, area
 categories: ["Free Tools"]
 tags: ["unit converter", "measurement", "conversion", "calculator", "metric imperial"]
 slug: "unit-converter"
-aliases: ["/tools/measurement-converter/", "/tools/metric-converter/"]
+aliases: ["/tools/unit-converter/", "/tools/unit-converter/"]
 cover:
   image: "/images/covers/unit-converter.png"
   alt: "Unit Converter"

@@ -5,7 +5,7 @@ description: "テキストをモールス信号に、モールス信号をテキ
 categories: ["無料ツール"]
 tags: ["モールス信号", "モールス変換", "和文モールス", "音声", "エンコーダー"]
 slug: "morse-code-translator"
-aliases: ["/ja/tools/morse-code/", "/ja/tools/morse-converter/"]
+aliases: ["/ja/tools/morse-code/", "/ja/tools/morse-code-translator/"]
 cover:
   image: "/images/covers/morse-code-translator-ja.png"
   alt: "モールス信号変換ツール"

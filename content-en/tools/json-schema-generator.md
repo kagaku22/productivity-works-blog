@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "json-schema-generator"
 ShowToc: false
 aliases:
-  - "/tools/json-schema/"
-  - "/tools/schema-generator/"
+  - "/tools/json-schema-generator/"
+  - "/tools/json-schema-generator/"
 cover:
   image: "/images/covers/json-schema-generator.png"
   alt: "JSON Schema Generator"

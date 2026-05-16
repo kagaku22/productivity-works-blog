@@ -573,7 +573,7 @@ cover:
 <!-- ========== CROSS-LINKS ========== -->
 <div class="ec-crosslinks">
   <div><span>&#8594;</span>Calculate ROI <a href="/tools/roi-calculator/">ROI Calculator</a></div>
-  <div><span>&#8594;</span>Plan your budget <a href="/tools/budget-calculator/">50/30/20 Budget Calculator</a></div>
+  <div><span>&#8594;</span>Plan your budget <a href="/tools/budget-planner/">50/30/20 Budget Calculator</a></div>
   <div><span>&#8594;</span>Calculate loan payments <a href="/tools/loan-emi-calculator/">Loan EMI Calculator</a></div>
 </div>
 

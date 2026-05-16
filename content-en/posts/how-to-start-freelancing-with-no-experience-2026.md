@@ -323,7 +323,7 @@ Our [Freelance Starter Toolkit](https://payhip.com/productivityworks) includes a
 > See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
 > Create professional invoices for your first clients → [Invoice Generator](/tools/invoice-generator/)
 > Generate a QR code for your freelance portfolio → [QR Code Generator](/tools/qr-code-generator/)
-> Plan your freelance budget → [Budget Calculator](/tools/budget-calculator/)
+> Plan your freelance budget → [Budget Calculator](/tools/budget-planner/)
 > Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
 
 **Related Reading:**

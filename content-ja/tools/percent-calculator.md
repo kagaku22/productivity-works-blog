@@ -5,8 +5,8 @@ draft: false
 slug: "percent-calculator"
 aliases:
   - "/ja/tools/percentage-calculator/"
-  - "/ja/tools/discount-calculator/"
-  - "/ja/tools/waribiki-calculator/"
+  - "/ja/tools/percent-calculator/"
+  - "/ja/tools/percent-calculator/"
 description: "パーセント計算5モード対応：割合計算・百分率・変化率・割引額・チップ計算。買い物の割引額やセール価格、値上がり率などを瞬時に計算できる無料ツール。"
 author: "Productivity Works編集部"
 categories: ["無料ツール"]

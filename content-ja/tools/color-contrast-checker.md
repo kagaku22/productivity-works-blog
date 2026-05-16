@@ -7,7 +7,7 @@ slug: "color-contrast-checker"
 ShowToc: false
 aliases:
   - "/ja/tools/contrast-checker/"
-  - "/ja/tools/wcag-checker/"
+  - "/ja/tools/contrast-checker/"
 cover:
   image: "/images/covers/color-contrast-checker-ja.png"
   alt: "カラーコントラストチェッカー"

@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "font-pairing-tool"
 ShowToc: false
 aliases:
-  - "/ja/tools/font-combinations/"
-  - "/ja/tools/font-pairing/"
+  - "/ja/tools/font-pair-suggester/"
+  - "/ja/tools/font-pairing-tool/"
 cover:
   image: "/images/covers/font-pairing-tool-ja.png"
   alt: "フォントペアリングツール"

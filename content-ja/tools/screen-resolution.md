@@ -10,8 +10,8 @@ cover:
   alt: "画面解像度チェッカー"
 ShowToc: false
 aliases:
-  - "/ja/tools/screen-size/"
-  - "/ja/tools/display-info/"
+  - "/ja/tools/screen-resolution/"
+  - "/ja/tools/screen-resolution/"
 ---
 
 画面解像度・ビューポートサイズ・ピクセル比・アクティブなCSSブレークポイントをリアルタイム表示。ウィンドウをリサイズすると数値が即時更新されます。

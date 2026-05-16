@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "color-scheme-generator"
 ShowToc: false
 aliases:
-  - "/tools/color-scheme/"
-  - "/tools/color-harmony/"
+  - "/tools/color-scheme-generator/"
+  - "/tools/color-scheme-generator/"
 cover:
   image: "/images/covers/color-scheme-generator.png"
   alt: "Color Scheme Generator"

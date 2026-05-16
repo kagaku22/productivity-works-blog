@@ -446,8 +446,8 @@ The old "multiply by 7" rule is a myth. Dogs age rapidly in their first two year
     <li><a href="/tools/bmi-calculator/">BMI Calculator</a></li>
     <li><a href="/tools/calorie-calculator/">Calorie Calculator</a></li>
     <li><a href="/tools/sleep-calculator/">Sleep Calculator</a></li>
-    <li><a href="/tools/life-expectancy-calculator/">Life Expectancy Calculator</a></li>
-    <li><a href="/tools/pet-food-calculator/">Pet Food Calculator</a></li>
+    <li><a href="/tools/retirement-calculator/">Life Expectancy Calculator</a></li>
+    <li><a href="/tools/calorie-calculator/">Pet Food Calculator</a></li>
   </ul>
 </div>
 

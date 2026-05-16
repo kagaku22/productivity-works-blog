@@ -299,8 +299,8 @@ cover:
   <h3>Related Free Tools</h3>
   <ul>
     <li><a href="/tools/pomodoro-timer/">Pomodoro Timer</a> — Pair focused work sessions with white noise</li>
-    <li><a href="/tools/time-blocking-planner/">Time Blocking Planner</a> — Schedule deep-work blocks</li>
-    <li><a href="/tools/distraction-blocker/">Focus Session Tracker</a> — Track distraction-free streaks</li>
+    <li><a href="/tools/daily-planner/">Time Blocking Planner</a> — Schedule deep-work blocks</li>
+    <li><a href="/tools/pomodoro-timer/">Focus Session Tracker</a> — Track distraction-free streaks</li>
   </ul>
 </div>
 

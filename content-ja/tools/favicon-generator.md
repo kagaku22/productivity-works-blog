@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "favicon-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/favicon-maker/"
-  - "/ja/tools/ico-generator/"
+  - "/ja/tools/favicon-generator/"
+  - "/ja/tools/favicon-generator/"
 cover:
   image: "/images/covers/favicon-generator-ja.png"
   alt: "ファビコンジェネレーター"

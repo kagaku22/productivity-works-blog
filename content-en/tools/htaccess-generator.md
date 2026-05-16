@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "htaccess-generator"
 ShowToc: false
 aliases:
-  - "/tools/htaccess/"
-  - "/tools/apache-config/"
+  - "/tools/htaccess-generator/"
+  - "/tools/htaccess-generator/"
 cover:
   image: "/images/covers/htaccess-generator.png"
   alt: ".htaccess Generator"

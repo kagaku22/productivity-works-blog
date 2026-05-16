@@ -240,8 +240,8 @@ The core rules to remember:
 
 If you want to get a clear picture of your numbers before you start filing, use our tools:
 
-- Calculate your realized gains and losses with our [FX Profit Calculator](/ja/tools/fx-profit-calculator/)
-- Understand your total tax liability across all side income with our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/)
+- Calculate your realized gains and losses with our [FX Profit Calculator](/ja/tools/forex-profit-calculator/)
+- Understand your total tax liability across all side income with our [Side Income Tax Calculator](/ja/tools/tax-calculator/)
 
 Getting the filing right in a loss year costs you nothing but time — and it can save you over ¥100,000 in future years.
 

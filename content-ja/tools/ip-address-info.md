@@ -10,8 +10,8 @@ cover:
   alt: "IPアドレス情報ツール"
 ShowToc: false
 aliases:
-  - "/ja/tools/my-ip/"
-  - "/ja/tools/ip-lookup/"
+  - "/ja/tools/ip-address-info/"
+  - "/ja/tools/ip-address-info/"
 ---
 
 ローカルネットワーク情報の検出・サブネット計算・IPv4の10進数変換・IPクラス判定・アドレス検証をブラウザ上で完結。外部へのリクエスト不要です。

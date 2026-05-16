@@ -715,7 +715,7 @@ cover:
     <li><a href="/tools/word-counter/">Word Counter</a></li>
     <li><a href="/tools/pomodoro-timer/">Pomodoro Timer</a></li>
     <li><a href="/tools/roi-calculator/">ROI Calculator</a></li>
-    <li><a href="/tools/password-strength-checker/">Password Strength Checker</a></li>
+    <li><a href="/tools/password-strength-meter/">Password Strength Checker</a></li>
     <li><a href="/tools/unit-converter/">Unit Converter</a></li>
   </ul>
 </div>

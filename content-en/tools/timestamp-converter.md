@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "timestamp-converter"
 ShowToc: false
 aliases:
-  - "/tools/unix-timestamp/"
-  - "/tools/epoch-converter/"
+  - "/tools/timestamp-converter/"
+  - "/tools/timestamp-converter/"
 cover:
   image: "/images/covers/timestamp-converter.png"
   alt: "Unix Timestamp Converter"

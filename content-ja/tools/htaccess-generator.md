@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "htaccess-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/htaccess/"
-  - "/ja/tools/apache-config/"
+  - "/ja/tools/htaccess-generator/"
+  - "/ja/tools/htaccess-generator/"
 cover:
   image: "/images/covers/htaccess-generator-ja.png"
   alt: ".htaccess ジェネレーター"

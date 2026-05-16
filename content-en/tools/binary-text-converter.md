@@ -5,7 +5,7 @@ description: "Convert text to binary and binary to text instantly. Supports UTF-
 categories: ["Free Tools"]
 tags: ["binary", "text converter", "binary to text", "text to binary", "hex", "octal", "developer tool", "encoding"]
 slug: "binary-text-converter"
-aliases: ["/tools/text-to-binary/", "/tools/binary-converter/"]
+aliases: ["/tools/binary-text-converter/", "/tools/binary-converter/"]
 cover:
   image: "/images/covers/binary-text-converter.png"
   alt: "Binary Text Converter"

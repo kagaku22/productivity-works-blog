@@ -4,7 +4,7 @@ description: "SQLクエリをブラウザ上で即座に整形・美化・ミニ
 date: 2025-05-16
 categories: ["無料ツール"]
 slug: "sql-formatter"
-aliases: ["/ja/tools/sql-beautifier/", "/ja/tools/sql-pretty-print/"]
+aliases: ["/ja/tools/sql-formatter/", "/ja/tools/sql-formatter/"]
 ShowToc: false
 cover:
   image: "/images/covers/sql-formatter-ja.png"

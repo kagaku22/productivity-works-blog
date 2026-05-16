@@ -6,8 +6,8 @@ slug: "meta-tag-generator"
 categories: ["Free Tools"]
 ShowToc: false
 aliases:
-  - "/tools/seo-meta-tags/"
-  - "/tools/og-tag-generator/"
+  - "/tools/meta-tag-generator/"
+  - "/tools/meta-tag-generator/"
 cover:
   image: "/images/covers/meta-tag-generator.png"
   alt: "Meta Tag Generator"

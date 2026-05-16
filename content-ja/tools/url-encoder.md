@@ -5,7 +5,7 @@ description: "URLを即座にエンコード・デコード。特殊文字のパ
 categories: ["無料ツール"]
 tags: ["URLエンコード", "URLデコード", "パーセントエンコーディング", "開発ツール", "Web"]
 slug: "url-encoder"
-aliases: ["/ja/tools/url-decoder/", "/ja/tools/urlencode/"]
+aliases: ["/ja/tools/url-encoder-decoder/", "/ja/tools/url-encoder-decoder/"]
 cover:
   image: "/images/covers/url-encoder-ja.png"
   alt: "URLエンコーダー"

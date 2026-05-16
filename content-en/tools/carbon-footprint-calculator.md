@@ -407,10 +407,10 @@ cover:
   <div class="cf-related">
     <h3>Related Free Tools</h3>
     <ul>
-      <li><a href="/tools/time-zone-converter/">Time Zone Converter</a> — plan remote meetings across time zones</li>
+      <li><a href="/tools/timezone-converter/">Time Zone Converter</a> — plan remote meetings across time zones</li>
       <li><a href="/tools/pomodoro-timer/">Pomodoro Timer</a> — boost focus with timed work sessions</li>
       <li><a href="/tools/meeting-cost-calculator/">Meeting Cost Calculator</a> — see the true cost of your meetings</li>
-      <li><a href="/tools/wfh-expense-tracker/">WFH Expense Tracker</a> — track and categorize home office costs</li>
+      <li><a href="/tools/expense-tracker/">WFH Expense Tracker</a> — track and categorize home office costs</li>
     </ul>
   </div>
 

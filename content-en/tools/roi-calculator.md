@@ -499,7 +499,7 @@ Enter your investment figures below to instantly calculate ROI, annualized retur
 <div class="crosslinks">
   <p>> Calculate compound interest &rarr; <a href="/tools/compound-interest-calculator/">Compound Interest Calculator</a></p>
   <p>> Plan your retirement &rarr; <a href="/tools/pension-simulator/">Pension Simulator</a></p>
-  <p>> Manage your budget &rarr; <a href="/tools/budget-calculator/">50/30/20 Budget Calculator</a></p>
+  <p>> Manage your budget &rarr; <a href="/tools/budget-planner/">50/30/20 Budget Calculator</a></p>
 </div>
 
 <script>
@@ -1065,7 +1065,7 @@ Enter your investment figures below to instantly calculate ROI, annualized retur
 
 > Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Plan your retirement → [Pension Simulator](/tools/pension-simulator/)
-> Manage your budget → [50/30/20 Budget Calculator](/tools/budget-calculator/)
+> Manage your budget → [50/30/20 Budget Calculator](/tools/budget-planner/)
 
 ## Related Articles
 

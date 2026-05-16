@@ -5,8 +5,8 @@ description: "Generate Markdown tables instantly with this free online tool. Add
 categories: ["Free Tools"]
 slug: "markdown-table-generator"
 aliases:
-  - "/tools/md-table/"
-  - "/tools/table-generator/"
+  - "/tools/markdown-table-generator/"
+  - "/tools/html-table-generator/"
 ShowToc: false
 cover:
   image: "/images/covers/markdown-table-generator.png"

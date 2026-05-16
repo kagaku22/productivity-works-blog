@@ -5,7 +5,7 @@ description: "無料のワールドクロックダッシュボード。複数タ
 categories: ["無料ツール"]
 slug: "timezone-clock"
 ShowToc: false
-aliases: ["/ja/tools/world-time/"]
+aliases: ["/ja/tools/world-clock/"]
 cover:
   image: "/images/covers/timezone-clock-ja.png"
   alt: "タイムゾーン時計ダッシュボード"

@@ -6,7 +6,7 @@ slug: "css-minifier"
 categories: ["無料ツール"]
 ShowToc: false
 aliases:
-  - "/ja/tools/css-compressor/"
+  - "/ja/tools/css-minifier/"
   - "/ja/tools/css-minifier/"
 cover:
   image: "/images/covers/css-minifier-ja.png"

@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "encoder-decoder"
 ShowToc: false
 aliases:
-  - "/tools/encode-decode/"
-  - "/tools/universal-encoder/"
+  - "/tools/encoder-decoder/"
+  - "/tools/encoder-decoder/"
 cover:
   image: "/images/covers/encoder-decoder.png"
   alt: "Universal Encoder/Decoder"

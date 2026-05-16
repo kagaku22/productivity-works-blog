@@ -5,7 +5,7 @@ description: "生年月日から正確な年齢を年・月・日・時間で計
 categories: ["無料ツール"]
 tags: ["年齢計算", "誕生日", "日数計算", "干支", "和暦"]
 slug: "age-calculator"
-aliases: ["/ja/tools/birthday-calculator/", "/ja/tools/nenrei-keisan/"]
+aliases: ["/ja/tools/age-calculator/", "/ja/tools/age-calculator/"]
 cover:
   image: "/images/covers/age-calculator-ja.png"
   alt: "年齢計算ツール"

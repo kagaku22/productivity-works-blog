@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "text-gradient-generator"
 ShowToc: false
 aliases:
-  - "/tools/text-gradient/"
-  - "/tools/gradient-text/"
+  - "/tools/text-gradient-generator/"
+  - "/tools/color-gradient-text/"
 cover:
   image: "/images/covers/text-gradient-generator.png"
   alt: "CSS Text Gradient Generator"

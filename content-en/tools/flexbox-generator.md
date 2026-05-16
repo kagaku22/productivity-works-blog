@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "flexbox-generator"
 ShowToc: false
 aliases:
-  - "/tools/css-flex/"
-  - "/tools/flex-generator/"
+  - "/tools/flexbox-generator/"
+  - "/tools/flexbox-generator/"
 cover:
   image: "/images/covers/flexbox-generator.png"
   alt: "CSS Flexbox Generator"

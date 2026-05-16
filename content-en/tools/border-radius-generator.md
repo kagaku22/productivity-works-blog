@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "border-radius-generator"
 ShowToc: false
 aliases:
-  - "/tools/border-radius/"
-  - "/tools/rounded-corners/"
+  - "/tools/border-radius-generator/"
+  - "/tools/border-radius-generator/"
 cover:
   image: "/images/covers/border-radius-generator.png"
   alt: "CSS Border Radius Generator"

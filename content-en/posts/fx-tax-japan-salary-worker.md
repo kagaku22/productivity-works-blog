@@ -113,7 +113,7 @@ Notice that even though your gross profit doubled compared to Example 1, the eff
 
 For a salaried worker whose employment income is already taxed at a combined marginal rate of 30–40% or higher, the 20.315% rate on FX gains is significantly more favorable. A trader in the 33% national income tax bracket, for example, saves roughly 13 percentage points by having gains taxed under the separate declaration system rather than as ordinary miscellaneous income.
 
-Use our [FX Profit Calculator](/ja/tools/fx-profit-calculator/) for instant results without doing the math manually.
+Use our [FX Profit Calculator](/ja/tools/forex-profit-calculator/) for instant results without doing the math manually.
 
 ---
 
@@ -242,7 +242,7 @@ The key numbers to keep in mind:
 
 Getting these basics right puts you in full compliance and positions you to take full advantage of the deductions and carryforwards available under Japanese tax law.
 
-Check your [take-home pay](/ja/tools/salary-tedori-calculator/) after FX taxes to understand the full picture of what you earn and keep each year.
+Check your [take-home pay](/ja/tools/salary-calculator/) after FX taxes to understand the full picture of what you earn and keep each year.
 
 ---
 

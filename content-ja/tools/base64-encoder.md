@@ -5,7 +5,7 @@ description: "Base64文字列を即座にエンコード・デコード。テキ
 categories: ["無料ツール"]
 tags: ["Base64", "エンコーダー", "デコーダー", "開発ツール", "エンコード"]
 slug: "base64-encoder"
-aliases: ["/ja/tools/base64-decoder/", "/ja/tools/base64-converter/"]
+aliases: ["/ja/tools/base64-encoder/", "/ja/tools/base64-encoder/"]
 cover:
   image: "/images/covers/base64-encoder-ja.png"
   alt: "Base64エンコーダー"

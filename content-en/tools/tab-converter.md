@@ -5,7 +5,7 @@ description: "Free online tool to convert tabs to spaces or spaces to tabs. Conf
 categories: ["Free Tools"]
 slug: "tab-converter"
 ShowToc: false
-aliases: ["/tools/tabs-to-spaces/", "/tools/spaces-to-tabs/"]
+aliases: ["/tools/tab-converter/", "/tools/tab-converter/"]
 cover:
   image: "/images/covers/tab-converter.png"
   alt: "Tab Spaces Converter"

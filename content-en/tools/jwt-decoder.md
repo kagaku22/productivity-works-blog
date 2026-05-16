@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "jwt-decoder"
 ShowToc: false
 aliases:
-  - "/tools/jwt/"
-  - "/tools/jwt-inspector/"
+  - "/tools/jwt-decoder/"
+  - "/tools/jwt-decoder/"
 cover:
   image: "/images/covers/jwt-decoder.png"
   alt: "JWT Decoder"

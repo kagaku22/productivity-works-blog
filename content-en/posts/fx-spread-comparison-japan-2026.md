@@ -186,7 +186,7 @@ Now run the same calculation with a broker charging 0.3 pips:
 
 The difference is ¥60,000 annually — just from a 0.1 pip spread difference.
 
-Use our [FX Profit Calculator](/ja/tools/fx-profit-calculator/) to model your specific trading volume, spread, and lot size, and see exactly how spreads affect your bottom line across different scenarios.
+Use our [FX Profit Calculator](/ja/tools/forex-profit-calculator/) to model your specific trading volume, spread, and lot size, and see exactly how spreads affect your bottom line across different scenarios.
 
 ---
 

@@ -371,10 +371,10 @@ Estimate your paycheck deductions in seconds. Enter your gross pay and filing de
 <div class="tw-related">
   <h3>Related Free Tools</h3>
   <ul>
-    <li><a href="/tools/salary-to-hourly-calculator/">Salary to Hourly Calculator</a></li>
-    <li><a href="/tools/overtime-pay-calculator/">Overtime Pay Calculator</a></li>
-    <li><a href="/tools/budget-calculator/">Monthly Budget Calculator</a></li>
-    <li><a href="/tools/retirement-savings-calculator/">Retirement Savings Calculator</a></li>
+    <li><a href="/tools/hourly-to-salary-calculator/">Salary to Hourly Calculator</a></li>
+    <li><a href="/tools/salary-calculator/">Overtime Pay Calculator</a></li>
+    <li><a href="/tools/budget-planner/">Monthly Budget Calculator</a></li>
+    <li><a href="/tools/retirement-calculator/">Retirement Savings Calculator</a></li>
   </ul>
 </div>
 

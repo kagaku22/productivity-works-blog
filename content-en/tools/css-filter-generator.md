@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "css-filter-generator"
 ShowToc: false
 aliases:
-  - "/tools/css-filter/"
-  - "/tools/image-filter/"
+  - "/tools/css-filter-generator/"
+  - "/tools/photo-filter/"
 cover:
   image: "/images/covers/css-filter-generator.png"
   alt: "CSS Filter Generator"

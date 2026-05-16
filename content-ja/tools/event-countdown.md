@@ -5,7 +5,7 @@ description: "無料のイベントカウントダウンツール。指定日時
 categories: ["無料ツール"]
 tags: ["イベントカウントダウン", "あと何日", "日数計算", "締切管理", "記念日"]
 slug: "event-countdown"
-aliases: ["/ja/tools/days-until/", "/ja/tools/event-days/"]
+aliases: ["/ja/tools/days-until-calculator/", "/ja/tools/days-until-calculator/"]
 cover:
   image: "/images/covers/event-countdown-ja.png"
   alt: "イベントカウントダウン"

@@ -10,8 +10,8 @@ cover:
   alt: "IP Address Info"
 ShowToc: false
 aliases:
-  - "/tools/my-ip/"
-  - "/tools/ip-lookup/"
+  - "/tools/ip-address-info/"
+  - "/tools/ip-address-info/"
 ---
 
 Detect your local network info, calculate subnets, convert IPv4 to decimal, check IP classes, and validate addresses — all in your browser with no external requests.

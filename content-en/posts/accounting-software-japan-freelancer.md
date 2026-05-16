@@ -250,7 +250,7 @@ For freelancers choosing freee, here is a brief overview of the annual tax filin
 
 **Step 5: Generate and submit your tax return.** freee produces the required tax forms — the 青色申告決算書 (Blue Return Settlement Sheet) and the 確定申告書 (Tax Return) — and submits them directly via e-Tax. You will need a My Number Card and a card reader, or the My Number Card smartphone app, for digital authentication.
 
-**Pro tip:** Before you start, it helps to know roughly what you owe. Calculate your estimated taxes first with our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/) to avoid any year-end surprises.
+**Pro tip:** Before you start, it helps to know roughly what you owe. Calculate your estimated taxes first with our [Side Income Tax Calculator](/ja/tools/tax-calculator/) to avoid any year-end surprises.
 
 The entire filing process through freee typically takes two to four hours for a straightforward freelance operation — far less than manual filing, and far less stressful.
 

@@ -3,7 +3,7 @@ title: "BMI計算ツール｜身長と体重から肥満度を自動判定【無
 date: 2026-05-16
 draft: false
 slug: "bmi-calculator"
-aliases: ["/ja/tools/bmi-keisan/"]
+aliases: ["/ja/tools/bmi-calculator/"]
 description: "身長と体重を入力するだけでBMI（体格指数）を自動計算。日本肥満学会の基準で判定し、適正体重・美容体重も表示。無料で使えるBMI計算ツール。"
 author: "Productivity Works編集部"
 categories: ["無料ツール"]

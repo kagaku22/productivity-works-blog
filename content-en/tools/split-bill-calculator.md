@@ -513,7 +513,7 @@ cover:
 <!-- ===== CROSS-LINKS ===== -->
 <div class="sb-crosslinks">
   Calculate tips &rarr; <a href="/tools/tip-calculator/">Tip Calculator</a><br>
-  Plan your budget &rarr; <a href="/tools/budget-calculator/">50/30/20 Budget Calculator</a><br>
+  Plan your budget &rarr; <a href="/tools/budget-planner/">50/30/20 Budget Calculator</a><br>
   Calculate percentages &rarr; <a href="/tools/percentage-calculator/">Percentage Calculator</a>
 </div>
 

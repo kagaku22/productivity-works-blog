@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "clip-path-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/clip-path/"
-  - "/ja/tools/shape-builder/"
+  - "/ja/tools/clip-path-generator/"
+  - "/ja/tools/clip-path-generator/"
 cover:
   image: "/images/covers/clip-path-generator-ja.png"
   alt: "CSS Clip-Pathジェネレーター"

@@ -5,7 +5,7 @@ description: "Calculate your exact age in years, months, days, hours, and minute
 categories: ["Free Tools"]
 tags: ["age calculator", "birthday", "date calculator", "how old am I", "days between dates"]
 slug: "age-calculator"
-aliases: ["/tools/birthday-calculator/", "/tools/date-calculator/"]
+aliases: ["/tools/age-calculator/", "/tools/date-calculator/"]
 cover:
   image: "/images/covers/age-calculator.png"
   alt: "Age Calculator"

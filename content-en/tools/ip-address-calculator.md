@@ -338,9 +338,9 @@ cover:
   <h3>Related Tools</h3>
   <ul>
     <li><a href="/tools/binary-converter/">Binary / Hex / Decimal Converter</a></li>
-    <li><a href="/tools/port-number-lookup/">Port Number Lookup</a></li>
-    <li><a href="/tools/mac-address-lookup/">MAC Address Vendor Lookup</a></li>
-    <li><a href="/tools/network-speed-calculator/">Network Speed & Bandwidth Calculator</a></li>
+    <li><a href="/tools/ip-address-info/">Port Number Lookup</a></li>
+    <li><a href="/tools/ip-address-info/">MAC Address Vendor Lookup</a></li>
+    <li><a href="/tools/download-time-calculator/">Network Speed & Bandwidth Calculator</a></li>
   </ul>
 </div>
 

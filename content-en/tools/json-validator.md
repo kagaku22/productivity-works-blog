@@ -5,7 +5,7 @@ description: "Free online JSON validator and formatter. Validate JSON syntax wit
 categories: ["Free Tools"]
 slug: "json-validator"
 ShowToc: false
-aliases: ["/tools/json-formatter/", "/tools/json-beautifier/"]
+aliases: ["/tools/json-formatter/", "/tools/json-formatter/"]
 cover:
   image: "/images/covers/json-validator.png"
   alt: "JSON Validator & Formatter"

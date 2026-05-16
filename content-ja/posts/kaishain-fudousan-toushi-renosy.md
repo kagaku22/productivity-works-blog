@@ -263,7 +263,7 @@ iDeCoで年27.6万円の掛金控除 → 所得税20%＋住民税10%で年間約
 > NISAの積立シミュレーション → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > iDeCoの節税効果を計算 → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
-> 住宅ローンの返済計画 → [住宅ローンシミュレーター](/ja/tools/housing-loan-simulator/)
+> 住宅ローンの返済計画 → [住宅ローンシミュレーター](/ja/tools/jutaku-loan-simulator/)
 > 教育費の総額を計算 → [教育費シミュレーター](/ja/tools/kyouikuhi-simulator/)
 
 ### 関連記事

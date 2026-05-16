@@ -210,9 +210,9 @@ cover:
 <div class="cvt-related">
   <h4>Related Free Tools</h4>
   <ul>
-    <li><a href="/tools/reaction-time-test/">Reaction Time Test – Measure your reflexes</a></li>
-    <li><a href="/tools/reading-speed-test/">Reading Speed Test – Words per minute calculator</a></li>
-    <li><a href="/tools/focus-timer/">Focus Timer – Pomodoro-style productivity timer</a></li>
+    <li><a href="/tools/typing-speed-test/">Reaction Time Test – Measure your reflexes</a></li>
+    <li><a href="/tools/reading-speed-calculator/">Reading Speed Test – Words per minute calculator</a></li>
+    <li><a href="/tools/pomodoro-timer/">Focus Timer – Pomodoro-style productivity timer</a></li>
   </ul>
 </div>
 

@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "pixel-ruler"
 ShowToc: false
 aliases:
-  - "/tools/screen-ruler/"
-  - "/tools/measure-pixels/"
+  - "/tools/pixel-ruler/"
+  - "/tools/pixel-ruler/"
 cover:
   image: "/images/covers/pixel-ruler.png"
   alt: "Pixel Ruler Screen Measurement Tool"

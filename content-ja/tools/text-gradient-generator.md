@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "text-gradient-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/text-gradient/"
-  - "/ja/tools/gradient-text/"
+  - "/ja/tools/text-gradient-generator/"
+  - "/ja/tools/color-gradient-text/"
 cover:
   image: "/images/covers/text-gradient-generator-ja.png"
   alt: "CSSテキストグラデーションジェネレーター"

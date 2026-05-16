@@ -195,7 +195,7 @@ As a kojin jigyonushi, you are no longer covered by your employer's shakai hoken
 
 Both are deductible from your taxable income, which reduces your income tax and residence tax burden.
 
-Estimate your freelance taxes with our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/) to see how different income levels and deductions affect your take-home pay.
+Estimate your freelance taxes with our [Side Income Tax Calculator](/ja/tools/tax-calculator/) to see how different income levels and deductions affect your take-home pay.
 
 ---
 
@@ -280,7 +280,7 @@ Registering as a kojin jigyonushi in Japan is a straightforward process once you
 
 The combination of proper registration and good accounting software removes the two biggest sources of stress for new freelancers in Japan: legal uncertainty and tax filing. With freee handling the numbers automatically from your connected bank accounts, your monthly bookkeeping takes minutes rather than hours, and your annual tax return becomes a guided wizard rather than a paper ordeal.
 
-Manage your household budget alongside business finances with our [Budget Planner](/ja/tools/kakeibo-generator/) — keeping personal and business spending visible in one place makes it easier to plan quarterly tax payments and manage cash flow through slower months.
+Manage your household budget alongside business finances with our [Budget Planner](/ja/tools/budget-planner/) — keeping personal and business spending visible in one place makes it easier to plan quarterly tax payments and manage cash flow through slower months.
 
 Ready to get your books in order? **[Get started with freee today](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)** and take the administrative complexity out of going freelance in Japan.
 

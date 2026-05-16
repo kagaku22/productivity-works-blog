@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "json-schema-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/json-schema/"
-  - "/ja/tools/schema-generator/"
+  - "/ja/tools/json-schema-generator/"
+  - "/ja/tools/json-schema-generator/"
 cover:
   image: "/images/covers/json-schema-generator-ja.png"
   alt: "JSONスキーマジェネレーター"

@@ -9,7 +9,7 @@ cover:
   image: "/images/covers/cron-generator-ja.png"
   alt: "Cron式ジェネレーター"
 aliases:
-  - "/ja/tools/cron-expression/"
+  - "/ja/tools/cron-expression-builder/"
   - "/ja/tools/crontab-generator/"
 ---
 

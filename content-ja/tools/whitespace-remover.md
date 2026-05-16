@@ -5,7 +5,7 @@ description: "テキストの余分なスペース・空白行・タブ・改行
 categories: ["無料ツール"]
 tags: ["空白削除", "スペース削除", "空行削除", "テキスト整形", "タブ削除"]
 slug: "whitespace-remover"
-aliases: ["/ja/tools/trim-whitespace/", "/ja/tools/remove-spaces/"]
+aliases: ["/ja/tools/whitespace-remover/", "/ja/tools/whitespace-remover/"]
 cover:
   image: "/images/covers/whitespace-remover-ja.png"
   alt: "空白削除ツール"

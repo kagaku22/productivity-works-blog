@@ -379,7 +379,7 @@ cover:
 <div style="margin-top:24px;padding:16px 20px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;font-size:13px;color:#475569;line-height:2;">
 
 > 投資利益率を計算 → <a href="/ja/tools/roi-calculator/">ROI計算ツール</a><br>
-> 家計を見直す → <a href="/ja/tools/budget-calculator/">50/30/20 家計バランス計算</a><br>
+> 家計を見直す → <a href="/ja/tools/budget-planner/">50/30/20 家計バランス計算</a><br>
 > ローン返済を計算 → <a href="/ja/tools/loan-emi-calculator/">ローン返済シミュレーター</a>
 
 </div>

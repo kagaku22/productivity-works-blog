@@ -3,7 +3,7 @@ title: "ROT13 / Caesar Cipher Encoder & Decoder"
 date: 2025-05-16
 slug: "rot13-encoder"
 categories: ["Free Tools"]
-aliases: ["/tools/caesar-cipher/", "/tools/rot13/"]
+aliases: ["/tools/rot13-encoder/", "/tools/rot13-encoder/"]
 ShowToc: false
 cover:
   image: "/images/covers/rot13-encoder.png"

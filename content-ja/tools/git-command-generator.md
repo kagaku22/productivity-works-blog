@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "git-command-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/git-commands/"
-  - "/ja/tools/git-reference/"
+  - "/ja/tools/git-command-generator/"
+  - "/ja/tools/git-command-generator/"
 cover:
   image: "/images/covers/git-command-generator-ja.png"
   alt: "Gitコマンドジェネレーター"

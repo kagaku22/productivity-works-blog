@@ -511,7 +511,7 @@ refresh();
 
 ---
 
-> Unixタイムスタンプを変換 → [Unixタイムスタンプ変換ツール](/ja/tools/unix-timestamp-converter/)
+> Unixタイムスタンプを変換 → [Unixタイムスタンプ変換ツール](/ja/tools/timestamp-converter/)
 > Gitコマンドを生成 → [Gitコマンドジェネレーター](/ja/tools/git-command-generator/)
 > ファイル権限を計算 → [Chmod計算ツール](/ja/tools/chmod-calculator/)
 

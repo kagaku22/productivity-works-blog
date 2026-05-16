@@ -424,11 +424,11 @@ cover:
 <div class="duc-related">
   <h3>Related Tools</h3>
   <div class="duc-related-links">
-    <a href="/tools/time-zone-converter/">Time Zone Converter</a>
+    <a href="/tools/timezone-converter/">Time Zone Converter</a>
     <a href="/tools/age-calculator/">Age Calculator</a>
-    <a href="/tools/work-hours-calculator/">Work Hours Calculator</a>
-    <a href="/tools/deadline-calculator/">Deadline Calculator</a>
-    <a href="/tools/calendar-week-number/">Week Number Calculator</a>
+    <a href="/tools/hourly-to-salary-calculator/">Work Hours Calculator</a>
+    <a href="/tools/date-calculator/">Deadline Calculator</a>
+    <a href="/tools/date-calculator/">Week Number Calculator</a>
   </div>
 </div>
 

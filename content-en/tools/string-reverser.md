@@ -5,7 +5,7 @@ description: "Reverse a string, reverse word order, flip each word, toggle case,
 categories: ["Free Tools"]
 tags: ["string reverser", "reverse text", "flip text", "toggle case", "text tools", "free tool"]
 slug: "string-reverser"
-aliases: ["/tools/reverse-text/", "/tools/text-reverser/"]
+aliases: ["/tools/string-reverser/", "/tools/string-reverser/"]
 cover:
   image: "/images/covers/string-reverser.png"
   alt: "String Reverser"

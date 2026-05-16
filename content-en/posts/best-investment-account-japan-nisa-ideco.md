@@ -162,16 +162,16 @@ The iDeCo comparison is more complex because the deduction savings compound in y
 
 ### Walk Through the NISA Simulator
 
-You can model your own numbers using the [NISA Simulator](/ja/tools/nisa-simulator/) on this site. Here is the exact process:
+You can model your own numbers using the [NISA Simulator](/ja/tools/compound-interest-calculator/) on this site. Here is the exact process:
 
-1. Open the [NISA Simulator](/ja/tools/nisa-simulator/).
+1. Open the [NISA Simulator](/ja/tools/compound-interest-calculator/).
 2. Enter your **monthly investment amount** — for example, ¥30,000.
 3. Set the **expected annual return** — 5% is a reasonable long-run assumption for a diversified global equity index fund, but you can test 3%, 5%, and 7% scenarios.
 4. Set the **investment period** in years. Try 20 years, then adjust for your actual retirement timeline.
 5. The simulator shows your final NISA balance alongside a taxable account scenario, so you can see the exact yen difference tax-free compounding makes.
 6. Click "Compare with iDeCo" to run a parallel iDeCo projection. Enter your monthly contribution limit and marginal tax rate.
 
-Also try the [iDeCo Simulator](/ja/tools/ideco-simulator/) to model the tax-deduction savings year by year, and the [Compound Interest Calculator](/tools/compound-interest/) to experiment with different return assumptions.
+Also try the [iDeCo Simulator](/ja/tools/ideco-simulator/) to model the tax-deduction savings year by year, and the [Compound Interest Calculator](/tools/compound-interest-calculator/) to experiment with different return assumptions.
 
 For a full picture of how these accounts feed into retirement, the [Retirement Calculator](/tools/retirement-calculator/) lets you combine your NISA, iDeCo, and public pension (nenkin) into a single retirement income projection.
 
@@ -230,7 +230,7 @@ Set up a monthly automatic purchase (積立設定) aligned with your NISA tsumit
 - The 20-year simulation shows roughly **¥1M in tax savings** just by using NISA instead of a taxable account on the same ¥30,000/month plan.
 - Open a Rakuten Securities account with your My Number card — the e-KYC process takes under 10 minutes.
 
-Run your own numbers with the [NISA Simulator](/ja/tools/nisa-simulator/), the [iDeCo Simulator](/ja/tools/ideco-simulator/), and the [Retirement Calculator](/tools/retirement-calculator/) before you decide on a contribution amount.
+Run your own numbers with the [NISA Simulator](/ja/tools/compound-interest-calculator/), the [iDeCo Simulator](/ja/tools/ideco-simulator/), and the [Retirement Calculator](/tools/retirement-calculator/) before you decide on a contribution amount.
 
 ---
 

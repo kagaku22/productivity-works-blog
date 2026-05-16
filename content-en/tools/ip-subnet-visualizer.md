@@ -5,7 +5,7 @@ description: "Visual CIDR subnet calculator. Enter IP/CIDR to see network addres
 categories: ["Free Tools"]
 tags: ["subnet calculator", "CIDR calculator", "IP subnet", "network address", "broadcast address", "subnet mask", "IPv4"]
 slug: "ip-subnet-visualizer"
-aliases: ["/tools/subnet-visualizer/", "/tools/cidr-calculator/"]
+aliases: ["/tools/ip-subnet-visualizer/", "/tools/ip-subnet-calculator/"]
 cover:
   image: "/images/covers/ip-subnet-visualizer.png"
   alt: "IP Subnet Visualizer"

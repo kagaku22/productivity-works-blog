@@ -5,7 +5,7 @@ description: "画像のサイズを入力してターゲットのアスペクト
 categories: ["無料ツール"]
 tags: ["アスペクト比", "クロップ計算", "画像トリミング", "16:9", "4:3", "写真編集", "無料ツール"]
 slug: "aspect-ratio-crop"
-aliases: ["/ja/tools/crop-calculator/"]
+aliases: ["/ja/tools/aspect-ratio-crop/"]
 cover:
   image: "/images/covers/aspect-ratio-crop-ja.png"
   alt: "アスペクト比クロップ計算"

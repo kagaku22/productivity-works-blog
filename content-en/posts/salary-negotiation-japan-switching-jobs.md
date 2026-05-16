@@ -39,7 +39,7 @@ When a recruiter quotes you ¥6,000,000 a year, that number is *nenkyū* (年収
 
 Taken together, a ¥6 million gross annual salary typically nets somewhere between ¥4.2 million and ¥4.5 million after all deductions—roughly 70–75 cents on every yen. That gap is larger than in many European countries and far larger than most newcomers anticipate.
 
-Before you set a target number in any negotiation, run the actual numbers. Our **[Take-Home Pay Calculator](/tools/take-home-pay/)** lets you enter any gross monthly figure and see your estimated net after income tax, residence tax, and social insurance. Use it to work backward: decide what monthly net you need to cover your life, then calculate what gross you must ask for. This one step alone prevents the most common post-offer disappointment.
+Before you set a target number in any negotiation, run the actual numbers. Our **[Take-Home Pay Calculator](/tools/salary-calculator/)** lets you enter any gross monthly figure and see your estimated net after income tax, residence tax, and social insurance. Use it to work backward: decide what monthly net you need to cover your life, then calculate what gross you must ask for. This one step alone prevents the most common post-offer disappointment.
 
 **Pro tip:** Social insurance contributions are calculated based on your *hyōjun hōshū getsugaku* (標準報酬月額)—a standardized remuneration bracket, not your exact salary. The brackets update every September based on a four-month average (April–July). Ask your HR contact which bracket your new salary falls into, because the difference between adjacent brackets can mean ¥2,000–¥5,000 a month.
 
@@ -142,7 +142,7 @@ Registration on doda is free. You create a profile, upload a Japanese-format res
 
 Before you accept any offer, work through this list:
 
-1. **Run the take-home number.** Use the [Take-Home Pay Calculator](/tools/take-home-pay/) with the gross figure offered. Confirm the net is livable.
+1. **Run the take-home number.** Use the [Take-Home Pay Calculator](/tools/salary-calculator/) with the gross figure offered. Confirm the net is livable.
 2. **Identify the social insurance bracket.** Ask HR for the *hyōjun hōshū getsugaku* that applies to your new salary.
 3. **Quantify your forfeited bonus.** Calculate what bonus (June or December) you will miss at your current company and request a sign-on offset.
 4. **Check the *minashi zangyō* component.** Remove any fixed overtime allowance from the headline figure before comparing base salaries.

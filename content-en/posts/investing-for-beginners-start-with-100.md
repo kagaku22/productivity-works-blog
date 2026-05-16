@@ -224,7 +224,7 @@ A $100 investment made today is worth more than a $1,000 investment made next ye
 
 > See how $100/month grows over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
-> Create a budget to free up investment funds → [Budget Calculator](/tools/budget-calculator/)
+> Create a budget to free up investment funds → [Budget Calculator](/tools/budget-planner/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
 > See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
 

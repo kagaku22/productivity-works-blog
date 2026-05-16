@@ -8,7 +8,7 @@ ShowToc: false
 cover:
   image: "/images/covers/slug-generator-ja.png"
   alt: "URLスラッグ生成ツール"
-aliases: ["/ja/tools/url-slug/", "/ja/tools/slugify/"]
+aliases: ["/ja/tools/slug-generator/", "/ja/tools/slug-generator/"]
 ---
 
 <div id="sg-app">

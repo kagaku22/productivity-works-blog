@@ -5,7 +5,7 @@ description: "無料の画面情報＆ディスプレイテストツール。画
 categories: ["無料ツール"]
 slug: "screen-recorder-info"
 ShowToc: false
-aliases: ["/ja/tools/display-tester/"]
+aliases: ["/ja/tools/viewport-tester/"]
 cover:
   image: "/images/covers/screen-recorder-info-ja.png"
   alt: "画面情報＆ディスプレイテスト"

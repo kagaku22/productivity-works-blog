@@ -5,7 +5,7 @@ description: "文字数・単語数・段落数をリアルタイムでカウン
 categories: ["無料ツール"]
 tags: ["文字数カウント", "単語数", "ライティング", "テキスト分析", "読了時間"]
 slug: "moji-counter"
-aliases: ["/ja/tools/word-counter/", "/ja/tools/character-counter/", "/ja/tools/text-counter/"]
+aliases: ["/ja/tools/word-counter/", "/ja/tools/character-counter/", "/ja/tools/character-counter/"]
 cover:
   image: "/images/covers/moji-counter.png"
   alt: "文字数カウンター"

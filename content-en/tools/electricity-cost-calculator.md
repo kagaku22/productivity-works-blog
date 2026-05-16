@@ -449,7 +449,7 @@ cover:
 <div class="ec-related">
   <h3>Related Free Tools</h3>
   <ul>
-    <li><a href="/tools/hourly-rate-calculator/">Hourly Rate Calculator</a></li>
+    <li><a href="/tools/hourly-to-salary-calculator/">Hourly Rate Calculator</a></li>
     <li><a href="/tools/savings-goal-calculator/">Savings Goal Calculator</a></li>
     <li><a href="/tools/pomodoro-timer/">Pomodoro Timer</a></li>
     <li><a href="/tools/bmi-calculator/">BMI Calculator</a></li>

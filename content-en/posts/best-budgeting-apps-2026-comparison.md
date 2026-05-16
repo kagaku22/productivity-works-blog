@@ -324,7 +324,7 @@ Start the free trial of your top choice today. Commit to 30 days. The data you g
 ### Related Tools & Articles
 > Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
 
-> Create your monthly budget plan → [Budget Calculator](/tools/budget-calculator/)
+> Create your monthly budget plan → [Budget Calculator](/tools/budget-planner/)
 > Track your debt payoff progress → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
 > See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)

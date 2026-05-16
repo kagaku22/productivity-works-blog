@@ -5,7 +5,7 @@ description: "Enter image dimensions, choose a target aspect ratio (16:9, 4:3, 1
 categories: ["Free Tools"]
 tags: ["aspect ratio", "crop calculator", "image crop", "16:9", "4:3", "photo crop", "free tool", "image tool"]
 slug: "aspect-ratio-crop"
-aliases: ["/tools/crop-calculator/"]
+aliases: ["/tools/aspect-ratio-crop/"]
 cover:
   image: "/images/covers/aspect-ratio-crop.png"
   alt: "Aspect Ratio Crop Calculator"

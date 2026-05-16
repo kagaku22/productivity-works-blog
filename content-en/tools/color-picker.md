@@ -5,7 +5,7 @@ description: "Pick colors visually and convert between HEX, RGB, HSL, and HSV. G
 categories: ["Free Tools"]
 tags: ["color picker", "hex converter", "rgb", "hsl", "design tool"]
 slug: "color-picker"
-aliases: ["/tools/hex-converter/", "/tools/color-converter/", "/tools/rgb-to-hex/"]
+aliases: ["/tools/rgb-hex-converter/", "/tools/color-converter/", "/tools/rgb-hex-converter/"]
 cover:
   image: "/images/covers/color-picker.png"
   alt: "Color Picker"

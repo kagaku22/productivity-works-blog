@@ -5,7 +5,7 @@ description: "Webデザイン・印刷物のダミーテキストを瞬時に生
 categories: ["無料ツール"]
 tags: ["ダミーテキスト", "lorem ipsum", "仮テキスト", "プレースホルダー", "Webデザイン"]
 slug: "lorem-ipsum-generator"
-aliases: ["/ja/tools/dummy-text/", "/ja/tools/placeholder-text/"]
+aliases: ["/ja/tools/lorem-ipsum-generator/", "/ja/tools/lorem-ipsum-generator/"]
 cover:
   image: "/images/covers/lorem-ipsum-generator-ja.png"
   alt: "ダミーテキスト生成ツール"

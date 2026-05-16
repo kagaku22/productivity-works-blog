@@ -5,7 +5,7 @@ description: "Encode and decode URLs instantly. Convert special characters to pe
 categories: ["Free Tools"]
 tags: ["url encoder", "url decoder", "percent encoding", "developer tool", "web"]
 slug: "url-encoder"
-aliases: ["/tools/url-decoder/", "/tools/percent-encoding/", "/tools/urlencode/"]
+aliases: ["/tools/url-encoder-decoder/", "/tools/url-encoder-decoder/", "/tools/url-encoder-decoder/"]
 cover:
   image: "/images/covers/url-encoder.png"
   alt: "URL Encoder Decoder"

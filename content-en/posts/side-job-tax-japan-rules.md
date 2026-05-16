@@ -96,7 +96,7 @@ FX trading profits and cryptocurrency gains are taxed differently:
 
 Losses from FX trading can be carried forward for three years to offset future FX gains, but crypto losses cannot be offset against other income types.
 
-You can check your estimated take-home impact after all deductions with our [take-home pay impact calculator](/ja/tools/salary-tedori-calculator/), or estimate your liability directly using our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/).
+You can check your estimated take-home impact after all deductions with our [take-home pay impact calculator](/ja/tools/salary-calculator/), or estimate your liability directly using our [Side Income Tax Calculator](/ja/tools/tax-calculator/).
 
 ---
 

@@ -6,8 +6,8 @@ slug: "email-template-builder"
 categories: ["Free Tools"]
 ShowToc: false
 aliases:
-  - "/tools/html-email-builder/"
-  - "/tools/email-generator/"
+  - "/tools/email-template-builder/"
+  - "/tools/email-template-builder/"
 cover:
   image: "/images/covers/email-template-builder.png"
   alt: "Email Template Builder"

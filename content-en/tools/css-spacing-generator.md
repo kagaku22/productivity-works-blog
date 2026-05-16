@@ -837,6 +837,6 @@ padding: 8px 16px 12px 16px;
 
 ## Related Tools
 
-- [CSS Flexbox Generator](/tools/css-flexbox-generator/) — Build flexbox layouts visually with live output.
-- [CSS Box Shadow Generator](/tools/css-box-shadow-generator/) — Design layered shadows with real-time preview.
+- [CSS Flexbox Generator](/tools/flexbox-generator/) — Build flexbox layouts visually with live output.
+- [CSS Box Shadow Generator](/tools/box-shadow-generator/) — Design layered shadows with real-time preview.
 - [CSS Variables Generator](/tools/css-variables-generator/) — Define and export custom property systems.

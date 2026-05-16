@@ -5,7 +5,7 @@ description: "Free event countdown timer. Set any future date and see live count
 categories: ["Free Tools"]
 tags: ["event countdown", "days until", "date calculator", "countdown", "deadline tracker"]
 slug: "event-countdown"
-aliases: ["/tools/days-until/", "/tools/event-days/", "/tools/days-until-calculator/"]
+aliases: ["/tools/days-until-calculator/", "/tools/days-until-calculator/", "/tools/days-until-calculator/"]
 cover:
   image: "/images/covers/event-countdown.png"
   alt: "Event Countdown - Days Until Calculator"

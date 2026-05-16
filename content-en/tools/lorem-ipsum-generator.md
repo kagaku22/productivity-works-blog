@@ -5,7 +5,7 @@ description: "Generate Lorem Ipsum placeholder text instantly. Choose paragraphs
 categories: ["Free Tools"]
 tags: ["lorem ipsum", "placeholder text", "dummy text", "text generator", "web design"]
 slug: "lorem-ipsum-generator"
-aliases: ["/tools/dummy-text/", "/tools/placeholder-text/"]
+aliases: ["/tools/lorem-ipsum-generator/", "/tools/lorem-ipsum-generator/"]
 cover:
   image: "/images/covers/lorem-ipsum-generator.png"
   alt: "Lorem Ipsum Generator"

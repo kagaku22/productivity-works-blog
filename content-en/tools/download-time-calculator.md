@@ -312,10 +312,10 @@ cover:
 <div class="related-links">
   <h3>Related Free Tools</h3>
   <ul>
-    <li><a href="/tools/bandwidth-calculator/">Bandwidth Calculator — plan your network capacity</a></li>
-    <li><a href="/tools/file-size-converter/">File Size Converter — bytes, KB, MB, GB, TB</a></li>
-    <li><a href="/tools/internet-speed-test-guide/">What is a good internet speed? Complete guide</a></li>
-    <li><a href="/tools/data-usage-calculator/">Data Usage Calculator — estimate your monthly usage</a></li>
+    <li><a href="/tools/download-time-calculator/">Bandwidth Calculator — plan your network capacity</a></li>
+    <li><a href="/tools/byte-converter/">File Size Converter — bytes, KB, MB, GB, TB</a></li>
+    <li><a href="/tools/download-time-calculator/">What is a good internet speed? Complete guide</a></li>
+    <li><a href="/tools/byte-converter/">Data Usage Calculator — estimate your monthly usage</a></li>
   </ul>
 </div>
 

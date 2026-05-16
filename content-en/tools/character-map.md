@@ -9,8 +9,8 @@ cover:
   image: "/images/covers/character-map.png"
   alt: "Unicode Character Map"
 aliases:
-  - "/tools/unicode-table/"
-  - "/tools/special-characters/"
+  - "/tools/unicode-character-map/"
+  - "/tools/character-map/"
 ---
 
 Browse Unicode characters by category or search by name. Click any character to copy it — along with its code point, HTML entity, CSS `content` value, and UTF-8 hex bytes.

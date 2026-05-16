@@ -5,7 +5,7 @@ description: "Free online indent converter. Re-indent code between 2-space, 4-sp
 categories: ["Free Tools"]
 slug: "indent-converter"
 ShowToc: false
-aliases: ["/tools/reindent/", "/tools/indent-fixer/"]
+aliases: ["/tools/indent-converter/", "/tools/indent-converter/"]
 cover:
   image: "/images/covers/indent-converter.png"
   alt: "Indent Converter"

@@ -509,10 +509,10 @@ cover:
 
 <h2>Related Tools</h2>
 <div class="related-links">
-  <a href="/tools/watt-hour-calculator/">Watt-Hour Calculator</a>
-  <a href="/tools/solar-panel-calculator/">Solar Panel Output Calculator</a>
-  <a href="/tools/power-consumption-calculator/">Device Power Consumption Calculator</a>
-  <a href="/tools/co2-footprint-calculator/">Electronics CO2 Footprint</a>
+  <a href="/tools/electricity-cost-calculator/">Watt-Hour Calculator</a>
+  <a href="/tools/electricity-cost-calculator/">Solar Panel Output Calculator</a>
+  <a href="/tools/electricity-cost-calculator/">Device Power Consumption Calculator</a>
+  <a href="/tools/carbon-footprint-calculator/">Electronics CO2 Footprint</a>
 </div>
 
 <script>

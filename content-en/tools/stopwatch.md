@@ -5,7 +5,7 @@ description: "Free online stopwatch with lap timer, countdown mode, and fullscre
 categories: ["Free Tools"]
 tags: ["stopwatch", "lap timer", "countdown", "time tracking", "productivity"]
 slug: "stopwatch"
-aliases: ["/tools/online-stopwatch/", "/tools/timer/"]
+aliases: ["/tools/stopwatch-timer/", "/tools/countdown-timer/"]
 cover:
   image: "/images/covers/stopwatch.png"
   alt: "Free Online Stopwatch with Lap Timer"

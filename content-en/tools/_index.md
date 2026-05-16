@@ -264,7 +264,7 @@ Timers, password generators, unit converters, and everyday tools
 - [Days Until Calculator - Count Days to Any Date](/tools/days-until-calculator/)
 - [Dice Roller - Virtual Dice Simulator](/tools/dice-roller/)
 - [Download Time Calculator - Estimate File Transfer Speed](/tools/download-time-calculator/)
-- [Education Cost Calculator | Total Schooling Costs for One Child [2026]](/tools/education-cost-calculator/)
+- [Education Cost Calculator | Total Schooling Costs for One Child [2026]](/tools/compound-interest-calculator/)
 - [Electricity Cost Calculator](/tools/electricity-calculator/)
 - [Email Template Builder](/tools/email-template-builder/)
 - [Email Validator - Check Email Address Format](/tools/email-validator/)

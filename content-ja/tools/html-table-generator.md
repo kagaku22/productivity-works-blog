@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "html-table-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/table-generator/"
-  - "/ja/tools/html-table/"
+  - "/ja/tools/html-table-generator/"
+  - "/ja/tools/html-table-generator/"
 cover:
   image: "/images/covers/html-table-generator-ja.png"
   alt: "HTMLテーブルジェネレーター"

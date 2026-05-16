@@ -5,7 +5,7 @@ description: "Remove extra spaces, blank lines, tabs, and line breaks from any t
 categories: ["Free Tools"]
 tags: ["whitespace remover", "trim spaces", "remove blank lines", "text cleaner", "remove tabs"]
 slug: "whitespace-remover"
-aliases: ["/tools/trim-whitespace/", "/tools/remove-spaces/"]
+aliases: ["/tools/whitespace-remover/", "/tools/whitespace-remover/"]
 cover:
   image: "/images/covers/whitespace-remover.png"
   alt: "Whitespace Remover"

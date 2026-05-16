@@ -11,7 +11,7 @@ tags:
   - "text analysis"
   - "reading time"
 slug: "japanese-character-counter"
-aliases: ["/en/tools/word-counter/", "/en/tools/character-counter/", "/en/tools/text-counter/"]
+aliases: ["/en/tools/word-counter/", "/en/tools/character-counter/", "/en/tools/character-counter/"]
 cover:
   image: "/images/covers/japanese-character-counter.png"
   alt: "Character Counter — Free Online Word & Character Count Tool"

@@ -9,8 +9,8 @@ cover:
   image: "/images/covers/character-map-ja.png"
   alt: "Unicode文字マップ"
 aliases:
-  - "/ja/tools/unicode-table/"
-  - "/ja/tools/special-characters/"
+  - "/ja/tools/unicode-character-map/"
+  - "/ja/tools/character-map/"
 ---
 
 カテゴリから文字を閲覧するか、文字名で検索してください。任意の文字をクリックするとコピーされ、コードポイント・HTMLエンティティ・CSS `content` 値・UTF-8バイト列も確認できます。

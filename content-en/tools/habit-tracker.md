@@ -965,5 +965,5 @@ renderToday();
 
 > Focus with Pomodoro → [Pomodoro Timer](/tools/pomodoro-timer/)
 > Study with flashcards → [Flashcard Maker](/tools/flashcard-maker/)
-> Plan your budget → [50/30/20 Budget Calculator](/tools/budget-calculator/)
+> Plan your budget → [50/30/20 Budget Calculator](/tools/budget-planner/)
 </div>

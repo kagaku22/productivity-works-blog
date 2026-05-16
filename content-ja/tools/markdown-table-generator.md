@@ -5,8 +5,8 @@ description: "マークダウン形式の表を瞬時に作成できる無料オ
 categories: ["無料ツール"]
 slug: "markdown-table-generator"
 aliases:
-  - "/ja/tools/md-table/"
-  - "/ja/tools/table-generator/"
+  - "/ja/tools/markdown-table-generator/"
+  - "/ja/tools/html-table-generator/"
 ShowToc: false
 cover:
   image: "/images/covers/markdown-table-generator-ja.png"

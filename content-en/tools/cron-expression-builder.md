@@ -376,7 +376,7 @@ cover:
 <div class="cr-section">
   <div class="cr-section-title">Related Tools</div>
   <ul class="cr-links">
-    <li>Convert Unix timestamps &rarr; <a href="/tools/unix-timestamp-converter/">Unix Timestamp Converter</a></li>
+    <li>Convert Unix timestamps &rarr; <a href="/tools/timestamp-converter/">Unix Timestamp Converter</a></li>
     <li>Generate Git commands &rarr; <a href="/tools/git-command-generator/">Git Command Generator</a></li>
     <li>Calculate file permissions &rarr; <a href="/tools/chmod-calculator/">Chmod Calculator</a></li>
   </ul>

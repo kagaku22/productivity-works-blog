@@ -4,7 +4,7 @@ date: 2026-05-14
 draft: false
 slug: "budget-planner"
 aliases:
-  - /tools/budget-calculator/
+  - /tools/budget-planner/
 description: "Free budget planner calculator. Enter your monthly income to get a recommended spending breakdown based on the 50/30/20 rule. Start budgeting in seconds."
 author: "Productivity Works Editorial"
 categories:

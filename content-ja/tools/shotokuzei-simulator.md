@@ -4,7 +4,7 @@ date: 2026-05-16
 draft: false
 slug: "shotokuzei-simulator"
 aliases:
-  - /ja/tools/income-tax-calculator/
+  - /ja/tools/shotokuzei-simulator/
 description: "所得税シミュレーター。年収・給与所得を入力して、所得税・住民税・社会保険料・手取り額を無料で計算。2026年最新の税率表で正確にシミュレーションできます。"
 categories: ["無料ツール"]
 tags: ["所得税", "シミュレーター", "確定申告", "税金計算", "計算ツール"]

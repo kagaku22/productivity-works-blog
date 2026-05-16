@@ -5,7 +5,7 @@ description: "Test JSONPath expressions against JSON data interactively. Support
 categories: ["Free Tools"]
 tags: ["JSONPath", "JSON query", "JSONPath tester", "JSON filter", "JSON parser", "dot notation", "recursive descent"]
 slug: "json-path-tester"
-aliases: ["/tools/jsonpath/", "/tools/json-query/"]
+aliases: ["/tools/json-path-finder/", "/tools/json-path-finder/"]
 cover:
   image: "/images/covers/json-path-tester.png"
   alt: "JSON Path Tester"

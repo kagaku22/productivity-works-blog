@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "git-command-generator"
 ShowToc: false
 aliases:
-  - "/tools/git-commands/"
-  - "/tools/git-reference/"
+  - "/tools/git-command-generator/"
+  - "/tools/git-command-generator/"
 cover:
   image: "/images/covers/git-command-generator.png"
   alt: "Git Command Generator"

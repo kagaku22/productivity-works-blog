@@ -5,7 +5,7 @@ description: "絵文字をカテゴリー別に検索・コピーできる無料
 categories: ["無料ツール"]
 tags: ["絵文字ピッカー", "絵文字コピー", "絵文字検索", "emoji", "無料ツール"]
 slug: "emoji-picker"
-aliases: ["/ja/tools/emoji-search/", "/ja/tools/emoji-copy/"]
+aliases: ["/ja/tools/emoji-search/", "/ja/tools/emoji-picker/"]
 cover:
   image: "/images/covers/emoji-picker-ja.png"
   alt: "絵文字ピッカー"

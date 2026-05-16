@@ -456,7 +456,7 @@ cover:
   <h3>Related Free Tools</h3>
   <ul>
     <li><a href="/tools/loan-calculator/">Loan &amp; Mortgage Calculator</a></li>
-    <li><a href="/tools/compound-interest/">Compound Interest Calculator</a></li>
+    <li><a href="/tools/compound-interest-calculator/">Compound Interest Calculator</a></li>
     <li><a href="/tools/currency-converter/">Currency Converter</a></li>
     <li><a href="/tools/budget-planner/">Monthly Budget Planner</a></li>
   </ul>

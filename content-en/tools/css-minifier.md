@@ -6,8 +6,8 @@ slug: "css-minifier"
 categories: ["Free Tools"]
 ShowToc: false
 aliases:
-  - "/tools/css-compressor/"
-  - "/tools/minify-css/"
+  - "/tools/css-minifier/"
+  - "/tools/css-minifier/"
 cover:
   image: "/images/covers/css-minifier.png"
   alt: "CSS Minifier and Beautifier"

@@ -5,7 +5,7 @@ description: "CSSグラデーションをブラウザ上で簡単作成。リニ
 categories: ["無料ツール"]
 tags: ["cssグラデーション", "グラデーションジェネレーター", "リニアグラデーション", "css ツール", "ウェブデザイン"]
 slug: "css-gradient-generator"
-aliases: ["/ja/tools/gradient-maker/", "/ja/tools/gradient-generator/"]
+aliases: ["/ja/tools/css-gradient-generator/", "/ja/tools/css-gradient-generator/"]
 cover:
   image: "/images/covers/css-gradient-generator-ja.png"
   alt: "CSSグラデーションジェネレーター"

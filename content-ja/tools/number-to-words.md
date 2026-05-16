@@ -4,8 +4,8 @@ date: 2025-05-16
 draft: false
 slug: "number-to-words"
 aliases:
-  - "/ja/tools/number-converter/"
-  - "/ja/tools/words-to-number/"
+  - "/ja/tools/number-base-converter/"
+  - "/ja/tools/number-to-words/"
 description: "数字を漢数字・大字（壱弐参）に一発変換。金額モードでは「金壱万弐千参百四拾五円也」形式に対応。小切手・領収書・契約書の記入に便利な無料ツール。"
 categories: ["無料ツール"]
 tags: ["漢数字", "大字", "数字変換", "金額表記", "小切手", "経理"]

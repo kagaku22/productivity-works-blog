@@ -452,7 +452,7 @@ cover:
 <div class="cross-links">
   複利を計算 → <a href="/ja/tools/compound-interest-calculator/">複利計算ツール</a><br>
   年金をシミュレーション → <a href="/ja/tools/pension-simulator/">年金シミュレーター</a><br>
-  家計を見直す → <a href="/ja/tools/budget-calculator/">50/30/20 家計バランス計算</a>
+  家計を見直す → <a href="/ja/tools/budget-planner/">50/30/20 家計バランス計算</a>
 </div>
 
 <script>
@@ -844,7 +844,7 @@ cover:
 
 > 複利を計算 → [複利計算ツール](/ja/tools/compound-interest-calculator/)
 > 年金をシミュレーション → [年金シミュレーター](/ja/tools/pension-simulator/)
-> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-calculator/)
+> 家計を見直す → [50/30/20 家計バランス計算](/ja/tools/budget-planner/)
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 

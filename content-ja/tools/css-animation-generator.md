@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "css-animation-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/animation-generator/"
-  - "/ja/tools/keyframe-generator/"
+  - "/ja/tools/css-animation-generator/"
+  - "/ja/tools/css-animation-generator/"
 cover:
   image: "/images/covers/css-animation-generator-ja.png"
   alt: "CSSアニメーションジェネレーター"

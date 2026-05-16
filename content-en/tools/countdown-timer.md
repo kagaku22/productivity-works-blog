@@ -5,7 +5,7 @@ description: "Create a countdown to any date or event. See days, hours, minutes,
 categories: ["Free Tools"]
 tags: ["countdown", "timer", "date calculator", "event countdown", "days until"]
 slug: "countdown-timer"
-aliases: ["/tools/date-countdown/", "/tools/event-timer/", "/tools/days-until/"]
+aliases: ["/tools/event-countdown/", "/tools/event-countdown/", "/tools/days-until-calculator/"]
 cover:
   image: "/images/covers/countdown-timer.png"
   alt: "Countdown Timer"

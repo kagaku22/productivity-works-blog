@@ -5,7 +5,7 @@ description: "Compare two texts and find differences instantly. Line-by-line and
 categories: ["Free Tools"]
 tags: ["diff checker", "text comparison", "compare text", "difference finder", "developer tool"]
 slug: "text-diff"
-aliases: ["/tools/diff-checker/", "/tools/text-compare/"]
+aliases: ["/tools/diff-checker/", "/tools/text-diff-checker/"]
 cover:
   image: "/images/covers/text-diff.png"
   alt: "Text Diff Checker"

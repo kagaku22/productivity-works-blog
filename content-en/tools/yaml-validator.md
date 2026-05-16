@@ -9,8 +9,8 @@ cover:
   image: "/images/covers/yaml-validator.png"
   alt: "YAML Validator"
 aliases:
-  - "/tools/yaml-to-json/"
-  - "/tools/yaml-formatter/"
+  - "/tools/yaml-json-converter/"
+  - "/tools/yaml-validator/"
 ---
 
 <div id="ym-app">

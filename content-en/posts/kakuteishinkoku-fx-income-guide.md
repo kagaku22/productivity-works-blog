@@ -242,9 +242,9 @@ Filing a kakuteishinkoku for FX income in Japan requires attention to classifica
 
 Start collecting your documents in January, authenticate your My Number card for e-Tax early, and give yourself time before the March 15 deadline to work through the Schedule 3 worksheet. If you have multiple income streams, accounting tools can save significant time.
 
-**Ready to estimate your tax before you file?** Calculate your FX tax with our [FX Profit Calculator](/ja/tools/fx-profit-calculator/).
+**Ready to estimate your tax before you file?** Calculate your FX tax with our [FX Profit Calculator](/ja/tools/forex-profit-calculator/).
 
-**Have other income sources alongside FX?** Understand your full tax picture with our [Side Income Tax Calculator](/ja/tools/fukugyou-tax-calculator/).
+**Have other income sources alongside FX?** Understand your full tax picture with our [Side Income Tax Calculator](/ja/tools/tax-calculator/).
 
 ---
 

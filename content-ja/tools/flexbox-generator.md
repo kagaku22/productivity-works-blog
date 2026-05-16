@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "flexbox-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/css-flex/"
-  - "/ja/tools/flex-generator/"
+  - "/ja/tools/flexbox-generator/"
+  - "/ja/tools/flexbox-generator/"
 cover:
   image: "/images/covers/flexbox-generator-ja.png"
   alt: "CSS Flexboxジェネレーター"

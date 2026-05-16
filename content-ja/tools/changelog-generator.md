@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "changelog-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/changelog/"
-  - "/ja/tools/release-notes/"
+  - "/ja/tools/changelog-generator/"
+  - "/ja/tools/changelog-generator/"
 cover:
   image: "/images/covers/changelog-generator-ja.png"
   alt: "変更履歴ジェネレーター"

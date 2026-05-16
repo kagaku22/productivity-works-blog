@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "mortgage-calculator"
 ShowToc: false
 aliases:
-  - "/ja/tools/home-loan-calculator/"
-  - "/ja/tools/jutaku-loan/"
+  - "/ja/tools/mortgage-calculator/"
+  - "/ja/tools/jutaku-loan-simulator/"
 cover:
   image: "/images/covers/mortgage-calculator-ja.png"
   alt: "住宅ローン計算ツール"

@@ -625,7 +625,7 @@ Plan your retirement with confidence. Enter your details below to estimate your 
 ---
 
 > Calculate take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Plan your budget → [50/30/20 Budget Calculator](/tools/budget-calculator/)
+> Plan your budget → [50/30/20 Budget Calculator](/tools/budget-planner/)
 > Track compound growth → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 
 ## Related Articles

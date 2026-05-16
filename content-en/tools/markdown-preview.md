@@ -5,7 +5,7 @@ description: "Write markdown and see a live HTML preview side-by-side. Supports 
 categories: ["Free Tools"]
 tags: ["markdown", "markdown editor", "markdown preview", "markdown to html", "writing tool", "developer tool"]
 slug: "markdown-preview"
-aliases: ["/tools/markdown-editor/", "/tools/md-preview/"]
+aliases: ["/tools/markdown-editor/", "/tools/markdown-preview/"]
 cover:
   image: "/images/covers/markdown-preview.png"
   alt: "Markdown Preview Tool"

@@ -8,7 +8,7 @@ ShowToc: false
 cover:
   image: "/images/covers/csv-editor-ja.png"
   alt: "CSVエディター"
-aliases: ["/ja/tools/csv-viewer/", "/ja/tools/csv-editor/"]
+aliases: ["/ja/tools/csv-editor/", "/ja/tools/csv-editor/"]
 ---
 
 ブラウザだけで動作するCSVエディター。貼り付けまたはファイルアップロードでインポートし、セルを直接編集、行・列の追加削除、ソート、フィルタリング、CSVエクスポートまで一括対応。サーバー送信なし・外部ライブラリなし。

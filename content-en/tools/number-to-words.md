@@ -3,7 +3,7 @@ title: "Number to Words Converter | Convert Numbers to English Words Free"
 date: 2025-05-16
 draft: false
 slug: "number-to-words"
-aliases: ["/tools/number-converter/", "/tools/words-to-number/"]
+aliases: ["/tools/number-base-converter/", "/tools/number-to-words/"]
 description: "Free number to words converter. Instantly convert numbers into English words, currency amounts, or ordinal forms. Supports numbers up to trillions. No sign-up needed."
 categories: ["Free Tools"]
 tags: ["number to words", "number converter", "spell numbers", "currency words", "ordinal numbers"]

@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "css-filter-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/css-filter/"
-  - "/ja/tools/image-filter/"
+  - "/ja/tools/css-filter-generator/"
+  - "/ja/tools/photo-filter/"
 cover:
   image: "/images/covers/css-filter-generator-ja.png"
   alt: "CSSフィルタージェネレーター"

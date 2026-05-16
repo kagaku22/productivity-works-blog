@@ -5,7 +5,7 @@ description: "Convert text between UPPERCASE, lowercase, Title Case, camelCase, 
 categories: ["Free Tools"]
 tags: ["case converter", "text tool", "uppercase", "lowercase", "camelcase", "snake case", "developer tool"]
 slug: "case-converter"
-aliases: ["/tools/text-case/", "/tools/uppercase-lowercase/"]
+aliases: ["/tools/text-case-converter/", "/tools/case-converter/"]
 cover:
   image: "/images/covers/case-converter.png"
   alt: "Case Converter"

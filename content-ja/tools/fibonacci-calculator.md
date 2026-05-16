@@ -5,7 +5,7 @@ description: "無料フィボナッチ数列計算ツール。BigIntでN=1000ま
 categories: ["無料ツール"]
 slug: "fibonacci-calculator"
 ShowToc: false
-aliases: ["/ja/tools/fibonacci-sequence/", "/ja/tools/fibonacci/"]
+aliases: ["/ja/tools/fibonacci-calculator/", "/ja/tools/fibonacci-calculator/"]
 cover:
   image: "/images/covers/fibonacci-calculator-ja.png"
   alt: "フィボナッチ数列計算ツール"

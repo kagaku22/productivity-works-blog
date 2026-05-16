@@ -5,7 +5,7 @@ description: "色を視覚的に選んでHEX・RGB・HSLを相互変換。配色
 categories: ["無料ツール"]
 tags: ["カラーピッカー", "HEX変換", "RGB", "HSL", "デザインツール"]
 slug: "color-picker"
-aliases: ["/ja/tools/hex-converter/", "/ja/tools/color-converter/"]
+aliases: ["/ja/tools/rgb-hex-converter/", "/ja/tools/color-converter/"]
 cover:
   image: "/images/covers/color-picker-ja.png"
   alt: "カラーピッカー"

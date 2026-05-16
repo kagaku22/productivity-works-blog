@@ -5,7 +5,7 @@ description: "2進数・10進数・16進数・8進数を瞬時に相互変換。
 categories: ["無料ツール"]
 tags: ["2進数変換", "16進数変換", "10進数変換", "進数変換", "バイナリ変換", "2の補数", "ビット操作"]
 slug: "binary-converter"
-aliases: ["/ja/tools/hex-converter/", "/ja/tools/decimal-converter/"]
+aliases: ["/ja/tools/rgb-hex-converter/", "/ja/tools/number-base-converter/"]
 cover:
   image: "/images/covers/binary-converter-ja.png"
   alt: "2進数変換ツール"

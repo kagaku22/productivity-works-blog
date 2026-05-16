@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "salary-calculator"
 ShowToc: false
 aliases:
-  - "/ja/tools/pay-calculator/"
-  - "/ja/tools/take-home-pay/"
+  - "/ja/tools/salary-calculator/"
+  - "/ja/tools/salary-tedori-calculator/"
 cover:
   image: "/images/covers/salary-calculator-ja.png"
   alt: "手取り計算ツール"

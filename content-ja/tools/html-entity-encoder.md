@@ -9,9 +9,9 @@ cover:
   alt: "HTMLエンティティエンコーダー"
 ShowToc: false
 aliases:
-  - "/ja/tools/html-encoder/"
-  - "/ja/tools/html-decoder/"
-  - "/ja/tools/html-entities/"
+  - "/ja/tools/html-entity-encoder/"
+  - "/ja/tools/html-entity-converter/"
+  - "/ja/tools/html-entity-converter/"
 description: "無料オンラインHTMLエンティティエンコーダー・デコーダー。特殊文字をHTMLエンティティに変換、またはその逆変換をブラウザ上で即時実行。30種類以上の名前付きエンティティ一覧付き。"
 ---
 

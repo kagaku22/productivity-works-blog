@@ -4,8 +4,8 @@ date: 2026-05-16
 draft: false
 slug: "hourly-to-salary-calculator"
 aliases:
-  - "/tools/salary-to-hourly/"
-  - "/tools/wage-calculator/"
+  - "/tools/hourly-to-salary-calculator/"
+  - "/tools/salary-calculator/"
 description: "Convert hourly wage to annual salary or salary to hourly rate. See weekly, biweekly, monthly, and annual equivalents instantly. Free calculator with overtime and tax estimates."
 categories:
   - "Free Tools"

@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "og-preview"
 ShowToc: false
 aliases:
-  - "/tools/open-graph/"
-  - "/tools/social-preview/"
+  - "/tools/og-preview/"
+  - "/tools/og-preview/"
 cover:
   image: "/images/covers/og-preview.png"
   alt: "Open Graph Preview"
@@ -658,7 +658,7 @@ Paste your URL or fill in the fields below to instantly preview how your page wi
       <div class="og-section-label">Tips</div>
       <ul style="font-size:12.5px;color:#374151;padding-left:18px;line-height:1.8;">
         <li>Use HTTPS for all image URLs (HTTP may be blocked).</li>
-        <li>Facebook caches OG data — use the <a href="https://developers.facebook.com/tools/debug/" target="_blank" rel="noopener" style="color:#4f6ef7;">Sharing Debugger</a> to refresh.</li>
+        <li>Facebook caches OG data — use the <a href="https://developers.facebook.com/tools/json-formatter/" target="_blank" rel="noopener" style="color:#4f6ef7;">Sharing Debugger</a> to refresh.</li>
         <li>Twitter crawls images on first share. Images smaller than 144×144 px are ignored.</li>
         <li>LinkedIn has a 7-day cache — post a new URL to trigger a fresh crawl.</li>
         <li>Keep titles under 60 characters to avoid truncation in Google search.</li>

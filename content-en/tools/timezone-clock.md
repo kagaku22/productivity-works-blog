@@ -5,7 +5,7 @@ description: "Free world clock dashboard. Display live clocks for multiple timez
 categories: ["Free Tools"]
 slug: "timezone-clock"
 ShowToc: false
-aliases: ["/tools/world-time/"]
+aliases: ["/tools/world-clock/"]
 cover:
   image: "/images/covers/timezone-clock.png"
   alt: "Timezone Clock Dashboard"

@@ -7,7 +7,7 @@ categories: ["Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/word-frequency-counter/"
-  - "/tools/word-cloud/"
+  - "/tools/word-frequency-counter/"
 cover:
   image: "/images/covers/word-frequency.png"
   alt: "Word Frequency Analyzer"

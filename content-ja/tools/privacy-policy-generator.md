@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "privacy-policy-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/privacy-generator/"
-  - "/ja/tools/privacy-template/"
+  - "/ja/tools/privacy-policy-generator/"
+  - "/ja/tools/privacy-policy-generator/"
 cover:
   image: "/images/covers/privacy-policy-generator-ja.png"
   alt: "プライバシーポリシー ジェネレーター"

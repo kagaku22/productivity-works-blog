@@ -628,9 +628,9 @@ Build CSS media queries visually — pick device presets, set breakpoints, toggl
 <div class="mq-card">
   <h2 class="mq-section-title">Related Tools</h2>
   <div class="mq-links">
-    <a href="/tools/css-flexbox-generator/" class="mq-link">&#9633; CSS Flexbox Generator</a>
+    <a href="/tools/flexbox-generator/" class="mq-link">&#9633; CSS Flexbox Generator</a>
     <a href="/tools/css-grid-generator/" class="mq-link">&#9635; CSS Grid Generator</a>
-    <a href="/tools/screen-resolution-checker/" class="mq-link">&#128250; Screen Resolution Checker</a>
+    <a href="/tools/screen-resolution/" class="mq-link">&#128250; Screen Resolution Checker</a>
   </div>
 </div>
 
@@ -876,6 +876,6 @@ Users who have vestibular disorders or motion sensitivity can request reduced an
 
 ## Related Free Tools
 
-- [CSS Flexbox Generator](/tools/css-flexbox-generator/) — build flex containers visually
+- [CSS Flexbox Generator](/tools/flexbox-generator/) — build flex containers visually
 - [CSS Grid Generator](/tools/css-grid-generator/) — define grid tracks and areas with a point-and-click interface
-- [Screen Resolution Checker](/tools/screen-resolution-checker/) — see your exact screen and device pixel ratio
+- [Screen Resolution Checker](/tools/screen-resolution/) — see your exact screen and device pixel ratio

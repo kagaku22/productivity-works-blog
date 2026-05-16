@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "http-status-codes"
 ShowToc: false
 aliases:
-  - "/ja/tools/http-codes/"
-  - "/ja/tools/status-codes/"
+  - "/ja/tools/http-status-codes/"
+  - "/ja/tools/http-status-codes/"
 cover:
   image: "/images/covers/http-status-codes-ja.png"
   alt: "HTTPステータスコード一覧"

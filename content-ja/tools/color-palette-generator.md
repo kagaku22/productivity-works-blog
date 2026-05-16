@@ -6,8 +6,8 @@ categories: ["無料ツール"]
 slug: "color-palette-generator"
 ShowToc: false
 aliases:
-  - "/ja/tools/palette-generator/"
-  - "/ja/tools/color-scheme/"
+  - "/ja/tools/color-palette-generator/"
+  - "/ja/tools/color-scheme-generator/"
 cover:
   image: "/images/covers/color-palette-generator-ja.png"
   alt: "カラーパレットジェネレーター"

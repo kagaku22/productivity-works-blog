@@ -6,8 +6,8 @@ categories: ["Free Tools"]
 slug: "chmod-calculator"
 ShowToc: false
 aliases:
-  - "/tools/chmod/"
-  - "/tools/permissions-calculator/"
+  - "/tools/chmod-calculator/"
+  - "/tools/chmod-calculator/"
 cover:
   image: "/images/covers/chmod-calculator.png"
   alt: "Chmod Calculator"
