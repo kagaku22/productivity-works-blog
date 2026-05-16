@@ -1,780 +1,710 @@
 ---
-title: "パスワード生成ツール - 安全なランダムパスワード作成"
+title: "パスワード生成ツール"
 date: 2025-05-16
-description: "安全で強力なランダムパスワードを無料で生成。文字数・文字種をカスタマイズ。パスワード強度チェック機能付き。"
+description: "無料のセキュアなパスワードジェネレーター。文字種・長さ・強度を自由にカスタマイズして安全なパスワードを即生成。ブラウザ内処理で安心。"
 categories: ["無料ツール"]
-tags: ["パスワード", "セキュリティ", "生成ツール", "プライバシー", "オンラインツール"]
 slug: "password-generator"
-aliases: ["/ja/tools/random-password/", "/ja/tools/secure-password/"]
+ShowToc: false
 cover:
   image: "/images/covers/password-generator-ja.png"
   alt: "パスワード生成ツール"
-ShowToc: false
 ---
 
-<div id="password-app">
+安全なパスワードをブラウザ内で即座に生成。入力内容はサーバーに一切送信されません。
+
+<div id="pw-app-ja">
 
 <style>
-#password-app {
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
-  max-width: 760px;
+#pw-app-ja {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, "Segoe UI", sans-serif;
+  max-width: 680px;
   margin: 0 auto;
-  color: #e2e8f0;
+  color: #1e293b;
 }
+#pw-app-ja * { box-sizing: border-box; }
 
-#password-app * {
-  box-sizing: border-box;
-}
-
-.pw-card {
-  background: #1e3a5f;
+#pw-app-ja .pw-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  padding: 20px 24px;
+  margin-bottom: 16px;
 }
 
-.pw-title {
-  font-size: 1.1rem;
+#pw-app-ja h3.pw-section-title {
+  margin: 0 0 14px 0;
+  font-size: 13px;
   font-weight: 700;
-  color: #93c5fd;
-  margin: 0 0 16px 0;
-  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
 }
 
-/* パスワード表示エリア */
-.pw-display-wrap {
-  position: relative;
-  background: #0f2240;
-  border: 2px solid #3b82f6;
+#pw-app-ja .pw-output-box {
+  background: #fff;
+  border: 1.5px solid #cbd5e1;
   border-radius: 8px;
-  padding: 18px 120px 18px 18px;
-  min-height: 64px;
-  cursor: pointer;
-  transition: border-color 0.2s, background 0.2s;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
-.pw-display-wrap:hover {
-  border-color: #60a5fa;
-  background: #132b50;
-}
-.pw-display-wrap.copied {
-  border-color: #22c55e;
-  background: #052e1a;
-}
-
-#pw-output {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.3rem;
+#pw-app-ja .pw-output-box .pw-pass-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
   word-break: break-all;
-  color: #f0f9ff;
+  flex: 1;
+  color: #0f172a;
   line-height: 1.5;
-  user-select: all;
 }
-
-.pw-copy-inline {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
+#pw-app-ja .pw-copy-btn {
+  flex-shrink: 0;
   background: #3b82f6;
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 8px 14px;
-  font-size: 0.85rem;
+  padding: 6px 14px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s, transform 0.1s;
-  white-space: nowrap;
+  transition: background 0.15s;
 }
-.pw-copy-inline:hover { background: #2563eb; }
-.pw-copy-inline:active { transform: translateY(-50%) scale(0.95); }
-.pw-copy-inline.copied { background: #22c55e; }
+#pw-app-ja .pw-copy-btn:hover { background: #2563eb; }
+#pw-app-ja .pw-copy-btn.pw-copied { background: #16a34a; }
 
-.pw-copy-hint {
-  font-size: 0.75rem;
-  color: #64748b;
-  margin-top: 6px;
-}
-
-/* ボタン群 */
-.pw-btn-row {
+#pw-app-ja .pw-actions {
   display: flex;
-  gap: 12px;
-  margin-top: 16px;
+  gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 4px;
 }
-
-.pw-btn-generate {
-  flex: 1;
-  min-width: 140px;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+#pw-app-ja .pw-btn-primary {
+  background: #3b82f6;
   color: #fff;
   border: none;
   border-radius: 8px;
-  padding: 14px 24px;
-  font-size: 1rem;
+  padding: 11px 22px;
+  font-size: 15px;
   font-weight: 700;
   cursor: pointer;
-  transition: opacity 0.2s, transform 0.1s;
-  letter-spacing: 0.03em;
+  transition: background 0.15s;
+  flex: 1;
+  min-width: 150px;
 }
-.pw-btn-generate:hover { opacity: 0.9; }
-.pw-btn-generate:active { transform: scale(0.97); }
-
-.pw-btn-multi {
-  background: #164e63;
-  color: #7dd3fc;
-  border: 1px solid #0e7490;
+#pw-app-ja .pw-btn-primary:hover { background: #2563eb; }
+#pw-app-ja .pw-btn-secondary {
+  background: #fff;
+  color: #374151;
+  border: 1.5px solid #d1d5db;
   border-radius: 8px;
-  padding: 14px 18px;
-  font-size: 0.9rem;
+  padding: 11px 18px;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background 0.15s, border-color 0.15s;
 }
-.pw-btn-multi:hover { background: #1e6a87; }
-.pw-btn-multi.active { background: #0e7490; color: #fff; }
+#pw-app-ja .pw-btn-secondary:hover { background: #f1f5f9; border-color: #94a3b8; }
 
-/* 強度メーター */
-.pw-strength-bar-wrap {
-  margin-top: 16px;
-}
-.pw-strength-label {
+#pw-app-ja .pw-strength-wrap { margin-bottom: 16px; }
+#pw-app-ja .pw-strength-label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6px;
-  font-size: 0.85rem;
-  color: #94a3b8;
 }
-.pw-strength-name {
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-.pw-entropy {
-  font-size: 0.78rem;
-  color: #64748b;
-}
-.pw-bar-bg {
+#pw-app-ja .pw-strength-bar-bg {
+  background: #e2e8f0;
+  border-radius: 99px;
   height: 8px;
-  background: #0f2240;
-  border-radius: 4px;
   overflow: hidden;
 }
-.pw-bar-fill {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 0.4s ease, background 0.4s ease;
-}
-.pw-strength-reason {
-  font-size: 0.78rem;
-  color: #94a3b8;
-  margin-top: 6px;
+#pw-app-ja .pw-strength-bar {
+  height: 8px;
+  border-radius: 99px;
+  transition: width 0.3s, background 0.3s;
+  width: 0%;
 }
 
-/* スライダー */
-.pw-slider-row {
+#pw-app-ja .pw-row {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 14px;
+  gap: 12px;
+  margin-bottom: 12px;
 }
-.pw-slider-label {
-  white-space: nowrap;
-  font-size: 0.9rem;
-  color: #cbd5e1;
+#pw-app-ja .pw-row label {
+  font-size: 14px;
+  font-weight: 600;
   min-width: 80px;
+  color: #374151;
 }
-.pw-length-val {
-  font-weight: 700;
-  color: #60a5fa;
-  font-size: 1rem;
-  min-width: 36px;
-  text-align: right;
-}
-input[type="range"] {
+#pw-app-ja input[type="range"] {
   flex: 1;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  background: #1e4a7a;
-  border-radius: 3px;
-  outline: none;
-}
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
+  accent-color: #3b82f6;
   cursor: pointer;
-  box-shadow: 0 0 0 3px rgba(59,130,246,0.3);
 }
-input[type="range"]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
-  cursor: pointer;
-  border: none;
+#pw-app-ja .pw-num-input {
+  width: 62px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 14px;
+  text-align: center;
+  color: #0f172a;
 }
+#pw-app-ja .pw-num-input:focus { outline: 2px solid #3b82f6; border-color: transparent; }
 
-/* チェックボックス群 */
-.pw-checks {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 10px;
-  margin-bottom: 14px;
-}
-.pw-check-item {
+#pw-app-ja .pw-row-count {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+#pw-app-ja .pw-row-count label {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 80px;
+  color: #374151;
+}
+
+#pw-app-ja .pw-checks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-bottom: 14px;
+}
+#pw-app-ja .pw-check-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
   cursor: pointer;
-  padding: 8px 10px;
-  background: #0f2240;
-  border-radius: 6px;
-  border: 1px solid #1e4a7a;
-  transition: border-color 0.2s;
   user-select: none;
 }
-.pw-check-item:hover { border-color: #3b82f6; }
-.pw-check-item input[type="checkbox"] {
+#pw-app-ja .pw-check-item input[type="checkbox"] {
   width: 16px;
   height: 16px;
   accent-color: #3b82f6;
   cursor: pointer;
 }
-.pw-check-text {
-  font-size: 0.85rem;
-  color: #cbd5e1;
-}
-.pw-check-sample {
-  font-family: monospace;
-  font-size: 0.75rem;
-  color: #60a5fa;
-  margin-left: auto;
-}
 
-/* モード切替タブ */
-.pw-mode-tabs {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-.pw-tab {
-  padding: 8px 16px;
-  border-radius: 6px;
-  border: 1px solid #1e4a7a;
-  background: #0f2240;
-  color: #94a3b8;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.pw-tab.active {
-  background: #3b82f6;
-  border-color: #3b82f6;
-  color: #fff;
-}
-.pw-tab:hover:not(.active) { border-color: #3b82f6; color: #60a5fa; }
-
-/* 複数生成リスト */
-.pw-multi-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 8px;
-}
-.pw-multi-item {
+#pw-app-ja .pw-exclude-row {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #0f2240;
-  border: 1px solid #1e4a7a;
-  border-radius: 6px;
-  padding: 10px 14px;
+  margin-top: 6px;
 }
-.pw-multi-text {
+#pw-app-ja .pw-exclude-row label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  white-space: nowrap;
+}
+#pw-app-ja .pw-exclude-input {
   flex: 1;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.9rem;
-  color: #f0f9ff;
-  word-break: break-all;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-family: "Courier New", Courier, monospace;
+  color: #0f172a;
 }
-.pw-btn-copy-small {
-  background: #1e4a7a;
-  color: #7dd3fc;
-  border: 1px solid #2563eb;
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 0.78rem;
+#pw-app-ja .pw-exclude-input:focus { outline: 2px solid #3b82f6; border-color: transparent; }
+
+#pw-app-ja .pw-mode-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+#pw-app-ja .pw-mode-tab {
+  flex: 1;
+  text-align: center;
+  padding: 9px 10px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.2s;
-  flex-shrink: 0;
+  background: #fff;
+  color: #374151;
+  transition: all 0.15s;
 }
-.pw-btn-copy-small:hover { background: #2563eb; color: #fff; }
-.pw-btn-copy-small.copied { background: #166534; color: #86efac; border-color: #22c55e; }
+#pw-app-ja .pw-mode-tab.pw-tab-active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+#pw-app-ja .pw-mode-tab:hover:not(.pw-tab-active) { background: #f1f5f9; }
 
-/* パスフレーズ設定 */
-.pw-passphrase-opts {
+#pw-app-ja .pw-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+#pw-app-ja .pw-history-list li {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  word-break: break-all;
+  gap: 8px;
+  color: #0f172a;
 }
-.pw-passphrase-opts label {
-  font-size: 0.85rem;
-  color: #94a3b8;
-}
-.pw-passphrase-opts select,
-.pw-passphrase-opts input[type="text"] {
-  background: #0f2240;
-  border: 1px solid #1e4a7a;
+#pw-app-ja .pw-history-list li:last-child { border-bottom: none; }
+#pw-app-ja .pw-history-copy {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid #cbd5e1;
   border-radius: 5px;
-  color: #e2e8f0;
-  padding: 5px 8px;
-  font-size: 0.85rem;
+  padding: 3px 9px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #374151;
+}
+#pw-app-ja .pw-history-copy:hover { background: #f1f5f9; }
+#pw-app-ja .pw-empty-history {
+  font-size: 13px;
+  color: #94a3b8;
+  text-align: center;
+  padding: 14px 0;
 }
 
-/* レスポンシブ */
-@media (max-width: 500px) {
-  .pw-card { padding: 16px; }
-  #pw-output { font-size: 1rem; }
-  .pw-display-wrap { padding-right: 14px; padding-bottom: 54px; }
-  .pw-copy-inline { top: auto; bottom: 10px; right: 12px; transform: none; }
-  .pw-copy-inline:active { transform: scale(0.95); }
-  .pw-btn-generate { font-size: 0.95rem; padding: 12px 16px; }
-  .pw-checks { grid-template-columns: 1fr 1fr; }
+#pw-app-ja .pw-multi-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#pw-app-ja .pw-multi-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 8px;
+}
+#pw-app-ja .pw-multi-list li:last-child { border-bottom: none; }
+#pw-app-ja .pw-multi-list .pw-multi-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  word-break: break-all;
+  color: #0f172a;
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  #pw-app-ja .pw-row { flex-wrap: wrap; }
+  #pw-app-ja .pw-row label { min-width: 100%; margin-bottom: 2px; }
+  #pw-app-ja .pw-section { padding: 16px; }
+  #pw-app-ja .pw-mode-tab { font-size: 12px; padding: 8px 5px; }
 }
 </style>
 
 <!-- モード切替 -->
-<div class="pw-card">
+<div class="pw-section">
+  <h3 class="pw-section-title">モード</h3>
   <div class="pw-mode-tabs">
-    <button class="pw-tab active" onclick="setMode('random')" id="tab-random">ランダム生成</button>
-    <button class="pw-tab" onclick="setMode('passphrase')" id="tab-passphrase">パスフレーズ</button>
-    <button class="pw-tab" onclick="setMode('multi')" id="tab-multi">複数生成</button>
+    <div class="pw-mode-tab pw-tab-active" onclick="pwjaSetMode('random',this)">ランダム</div>
+    <div class="pw-mode-tab" onclick="pwjaSetMode('pronounceable',this)">発音しやすい</div>
+    <div class="pw-mode-tab" onclick="pwjaSetMode('passphrase',this)">パスフレーズ</div>
   </div>
 
-  <!-- パスワード表示 -->
-  <div class="pw-display-wrap" id="pw-display-wrap" onclick="copyMain()" title="クリックしてコピー">
-    <div id="pw-output">クリックして生成</div>
-    <button class="pw-copy-inline" id="pw-copy-btn" onclick="event.stopPropagation(); copyMain()">コピー</button>
-  </div>
-  <div class="pw-copy-hint" id="pw-copy-hint">クリックでコピー</div>
-
-  <!-- 強度メーター -->
-  <div class="pw-strength-bar-wrap">
-    <div class="pw-strength-label">
-      <span>強度: <span class="pw-strength-name" id="pw-strength-name">—</span></span>
-      <span class="pw-entropy" id="pw-entropy"></span>
+  <!-- ランダム / 発音しやすい オプション -->
+  <div id="pwja-random-opts">
+    <div class="pw-row">
+      <label for="pwja-length-slider">文字数</label>
+      <input type="range" id="pwja-length-slider" min="4" max="128" value="20" oninput="pwjaSyncLength(this.value)">
+      <input type="number" class="pw-num-input" id="pwja-length-num" min="4" max="128" value="20" oninput="pwjaSyncLength(this.value)">
     </div>
-    <div class="pw-bar-bg"><div class="pw-bar-fill" id="pw-bar-fill" style="width:0%;background:#334155"></div></div>
-    <div class="pw-strength-reason" id="pw-strength-reason"></div>
+    <div class="pw-checks">
+      <label class="pw-check-item"><input type="checkbox" id="pwja-upper" checked onchange="pwjaGenerate()"> 大文字 (A-Z)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pwja-lower" checked onchange="pwjaGenerate()"> 小文字 (a-z)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pwja-nums" checked onchange="pwjaGenerate()"> 数字 (0-9)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pwja-syms" onchange="pwjaGenerate()"> 記号 (!@#$...)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pwja-noambig" onchange="pwjaGenerate()"> 紛らわしい文字を除外 (0/O, l/1/I)</label>
+    </div>
+    <div class="pw-exclude-row">
+      <label for="pwja-exclude-chars">除外する文字:</label>
+      <input type="text" class="pw-exclude-input" id="pwja-exclude-chars" placeholder="例: {}[]" oninput="pwjaGenerate()">
+    </div>
   </div>
 
-  <!-- ボタン -->
-  <div class="pw-btn-row">
-    <button class="pw-btn-generate" onclick="generate()">生成する</button>
+  <!-- パスフレーズ オプション -->
+  <div id="pwja-passphrase-opts" style="display:none;">
+    <div class="pw-row">
+      <label for="pwja-word-count">単語数</label>
+      <input type="range" id="pwja-word-count" min="2" max="10" value="4" oninput="pwjaSyncWords(this.value)">
+      <input type="number" class="pw-num-input" id="pwja-word-count-num" min="2" max="10" value="4" oninput="pwjaSyncWords(this.value)">
+    </div>
+    <div class="pw-checks">
+      <label class="pw-check-item"><input type="checkbox" id="pwja-pp-cap" checked onchange="pwjaGenerate()"> 先頭を大文字にする</label>
+      <label class="pw-check-item"><input type="checkbox" id="pwja-pp-num" checked onchange="pwjaGenerate()"> 末尾に数字を追加</label>
+    </div>
+    <div class="pw-exclude-row">
+      <label for="pwja-pp-sep">区切り文字:</label>
+      <input type="text" class="pw-exclude-input" id="pwja-pp-sep" value="-" maxlength="5" style="max-width:80px;" oninput="pwjaGenerate()">
+    </div>
   </div>
-</div>
 
-<!-- ランダム設定 -->
-<div class="pw-card" id="panel-random">
-  <div class="pw-title">設定</div>
-
-  <!-- 長さスライダー -->
-  <div class="pw-slider-row">
-    <span class="pw-slider-label">文字数</span>
-    <input type="range" id="pw-length" min="8" max="128" value="16" oninput="onLengthChange()">
-    <span class="pw-length-val" id="pw-length-val">16</span>
-  </div>
-
-  <!-- チェックボックス -->
-  <div class="pw-checks">
-    <label class="pw-check-item">
-      <input type="checkbox" id="ch-upper" checked onchange="generate()">
-      <span class="pw-check-text">大文字</span>
-      <span class="pw-check-sample">A-Z</span>
-    </label>
-    <label class="pw-check-item">
-      <input type="checkbox" id="ch-lower" checked onchange="generate()">
-      <span class="pw-check-text">小文字</span>
-      <span class="pw-check-sample">a-z</span>
-    </label>
-    <label class="pw-check-item">
-      <input type="checkbox" id="ch-num" checked onchange="generate()">
-      <span class="pw-check-text">数字</span>
-      <span class="pw-check-sample">0-9</span>
-    </label>
-    <label class="pw-check-item">
-      <input type="checkbox" id="ch-sym" checked onchange="generate()">
-      <span class="pw-check-text">記号</span>
-      <span class="pw-check-sample">!@#...</span>
-    </label>
-    <label class="pw-check-item">
-      <input type="checkbox" id="ch-noamb" onchange="generate()">
-      <span class="pw-check-text">紛らわしい文字を除外</span>
-    </label>
-  </div>
-  <div style="font-size:0.75rem;color:#475569;margin-top:-6px;margin-bottom:4px;">※紛らわしい文字: I l 1 O 0</div>
-</div>
-
-<!-- パスフレーズ設定 -->
-<div class="pw-card" id="panel-passphrase" style="display:none">
-  <div class="pw-title">パスフレーズ設定</div>
-  <div class="pw-passphrase-opts">
-    <label>単語数:
-      <select id="pp-words" onchange="generate()">
-        <option value="3">3語</option>
-        <option value="4" selected>4語</option>
-        <option value="5">5語</option>
-        <option value="6">6語</option>
-      </select>
-    </label>
-    <label>区切り文字:
-      <input type="text" id="pp-sep" value="-" maxlength="3" style="width:50px" oninput="generate()">
-    </label>
-    <label class="pw-check-item" style="flex:none">
-      <input type="checkbox" id="pp-cap" checked onchange="generate()">
-      <span class="pw-check-text">先頭大文字</span>
-    </label>
-    <label class="pw-check-item" style="flex:none">
-      <input type="checkbox" id="pp-num" checked onchange="generate()">
-      <span class="pw-check-text">数字を追加</span>
-    </label>
+  <!-- 生成数 -->
+  <div class="pw-row-count" style="margin-top:14px;">
+    <label for="pwja-count">生成数</label>
+    <input type="number" class="pw-num-input" id="pwja-count" min="1" max="20" value="1" oninput="pwjaGenerate()">
+    <span style="font-size:13px;color:#64748b;">個まとめて生成 (最大20)</span>
   </div>
 </div>
 
-<!-- 複数生成パネル -->
-<div class="pw-card" id="panel-multi" style="display:none">
-  <div class="pw-title">5個同時生成</div>
-  <div class="pw-multi-list" id="pw-multi-list">
-    <!-- JSで生成 -->
+<!-- 出力 -->
+<div class="pw-section">
+  <h3 class="pw-section-title">生成結果</h3>
+
+  <div class="pw-strength-wrap" id="pwja-strength-wrap">
+    <div class="pw-strength-label">
+      <span>強度</span>
+      <span id="pwja-strength-text" style="color:#94a3b8;">--</span>
+    </div>
+    <div class="pw-strength-bar-bg">
+      <div class="pw-strength-bar" id="pwja-strength-bar"></div>
+    </div>
   </div>
+
+  <div class="pw-output-box" id="pwja-single-out">
+    <span class="pw-pass-text" id="pwja-pass-display">生成ボタンを押してください</span>
+    <button class="pw-copy-btn" id="pwja-copy-main" onclick="pwjaCopyMain()">コピー</button>
+  </div>
+
+  <ul class="pw-multi-list" id="pwja-multi-out" style="display:none;"></ul>
+
+  <div class="pw-actions">
+    <button class="pw-btn-primary" onclick="pwjaGenerate()">&#x21bb; 生成する</button>
+    <button class="pw-btn-secondary" id="pwja-copy-all-btn" onclick="pwjaCopyAll()" style="display:none;">すべてコピー</button>
+  </div>
+</div>
+
+<!-- 履歴 -->
+<div class="pw-section">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+    <h3 class="pw-section-title" style="margin:0;">生成履歴 <span style="font-weight:400;color:#94a3b8;font-size:11px;">(セッション内のみ保存)</span></h3>
+    <button class="pw-btn-secondary" style="padding:5px 12px;font-size:12px;" onclick="pwjaClearHistory()">クリア</button>
+  </div>
+  <ul class="pw-history-list" id="pwja-history-list">
+    <li><span class="pw-empty-history" style="width:100%;">まだパスワードが生成されていません。</span></li>
+  </ul>
 </div>
 
 <script>
-(function() {
-  // ===== 単語リスト（日本語ローマ字 200語） =====
-  var WORDS = [
-    'hana','yama','kawa','umi','sora','mori','shiro','tsuki','hoshi','tori',
-    'sakura','kaze','ame','yuki','kumo','taiko','fuji','nami','kiba','tama',
-    'aki','natsu','fuyu','haru','yoru','asa','hiru','michi','ike','tani',
-    'ishi','ki','ha','ne','mi','hana','kao','te','ashi','mimi',
-    'me','kuchi','koe','kokoro','chikara','yume','inochi','mono','koto','toki',
-    'basho','iro','katachi','hikari','kage','oto','kaori','aji','te','naka',
-    'soto','ue','shita','mae','ushiro','migi','hidari','chika','hoka','doko',
-    'itsu','naze','dare','nani','dore','kore','sore','are','koko','soko',
-    'ao','aka','shiro2','kuro','ki2','midori','murasaki','kin','gin','chairo',
-    'ookii','chiisai','nagai','mijikai','hayai','osoi','atarashii','furui','ii','warui',
-    'takai','hikui','omoi','karui','atsui','samui','atatakai','tsumetai','katai','yawarakai',
-    'hashiru','aruku','tobu','oyogu','yomu','kaku','kiku','miru','taberu','nomu',
-    'neru','okiru','iku','kuru','kaeru','au','hanasu','warau','naku','utau',
-    'hito','kodomo','otoko','onna','kazoku','tomodachi','sensei','gakusei','isha','keisatsu',
-    'inu','neko','tori2','sakana','uma','ushi','buta','usagi','kuma','kitsune',
-    'ringo','mikan','banana','ichigo','budou','suika','momo','nashi','kaki','ume',
-    'gohan','pan','niku','sakana2','yasai','tamago','shio','satou','mizu','ocha',
-    'kuruma','densha','hikoki','fune','jitensha','eki','michi2','hashi','koen','mise',
-    'hon','tegami','shinbun','zasshi','kagi','tokei','megane','kasa','kutsu','fuku'
+(function(){
+  var _mode = 'random';
+  var _hist = [];
+
+  var _WORDS = [
+    "apple","brave","cloud","dance","eagle","flame","grace","house","ivory","juice",
+    "kneel","lemon","mango","night","ocean","piano","queen","river","stone","tiger",
+    "ultra","viper","wheat","xenon","yacht","zebra","amber","blaze","coral","drift",
+    "ember","frost","globe","haste","inlet","joker","karma","laser","maple","novel",
+    "olive","pearl","quill","ridge","solar","tidal","umbra","vault","waltz","pixel",
+    "azure","boost","crisp","delta","epoch","flint","grove","hinge","irony","jazzy",
+    "knife","lunar","moose","nerve","orbit","prism","quartz","robin","scout","torch",
+    "unity","visor","woven","oxide","yield","zonal","alpha","bench","cedar","depot",
+    "easel","field","glare","hedge","index","jelly","kinky","lotus","metal","noble",
+    "ozone","plumb","quota","ranch","swift","trout","urban","vivid","water","xylem",
+    "yearn","zippy","alert","blunt","curve","dense","erupt","fluke","groan","hyper",
+    "image","jewel","knack","lofty","micro","nifty","opera","plain","quiet","risky",
+    "spite","tango","usher","vigor","wider","extra","young","zesty","agile","brisk",
+    "crimp","dwell","elbow","finch","guava","hyena","infer","jaunt","kudos","lyric",
+    "merch","navel","onset","patch","quirk","ruddy","sleek","taunt","unfold","venom",
+    "wrath","adept","brine","clamp","drive","elegy","forge","glyph","hatch","intro",
+    "jumbo","latch","mirth","nudge","optic","plaid","quest","radar","snowy","tapir",
+    "untie","vocal","whirl","exert","zilch","amber","birch","candy","daisy","denim",
+    "fable","gauge","hazel","kiosk","lilac","melon","nicer","onion","pansy","racer",
+    "rivet","swamp","vivid","windy","boxer","crane","floss","graze","kneel","primo"
   ];
 
-  // ===== 文字セット =====
-  var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  var LOWER = 'abcdefghijklmnopqrstuvwxyz';
-  var NUMS  = '0123456789';
-  var SYMS  = '!@#$%^&*()-_=+[]{}|;:,.<>?/';
-  var AMB   = /[Il1O0]/g;
+  var _CON = 'bcdfghjklmnpqrstvwxyz';
+  var _VOW = 'aeiou';
 
-  var currentMode = 'random';
-  var currentPassword = '';
-
-  // ===== セキュアランダム =====
-  function secureRandInt(max) {
-    var buf = new Uint32Array(1);
-    var limit = Math.floor(0x100000000 / max) * max;
-    do { crypto.getRandomValues(buf); } while (buf[0] >= limit);
-    return buf[0] % max;
+  function _ri(max) {
+    var a = new Uint32Array(1);
+    var lim = Math.floor(4294967296 / max) * max;
+    do { crypto.getRandomValues(a); } while (a[0] >= lim);
+    return a[0] % max;
   }
 
-  function secureChoice(arr) {
-    return arr[secureRandInt(arr.length)];
+  function _cs() {
+    var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var lower = 'abcdefghijklmnopqrstuvwxyz';
+    var nums  = '0123456789';
+    var syms  = '!@#$%^&*()-_=+[]{}|;:,.<>?';
+    var ambig = '0Ol1I';
+    var useUp = document.getElementById('pwja-upper').checked;
+    var useLo = document.getElementById('pwja-lower').checked;
+    var useNu = document.getElementById('pwja-nums').checked;
+    var useSy = document.getElementById('pwja-syms').checked;
+    var noAmb = document.getElementById('pwja-noambig').checked;
+    var excl  = document.getElementById('pwja-exclude-chars').value;
+    var cs = '';
+    if (useUp) cs += upper;
+    if (useLo) cs += lower;
+    if (useNu) cs += nums;
+    if (useSy) cs += syms;
+    if (noAmb) { var t=''; for(var i=0;i<cs.length;i++) if(ambig.indexOf(cs[i])===-1) t+=cs[i]; cs=t; }
+    if (excl)  { var t=''; for(var i=0;i<cs.length;i++) if(excl.indexOf(cs[i])===-1) t+=cs[i]; cs=t; }
+    return cs;
   }
 
-  function secureRandDigit() {
-    return String(secureRandInt(10));
+  function _genRandom(len) {
+    var cs = _cs();
+    if (!cs) return '(文字種を1つ以上選択してください)';
+    var out = '';
+    for (var i=0; i<len; i++) out += cs[_ri(cs.length)];
+    return out;
   }
 
-  // ===== ランダムパスワード生成 =====
-  function generateRandom() {
-    var len = parseInt(document.getElementById('pw-length').value);
-    var useUpper = document.getElementById('ch-upper').checked;
-    var useLower = document.getElementById('ch-lower').checked;
-    var useNum   = document.getElementById('ch-num').checked;
-    var useSym   = document.getElementById('ch-sym').checked;
-    var noAmb    = document.getElementById('ch-noamb').checked;
-
-    var pool = '';
-    var guaranteed = [];
-
-    if (useUpper) { var s = noAmb ? UPPER.replace(AMB,'') : UPPER; pool += s; guaranteed.push(secureChoice(s.split(''))); }
-    if (useLower) { var s = noAmb ? LOWER.replace(AMB,'') : LOWER; pool += s; guaranteed.push(secureChoice(s.split(''))); }
-    if (useNum)   { var s = noAmb ? NUMS.replace(AMB,'')  : NUMS;  pool += s; guaranteed.push(secureChoice(s.split(''))); }
-    if (useSym)   { pool += SYMS; guaranteed.push(secureChoice(SYMS.split(''))); }
-
-    if (!pool) return 'チェックボックスを選択してください';
-
-    var chars = [];
-    for (var i = 0; i < len; i++) chars.push(secureChoice(pool.split('')));
-
-    // 必須文字を確実に埋め込む
-    for (var i = 0; i < guaranteed.length && i < len; i++) {
-      var pos = secureRandInt(len);
-      chars[pos] = guaranteed[i];
+  function _genPronounceable(len) {
+    var useUp = document.getElementById('pwja-upper').checked;
+    var noAmb = document.getElementById('pwja-noambig').checked;
+    var excl  = document.getElementById('pwja-exclude-chars').value;
+    var con = noAmb ? _CON.replace(/l/g,'') : _CON;
+    var vow = _VOW;
+    var out = '';
+    var useC = true;
+    for (var i=0; i<len; i++) {
+      var pool = useC ? con : vow;
+      var ch = pool[_ri(pool.length)];
+      if (useUp && _ri(4)===0) ch = ch.toUpperCase();
+      out += ch;
+      useC = !useC;
     }
-
-    return chars.join('');
-  }
-
-  // ===== パスフレーズ生成 =====
-  function generatePassphrase() {
-    var count = parseInt(document.getElementById('pp-words').value);
-    var sep   = document.getElementById('pp-sep').value;
-    var cap   = document.getElementById('pp-cap').checked;
-    var addNum = document.getElementById('pp-num').checked;
-
-    var parts = [];
-    for (var i = 0; i < count; i++) {
-      var w = WORDS[secureRandInt(WORDS.length)];
-      if (cap) w = w.charAt(0).toUpperCase() + w.slice(1);
-      parts.push(w);
-    }
-    var pw = parts.join(sep);
-    if (addNum) pw += sep + (secureRandInt(90) + 10);
-    return pw;
-  }
-
-  // ===== 強度計算 =====
-  function calcEntropy(pw) {
-    var poolSize = 0;
-    if (/[A-Z]/.test(pw)) poolSize += 26;
-    if (/[a-z]/.test(pw)) poolSize += 26;
-    if (/[0-9]/.test(pw)) poolSize += 10;
-    if (/[^A-Za-z0-9]/.test(pw)) poolSize += 32;
-    if (poolSize === 0) poolSize = 26;
-    return Math.floor(pw.length * Math.log2(poolSize));
-  }
-
-  function getStrength(pw) {
-    if (!pw || pw.length < 2) return { level: 0, name: '—', color: '#334155', pct: 0, reason: '' };
-    var entropy = calcEntropy(pw);
-    var reasons = [];
-    var level, name, color;
-
-    if (pw.length < 8)  reasons.push('文字数が少なすぎます');
-    if (pw.length < 12) reasons.push('12文字以上を推奨');
-    if (!/[A-Z]/.test(pw)) reasons.push('大文字を追加すると強くなります');
-    if (!/[a-z]/.test(pw)) reasons.push('小文字を追加すると強くなります');
-    if (!/[0-9]/.test(pw)) reasons.push('数字を追加すると強くなります');
-    if (!/[^A-Za-z0-9]/.test(pw)) reasons.push('記号を追加すると強くなります');
-
-    if (entropy < 28)      { level=1; name='弱い';      color='#ef4444'; pct=15; }
-    else if (entropy < 40) { level=2; name='やや弱い';  color='#f97316'; pct=35; }
-    else if (entropy < 60) { level=3; name='普通';      color='#eab308'; pct=55; }
-    else if (entropy < 80) { level=4; name='強い';      color='#22c55e'; pct=78; }
-    else                   { level=5; name='非常に強い'; color='#3b82f6'; pct=100; }
-
-    var reason = reasons.length ? reasons[0] : (level >= 4 ? '安全なパスワードです' : '');
-    return { level, name, color, pct, reason, entropy };
-  }
-
-  // ===== UI更新 =====
-  function updateStrength(pw) {
-    var s = getStrength(pw);
-    document.getElementById('pw-strength-name').textContent = s.name;
-    document.getElementById('pw-strength-name').style.color = s.color;
-    var bar = document.getElementById('pw-bar-fill');
-    bar.style.width = s.pct + '%';
-    bar.style.background = s.color;
-    document.getElementById('pw-strength-reason').textContent = s.reason;
-    document.getElementById('pw-entropy').textContent = s.entropy ? 'エントロピー: ' + s.entropy + ' bit' : '';
-  }
-
-  function setOutput(pw) {
-    currentPassword = pw;
-    document.getElementById('pw-output').textContent = pw;
-    updateStrength(pw);
-    // コピー状態リセット
-    document.getElementById('pw-display-wrap').classList.remove('copied');
-    document.getElementById('pw-copy-btn').classList.remove('copied');
-    document.getElementById('pw-copy-btn').textContent = 'コピー';
-    document.getElementById('pw-copy-hint').textContent = 'クリックでコピー';
-  }
-
-  // ===== コピー =====
-  function copyText(text, btn, hint) {
-    if (!text || text === 'クリックして生成') return;
-    navigator.clipboard.writeText(text).then(function() {
-      if (btn) {
-        btn.classList.add('copied');
-        btn.textContent = 'コピー済!';
-        setTimeout(function() {
-          btn.classList.remove('copied');
-          btn.textContent = btn.dataset.origText || 'コピー';
-        }, 2000);
+    if (excl) {
+      var fixed='';
+      for(var j=0;j<out.length;j++){
+        if(excl.indexOf(out[j])===-1){ fixed+=out[j]; }
+        else { var p=(j%2===0)?con:vow; fixed+=p[_ri(p.length)]; }
       }
-      if (hint) {
-        hint.textContent = 'コピーしました!';
-        setTimeout(function() { hint.textContent = 'クリックでコピー'; }, 2000);
-      }
-    }).catch(function() {
-      // フォールバック
-      var el = document.createElement('textarea');
-      el.value = text;
-      el.style.position = 'fixed';
-      el.style.opacity = '0';
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand('copy');
-      document.body.removeChild(el);
-    });
-  }
-
-  window.copyMain = function() {
-    if (!currentPassword || currentPassword === 'クリックして生成') return;
-    var wrap = document.getElementById('pw-display-wrap');
-    var btn  = document.getElementById('pw-copy-btn');
-    var hint = document.getElementById('pw-copy-hint');
-    wrap.classList.add('copied');
-    btn.classList.add('copied');
-    btn.textContent = 'コピー済!';
-    hint.textContent = 'コピーしました!';
-    navigator.clipboard.writeText(currentPassword).catch(function(){
-      var el = document.createElement('textarea');
-      el.value = currentPassword;
-      el.style.position='fixed'; el.style.opacity='0';
-      document.body.appendChild(el); el.select();
-      document.execCommand('copy'); document.body.removeChild(el);
-    });
-    setTimeout(function() {
-      wrap.classList.remove('copied');
-      btn.classList.remove('copied');
-      btn.textContent = 'コピー';
-      hint.textContent = 'クリックでコピー';
-    }, 2000);
-  };
-
-  // ===== 複数生成 =====
-  function generateMulti() {
-    var list = document.getElementById('pw-multi-list');
-    list.innerHTML = '';
-    for (var i = 0; i < 5; i++) {
-      var pw = currentMode === 'passphrase' ? generatePassphrase() : generateRandom();
-      var item = document.createElement('div');
-      item.className = 'pw-multi-item';
-      var span = document.createElement('span');
-      span.className = 'pw-multi-text';
-      span.textContent = pw;
-      var copyBtn = document.createElement('button');
-      copyBtn.className = 'pw-btn-copy-small';
-      copyBtn.textContent = 'コピー';
-      copyBtn.dataset.origText = 'コピー';
-      var pwCopy = pw;
-      copyBtn.addEventListener('click', (function(b, p) {
-        return function() { copyText(p, b, null); };
-      })(copyBtn, pwCopy));
-      item.appendChild(span);
-      item.appendChild(copyBtn);
-      list.appendChild(item);
+      out=fixed;
     }
+    return out;
   }
 
-  // ===== モード切替 =====
-  window.setMode = function(mode) {
-    currentMode = mode;
-    ['random','passphrase','multi'].forEach(function(m) {
-      document.getElementById('tab-'+m).classList.toggle('active', m===mode);
-      var panel = document.getElementById('panel-'+m);
-      if (panel) panel.style.display = m===mode ? '' : 'none';
-    });
-    document.getElementById('panel-random').style.display = (mode === 'random') ? '' : 'none';
-    generate();
-  };
+  function _genPassphrase() {
+    var cnt = Math.min(10,Math.max(2,parseInt(document.getElementById('pwja-word-count').value)||4));
+    var cap = document.getElementById('pwja-pp-cap').checked;
+    var num = document.getElementById('pwja-pp-num').checked;
+    var sep = document.getElementById('pwja-pp-sep').value;
+    var ws = [];
+    for (var i=0; i<cnt; i++) {
+      var w = _WORDS[_ri(_WORDS.length)];
+      if (cap) w = w.charAt(0).toUpperCase()+w.slice(1);
+      ws.push(w);
+    }
+    var r = ws.join(sep);
+    if (num) r += sep + (_ri(90)+10);
+    return r;
+  }
 
-  // ===== メイン生成 =====
-  window.generate = function() {
-    var pw;
-    if (currentMode === 'passphrase') {
-      pw = generatePassphrase();
-      setOutput(pw);
-    } else if (currentMode === 'multi') {
-      pw = generateRandom();
-      setOutput(pw);
-      generateMulti();
+  function _genOne() {
+    var len = parseInt(document.getElementById('pwja-length-slider').value)||20;
+    if (_mode==='random')        return _genRandom(len);
+    if (_mode==='pronounceable') return _genPronounceable(len);
+    if (_mode==='passphrase')    return _genPassphrase();
+    return '';
+  }
+
+  function _entropy(pass) {
+    var cs = _cs();
+    var pool = cs ? cs.length : 26;
+    return pass.length * Math.log2(pool > 1 ? pool : 2);
+  }
+
+  function _ppEntropy(pass) {
+    var sep = document.getElementById('pwja-pp-sep').value || '-';
+    var sepE = sep.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,'\\$&');
+    var wc = (pass.match(new RegExp('['+sepE+']','g'))||[]).length + 1;
+    return wc * Math.log2(_WORDS.length);
+  }
+
+  function _strengthInfo(bits) {
+    if (bits < 28)  return {label:'非常に弱い', pct:10,  color:'#ef4444'};
+    if (bits < 36)  return {label:'弱い',       pct:25,  color:'#f97316'};
+    if (bits < 60)  return {label:'普通',        pct:50,  color:'#eab308'};
+    if (bits < 80)  return {label:'強い',        pct:72,  color:'#22c55e'};
+    if (bits < 100) return {label:'とても強い',  pct:88,  color:'#16a34a'};
+    return               {label:'非常に強い',  pct:100, color:'#15803d'};
+  }
+
+  function _updateStrength(pass) {
+    var bits = (_mode==='passphrase') ? _ppEntropy(pass) : _entropy(pass);
+    var info = _strengthInfo(bits);
+    document.getElementById('pwja-strength-text').textContent = info.label + ' (~'+Math.round(bits)+' bits)';
+    document.getElementById('pwja-strength-text').style.color = info.color;
+    document.getElementById('pwja-strength-bar').style.width = info.pct+'%';
+    document.getElementById('pwja-strength-bar').style.background = info.color;
+  }
+
+  function _addHistory(passwords) {
+    for (var i=0; i<passwords.length; i++) _hist.unshift(passwords[i]);
+    if (_hist.length>10) _hist = _hist.slice(0,10);
+    _renderHistory();
+  }
+
+  function _renderHistory() {
+    var ul = document.getElementById('pwja-history-list');
+    ul.innerHTML = '';
+    if (_hist.length===0) {
+      ul.innerHTML = '<li><span class="pw-empty-history" style="width:100%;">まだパスワードが生成されていません。</span></li>';
+      return;
+    }
+    _hist.forEach(function(p) {
+      var li=document.createElement('li');
+      var sp=document.createElement('span'); sp.textContent=p;
+      var btn=document.createElement('button');
+      btn.className='pw-history-copy'; btn.textContent='コピー';
+      (function(pass,b){ b.onclick=function(){ _clip(pass); b.textContent='コピー済!'; setTimeout(function(){ b.textContent='コピー'; },1500); }; })(p,btn);
+      li.appendChild(sp); li.appendChild(btn); ul.appendChild(li);
+    });
+  }
+
+  function _clip(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(function(){});
     } else {
-      pw = generateRandom();
-      setOutput(pw);
+      var ta=document.createElement('textarea'); ta.value=text;
+      ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
     }
+  }
+
+  window.pwjaGenerate = function() {
+    var count = Math.min(20,Math.max(1,parseInt(document.getElementById('pwja-count').value)||1));
+    var passwords = [];
+    for (var i=0; i<count; i++) passwords.push(_genOne());
+
+    var singleOut    = document.getElementById('pwja-single-out');
+    var multiOut     = document.getElementById('pwja-multi-out');
+    var copyAllBtn   = document.getElementById('pwja-copy-all-btn');
+    var strengthWrap = document.getElementById('pwja-strength-wrap');
+
+    if (count===1) {
+      document.getElementById('pwja-pass-display').textContent = passwords[0];
+      singleOut.style.display    = 'flex';
+      multiOut.style.display     = 'none';
+      copyAllBtn.style.display   = 'none';
+      strengthWrap.style.display = 'block';
+      _updateStrength(passwords[0]);
+    } else {
+      singleOut.style.display    = 'none';
+      strengthWrap.style.display = 'none';
+      multiOut.style.display     = 'block';
+      copyAllBtn.style.display   = 'inline-block';
+      multiOut.innerHTML = '';
+      passwords.forEach(function(p) {
+        var li=document.createElement('li');
+        var sp=document.createElement('span'); sp.className='pw-multi-text'; sp.textContent=p;
+        var btn=document.createElement('button');
+        btn.className='pw-copy-btn'; btn.textContent='コピー';
+        btn.style.fontSize='12px'; btn.style.padding='5px 12px';
+        (function(pass,b){ b.onclick=function(){ _clip(pass); b.textContent='コピー済!'; b.classList.add('pw-copied'); setTimeout(function(){ b.textContent='コピー'; b.classList.remove('pw-copied'); },1500); }; })(p,btn);
+        li.appendChild(sp); li.appendChild(btn); multiOut.appendChild(li);
+      });
+    }
+    _addHistory(passwords);
   };
 
-  window.onLengthChange = function() {
-    var v = document.getElementById('pw-length').value;
-    document.getElementById('pw-length-val').textContent = v;
-    generate();
+  window.pwjaCopyMain = function() {
+    var text = document.getElementById('pwja-pass-display').textContent;
+    if (!text || text==='生成ボタンを押してください') return;
+    _clip(text);
+    var btn = document.getElementById('pwja-copy-main');
+    btn.textContent='コピー済!'; btn.classList.add('pw-copied');
+    setTimeout(function(){ btn.textContent='コピー'; btn.classList.remove('pw-copied'); },1500);
   };
 
-  // 初期生成
-  generate();
+  window.pwjaCopyAll = function() {
+    var items = document.querySelectorAll('#pwja-multi-out .pw-multi-text');
+    var all = Array.prototype.slice.call(items).map(function(el){ return el.textContent; }).join('\n');
+    _clip(all);
+    var btn = document.getElementById('pwja-copy-all-btn');
+    btn.textContent='コピー完了!';
+    setTimeout(function(){ btn.textContent='すべてコピー'; },1500);
+  };
+
+  window.pwjaClearHistory = function() { _hist=[]; _renderHistory(); };
+
+  window.pwjaSyncLength = function(val) {
+    var v = Math.min(128,Math.max(4,parseInt(val)||4));
+    document.getElementById('pwja-length-slider').value = v;
+    document.getElementById('pwja-length-num').value    = v;
+    pwjaGenerate();
+  };
+
+  window.pwjaSyncWords = function(val) {
+    var v = Math.min(10,Math.max(2,parseInt(val)||4));
+    document.getElementById('pwja-word-count').value     = v;
+    document.getElementById('pwja-word-count-num').value = v;
+    pwjaGenerate();
+  };
+
+  window.pwjaSetMode = function(mode, el) {
+    _mode = mode;
+    var tabs = document.querySelectorAll('#pw-app-ja .pw-mode-tab');
+    for (var i=0; i<tabs.length; i++) tabs[i].classList.remove('pw-tab-active');
+    el.classList.add('pw-tab-active');
+    var isPhrase = (mode==='passphrase');
+    document.getElementById('pwja-random-opts').style.display     = isPhrase ? 'none'  : 'block';
+    document.getElementById('pwja-passphrase-opts').style.display = isPhrase ? 'block' : 'none';
+    pwjaGenerate();
+  };
+
+  pwjaGenerate();
 })();
 </script>
 
 </div>
 
----
-
-## 安全なパスワードの作り方
-
-パスワードとは、デジタルの世界における「カギ」です。銀行口座、メール、ショッピングサイトなど、あらゆるオンラインサービスへのアクセスはパスワードによって守られています。基本的な原則は、**長く・複雑で・使い回さない**こと。文字数が多いほど解読に時間がかかり、大文字・小文字・数字・記号を組み合わせるほど総当たり攻撃（ブルートフォース）に強くなります。8文字程度では現代のコンピュータでは数時間以内に解読される可能性があるため、最低でも12文字以上を目安にしましょう。
-
-サイバー攻撃の件数は年々増加しており、2023年には世界で数十億件ものアカウント情報が漏洩しました。弱いパスワードや使い回しのパスワードは、一つのサービスの情報漏洩が他のサービスへの不正アクセスに連鎖する「パスワードリスト攻撃」の被害を招きます。銀行やメールアカウントなど、特に重要なサービスには必ず独自の強力なパスワードを設定することが不可欠です。
-
-「長くて複雑なパスワードは覚えられない」という悩みには、**パスフレーズ**という方法が効果的です。ランダムな単語を3〜4個つなげたパスフレーズ（例：`Hana-Yama-Umi-2025`）は、ランダム文字列より覚えやすく、文字数が多いため十分な強度を持ちます。また、パスワードマネージャー（1Password、Bitwarden等）を活用すれば、複雑なパスワードを覚える必要がなくなります。マスターパスワード一つで全てのパスワードを安全に管理できます。
+<div class="pw-freee-cta" style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">アカウント管理の経費もかんたんに</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、SaaSツールのサブスク費用も経費として一元管理。無料トライアル実施中。</span>
+  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+</div>
 
 ---
 
-## パスワードセキュリティのヒント
+## パスワードの仕組みと安全性
 
-- **使い回しは厳禁** — サービスごとに異なるパスワードを設定してください。一つが漏洩しても他のアカウントは安全です。
-- **12文字以上が目安** — 文字数は強度に直結します。重要度の高いアカウントは16文字以上を推奨します。
-- **二段階認証（2FA）を有効に** — パスワードと組み合わせることで、万一漏洩しても不正アクセスを防げます。SMSより認証アプリ（Google Authenticator等）がより安全です。
-- **パスワードマネージャーを活用** — 全てのパスワードを安全に保管・自動入力できます。BItwarden（無料）やiCloudキーチェーンがおすすめです。
-- **定期的な変更より、漏洩時の即時変更** — 定期変更よりも、不審なアクセスや情報漏洩のニュースを見たときにすぐ変更する方が効果的です。
-- **フィッシングに注意** — どれだけ強いパスワードでも、偽サイトに入力すれば無意味です。URLを必ず確認し、公式サイトへはブックマークからアクセスしましょう。
-- **公共Wi-Fiでのログインは避ける** — 盗聴リスクがあります。やむを得ない場合はVPNを使用してください。
-- **秘密の質問は嘘の答えで** — 「母親の旧姓」などの質問は調べられる可能性があります。ランダムな文字列を答えとして設定し、パスワードマネージャーに保存しましょう。
+パスワードはすべて **Web Crypto API**（`crypto.getRandomValues()`）を使ってブラウザ内で生成されます。暗号学的に安全な乱数を使用しており、生成したパスワードはサーバーに一切送信されません。
+
+**エントロピー**はパスワードの予測困難さを表す指標です。計算式は `文字数 x log2(文字種の数)` です。全文字種を使った20文字のパスワードは約120ビットのエントロピーを持ち、現在のコンピュータでは事実上解読不可能です。
+
+### モードの使い分け
+
+| モード | 向いている用途 |
+|---|---|
+| ランダム | 最高のセキュリティ。パスワードマネージャーと組み合わせて使用 |
+| 発音しやすい | 口頭で伝えやすい。子音・母音を交互に配置 |
+| パスフレーズ | 覚えやすく高エントロピー。単語の組み合わせで構成 |
+
+### 安全なパスワードのヒント
+
+- 一般的なアカウントは16文字以上、重要なアカウントは24文字以上を推奨します。
+- ランダムモードでは記号を有効にするとエントロピーが最大になります。
+- 記憶が必要なパスワードにはパスフレーズモードが最適です。
+- 同じパスワードを複数のサービスで使い回さないでください。パスワードマネージャーで管理しましょう。
+- 「紛らわしい文字を除外」オプションは、`0`/`O` や `l`/`1`/`I` の混同を防ぎます。
 
 ---
 
-## 関連ツール
-
-> 割合・割引・変化率をすぐ計算 → [パーセント計算ツール](/ja/tools/percent-calculator/)
-
-> サブスクの年間コストを把握 → [サブスク管理計算ツール](/ja/tools/subscription-cost-calculator/)
-
-> ポモドーロテクニックで集中力アップ → [ポモドーロタイマー](/ja/tools/pomodoro-timer/)
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
 
 ---
 
-**フリーランス・個人事業主のセキュリティ対策に**
+> ハッシュを生成 → [ハッシュ生成ツール](/ja/tools/hash-generator/)
 
-パスワード管理だけでなく、経理データのセキュリティも大切。クラウド会計ソフト「freee」なら、銀行レベルのセキュリティで安心して経費管理・確定申告ができます。
-
-<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" rel="nofollow">
-freee会計を無料で試す</a>
-<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" alt="">
+> テキストのエンコード/デコード → [万能エンコーダー/デコーダー](/ja/tools/encoder-decoder/)

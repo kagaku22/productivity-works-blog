@@ -1,939 +1,668 @@
 ---
-title: "Password Generator - Free Secure Random Password Tool"
+title: "Password Generator"
 date: 2025-05-16
-description: "Generate strong, secure random passwords instantly. Customize length, characters, and complexity. Check password strength with our free online tool."
+description: "Free secure password generator. Create strong, random passwords with customizable length, character types, and strength indicator — all processed in your browser."
 categories: ["Free Tools"]
-tags: ["password", "security", "generator", "privacy", "online tool"]
 slug: "password-generator"
-aliases: ["/tools/random-password/", "/tools/secure-password/"]
+ShowToc: false
 cover:
   image: "/images/covers/password-generator.png"
   alt: "Password Generator"
-ShowToc: false
 ---
 
-<div id="password-app">
+Generate strong, random passwords instantly — all processing happens in your browser. Nothing is sent to any server.
+
+<div id="pw-app">
 
 <style>
-#password-app {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  max-width: 720px;
+#pw-app {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  max-width: 680px;
   margin: 0 auto;
-  color: #e2e8f0;
+  color: #1e293b;
 }
+#pw-app * { box-sizing: border-box; }
 
-#password-app * {
-  box-sizing: border-box;
-}
-
-.pw-card {
-  background: #0f2744;
-  border: 1px solid #1e3a5f;
+#pw-app .pw-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 24px;
+  padding: 20px 24px;
   margin-bottom: 16px;
 }
 
-.pw-mode-tabs {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-.pw-tab {
-  flex: 1;
-  padding: 10px 16px;
-  border: 1px solid #1e3a5f;
-  border-radius: 8px;
-  background: #0a1f3a;
-  color: #94a3b8;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.2s;
-  text-align: center;
-}
-
-.pw-tab:hover {
-  border-color: #3b82f6;
-  color: #cbd5e1;
-}
-
-.pw-tab.active {
-  background: #1e3a5f;
-  border-color: #3b82f6;
-  color: #fff;
-}
-
-.pw-display {
-  background: #060f1e;
-  border: 2px solid #1e3a5f;
-  border-radius: 10px;
-  padding: 18px 20px;
-  margin-bottom: 14px;
-  position: relative;
-  cursor: pointer;
-  transition: border-color 0.2s;
-  min-height: 64px;
-  display: flex;
-  align-items: center;
-}
-
-.pw-display:hover {
-  border-color: #3b82f6;
-}
-
-.pw-display.copied {
-  border-color: #22c55e;
-  background: #052010;
-}
-
-.pw-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 18px;
-  font-weight: 600;
-  word-break: break-all;
-  line-height: 1.5;
-  flex: 1;
-  color: #e2e8f0;
-  letter-spacing: 0.04em;
-}
-
-.pw-copy-hint {
-  font-size: 11px;
-  color: #475569;
-  position: absolute;
-  top: 6px;
-  right: 10px;
-}
-
-.pw-copy-confirm {
-  position: absolute;
-  top: 50%;
-  right: 14px;
-  transform: translateY(-50%);
-  color: #22c55e;
-  font-size: 13px;
-  font-weight: 600;
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
-
-.pw-copy-confirm.show {
-  opacity: 1;
-}
-
-.pw-actions {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.pw-btn {
-  padding: 11px 22px;
-  border-radius: 8px;
-  border: none;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.pw-btn-primary {
-  background: #3b82f6;
-  color: #fff;
-  flex: 2;
-}
-
-.pw-btn-primary:hover {
-  background: #2563eb;
-  transform: translateY(-1px);
-}
-
-.pw-btn-primary:active {
-  transform: translateY(0);
-}
-
-.pw-btn-secondary {
-  background: #1e3a5f;
-  color: #cbd5e1;
-  border: 1px solid #2d5a9e;
-  flex: 1;
-}
-
-.pw-btn-secondary:hover {
-  background: #2d5080;
-  color: #fff;
-}
-
-.pw-btn-secondary.copied-btn {
-  background: #14532d;
-  border-color: #22c55e;
-  color: #4ade80;
-}
-
-.pw-strength-section {
-  margin-bottom: 20px;
-}
-
-.pw-strength-label-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6px;
-}
-
-.pw-strength-label {
-  font-size: 13px;
-  color: #94a3b8;
-  font-weight: 500;
-}
-
-.pw-strength-name {
+#pw-app h3.pw-section-title {
+  margin: 0 0 14px 0;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
 }
 
-.pw-strength-bar-bg {
-  background: #0a1f3a;
-  border-radius: 4px;
+#pw-app .pw-output-box {
+  background: #fff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#pw-app .pw-output-box .pw-pass-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  word-break: break-all;
+  flex: 1;
+  color: #0f172a;
+  line-height: 1.5;
+}
+#pw-app .pw-copy-btn {
+  flex-shrink: 0;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+#pw-app .pw-copy-btn:hover { background: #2563eb; }
+#pw-app .pw-copy-btn.pw-copied { background: #16a34a; }
+
+#pw-app .pw-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+#pw-app .pw-btn-primary {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 22px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+  flex: 1;
+  min-width: 150px;
+}
+#pw-app .pw-btn-primary:hover { background: #2563eb; }
+#pw-app .pw-btn-secondary {
+  background: #fff;
+  color: #374151;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+#pw-app .pw-btn-secondary:hover { background: #f1f5f9; border-color: #94a3b8; }
+
+#pw-app .pw-strength-wrap { margin-bottom: 16px; }
+#pw-app .pw-strength-label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+#pw-app .pw-strength-bar-bg {
+  background: #e2e8f0;
+  border-radius: 99px;
   height: 8px;
   overflow: hidden;
-  margin-bottom: 8px;
 }
-
-.pw-strength-bar {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 0.4s ease, background 0.4s;
+#pw-app .pw-strength-bar {
+  height: 8px;
+  border-radius: 99px;
+  transition: width 0.3s, background 0.3s;
   width: 0%;
 }
 
-.pw-entropy {
-  font-size: 12px;
-  color: #64748b;
-  text-align: right;
+#pw-app .pw-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+#pw-app .pw-row label {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 110px;
+  color: #374151;
+}
+#pw-app input[type="range"] {
+  flex: 1;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+#pw-app .pw-num-input {
+  width: 62px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 14px;
+  text-align: center;
+  color: #0f172a;
+}
+#pw-app .pw-num-input:focus { outline: 2px solid #3b82f6; border-color: transparent; }
+
+#pw-app .pw-row-count {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+#pw-app .pw-row-count label {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 110px;
+  color: #374151;
 }
 
-.pw-strength-criteria {
+#pw-app .pw-checks {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 8px;
+  gap: 10px 22px;
+  margin-bottom: 14px;
 }
-
-.pw-criterion {
-  font-size: 11px;
-  padding: 3px 8px;
-  border-radius: 20px;
-  background: #0a1f3a;
-  border: 1px solid #1e3a5f;
-  color: #64748b;
-}
-
-.pw-criterion.met {
-  background: #0a2a1a;
-  border-color: #22c55e;
-  color: #4ade80;
-}
-
-.pw-label {
-  display: block;
-  font-size: 13px;
-  color: #94a3b8;
-  margin-bottom: 6px;
-  font-weight: 500;
-}
-
-.pw-slider-row {
+#pw-app .pw-check-item {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 20px;
-}
-
-.pw-slider {
-  flex: 1;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  background: #1e3a5f;
-  border-radius: 3px;
-  outline: none;
+  gap: 7px;
+  font-size: 14px;
   cursor: pointer;
-}
-
-.pw-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
-  cursor: pointer;
-  border: 2px solid #0f2744;
-  box-shadow: 0 0 0 2px #3b82f6;
-  transition: transform 0.15s;
-}
-
-.pw-slider::-webkit-slider-thumb:hover {
-  transform: scale(1.15);
-}
-
-.pw-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
-  cursor: pointer;
-  border: 2px solid #0f2744;
-}
-
-.pw-length-val {
-  min-width: 36px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: #3b82f6;
-  background: #0a1f3a;
-  border: 1px solid #1e3a5f;
-  border-radius: 6px;
-  padding: 4px 6px;
-}
-
-.pw-checkboxes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.pw-checkbox-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  padding: 8px 12px;
-  border: 1px solid #1e3a5f;
-  border-radius: 8px;
-  background: #0a1f3a;
-  transition: all 0.2s;
   user-select: none;
 }
-
-.pw-checkbox-item:hover {
-  border-color: #3b82f6;
-  background: #0f2744;
-}
-
-.pw-checkbox-item input[type="checkbox"] {
+#pw-app .pw-check-item input[type="checkbox"] {
   width: 16px;
   height: 16px;
   accent-color: #3b82f6;
   cursor: pointer;
-  flex-shrink: 0;
 }
 
-.pw-checkbox-item .pw-cb-label {
-  font-size: 13px;
-  color: #cbd5e1;
-  flex: 1;
-}
-
-.pw-checkbox-item .pw-cb-chars {
-  font-size: 11px;
-  color: #475569;
-  font-family: monospace;
-}
-
-.pw-exclude-section {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.pw-exclude-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.pw-exclude-item input[type="checkbox"] {
-  width: 15px;
-  height: 15px;
-  accent-color: #f59e0b;
-  cursor: pointer;
-}
-
-.pw-exclude-item span {
-  font-size: 13px;
-  color: #94a3b8;
-}
-
-.pw-section-title {
-  font-size: 12px;
-  font-weight: 600;
-  color: #475569;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 10px;
-}
-
-.pw-passphrase-opts {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-}
-
-.pw-passphrase-opts label {
-  font-size: 13px;
-  color: #94a3b8;
-}
-
-.pw-passphrase-opts select,
-.pw-passphrase-opts input[type="number"] {
-  background: #0a1f3a;
-  border: 1px solid #1e3a5f;
-  color: #e2e8f0;
-  border-radius: 6px;
-  padding: 6px 10px;
-  font-size: 13px;
-  outline: none;
-  cursor: pointer;
-}
-
-.pw-passphrase-opts select:focus,
-.pw-passphrase-opts input[type="number"]:focus {
-  border-color: #3b82f6;
-}
-
-.pw-passphrase-opts input[type="number"] {
-  width: 64px;
-}
-
-.pw-multi-section {
-  display: none;
-}
-
-.pw-multi-section.active {
-  display: block;
-}
-
-.pw-multi-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.pw-multi-item {
+#pw-app .pw-exclude-row {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #060f1e;
-  border: 1px solid #1e3a5f;
-  border-radius: 8px;
-  padding: 10px 14px;
-  transition: border-color 0.2s;
+  margin-top: 6px;
 }
-
-.pw-multi-item:hover {
-  border-color: #2d5a9e;
+#pw-app .pw-exclude-row label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  white-space: nowrap;
 }
-
-.pw-multi-item.copied {
-  border-color: #22c55e;
-  background: #052010;
-}
-
-.pw-multi-pw {
+#pw-app .pw-exclude-input {
   flex: 1;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  color: #e2e8f0;
-  word-break: break-all;
-  letter-spacing: 0.03em;
-}
-
-.pw-multi-copy {
-  padding: 5px 12px;
+  border: 1.5px solid #cbd5e1;
   border-radius: 6px;
-  border: 1px solid #2d5a9e;
-  background: #1e3a5f;
-  color: #94a3b8;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-family: "Courier New", Courier, monospace;
+  color: #0f172a;
+}
+#pw-app .pw-exclude-input:focus { outline: 2px solid #3b82f6; border-color: transparent; }
+
+#pw-app .pw-mode-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+#pw-app .pw-mode-tab {
+  flex: 1;
+  text-align: center;
+  padding: 9px 10px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #fff;
+  color: #374151;
+  transition: all 0.15s;
+}
+#pw-app .pw-mode-tab.pw-tab-active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+#pw-app .pw-mode-tab:hover:not(.pw-tab-active) { background: #f1f5f9; }
+
+#pw-app .pw-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+#pw-app .pw-history-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  word-break: break-all;
+  gap: 8px;
+  color: #0f172a;
+}
+#pw-app .pw-history-list li:last-child { border-bottom: none; }
+#pw-app .pw-history-copy {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  padding: 3px 9px;
   font-size: 12px;
   cursor: pointer;
-  transition: all 0.2s;
-  white-space: nowrap;
-  flex-shrink: 0;
+  color: #374151;
 }
-
-.pw-multi-copy:hover {
-  background: #2d5080;
-  color: #fff;
-}
-
-.pw-multi-copy.copied-btn {
-  background: #14532d;
-  border-color: #22c55e;
-  color: #4ade80;
-}
-
-.pw-warning {
-  background: #3b1a00;
-  border: 1px solid #f59e0b;
-  border-radius: 8px;
-  padding: 10px 14px;
+#pw-app .pw-history-copy:hover { background: #f1f5f9; }
+#pw-app .pw-empty-history {
   font-size: 13px;
-  color: #fcd34d;
-  margin-bottom: 16px;
-  display: none;
+  color: #94a3b8;
+  text-align: center;
+  padding: 14px 0;
 }
 
-.pw-warning.show {
-  display: block;
+#pw-app .pw-multi-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#pw-app .pw-multi-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 8px;
+}
+#pw-app .pw-multi-list li:last-child { border-bottom: none; }
+#pw-app .pw-multi-list .pw-multi-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  word-break: break-all;
+  color: #0f172a;
+  flex: 1;
 }
 
-@media (max-width: 500px) {
-  .pw-card { padding: 16px; }
-  .pw-text { font-size: 15px; }
-  .pw-checkboxes { grid-template-columns: 1fr; }
-  .pw-actions { flex-direction: column; }
-  .pw-btn { justify-content: center; }
-  .pw-passphrase-opts { flex-direction: column; align-items: flex-start; gap: 8px; }
+@media (max-width: 480px) {
+  #pw-app .pw-row { flex-wrap: wrap; }
+  #pw-app .pw-row label { min-width: 100%; margin-bottom: 2px; }
+  #pw-app .pw-section { padding: 16px; }
+  #pw-app .pw-mode-tab { font-size: 12px; padding: 8px 6px; }
 }
 </style>
 
-<div class="pw-card">
+<!-- Mode selector -->
+<div class="pw-section">
+  <h3 class="pw-section-title">Mode</h3>
   <div class="pw-mode-tabs">
-    <div class="pw-tab active" onclick="pwSetMode('random')" id="pw-tab-random">Random Password</div>
-    <div class="pw-tab" onclick="pwSetMode('passphrase')" id="pw-tab-passphrase">Passphrase</div>
-    <div class="pw-tab" onclick="pwSetMode('multi')" id="pw-tab-multi">Multiple (5x)</div>
+    <div class="pw-mode-tab pw-tab-active" onclick="pwSetMode('random',this)">Random</div>
+    <div class="pw-mode-tab" onclick="pwSetMode('pronounceable',this)">Pronounceable</div>
+    <div class="pw-mode-tab" onclick="pwSetMode('passphrase',this)">Passphrase</div>
   </div>
 
-  <div id="pw-warning" class="pw-warning">Please select at least one character type.</div>
-
-  <div id="pw-single-display">
-    <div class="pw-display" id="pw-display-box" onclick="pwCopyMain()" title="Click to copy">
-      <span class="pw-copy-hint">click to copy</span>
-      <span class="pw-text" id="pw-output">Click Generate to create a password</span>
-      <span class="pw-copy-confirm" id="pw-copy-confirm">Copied!</span>
+  <!-- Random / Pronounceable options -->
+  <div id="pw-random-opts">
+    <div class="pw-row">
+      <label for="pw-length-slider">Length</label>
+      <input type="range" id="pw-length-slider" min="4" max="128" value="20" oninput="pwSyncLength(this.value)">
+      <input type="number" class="pw-num-input" id="pw-length-num" min="4" max="128" value="20" oninput="pwSyncLength(this.value)">
     </div>
-
-    <div class="pw-actions">
-      <button class="pw-btn pw-btn-primary" onclick="pwGenerate()">&#8635; Generate</button>
-      <button class="pw-btn pw-btn-secondary" id="pw-copy-btn" onclick="pwCopyMain()">&#128203; Copy</button>
+    <div class="pw-checks">
+      <label class="pw-check-item"><input type="checkbox" id="pw-upper" checked onchange="pwGenerate()"> Uppercase (A-Z)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pw-lower" checked onchange="pwGenerate()"> Lowercase (a-z)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pw-nums" checked onchange="pwGenerate()"> Numbers (0-9)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pw-syms" onchange="pwGenerate()"> Symbols (!@#$...)</label>
+      <label class="pw-check-item"><input type="checkbox" id="pw-noambig" onchange="pwGenerate()"> Exclude ambiguous (0/O, l/1/I)</label>
+    </div>
+    <div class="pw-exclude-row">
+      <label for="pw-exclude-chars">Exclude chars:</label>
+      <input type="text" class="pw-exclude-input" id="pw-exclude-chars" placeholder="e.g. {}[]" oninput="pwGenerate()">
     </div>
   </div>
 
-  <div id="pw-multi-section" class="pw-multi-section">
-    <div class="pw-multi-list" id="pw-multi-list"></div>
-    <br>
-    <button class="pw-btn pw-btn-primary" style="width:100%;justify-content:center;" onclick="pwGenerateMulti()">&#8635; Generate 5 Passwords</button>
+  <!-- Passphrase options -->
+  <div id="pw-passphrase-opts" style="display:none;">
+    <div class="pw-row">
+      <label for="pw-word-count">Word count</label>
+      <input type="range" id="pw-word-count" min="2" max="10" value="4" oninput="pwSyncWords(this.value)">
+      <input type="number" class="pw-num-input" id="pw-word-count-num" min="2" max="10" value="4" oninput="pwSyncWords(this.value)">
+    </div>
+    <div class="pw-checks">
+      <label class="pw-check-item"><input type="checkbox" id="pw-pp-cap" checked onchange="pwGenerate()"> Capitalize words</label>
+      <label class="pw-check-item"><input type="checkbox" id="pw-pp-num" checked onchange="pwGenerate()"> Append number</label>
+    </div>
+    <div class="pw-exclude-row">
+      <label for="pw-pp-sep">Separator:</label>
+      <input type="text" class="pw-exclude-input" id="pw-pp-sep" value="-" maxlength="5" style="max-width:80px;" oninput="pwGenerate()">
+    </div>
   </div>
 
-  <div class="pw-strength-section" id="pw-strength-section">
-    <div class="pw-strength-label-row">
-      <span class="pw-strength-label">Strength</span>
-      <span class="pw-strength-name" id="pw-strength-name">—</span>
+  <!-- Count -->
+  <div class="pw-row-count" style="margin-top:14px;">
+    <label for="pw-count">Generate</label>
+    <input type="number" class="pw-num-input" id="pw-count" min="1" max="20" value="1" oninput="pwGenerate()">
+    <span style="font-size:13px;color:#64748b;">password(s) at once (max 20)</span>
+  </div>
+</div>
+
+<!-- Output -->
+<div class="pw-section">
+  <h3 class="pw-section-title">Output</h3>
+
+  <div class="pw-strength-wrap" id="pw-strength-wrap">
+    <div class="pw-strength-label">
+      <span>Strength</span>
+      <span id="pw-strength-text" style="color:#94a3b8;">--</span>
     </div>
     <div class="pw-strength-bar-bg">
       <div class="pw-strength-bar" id="pw-strength-bar"></div>
     </div>
-    <div class="pw-entropy" id="pw-entropy">Entropy: —</div>
-    <div class="pw-strength-criteria" id="pw-strength-criteria"></div>
+  </div>
+
+  <div class="pw-output-box" id="pw-single-out">
+    <span class="pw-pass-text" id="pw-pass-display">Click Generate</span>
+    <button class="pw-copy-btn" id="pw-copy-main" onclick="pwCopyMain()">Copy</button>
+  </div>
+
+  <ul class="pw-multi-list" id="pw-multi-out" style="display:none;"></ul>
+
+  <div class="pw-actions">
+    <button class="pw-btn-primary" onclick="pwGenerate()">&#x21bb; Generate</button>
+    <button class="pw-btn-secondary" id="pw-copy-all-btn" onclick="pwCopyAll()" style="display:none;">Copy All</button>
   </div>
 </div>
 
-<div class="pw-card" id="pw-random-opts">
-  <div class="pw-section-title">Password Length</div>
-  <div class="pw-slider-row">
-    <input type="range" class="pw-slider" id="pw-length-slider" min="8" max="128" value="16" oninput="pwUpdateLength()">
-    <span class="pw-length-val" id="pw-length-val">16</span>
+<!-- History -->
+<div class="pw-section">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+    <h3 class="pw-section-title" style="margin:0;">History <span style="font-weight:400;color:#94a3b8;font-size:11px;">(session only)</span></h3>
+    <button class="pw-btn-secondary" style="padding:5px 12px;font-size:12px;" onclick="pwClearHistory()">Clear</button>
   </div>
-
-  <div class="pw-section-title">Character Sets</div>
-  <div class="pw-checkboxes">
-    <label class="pw-checkbox-item">
-      <input type="checkbox" id="pw-cb-upper" checked onchange="pwGenerate()">
-      <span class="pw-cb-label">Uppercase</span>
-      <span class="pw-cb-chars">A-Z</span>
-    </label>
-    <label class="pw-checkbox-item">
-      <input type="checkbox" id="pw-cb-lower" checked onchange="pwGenerate()">
-      <span class="pw-cb-label">Lowercase</span>
-      <span class="pw-cb-chars">a-z</span>
-    </label>
-    <label class="pw-checkbox-item">
-      <input type="checkbox" id="pw-cb-numbers" checked onchange="pwGenerate()">
-      <span class="pw-cb-label">Numbers</span>
-      <span class="pw-cb-chars">0-9</span>
-    </label>
-    <label class="pw-checkbox-item">
-      <input type="checkbox" id="pw-cb-symbols" checked onchange="pwGenerate()">
-      <span class="pw-cb-label">Symbols</span>
-      <span class="pw-cb-chars">!@#$...</span>
-    </label>
-  </div>
-
-  <div class="pw-section-title">Exclusions</div>
-  <div class="pw-exclude-section">
-    <label class="pw-exclude-item">
-      <input type="checkbox" id="pw-exc-similar" onchange="pwGenerate()">
-      <span>Exclude similar characters <code style="color:#94a3b8;font-size:11px;">I l 1 O 0</code></span>
-    </label>
-    <label class="pw-exclude-item">
-      <input type="checkbox" id="pw-exc-ambiguous" onchange="pwGenerate()">
-      <span>Exclude ambiguous symbols <code style="color:#94a3b8;font-size:11px;">{ } [ ] ( ) / \ ' " ` ~ , ; : . &lt; &gt;</code></span>
-    </label>
-  </div>
-</div>
-
-<div class="pw-card" id="pw-passphrase-opts" style="display:none;">
-  <div class="pw-section-title">Passphrase Options</div>
-  <div class="pw-passphrase-opts">
-    <label>Words: <input type="number" id="pw-pp-words" value="4" min="3" max="10" onchange="pwGenerate()"></label>
-    <label>Separator:
-      <select id="pw-pp-sep" onchange="pwGenerate()">
-        <option value="-">Hyphen (-)</option>
-        <option value=".">Dot (.)</option>
-        <option value="_">Underscore (_)</option>
-        <option value=" ">Space ( )</option>
-        <option value="">None</option>
-      </select>
-    </label>
-    <label class="pw-exclude-item" style="margin:0;">
-      <input type="checkbox" id="pw-pp-caps" onchange="pwGenerate()">
-      <span>Capitalize words</span>
-    </label>
-    <label class="pw-exclude-item" style="margin:0;">
-      <input type="checkbox" id="pw-pp-num" checked onchange="pwGenerate()">
-      <span>Add number</span>
-    </label>
-  </div>
+  <ul class="pw-history-list" id="pw-history-list">
+    <li><span class="pw-empty-history" style="width:100%;">No passwords generated yet.</span></li>
+  </ul>
 </div>
 
 <script>
-(function() {
-  var WORDLIST = [
-    "apple","bridge","castle","dragon","eagle","falcon","garden","harbor",
-    "island","jungle","kernel","lemon","mango","nature","ocean","planet",
-    "queen","river","sunset","tiger","umbrella","valley","winter","yellow",
-    "zebra","anchor","bottle","candle","dancer","engine","forest","golden",
-    "hammer","impact","jacket","kitten","lantern","marble","napkin","orange",
-    "pepper","quartz","rocket","silver","tunnel","velvet","walnut","xenon",
-    "yogurt","zipper","almond","basket","cherry","desert","expose","frozen",
-    "grapes","hunter","indoor","jigsaw","kettle","locket","mirror","noodle",
-    "oyster","pebble","raisin","saddle","tablet","useful","vendor","waffle",
-    "xyster","yearly","zephyr","artist","borrow","casual","divide","editor",
-    "fabric","gentle","hollow","invite","joyful","kindle","lively","modern",
-    "narrow","offset","palace","random","stable","travel","update","vision",
-    "wisdom","extern","yellow","bounce","carbon","direct","eleven","figure",
-    "giggle","handle","inject","jockey","locket","muscle","notify","output",
-    "pillow","rabbit","safety","tennis","unique","vertex","weapon","xylol",
-    "zombie","active","border","create","deploy","effect","finish","growth",
-    "health","intent","junior","kernel","listen","manage","normal","observe",
-    "prefer","result","signal","ticket","unlock","verify","window","xtreme",
-    "yearly","action","burden","center","defend","enable","factor","global",
-    "happen","import","joined","leader","market","nature","option","passed",
-    "remain","select","target","unable","volume","wealth","gained","humble",
-    "iconic","jested","launch","marvel","nested","object","parent","quorum",
-    "rescue","sample","taught","upbeat","vacant","wonder","expert","filter",
-    "growth","hidden","impact","jumped","keeper","lifted","method","nation",
-    "opened","punish","record","system","thread","upward","verbal","wooden",
-    "extend","flying","gained","helped","ignore","joined","killed","locked",
-    "mighty","nested","online","pulled","quoted","robust","served","tested",
-    "urgent","viable","warned","xenial","yonder","zoning"
+(function(){
+  var _pwMode = 'random';
+  var _pwHistory = [];
+
+  var _WORDS = [
+    "apple","brave","cloud","dance","eagle","flame","grace","house","ivory","juice",
+    "kneel","lemon","mango","night","ocean","piano","queen","river","stone","tiger",
+    "ultra","viper","wheat","xenon","yacht","zebra","amber","blaze","coral","drift",
+    "ember","frost","globe","haste","inlet","joker","karma","laser","maple","novel",
+    "olive","pearl","quill","ridge","solar","tidal","umbra","vault","waltz","pixel",
+    "azure","boost","crisp","delta","epoch","flint","grove","hinge","irony","jazzy",
+    "knife","lunar","moose","nerve","orbit","prism","quartz","robin","scout","torch",
+    "unity","visor","woven","oxide","yield","zonal","alpha","bench","cedar","depot",
+    "easel","field","glare","hedge","index","jelly","kinky","lotus","metal","noble",
+    "ozone","plumb","quota","ranch","swift","trout","urban","vivid","water","xylem",
+    "yearn","zippy","alert","blunt","curve","dense","erupt","fluke","groan","hyper",
+    "image","jewel","knack","lofty","micro","nifty","opera","plain","quiet","risky",
+    "spite","tango","usher","vigor","wider","extra","young","zesty","agile","brisk",
+    "crimp","dwell","elbow","finch","guava","hyena","infer","jaunt","kudos","lyric",
+    "merch","navel","onset","patch","quirk","ruddy","sleek","taunt","unfold","venom",
+    "wrath","adept","brine","clamp","drive","elegy","forge","glyph","hatch","intro",
+    "jumbo","latch","mirth","nudge","optic","plaid","quest","radar","snowy","tapir",
+    "untie","vocal","whirl","exert","zilch","amber","birch","candy","daisy","denim",
+    "fable","gauge","hazel","kiosk","lilac","melon","nicer","onion","pansy","racer",
+    "rivet","swamp","vivid","windy","boxer","crane","floss","graze","kneel","primo"
   ];
 
-  var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  var LOWER = 'abcdefghijklmnopqrstuvwxyz';
-  var NUMS  = '0123456789';
-  var SYMS  = '!@#$%^&*-_=+[]{}|;:,.<>?/~`';
-  var SYMS_SAFE = '!@#$%^&*-_=+';
-  var SIMILAR = 'Il1O0';
-  var AMBIGUOUS = '{}[]()/\\\'"`~,;:.<>';
+  var _CONSONANTS = 'bcdfghjklmnpqrstvwxyz';
+  var _VOWELS     = 'aeiou';
 
-  var currentPw = '';
-  var mode = 'random';
-
-  function secureRand(max) {
-    var arr = new Uint32Array(1);
-    var limit = Math.floor(4294967296 / max) * max;
-    do { crypto.getRandomValues(arr); } while (arr[0] >= limit);
-    return arr[0] % max;
+  function _randInt(max) {
+    var a = new Uint32Array(1);
+    var lim = Math.floor(4294967296 / max) * max;
+    do { crypto.getRandomValues(a); } while (a[0] >= lim);
+    return a[0] % max;
   }
 
-  function buildCharset() {
-    var charset = '';
-    var excSimilar = document.getElementById('pw-exc-similar').checked;
-    var excAmbig   = document.getElementById('pw-exc-ambiguous').checked;
+  function _charset() {
+    var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var lower = 'abcdefghijklmnopqrstuvwxyz';
+    var nums  = '0123456789';
+    var syms  = '!@#$%^&*()-_=+[]{}|;:,.<>?';
+    var ambig = '0Ol1I';
+    var useUp = document.getElementById('pw-upper').checked;
+    var useLo = document.getElementById('pw-lower').checked;
+    var useNu = document.getElementById('pw-nums').checked;
+    var useSy = document.getElementById('pw-syms').checked;
+    var noAmb = document.getElementById('pw-noambig').checked;
+    var excl  = document.getElementById('pw-exclude-chars').value;
+    var cs = '';
+    if (useUp) cs += upper;
+    if (useLo) cs += lower;
+    if (useNu) cs += nums;
+    if (useSy) cs += syms;
+    if (noAmb) { var t=''; for(var i=0;i<cs.length;i++) if(ambig.indexOf(cs[i])===-1) t+=cs[i]; cs=t; }
+    if (excl)  { var t=''; for(var i=0;i<cs.length;i++) if(excl.indexOf(cs[i])===-1) t+=cs[i]; cs=t; }
+    return cs;
+  }
 
-    function filter(str) {
-      var out = '';
-      for (var i = 0; i < str.length; i++) {
-        if (excSimilar && SIMILAR.indexOf(str[i]) !== -1) continue;
-        if (excAmbig && AMBIGUOUS.indexOf(str[i]) !== -1) continue;
-        out += str[i];
+  function _genRandom(len) {
+    var cs = _charset();
+    if (!cs) return '(select at least one character type)';
+    var out = '';
+    for (var i=0; i<len; i++) out += cs[_randInt(cs.length)];
+    return out;
+  }
+
+  function _genPronounceable(len) {
+    var useUp = document.getElementById('pw-upper').checked;
+    var noAmb = document.getElementById('pw-noambig').checked;
+    var excl  = document.getElementById('pw-exclude-chars').value;
+    var con = noAmb ? _CONSONANTS.replace(/l/g,'') : _CONSONANTS;
+    var vow = _VOWELS;
+    var out = '';
+    var useC = true;
+    for (var i=0; i<len; i++) {
+      var pool = useC ? con : vow;
+      var ch = pool[_randInt(pool.length)];
+      if (useUp && _randInt(4)===0) ch = ch.toUpperCase();
+      out += ch;
+      useC = !useC;
+    }
+    if (excl) {
+      var fixed = '';
+      for (var j=0; j<out.length; j++) {
+        if (excl.indexOf(out[j])===-1) { fixed += out[j]; }
+        else { var p=(j%2===0)?con:vow; fixed += p[_randInt(p.length)]; }
       }
-      return out;
+      out = fixed;
     }
-
-    if (document.getElementById('pw-cb-upper').checked)   charset += filter(UPPER);
-    if (document.getElementById('pw-cb-lower').checked)   charset += filter(LOWER);
-    if (document.getElementById('pw-cb-numbers').checked) charset += filter(NUMS);
-    if (document.getElementById('pw-cb-symbols').checked) {
-      var syms = excAmbig ? SYMS_SAFE : SYMS;
-      charset += filter(syms);
-    }
-    return charset;
+    return out;
   }
 
-  function generateRandom(len) {
-    var charset = buildCharset();
-    if (!charset) return null;
-    var pw = '';
-    for (var i = 0; i < len; i++) {
-      pw += charset[secureRand(charset.length)];
+  function _genPassphrase() {
+    var cnt = Math.min(10,Math.max(2,parseInt(document.getElementById('pw-word-count').value)||4));
+    var cap = document.getElementById('pw-pp-cap').checked;
+    var num = document.getElementById('pw-pp-num').checked;
+    var sep = document.getElementById('pw-pp-sep').value;
+    var ws = [];
+    for (var i=0; i<cnt; i++) {
+      var w = _WORDS[_randInt(_WORDS.length)];
+      if (cap) w = w.charAt(0).toUpperCase()+w.slice(1);
+      ws.push(w);
     }
-    return pw;
+    var r = ws.join(sep);
+    if (num) r += sep + (_randInt(90)+10);
+    return r;
   }
 
-  function generatePassphrase() {
-    var count = parseInt(document.getElementById('pw-pp-words').value) || 4;
-    var sep   = document.getElementById('pw-pp-sep').value;
-    var caps  = document.getElementById('pw-pp-caps').checked;
-    var addNum = document.getElementById('pw-pp-num').checked;
-
-    var words = [];
-    for (var i = 0; i < count; i++) {
-      var w = WORDLIST[secureRand(WORDLIST.length)];
-      if (caps) w = w.charAt(0).toUpperCase() + w.slice(1);
-      words.push(w);
-    }
-    var pw = words.join(sep);
-    if (addNum) {
-      var n = secureRand(100);
-      pw += sep + n;
-    }
-    return pw;
+  function _genOne() {
+    var len = parseInt(document.getElementById('pw-length-slider').value)||20;
+    if (_pwMode==='random')       return _genRandom(len);
+    if (_pwMode==='pronounceable') return _genPronounceable(len);
+    if (_pwMode==='passphrase')    return _genPassphrase();
+    return '';
   }
 
-  function calcEntropy(pw, charset) {
-    if (!pw) return 0;
-    var pool = 0;
-    if (/[A-Z]/.test(pw)) pool += 26;
-    if (/[a-z]/.test(pw)) pool += 26;
-    if (/[0-9]/.test(pw)) pool += 10;
-    if (/[^A-Za-z0-9]/.test(pw)) pool += 32;
-    if (pool === 0) return 0;
-    return Math.round(pw.length * Math.log2(pool));
+  function _entropy(pass) {
+    var cs = _charset();
+    var pool = cs ? cs.length : 26;
+    return pass.length * Math.log2(pool > 1 ? pool : 2);
   }
 
-  function calcPassphraseEntropy(wordCount) {
-    return Math.round(wordCount * Math.log2(WORDLIST.length));
+  function _strengthInfo(bits) {
+    if (bits < 28)  return {label:'Very Weak',  pct:10,  color:'#ef4444'};
+    if (bits < 36)  return {label:'Weak',        pct:25,  color:'#f97316'};
+    if (bits < 60)  return {label:'Fair',         pct:50,  color:'#eab308'};
+    if (bits < 80)  return {label:'Good',         pct:72,  color:'#22c55e'};
+    if (bits < 100) return {label:'Strong',       pct:88,  color:'#16a34a'};
+    return               {label:'Very Strong',  pct:100, color:'#15803d'};
   }
 
-  var strengthLevels = [
-    { min: 0,   max: 25,  label: 'Weak',      color: '#ef4444', pct: 15 },
-    { min: 25,  max: 40,  label: 'Fair',      color: '#f97316', pct: 35 },
-    { min: 40,  max: 60,  label: 'Good',      color: '#eab308', pct: 57 },
-    { min: 60,  max: 80,  label: 'Strong',    color: '#22c55e', pct: 78 },
-    { min: 80,  max: 999, label: 'Very Strong', color: '#06b6d4', pct: 100 }
-  ];
-
-  function getStrength(entropy) {
-    for (var i = 0; i < strengthLevels.length; i++) {
-      var s = strengthLevels[i];
-      if (entropy >= s.min && entropy < s.max) return s;
-    }
-    return strengthLevels[strengthLevels.length - 1];
+  function _passphraseEntropy(pass) {
+    var sep = document.getElementById('pw-pp-sep').value || '-';
+    var sepE = sep.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,'\\$&');
+    var wc = (pass.match(new RegExp('['+sepE+']','g'))||[]).length + 1;
+    return wc * Math.log2(_WORDS.length);
   }
 
-  function updateStrengthUI(pw, entropy) {
-    var bar   = document.getElementById('pw-strength-bar');
-    var name  = document.getElementById('pw-strength-name');
-    var ent   = document.getElementById('pw-entropy');
-    var crit  = document.getElementById('pw-strength-criteria');
+  function _updateStrength(pass) {
+    var bits = (_pwMode==='passphrase') ? _passphraseEntropy(pass) : _entropy(pass);
+    var info = _strengthInfo(bits);
+    document.getElementById('pw-strength-text').textContent = info.label + ' (~'+Math.round(bits)+' bits)';
+    document.getElementById('pw-strength-text').style.color = info.color;
+    document.getElementById('pw-strength-bar').style.width = info.pct+'%';
+    document.getElementById('pw-strength-bar').style.background = info.color;
+  }
 
-    if (!pw) {
-      bar.style.width = '0%';
-      name.textContent = '—';
-      ent.textContent = 'Entropy: —';
-      crit.innerHTML = '';
+  function _addHistory(passwords) {
+    for (var i=0; i<passwords.length; i++) _pwHistory.unshift(passwords[i]);
+    if (_pwHistory.length>10) _pwHistory = _pwHistory.slice(0,10);
+    _renderHistory();
+  }
+
+  function _renderHistory() {
+    var ul = document.getElementById('pw-history-list');
+    ul.innerHTML = '';
+    if (_pwHistory.length===0) {
+      ul.innerHTML = '<li><span class="pw-empty-history" style="width:100%;">No passwords generated yet.</span></li>';
       return;
     }
-
-    var s = getStrength(entropy);
-    bar.style.width = s.pct + '%';
-    bar.style.background = s.color;
-    name.textContent = s.label;
-    name.style.color = s.color;
-    ent.textContent = 'Entropy: ~' + entropy + ' bits';
-
-    var criteria = [
-      { label: '12+ chars',   met: pw.length >= 12 },
-      { label: '16+ chars',   met: pw.length >= 16 },
-      { label: 'Uppercase',   met: /[A-Z]/.test(pw) },
-      { label: 'Lowercase',   met: /[a-z]/.test(pw) },
-      { label: 'Numbers',     met: /[0-9]/.test(pw) },
-      { label: 'Symbols',     met: /[^A-Za-z0-9]/.test(pw) },
-      { label: '60+ bits',    met: entropy >= 60 },
-      { label: '80+ bits',    met: entropy >= 80 }
-    ];
-
-    crit.innerHTML = '';
-    criteria.forEach(function(c) {
-      var span = document.createElement('span');
-      span.className = 'pw-criterion' + (c.met ? ' met' : '');
-      span.textContent = (c.met ? '✓ ' : '✗ ') + c.label;
-      crit.appendChild(span);
+    _pwHistory.forEach(function(p) {
+      var li = document.createElement('li');
+      var sp = document.createElement('span'); sp.textContent = p;
+      var btn = document.createElement('button');
+      btn.className = 'pw-history-copy'; btn.textContent = 'Copy';
+      (function(pass,b){ b.onclick=function(){ _clip(pass); b.textContent='Copied!'; setTimeout(function(){ b.textContent='Copy'; },1500); }; })(p,btn);
+      li.appendChild(sp); li.appendChild(btn); ul.appendChild(li);
     });
   }
 
-  window.pwSetMode = function(m) {
-    mode = m;
-    document.getElementById('pw-tab-random').classList.toggle('active', m === 'random');
-    document.getElementById('pw-tab-passphrase').classList.toggle('active', m === 'passphrase');
-    document.getElementById('pw-tab-multi').classList.toggle('active', m === 'multi');
-
-    document.getElementById('pw-random-opts').style.display    = (m === 'random') ? '' : 'none';
-    document.getElementById('pw-passphrase-opts').style.display = (m === 'passphrase') ? '' : 'none';
-
-    var singleDisp = document.getElementById('pw-single-display');
-    var multiSec   = document.getElementById('pw-multi-section');
-    var strengthSec = document.getElementById('pw-strength-section');
-
-    if (m === 'multi') {
-      singleDisp.style.display = 'none';
-      multiSec.classList.add('active');
-      strengthSec.style.display = 'none';
-      pwGenerateMulti();
+  function _clip(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(function(){});
     } else {
-      singleDisp.style.display = '';
-      multiSec.classList.remove('active');
-      strengthSec.style.display = '';
-      pwGenerate();
+      var ta=document.createElement('textarea'); ta.value=text;
+      ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
     }
-  };
-
-  window.pwUpdateLength = function() {
-    var val = document.getElementById('pw-length-slider').value;
-    document.getElementById('pw-length-val').textContent = val;
-    pwGenerate();
-  };
+  }
 
   window.pwGenerate = function() {
-    var pw, entropy;
-    var warning = document.getElementById('pw-warning');
+    var count = Math.min(20,Math.max(1,parseInt(document.getElementById('pw-count').value)||1));
+    var passwords = [];
+    for (var i=0; i<count; i++) passwords.push(_genOne());
 
-    if (mode === 'passphrase') {
-      pw = generatePassphrase();
-      var wc = parseInt(document.getElementById('pw-pp-words').value) || 4;
-      entropy = calcPassphraseEntropy(wc);
+    var singleOut    = document.getElementById('pw-single-out');
+    var multiOut     = document.getElementById('pw-multi-out');
+    var copyAllBtn   = document.getElementById('pw-copy-all-btn');
+    var strengthWrap = document.getElementById('pw-strength-wrap');
+
+    if (count===1) {
+      document.getElementById('pw-pass-display').textContent = passwords[0];
+      singleOut.style.display    = 'flex';
+      multiOut.style.display     = 'none';
+      copyAllBtn.style.display   = 'none';
+      strengthWrap.style.display = 'block';
+      _updateStrength(passwords[0]);
     } else {
-      var len = parseInt(document.getElementById('pw-length-slider').value);
-      pw = generateRandom(len);
-      if (!pw) {
-        warning.classList.add('show');
-        document.getElementById('pw-output').textContent = '—';
-        currentPw = '';
-        updateStrengthUI('', 0);
-        return;
-      }
-      entropy = calcEntropy(pw, null);
-    }
-
-    warning.classList.remove('show');
-    currentPw = pw;
-    document.getElementById('pw-output').textContent = pw;
-    updateStrengthUI(pw, entropy);
-
-    var box = document.getElementById('pw-display-box');
-    box.classList.remove('copied');
-    document.getElementById('pw-copy-confirm').classList.remove('show');
-    var copyBtn = document.getElementById('pw-copy-btn');
-    copyBtn.classList.remove('copied-btn');
-    copyBtn.innerHTML = '&#128203; Copy';
-  };
-
-  window.pwGenerateMulti = function() {
-    var list = document.getElementById('pw-multi-list');
-    list.innerHTML = '';
-    for (var i = 0; i < 5; i++) {
-      var pw;
-      if (mode === 'multi') {
-        var len = parseInt(document.getElementById('pw-length-slider').value) || 16;
-        // Use last slider value if opts visible, else default
-        pw = generateRandom(len) || generatePassphrase();
-      } else {
-        pw = generateRandom(16);
-      }
-      if (!pw) pw = generatePassphrase();
-      (function(p) {
-        var item = document.createElement('div');
-        item.className = 'pw-multi-item';
-
-        var txt = document.createElement('span');
-        txt.className = 'pw-multi-pw';
-        txt.textContent = p;
-
+      singleOut.style.display    = 'none';
+      strengthWrap.style.display = 'none';
+      multiOut.style.display     = 'block';
+      copyAllBtn.style.display   = 'inline-block';
+      multiOut.innerHTML = '';
+      passwords.forEach(function(p) {
+        var li = document.createElement('li');
+        var sp = document.createElement('span'); sp.className='pw-multi-text'; sp.textContent=p;
         var btn = document.createElement('button');
-        btn.className = 'pw-multi-copy';
-        btn.textContent = 'Copy';
-        btn.onclick = function() {
-          navigator.clipboard.writeText(p).then(function() {
-            btn.textContent = 'Copied!';
-            btn.classList.add('copied-btn');
-            item.classList.add('copied');
-            setTimeout(function() {
-              btn.textContent = 'Copy';
-              btn.classList.remove('copied-btn');
-              item.classList.remove('copied');
-            }, 2000);
-          });
-        };
-
-        item.appendChild(txt);
-        item.appendChild(btn);
-        list.appendChild(item);
-      })(pw);
+        btn.className='pw-copy-btn'; btn.textContent='Copy';
+        btn.style.fontSize='12px'; btn.style.padding='5px 12px';
+        (function(pass,b){ b.onclick=function(){ _clip(pass); b.textContent='Copied!'; b.classList.add('pw-copied'); setTimeout(function(){ b.textContent='Copy'; b.classList.remove('pw-copied'); },1500); }; })(p,btn);
+        li.appendChild(sp); li.appendChild(btn); multiOut.appendChild(li);
+      });
     }
+    _addHistory(passwords);
   };
 
   window.pwCopyMain = function() {
-    if (!currentPw) return;
-    navigator.clipboard.writeText(currentPw).then(function() {
-      var box     = document.getElementById('pw-display-box');
-      var confirm = document.getElementById('pw-copy-confirm');
-      var copyBtn = document.getElementById('pw-copy-btn');
-
-      box.classList.add('copied');
-      confirm.classList.add('show');
-      copyBtn.classList.add('copied-btn');
-      copyBtn.innerHTML = '&#10003; Copied!';
-
-      setTimeout(function() {
-        box.classList.remove('copied');
-        confirm.classList.remove('show');
-        copyBtn.classList.remove('copied-btn');
-        copyBtn.innerHTML = '&#128203; Copy';
-      }, 2000);
-    });
+    var text = document.getElementById('pw-pass-display').textContent;
+    if (!text || text==='Click Generate') return;
+    _clip(text);
+    var btn = document.getElementById('pw-copy-main');
+    btn.textContent='Copied!'; btn.classList.add('pw-copied');
+    setTimeout(function(){ btn.textContent='Copy'; btn.classList.remove('pw-copied'); },1500);
   };
 
-  // Initialize
-  document.getElementById('pw-passphrase-opts').style.display = 'none';
-  document.getElementById('pw-multi-section').classList.remove('active');
+  window.pwCopyAll = function() {
+    var items = document.querySelectorAll('#pw-multi-out .pw-multi-text');
+    var all = Array.prototype.slice.call(items).map(function(el){ return el.textContent; }).join('\n');
+    _clip(all);
+    var btn = document.getElementById('pw-copy-all-btn');
+    btn.textContent='Copied All!';
+    setTimeout(function(){ btn.textContent='Copy All'; },1500);
+  };
+
+  window.pwClearHistory = function() { _pwHistory=[]; _renderHistory(); };
+
+  window.pwSyncLength = function(val) {
+    var v = Math.min(128,Math.max(4,parseInt(val)||4));
+    document.getElementById('pw-length-slider').value = v;
+    document.getElementById('pw-length-num').value    = v;
+    pwGenerate();
+  };
+
+  window.pwSyncWords = function(val) {
+    var v = Math.min(10,Math.max(2,parseInt(val)||4));
+    document.getElementById('pw-word-count').value     = v;
+    document.getElementById('pw-word-count-num').value = v;
+    pwGenerate();
+  };
+
+  window.pwSetMode = function(mode, el) {
+    _pwMode = mode;
+    var tabs = document.querySelectorAll('#pw-app .pw-mode-tab');
+    for (var i=0; i<tabs.length; i++) tabs[i].classList.remove('pw-tab-active');
+    el.classList.add('pw-tab-active');
+    var isPhrase = (mode==='passphrase');
+    document.getElementById('pw-random-opts').style.display     = isPhrase ? 'none'  : 'block';
+    document.getElementById('pw-passphrase-opts').style.display = isPhrase ? 'block' : 'none';
+    pwGenerate();
+  };
+
   pwGenerate();
 })();
 </script>
@@ -942,29 +671,30 @@ ShowToc: false
 
 ---
 
-## How to Create a Strong Password
+## How It Works
 
-A strong password is your first line of defense against unauthorized access to your accounts. The most important factor is length — a password of 16 or more characters is exponentially harder to crack than an 8-character one, even if the shorter one uses more special characters. Aim for a minimum of 12 characters for everyday accounts, and 20 or more for financial or email accounts that could unlock everything else if compromised.
+Passwords are generated entirely in your browser using the **Web Crypto API** (`crypto.getRandomValues()`), which produces cryptographically secure random values. No data is ever sent to a server.
 
-Character variety matters almost as much as length. Mixing uppercase letters, lowercase letters, numbers, and symbols dramatically increases the number of possible combinations an attacker must try. A 16-character password using all four character types has over 2 septillion possible combinations — a number that would take modern hardware billions of years to exhaust through brute force. Avoid predictable substitutions like "P@ssw0rd" or "S3cur1ty," because attackers program these patterns into their cracking tools as a first step.
+**Entropy** measures how unpredictable a password is. The calculation is `length x log2(charset size)`. A 20-character password using all character types reaches approximately 120 bits of entropy — well beyond brute-force reach with current hardware.
 
-Uniqueness is non-negotiable. Every account you own should have its own distinct password. When a website suffers a data breach, attackers immediately test those stolen credentials across hundreds of other services in an attack called "credential stuffing." If you reuse passwords, a breach at one small site can cascade into a full identity compromise. A password manager lets you maintain hundreds of unique, randomly generated passwords without memorizing any of them — you only need to remember one strong master password.
+### Mode Guide
 
-## Password Security Tips
+| Mode | Best for |
+|---|---|
+| Random | Maximum security; use with a password manager |
+| Pronounceable | Easier to type aloud; consonant-vowel alternation |
+| Passphrase | Memorable; high entropy from word combinations |
 
-- **Use a password manager.** Tools like Bitwarden, 1Password, or KeePass store and autofill your passwords securely, so you never need to reuse or write them down.
-- **Enable two-factor authentication (2FA).** Even if a password is stolen, 2FA — especially an authenticator app like Google Authenticator or Authy — blocks unauthorized access.
-- **Never use personal information.** Birthdays, pet names, phone numbers, and addresses are discoverable through social media and are the first things attackers try.
-- **Avoid dictionary words alone.** Single dictionary words can be cracked in seconds. If you want something memorable, use a passphrase of four or more random words (like this tool's passphrase mode).
-- **Change passwords after a breach.** Check services like HaveIBeenPwned.com regularly, and update your password immediately if your email appears in a known data breach.
-- **Use different passwords for email accounts.** Your email is a master key — if compromised, it allows password resets on every other service you own. Treat it with extra care.
-- **Avoid typing passwords on public or shared computers.** Keyloggers and shoulder surfing are real threats in libraries, hotels, and internet cafes.
-- **Keep your master password and recovery codes offline.** Write your password manager master password and 2FA backup codes on paper and store them somewhere physically secure, like a locked drawer.
+### Tips for Strong Passwords
 
-## Related Tools
+- Use 16+ characters for everyday accounts; 24+ for critical ones.
+- Enable symbols to maximize entropy in Random mode.
+- Use Passphrase mode for passwords you need to remember.
+- Never reuse passwords across sites — use a password manager.
+- The "Exclude ambiguous" option avoids confusion between `0`/`O` and `l`/`1`/`I` when reading passwords aloud.
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+---
 
-> Track your subscription costs and save money → [Subscription Cost Calculator](/tools/subscription-cost-calculator/)
+> Generate hashes → [Hash Generator](/tools/hash-generator/)
 
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Encode/decode text → [Universal Encoder/Decoder](/tools/encoder-decoder/)
