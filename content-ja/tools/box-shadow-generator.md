@@ -1,7 +1,7 @@
 ---
-title: "CSSボックスシャドウジェネレーター — 無料ツール"
+title: "CSSボックスシャドウ ジェネレーター — 無料オンラインツール"
 date: 2025-05-16
-description: "CSSのbox-shadowコードをリアルタイムで生成。複数シャドウ、プリセット、不透明度調整、インセット切替、Tailwindクラス対応。登録不要・外部ライブラリ不使用。"
+description: "CSSのbox-shadowコードを即座に生成。リアルタイムプレビュー、複数シャドウ、プリセット、透明度、内側影、Tailwind対応。登録不要・完全無料。"
 categories: ["無料ツール"]
 slug: "box-shadow-generator"
 ShowToc: false
@@ -10,7 +10,7 @@ aliases:
   - "/ja/tools/shadow-generator/"
 cover:
   image: "/images/covers/box-shadow-generator-ja.png"
-  alt: "CSSボックスシャドウジェネレーター"
+  alt: "CSSボックスシャドウ ジェネレーター"
 ---
 
 <div id="shadow-app">
@@ -23,7 +23,7 @@ cover:
 }
 
 #shadow-app {
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: #f3f4f6;
   background: #374151;
   border-radius: 12px;
@@ -34,7 +34,7 @@ cover:
 
 #shadow-app h2 {
   margin: 0 0 20px;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #f9fafb;
   border-bottom: 1px solid #4b5563;
@@ -64,10 +64,10 @@ cover:
 }
 
 #shadow-app .sa-preview-label {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: #9ca3af;
 }
 
@@ -206,7 +206,7 @@ cover:
 /* Sliders */
 #shadow-app .sa-field {
   display: grid;
-  grid-template-columns: 86px 1fr 48px;
+  grid-template-columns: 90px 1fr 44px;
   align-items: center;
   gap: 8px;
   margin-bottom: 8px;
@@ -257,12 +257,13 @@ cover:
   color: #d1d5db;
   text-align: right;
   font-variant-numeric: tabular-nums;
+  min-width: 40px;
 }
 
 /* Color row */
 #shadow-app .sa-color-row {
   display: grid;
-  grid-template-columns: 86px 28px 1fr 48px;
+  grid-template-columns: 90px 28px 1fr 44px;
   align-items: center;
   gap: 8px;
   margin-bottom: 8px;
@@ -417,104 +418,53 @@ cover:
   font-size: 0.78rem;
   color: #7dd3fc;
 }
-
-/* freee CTA */
-#shadow-app .sa-freee-cta {
-  margin-top: 24px;
-  background: #1e3a5f;
-  border: 1px solid #2563eb;
-  border-radius: 10px;
-  padding: 16px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-#shadow-app .sa-freee-cta-text {
-  font-size: 0.85rem;
-  color: #bfdbfe;
-  line-height: 1.5;
-}
-
-#shadow-app .sa-freee-cta-text strong {
-  color: #fff;
-  display: block;
-  margin-bottom: 3px;
-  font-size: 0.92rem;
-}
-
-#shadow-app .sa-freee-btn {
-  display: inline-block;
-  background: #2563eb;
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 18px;
-  border-radius: 7px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: background 0.15s;
-}
-
-#shadow-app .sa-freee-btn:hover {
-  background: #1d4ed8;
-}
 </style>
 
-<h2>CSSボックスシャドウジェネレーター</h2>
+<h2>CSSボックスシャドウ ジェネレーター</h2>
 
 <div class="sa-layout">
   <!-- 左: プレビュー + プリセット -->
   <div>
+    <!-- プレビュー -->
     <div class="sa-preview-area" style="margin-bottom:16px;">
-      <div class="sa-preview-label">ライブプレビュー</div>
+      <div class="sa-preview-label">リアルタイム プレビュー</div>
       <div class="sa-preview-box-wrap">
         <div class="sa-preview-box" id="sa-preview-box"></div>
       </div>
     </div>
 
+    <!-- プリセット -->
     <div class="sa-presets">
       <div class="sa-preview-label">プリセット</div>
       <div class="sa-preset-grid" id="sa-preset-grid"></div>
     </div>
   </div>
 
-  <!-- 右: シャドウ設定 -->
+  <!-- 右: シャドウ コントロール -->
   <div class="sa-controls">
     <div class="sa-shadow-list" id="sa-shadow-list"></div>
-    <button class="sa-add-btn" id="sa-add-btn">+ シャドウを追加（最大4つ）</button>
+    <button class="sa-add-btn" id="sa-add-btn">+ シャドウ レイヤーを追加</button>
   </div>
 
   <!-- 出力 -->
   <div class="sa-output">
     <div class="sa-output-header">
-      <div class="sa-preview-label">生成されたCSS</div>
+      <div class="sa-preview-label">生成された CSS</div>
       <button class="sa-copy-btn" id="sa-copy-btn">CSSをコピー</button>
     </div>
     <code class="sa-code-block" id="sa-css-output"></code>
     <div class="sa-tailwind-row">
-      <span class="sa-tw-label">Tailwind相当クラス：</span>
+      <span class="sa-tw-label">Tailwind の対応クラス:</span>
       <code class="sa-tw-code" id="sa-tw-output">—</code>
     </div>
   </div>
-</div>
-
-<!-- freee CTA -->
-<div class="sa-freee-cta">
-  <div class="sa-freee-cta-text">
-    <strong>freee で経理・請求書を自動化しませんか？</strong>
-    フリーランス・中小企業向けの会計ソフト。確定申告もラクラク。
-  </div>
-  <a class="sa-freee-btn" href="https://www.freee.co.jp/" target="_blank" rel="noopener">freee を試す（無料）</a>
 </div>
 
 <script>
 (function () {
   "use strict";
 
-  /* ── プリセット ─────────────────────────────────────────── */
+  /* ── プリセット ───────────────────────────────────────────── */
   const PRESETS = [
     {
       name: "控えめ",
@@ -544,11 +494,11 @@ cover:
       shadows: [{ x: 0, y: 0, blur: 20, spread: 4, color: "#6366f1", opacity: 0.85, inset: false }],
     },
     {
-      name: "インセット",
+      name: "内側",
       shadows: [{ x: 0, y: 2, blur: 8, spread: 0, color: "#000000", opacity: 0.25, inset: true }],
     },
     {
-      name: "浮遊感",
+      name: "浮遊",
       shadows: [
         { x: 0, y: 1, blur: 2, spread: 0, color: "#000000", opacity: 0.06, inset: false },
         { x: 0, y: 4, blur: 6, spread: -1, color: "#000000", opacity: 0.1, inset: false },
@@ -561,13 +511,24 @@ cover:
     },
   ];
 
-  /* ── Tailwind マップ ────────────────────────────────────── */
-  /* State */
+  /* ── Tailwind マップ ───────────────────────────────────────── */
+  const TW_MAP = [
+    { cls: "shadow-sm",  css: "0 1px 2px 0 rgb(0 0 0 / 0.05)" },
+    { cls: "shadow",     css: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)" },
+    { cls: "shadow-md",  css: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)" },
+    { cls: "shadow-lg",  css: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)" },
+    { cls: "shadow-xl",  css: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)" },
+    { cls: "shadow-2xl", css: "0 25px 50px -12px rgb(0 0 0 / 0.25)" },
+    { cls: "shadow-inner", css: "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)" },
+    { cls: "shadow-none", css: "0 0 #0000" },
+  ];
+
+  /* ── 状態 ─────────────────────────────────────────────────── */
   let shadows = [
     { x: 0, y: 4, blur: 12, spread: 0, color: "#000000", opacity: 0.18, inset: false },
   ];
 
-  /* ── ヘルパー ───────────────────────────────────────────── */
+  /* ── ヘルパー ─────────────────────────────────────────────── */
   function hexToRgb(hex) {
     const r = parseInt(hex.slice(1, 3), 16);
     const g = parseInt(hex.slice(3, 5), 16);
@@ -602,7 +563,7 @@ cover:
     return null;
   }
 
-  /* ── レンダー ───────────────────────────────────────────── */
+  /* ── レンダリング ─────────────────────────────────────────── */
   function render() {
     const preview = document.getElementById("sa-preview-box");
     const cssOut = document.getElementById("sa-css-output");
@@ -610,10 +571,11 @@ cover:
 
     const shadowCSS = shadows.map(shadowToCSS).join(", ");
     preview.style.boxShadow = shadowCSS;
+
     cssOut.textContent = buildFullCSS();
 
     const tw = guessTailwind();
-    twOut.textContent = tw ? tw : "直接対応するクラスなし（任意値を使用してください）";
+    twOut.textContent = tw ? tw : "直接対応するTailwindクラスなし（任意値を使用してください）";
 
     renderShadowList();
     updateAddBtn();
@@ -636,40 +598,41 @@ cover:
         <div class="sa-shadow-header">
           <span class="sa-shadow-title">シャドウ ${i + 1}</span>
           <div class="sa-shadow-actions">
-            <button class="sa-toggle-btn${s.inset ? " sa-active" : ""}" data-i="${i}" data-action="inset">インセット</button>
+            <button class="sa-toggle-btn${s.inset ? " sa-active" : ""}" data-i="${i}" data-action="inset">内側</button>
             ${shadows.length > 1 ? `<button class="sa-remove-btn" data-i="${i}" data-action="remove" title="削除">×</button>` : ""}
           </div>
         </div>
 
         <div class="sa-field">
-          <label>水平オフセット</label>
+          <label>水平方向</label>
           <input type="range" min="-60" max="60" value="${s.x}" data-i="${i}" data-prop="x">
           <span class="sa-val">${s.x}px</span>
         </div>
         <div class="sa-field">
-          <label>垂直オフセット</label>
+          <label>垂直方向</label>
           <input type="range" min="-60" max="60" value="${s.y}" data-i="${i}" data-prop="y">
           <span class="sa-val">${s.y}px</span>
         </div>
         <div class="sa-field">
-          <label>ぼかし半径</label>
+          <label>ぼかし</label>
           <input type="range" min="0" max="100" value="${s.blur}" data-i="${i}" data-prop="blur">
           <span class="sa-val">${s.blur}px</span>
         </div>
         <div class="sa-field">
-          <label>広がり半径</label>
+          <label>広がり</label>
           <input type="range" min="-30" max="30" value="${s.spread}" data-i="${i}" data-prop="spread">
           <span class="sa-val">${s.spread}px</span>
         </div>
 
         <div class="sa-color-row">
-          <label>色 / 不透明度</label>
+          <label>色 / 透明度</label>
           <input type="color" value="${s.color}" data-i="${i}" data-prop="color">
           <input type="range" min="0" max="1" step="0.01" value="${s.opacity}" data-i="${i}" data-prop="opacity">
           <span class="sa-val">${Math.round(s.opacity * 100)}%</span>
         </div>
       `;
 
+      /* イベント */
       item.querySelectorAll("input[type='range'][data-prop]").forEach((el) => {
         el.addEventListener("input", (e) => {
           const idx = +e.target.dataset.i;
@@ -704,7 +667,7 @@ cover:
     });
   }
 
-  /* ── プリセット描画 ─────────────────────────────────────── */
+  /* ── プリセット ───────────────────────────────────────────── */
   function renderPresets() {
     const grid = document.getElementById("sa-preset-grid");
     PRESETS.forEach((p) => {
@@ -723,7 +686,7 @@ cover:
     });
   }
 
-  /* ── シャドウ追加 ───────────────────────────────────────── */
+  /* ── シャドウ追加 ─────────────────────────────────────────── */
   document.getElementById("sa-add-btn").addEventListener("click", () => {
     if (shadows.length < 4) {
       shadows.push({ x: 0, y: 4, blur: 12, spread: 0, color: "#000000", opacity: 0.15, inset: false });
@@ -731,12 +694,12 @@ cover:
     }
   });
 
-  /* ── CSSコピー ──────────────────────────────────────────── */
+  /* ── CSSコピー ────────────────────────────────────────────── */
   document.getElementById("sa-copy-btn").addEventListener("click", () => {
     const css = buildFullCSS();
     navigator.clipboard.writeText(css).then(() => {
       const btn = document.getElementById("sa-copy-btn");
-      btn.textContent = "コピーしました!";
+      btn.textContent = "コピーしました！";
       btn.classList.add("sa-copied");
       setTimeout(() => {
         btn.textContent = "CSSをコピー";
@@ -745,7 +708,7 @@ cover:
     });
   });
 
-  /* ── 初期化 ─────────────────────────────────────────────── */
+  /* ── 初期化 ───────────────────────────────────────────────── */
   renderPresets();
   render();
 })();
@@ -761,8 +724,8 @@ cover:
 
 > メタタグを作成 → [メタタグ ジェネレーター](/ja/tools/meta-tag-generator/)
 
+</div>
+
 ---
 
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
-
-</div>
