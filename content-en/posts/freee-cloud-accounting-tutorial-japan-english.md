@@ -349,4 +349,12 @@ If you do not yet have a dedicated business bank account to link with freee, [Ra
 
 ---
 
+## Related Tools
+
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+
+---
+
 *This article contains affiliate links. If you sign up for freee or Rakuten Bank through our links, we may earn a commission at no additional cost to you. All opinions and feature descriptions are based on independent research and publicly available product information.*

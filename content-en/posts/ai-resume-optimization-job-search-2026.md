@@ -232,6 +232,13 @@ The gap between where your resume is and where it needs to be is probably smalle
 
 ---
 
+## Related Tools
+
+> Calculate your take-home pay for any offer → [Salary Calculator](/tools/salary-calculator/)
+> Check your federal tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 ## Related Templates
 
 Ace your next career move with these resources:

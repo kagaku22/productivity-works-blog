@@ -355,6 +355,13 @@ Want to skip the setup? Our [AI Resume Toolkit](https://payhip.com/productivityw
 
 ---
 
+## Related Tools
+
+> Calculate your take-home pay for any salary → [Salary Calculator](/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 ## Related Templates
 
 Ace your next career move with these resources:

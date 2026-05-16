@@ -447,6 +447,14 @@ Start with Step 1 this week. Get your chart of accounts right, and everything el
 
 ---
 
+## Related Tools
+
+> Create a business budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Plan loan repayment → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+
+---
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:

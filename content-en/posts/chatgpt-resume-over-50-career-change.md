@@ -349,6 +349,13 @@ The career change you're making isn't a retreat. It's a pivot. There's a big dif
 
 ---
 
+## Related Tools
+
+> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+---
+
 ## Related Templates
 
 Ready to move beyond the resume and prepare for interviews?

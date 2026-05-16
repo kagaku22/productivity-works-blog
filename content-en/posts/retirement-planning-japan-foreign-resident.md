@@ -219,6 +219,8 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 - [Take-home Pay Calculator](/tools/take-home-pay/) — Calculate net monthly income after all Japanese deductions
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ---
 
 *Affiliate Disclosure: This article contains affiliate links. If you open an account or make a purchase through these links, we may receive a commission at no additional cost to you. All product recommendations are based on independent research and editorial judgment. This article is for informational purposes only and does not constitute financial or investment advice. Please consult a qualified financial advisor before making investment decisions.*

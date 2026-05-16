@@ -318,4 +318,11 @@ If you are still weighing your options across different brokers, our comparison 
 
 ---
 
+## Related Tools
+
+> Calculate potential FX profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
+> Check your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+
+---
+
 *Disclosure: This article contains affiliate links. We may earn a commission at no extra cost to you. This article is for informational purposes only and does not constitute financial advice. FX trading involves significant risk of loss and is not suitable for all investors. Please ensure you fully understand the risks involved before trading.*

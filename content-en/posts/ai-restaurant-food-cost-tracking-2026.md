@@ -294,6 +294,13 @@ My restaurant has [number] seats, serves [lunch/dinner/both], and does approxima
 
 ---
 
+## Related Tools
+
+> Create a business budget → [Budget Planner](/tools/budget-planner/)
+> Plan loan repayment → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+
+---
+
 ## Related Templates
 
 Ready to take control of your restaurant's finances with AI?
