@@ -380,6 +380,11 @@ That is what great teaching has always been. AI can give you more time to do it.
 
 ---
 
+## Related Tools
+
+> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+
 ## Related Templates
 
 Put these techniques into practice with our ready-made templates:
