@@ -3,6 +3,8 @@ title: "US Salary Calculator — Take-Home Pay After Taxes"
 date: 2026-05-15
 draft: false
 slug: "salary-calculator"
+aliases:
+  - /tools/take-home-pay/
 description: "Calculate your actual take-home pay after federal tax, state tax, Social Security, Medicare, and 401(k). Supports all 50 states with 2026 tax brackets."
 categories: ["Free Tools"]
 tags: ["salary calculator", "take-home pay", "income tax", "federal tax", "state tax"]
