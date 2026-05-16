@@ -169,6 +169,7 @@ freeeとマネーフォワードはスマホアプリだけで確定申告が完
 > 手取り額をシミュレーション → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 借金の返済計画を立てる → [借金返済シミュレーター](/ja/tools/shakkin-hensai-simulator/)
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 
 ---
 

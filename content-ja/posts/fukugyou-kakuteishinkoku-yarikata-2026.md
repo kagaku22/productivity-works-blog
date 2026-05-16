@@ -295,6 +295,7 @@ freeeやマネーフォワードを使えば、以下の流れで作成できま
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/) — 副業収入と経費から所得税・住民税・手取りを自動計算
 - [ふるさと納税シミュレーター](/ja/tools/furusato-nozei-simulator/) — 控除上限額を自動計算、確定申告と併用で節税効果最大化
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取り・税金・社会保険料を自動計算
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 - [フリーランス確定申告のやり方完全ガイド2026年版](/ja/posts/フリーランス-確定申告-やり方/)
 - [副業確定申告 20万以下のやり方完全ガイド2026年版](/ja/posts/副業-確定申告-20万以下-やり方/)
 - [副業フリーランスがfreeeで青色申告65万控除を最速で取る方法](/ja/posts/freee-aoiro-shinkoku-65man/)

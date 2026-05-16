@@ -195,6 +195,7 @@ A. 可能です。「青色申告の取りやめ届出書」をその年の3月1
 > 月収から理想の支出配分を計算 → [家計簿シミュレーター](/ja/tools/kakeibo-generator/)
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > iDeCoの節税効果を計算 → [iDeCoシミュレーター](/ja/tools/ideco-simulator/)
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 
 ### 関連記事
 

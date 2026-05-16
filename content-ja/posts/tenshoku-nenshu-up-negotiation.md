@@ -257,6 +257,7 @@ cover:
 - [転職年収シミュレーター](/ja/tools/tenshoku-nenshu-simulator/) — 転職前後の年収・手取り・税金・生涯収入差額を自動計算
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 年収から手取り・税金・社会保険料を自動計算
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/) — 副収入追加時の税負担シミュレーション
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 - [転職サイト おすすめ2026年版！年代・目的別に徹底比較](/ja/posts/tenshoku-site-osusume-2026/)
 - [50代転職 AI活用準備ガイド2026 未経験からの完全ロードマップ](/ja/posts/50dai-tenshoku-ai-junbi-2026/)
 - [副業始め方 初心者向け完全ガイド2026年最新版](/ja/posts/副業-始め方-初心者-2026/)

@@ -310,6 +310,7 @@ FXで利益が出始めた段階から、税金のことを把握しておくこ
 
 - [副業税金計算ツール](/ja/tools/fukugyou-tax-calculator/) — FX・副業の所得税・住民税を素早く試算
 - [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/) — 給与から税金・社会保険料を差し引いた手取り額を確認
+> 年収から所得税・住民税を計算 → [所得税シミュレーター](/ja/tools/shotokuzei-simulator/)
 
 ---
 
