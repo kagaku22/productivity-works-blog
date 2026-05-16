@@ -215,6 +215,7 @@ cover:
 > 毎月の積立額でどれだけ増えるかシミュレーション → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 積立の複利効果を年数別に確認 → [複利計算シミュレーター](/ja/tools/fukuri-keisan/)
 > 配当型ファンドの年間収入を計算 → [配当金シミュレーター](/ja/tools/haitoukin-simulator/)
+> 貯蓄目標までの期間を計算 → [貯蓄目標シミュレーター](/ja/tools/chochiku-mokuhyo-simulator/)
 
 ---
 
