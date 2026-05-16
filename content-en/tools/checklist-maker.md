@@ -351,3 +351,7 @@ cover:
 > Daily planner -> [Daily Planner](/tools/daily-planner/)
 
 </div>
+
+## Related Articles
+
+- [How to Build a Notion Book Tracker: Complete Template Guide (2026)](/posts/notion-book-tracker-template-guide-2026/)

@@ -459,3 +459,9 @@ cover:
 })();
 </script>
 </div>
+
+## Related Articles
+
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
+- [FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?](/posts/fx-loss-carryforward-japan-tax/)
+- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/posts/kakuteishinkoku-fx-income-guide/)

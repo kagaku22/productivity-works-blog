@@ -159,3 +159,9 @@ Based on your budget results, here are the most impactful actions you can take:
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
 - [Salary Calculator](/tools/salary-calculator/) — Know your real take-home pay
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits
+
+## Related Articles
+
+- [Beginner Investing Guide 2026: How to Start Building Wealth Today](/posts/beginner-investing-guide-2026/)
+- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
+- [7 Best Budgeting Apps in 2026 (Free & Paid Compared)](/posts/best-budgeting-apps-2026/)

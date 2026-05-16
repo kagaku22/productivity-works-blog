@@ -510,3 +510,9 @@ function calcT5() {
 - Create a monthly budget → [Budget Planner](/tools/budget-planner/)
 - Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 - Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+
+## Related Articles
+
+- [Best Credit Cards 2026: Complete Comparison Guide by Category](/posts/best-credit-cards-2026/)
+- [How to Use ChatGPT for Data Analysis 2026](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- [Excel Skills That Will Double Your Salary](/posts/excel-skills-double-salary/)

@@ -283,3 +283,7 @@ Both strategies make minimum payments on all debts, then apply any extra money t
 - [Budget Planner](/tools/budget-planner/)
 - [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
 - [US Salary Calculator](/tools/salary-calculator/)
+
+## Related Articles
+
+- [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)

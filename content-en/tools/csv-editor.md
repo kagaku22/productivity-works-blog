@@ -523,3 +523,9 @@ downloadBtn.addEventListener('click', function() {
 ### Related Tools
 > Convert JSON to CSV → [JSON to CSV Converter](/tools/json-to-csv/)
 > Generate markdown tables → [Markdown Table Generator](/tools/markdown-table-generator/)
+
+## Related Articles
+
+- [How to Use AI for Excel Automation 2026](/posts/how-to-use-ai-for-excel-automation-2026/)
+- [Google Sheets vs Excel 2026: Which Is Better for You?](/posts/google-sheets-vs-excel-2026/)
+- [Excel Skills That Will Double Your Salary](/posts/excel-skills-double-salary/)

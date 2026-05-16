@@ -185,3 +185,9 @@ As early as possible. Starting at 25 vs 35 with the same monthly contribution ca
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits
 > Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+
+## Related Articles
+
+- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/posts/best-investment-account-japan-nisa-ideco/)
+- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
+- [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)

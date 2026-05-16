@@ -770,3 +770,9 @@ cover:
 
 - [Budget Planner](/tools/budget-planner/) — Plan your monthly budget with the 50/30/20 rule
 - [Split Bill Calculator](/tools/split-bill-calculator/) — Split costs fairly among a group
+
+## Related Articles
+
+- [7 Best Budgeting Apps in 2026 (Free & Paid Compared)](/posts/best-budgeting-apps-2026/)
+- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
+- [10 Ways ChatGPT Can Save You $500/Month](/posts/chatgpt-save-money/)

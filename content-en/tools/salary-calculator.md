@@ -664,3 +664,9 @@ calculate();
 > Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
 
 > Estimate mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
+
+## Related Articles
+
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
+- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/posts/take-home-pay-japan-calculator/)
+- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/posts/side-job-tax-japan-rules/)

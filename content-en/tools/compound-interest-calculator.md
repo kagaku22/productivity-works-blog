@@ -182,3 +182,9 @@ Historically, lump-sum investing outperforms dollar-cost averaging about 2/3 of 
 - [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate annual dividend income
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits
 > Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+
+## Related Articles
+
+- [NISA vs FX in Japan: Which Is Better for Growing Your Money Tax-Efficiently?](/posts/nisa-vs-fx-japan-investing/)
+- [Beginner Investing Guide 2026: How to Start Building Wealth Today](/posts/beginner-investing-guide-2026/)
+- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
