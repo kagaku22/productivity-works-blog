@@ -300,6 +300,7 @@ Cancel one unused subscription, cook one more meal at home per week, or switch t
 > Calculate your ideal emergency fund → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
 > Check your take-home pay to plan contributions → [Salary Calculator](/tools/salary-calculator/)
 > Calculate how long to pay off debt before saving → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> Saving for a home? Estimate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
 
 ---
 

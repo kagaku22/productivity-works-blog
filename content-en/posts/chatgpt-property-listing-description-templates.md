@@ -285,6 +285,8 @@ A few extra tips for making ChatGPT listing descriptions reliably good:
 
 ---
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ## Related Templates
 
 Ready to upgrade your entire listing workflow?

@@ -338,6 +338,7 @@ calcCS();
 > 年収から手取りを計算 → [手取り計算シミュレーター](/ja/tools/salary-tedori-calculator/)
 > 新NISAの非課税効果を計算 → [NISAシミュレーター](/ja/tools/nisa-simulator/)
 > 老後に必要な資金を計算 → [年金シミュレーター](/ja/tools/nenkin-simulator/)
+> 子供の教育費総額を計算 → [教育費シミュレーター](/ja/tools/kyouikuhi-simulator/)
 
 ---
 

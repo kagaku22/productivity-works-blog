@@ -285,6 +285,8 @@ And use these tools to anchor your planning with real numbers:
 - [Retirement Calculator](/tools/retirement-calculator/) — combine all sources into a retirement projection
 - [Take-home Pay Calculator](/tools/take-home-pay/) — understand your net income baseline
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ---
 
 ## Disclaimer

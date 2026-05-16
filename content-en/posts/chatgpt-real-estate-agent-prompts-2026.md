@@ -570,6 +570,8 @@ Save this guide. Bookmark the prompts most relevant to your business. And start 
 
 ---
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ## Related Templates
 
 Supercharge your real estate business with these AI tools:

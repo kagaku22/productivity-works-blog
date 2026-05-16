@@ -113,7 +113,7 @@ calcLoan();
 This calculator works for any fixed-rate amortizing loan: mortgages, auto loans, personal loans, and student loans.
 
 **Q: Why is my actual payment different from this estimate?**
-Your actual payment may include property taxes, homeowner's insurance, and PMI (for mortgages) which are not included in this calculation.
+Your actual payment may include property taxes, homeowner's insurance, and PMI (for mortgages) which are not included in this calculation. For a full mortgage breakdown, use our [Mortgage Calculator](/tools/mortgage-calculator/).
 
 **Q: Is it better to pay off debt or invest?**
 Generally, if your loan interest rate is higher than expected investment returns (historically ~7-10% for stocks), pay off the debt first. If your rate is low (under 4-5%), investing may yield better long-term results.
@@ -137,4 +137,5 @@ Once your loans are paid off, redirect those payments toward building wealth:
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your investments grow over time
 - [Budget Planner](/tools/budget-planner/) — Optimize your monthly spending
 - [Salary Calculator](/tools/salary-calculator/) — Calculate your take-home pay
+- [Mortgage Calculator](/tools/mortgage-calculator/) — Full mortgage payment with taxes, insurance & PMI
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Explore trading opportunities

@@ -344,6 +344,8 @@ Your clients are already interacting with AI in every other part of their lives.
 
 ---
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ## Related Templates
 
 Supercharge your real estate business with these AI tools:

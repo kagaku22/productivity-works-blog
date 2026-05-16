@@ -311,6 +311,8 @@ Once you own a rental property, you are in the tax filing business whether you l
 
 **[Start managing rental income with freee →](https://www.freee.co.jp/)** *(affiliate link)*
 
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+
 ---
 
 ## Build Your Investment Foundation with NISA

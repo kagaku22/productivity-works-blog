@@ -315,6 +315,8 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 - [Budget Planner](/tools/budget-planner/) — Find money to save faster with a personalized budget
 - [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your savings grow over time
+
+> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
 - [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)

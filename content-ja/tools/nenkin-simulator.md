@@ -448,6 +448,7 @@ select.nenkin-select:focus {
   <a href="/ja/tools/salary-tedori-calculator/" class="tool-link">手取り計算機</a>
   <a href="/ja/tools/kakeibo-generator/" class="tool-link">家計簿ツール</a>
   <a href="/ja/tools/fukugyou-tax-calculator/" class="tool-link">副業税金計算</a>
+  <a href="/ja/tools/kyouikuhi-simulator/" class="tool-link">教育費シミュレーター</a>
 </div>
 </div>
 
