@@ -1,21 +1,21 @@
 ---
-title: "Savings Goal Calculator"
+title: "貯金目標計算ツール"
 date: 2025-05-16
-description: "Free savings goal calculator. Plan how to reach your financial target with compound interest projections, monthly contributions, and visual progress tracking."
-categories: ["Free Tools"]
+description: "無料の貯金目標計算ツール。複利シミュレーション・月額積立額・目標達成期間を計算。ビジュアル進捗表示付き。"
+categories: ["無料ツール"]
 slug: "savings-goal-calculator"
 ShowToc: false
 cover:
-  image: "/images/covers/savings-goal-calculator.png"
-  alt: "Savings Goal Calculator"
+  image: "/images/covers/savings-goal-calculator-ja.png"
+  alt: "貯金目標計算ツール"
 ---
 
 <div id="sg-app">
 <style>
 #sg-app *,#sg-app *::before,#sg-app *::after{box-sizing:border-box;margin:0;padding:0}
-#sg-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;max-width:780px;margin:0 auto;padding:0 4px}
-#sg-app h2.sg-h{font-size:1.35rem;font-weight:700;color:#0f172a;margin-bottom:6px}
-#sg-app p.sg-sub{font-size:.92rem;color:#64748b;margin-bottom:18px}
+#sg-app{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Noto Sans JP','Segoe UI',sans-serif;color:#1e293b;max-width:780px;margin:0 auto;padding:0 4px}
+#sg-app h2.sg-h{font-size:1.3rem;font-weight:700;color:#0f172a;margin-bottom:6px}
+#sg-app p.sg-sub{font-size:.9rem;color:#64748b;margin-bottom:18px}
 #sg-app .sg-card{background:#fff;border:1.5px solid #e2e8f0;border-radius:12px;padding:22px 22px 18px;margin-bottom:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
 #sg-app .sg-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:540px){#sg-app .sg-grid{grid-template-columns:1fr}}
@@ -24,21 +24,21 @@ cover:
 #sg-app .sg-field input[type=number],#sg-app .sg-field select{border:1.5px solid #cbd5e1;border-radius:8px;padding:9px 12px;font-size:.95rem;color:#0f172a;background:#f8fafc;width:100%;outline:none;transition:border-color .2s}
 #sg-app .sg-field input[type=number]:focus,#sg-app .sg-field select:focus{border-color:#3b82f6;background:#fff}
 #sg-app .sg-mode-toggle{display:flex;gap:0;border:1.5px solid #cbd5e1;border-radius:9px;overflow:hidden;margin-bottom:16px}
-#sg-app .sg-mode-toggle button{flex:1;padding:9px 8px;border:none;background:#f8fafc;color:#64748b;font-size:.85rem;font-weight:600;cursor:pointer;transition:background .18s,color .18s}
+#sg-app .sg-mode-toggle button{flex:1;padding:9px 8px;border:none;background:#f8fafc;color:#64748b;font-size:.83rem;font-weight:600;cursor:pointer;transition:background .18s,color .18s}
 #sg-app .sg-mode-toggle button.sg-active{background:#3b82f6;color:#fff}
 #sg-app .sg-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:11px 28px;background:linear-gradient(135deg,#2563eb 0%,#3b82f6 100%);color:#fff;border:none;border-radius:9px;font-size:.97rem;font-weight:700;cursor:pointer;width:100%;margin-top:4px;transition:opacity .18s}
 #sg-app .sg-btn:hover{opacity:.9}
 #sg-app .sg-result-card{background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);border:1.5px solid #bfdbfe;border-radius:12px;padding:22px;margin-bottom:20px}
-#sg-app .sg-result-headline{font-size:1.55rem;font-weight:800;color:#1d4ed8;margin-bottom:4px}
+#sg-app .sg-result-headline{font-size:1.5rem;font-weight:800;color:#1d4ed8;margin-bottom:4px}
 #sg-app .sg-result-sub{font-size:.9rem;color:#3730a3;margin-bottom:18px}
 #sg-app .sg-summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}
 @media(max-width:480px){#sg-app .sg-summary-grid{grid-template-columns:1fr 1fr}}
 #sg-app .sg-stat{background:#fff;border-radius:9px;padding:12px 10px;text-align:center;border:1px solid #bfdbfe}
-#sg-app .sg-stat-val{font-size:1.1rem;font-weight:800;color:#1d4ed8;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-#sg-app .sg-stat-lbl{font-size:.74rem;color:#64748b;margin-top:2px;display:block}
+#sg-app .sg-stat-val{font-size:1.05rem;font-weight:800;color:#1d4ed8;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#sg-app .sg-stat-lbl{font-size:.72rem;color:#64748b;margin-top:2px;display:block}
 #sg-app .sg-progress-wrap{margin-bottom:18px}
 #sg-app .sg-progress-lbl{display:flex;justify-content:space-between;font-size:.8rem;color:#64748b;margin-bottom:5px}
-#sg-app .sg-progress-track{height:20px;background:#dbeafe;border-radius:10px;overflow:hidden;position:relative}
+#sg-app .sg-progress-track{height:20px;background:#dbeafe;border-radius:10px;overflow:hidden}
 #sg-app .sg-progress-bar{height:100%;border-radius:10px;background:linear-gradient(90deg,#2563eb,#60a5fa);transition:width .5s ease}
 #sg-app .sg-milestone-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 #sg-app .sg-info-tag{background:#eff6ff;color:#1d4ed8;border-radius:6px;padding:4px 10px;font-size:.78rem;font-weight:600}
@@ -53,46 +53,46 @@ cover:
 </style>
 
 <div class="sg-card">
-  <h2 class="sg-h">Savings Goal Calculator</h2>
-  <p class="sg-sub">Calculate how long to reach your savings goal — or how much you need to save each month.</p>
+  <h2 class="sg-h">貯金目標計算ツール</h2>
+  <p class="sg-sub">目標達成までの期間、または毎月の必要積立額を複利込みでシミュレーションします。</p>
 
   <div class="sg-mode-toggle">
-    <button class="sg-active" id="sg-btn-time" onclick="sgSetMode('time')">How long to reach goal?</button>
-    <button id="sg-btn-monthly" onclick="sgSetMode('monthly')">How much to save monthly?</button>
+    <button class="sg-active" id="sg-btn-time" onclick="sgSetMode('time')">何ヶ月で達成できる？</button>
+    <button id="sg-btn-monthly" onclick="sgSetMode('monthly')">毎月いくら積み立てる？</button>
   </div>
 
   <div class="sg-grid">
     <div class="sg-field">
-      <label for="sg-goal">Savings Goal ($)</label>
-      <input type="number" id="sg-goal" value="50000" min="0" step="100">
+      <label for="sg-goal">目標金額（円）</label>
+      <input type="number" id="sg-goal" value="1000000" min="0" step="10000">
     </div>
     <div class="sg-field">
-      <label for="sg-current">Current Savings ($)</label>
-      <input type="number" id="sg-current" value="5000" min="0" step="100">
+      <label for="sg-current">現在の貯金（円）</label>
+      <input type="number" id="sg-current" value="100000" min="0" step="10000">
     </div>
     <div class="sg-field" id="sg-monthly-wrap">
-      <label for="sg-monthly">Monthly Contribution ($)</label>
-      <input type="number" id="sg-monthly" value="500" min="0" step="50">
+      <label for="sg-monthly">毎月の積立額（円）</label>
+      <input type="number" id="sg-monthly" value="30000" min="0" step="1000">
     </div>
     <div class="sg-field">
-      <label for="sg-rate">Annual Interest Rate (%)</label>
-      <input type="number" id="sg-rate" value="5" min="0" max="30" step="0.1">
+      <label for="sg-rate">年利（%）</label>
+      <input type="number" id="sg-rate" value="3" min="0" max="30" step="0.1">
     </div>
     <div class="sg-field sg-hidden" id="sg-years-wrap">
-      <label for="sg-years">Target Years</label>
+      <label for="sg-years">目標期間（年）</label>
       <input type="number" id="sg-years" value="5" min="1" max="50" step="1">
     </div>
     <div class="sg-field">
-      <label for="sg-compound">Compound Frequency</label>
+      <label for="sg-compound">複利計算の頻度</label>
       <select id="sg-compound">
-        <option value="12" selected>Monthly</option>
-        <option value="4">Quarterly</option>
-        <option value="2">Semi-annually</option>
-        <option value="1">Annually</option>
+        <option value="12" selected>毎月</option>
+        <option value="4">四半期ごと</option>
+        <option value="2">半年ごと</option>
+        <option value="1">年1回</option>
       </select>
     </div>
   </div>
-  <button class="sg-btn" onclick="sgCalculate()">&#9654; Calculate</button>
+  <button class="sg-btn" onclick="sgCalculate()">&#9654; 計算する</button>
   <div id="sg-error" class="sg-error sg-hidden"></div>
 </div>
 
@@ -103,20 +103,20 @@ cover:
     <div class="sg-summary-grid">
       <div class="sg-stat">
         <span class="sg-stat-val" id="sg-stat-principal"></span>
-        <span class="sg-stat-lbl">Total Contributed</span>
+        <span class="sg-stat-lbl">総積立額</span>
       </div>
       <div class="sg-stat">
         <span class="sg-stat-val" id="sg-stat-interest"></span>
-        <span class="sg-stat-lbl">Interest Earned</span>
+        <span class="sg-stat-lbl">利息合計</span>
       </div>
       <div class="sg-stat">
         <span class="sg-stat-val" id="sg-stat-total"></span>
-        <span class="sg-stat-lbl">Final Amount</span>
+        <span class="sg-stat-lbl">最終残高</span>
       </div>
     </div>
     <div class="sg-progress-wrap">
       <div class="sg-progress-lbl">
-        <span>Current Progress toward Goal</span>
+        <span>目標に対する現在の進捗</span>
         <span id="sg-pct-lbl">0%</span>
       </div>
       <div class="sg-progress-track">
@@ -127,11 +127,11 @@ cover:
   </div>
 
   <div class="sg-card">
-    <div class="sg-chart-title">Principal vs. Interest Over Time</div>
+    <div class="sg-chart-title">元本 vs. 利息の推移（積み上げグラフ）</div>
     <canvas class="sg-canvas" id="sg-chart" height="220"></canvas>
     <div class="sg-legend">
-      <div class="sg-legend-item"><div class="sg-legend-dot" style="background:#2563eb"></div>Principal Contributed</div>
-      <div class="sg-legend-item"><div class="sg-legend-dot" style="background:#60a5fa"></div>Interest Earned</div>
+      <div class="sg-legend-item"><div class="sg-legend-dot" style="background:#2563eb"></div>元本（積立額）</div>
+      <div class="sg-legend-item"><div class="sg-legend-dot" style="background:#60a5fa"></div>利息</div>
     </div>
   </div>
 </div>
@@ -152,10 +152,10 @@ cover:
     document.getElementById('sg-error').className = 'sg-error sg-hidden';
   };
 
-  function fmtUSD(n) {
-    if (Math.abs(n) >= 1e6) return '$' + (n / 1e6).toFixed(2) + 'M';
-    if (Math.abs(n) >= 1e3) return '$' + n.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    return '$' + n.toFixed(2);
+  function fmtJPY(n) {
+    if (Math.abs(n) >= 1e8) return (n / 1e8).toFixed(2) + '億円';
+    if (Math.abs(n) >= 1e4) return Math.round(n).toLocaleString('ja-JP') + '円';
+    return Math.round(n).toLocaleString('ja-JP') + '円';
   }
 
   function getSnaps(current, monthly, rateAnnual, months, freq) {
@@ -167,8 +167,7 @@ cover:
     for (var m = 0; m < months; m++) {
       bal = bal * Math.pow(1 + r, 1 / periodsPerMonth) + monthly;
       totalContrib += monthly;
-      var interest = bal - totalContrib;
-      snaps.push({ month: m + 1, balance: bal, principal: totalContrib, interest: Math.max(0, interest) });
+      snaps.push({ month: m + 1, balance: bal, principal: totalContrib, interest: Math.max(0, bal - totalContrib) });
     }
     return snaps;
   }
@@ -184,14 +183,14 @@ cover:
 
     function showErr(msg) { errEl.textContent = msg; errEl.className = 'sg-error'; }
 
-    if (goal <= 0) { showErr('Please enter a valid savings goal greater than 0.'); return; }
-    if (current >= goal) { showErr('Your current savings already meet or exceed your goal!'); return; }
+    if (goal <= 0) { showErr('目標金額を正しく入力してください。'); return; }
+    if (current >= goal) { showErr('現在の貯金がすでに目標額を達成しています！'); return; }
 
     var months, monthly, snaps;
 
     if (sgMode === 'time') {
       monthly = parseFloat(document.getElementById('sg-monthly').value) || 0;
-      if (monthly <= 0 && rate <= 0) { showErr('Please enter a monthly contribution or an interest rate.'); return; }
+      if (monthly <= 0 && rate <= 0) { showErr('毎月の積立額または年利を入力してください。'); return; }
       var r = rate / 100 / freq;
       var bal = current;
       months = 0;
@@ -199,11 +198,11 @@ cover:
         bal = bal * Math.pow(1 + r, freq / 12) + monthly;
         months++;
       }
-      if (bal < goal) { showErr('Cannot reach goal within 50 years. Try increasing contributions or interest rate.'); return; }
+      if (bal < goal) { showErr('50年以内に目標を達成できません。積立額や年利を見直してください。'); return; }
       snaps = getSnaps(current, monthly, rate, months, freq);
     } else {
       var years = parseFloat(document.getElementById('sg-years').value) || 0;
-      if (years <= 0) { showErr('Please enter a valid number of target years.'); return; }
+      if (years <= 0) { showErr('目標期間（年）を正しく入力してください。'); return; }
       months = Math.round(years * 12);
       var r = rate / 100 / freq;
       var totalPeriods = freq * years;
@@ -214,7 +213,7 @@ cover:
         var annuityFactor = (growthFactor - 1) / r * (freq / 12);
         monthly = (goal - current * growthFactor) / annuityFactor;
       }
-      if (monthly < 0) { showErr('Your current savings will exceed the goal with interest alone. No monthly contribution needed.'); return; }
+      if (monthly < 0) { showErr('現在の貯金が複利で目標額を超える見込みです。追加積立は不要です。'); return; }
       snaps = getSnaps(current, monthly, rate, months, freq);
     }
 
@@ -224,25 +223,25 @@ cover:
 
     // Headline
     var yrs = Math.floor(months / 12), mos = months % 12;
-    var timeStr = (yrs > 0 ? yrs + 'y ' : '') + (mos > 0 ? mos + 'm' : '');
-    if (!timeStr.trim()) timeStr = '< 1m';
+    var timeStr = (yrs > 0 ? yrs + '年' : '') + (mos > 0 ? mos + 'ヶ月' : '');
+    if (!timeStr) timeStr = '1ヶ月未満';
     document.getElementById('sg-headline').textContent = sgMode === 'time'
-      ? 'Goal reached in ' + timeStr.trim()
-      : fmtUSD(monthly) + ' / month needed';
+      ? timeStr + 'で目標達成！'
+      : '毎月 ' + fmtJPY(monthly) + ' の積立が必要';
     document.getElementById('sg-result-sub').textContent = sgMode === 'time'
-      ? 'Contributing ' + fmtUSD(monthly) + '/mo at ' + rate + '% annual interest'
-      : 'To reach ' + fmtUSD(goal) + ' in ' + (yrs > 0 ? yrs + ' yr' : '') + (mos > 0 ? ' ' + mos + ' mo' : '');
+      ? '毎月' + fmtJPY(monthly) + '積立・年利' + rate + '%の場合'
+      : fmtJPY(goal) + 'を' + (yrs > 0 ? yrs + '年' : '') + (mos > 0 ? mos + 'ヶ月' : '') + '後に達成するために必要な月額';
 
-    document.getElementById('sg-stat-principal').textContent = fmtUSD(totalContrib);
-    document.getElementById('sg-stat-interest').textContent = fmtUSD(totalInterest);
-    document.getElementById('sg-stat-total').textContent = fmtUSD(last.balance);
+    document.getElementById('sg-stat-principal').textContent = fmtJPY(totalContrib);
+    document.getElementById('sg-stat-interest').textContent = fmtJPY(totalInterest);
+    document.getElementById('sg-stat-total').textContent = fmtJPY(last.balance);
 
-    // Progress bar (current savings vs goal)
+    // Progress bar
     var pct = Math.min(100, (current / goal) * 100);
     document.getElementById('sg-bar').style.width = pct.toFixed(1) + '%';
     document.getElementById('sg-pct-lbl').textContent = pct.toFixed(1) + '%';
 
-    // Milestone tags (25, 50, 75, 100%)
+    // Milestone tags
     var msEl = document.getElementById('sg-milestones');
     msEl.innerHTML = '';
     [25, 50, 75, 100].forEach(function(pctTarget) {
@@ -256,7 +255,7 @@ cover:
         var my = Math.floor(mo / 12), mm = mo % 12;
         var tag = document.createElement('span');
         tag.className = 'sg-info-tag';
-        tag.textContent = pctTarget + '%: ' + (my > 0 ? my + 'y ' : '') + (mm > 0 ? mm + 'm' : (my > 0 ? '' : '< 1m'));
+        tag.textContent = pctTarget + '%: ' + (my > 0 ? my + '年' : '') + (mm > 0 ? mm + 'ヶ月' : (my > 0 ? '' : '1ヶ月未満'));
         msEl.appendChild(tag);
       }
     });
@@ -287,12 +286,12 @@ cover:
     data.forEach(function(d) { if (d.balance > maxVal) maxVal = d.balance; });
     if (maxVal === 0) maxVal = 1;
 
-    var pad = { top: 16, right: 12, bottom: 38, left: 62 };
+    var pad = { top: 16, right: 12, bottom: 38, left: 68 };
     var cw = W - pad.left - pad.right;
     var ch = 220 - pad.top - pad.bottom;
     var bw = Math.max(8, Math.floor(cw / steps) - 6);
 
-    // Grid lines + y-axis labels
+    // Grid + y-axis labels
     ctx.strokeStyle = '#e2e8f0';
     ctx.lineWidth = 1;
     for (var g = 0; g <= 4; g++) {
@@ -301,8 +300,8 @@ cover:
       ctx.fillStyle = '#94a3b8';
       ctx.font = '11px sans-serif';
       ctx.textAlign = 'right';
-      var label = maxVal * g / 4;
-      var labelStr = label >= 1e6 ? '$' + (label/1e6).toFixed(1) + 'M' : label >= 1e3 ? '$' + (label/1e3).toFixed(0) + 'k' : '$' + label.toFixed(0);
+      var val = maxVal * g / 4;
+      var labelStr = val >= 1e8 ? (val/1e8).toFixed(1)+'億' : val >= 1e4 ? Math.round(val/1e4)+'万' : Math.round(val)+'円';
       ctx.fillText(labelStr, pad.left - 5, gy + 4);
     }
 
@@ -313,29 +312,35 @@ cover:
       var principalH = ch * (d.principal / maxVal);
       var interestH = ch * (d.interest / maxVal);
 
-      // Principal bar
       ctx.fillStyle = '#2563eb';
       ctx.fillRect(x, pad.top + ch - principalH, bw, principalH);
-      // Interest stacked on top
       if (interestH > 0) {
         ctx.fillStyle = '#60a5fa';
         ctx.fillRect(x, pad.top + ch - principalH - interestH, bw, interestH);
       }
 
-      // X-axis label
+      // X label
       ctx.fillStyle = '#64748b';
       ctx.font = '10px sans-serif';
       ctx.textAlign = 'center';
       var mo = d.month;
-      var lbl = mo >= 12 ? Math.floor(mo / 12) + 'y' : mo + 'm';
+      var lbl = mo >= 12 ? Math.floor(mo / 12) + '年' : mo + 'ヶ月';
       ctx.fillText(lbl, x + bw / 2, 220 - pad.bottom + 14);
     });
   }
 })();
 </script>
 
-> Track expenses → [Expense Tracker](/tools/expense-tracker/)
-
-> Calculate ROI → [ROI Calculator](/tools/roi-calculator/)
+<div class="sg-freee-cta" style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
+  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">資産管理をもっと効率的に</p>
+  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、資産管理・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+  <a href="https://www.freee.co.jp/" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す &rarr;</a>
+</div>
 
 </div>
+
+> 家計管理 → [家計簿ツール](/ja/tools/expense-tracker/)
+
+> ROI計算 → [ROI計算ツール](/ja/tools/roi-calculator/)
+
+> **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。まずは無料で試してみましょう。
