@@ -181,3 +181,4 @@ Historically, lump-sum investing outperforms dollar-cost averaging about 2/3 of 
 - [Loan Repayment Calculator](/tools/loan-repayment-calculator/) — Plan your debt payoff
 - [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate annual dividend income
 - [Forex Profit Calculator](/tools/forex-profit-calculator/) — Calculate trading profits
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)

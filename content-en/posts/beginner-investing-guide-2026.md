@@ -312,6 +312,7 @@ Our [Personal Finance Starter Pack](https://payhip.com/productivityworks) includ
 > Estimate dividend income → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 > Plan your retirement → [Retirement Savings Calculator](/tools/retirement-calculator/)
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 
 **Related Reading:**
 - [How to Start Investing with $100](/posts/how-to-start-investing-with-100/)

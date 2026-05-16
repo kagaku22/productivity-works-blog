@@ -220,6 +220,7 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 
 > Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 
 ---
 

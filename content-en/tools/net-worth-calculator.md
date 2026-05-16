@@ -456,6 +456,7 @@ Wealth is built through ownership — of index funds, real estate, a business, o
 > Project your retirement nest egg — [Retirement Calculator](/tools/retirement-calculator/)
 > See how compound growth builds wealth over time — [Compound Interest Calculator](/tools/compound-interest-calculator/)
 > Estimate your monthly mortgage payment — [Mortgage Calculator](/tools/mortgage-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 
 ---
 

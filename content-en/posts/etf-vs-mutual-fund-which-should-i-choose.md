@@ -289,6 +289,7 @@ Start simple. Stay consistent. Keep costs low.
 > Estimate dividend income from ETFs → [Dividend Income Calculator](/tools/dividend-income-calculator/)
 > Plan your retirement savings → [Retirement Savings Calculator](/tools/retirement-calculator/)
 > Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
 - [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)

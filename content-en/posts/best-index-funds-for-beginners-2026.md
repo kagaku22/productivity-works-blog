@@ -243,6 +243,7 @@ Your future self will thank you.
 - [Retirement Savings Calculator](/tools/retirement-calculator/) — Plan your 401(k) and IRA contributions
 - [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 - [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)

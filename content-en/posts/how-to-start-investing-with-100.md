@@ -327,6 +327,7 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 - [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate passive income from dividend stocks and ETFs
 - [Budget Planner](/tools/budget-planner/) — Find money to invest with a personalized budget
 > Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
 - [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
 - [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
 - [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
