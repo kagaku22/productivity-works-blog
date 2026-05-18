@@ -503,7 +503,7 @@ ghApplyPreset("developer");
 エンジニアとして副業・フリーランスで活動するなら、**freee会計**で確定申告・請求書・経費管理を自動化しましょう。
 
 <p>
-<a href="https://px.a8.net/svt/ejp?a8mat=FREEE_AFFILIATE_LINK" rel="nofollow noopener" target="_blank">
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7T0MB6+52NU+5YZ75" rel="nofollow noopener" target="_blank">
 <img src="https://www20.a8.net/svt/bgt?aid=FREEE_AID&wid=001&eno=01&mid=s00000FREEE&mc=1" width="300" height="100" alt="freee会計" border="0" />
 </a>
 </p>

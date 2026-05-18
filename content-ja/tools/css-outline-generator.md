@@ -539,7 +539,7 @@ CSSの `outline` プロパティを即座に生成。スタイル・幅・色・
   <h3>フリーランス・個人事業主の方へ — freee 会計で確定申告をかんたんに</h3>
   <p>Web制作・デザイン案件の収支管理から確定申告まで、freee なら自動仕訳と青色申告書類の自動作成でスムーズに完結します。初年度無料プランあり。</p>
   <a class="ot-freee-btn"
-     href="https://px.a8.net/svt/ejp?a8mat=XXXXXXXX"
+     href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7T0MB6+52NU+5YZ75"
      target="_blank"
      rel="noopener sponsored"
      aria-label="freee会計 無料で始める（アフィリエイトリンク）">
