@@ -2,7 +2,7 @@
 title: "名刺ジェネレーター"
 description: "無料のオンライン名刺作成ツール。名前・会社名・連絡先を入力してプロフェッショナルな名刺をデザイン。テンプレート選択・PNG保存・印刷対応。会員登録不要。"
 slug: business-card-generator
-date: 2025-05-16
+date: 2025-11-27
 categories: ["無料ツール"]
 ShowToc: false
 cover:

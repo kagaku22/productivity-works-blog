@@ -1,6 +1,6 @@
 ---
 title: "家計簿シミュレーター｜月収から理想の支出配分を自動計算"
-date: 2026-05-14
+date: 2025-10-23
 draft: false
 slug: "kakeibo-generator"
 aliases:

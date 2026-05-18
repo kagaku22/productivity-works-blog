@@ -1,7 +1,7 @@
 ---
 title: "メタタグジェネレーター — SEO・OGタグ自動生成"
 description: "タイトル・ディスクリプション・OGPタグなどSEO最適化されたメタタグを生成。無料メタタグ作成ツール。"
-date: 2025-05-16
+date: 2025-10-09
 slug: "meta-tag-generator"
 categories: ["無料ツール"]
 ShowToc: false

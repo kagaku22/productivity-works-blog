@@ -2,7 +2,7 @@
 title: "HTML→Markdown変換ツール"
 description: "無料のHTML→Markdown変換ツール。HTMLを貼り付けるだけでMarkdownに即変換。見出し・リンク・画像・リスト・テーブル・コードブロック対応。会員登録不要。"
 slug: html-to-markdown
-date: 2025-05-16
+date: 2026-01-24
 categories: ["無料ツール"]
 ShowToc: false
 cover:

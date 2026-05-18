@@ -1,6 +1,6 @@
 ---
 title: "メール署名ジェネレーター — 無料プロフェッショナルツール"
-date: 2025-05-16
+date: 2026-01-02
 description: "ライブプレビュー付きでプロフェッショナルなメール署名を作成。ビジネス・クリエイティブ・ミニマルのテンプレート。Gmail・Outlook・Apple Mail用HTMLをコピー。"
 categories: ["無料ツール"]
 slug: "email-signature-generator"

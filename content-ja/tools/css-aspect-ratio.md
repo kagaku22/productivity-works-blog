@@ -1,6 +1,6 @@
 ---
 title: "CSSアスペクト比ジェネレーター — レスポンシブコンテナ"
-date: 2025-05-16
+date: 2025-04-15
 description: "レスポンシブコンテナ用CSS aspect-ratioプロパティを生成。16:9、4:3、1:1等のプリセット。モダンCSS＆padding-bottomフォールバック。コード即コピー。"
 categories: ["無料ツール"]
 slug: "css-aspect-ratio"

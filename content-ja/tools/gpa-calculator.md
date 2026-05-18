@@ -2,7 +2,7 @@
 title: "GPA計算ツール"
 description: "無料のGPA計算ツール。科目名・単位数・成績を入力してGPAを自動計算。4.0/5.0スケール対応。大学の成績管理に最適。"
 slug: gpa-calculator
-date: 2025-05-16
+date: 2025-06-26
 categories: ["無料ツール"]
 ShowToc: false
 cover:

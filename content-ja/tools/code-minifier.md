@@ -1,7 +1,7 @@
 ---
 title: "コード圧縮ツール"
 slug: "code-minifier"
-date: 2025-05-16
+date: 2025-04-06
 description: "無料のHTML/CSS/JavaScript圧縮ツール。空白・コメント・不要文字を削除してファイルサイズを削減。登録不要、ブラウザで完結。"
 categories: ["無料ツール"]
 ShowToc: false

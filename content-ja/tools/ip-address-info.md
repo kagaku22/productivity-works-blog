@@ -1,6 +1,6 @@
 ---
 title: "IPアドレス情報ツール — サブネット計算・IPv4変換・ネットワーク診断"
-date: 2025-05-16
+date: 2025-06-14
 description: "無料IPアドレスツール：サブネット計算（CIDR）・IPv4/10進数変換・プライベート/パブリック判定・IPクラス識別・WebRTCローカルIP検出・接続情報表示。インストール不要。"
 categories: ["無料ツール"]
 slug: "ip-address-info"

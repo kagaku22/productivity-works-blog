@@ -1,6 +1,6 @@
 ---
 title: "通貨換算ツール - 為替レート計算機"
-date: 2025-05-16
+date: 2025-06-17
 description: "主要通貨間の換算ができる無料ツール。USD・EUR・GBP・JPY・CNYなどの参考為替レートで変換。換算表付き。"
 categories: ["無料ツール"]
 slug: "currency-converter"

@@ -1,6 +1,6 @@
 ---
 title: "ホワイトボードお絵かきツール"
-date: 2025-05-16
+date: 2025-09-18
 description: "無料のオンラインホワイトボード。ペン・図形・テキストで自由に描画。PNG保存対応、タッチ操作可能、会員登録不要。"
 categories: ["無料ツール"]
 slug: "whiteboard-drawing"

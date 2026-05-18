@@ -2,7 +2,7 @@
 title: "行列計算ツール"
 description: "無料のオンライン行列計算ツール。加算・減算・乗算・行列式・逆行列・転置行列を2×2〜5×5行列で計算。数学・線形代数の学習に最適。"
 slug: matrix-calculator
-date: 2025-05-16
+date: 2026-01-05
 categories: ["無料ツール"]
 ShowToc: false
 cover:

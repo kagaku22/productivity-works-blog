@@ -1,6 +1,6 @@
 ---
 title: "マークダウンリンクチェッカー — リンク抽出・検証"
-date: 2025-05-16
+date: 2025-05-28
 description: "マークダウンテキストからリンクを抽出・検証。重複・不正形式の検出、内部/外部リンクの分類。CSV・JSONでエクスポート。"
 categories: ["無料ツール"]
 slug: "markdown-link-checker"

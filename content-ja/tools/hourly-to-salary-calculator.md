@@ -1,6 +1,6 @@
 ---
 title: "時給・年収換算計算ツール | 給与を瞬時に変換"
-date: 2026-05-16
+date: 2025-04-01
 draft: false
 slug: "hourly-to-salary-calculator"
 aliases:

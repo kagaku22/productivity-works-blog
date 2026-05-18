@@ -2,7 +2,7 @@
 title: "ブックマークレット作成ツール"
 description: "無料のブックマークレット作成ツール。JavaScriptコードをブックマークレットURLに変換。圧縮・エンコード・テスト機能付き。すぐ使えるサンプル付き。"
 slug: bookmarklet-maker
-date: 2025-05-16
+date: 2025-07-12
 categories: ["無料ツール"]
 cover:
   image: /images/covers/bookmarklet-maker-ja.png

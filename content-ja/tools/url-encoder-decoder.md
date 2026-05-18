@@ -1,6 +1,6 @@
 ---
 title: "URLエンコード・デコードツール"
-date: 2025-05-16
+date: 2025-12-21
 description: "無料のURLエンコーダー・デコーダー。特殊文字のパーセントエンコードや、エンコード済みURLの復元がブラウザで即完了。登録不要。"
 categories: ["無料ツール"]
 slug: "url-encoder-decoder"

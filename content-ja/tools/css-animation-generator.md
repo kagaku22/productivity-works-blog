@@ -1,6 +1,6 @@
 ---
 title: "CSSアニメーションジェネレーター — キーフレームビルダー"
-date: 2025-05-16
+date: 2026-01-18
 description: "ビジュアルキーフレームエディターでCSSアニメーションを作成。フェード・スライド・バウンス・パルス等のプリセット。ライブプレビューと@keyframesコード即時コピー。"
 categories: ["無料ツール"]
 slug: "css-animation-generator"

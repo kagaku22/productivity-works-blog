@@ -1,6 +1,6 @@
 ---
 title: "CSS clip-pathメーカー"
-date: 2025-05-16
+date: 2025-09-12
 description: "無料のCSS clip-pathビジュアルエディター。ドラッグ操作でカスタムシェイプを作成、プリセットから選択、CSSコードを即コピー。"
 categories: ["無料ツール"]
 slug: "css-clip-path"

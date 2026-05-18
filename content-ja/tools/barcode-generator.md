@@ -2,7 +2,7 @@
 title: "バーコードジェネレーター"
 description: "無料のバーコード作成ツール。Code 128・Code 39・EAN-13対応。色やサイズをカスタマイズしてPNG/SVGでダウンロード。会員登録不要。"
 slug: barcode-generator
-date: 2025-05-16
+date: 2025-07-23
 categories: ["無料ツール"]
 ShowToc: false
 cover:

@@ -1,6 +1,6 @@
 ---
 title: "CSS Flexboxプレイグラウンド"
-date: 2025-05-16
+date: 2026-01-14
 description: "無料のCSS Flexboxプレイグラウンド。全プロパティをビジュアルで実験。ライブプレビュー・CSSコードコピー対応。"
 categories: ["無料ツール"]
 slug: "flexbox-playground"

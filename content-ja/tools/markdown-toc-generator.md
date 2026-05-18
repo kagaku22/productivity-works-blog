@@ -2,7 +2,7 @@
 title: "Markdown目次ジェネレーター"
 slug: "markdown-toc-generator"
 description: "無料のMarkdown目次（TOC）生成ツール。Markdownを貼り付けてクリック可能な目次を自動生成。GitHub形式のアンカーリンク対応。"
-date: 2025-05-16
+date: 2025-10-27
 categories: ["無料ツール"]
 tags: ["markdown", "目次", "TOC", "アンカーリンク", "ドキュメント"]
 ShowToc: false

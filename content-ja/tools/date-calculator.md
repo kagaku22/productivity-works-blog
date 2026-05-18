@@ -3,7 +3,7 @@ title: "日付計算ツール"
 slug: "date-calculator"
 description: "無料の日付計算ツール。2つの日付間の差、日付への日数加減算、営業日計算に対応。"
 categories: ["無料ツール"]
-date: 2025-05-16
+date: 2025-10-31
 ShowToc: false
 cover:
   image: "/images/covers/date-calculator-ja.png"

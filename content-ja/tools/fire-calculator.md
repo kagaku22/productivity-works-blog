@@ -1,6 +1,6 @@
 ---
 title: "FIREシミュレーター | 早期退職まで何年？経済的自立を計算"
-date: 2026-05-16
+date: 2025-11-03
 draft: false
 slug: "fire-calculator"
 description: "無料FIREシミュレーター。収入・支出・貯蓄額を入力してFIRE達成に必要な資産額、早期退職までの年数、貯蓄率の影響を計算します。"

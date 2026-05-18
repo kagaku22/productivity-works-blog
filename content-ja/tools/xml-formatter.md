@@ -1,7 +1,7 @@
 ---
 title: "XML整形・バリデーションツール"
 description: "無料のXML整形ツール。XMLの整形・圧縮・構文検証・JSON変換をブラウザで完結。シンタックスハイライト・ツリー表示対応。会員登録不要。"
-date: 2026-05-16
+date: 2025-08-09
 slug: xml-formatter
 categories: ["無料ツール"]
 ShowToc: false

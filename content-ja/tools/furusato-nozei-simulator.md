@@ -1,6 +1,6 @@
 ---
 title: "ふるさと納税シミュレーター｜控除上限額・自己負担・節税効果を自動計算【2026年版】"
-date: 2026-05-16
+date: 2025-11-06
 draft: false
 slug: "furusato-nozei-simulator"
 description: "年収・家族構成を入力してふるさと納税の控除上限額を自動計算。自己負担2,000円で寄付できる上限額、節税効果、おすすめ返礼品の還元率も確認できる無料シミュレーター。"
@@ -42,7 +42,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">家族構成</label>
-<select id="fnFamily" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="fnFamily" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="single">独身または共働き（配偶者控除なし）</option>
 <option value="couple">夫婦（配偶者控除あり）</option>
 <option value="couple1">夫婦+子1人（高校生）</option>
@@ -52,7 +52,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">住宅ローン控除</label>
-<select id="fnLoan" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="fnLoan" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="0">なし</option>
 <option value="100000">あり（年10万円）</option>
 <option value="200000">あり（年20万円）</option>

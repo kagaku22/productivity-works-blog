@@ -2,7 +2,7 @@
 title: "コイントスシミュレーター"
 description: "無料のオンラインコイントスツール。リアルな3Dアニメーション付きコイン投げ。複数枚同時・カスタムラベル・履歴・確率統計機能搭載。意思決定に最適。"
 slug: coin-flipper
-date: 2026-05-16
+date: 2025-06-16
 categories: ["無料ツール"]
 ShowToc: false
 cover:

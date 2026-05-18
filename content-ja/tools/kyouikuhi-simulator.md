@@ -1,6 +1,6 @@
 ---
 title: "教育費シミュレーター｜子供1人の学費総額を自動計算【2026年版】"
-date: 2026-05-16
+date: 2025-09-23
 draft: false
 slug: "kyouikuhi-simulator"
 aliases:

@@ -1,6 +1,6 @@
 ---
 title: "JSONスキーマジェネレーター — 無料オンラインツール"
-date: 2025-05-16
+date: 2025-07-16
 description: "サンプルJSONからJSONスキーマを自動生成。型・ネストオブジェクト・配列を自動検出。プロパティ編集・必須フィールド設定・バリデーション対応。"
 categories: ["無料ツール"]
 slug: "json-schema-generator"

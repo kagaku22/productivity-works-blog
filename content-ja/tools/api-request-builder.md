@@ -1,6 +1,6 @@
 ---
 title: "APIリクエストビルダー - cURL・Fetch・Axiosコード生成"
-date: 2025-05-16
+date: 2025-07-19
 description: "APIリクエストをビジュアルで設定し、cURL・JavaScript Fetch・Axios・Python requests・PHPなどのコードを自動生成。実際のリクエストは送信しません。"
 categories: ["無料ツール"]
 slug: "api-request-builder"

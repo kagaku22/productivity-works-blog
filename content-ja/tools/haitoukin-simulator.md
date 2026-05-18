@@ -1,6 +1,6 @@
 ---
 title: "配当金シミュレーター｜投資額・利回りから年間配当収入を自動計算【2026年版】"
-date: 2026-05-16
+date: 2025-11-15
 draft: false
 slug: "haitoukin-simulator"
 description: "投資額と配当利回りを入力して年間・月間の配当収入を自動計算。NISA非課税効果、配当再投資の複利シミュレーション、高配当ETF比較も。無料の配当金計算ツール。"
@@ -50,14 +50,14 @@ cover:
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;">
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">口座タイプ</label>
-<select id="divAccount" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="divAccount" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="nisa">新NISA（非課税）</option>
 <option value="tokutei">特定口座（課税20.315%）</option>
 </select>
 </div>
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当再投資</label>
-<select id="divReinvest" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="divReinvest" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="yes">する（複利効果あり）</option>
 <option value="no">しない（配当受取）</option>
 </select>

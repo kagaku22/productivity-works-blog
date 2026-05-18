@@ -2,7 +2,7 @@
 title: "関数電卓"
 description: "無料のオンライン関数電卓。三角関数・対数・指数・階乗・定数（π, e）・メモリ機能対応。PC・スマートフォンで使えます。会員登録不要。"
 slug: scientific-calculator
-date: 2025-05-16
+date: 2025-06-10
 categories: ["無料ツール"]
 ShowToc: false
 cover:

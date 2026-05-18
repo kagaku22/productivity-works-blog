@@ -1,6 +1,6 @@
 ---
 title: "クレジットカード番号検証ツール - Luhnアルゴリズムチェッカー"
-date: 2025-05-16
+date: 2025-12-15
 description: "Luhnアルゴリズムでクレジットカード番号を検証。カード種別（Visa・Mastercard・Amexなど）を自動判定。カード番号の仕組みを学べる教育ツール。"
 categories: ["無料ツール"]
 slug: "credit-card-validator"

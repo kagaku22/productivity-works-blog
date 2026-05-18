@@ -1,6 +1,6 @@
 ---
 title: "タイピング速度テスト"
-date: 2025-05-16
+date: 2025-09-27
 description: "無料のタイピング速度テスト。WPM・正確率・キーストロークをリアルタイム測定。難易度別のテキストで練習可能、会員登録不要。"
 categories: ["無料ツール"]
 slug: "typing-speed-test"

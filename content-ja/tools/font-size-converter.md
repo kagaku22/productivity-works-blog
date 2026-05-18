@@ -1,6 +1,6 @@
 ---
 title: "フォントサイズ変換ツール"
-date: 2025-05-16
+date: 2025-12-16
 description: "無料のフォントサイズ変換ツール。px・rem・em・pt・%・vw間を即座に変換。基準サイズ設定・ライブプレビュー・変換表付き。Web開発に最適。"
 categories: ["無料ツール"]
 slug: "font-size-converter"

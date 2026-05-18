@@ -1,6 +1,6 @@
 ---
 title: "データURL変換ツール"
-date: 2025-05-16
+date: 2025-07-11
 description: "無料のデータURL（Base64）変換ツール。ファイルをdata URIに変換、またはdata URLからファイルを復元。画像プレビュー・ファイルサイズ比較対応。"
 categories: ["無料ツール"]
 slug: "data-url-converter"

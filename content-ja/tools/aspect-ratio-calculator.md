@@ -1,6 +1,6 @@
 ---
 title: "アスペクト比計算ツール"
-date: 2025-05-16
+date: 2025-08-02
 description: "無料のアスペクト比計算ツール。動画・画像・画面のアスペクト比を計算・変換・比較。ビジュアルプレビュー付き、会員登録不要。"
 categories: ["無料ツール"]
 slug: "aspect-ratio-calculator"

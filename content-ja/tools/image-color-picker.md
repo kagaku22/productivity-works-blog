@@ -1,7 +1,7 @@
 ---
 title: "画像カラーピッカー"
 slug: "image-color-picker"
-date: 2025-05-16
+date: 2025-05-23
 description: "無料の画像カラーピッカー。画像をアップロードしてクリックで色を抽出。HEX・RGB・HSL形式でコピー。登録不要、ブラウザで完結。"
 categories: ["無料ツール"]
 ShowToc: false

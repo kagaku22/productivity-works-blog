@@ -1,6 +1,6 @@
 ---
 title: "HTTPヘッダー分析ツール"
-date: 2025-05-16
+date: 2025-04-07
 description: "無料のHTTPヘッダーリファレンス・ビルダー。50以上のHTTPヘッダーを検索・解説。セキュリティヘッダーのApache/Nginx設定を自動生成。"
 categories: ["無料ツール"]
 slug: "http-header-analyzer"

@@ -1,7 +1,7 @@
 ---
 title: "CSSトランジション ジェネレーター"
 slug: "css-transition-generator"
-date: 2025-05-16
+date: 2025-07-05
 description: "無料のCSSトランジションジェネレーター。プロパティ・時間・イージングを設定してスムーズなトランジションCSSを即コピー。"
 categories: ["無料ツール"]
 tags: ["CSS", "トランジション", "ジェネレーター", "Webデザイン", "フロントエンド"]

@@ -1,6 +1,6 @@
 ---
 title: "CSSテキストグラデーション ジェネレーター — 無料ツール"
-date: 2025-05-16
+date: 2025-09-09
 description: "美しいCSSテキストグラデーションをライブプレビューで作成。複数カラーストップ、角度調整、プリセット付き。background-clip CSSコードをワンクリックコピー。"
 categories: ["無料ツール"]
 slug: "text-gradient-generator"

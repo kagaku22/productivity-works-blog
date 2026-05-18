@@ -1,6 +1,6 @@
 ---
 title: "インフレ計算ツール｜物価上昇で将来お金の価値はどう変わる？【無料】"
-date: 2026-05-16
+date: 2025-09-25
 draft: false
 slug: "inflation-calculator"
 aliases: ["/ja/tools/inflation-calculator/"]

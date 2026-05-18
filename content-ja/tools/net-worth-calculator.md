@@ -1,6 +1,6 @@
 ---
 title: "純資産計算機 | あなたの財務状況を把握する"
-date: 2026-05-16
+date: 2025-04-09
 draft: false
 slug: "net-worth-calculator"
 description: "無料の純資産計算機。資産と負債を入力して純資産・負債資産比率を即座に算出。年齢別の日本平均と比較できます。"

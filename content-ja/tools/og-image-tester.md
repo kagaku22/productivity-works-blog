@@ -1,6 +1,6 @@
 ---
 title: "OGP画像プレビューツール"
-date: 2025-05-16
+date: 2025-10-26
 description: "無料のOGP画像プレビューツール。og:titleやog:imageなどのメタタグを入力するだけで、Twitter/X・Facebook・LinkedIn・Discordでのシェア時の見え方を即確認。文字数チェック・HTMLコピー機能付き。"
 categories: ["無料ツール"]
 slug: "og-image-tester"

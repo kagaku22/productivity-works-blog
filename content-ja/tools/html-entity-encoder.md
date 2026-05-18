@@ -1,6 +1,6 @@
 ---
 title: "HTML エンティティ エンコーダー / デコーダー"
-date: 2025-05-16
+date: 2025-04-13
 categories: ["無料ツール"]
 slug: "html-entity-encoder"
 tags: ["HTMLエンティティ", "HTMLエンコーダー", "HTMLデコーダー", "開発ツール", "Web"]

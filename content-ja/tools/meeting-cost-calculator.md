@@ -1,6 +1,6 @@
 ---
 title: "会議コスト計算ツール"
-date: 2025-05-16
+date: 2025-09-13
 description: "無料の会議コスト計算ツール。参加者の人件費からリアルタイムで会議のコストを表示。時間あたりのコスト意識を高める、会員登録不要。"
 categories: ["無料ツール"]
 slug: "meeting-cost-calculator"

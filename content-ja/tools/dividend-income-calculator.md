@@ -1,6 +1,6 @@
 ---
 title: "配当収入計算ツール | 年間・月間の配当収入を試算"
-date: 2026-05-16
+date: 2025-08-26
 draft: false
 slug: "dividend-income-calculator"
 description: "株式・ETFからの配当収入を計算。年間・月間収入の試算、配当再投資（DRIP）の複利効果、人気高配当ETFの比較が無料でできるインタラクティブ計算ツール。"
@@ -50,14 +50,14 @@ cover:
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;">
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当再投資（DRIP）</label>
-<select id="dcDRIP" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="dcDRIP" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="yes">あり（複利で増やす）</option>
 <option value="no">なし（現金で受け取る）</option>
 </select>
 </div>
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当課税率</label>
-<select id="dcTax" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="dcTax" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="0">0%（非課税口座・NISA等）</option>
 <option value="20" selected>20.315%（国内源泉徴収）</option>
 <option value="15">15%（外国税額控除適用後）</option>

@@ -1,6 +1,6 @@
 ---
 title: "FX損益計算ツール | 無料FXトレードシミュレーター"
-date: 2026-05-14
+date: 2025-09-05
 draft: false
 slug: "forex-profit-calculator"
 description: "FXトレードの損益を瞬時に計算。通貨ペア・ロット数・価格を入力するだけで損益額・必要証拠金・実効レバレッジを表示します。"

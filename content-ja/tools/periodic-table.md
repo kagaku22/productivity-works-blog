@@ -1,7 +1,7 @@
 ---
 title: "インタラクティブ周期表"
 description: "無料のインタラクティブ周期表。全118元素をクリックして原子番号・質量・電子配置・性質を確認。カテゴリ別色分け・検索機能付き。化学の学習に最適。"
-date: 2025-05-16
+date: 2025-10-07
 slug: periodic-table
 categories: ["無料ツール"]
 ShowToc: false

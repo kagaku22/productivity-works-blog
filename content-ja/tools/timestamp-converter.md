@@ -1,6 +1,6 @@
 ---
 title: "Unixタイムスタンプ変換ツール — エポック時間"
-date: 2025-05-16
+date: 2025-12-31
 description: "Unixタイムスタンプを日時に変換、またはその逆。ライブクロック・複数フォーマット・ミリ秒対応・タイムゾーン選択。無料・登録不要。"
 categories: ["無料ツール"]
 slug: "timestamp-converter"

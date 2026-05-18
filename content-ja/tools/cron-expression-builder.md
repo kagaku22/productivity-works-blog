@@ -1,6 +1,6 @@
 ---
 title: "Cron式ビルダー"
-date: 2025-05-16
+date: 2026-01-29
 description: "無料のCron式ビルダー。ビジュアルインターフェースでcronスケジュールを作成・検証。次回実行時刻と日本語説明を表示、会員登録不要。"
 categories: ["無料ツール"]
 slug: "cron-expression-builder"

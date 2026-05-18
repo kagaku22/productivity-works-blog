@@ -1,7 +1,7 @@
 ---
 title: "Base64→画像変換ツール"
 slug: "base64-to-image"
-date: 2025-05-16
+date: 2025-04-18
 description: "無料のBase64→画像デコーダー。Base64文字列を貼り付けて画像をプレビュー・ダウンロード。登録不要。"
 categories: ["無料ツール"]
 ShowToc: false

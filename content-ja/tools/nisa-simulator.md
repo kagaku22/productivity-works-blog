@@ -1,6 +1,6 @@
 ---
 title: "つみたてNISAシミュレーター｜将来の資産額を無料で計算"
-date: 2026-05-14
+date: 2025-05-07
 draft: false
 slug: "nisa-simulator"
 description: "つみたてNISA・新NISAの運用シミュレーション。毎月の積立額と運用年数を入力するだけで、将来の資産額を自動計算。非課税メリットも表示します。"

@@ -1,6 +1,6 @@
 ---
 title: "JSONPathテスター - 無料オンラインJSONPathクエリツール"
-date: 2025-05-16
+date: 2025-06-05
 description: "JSONデータに対してJSONPath式をリアルタイムでテスト。ドット記法・ブラケット記法・配列インデックス・ワイルドカード・再帰探索・フィルター式に対応。結果即時表示。インストール不要・完全無料。"
 categories: ["無料ツール"]
 tags: ["JSONPath", "JSONクエリ", "JSONPathテスター", "JSONフィルター", "JSONパーサー", "ドット記法", "再帰探索"]

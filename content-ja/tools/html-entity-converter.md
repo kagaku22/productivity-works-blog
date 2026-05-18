@@ -1,6 +1,6 @@
 ---
 title: "HTMLエンティティ変換ツール"
-date: 2025-05-16
+date: 2025-12-09
 description: "無料のHTMLエンティティ変換ツール。特殊文字をHTMLエンティティにエンコード・デコード。名前付きエンティティ、数値コード、16進コードに対応。"
 categories: ["無料ツール"]
 slug: "html-entity-converter"

@@ -1,7 +1,7 @@
 ---
 title: "Tailwind CSSクラスソーター"
 slug: "tailwind-class-sorter"
-date: 2025-05-16
+date: 2025-10-05
 description: "無料のTailwind CSSクラス並べ替えツール。ユーティリティクラスを推奨順序に自動ソート。コピペで即整理。"
 categories: ["無料ツール"]
 tags: ["tailwind", "css", "ユーティリティクラス", "開発ツール", "クラスソーター"]

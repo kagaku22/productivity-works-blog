@@ -1,6 +1,6 @@
 ---
 title: "サブスク管理計算ツール｜月額サブスクの年間コストを見える化【無料】"
-date: 2026-05-16
+date: 2025-08-19
 draft: false
 slug: "subscription-cost-calculator"
 aliases:

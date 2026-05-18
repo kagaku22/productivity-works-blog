@@ -1,7 +1,7 @@
 ---
 title: "カーボンフットプリント計算ツール - あなたのCO2排出量を推定"
 description: "移動・エネルギー使用・生活習慣から年間CO2排出量を計算。削減アドバイス付きの無料カーボンフットプリント計算ツール。"
-date: 2025-05-16
+date: 2025-08-08
 categories: ["無料ツール"]
 slug: "carbon-footprint-calculator"
 ShowToc: false

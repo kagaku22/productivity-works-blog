@@ -1,6 +1,6 @@
 ---
 title: "時給換算ツール｜年収↔時給を自動変換【月収・日給も】"
-date: 2026-05-16
+date: 2025-12-23
 draft: false
 slug: "jikyuu-kansan-calculator"
 aliases: ["/ja/tools/hourly-to-salary-calculator/", "/ja/tools/salary-calculator/"]

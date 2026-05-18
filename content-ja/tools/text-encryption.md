@@ -1,6 +1,6 @@
 ---
 title: "テキスト暗号化・復号ツール"
-date: 2025-05-16
+date: 2025-06-21
 description: "無料のテキスト暗号化ツール。AES-256・シーザー暗号・ヴィジュネル暗号・XOR対応。すべてブラウザ内で処理、サーバー送信なし。"
 categories: ["無料ツール"]
 slug: "text-encryption"

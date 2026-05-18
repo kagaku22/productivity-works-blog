@@ -2,7 +2,7 @@
 title: "履歴書・職務経歴書ビルダー"
 description: "無料のオンライン履歴書作成ツール。職務経歴・学歴・スキルを入力してプロフェッショナルな履歴書を作成。テンプレート選択・PDF保存対応。会員登録不要。"
 slug: resume-builder
-date: 2025-05-16
+date: 2025-06-30
 categories: ["無料ツール"]
 ShowToc: false
 cover:

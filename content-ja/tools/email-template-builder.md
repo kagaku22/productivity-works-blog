@@ -1,7 +1,7 @@
 ---
 title: "メールテンプレートビルダー"
 description: "ビジュアルビルダーでプロフェッショナルなHTMLメールテンプレートを作成。無料レスポンシブメールテンプレート生成ツール。"
-date: 2025-05-16
+date: 2025-04-02
 slug: "email-template-builder"
 categories: ["無料ツール"]
 ShowToc: false

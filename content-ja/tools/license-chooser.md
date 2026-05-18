@@ -1,7 +1,7 @@
 ---
 title: "オープンソースライセンス選択ツール"
 slug: "license-chooser"
-date: 2025-05-16
+date: 2025-10-25
 description: "無料のオープンソースライセンス選択ツール。MIT・Apache・GPL・BSDなど主要ライセンスを比較し、質問に答えてプロジェクトに最適なライセンスを選択。"
 categories: ["無料ツール"]
 tags: ["オープンソース", "ライセンス", "MIT", "Apache", "GPL", "BSD", "開発者ツール"]

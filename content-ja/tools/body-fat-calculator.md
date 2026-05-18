@@ -1,6 +1,6 @@
 ---
 title: "体脂肪率計算ツール - 体脂肪率を簡単推定"
-date: 2025-05-16
+date: 2026-01-07
 description: "米海軍式とBMI法で体脂肪率を計算。フィットネスカテゴリと健康インサイトをパーソナライズして提供。"
 categories: ["無料ツール"]
 slug: "body-fat-calculator"

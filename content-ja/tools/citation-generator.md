@@ -2,7 +2,7 @@
 title: "引用文献ジェネレーター"
 description: "無料の引用文献作成ツール。APA・MLA・Chicago・Harvard形式の参考文献を自動生成。書籍・論文・Webサイト対応。レポート・論文作成に最適。"
 slug: citation-generator
-date: 2025-05-16
+date: 2025-08-04
 categories: ["無料ツール"]
 ShowToc: false
 cover:

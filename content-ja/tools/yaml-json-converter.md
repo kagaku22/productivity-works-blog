@@ -1,7 +1,7 @@
 ---
 title: "YAML ↔ JSON 変換ツール — 無料オンラインツール"
 description: "YAMLをJSONに、JSONをYAMLにブラウザ上で即時変換。形式を自動検出、入力を検証、インデントを調整。外部ライブラリ不要、サーバーへのアップロード一切なし。"
-date: 2025-05-16
+date: 2025-09-16
 categories: ["無料ツール"]
 slug: "yaml-json-converter"
 ShowToc: false

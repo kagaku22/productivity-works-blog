@@ -1,6 +1,6 @@
 ---
 title: "副業税金計算機 | 所得税・住民税の簡単シミュレーター（無料）"
-date: 2026-05-16
+date: 2025-11-24
 draft: false
 slug: "side-hustle-tax-calculator"
 description: "副業収入にかかる税金を簡単計算。給与収入と副業収入を入力するだけで、所得税・住民税の概算と手取り額を瞬時に表示。無料インタラクティブ計算機。"
@@ -61,7 +61,7 @@ cover:
 
 <div style="margin-bottom:16px;">
 <label style="display:block;font-weight:bold;margin-bottom:4px;font-size:13px;">申告区分</label>
-<select id="shFiling" onchange="calcSH()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="shFiling" onchange="calcSH()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="single">単身（一般）</option>
 <option value="married">配偶者控除あり</option>
 <option value="hoh">ひとり親控除あり</option>

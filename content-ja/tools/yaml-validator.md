@@ -1,7 +1,7 @@
 ---
 title: "YAMLバリデーター＆変換ツール"
 description: "YAMLファイルをオンラインで検証・整形。構文エラーのチェックとYAML⇔JSON変換。"
-date: 2025-05-16
+date: 2025-09-26
 slug: "yaml-validator"
 categories: ["無料ツール"]
 ShowToc: false

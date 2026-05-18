@@ -1,6 +1,6 @@
 ---
 title: "貯蓄目標シミュレーター｜目標額まで何ヶ月？無料計算ツール"
-date: 2026-05-16
+date: 2025-10-10
 draft: false
 slug: "chochiku-mokuhyo-simulator"
 aliases:
@@ -31,12 +31,12 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">目標金額（万円）</label>
-<input type="number" id="csGoal" min="1" max="100000" step="1" value="500" oninput="calcCS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="csGoal" min="1" max="100000" step="1" value="500" oninput="calcCS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b;background:#fff;">
 </div>
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">現在の貯金額（万円）</label>
-<input type="number" id="csCurrent" min="0" max="100000" step="1" value="50" oninput="calcCS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="csCurrent" min="0" max="100000" step="1" value="50" oninput="calcCS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b;background:#fff;">
 </div>
 
 <div style="margin-bottom:20px;">
@@ -53,7 +53,7 @@ cover:
 
 <div style="margin-bottom:8px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">目的（参考）</label>
-<select id="csPurpose" onchange="setPurpose()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="csPurpose" onchange="setPurpose()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="custom">自由に設定</option>
 <option value="emergency">緊急予備資金（生活費6ヶ月分）</option>
 <option value="car">車の購入資金</option>

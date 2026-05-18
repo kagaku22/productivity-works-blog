@@ -1,7 +1,7 @@
 ---
 title: "RGB⇔HEXカラー変換ツール"
 description: "RGBとHEX、HSLを瞬時に相互変換。カラーピッカー・ライブスライダー・大型プレビュースウォッチ・ワンクリックコピー・カラー履歴（localStorage）対応の無料オンラインカラーコンバーター。"
-date: 2025-05-16
+date: 2025-11-12
 categories: ["無料ツール"]
 slug: "rgb-hex-converter"
 ShowToc: false

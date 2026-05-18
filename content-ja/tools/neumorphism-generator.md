@@ -1,6 +1,6 @@
 ---
 title: "ニューモーフィズム ジェネレーター"
-date: 2025-05-16
+date: 2025-08-01
 description: "無料のCSSニューモーフィズムジェネレーター。ソフトUIシャドウエフェクトをカスタマイズしてCSSコードを即コピー。登録不要。"
 categories: ["無料ツール"]
 slug: "neumorphism-generator"

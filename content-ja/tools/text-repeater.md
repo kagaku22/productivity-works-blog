@@ -1,7 +1,7 @@
 ---
 title: "テキストリピーター — テキストを繰り返し・変換するオンラインツール"
 description: "任意のテキストを指定回数繰り返し生成。区切り文字のカスタマイズも可能。無料テキストリピートツール。"
-date: 2025-05-16
+date: 2025-06-22
 slug: "text-repeater"
 categories: ["無料ツール"]
 aliases: ["/ja/tools/text-repeater/", "/ja/tools/text-repeater/"]

@@ -1,6 +1,6 @@
 ---
 title: "色温度変換ツール"
-date: 2025-05-16
+date: 2025-08-10
 description: "色温度（ケルビン）からRGB・HEX値に変換。スライダーで暖色〜寒色を可視化。無料・登録不要。"
 categories: ["無料ツール"]
 slug: "color-temperature"

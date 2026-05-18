@@ -1,6 +1,6 @@
 ---
 title: "サイトマップXMLジェネレーター — 無料オンラインツール"
-date: 2025-05-16
+date: 2025-04-24
 description: "XMLサイトマップを即座に生成。URL・優先度・更新頻度・最終更新日を設定。SEO改善のためsitemap.xmlをダウンロード・コピー。"
 categories: ["無料ツール"]
 slug: "sitemap-generator"

@@ -1,6 +1,6 @@
 ---
 title: "変更履歴ジェネレーター — リリースノート作成ツール"
-date: 2025-05-16
+date: 2025-07-31
 description: "Keep a Changelog形式で変更履歴・リリースノートを生成。カテゴリ別にエントリ追加、マークダウンでプレビュー、コピー・ダウンロード。無料・登録不要。"
 categories: ["無料ツール"]
 slug: "changelog-generator"

@@ -1,6 +1,6 @@
 ---
 title: "画面録画ツール"
-date: 2025-05-16
+date: 2025-11-23
 description: "無料の画面録画ツール。ブラウザだけで画面・カメラを録画してWebMでダウンロード。インストール不要、会員登録不要。"
 categories: ["無料ツール"]
 slug: "screen-recorder"

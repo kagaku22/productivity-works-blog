@@ -1,6 +1,6 @@
 ---
 title: "プライバシーポリシー ジェネレーター — 無料テンプレートツール"
-date: 2025-05-16
+date: 2025-08-16
 description: "Webサイト用プライバシーポリシーを無料生成。個人情報保護法・GDPR対応テンプレート。Cookie・アナリティクス・第三者サービス対応。コピー・ダウンロード即可。"
 categories: ["無料ツール"]
 slug: "privacy-policy-generator"

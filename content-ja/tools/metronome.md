@@ -1,6 +1,6 @@
 ---
 title: "オンラインメトロノーム - 無料BPMタイマー"
-date: 2025-05-16
+date: 2025-10-30
 description: "BPM調整・拍子記号・アクセントパターン対応の無料オンラインメトロノーム。Web Audio APIで正確なビートを刻みます。"
 categories: ["無料ツール"]
 slug: "metronome"

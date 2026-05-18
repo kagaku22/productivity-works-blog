@@ -1,6 +1,6 @@
 ---
 title: "パーセント計算ツール｜割引・値上げ率・割合を自動計算【無料】"
-date: 2026-05-16
+date: 2026-01-28
 draft: false
 slug: "percent-calculator"
 aliases:

@@ -1,6 +1,6 @@
 ---
 title: "画像圧縮ツール"
-date: 2025-05-16
+date: 2025-12-30
 description: "無料の画像圧縮ツール。画質を維持しながらファイルサイズを削減。JPEG・PNG対応。品質調整・ビフォーアフター比較。"
 categories: ["無料ツール"]
 slug: "image-compressor"

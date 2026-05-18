@@ -1,7 +1,7 @@
 ---
 title: "カラーネームファインダー"
 description: "無料の色名検索ツール。HEX・RGB・HSLを入力して最も近いCSS色名を検索。148色のCSS名前付きカラーを一覧表示・検索・コピー。Webデザインに最適。"
-date: 2025-05-16
+date: 2025-06-08
 slug: color-name-finder
 categories: ["無料ツール"]
 tags: ["カラー", "CSS", "デザイン", "Webツール"]

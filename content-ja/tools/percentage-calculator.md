@@ -1,6 +1,6 @@
 ---
 title: "パーセント計算ツール｜割合・増減率・割引を瞬時に計算【無料】"
-date: 2025-05-16
+date: 2025-11-26
 description: "無料のパーセント計算ツール。割合・増減率・構成比を即計算。複数の計算モード対応。登録不要。"
 categories: ["無料ツール"]
 slug: "percentage-calculator"

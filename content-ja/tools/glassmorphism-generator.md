@@ -1,6 +1,6 @@
 ---
 title: "グラスモーフィズム ジェネレーター"
-date: 2025-05-16
+date: 2025-07-09
 description: "無料のCSSグラスモーフィズムジェネレーター。すりガラス風エフェクトをbackdrop-filterで作成し、CSSコードを即コピー。登録不要。"
 categories: ["無料ツール"]
 slug: "glassmorphism-generator"

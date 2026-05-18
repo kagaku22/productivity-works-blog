@@ -1,7 +1,7 @@
 ---
 title: "JSON⇄CSV 変換ツール — 無料・インストール不要"
 description: "JSONをCSVに、CSVをJSONに、ブラウザだけで即座に変換。ネストされたJSONのフラット化、カスタム区切り文字、ワンクリックダウンロードに対応。サーバー送信なし・外部ライブラリなし。"
-date: 2025-05-16
+date: 2025-08-24
 slug: "json-to-csv"
 categories: ["無料ツール"]
 ShowToc: false

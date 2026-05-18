@@ -1,6 +1,6 @@
 ---
 title: "単語頻度カウンター"
-date: 2025-05-16
+date: 2025-09-08
 description: "無料の単語頻度カウンター。テキストの頻出単語・フレーズ・N-gramを分析。ソート可能な表とワードクラウド表示、CSV書き出し対応。"
 categories: ["無料ツール"]
 slug: "word-frequency-counter"

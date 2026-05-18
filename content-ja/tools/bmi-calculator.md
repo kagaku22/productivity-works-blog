@@ -1,6 +1,6 @@
 ---
 title: "BMI計算ツール｜身長と体重から肥満度を自動判定【無料】"
-date: 2026-05-16
+date: 2025-09-15
 draft: false
 slug: "bmi-calculator"
 aliases: ["/ja/tools/bmi-calculator/"]

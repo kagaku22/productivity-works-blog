@@ -1,6 +1,6 @@
 ---
 title: "文字列エスケープツール — マルチ言語エスケーパー"
-date: 2025-05-16
+date: 2025-10-01
 description: "JSON・JavaScript・Python・Java・SQL・HTML等の文字列をエスケープ/アンエスケープ。引用符・バックスラッシュ・改行・特殊文字を処理。"
 categories: ["無料ツール"]
 slug: "string-escape-tool"

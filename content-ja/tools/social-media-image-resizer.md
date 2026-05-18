@@ -1,6 +1,6 @@
 ---
 title: "SNS画像リサイズツール"
-date: 2025-05-16
+date: 2025-04-20
 description: "無料のSNS画像リサイズツール。Instagram・Facebook・X(Twitter)・LinkedIn・YouTube・Pinterest用に画像を最適サイズにリサイズ。トリミング・ダウンロード対応。"
 categories: ["無料ツール"]
 tags: ["SNS画像リサイズ", "インスタグラム画像サイズ", "フェイスブック画像", "X画像サイズ", "画像トリミング", "無料ツール"]

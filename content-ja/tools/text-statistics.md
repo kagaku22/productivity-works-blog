@@ -1,6 +1,6 @@
 ---
 title: "テキスト統計分析ツール"
-date: 2025-05-16
+date: 2026-01-01
 description: "無料のテキスト統計分析ツール。単語数・文字数・文数・段落数・平均単語長・読了時間・朗読時間・可読性スコア（Flesch-Kincaid）・頻出キーワード・ユニーク語率を即時計算。"
 categories: ["無料ツール"]
 slug: "text-statistics"

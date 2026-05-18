@@ -1,7 +1,7 @@
 ---
 title: "GitHubプロフィールREADMEジェネレーター"
 slug: "github-readme-generator"
-date: 2025-05-16
+date: 2025-04-12
 description: "無料のGitHubプロフィールREADME作成ツール。自己紹介・スキル・統計・SNSリンクを設定してMarkdownを即生成。コピペで完了。"
 categories: ["無料ツール"]
 tags: ["github", "readme", "markdown", "開発者", "プロフィール"]

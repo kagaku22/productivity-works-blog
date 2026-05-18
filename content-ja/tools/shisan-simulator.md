@@ -1,6 +1,6 @@
 ---
 title: "資産管理シミュレーター｜総資産・純資産を自動計算【2026年版】"
-date: 2026-05-16
+date: 2025-12-11
 draft: false
 slug: "shisan-simulator"
 aliases:
@@ -25,40 +25,40 @@ cover:
 
 現金・投資・不動産などの**資産**と、ローン・借入金などの**負債**を入力するだけで、あなたの**純資産**を自動計算します。年代別の平均値との比較や目標設定もできます。
 
-<div id="ss-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b;">
+<div id="ss-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- 資産セクション -->
 <div style="padding:24px;border:2px solid #059669;border-radius:12px;background:#f0fdf4;margin-bottom:20px;">
 <h2 style="margin:0 0 20px 0;font-size:20px;color:#059669;">資産</h2>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">現金・預金 <span style="font-weight:normal;color:#64748b;">（普通預金・定期預金・緊急予備資金）</span></label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">現金・預金 <span style="font-weight:normal;color:#64748b;">（普通預金・定期預金・緊急予備資金）</span></label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssCash" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssCash" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">投資資産 <span style="font-weight:normal;color:#64748b;">（株式・投信・NISA・iDeCo・仮想通貨）</span></label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">投資資産 <span style="font-weight:normal;color:#64748b;">（株式・投信・NISA・iDeCo・仮想通貨）</span></label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssInvest" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssInvest" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">不動産 <span style="font-weight:normal;color:#64748b;">（自宅評価額・投資用不動産）</span></label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">不動産 <span style="font-weight:normal;color:#64748b;">（自宅評価額・投資用不動産）</span></label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssRealty" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssRealty" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:20px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">その他 <span style="font-weight:normal;color:#64748b;">（車・貴金属・保険解約返戻金・事業資産）</span></label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">その他 <span style="font-weight:normal;color:#64748b;">（車・貴金属・保険解約返戻金・事業資産）</span></label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssOtherAsset" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssOtherAsset" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
@@ -74,41 +74,41 @@ cover:
 <h2 style="margin:0 0 20px 0;font-size:20px;color:#dc2626;">負債</h2>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">住宅ローン残高</label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">住宅ローン残高</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssHomeLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssHomeLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">自動車ローン</label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">自動車ローン</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssCarLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssCarLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">教育ローン・奨学金</label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">教育ローン・奨学金</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssEduLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssEduLoan" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">クレジットカード残高</label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">クレジットカード残高</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssCreditCard" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssCreditCard" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
 
 <div style="margin-bottom:20px;">
-<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;">その他借入</label>
+<label style="display:block;font-weight:bold;margin-bottom:4px;font-size:14px;color:#1e293b !important;">その他借入</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssOtherDebt" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssOtherDebt" min="0" step="1" value="0" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>
@@ -171,8 +171,8 @@ cover:
 <h3 style="margin:0 0 16px 0;font-size:18px;">年代別の純資産平均との比較</h3>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">あなたの年代を選択</label>
-<select id="ssAge" onchange="calcSS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;color:#1e293b !important;">あなたの年代を選択</label>
+<select id="ssAge" onchange="calcSS()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="">選択してください</option>
 <option value="20">20代</option>
 <option value="30">30代</option>
@@ -209,9 +209,9 @@ cover:
 <h3 style="margin:0 0 16px 0;font-size:18px;">目標純資産の設定</h3>
 
 <div style="margin-bottom:16px;">
-<label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">目標純資産（万円）</label>
+<label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;color:#1e293b !important;">目標純資産（万円）</label>
 <div style="display:flex;align-items:center;gap:8px;">
-<input type="number" id="ssGoal" min="1" step="100" value="3000" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;">
+<input type="number" id="ssGoal" min="1" step="100" value="3000" oninput="calcSS()" style="flex:1;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px;color:#1e293b !important;background:#fff !important;">
 <span style="color:#64748b;white-space:nowrap;">万円</span>
 </div>
 </div>

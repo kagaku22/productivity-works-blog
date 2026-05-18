@@ -1,6 +1,6 @@
 ---
 title: "CSS Flexboxジェネレーター — ビジュアルプレイグラウンド"
-date: 2025-05-16
+date: 2026-01-20
 description: "無料のCSS Flexboxジェネレーター。コントロールを操作してフレックスレイアウトを即座に構築。ナビバー・グリッド・聖杯レイアウトのプリセット付き。ワンクリックでCSSコピー。"
 categories: ["無料ツール"]
 slug: "flexbox-generator"

@@ -1,6 +1,6 @@
 ---
 title: "老後資産計算機 | iDeCo・NISA積立シミュレーター（無料）"
-date: 2026-05-16
+date: 2025-09-01
 draft: false
 slug: "retirement-calculator"
 description: "無料の老後資産計算機。現在の年齢・毎月の積立額・期待利回りを入力して、退職時の想定資産額をシミュレーション。iDeCo・NISA対応。"

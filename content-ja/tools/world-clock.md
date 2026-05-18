@@ -2,7 +2,7 @@
 title: "世界時計 - タイムゾーン比較ツール"
 description: "無料の世界時計ツール。30以上の主要都市の現在時刻をリアルタイム表示。昼夜表示・ミーティングプランナー・時差計算機能付き。海外取引先との時間調整に最適。"
 slug: world-clock
-date: 2026-05-16
+date: 2025-12-25
 categories: ["無料ツール"]
 ShowToc: false
 cover:

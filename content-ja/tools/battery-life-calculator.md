@@ -1,7 +1,7 @@
 ---
 title: "バッテリー持続時間計算ツール - デバイスの稼働時間を推定"
 description: "デバイスのバッテリー持続時間を容量・使用パターン・消費電力から計算。無料オンラインバッテリー寿命計算ツール。"
-date: 2025-05-16
+date: 2026-01-09
 categories: ["無料ツール"]
 slug: "battery-life-calculator"
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "カラーパレットジェネレーター — 無料オンラインツール"
 description: "ベースカラーから色彩理論に基づいた5色パレットを自動生成。補色・類似色・トライアド・分割補色・モノクロマティックの5モードに対応。HEX/RGBコピー・CSS変数エクスポート機能付き。"
-date: 2025-05-16
+date: 2025-11-04
 categories: ["無料ツール"]
 slug: "color-palette-generator"
 ShowToc: false

@@ -1,6 +1,6 @@
 ---
 title: "フリーランス報酬計算ツール｜適正な時給・単価を自動計算【2026年版】"
-date: 2026-05-16
+date: 2025-05-25
 draft: false
 slug: "freelance-hoshu-calculator"
 aliases:

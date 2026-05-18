@@ -1,6 +1,6 @@
 ---
 title: "読書時間計算ツール"
-date: 2025-05-16
+date: 2025-11-25
 description: "テキストを貼り付けるだけで読書時間を瞬時に計算。読書速度の調整、文字数・語数・文数のカウント、可読性スコアも確認できる無料ツールです。"
 categories: ["無料ツール"]
 slug: "reading-time-calculator"

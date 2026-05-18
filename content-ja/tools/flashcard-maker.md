@@ -1,6 +1,6 @@
 ---
 title: "フラッシュカードメーカー"
-date: 2025-05-16
+date: 2025-08-23
 description: "無料のフラッシュカード作成ツール。単語帳をブラウザで作成・学習・復習。間隔反復学習・CSV取込対応、会員登録不要。"
 categories: ["無料ツール"]
 slug: "flashcard-maker"

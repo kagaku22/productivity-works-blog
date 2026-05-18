@@ -1,6 +1,6 @@
 ---
 title: "TOML/INI ↔ JSON 変換ツール"
-date: 2025-05-16
+date: 2025-08-13
 description: "TOML・INI・JSON形式間の変換。双方向変換＆構文検証。Cargo.toml・pyproject.toml・設定ファイルのプリセット。"
 categories: ["無料ツール"]
 slug: "toml-json-converter"

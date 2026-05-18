@@ -1,6 +1,6 @@
 ---
 title: "緊急資金計算ツール | いくら必要？生活防衛費の目安を計算"
-date: 2026-05-16
+date: 2025-06-09
 draft: false
 slug: "emergency-fund-calculator"
 description: "月の生活費・雇用形態・家族構成から最適な緊急資金（生活防衛資金）を計算。目標達成までの期間もわかる無料インタラクティブツール。"
@@ -42,7 +42,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">雇用形態</label>
-<select id="employment" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="employment" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="stable">安定した会社員（公務員・大手企業）</option>
 <option value="regular" selected>一般的な会社員</option>
 <option value="contract">契約社員・派遣社員</option>
@@ -53,7 +53,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">家族構成</label>
-<select id="household" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+<select id="household" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
 <option value="single">独身・扶養なし</option>
 <option value="couple" selected>夫婦・共働き</option>
 <option value="couple_single">夫婦・片働き</option>

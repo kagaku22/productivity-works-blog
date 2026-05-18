@@ -3,7 +3,7 @@ title: "CSVエディター"
 slug: "csv-editor"
 description: "無料のオンラインCSVエディター。貼り付けまたはファイルアップロードでインポートし、スプレッドシート感覚でCSVを編集・ソート・フィルター・エクスポート。RFC 4180準拠。"
 categories: ["無料ツール"]
-date: 2025-05-16
+date: 2025-12-13
 ShowToc: false
 cover:
   image: "/images/covers/csv-editor-ja.png"

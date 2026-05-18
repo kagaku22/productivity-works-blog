@@ -1,7 +1,7 @@
 ---
 title: "CSSテキストシャドウ ジェネレーター"
 slug: "text-shadow-generator"
-date: 2025-05-16
+date: 2025-10-02
 description: "無料のCSSテキストシャドウジェネレーター。複数シャドウ・プリセット・ライブプレビューでtext-shadowを生成しCSS即コピー。"
 categories: ["無料ツール"]
 ShowToc: false

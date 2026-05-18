@@ -1,6 +1,6 @@
 ---
 title: "OGPプレビュー — SNSシェアデバッガー"
-date: 2025-05-16
+date: 2026-01-19
 description: "Facebook・Twitter・LinkedIn・Google検索でのページ表示をプレビュー。OGメタタグをライブプレビュー付きで生成。文字数制限と画像サイズを確認。"
 categories: ["無料ツール"]
 slug: "og-preview"
