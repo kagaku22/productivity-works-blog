@@ -20,7 +20,7 @@
 
 <!-- Open Graph defaults -->
 <meta property="og:site_name" content="Productivity Works" />
-<meta property="og:type" content="article" />
+{{ if .IsHome }}<meta property="og:type" content="website" />{{ else }}<meta property="og:type" content="article" />{{ end }}
 
 <!-- Structured data (JSON-LD) for rich snippets -->
 {{ partial "structured-data.html" . }}
