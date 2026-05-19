@@ -15,6 +15,18 @@
   gtag('config', 'G-S0BE5F3Y5H');
 </script>
 
+<!-- noindex for utility pages (taxonomy, term, search, archives) to save crawl budget -->
+{{- if or (eq .Kind "taxonomy") (eq .Kind "term") (eq .Layout "search") (eq .Layout "archives") }}
+<meta name="robots" content="noindex, follow" />
+{{- end }}
+
+<!-- hreflang for multilingual SEO -->
+{{- if .IsTranslated }}
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+{{- end }}
+{{- end }}
+
 <!-- Open Graph defaults -->
 <meta property="og:site_name" content="Productivity Works" />
 {{ if .IsHome }}<meta property="og:type" content="website" />{{ else }}<meta property="og:type" content="article" />{{ end }}
