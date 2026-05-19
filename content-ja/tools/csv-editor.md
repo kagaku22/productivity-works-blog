@@ -89,63 +89,63 @@ aliases: ["/ja/tools/csv-editor/", "/ja/tools/csv-editor/"]
 <div id="csv-app">
 
 <div class="ca-import-area">
-  <h2>CSVをインポート</h2>
-  <div class="ca-opt-row">
-    <label>区切り文字: <select id="ca-delim"><option value=",">カンマ (,)</option><option value="	">タブ (\t)</option><option value=";">セミコロン (;)</option><option value="|">パイプ (|)</option></select></label>
-    <label><input type="checkbox" id="ca-has-header" checked> 1行目を見出しにする</label>
-  </div>
-  <textarea class="ca-paste" id="ca-paste" placeholder="CSVをここに貼り付け（例: 名前,年齢,都市&#10;Alice,30,東京&#10;Bob,25,大阪）"></textarea>
-  <div class="ca-import-row">
-    <button class="ca-btn ca-btn-blue" id="ca-import-paste-btn">貼り付けからインポート</button>
-    <label class="ca-file-label"><span>&#128196; CSVファイルをアップロード</span><input type="file" class="ca-file-input" id="ca-file-input" accept=".csv,text/csv,text/plain"></label>
-    <button class="ca-btn ca-btn-gray" id="ca-load-sample-btn">サンプルを読み込む</button>
-  </div>
+<h2>CSVをインポート</h2>
+<div class="ca-opt-row">
+<label>区切り文字: <select id="ca-delim"><option value=",">カンマ (,)</option><option value="	">タブ (\t)</option><option value=";">セミコロン (;)</option><option value="|">パイプ (|)</option></select></label>
+<label><input type="checkbox" id="ca-has-header" checked> 1行目を見出しにする</label>
+</div>
+<textarea class="ca-paste" id="ca-paste" placeholder="CSVをここに貼り付け（例: 名前,年齢,都市&#10;Alice,30,東京&#10;Bob,25,大阪）"></textarea>
+<div class="ca-import-row">
+<button class="ca-btn ca-btn-blue" id="ca-import-paste-btn">貼り付けからインポート</button>
+<label class="ca-file-label"><span>&#128196; CSVファイルをアップロード</span><input type="file" class="ca-file-input" id="ca-file-input" accept=".csv,text/csv,text/plain"></label>
+<button class="ca-btn ca-btn-gray" id="ca-load-sample-btn">サンプルを読み込む</button>
+</div>
 </div>
 
 <div class="ca-msg" id="ca-msg"></div>
 
 <div id="ca-editor-section" style="display:none">
-  <div class="ca-toolbar">
-    <input class="ca-search" id="ca-search" type="search" placeholder="行を検索・フィルター...">
-    <div class="ca-sep"></div>
-    <button class="ca-btn ca-btn-green" id="ca-add-row-btn">+ 行を追加</button>
-    <button class="ca-btn ca-btn-green" id="ca-add-col-btn">+ 列を追加</button>
-    <div class="ca-sep"></div>
-    <button class="ca-btn ca-btn-gray" id="ca-clear-btn">全消去</button>
-  </div>
+<div class="ca-toolbar">
+<input class="ca-search" id="ca-search" type="search" placeholder="行を検索・フィルター...">
+<div class="ca-sep"></div>
+<button class="ca-btn ca-btn-green" id="ca-add-row-btn">+ 行を追加</button>
+<button class="ca-btn ca-btn-green" id="ca-add-col-btn">+ 列を追加</button>
+<div class="ca-sep"></div>
+<button class="ca-btn ca-btn-gray" id="ca-clear-btn">全消去</button>
+</div>
 
-  <div class="ca-status">
-    <span id="ca-status-text"></span>
-    <span id="ca-filtered-note" class="ca-filtered-note" style="display:none"></span>
-  </div>
+<div class="ca-status">
+<span id="ca-status-text"></span>
+<span id="ca-filtered-note" class="ca-filtered-note" style="display:none"></span>
+</div>
 
-  <div class="ca-table-wrap" id="ca-table-wrap">
-    <div class="ca-empty">データがありません。</div>
-  </div>
+<div class="ca-table-wrap" id="ca-table-wrap">
+<div class="ca-empty">データがありません。</div>
+</div>
 
-  <div class="ca-export-wrap" style="margin-top:.9rem">
-    <h2>CSVをエクスポート</h2>
-    <div class="ca-export-row">
-      <button class="ca-btn ca-btn-blue" id="ca-generate-btn">CSV生成</button>
-      <button class="ca-btn ca-btn-green" id="ca-copy-btn" disabled>クリップボードにコピー</button>
-      <button class="ca-btn ca-btn-orange" id="ca-download-btn" disabled>CSVをダウンロード</button>
-    </div>
-    <textarea class="ca-export-ta" id="ca-export-ta" readonly placeholder="「CSV生成」をクリックするとここにプレビューが表示されます..."></textarea>
-  </div>
+<div class="ca-export-wrap" style="margin-top:.9rem">
+<h2>CSVをエクスポート</h2>
+<div class="ca-export-row">
+<button class="ca-btn ca-btn-blue" id="ca-generate-btn">CSV生成</button>
+<button class="ca-btn ca-btn-green" id="ca-copy-btn" disabled>クリップボードにコピー</button>
+<button class="ca-btn ca-btn-orange" id="ca-download-btn" disabled>CSVをダウンロード</button>
+</div>
+<textarea class="ca-export-ta" id="ca-export-ta" readonly placeholder="「CSV生成」をクリックするとここにプレビューが表示されます..."></textarea>
+</div>
 </div>
 
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 <div class="ca-related">
-  <h3>関連ツール</h3>
-  <div class="ca-related-links">
-    <a href="/ja/tools/json-to-csv/">JSON⇔CSV変換ツール</a>
-    <a href="/ja/tools/markdown-table-generator/">Markdownテーブル生成</a>
-  </div>
+<h3>関連ツール</h3>
+<div class="ca-related-links">
+<a href="/ja/tools/json-to-csv/">JSON⇔CSV変換ツール</a>
+<a href="/ja/tools/markdown-table-generator/">Markdownテーブル生成</a>
+</div>
 </div>
 
 </div>
@@ -156,12 +156,12 @@ aliases: ["/ja/tools/csv-editor/", "/ja/tools/csv-editor/"]
 
 // ── 状態 ────────────────────────────────────────────────────────────────────
 var state = {
-  headers: [],
-  rows: [],
-  sortCol: -1,
-  sortDir: 1,
-  filter: '',
-  lastCsv: ''
+headers: [],
+rows: [],
+sortCol: -1,
+sortDir: 1,
+filter: '',
+lastCsv: ''
 };
 
 // ── 要素取得 ────────────────────────────────────────────────────────────────
@@ -188,321 +188,321 @@ var exportTa     = document.getElementById('ca-export-ta');
 
 // ── RFC 4180 パーサー ────────────────────────────────────────────────────────
 function parseCSV(text, delim) {
-  delim = delim || ',';
-  var rows = [], row = [], field = '', inQuote = false, i = 0, c, nc;
-  text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-  if (text.length && text[text.length-1] !== '\n') text += '\n';
-  while (i < text.length) {
-    c = text[i];
-    if (inQuote) {
-      if (c === '"') {
-        nc = text[i+1];
-        if (nc === '"') { field += '"'; i += 2; continue; }
-        inQuote = false; i++; continue;
-      }
-      field += c; i++; continue;
-    }
-    if (c === '"') { inQuote = true; i++; continue; }
-    if (c === delim) { row.push(field); field = ''; i++; continue; }
-    if (c === '\n') {
-      row.push(field); field = '';
-      if (i < text.length - 1 || row.some(function(f){return f!==''})) rows.push(row);
-      row = []; i++; continue;
-    }
-    field += c; i++;
-  }
-  return rows;
+delim = delim || ',';
+var rows = [], row = [], field = '', inQuote = false, i = 0, c, nc;
+text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+if (text.length && text[text.length-1] !== '\n') text += '\n';
+while (i < text.length) {
+c = text[i];
+if (inQuote) {
+if (c === '"') {
+nc = text[i+1];
+if (nc === '"') { field += '"'; i += 2; continue; }
+inQuote = false; i++; continue;
+}
+field += c; i++; continue;
+}
+if (c === '"') { inQuote = true; i++; continue; }
+if (c === delim) { row.push(field); field = ''; i++; continue; }
+if (c === '\n') {
+row.push(field); field = '';
+if (i < text.length - 1 || row.some(function(f){return f!==''})) rows.push(row);
+row = []; i++; continue;
+}
+field += c; i++;
+}
+return rows;
 }
 
 // ── RFC 4180 シリアライザー ──────────────────────────────────────────────────
 function serializeCSV(headers, rows, delim) {
-  delim = delim || ',';
-  function escField(f) {
-    f = String(f == null ? '' : f);
-    if (f.indexOf(delim) !== -1 || f.indexOf('"') !== -1 || f.indexOf('\n') !== -1 || f.indexOf('\r') !== -1) {
-      return '"' + f.replace(/"/g, '""') + '"';
-    }
-    return f;
-  }
-  var lines = [];
-  if (headers.length) lines.push(headers.map(escField).join(delim));
-  rows.forEach(function(r){ lines.push(r.map(escField).join(delim)); });
-  return lines.join('\r\n');
+delim = delim || ',';
+function escField(f) {
+f = String(f == null ? '' : f);
+if (f.indexOf(delim) !== -1 || f.indexOf('"') !== -1 || f.indexOf('\n') !== -1 || f.indexOf('\r') !== -1) {
+return '"' + f.replace(/"/g, '""') + '"';
+}
+return f;
+}
+var lines = [];
+if (headers.length) lines.push(headers.map(escField).join(delim));
+rows.forEach(function(r){ lines.push(r.map(escField).join(delim)); });
+return lines.join('\r\n');
 }
 
 // ── 行幅を正規化 ────────────────────────────────────────────────────────────
 function normalizeRows() {
-  var w = state.headers.length;
-  state.rows.forEach(function(r) {
-    while (r.length < w) r.push('');
-    r.length = w;
-  });
+var w = state.headers.length;
+state.rows.forEach(function(r) {
+while (r.length < w) r.push('');
+r.length = w;
+});
 }
 
 // ── フィルター／ソート済みビュー ────────────────────────────────────────────
 function getView() {
-  var rows = state.rows.slice();
-  var q = state.filter.trim().toLowerCase();
-  if (q) {
-    rows = rows.filter(function(r) {
-      return r.some(function(c){ return String(c).toLowerCase().indexOf(q) !== -1; });
-    });
-  }
-  if (state.sortCol >= 0 && state.sortCol < state.headers.length) {
-    var col = state.sortCol, dir = state.sortDir;
-    rows = rows.slice().sort(function(a, b) {
-      var av = a[col] || '', bv = b[col] || '';
-      var an = parseFloat(av), bn = parseFloat(bv);
-      if (!isNaN(an) && !isNaN(bn)) return (an - bn) * dir;
-      return av.localeCompare(bv) * dir;
-    });
-  }
-  return rows;
+var rows = state.rows.slice();
+var q = state.filter.trim().toLowerCase();
+if (q) {
+rows = rows.filter(function(r) {
+return r.some(function(c){ return String(c).toLowerCase().indexOf(q) !== -1; });
+});
+}
+if (state.sortCol >= 0 && state.sortCol < state.headers.length) {
+var col = state.sortCol, dir = state.sortDir;
+rows = rows.slice().sort(function(a, b) {
+var av = a[col] || '', bv = b[col] || '';
+var an = parseFloat(av), bn = parseFloat(bv);
+if (!isNaN(an) && !isNaN(bn)) return (an - bn) * dir;
+return av.localeCompare(bv) * dir;
+});
+}
+return rows;
 }
 
 // ── テーブル描画 ────────────────────────────────────────────────────────────
 function render() {
-  var view = getView();
+var view = getView();
 
-  statusText.textContent = state.rows.length + ' 行、' + state.headers.length + ' 列';
-  if (state.filter.trim()) {
-    filteredNote.textContent = state.rows.length + ' 行中 ' + view.length + ' 行を表示（フィルター中）';
-    filteredNote.style.display = '';
-  } else {
-    filteredNote.style.display = 'none';
-  }
+statusText.textContent = state.rows.length + ' 行、' + state.headers.length + ' 列';
+if (state.filter.trim()) {
+filteredNote.textContent = state.rows.length + ' 行中 ' + view.length + ' 行を表示（フィルター中）';
+filteredNote.style.display = '';
+} else {
+filteredNote.style.display = 'none';
+}
 
-  if (!state.headers.length && !state.rows.length) {
-    tableWrap.innerHTML = '<div class="ca-empty">データがありません。CSVをインポートするか、「行を追加」「列を追加」から開始してください。</div>';
-    return;
-  }
+if (!state.headers.length && !state.rows.length) {
+tableWrap.innerHTML = '<div class="ca-empty">データがありません。CSVをインポートするか、「行を追加」「列を追加」から開始してください。</div>';
+return;
+}
 
-  var html = '<table><thead><tr>';
-  html += '<th class="ca-th-num">#</th>';
-  state.headers.forEach(function(h, ci) {
-    var sortIcon = '⇅';
-    var sortCls = '';
-    if (state.sortCol === ci) { sortIcon = state.sortDir === 1 ? '↑' : '↓'; sortCls = ' ca-sort-active'; }
-    html += '<th class="ca-th-col" data-ci="' + ci + '">' +
-      '<div class="ca-th-inner">' +
-      '<input class="ca-th-name" data-ci="' + ci + '" value="' + escAttr(h) + '" title="列名を変更">' +
-      '<button class="ca-sort-btn' + sortCls + '" data-ci="' + ci + '" title="ソート">' + sortIcon + '</button>' +
-      '<button class="ca-del-col-btn" data-ci="' + ci + '" title="列を削除">✕</button>' +
-      '</div></th>';
-  });
-  html += '<th class="ca-th-del"></th>';
-  html += '</tr></thead><tbody>';
+var html = '<table><thead><tr>';
+html += '<th class="ca-th-num">#</th>';
+state.headers.forEach(function(h, ci) {
+var sortIcon = '⇅';
+var sortCls = '';
+if (state.sortCol === ci) { sortIcon = state.sortDir === 1 ? '↑' : '↓'; sortCls = ' ca-sort-active'; }
+html += '<th class="ca-th-col" data-ci="' + ci + '">' +
+'<div class="ca-th-inner">' +
+'<input class="ca-th-name" data-ci="' + ci + '" value="' + escAttr(h) + '" title="列名を変更">' +
+'<button class="ca-sort-btn' + sortCls + '" data-ci="' + ci + '" title="ソート">' + sortIcon + '</button>' +
+'<button class="ca-del-col-btn" data-ci="' + ci + '" title="列を削除">✕</button>' +
+'</div></th>';
+});
+html += '<th class="ca-th-del"></th>';
+html += '</tr></thead><tbody>';
 
-  view.forEach(function(row, vi) {
-    var origIdx = state.rows.indexOf(row);
-    html += '<tr>';
-    html += '<td class="ca-td-num">' + (vi + 1) + '</td>';
-    state.headers.forEach(function(_, ci) {
-      var val = row[ci] != null ? row[ci] : '';
-      html += '<td class="ca-td-cell"><input type="text" value="' + escAttr(val) + '" data-orig="' + origIdx + '" data-ci="' + ci + '"></td>';
-    });
-    html += '<td class="ca-td-del"><button data-orig="' + origIdx + '" title="行を削除">✕</button></td>';
-    html += '</tr>';
-  });
+view.forEach(function(row, vi) {
+var origIdx = state.rows.indexOf(row);
+html += '<tr>';
+html += '<td class="ca-td-num">' + (vi + 1) + '</td>';
+state.headers.forEach(function(_, ci) {
+var val = row[ci] != null ? row[ci] : '';
+html += '<td class="ca-td-cell"><input type="text" value="' + escAttr(val) + '" data-orig="' + origIdx + '" data-ci="' + ci + '"></td>';
+});
+html += '<td class="ca-td-del"><button data-orig="' + origIdx + '" title="行を削除">✕</button></td>';
+html += '</tr>';
+});
 
-  html += '</tbody></table>';
-  tableWrap.innerHTML = html;
+html += '</tbody></table>';
+tableWrap.innerHTML = html;
 
-  // ── イベント登録 ───────────────────────────────────────────────────────
-  tableWrap.querySelectorAll('.ca-th-name').forEach(function(inp) {
-    inp.addEventListener('change', function() {
-      state.headers[+this.dataset.ci] = this.value;
-      invalidateExport();
-    });
-    inp.addEventListener('keydown', function(e){ if(e.key==='Enter') this.blur(); });
-  });
-  tableWrap.querySelectorAll('.ca-sort-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var ci = +this.dataset.ci;
-      if (state.sortCol === ci) {
-        if (state.sortDir === 1) { state.sortDir = -1; }
-        else { state.sortCol = -1; state.sortDir = 1; }
-      } else { state.sortCol = ci; state.sortDir = 1; }
-      render();
-    });
-  });
-  tableWrap.querySelectorAll('.ca-del-col-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var ci = +this.dataset.ci;
-      if (!confirm('列「' + state.headers[ci] + '」を削除しますか？')) return;
-      state.headers.splice(ci, 1);
-      state.rows.forEach(function(r){ r.splice(ci, 1); });
-      if (state.sortCol === ci) { state.sortCol = -1; }
-      else if (state.sortCol > ci) { state.sortCol--; }
-      invalidateExport(); render();
-    });
-  });
-  tableWrap.querySelectorAll('.ca-td-cell input').forEach(function(inp) {
-    inp.addEventListener('change', function() {
-      var orig = +this.dataset.orig, ci = +this.dataset.ci;
-      if (state.rows[orig]) { state.rows[orig][ci] = this.value; invalidateExport(); }
-    });
-    inp.addEventListener('keydown', function(e){
-      if (e.key === 'Enter') { e.preventDefault(); moveFocus(this, 1, 0); }
-      if (e.key === 'Tab' && !e.shiftKey) { e.preventDefault(); moveFocus(this, 0, 1); }
-      if (e.key === 'Tab' && e.shiftKey) { e.preventDefault(); moveFocus(this, 0, -1); }
-    });
-  });
-  tableWrap.querySelectorAll('.ca-td-del button').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var orig = +this.dataset.orig;
-      state.rows.splice(orig, 1);
-      invalidateExport(); render();
-    });
-  });
+// ── イベント登録 ───────────────────────────────────────────────────────
+tableWrap.querySelectorAll('.ca-th-name').forEach(function(inp) {
+inp.addEventListener('change', function() {
+state.headers[+this.dataset.ci] = this.value;
+invalidateExport();
+});
+inp.addEventListener('keydown', function(e){ if(e.key==='Enter') this.blur(); });
+});
+tableWrap.querySelectorAll('.ca-sort-btn').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var ci = +this.dataset.ci;
+if (state.sortCol === ci) {
+if (state.sortDir === 1) { state.sortDir = -1; }
+else { state.sortCol = -1; state.sortDir = 1; }
+} else { state.sortCol = ci; state.sortDir = 1; }
+render();
+});
+});
+tableWrap.querySelectorAll('.ca-del-col-btn').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var ci = +this.dataset.ci;
+if (!confirm('列「' + state.headers[ci] + '」を削除しますか？')) return;
+state.headers.splice(ci, 1);
+state.rows.forEach(function(r){ r.splice(ci, 1); });
+if (state.sortCol === ci) { state.sortCol = -1; }
+else if (state.sortCol > ci) { state.sortCol--; }
+invalidateExport(); render();
+});
+});
+tableWrap.querySelectorAll('.ca-td-cell input').forEach(function(inp) {
+inp.addEventListener('change', function() {
+var orig = +this.dataset.orig, ci = +this.dataset.ci;
+if (state.rows[orig]) { state.rows[orig][ci] = this.value; invalidateExport(); }
+});
+inp.addEventListener('keydown', function(e){
+if (e.key === 'Enter') { e.preventDefault(); moveFocus(this, 1, 0); }
+if (e.key === 'Tab' && !e.shiftKey) { e.preventDefault(); moveFocus(this, 0, 1); }
+if (e.key === 'Tab' && e.shiftKey) { e.preventDefault(); moveFocus(this, 0, -1); }
+});
+});
+tableWrap.querySelectorAll('.ca-td-del button').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var orig = +this.dataset.orig;
+state.rows.splice(orig, 1);
+invalidateExport(); render();
+});
+});
 }
 
 function moveFocus(inp, dr, dc) {
-  var inputs = Array.from(tableWrap.querySelectorAll('.ca-td-cell input'));
-  var idx = inputs.indexOf(inp);
-  if (idx < 0) return;
-  var cols = state.headers.length;
-  var newIdx = idx + dr * cols + dc;
-  if (newIdx >= 0 && newIdx < inputs.length) inputs[newIdx].focus();
+var inputs = Array.from(tableWrap.querySelectorAll('.ca-td-cell input'));
+var idx = inputs.indexOf(inp);
+if (idx < 0) return;
+var cols = state.headers.length;
+var newIdx = idx + dr * cols + dc;
+if (newIdx >= 0 && newIdx < inputs.length) inputs[newIdx].focus();
 }
 
 function escAttr(s) {
-  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
 function showMsg(txt, type) {
-  msgEl.textContent = txt;
-  msgEl.className = 'ca-msg ' + (type || 'ok');
-  clearTimeout(msgEl._t);
-  msgEl._t = setTimeout(function(){ msgEl.className = 'ca-msg'; }, 3500);
+msgEl.textContent = txt;
+msgEl.className = 'ca-msg ' + (type || 'ok');
+clearTimeout(msgEl._t);
+msgEl._t = setTimeout(function(){ msgEl.className = 'ca-msg'; }, 3500);
 }
 
 function invalidateExport() {
-  state.lastCsv = '';
-  exportTa.value = '';
-  copyBtn.disabled = true;
-  downloadBtn.disabled = true;
+state.lastCsv = '';
+exportTa.value = '';
+copyBtn.disabled = true;
+downloadBtn.disabled = true;
 }
 
 function showEditor() { editorSec.style.display = ''; }
 
 // ── インポート処理 ───────────────────────────────────────────────────────────
 function importText(text) {
-  var delim = delimEl.value;
-  var rows = parseCSV(text.trim(), delim);
-  if (!rows.length) { showMsg('データが見つかりませんでした。', 'err'); return; }
-  var hasHeader = headerCb.checked;
-  if (hasHeader && rows.length > 0) {
-    state.headers = rows[0].map(function(h){ return h.trim(); });
-    state.rows = rows.slice(1).map(function(r){ return r.slice(); });
-  } else {
-    var maxCols = rows.reduce(function(m,r){ return Math.max(m, r.length); }, 0);
-    state.headers = [];
-    for (var i=0;i<maxCols;i++) state.headers.push('列' + (i+1));
-    state.rows = rows.map(function(r){ return r.slice(); });
-  }
-  normalizeRows();
-  state.sortCol = -1; state.sortDir = 1; state.filter = ''; searchEl.value = '';
-  invalidateExport();
-  showEditor();
-  render();
-  showMsg(state.rows.length + ' 行、' + state.headers.length + ' 列をインポートしました。', 'ok');
+var delim = delimEl.value;
+var rows = parseCSV(text.trim(), delim);
+if (!rows.length) { showMsg('データが見つかりませんでした。', 'err'); return; }
+var hasHeader = headerCb.checked;
+if (hasHeader && rows.length > 0) {
+state.headers = rows[0].map(function(h){ return h.trim(); });
+state.rows = rows.slice(1).map(function(r){ return r.slice(); });
+} else {
+var maxCols = rows.reduce(function(m,r){ return Math.max(m, r.length); }, 0);
+state.headers = [];
+for (var i=0;i<maxCols;i++) state.headers.push('列' + (i+1));
+state.rows = rows.map(function(r){ return r.slice(); });
+}
+normalizeRows();
+state.sortCol = -1; state.sortDir = 1; state.filter = ''; searchEl.value = '';
+invalidateExport();
+showEditor();
+render();
+showMsg(state.rows.length + ' 行、' + state.headers.length + ' 列をインポートしました。', 'ok');
 }
 
 importBtn.addEventListener('click', function() {
-  var text = pasteEl.value;
-  if (!text.trim()) { showMsg('CSVを貼り付けてください。', 'err'); return; }
-  importText(text);
+var text = pasteEl.value;
+if (!text.trim()) { showMsg('CSVを貼り付けてください。', 'err'); return; }
+importText(text);
 });
 
 fileInput.addEventListener('change', function() {
-  var file = this.files[0];
-  if (!file) return;
-  var reader = new FileReader();
-  reader.onload = function(e) { importText(e.target.result); };
-  reader.onerror = function() { showMsg('ファイルを読み込めませんでした。', 'err'); };
-  reader.readAsText(file, 'UTF-8');
-  fileInput.value = '';
+var file = this.files[0];
+if (!file) return;
+var reader = new FileReader();
+reader.onload = function(e) { importText(e.target.result); };
+reader.onerror = function() { showMsg('ファイルを読み込めませんでした。', 'err'); };
+reader.readAsText(file, 'UTF-8');
+fileInput.value = '';
 });
 
 sampleBtn.addEventListener('click', function() {
-  pasteEl.value = '名前,年齢,都市,国,スコア\nAlice,30,東京,日本,92.5\nBob,25,ロンドン,イギリス,87.0\nCarla,34,ニューヨーク,アメリカ,95.5\n"Smith, John",28,"パリ, フランス",フランス,80.0\nEva,22,シドニー,オーストラリア,78.5';
-  delimEl.value = ',';
-  headerCb.checked = true;
-  showMsg('サンプルデータを読み込みました。「貼り付けからインポート」をクリックしてください。', 'ok');
+pasteEl.value = '名前,年齢,都市,国,スコア\nAlice,30,東京,日本,92.5\nBob,25,ロンドン,イギリス,87.0\nCarla,34,ニューヨーク,アメリカ,95.5\n"Smith, John",28,"パリ, フランス",フランス,80.0\nEva,22,シドニー,オーストラリア,78.5';
+delimEl.value = ',';
+headerCb.checked = true;
+showMsg('サンプルデータを読み込みました。「貼り付けからインポート」をクリックしてください。', 'ok');
 });
 
 // ── 検索・フィルター ─────────────────────────────────────────────────────────
 searchEl.addEventListener('input', function() {
-  state.filter = this.value;
-  render();
+state.filter = this.value;
+render();
 });
 
 // ── 行・列追加 ───────────────────────────────────────────────────────────────
 addRowBtn.addEventListener('click', function() {
-  if (!state.headers.length) {
-    state.headers = ['列1'];
-  }
-  var newRow = [];
-  for (var i=0;i<state.headers.length;i++) newRow.push('');
-  state.rows.push(newRow);
-  invalidateExport(); showEditor(); render();
-  setTimeout(function(){ tableWrap.scrollTop = tableWrap.scrollHeight; }, 30);
+if (!state.headers.length) {
+state.headers = ['列1'];
+}
+var newRow = [];
+for (var i=0;i<state.headers.length;i++) newRow.push('');
+state.rows.push(newRow);
+invalidateExport(); showEditor(); render();
+setTimeout(function(){ tableWrap.scrollTop = tableWrap.scrollHeight; }, 30);
 });
 
 addColBtn.addEventListener('click', function() {
-  var name = prompt('新しい列名を入力してください:', '列' + (state.headers.length + 1));
-  if (name === null) return;
-  name = name.trim() || ('列' + (state.headers.length + 1));
-  state.headers.push(name);
-  state.rows.forEach(function(r){ r.push(''); });
-  invalidateExport(); showEditor(); render();
+var name = prompt('新しい列名を入力してください:', '列' + (state.headers.length + 1));
+if (name === null) return;
+name = name.trim() || ('列' + (state.headers.length + 1));
+state.headers.push(name);
+state.rows.forEach(function(r){ r.push(''); });
+invalidateExport(); showEditor(); render();
 });
 
 clearBtn.addEventListener('click', function() {
-  if (!confirm('すべてのデータを消去しますか？')) return;
-  state.headers = []; state.rows = [];
-  state.sortCol = -1; state.sortDir = 1; state.filter = '';
-  searchEl.value = ''; pasteEl.value = '';
-  invalidateExport(); render();
-  editorSec.style.display = 'none';
+if (!confirm('すべてのデータを消去しますか？')) return;
+state.headers = []; state.rows = [];
+state.sortCol = -1; state.sortDir = 1; state.filter = '';
+searchEl.value = ''; pasteEl.value = '';
+invalidateExport(); render();
+editorSec.style.display = 'none';
 });
 
 // ── エクスポート ─────────────────────────────────────────────────────────────
 generateBtn.addEventListener('click', function() {
-  var delim = delimEl.value;
-  var csv = serializeCSV(state.headers, state.rows, delim);
-  state.lastCsv = csv;
-  exportTa.value = csv;
-  copyBtn.disabled = false;
-  downloadBtn.disabled = false;
-  showMsg('CSVを生成しました。', 'ok');
+var delim = delimEl.value;
+var csv = serializeCSV(state.headers, state.rows, delim);
+state.lastCsv = csv;
+exportTa.value = csv;
+copyBtn.disabled = false;
+downloadBtn.disabled = false;
+showMsg('CSVを生成しました。', 'ok');
 });
 
 copyBtn.addEventListener('click', function() {
-  if (!state.lastCsv) return;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(state.lastCsv).then(function() {
-      showMsg('クリップボードにコピーしました！', 'ok');
-    }).catch(function() { fallbackCopy(); });
-  } else { fallbackCopy(); }
+if (!state.lastCsv) return;
+if (navigator.clipboard && navigator.clipboard.writeText) {
+navigator.clipboard.writeText(state.lastCsv).then(function() {
+showMsg('クリップボードにコピーしました！', 'ok');
+}).catch(function() { fallbackCopy(); });
+} else { fallbackCopy(); }
 });
 
 function fallbackCopy() {
-  exportTa.select();
-  try { document.execCommand('copy'); showMsg('クリップボードにコピーしました！', 'ok'); }
-  catch(e) { showMsg('コピーに失敗しました。手動で選択してコピーしてください。', 'err'); }
+exportTa.select();
+try { document.execCommand('copy'); showMsg('クリップボードにコピーしました！', 'ok'); }
+catch(e) { showMsg('コピーに失敗しました。手動で選択してコピーしてください。', 'err'); }
 }
 
 downloadBtn.addEventListener('click', function() {
-  if (!state.lastCsv) return;
-  var blob = new Blob([state.lastCsv], {type:'text/csv;charset=utf-8;'});
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a');
-  a.href = url; a.download = 'data.csv';
-  document.body.appendChild(a); a.click();
-  setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
-  showMsg('ダウンロードを開始しました。', 'ok');
+if (!state.lastCsv) return;
+var blob = new Blob([state.lastCsv], {type:'text/csv;charset=utf-8;'});
+var url = URL.createObjectURL(blob);
+var a = document.createElement('a');
+a.href = url; a.download = 'data.csv';
+document.body.appendChild(a); a.click();
+setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+showMsg('ダウンロードを開始しました。', 'ok');
 });
 
 })();

@@ -42,133 +42,133 @@ cover:
 </style>
 
 <div class="dc-inputs">
-  <div class="dc-col">
-    <label for="dc-text-a">Original Text</label>
-    <textarea id="dc-text-a" placeholder="Paste original text here..."></textarea>
-  </div>
-  <div class="dc-col">
-    <label for="dc-text-b">Modified Text</label>
-    <textarea id="dc-text-b" placeholder="Paste modified text here..."></textarea>
-  </div>
+<div class="dc-col">
+<label for="dc-text-a">Original Text</label>
+<textarea id="dc-text-a" placeholder="Paste original text here..."></textarea>
+</div>
+<div class="dc-col">
+<label for="dc-text-b">Modified Text</label>
+<textarea id="dc-text-b" placeholder="Paste modified text here..."></textarea>
+</div>
 </div>
 
 <div class="dc-actions">
-  <button class="btn-primary" onclick="dcRun()">Compare</button>
-  <button class="btn-secondary" onclick="dcSwap()">&#8646; Swap</button>
-  <button class="btn-secondary" onclick="dcClear()">Clear</button>
-  <div class="dc-stats" id="dc-stats"></div>
+<button class="btn-primary" onclick="dcRun()">Compare</button>
+<button class="btn-secondary" onclick="dcSwap()">&#8646; Swap</button>
+<button class="btn-secondary" onclick="dcClear()">Clear</button>
+<div class="dc-stats" id="dc-stats"></div>
 </div>
 
 <div class="dc-result-wrap" id="dc-result-wrap" style="display:none">
-  <div class="dc-result-header">
-    <span>Diff Result</span>
-    <span id="dc-result-meta"></span>
-    <button class="btn-copy" style="margin-left:auto;padding:4px 14px;font-size:12px" onclick="dcCopy()">Copy</button>
-  </div>
-  <div class="dc-result" id="dc-result"></div>
+<div class="dc-result-header">
+<span>Diff Result</span>
+<span id="dc-result-meta"></span>
+<button class="btn-copy" style="margin-left:auto;padding:4px 14px;font-size:12px" onclick="dcCopy()">Copy</button>
+</div>
+<div class="dc-result" id="dc-result"></div>
 </div>
 
 <div class="dc-legend">
-  <span><span class="dot dot-add"></span> Added</span>
-  <span><span class="dot dot-rem"></span> Removed</span>
+<span><span class="dot dot-add"></span> Added</span>
+<span><span class="dot dot-rem"></span> Removed</span>
 </div>
 
 <script>
 (function(){
-  function lcsTokens(a, b) {
-    var m = a.length, n = b.length;
-    // Use flat array for DP to save memory
-    var dp = new Uint16Array((m+1)*(n+1));
-    for (var i = m-1; i >= 0; i--) {
-      for (var j = n-1; j >= 0; j--) {
-        if (a[i] === b[j]) {
-          dp[i*(n+1)+j] = 1 + dp[(i+1)*(n+1)+(j+1)];
-        } else {
-          var x = dp[(i+1)*(n+1)+j], y = dp[i*(n+1)+(j+1)];
-          dp[i*(n+1)+j] = x > y ? x : y;
-        }
-      }
-    }
-    // Backtrack
-    var ops = [], i = 0, j = 0;
-    while (i < m && j < n) {
-      if (a[i] === b[j]) { ops.push({t:'=',v:a[i]}); i++; j++; }
-      else if (dp[(i+1)*(n+1)+j] >= dp[i*(n+1)+(j+1)]) { ops.push({t:'-',v:a[i]}); i++; }
-      else { ops.push({t:'+',v:b[j]}); j++; }
-    }
-    while (i < m) { ops.push({t:'-',v:a[i]}); i++; }
-    while (j < n) { ops.push({t:'+',v:b[j]}); j++; }
-    return ops;
-  }
+function lcsTokens(a, b) {
+var m = a.length, n = b.length;
+// Use flat array for DP to save memory
+var dp = new Uint16Array((m+1)*(n+1));
+for (var i = m-1; i >= 0; i--) {
+for (var j = n-1; j >= 0; j--) {
+if (a[i] === b[j]) {
+dp[i*(n+1)+j] = 1 + dp[(i+1)*(n+1)+(j+1)];
+} else {
+var x = dp[(i+1)*(n+1)+j], y = dp[i*(n+1)+(j+1)];
+dp[i*(n+1)+j] = x > y ? x : y;
+}
+}
+}
+// Backtrack
+var ops = [], i = 0, j = 0;
+while (i < m && j < n) {
+if (a[i] === b[j]) { ops.push({t:'=',v:a[i]}); i++; j++; }
+else if (dp[(i+1)*(n+1)+j] >= dp[i*(n+1)+(j+1)]) { ops.push({t:'-',v:a[i]}); i++; }
+else { ops.push({t:'+',v:b[j]}); j++; }
+}
+while (i < m) { ops.push({t:'-',v:a[i]}); i++; }
+while (j < n) { ops.push({t:'+',v:b[j]}); j++; }
+return ops;
+}
 
-  function tokenize(text) {
-    // Split into words + whitespace tokens
-    return text.match(/\S+|\s+/g) || [];
-  }
+function tokenize(text) {
+// Split into words + whitespace tokens
+return text.match(/\S+|\s+/g) || [];
+}
 
-  window.dcRun = function() {
-    var a = document.getElementById('dc-text-a').value;
-    var b = document.getElementById('dc-text-b').value;
-    var wrap = document.getElementById('dc-result-wrap');
-    var out = document.getElementById('dc-result');
-    var meta = document.getElementById('dc-result-meta');
-    var statsEl = document.getElementById('dc-stats');
+window.dcRun = function() {
+var a = document.getElementById('dc-text-a').value;
+var b = document.getElementById('dc-text-b').value;
+var wrap = document.getElementById('dc-result-wrap');
+var out = document.getElementById('dc-result');
+var meta = document.getElementById('dc-result-meta');
+var statsEl = document.getElementById('dc-stats');
 
-    if (!a && !b) {
-      wrap.style.display = 'none';
-      statsEl.innerHTML = '';
-      return;
-    }
+if (!a && !b) {
+wrap.style.display = 'none';
+statsEl.innerHTML = '';
+return;
+}
 
-    var tokA = tokenize(a);
-    var tokB = tokenize(b);
-    var ops = lcsTokens(tokA, tokB);
+var tokA = tokenize(a);
+var tokB = tokenize(b);
+var ops = lcsTokens(tokA, tokB);
 
-    var added = 0, removed = 0;
-    var html = '';
-    for (var i = 0; i < ops.length; i++) {
-      var o = ops[i];
-      var esc = o.v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-      if (o.t === '=') { html += esc; }
-      else if (o.t === '+') { html += '<span class="dc-added">'+esc+'</span>'; added++; }
-      else { html += '<span class="dc-removed">'+esc+'</span>'; removed++; }
-    }
+var added = 0, removed = 0;
+var html = '';
+for (var i = 0; i < ops.length; i++) {
+var o = ops[i];
+var esc = o.v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+if (o.t === '=') { html += esc; }
+else if (o.t === '+') { html += '<span class="dc-added">'+esc+'</span>'; added++; }
+else { html += '<span class="dc-removed">'+esc+'</span>'; removed++; }
+}
 
-    var linesA = a ? a.split('\n').length : 0;
-    var linesB = b ? b.split('\n').length : 0;
+var linesA = a ? a.split('\n').length : 0;
+var linesB = b ? b.split('\n').length : 0;
 
-    out.innerHTML = html || '<span class="dc-empty">No differences found.</span>';
-    wrap.style.display = '';
-    meta.textContent = added + ' added · ' + removed + ' removed';
-    statsEl.innerHTML =
-      '<span>A: ' + linesA + ' lines</span>' +
-      '<span>B: ' + linesB + ' lines</span>' +
-      '<span>+' + added + ' / -' + removed + '</span>';
-  };
+out.innerHTML = html || '<span class="dc-empty">No differences found.</span>';
+wrap.style.display = '';
+meta.textContent = added + ' added · ' + removed + ' removed';
+statsEl.innerHTML =
+'<span>A: ' + linesA + ' lines</span>' +
+'<span>B: ' + linesB + ' lines</span>' +
+'<span>+' + added + ' / -' + removed + '</span>';
+};
 
-  window.dcSwap = function() {
-    var a = document.getElementById('dc-text-a');
-    var b = document.getElementById('dc-text-b');
-    var tmp = a.value; a.value = b.value; b.value = tmp;
-  };
+window.dcSwap = function() {
+var a = document.getElementById('dc-text-a');
+var b = document.getElementById('dc-text-b');
+var tmp = a.value; a.value = b.value; b.value = tmp;
+};
 
-  window.dcClear = function() {
-    document.getElementById('dc-text-a').value = '';
-    document.getElementById('dc-text-b').value = '';
-    document.getElementById('dc-result-wrap').style.display = 'none';
-    document.getElementById('dc-stats').innerHTML = '';
-  };
+window.dcClear = function() {
+document.getElementById('dc-text-a').value = '';
+document.getElementById('dc-text-b').value = '';
+document.getElementById('dc-result-wrap').style.display = 'none';
+document.getElementById('dc-stats').innerHTML = '';
+};
 
-  window.dcCopy = function() {
-    var el = document.getElementById('dc-result');
-    var text = el.innerText || el.textContent;
-    navigator.clipboard.writeText(text).then(function(){
-      var btn = event.target;
-      var orig = btn.textContent;
-      btn.textContent = 'Copied!';
-      setTimeout(function(){ btn.textContent = orig; }, 1500);
-    });
-  };
+window.dcCopy = function() {
+var el = document.getElementById('dc-result');
+var text = el.innerText || el.textContent;
+navigator.clipboard.writeText(text).then(function(){
+var btn = event.target;
+var orig = btn.textContent;
+btn.textContent = 'Copied!';
+setTimeout(function(){ btn.textContent = orig; }, 1500);
+});
+};
 })();
 </script>
 

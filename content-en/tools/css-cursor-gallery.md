@@ -68,16 +68,16 @@ Browse all CSS `cursor` values interactively. Hover any card to preview the curs
 
 <!-- Controls -->
 <div id="cu-controls">
-  <input id="cu-search" type="search" placeholder="Search cursors…" autocomplete="off">
-  <div id="cu-cats">
-    <button class="cu-cat active" data-cat="all">All</button>
-    <button class="cu-cat" data-cat="general">General</button>
-    <button class="cu-cat" data-cat="links">Links &amp; Status</button>
-    <button class="cu-cat" data-cat="selection">Selection</button>
-    <button class="cu-cat" data-cat="dnd">Drag &amp; Drop</button>
-    <button class="cu-cat" data-cat="resize">Resize</button>
-    <button class="cu-cat" data-cat="zoom">Zoom</button>
-  </div>
+<input id="cu-search" type="search" placeholder="Search cursors…" autocomplete="off">
+<div id="cu-cats">
+<button class="cu-cat active" data-cat="all">All</button>
+<button class="cu-cat" data-cat="general">General</button>
+<button class="cu-cat" data-cat="links">Links &amp; Status</button>
+<button class="cu-cat" data-cat="selection">Selection</button>
+<button class="cu-cat" data-cat="dnd">Drag &amp; Drop</button>
+<button class="cu-cat" data-cat="resize">Resize</button>
+<button class="cu-cat" data-cat="zoom">Zoom</button>
+</div>
 </div>
 
 <!-- Card Grid -->
@@ -85,53 +85,53 @@ Browse all CSS `cursor` values interactively. Hover any card to preview the curs
 
 <!-- Custom Cursor Builder -->
 <div id="cu-builder">
-  <div id="cu-builder-header">&#9881; Custom Cursor URL Builder</div>
-  <div id="cu-builder-body">
-    <div>
-      <label class="cu-b-label">Upload cursor image (PNG, ICO, SVG)</label>
-      <label id="cu-upload-label" for="cu-file-input">&#128247; Choose image</label>
-      <input id="cu-file-input" type="file" accept="image/png,image/x-icon,image/svg+xml,image/gif">
-      <img id="cu-img-preview" alt="cursor preview">
-      <br>
-      <label class="cu-b-label" style="margin-top:14px">Hotspot X (px)</label>
-      <input id="cu-hx" class="cu-b-input" type="number" value="0" min="0" max="128">
-      <label class="cu-b-label" style="margin-top:10px">Hotspot Y (px)</label>
-      <input id="cu-hy" class="cu-b-input" type="number" value="0" min="0" max="128">
-      <label class="cu-b-label" style="margin-top:10px">Fallback cursor</label>
-      <select id="cu-fallback" class="cu-b-input">
-        <option value="auto">auto</option>
-        <option value="default">default</option>
-        <option value="pointer" selected>pointer</option>
-        <option value="crosshair">crosshair</option>
-        <option value="move">move</option>
-        <option value="grab">grab</option>
-        <option value="none">none</option>
-      </select>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:12px">
-      <div>
-        <label class="cu-b-label">Preview (hover here)</label>
-        <div id="cu-preview-area">Hover here to preview your cursor</div>
-      </div>
-      <div>
-        <label class="cu-b-label">Generated CSS</label>
-        <div id="cu-output">/* Upload an image to generate CSS */</div>
-        <button id="cu-copy-output">Copy CSS</button>
-      </div>
-    </div>
-  </div>
+<div id="cu-builder-header">&#9881; Custom Cursor URL Builder</div>
+<div id="cu-builder-body">
+<div>
+<label class="cu-b-label">Upload cursor image (PNG, ICO, SVG)</label>
+<label id="cu-upload-label" for="cu-file-input">&#128247; Choose image</label>
+<input id="cu-file-input" type="file" accept="image/png,image/x-icon,image/svg+xml,image/gif">
+<img id="cu-img-preview" alt="cursor preview">
+<br>
+<label class="cu-b-label" style="margin-top:14px">Hotspot X (px)</label>
+<input id="cu-hx" class="cu-b-input" type="number" value="0" min="0" max="128">
+<label class="cu-b-label" style="margin-top:10px">Hotspot Y (px)</label>
+<input id="cu-hy" class="cu-b-input" type="number" value="0" min="0" max="128">
+<label class="cu-b-label" style="margin-top:10px">Fallback cursor</label>
+<select id="cu-fallback" class="cu-b-input">
+<option value="auto">auto</option>
+<option value="default">default</option>
+<option value="pointer" selected>pointer</option>
+<option value="crosshair">crosshair</option>
+<option value="move">move</option>
+<option value="grab">grab</option>
+<option value="none">none</option>
+</select>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div>
+<label class="cu-b-label">Preview (hover here)</label>
+<div id="cu-preview-area">Hover here to preview your cursor</div>
+</div>
+<div>
+<label class="cu-b-label">Generated CSS</label>
+<div id="cu-output">/* Upload an image to generate CSS */</div>
+<button id="cu-copy-output">Copy CSS</button>
+</div>
+</div>
+</div>
 </div>
 
 <!-- Cross-links -->
 <div id="cu-links">
-  <a class="cu-link-card" href="/tools/css-animation-generator/">
-    <span>CSS Animations</span>
-    <strong>CSS Animation Generator</strong>
-  </a>
-  <a class="cu-link-card" href="/tools/css-button-generator/">
-    <span>CSS Buttons</span>
-    <strong>CSS Button Generator</strong>
-  </a>
+<a class="cu-link-card" href="/tools/css-animation-generator/">
+<span>CSS Animations</span>
+<strong>CSS Animation Generator</strong>
+</a>
+<a class="cu-link-card" href="/tools/css-button-generator/">
+<span>CSS Buttons</span>
+<strong>CSS Button Generator</strong>
+</a>
 </div>
 
 <script>
@@ -139,48 +139,48 @@ Browse all CSS `cursor` values interactively. Hover any card to preview the curs
 'use strict';
 
 const CURSORS = [
-  // General
-  {name:'auto',       cat:'general', icon:'🖱️'},
-  {name:'default',    cat:'general', icon:'↖️'},
-  {name:'none',       cat:'general', icon:'🚫'},
-  // Links & Status
-  {name:'context-menu', cat:'links', icon:'📋'},
-  {name:'help',         cat:'links', icon:'❓'},
-  {name:'pointer',      cat:'links', icon:'👆'},
-  {name:'progress',     cat:'links', icon:'⏳'},
-  {name:'wait',         cat:'links', icon:'⌛'},
-  // Selection
-  {name:'cell',          cat:'selection', icon:'⊞'},
-  {name:'crosshair',     cat:'selection', icon:'✛'},
-  {name:'text',          cat:'selection', icon:'I'},
-  {name:'vertical-text', cat:'selection', icon:'⌶'},
-  // Drag & Drop
-  {name:'alias',       cat:'dnd', icon:'↗️'},
-  {name:'copy',        cat:'dnd', icon:'📄'},
-  {name:'move',        cat:'dnd', icon:'✥'},
-  {name:'no-drop',     cat:'dnd', icon:'🚫'},
-  {name:'not-allowed', cat:'dnd', icon:'⛔'},
-  {name:'grab',        cat:'dnd', icon:'🖐'},
-  {name:'grabbing',    cat:'dnd', icon:'✊'},
-  {name:'all-scroll',  cat:'dnd', icon:'⊹'},
-  // Resize
-  {name:'col-resize',   cat:'resize', icon:'↔'},
-  {name:'row-resize',   cat:'resize', icon:'↕'},
-  {name:'n-resize',     cat:'resize', icon:'↑'},
-  {name:'e-resize',     cat:'resize', icon:'→'},
-  {name:'s-resize',     cat:'resize', icon:'↓'},
-  {name:'w-resize',     cat:'resize', icon:'←'},
-  {name:'ne-resize',    cat:'resize', icon:'↗'},
-  {name:'nw-resize',    cat:'resize', icon:'↖'},
-  {name:'se-resize',    cat:'resize', icon:'↘'},
-  {name:'sw-resize',    cat:'resize', icon:'↙'},
-  {name:'ew-resize',    cat:'resize', icon:'↔'},
-  {name:'ns-resize',    cat:'resize', icon:'↕'},
-  {name:'nesw-resize',  cat:'resize', icon:'↗↙'},
-  {name:'nwse-resize',  cat:'resize', icon:'↖↘'},
-  // Zoom
-  {name:'zoom-in',  cat:'zoom', icon:'🔍'},
-  {name:'zoom-out', cat:'zoom', icon:'🔎'},
+// General
+{name:'auto',       cat:'general', icon:'🖱️'},
+{name:'default',    cat:'general', icon:'↖️'},
+{name:'none',       cat:'general', icon:'🚫'},
+// Links & Status
+{name:'context-menu', cat:'links', icon:'📋'},
+{name:'help',         cat:'links', icon:'❓'},
+{name:'pointer',      cat:'links', icon:'👆'},
+{name:'progress',     cat:'links', icon:'⏳'},
+{name:'wait',         cat:'links', icon:'⌛'},
+// Selection
+{name:'cell',          cat:'selection', icon:'⊞'},
+{name:'crosshair',     cat:'selection', icon:'✛'},
+{name:'text',          cat:'selection', icon:'I'},
+{name:'vertical-text', cat:'selection', icon:'⌶'},
+// Drag & Drop
+{name:'alias',       cat:'dnd', icon:'↗️'},
+{name:'copy',        cat:'dnd', icon:'📄'},
+{name:'move',        cat:'dnd', icon:'✥'},
+{name:'no-drop',     cat:'dnd', icon:'🚫'},
+{name:'not-allowed', cat:'dnd', icon:'⛔'},
+{name:'grab',        cat:'dnd', icon:'🖐'},
+{name:'grabbing',    cat:'dnd', icon:'✊'},
+{name:'all-scroll',  cat:'dnd', icon:'⊹'},
+// Resize
+{name:'col-resize',   cat:'resize', icon:'↔'},
+{name:'row-resize',   cat:'resize', icon:'↕'},
+{name:'n-resize',     cat:'resize', icon:'↑'},
+{name:'e-resize',     cat:'resize', icon:'→'},
+{name:'s-resize',     cat:'resize', icon:'↓'},
+{name:'w-resize',     cat:'resize', icon:'←'},
+{name:'ne-resize',    cat:'resize', icon:'↗'},
+{name:'nw-resize',    cat:'resize', icon:'↖'},
+{name:'se-resize',    cat:'resize', icon:'↘'},
+{name:'sw-resize',    cat:'resize', icon:'↙'},
+{name:'ew-resize',    cat:'resize', icon:'↔'},
+{name:'ns-resize',    cat:'resize', icon:'↕'},
+{name:'nesw-resize',  cat:'resize', icon:'↗↙'},
+{name:'nwse-resize',  cat:'resize', icon:'↖↘'},
+// Zoom
+{name:'zoom-in',  cat:'zoom', icon:'🔍'},
+{name:'zoom-out', cat:'zoom', icon:'🔎'},
 ];
 
 let currentCat = 'all';
@@ -193,57 +193,57 @@ const catBtns = document.querySelectorAll('.cu-cat');
 function css(name){ return `cursor: ${name};`; }
 
 function renderGrid(){
-  const q = searchTerm.toLowerCase();
-  const filtered = CURSORS.filter(c =>
-    (currentCat === 'all' || c.cat === currentCat) &&
-    c.name.includes(q)
-  );
-  grid.innerHTML = '';
-  if(!filtered.length){
-    grid.innerHTML = '<div class="cu-no-results">No cursors match your search.</div>';
-    return;
-  }
-  filtered.forEach(c => {
-    const card = document.createElement('div');
-    card.className = 'cu-card';
-    card.style.cursor = c.name;
-    card.innerHTML = `
-      <span class="cu-icon">${c.icon}</span>
-      <span class="cu-name">${c.name}</span>
-      <button class="cu-copy-btn" data-name="${c.name}">Copy CSS</button>
-      <span class="cu-copied" id="cp-${c.name.replace(/[^a-z]/g,'-')}">Copied!</span>
-    `;
-    card.querySelector('.cu-copy-btn').addEventListener('click', e => {
-      e.stopPropagation();
-      const snippet = css(c.name);
-      navigator.clipboard.writeText(snippet).catch(()=>{
-        const ta = document.createElement('textarea');
-        ta.value = snippet; document.body.appendChild(ta);
-        ta.select(); document.execCommand('copy');
-        document.body.removeChild(ta);
-      });
-      const badge = card.querySelector('.cu-copied');
-      badge.classList.add('show');
-      setTimeout(()=>badge.classList.remove('show'), 1500);
-    });
-    grid.appendChild(card);
-  });
+const q = searchTerm.toLowerCase();
+const filtered = CURSORS.filter(c =>
+(currentCat === 'all' || c.cat === currentCat) &&
+c.name.includes(q)
+);
+grid.innerHTML = '';
+if(!filtered.length){
+grid.innerHTML = '<div class="cu-no-results">No cursors match your search.</div>';
+return;
+}
+filtered.forEach(c => {
+const card = document.createElement('div');
+card.className = 'cu-card';
+card.style.cursor = c.name;
+card.innerHTML = `
+<span class="cu-icon">${c.icon}</span>
+<span class="cu-name">${c.name}</span>
+<button class="cu-copy-btn" data-name="${c.name}">Copy CSS</button>
+<span class="cu-copied" id="cp-${c.name.replace(/[^a-z]/g,'-')}">Copied!</span>
+`;
+card.querySelector('.cu-copy-btn').addEventListener('click', e => {
+e.stopPropagation();
+const snippet = css(c.name);
+navigator.clipboard.writeText(snippet).catch(()=>{
+const ta = document.createElement('textarea');
+ta.value = snippet; document.body.appendChild(ta);
+ta.select(); document.execCommand('copy');
+document.body.removeChild(ta);
+});
+const badge = card.querySelector('.cu-copied');
+badge.classList.add('show');
+setTimeout(()=>badge.classList.remove('show'), 1500);
+});
+grid.appendChild(card);
+});
 }
 
 // Category filter
 catBtns.forEach(btn => {
-  btn.addEventListener('click', ()=>{
-    catBtns.forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    currentCat = btn.dataset.cat;
-    renderGrid();
-  });
+btn.addEventListener('click', ()=>{
+catBtns.forEach(b=>b.classList.remove('active'));
+btn.classList.add('active');
+currentCat = btn.dataset.cat;
+renderGrid();
+});
 });
 
 // Search
 searchEl.addEventListener('input', ()=>{
-  searchTerm = searchEl.value;
-  renderGrid();
+searchTerm = searchEl.value;
+renderGrid();
 });
 
 // ── Custom Cursor Builder ──
@@ -258,41 +258,41 @@ const copyOutput = document.getElementById('cu-copy-output');
 let dataUrl = null;
 
 function updateBuilder(){
-  if(!dataUrl){ return; }
-  const hx = parseInt(hxInput.value)||0;
-  const hy = parseInt(hyInput.value)||0;
-  const fb = fallback.value;
-  const css = `cursor: url('${dataUrl}') ${hx} ${hy}, ${fb};`;
-  output.textContent = css;
-  previewArea.style.cursor = `url('${dataUrl}') ${hx} ${hy}, ${fb}`;
+if(!dataUrl){ return; }
+const hx = parseInt(hxInput.value)||0;
+const hy = parseInt(hyInput.value)||0;
+const fb = fallback.value;
+const css = `cursor: url('${dataUrl}') ${hx} ${hy}, ${fb};`;
+output.textContent = css;
+previewArea.style.cursor = `url('${dataUrl}') ${hx} ${hy}, ${fb}`;
 }
 
 fileInput.addEventListener('change', ()=>{
-  const file = fileInput.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    dataUrl = e.target.result;
-    imgPreview.src = dataUrl;
-    imgPreview.style.display = 'block';
-    updateBuilder();
-  };
-  reader.readAsDataURL(file);
+const file = fileInput.files[0];
+if(!file) return;
+const reader = new FileReader();
+reader.onload = e => {
+dataUrl = e.target.result;
+imgPreview.src = dataUrl;
+imgPreview.style.display = 'block';
+updateBuilder();
+};
+reader.readAsDataURL(file);
 });
 
 [hxInput, hyInput, fallback].forEach(el => el.addEventListener('input', updateBuilder));
 
 copyOutput.addEventListener('click', ()=>{
-  const text = output.textContent;
-  if(text.startsWith('/*')) return;
-  navigator.clipboard.writeText(text).catch(()=>{
-    const ta = document.createElement('textarea');
-    ta.value = text; document.body.appendChild(ta);
-    ta.select(); document.execCommand('copy');
-    document.body.removeChild(ta);
-  });
-  copyOutput.textContent = 'Copied!';
-  setTimeout(()=>{ copyOutput.textContent = 'Copy CSS'; }, 1500);
+const text = output.textContent;
+if(text.startsWith('/*')) return;
+navigator.clipboard.writeText(text).catch(()=>{
+const ta = document.createElement('textarea');
+ta.value = text; document.body.appendChild(ta);
+ta.select(); document.execCommand('copy');
+document.body.removeChild(ta);
+});
+copyOutput.textContent = 'Copied!';
+setTimeout(()=>{ copyOutput.textContent = 'Copy CSS'; }, 1500);
 });
 
 renderGrid();

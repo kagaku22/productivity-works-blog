@@ -89,57 +89,57 @@ Free, browser-based CSV editor with a spreadsheet-like table interface. Import b
 <div id="csv-app">
 
 <div class="ca-import-area">
-  <h2>Import CSV</h2>
-  <div class="ca-opt-row">
-    <label>Delimiter: <select id="ca-delim"><option value=",">Comma (,)</option><option value="	">Tab (\t)</option><option value=";">Semicolon (;)</option><option value="|">Pipe (|)</option></select></label>
-    <label><input type="checkbox" id="ca-has-header" checked> First row is header</label>
-  </div>
-  <textarea class="ca-paste" id="ca-paste" placeholder="Paste CSV here (e.g. name,age,city&#10;Alice,30,New York&#10;Bob,25,London)"></textarea>
-  <div class="ca-import-row">
-    <button class="ca-btn ca-btn-blue" id="ca-import-paste-btn">Import from Paste</button>
-    <label class="ca-file-label"><span>&#128196; Upload .csv file</span><input type="file" class="ca-file-input" id="ca-file-input" accept=".csv,text/csv,text/plain"></label>
-    <button class="ca-btn ca-btn-gray" id="ca-load-sample-btn">Load Sample</button>
-  </div>
+<h2>Import CSV</h2>
+<div class="ca-opt-row">
+<label>Delimiter: <select id="ca-delim"><option value=",">Comma (,)</option><option value="	">Tab (\t)</option><option value=";">Semicolon (;)</option><option value="|">Pipe (|)</option></select></label>
+<label><input type="checkbox" id="ca-has-header" checked> First row is header</label>
+</div>
+<textarea class="ca-paste" id="ca-paste" placeholder="Paste CSV here (e.g. name,age,city&#10;Alice,30,New York&#10;Bob,25,London)"></textarea>
+<div class="ca-import-row">
+<button class="ca-btn ca-btn-blue" id="ca-import-paste-btn">Import from Paste</button>
+<label class="ca-file-label"><span>&#128196; Upload .csv file</span><input type="file" class="ca-file-input" id="ca-file-input" accept=".csv,text/csv,text/plain"></label>
+<button class="ca-btn ca-btn-gray" id="ca-load-sample-btn">Load Sample</button>
+</div>
 </div>
 
 <div class="ca-msg" id="ca-msg"></div>
 
 <div id="ca-editor-section" style="display:none">
-  <div class="ca-toolbar">
-    <input class="ca-search" id="ca-search" type="search" placeholder="Search / filter rows...">
-    <div class="ca-sep"></div>
-    <button class="ca-btn ca-btn-green" id="ca-add-row-btn">+ Row</button>
-    <button class="ca-btn ca-btn-green" id="ca-add-col-btn">+ Column</button>
-    <div class="ca-sep"></div>
-    <button class="ca-btn ca-btn-gray" id="ca-clear-btn">Clear All</button>
-  </div>
+<div class="ca-toolbar">
+<input class="ca-search" id="ca-search" type="search" placeholder="Search / filter rows...">
+<div class="ca-sep"></div>
+<button class="ca-btn ca-btn-green" id="ca-add-row-btn">+ Row</button>
+<button class="ca-btn ca-btn-green" id="ca-add-col-btn">+ Column</button>
+<div class="ca-sep"></div>
+<button class="ca-btn ca-btn-gray" id="ca-clear-btn">Clear All</button>
+</div>
 
-  <div class="ca-status">
-    <span id="ca-status-text"></span>
-    <span id="ca-filtered-note" class="ca-filtered-note" style="display:none"></span>
-  </div>
+<div class="ca-status">
+<span id="ca-status-text"></span>
+<span id="ca-filtered-note" class="ca-filtered-note" style="display:none"></span>
+</div>
 
-  <div class="ca-table-wrap" id="ca-table-wrap">
-    <div class="ca-empty">No data yet.</div>
-  </div>
+<div class="ca-table-wrap" id="ca-table-wrap">
+<div class="ca-empty">No data yet.</div>
+</div>
 
-  <div class="ca-export-wrap" style="margin-top:.9rem">
-    <h2>Export CSV</h2>
-    <div class="ca-export-row">
-      <button class="ca-btn ca-btn-blue" id="ca-generate-btn">Generate CSV</button>
-      <button class="ca-btn ca-btn-green" id="ca-copy-btn" disabled>Copy to Clipboard</button>
-      <button class="ca-btn ca-btn-orange" id="ca-download-btn" disabled>Download .csv</button>
-    </div>
-    <textarea class="ca-export-ta" id="ca-export-ta" readonly placeholder="Click 'Generate CSV' to preview the output here..."></textarea>
-  </div>
+<div class="ca-export-wrap" style="margin-top:.9rem">
+<h2>Export CSV</h2>
+<div class="ca-export-row">
+<button class="ca-btn ca-btn-blue" id="ca-generate-btn">Generate CSV</button>
+<button class="ca-btn ca-btn-green" id="ca-copy-btn" disabled>Copy to Clipboard</button>
+<button class="ca-btn ca-btn-orange" id="ca-download-btn" disabled>Download .csv</button>
+</div>
+<textarea class="ca-export-ta" id="ca-export-ta" readonly placeholder="Click 'Generate CSV' to preview the output here..."></textarea>
+</div>
 </div>
 
 <div class="ca-related">
-  <h3>Related Tools</h3>
-  <div class="ca-related-links">
-    <a href="/tools/json-to-csv/">JSON to CSV Converter</a>
-    <a href="/tools/markdown-table-generator/">Markdown Table Generator</a>
-  </div>
+<h3>Related Tools</h3>
+<div class="ca-related-links">
+<a href="/tools/json-to-csv/">JSON to CSV Converter</a>
+<a href="/tools/markdown-table-generator/">Markdown Table Generator</a>
+</div>
 </div>
 
 </div>
@@ -150,12 +150,12 @@ Free, browser-based CSV editor with a spreadsheet-like table interface. Import b
 
 // ── State ───────────────────────────────────────────────────────────────────
 var state = {
-  headers: [],   // string[]
-  rows: [],      // string[][]  (all data rows, original order)
-  sortCol: -1,
-  sortDir: 1,    // 1=asc, -1=desc
-  filter: '',
-  lastCsv: ''
+headers: [],   // string[]
+rows: [],      // string[][]  (all data rows, original order)
+sortCol: -1,
+sortDir: 1,    // 1=asc, -1=desc
+filter: '',
+lastCsv: ''
 };
 
 // ── Elements ────────────────────────────────────────────────────────────────
@@ -182,338 +182,338 @@ var exportTa     = document.getElementById('ca-export-ta');
 
 // ── RFC 4180 Parser ─────────────────────────────────────────────────────────
 function parseCSV(text, delim) {
-  delim = delim || ',';
-  var rows = [], row = [], field = '', inQuote = false, i = 0, c, nc;
-  text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-  if (text.length && text[text.length-1] !== '\n') text += '\n';
-  while (i < text.length) {
-    c = text[i];
-    if (inQuote) {
-      if (c === '"') {
-        nc = text[i+1];
-        if (nc === '"') { field += '"'; i += 2; continue; }
-        inQuote = false; i++; continue;
-      }
-      field += c; i++; continue;
-    }
-    if (c === '"') { inQuote = true; i++; continue; }
-    if (c === delim) { row.push(field); field = ''; i++; continue; }
-    if (c === '\n') {
-      row.push(field); field = '';
-      // skip empty trailing row
-      if (i < text.length - 1 || row.some(function(f){return f!==''})) rows.push(row);
-      row = []; i++; continue;
-    }
-    field += c; i++;
-  }
-  return rows;
+delim = delim || ',';
+var rows = [], row = [], field = '', inQuote = false, i = 0, c, nc;
+text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+if (text.length && text[text.length-1] !== '\n') text += '\n';
+while (i < text.length) {
+c = text[i];
+if (inQuote) {
+if (c === '"') {
+nc = text[i+1];
+if (nc === '"') { field += '"'; i += 2; continue; }
+inQuote = false; i++; continue;
+}
+field += c; i++; continue;
+}
+if (c === '"') { inQuote = true; i++; continue; }
+if (c === delim) { row.push(field); field = ''; i++; continue; }
+if (c === '\n') {
+row.push(field); field = '';
+// skip empty trailing row
+if (i < text.length - 1 || row.some(function(f){return f!==''})) rows.push(row);
+row = []; i++; continue;
+}
+field += c; i++;
+}
+return rows;
 }
 
 // ── RFC 4180 Serializer ─────────────────────────────────────────────────────
 function serializeCSV(headers, rows, delim) {
-  delim = delim || ',';
-  function escField(f) {
-    f = String(f == null ? '' : f);
-    if (f.indexOf(delim) !== -1 || f.indexOf('"') !== -1 || f.indexOf('\n') !== -1 || f.indexOf('\r') !== -1) {
-      return '"' + f.replace(/"/g, '""') + '"';
-    }
-    return f;
-  }
-  var lines = [];
-  if (headers.length) lines.push(headers.map(escField).join(delim));
-  rows.forEach(function(r){ lines.push(r.map(escField).join(delim)); });
-  return lines.join('\r\n');
+delim = delim || ',';
+function escField(f) {
+f = String(f == null ? '' : f);
+if (f.indexOf(delim) !== -1 || f.indexOf('"') !== -1 || f.indexOf('\n') !== -1 || f.indexOf('\r') !== -1) {
+return '"' + f.replace(/"/g, '""') + '"';
+}
+return f;
+}
+var lines = [];
+if (headers.length) lines.push(headers.map(escField).join(delim));
+rows.forEach(function(r){ lines.push(r.map(escField).join(delim)); });
+return lines.join('\r\n');
 }
 
 // ── Normalize rows to header width ─────────────────────────────────────────
 function normalizeRows() {
-  var w = state.headers.length;
-  state.rows.forEach(function(r) {
-    while (r.length < w) r.push('');
-    r.length = w;
-  });
+var w = state.headers.length;
+state.rows.forEach(function(r) {
+while (r.length < w) r.push('');
+r.length = w;
+});
 }
 
 // ── Filtered / sorted view ─────────────────────────────────────────────────
 function getView() {
-  var rows = state.rows.slice();
-  // filter
-  var q = state.filter.trim().toLowerCase();
-  if (q) {
-    rows = rows.filter(function(r) {
-      return r.some(function(c){ return String(c).toLowerCase().indexOf(q) !== -1; });
-    });
-  }
-  // sort
-  if (state.sortCol >= 0 && state.sortCol < state.headers.length) {
-    var col = state.sortCol, dir = state.sortDir;
-    rows = rows.slice().sort(function(a, b) {
-      var av = a[col] || '', bv = b[col] || '';
-      var an = parseFloat(av), bn = parseFloat(bv);
-      if (!isNaN(an) && !isNaN(bn)) return (an - bn) * dir;
-      return av.localeCompare(bv) * dir;
-    });
-  }
-  return rows;
+var rows = state.rows.slice();
+// filter
+var q = state.filter.trim().toLowerCase();
+if (q) {
+rows = rows.filter(function(r) {
+return r.some(function(c){ return String(c).toLowerCase().indexOf(q) !== -1; });
+});
+}
+// sort
+if (state.sortCol >= 0 && state.sortCol < state.headers.length) {
+var col = state.sortCol, dir = state.sortDir;
+rows = rows.slice().sort(function(a, b) {
+var av = a[col] || '', bv = b[col] || '';
+var an = parseFloat(av), bn = parseFloat(bv);
+if (!isNaN(an) && !isNaN(bn)) return (an - bn) * dir;
+return av.localeCompare(bv) * dir;
+});
+}
+return rows;
 }
 
 // ── Render table ────────────────────────────────────────────────────────────
 function render() {
-  var view = getView();
-  var filtered = state.filter.trim() !== '' || state.sortCol >= 0;
+var view = getView();
+var filtered = state.filter.trim() !== '' || state.sortCol >= 0;
 
-  // status
-  statusText.textContent = state.rows.length + ' row' + (state.rows.length !== 1 ? 's' : '') + ', ' +
-    state.headers.length + ' column' + (state.headers.length !== 1 ? 's' : '');
-  if (state.filter.trim()) {
-    filteredNote.textContent = 'Showing ' + view.length + ' of ' + state.rows.length + ' rows (filtered)';
-    filteredNote.style.display = '';
-  } else {
-    filteredNote.style.display = 'none';
-  }
+// status
+statusText.textContent = state.rows.length + ' row' + (state.rows.length !== 1 ? 's' : '') + ', ' +
+state.headers.length + ' column' + (state.headers.length !== 1 ? 's' : '');
+if (state.filter.trim()) {
+filteredNote.textContent = 'Showing ' + view.length + ' of ' + state.rows.length + ' rows (filtered)';
+filteredNote.style.display = '';
+} else {
+filteredNote.style.display = 'none';
+}
 
-  if (!state.headers.length && !state.rows.length) {
-    tableWrap.innerHTML = '<div class="ca-empty">No data. Import a CSV or click "+ Row" / "+ Column" to start.</div>';
-    return;
-  }
+if (!state.headers.length && !state.rows.length) {
+tableWrap.innerHTML = '<div class="ca-empty">No data. Import a CSV or click "+ Row" / "+ Column" to start.</div>';
+return;
+}
 
-  // build table
-  var html = '<table><thead><tr>';
-  html += '<th class="ca-th-num">#</th>';
-  state.headers.forEach(function(h, ci) {
-    var sortIcon = '⇅';
-    var sortCls = '';
-    if (state.sortCol === ci) { sortIcon = state.sortDir === 1 ? '↑' : '↓'; sortCls = ' ca-sort-active'; }
-    html += '<th class="ca-th-col" data-ci="' + ci + '">' +
-      '<div class="ca-th-inner">' +
-      '<input class="ca-th-name" data-ci="' + ci + '" value="' + escAttr(h) + '" title="Rename column">' +
-      '<button class="ca-sort-btn' + sortCls + '" data-ci="' + ci + '" title="Sort">' + sortIcon + '</button>' +
-      '<button class="ca-del-col-btn" data-ci="' + ci + '" title="Delete column">✕</button>' +
-      '</div></th>';
-  });
-  html += '<th class="ca-th-del"></th>';
-  html += '</tr></thead><tbody>';
+// build table
+var html = '<table><thead><tr>';
+html += '<th class="ca-th-num">#</th>';
+state.headers.forEach(function(h, ci) {
+var sortIcon = '⇅';
+var sortCls = '';
+if (state.sortCol === ci) { sortIcon = state.sortDir === 1 ? '↑' : '↓'; sortCls = ' ca-sort-active'; }
+html += '<th class="ca-th-col" data-ci="' + ci + '">' +
+'<div class="ca-th-inner">' +
+'<input class="ca-th-name" data-ci="' + ci + '" value="' + escAttr(h) + '" title="Rename column">' +
+'<button class="ca-sort-btn' + sortCls + '" data-ci="' + ci + '" title="Sort">' + sortIcon + '</button>' +
+'<button class="ca-del-col-btn" data-ci="' + ci + '" title="Delete column">✕</button>' +
+'</div></th>';
+});
+html += '<th class="ca-th-del"></th>';
+html += '</tr></thead><tbody>';
 
-  view.forEach(function(row, vi) {
-    // find original index for row identity (for filtering we just use view rows directly,
-    // but edits need to map back; we store original row reference)
-    var origIdx = state.rows.indexOf(row);
-    html += '<tr>';
-    html += '<td class="ca-td-num">' + (vi + 1) + '</td>';
-    state.headers.forEach(function(_, ci) {
-      var val = row[ci] != null ? row[ci] : '';
-      html += '<td class="ca-td-cell"><input type="text" value="' + escAttr(val) + '" data-orig="' + origIdx + '" data-ci="' + ci + '"></td>';
-    });
-    html += '<td class="ca-td-del"><button data-orig="' + origIdx + '" title="Delete row">✕</button></td>';
-    html += '</tr>';
-  });
+view.forEach(function(row, vi) {
+// find original index for row identity (for filtering we just use view rows directly,
+// but edits need to map back; we store original row reference)
+var origIdx = state.rows.indexOf(row);
+html += '<tr>';
+html += '<td class="ca-td-num">' + (vi + 1) + '</td>';
+state.headers.forEach(function(_, ci) {
+var val = row[ci] != null ? row[ci] : '';
+html += '<td class="ca-td-cell"><input type="text" value="' + escAttr(val) + '" data-orig="' + origIdx + '" data-ci="' + ci + '"></td>';
+});
+html += '<td class="ca-td-del"><button data-orig="' + origIdx + '" title="Delete row">✕</button></td>';
+html += '</tr>';
+});
 
-  html += '</tbody></table>';
-  tableWrap.innerHTML = html;
+html += '</tbody></table>';
+tableWrap.innerHTML = html;
 
-  // ── Bind events ─────────────────────────────────────────────────────────
-  // Header rename
-  tableWrap.querySelectorAll('.ca-th-name').forEach(function(inp) {
-    inp.addEventListener('change', function() {
-      state.headers[+this.dataset.ci] = this.value;
-      invalidateExport();
-    });
-    inp.addEventListener('keydown', function(e){ if(e.key==='Enter') this.blur(); });
-  });
-  // Sort buttons
-  tableWrap.querySelectorAll('.ca-sort-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var ci = +this.dataset.ci;
-      if (state.sortCol === ci) {
-        if (state.sortDir === 1) { state.sortDir = -1; }
-        else { state.sortCol = -1; state.sortDir = 1; }
-      } else { state.sortCol = ci; state.sortDir = 1; }
-      render();
-    });
-  });
-  // Delete column
-  tableWrap.querySelectorAll('.ca-del-col-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var ci = +this.dataset.ci;
-      if (!confirm('Delete column "' + state.headers[ci] + '"?')) return;
-      state.headers.splice(ci, 1);
-      state.rows.forEach(function(r){ r.splice(ci, 1); });
-      if (state.sortCol === ci) { state.sortCol = -1; }
-      else if (state.sortCol > ci) { state.sortCol--; }
-      invalidateExport(); render();
-    });
-  });
-  // Cell edit
-  tableWrap.querySelectorAll('.ca-td-cell input').forEach(function(inp) {
-    inp.addEventListener('change', function() {
-      var orig = +this.dataset.orig, ci = +this.dataset.ci;
-      if (state.rows[orig]) { state.rows[orig][ci] = this.value; invalidateExport(); }
-    });
-    inp.addEventListener('keydown', function(e){
-      if (e.key === 'Enter') { e.preventDefault(); moveFocus(this, 1, 0); }
-      if (e.key === 'Tab' && !e.shiftKey) { e.preventDefault(); moveFocus(this, 0, 1); }
-      if (e.key === 'Tab' && e.shiftKey) { e.preventDefault(); moveFocus(this, 0, -1); }
-    });
-  });
-  // Delete row
-  tableWrap.querySelectorAll('.ca-td-del button').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var orig = +this.dataset.orig;
-      state.rows.splice(orig, 1);
-      invalidateExport(); render();
-    });
-  });
+// ── Bind events ─────────────────────────────────────────────────────────
+// Header rename
+tableWrap.querySelectorAll('.ca-th-name').forEach(function(inp) {
+inp.addEventListener('change', function() {
+state.headers[+this.dataset.ci] = this.value;
+invalidateExport();
+});
+inp.addEventListener('keydown', function(e){ if(e.key==='Enter') this.blur(); });
+});
+// Sort buttons
+tableWrap.querySelectorAll('.ca-sort-btn').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var ci = +this.dataset.ci;
+if (state.sortCol === ci) {
+if (state.sortDir === 1) { state.sortDir = -1; }
+else { state.sortCol = -1; state.sortDir = 1; }
+} else { state.sortCol = ci; state.sortDir = 1; }
+render();
+});
+});
+// Delete column
+tableWrap.querySelectorAll('.ca-del-col-btn').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var ci = +this.dataset.ci;
+if (!confirm('Delete column "' + state.headers[ci] + '"?')) return;
+state.headers.splice(ci, 1);
+state.rows.forEach(function(r){ r.splice(ci, 1); });
+if (state.sortCol === ci) { state.sortCol = -1; }
+else if (state.sortCol > ci) { state.sortCol--; }
+invalidateExport(); render();
+});
+});
+// Cell edit
+tableWrap.querySelectorAll('.ca-td-cell input').forEach(function(inp) {
+inp.addEventListener('change', function() {
+var orig = +this.dataset.orig, ci = +this.dataset.ci;
+if (state.rows[orig]) { state.rows[orig][ci] = this.value; invalidateExport(); }
+});
+inp.addEventListener('keydown', function(e){
+if (e.key === 'Enter') { e.preventDefault(); moveFocus(this, 1, 0); }
+if (e.key === 'Tab' && !e.shiftKey) { e.preventDefault(); moveFocus(this, 0, 1); }
+if (e.key === 'Tab' && e.shiftKey) { e.preventDefault(); moveFocus(this, 0, -1); }
+});
+});
+// Delete row
+tableWrap.querySelectorAll('.ca-td-del button').forEach(function(btn) {
+btn.addEventListener('click', function() {
+var orig = +this.dataset.orig;
+state.rows.splice(orig, 1);
+invalidateExport(); render();
+});
+});
 }
 
 function moveFocus(inp, dr, dc) {
-  var inputs = Array.from(tableWrap.querySelectorAll('.ca-td-cell input'));
-  var idx = inputs.indexOf(inp);
-  if (idx < 0) return;
-  var cols = state.headers.length;
-  var newIdx = idx + dr * cols + dc;
-  if (newIdx >= 0 && newIdx < inputs.length) inputs[newIdx].focus();
+var inputs = Array.from(tableWrap.querySelectorAll('.ca-td-cell input'));
+var idx = inputs.indexOf(inp);
+if (idx < 0) return;
+var cols = state.headers.length;
+var newIdx = idx + dr * cols + dc;
+if (newIdx >= 0 && newIdx < inputs.length) inputs[newIdx].focus();
 }
 
 function escAttr(s) {
-  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
 function showMsg(txt, type) {
-  msgEl.textContent = txt;
-  msgEl.className = 'ca-msg ' + (type || 'ok');
-  clearTimeout(msgEl._t);
-  msgEl._t = setTimeout(function(){ msgEl.className = 'ca-msg'; }, 3500);
+msgEl.textContent = txt;
+msgEl.className = 'ca-msg ' + (type || 'ok');
+clearTimeout(msgEl._t);
+msgEl._t = setTimeout(function(){ msgEl.className = 'ca-msg'; }, 3500);
 }
 
 function invalidateExport() {
-  state.lastCsv = '';
-  exportTa.value = '';
-  copyBtn.disabled = true;
-  downloadBtn.disabled = true;
+state.lastCsv = '';
+exportTa.value = '';
+copyBtn.disabled = true;
+downloadBtn.disabled = true;
 }
 
 function showEditor() { editorSec.style.display = ''; }
 
 // ── Import logic ────────────────────────────────────────────────────────────
 function importText(text) {
-  var delim = delimEl.value;
-  var rows = parseCSV(text.trim(), delim);
-  if (!rows.length) { showMsg('No data found in the input.', 'err'); return; }
-  var hasHeader = headerCb.checked;
-  if (hasHeader && rows.length > 0) {
-    state.headers = rows[0].map(function(h){ return h.trim(); });
-    state.rows = rows.slice(1).map(function(r){ return r.slice(); });
-  } else {
-    // generate col names
-    var maxCols = rows.reduce(function(m,r){ return Math.max(m, r.length); }, 0);
-    state.headers = [];
-    for (var i=0;i<maxCols;i++) state.headers.push('Column ' + (i+1));
-    state.rows = rows.map(function(r){ return r.slice(); });
-  }
-  normalizeRows();
-  state.sortCol = -1; state.sortDir = 1; state.filter = ''; searchEl.value = '';
-  invalidateExport();
-  showEditor();
-  render();
-  showMsg('Imported ' + state.rows.length + ' row(s) and ' + state.headers.length + ' column(s).', 'ok');
+var delim = delimEl.value;
+var rows = parseCSV(text.trim(), delim);
+if (!rows.length) { showMsg('No data found in the input.', 'err'); return; }
+var hasHeader = headerCb.checked;
+if (hasHeader && rows.length > 0) {
+state.headers = rows[0].map(function(h){ return h.trim(); });
+state.rows = rows.slice(1).map(function(r){ return r.slice(); });
+} else {
+// generate col names
+var maxCols = rows.reduce(function(m,r){ return Math.max(m, r.length); }, 0);
+state.headers = [];
+for (var i=0;i<maxCols;i++) state.headers.push('Column ' + (i+1));
+state.rows = rows.map(function(r){ return r.slice(); });
+}
+normalizeRows();
+state.sortCol = -1; state.sortDir = 1; state.filter = ''; searchEl.value = '';
+invalidateExport();
+showEditor();
+render();
+showMsg('Imported ' + state.rows.length + ' row(s) and ' + state.headers.length + ' column(s).', 'ok');
 }
 
 importBtn.addEventListener('click', function() {
-  var text = pasteEl.value;
-  if (!text.trim()) { showMsg('Please paste CSV text first.', 'err'); return; }
-  importText(text);
+var text = pasteEl.value;
+if (!text.trim()) { showMsg('Please paste CSV text first.', 'err'); return; }
+importText(text);
 });
 
 fileInput.addEventListener('change', function() {
-  var file = this.files[0];
-  if (!file) return;
-  var reader = new FileReader();
-  reader.onload = function(e) { importText(e.target.result); };
-  reader.onerror = function() { showMsg('Could not read file.', 'err'); };
-  reader.readAsText(file, 'UTF-8');
-  fileInput.value = '';
+var file = this.files[0];
+if (!file) return;
+var reader = new FileReader();
+reader.onload = function(e) { importText(e.target.result); };
+reader.onerror = function() { showMsg('Could not read file.', 'err'); };
+reader.readAsText(file, 'UTF-8');
+fileInput.value = '';
 });
 
 sampleBtn.addEventListener('click', function() {
-  pasteEl.value = 'Name,Age,City,Country,Score\nAlice,30,New York,USA,92.5\nBob,25,London,UK,87.0\nCarla,34,Tokyo,Japan,95.5\n"Smith, John",28,"Paris, France",France,80.0\nEva,22,Sydney,Australia,78.5\nFrank,45,Berlin,Germany,88.0';
-  delimEl.value = ',';
-  headerCb.checked = true;
-  showMsg('Sample data loaded. Click "Import from Paste".', 'ok');
+pasteEl.value = 'Name,Age,City,Country,Score\nAlice,30,New York,USA,92.5\nBob,25,London,UK,87.0\nCarla,34,Tokyo,Japan,95.5\n"Smith, John",28,"Paris, France",France,80.0\nEva,22,Sydney,Australia,78.5\nFrank,45,Berlin,Germany,88.0';
+delimEl.value = ',';
+headerCb.checked = true;
+showMsg('Sample data loaded. Click "Import from Paste".', 'ok');
 });
 
 // ── Search / filter ────────────────────────────────────────────────────────
 searchEl.addEventListener('input', function() {
-  state.filter = this.value;
-  render();
+state.filter = this.value;
+render();
 });
 
 // ── Add row / column ────────────────────────────────────────────────────────
 addRowBtn.addEventListener('click', function() {
-  if (!state.headers.length) {
-    state.headers = ['Column 1'];
-  }
-  var newRow = [];
-  for (var i=0;i<state.headers.length;i++) newRow.push('');
-  state.rows.push(newRow);
-  invalidateExport(); showEditor(); render();
-  // scroll to bottom
-  setTimeout(function(){ tableWrap.scrollTop = tableWrap.scrollHeight; }, 30);
+if (!state.headers.length) {
+state.headers = ['Column 1'];
+}
+var newRow = [];
+for (var i=0;i<state.headers.length;i++) newRow.push('');
+state.rows.push(newRow);
+invalidateExport(); showEditor(); render();
+// scroll to bottom
+setTimeout(function(){ tableWrap.scrollTop = tableWrap.scrollHeight; }, 30);
 });
 
 addColBtn.addEventListener('click', function() {
-  var name = prompt('New column name:', 'Column ' + (state.headers.length + 1));
-  if (name === null) return;
-  name = name.trim() || ('Column ' + (state.headers.length + 1));
-  state.headers.push(name);
-  state.rows.forEach(function(r){ r.push(''); });
-  invalidateExport(); showEditor(); render();
+var name = prompt('New column name:', 'Column ' + (state.headers.length + 1));
+if (name === null) return;
+name = name.trim() || ('Column ' + (state.headers.length + 1));
+state.headers.push(name);
+state.rows.forEach(function(r){ r.push(''); });
+invalidateExport(); showEditor(); render();
 });
 
 clearBtn.addEventListener('click', function() {
-  if (!confirm('Clear all data?')) return;
-  state.headers = []; state.rows = [];
-  state.sortCol = -1; state.sortDir = 1; state.filter = '';
-  searchEl.value = ''; pasteEl.value = '';
-  invalidateExport(); render();
-  editorSec.style.display = 'none';
+if (!confirm('Clear all data?')) return;
+state.headers = []; state.rows = [];
+state.sortCol = -1; state.sortDir = 1; state.filter = '';
+searchEl.value = ''; pasteEl.value = '';
+invalidateExport(); render();
+editorSec.style.display = 'none';
 });
 
 // ── Export ───────────────────────────────────────────────────────────────
 generateBtn.addEventListener('click', function() {
-  var delim = delimEl.value;
-  // export all rows in original order, not filtered view
-  var csv = serializeCSV(state.headers, state.rows, delim);
-  state.lastCsv = csv;
-  exportTa.value = csv;
-  copyBtn.disabled = false;
-  downloadBtn.disabled = false;
-  showMsg('CSV generated.', 'ok');
+var delim = delimEl.value;
+// export all rows in original order, not filtered view
+var csv = serializeCSV(state.headers, state.rows, delim);
+state.lastCsv = csv;
+exportTa.value = csv;
+copyBtn.disabled = false;
+downloadBtn.disabled = false;
+showMsg('CSV generated.', 'ok');
 });
 
 copyBtn.addEventListener('click', function() {
-  if (!state.lastCsv) return;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(state.lastCsv).then(function() {
-      showMsg('Copied to clipboard!', 'ok');
-    }).catch(function() { fallbackCopy(); });
-  } else { fallbackCopy(); }
+if (!state.lastCsv) return;
+if (navigator.clipboard && navigator.clipboard.writeText) {
+navigator.clipboard.writeText(state.lastCsv).then(function() {
+showMsg('Copied to clipboard!', 'ok');
+}).catch(function() { fallbackCopy(); });
+} else { fallbackCopy(); }
 });
 
 function fallbackCopy() {
-  exportTa.select();
-  try { document.execCommand('copy'); showMsg('Copied to clipboard!', 'ok'); }
-  catch(e) { showMsg('Copy failed. Please select and copy manually.', 'err'); }
+exportTa.select();
+try { document.execCommand('copy'); showMsg('Copied to clipboard!', 'ok'); }
+catch(e) { showMsg('Copy failed. Please select and copy manually.', 'err'); }
 }
 
 downloadBtn.addEventListener('click', function() {
-  if (!state.lastCsv) return;
-  var blob = new Blob([state.lastCsv], {type:'text/csv;charset=utf-8;'});
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a');
-  a.href = url; a.download = 'data.csv';
-  document.body.appendChild(a); a.click();
-  setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
-  showMsg('Download started.', 'ok');
+if (!state.lastCsv) return;
+var blob = new Blob([state.lastCsv], {type:'text/csv;charset=utf-8;'});
+var url = URL.createObjectURL(blob);
+var a = document.createElement('a');
+a.href = url; a.download = 'data.csv';
+document.body.appendChild(a); a.click();
+setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+showMsg('Download started.', 'ok');
 });
 
 })();

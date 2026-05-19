@@ -69,260 +69,260 @@ cover:
 
 <!-- Input Card -->
 <div class="ci-card">
-  <h2>計算条件の入力</h2>
-  <div class="ci-grid">
-    <div class="ci-field has-pre">
-      <label>初期元本（円）</label>
-      <div class="ci-wrap"><span class="ci-pre">¥</span><input type="number" id="ci-principal" value="1000000" min="0" step="10000"></div>
-    </div>
-    <div class="ci-field has-pre">
-      <label>毎月の積立額（円）</label>
-      <div class="ci-wrap"><span class="ci-pre">¥</span><input type="number" id="ci-monthly" value="30000" min="0" step="1000"></div>
-    </div>
-    <div class="ci-field has-suf">
-      <label>年利（%）</label>
-      <div class="ci-wrap"><input type="number" id="ci-rate" value="5" min="0" max="100" step="0.1"><span class="ci-suf">%</span></div>
-    </div>
-    <div class="ci-field">
-      <label>複利の頻度</label>
-      <select id="ci-freq">
-        <option value="365">毎日</option>
-        <option value="12" selected>毎月</option>
-        <option value="4">四半期</option>
-        <option value="1">毎年</option>
-      </select>
-    </div>
-    <div class="ci-field has-suf">
-      <label>運用期間</label>
-      <div class="ci-wrap"><input type="number" id="ci-years" value="20" min="1" max="50" step="1"><span class="ci-suf">年</span></div>
-    </div>
-  </div>
-  <button class="ci-btn" onclick="ciCalc()">資産成長を計算する</button>
+<h2>計算条件の入力</h2>
+<div class="ci-grid">
+<div class="ci-field has-pre">
+<label>初期元本（円）</label>
+<div class="ci-wrap"><span class="ci-pre">¥</span><input type="number" id="ci-principal" value="1000000" min="0" step="10000"></div>
+</div>
+<div class="ci-field has-pre">
+<label>毎月の積立額（円）</label>
+<div class="ci-wrap"><span class="ci-pre">¥</span><input type="number" id="ci-monthly" value="30000" min="0" step="1000"></div>
+</div>
+<div class="ci-field has-suf">
+<label>年利（%）</label>
+<div class="ci-wrap"><input type="number" id="ci-rate" value="5" min="0" max="100" step="0.1"><span class="ci-suf">%</span></div>
+</div>
+<div class="ci-field">
+<label>複利の頻度</label>
+<select id="ci-freq">
+<option value="365">毎日</option>
+<option value="12" selected>毎月</option>
+<option value="4">四半期</option>
+<option value="1">毎年</option>
+</select>
+</div>
+<div class="ci-field has-suf">
+<label>運用期間</label>
+<div class="ci-wrap"><input type="number" id="ci-years" value="20" min="1" max="50" step="1"><span class="ci-suf">年</span></div>
+</div>
+</div>
+<button class="ci-btn" onclick="ciCalc()">資産成長を計算する</button>
 </div>
 
 <!-- Summary Card -->
 <div class="ci-card ci-hidden" id="ci-res-card">
-  <h2>計算結果サマリー</h2>
-  <div class="ci-summary" id="ci-summary"></div>
-  <p class="ci-note" id="ci-note"></p>
+<h2>計算結果サマリー</h2>
+<div class="ci-summary" id="ci-summary"></div>
+<p class="ci-note" id="ci-note"></p>
 </div>
 
 <!-- Chart Card -->
 <div class="ci-card ci-hidden" id="ci-chart-card">
-  <h2>資産成長チャート</h2>
-  <div class="ci-chart-outer">
-    <canvas id="ci-canvas"></canvas>
-  </div>
-  <div class="ci-legend">
-    <div class="ci-legend-item"><div class="ci-legend-dash" style="background:#4f8ef7"></div>総残高</div>
-    <div class="ci-legend-item"><div class="ci-legend-dash" style="background:#94b8fb"></div>累計投資額</div>
-  </div>
+<h2>資産成長チャート</h2>
+<div class="ci-chart-outer">
+<canvas id="ci-canvas"></canvas>
+</div>
+<div class="ci-legend">
+<div class="ci-legend-item"><div class="ci-legend-dash" style="background:#4f8ef7"></div>総残高</div>
+<div class="ci-legend-item"><div class="ci-legend-dash" style="background:#94b8fb"></div>累計投資額</div>
+</div>
 </div>
 
 <!-- Table Card -->
 <div class="ci-card ci-hidden" id="ci-table-card">
-  <h2>年別の内訳</h2>
-  <div class="ci-table-outer">
-    <table>
-      <thead>
-        <tr>
-          <th>年</th>
-          <th>期首残高</th>
-          <th>年間積立額</th>
-          <th>利息</th>
-          <th>期末残高</th>
-          <th>累計利息</th>
-        </tr>
-      </thead>
-      <tbody id="ci-tbody"></tbody>
-      <tfoot id="ci-tfoot"></tfoot>
-    </table>
-  </div>
+<h2>年別の内訳</h2>
+<div class="ci-table-outer">
+<table>
+<thead>
+<tr>
+<th>年</th>
+<th>期首残高</th>
+<th>年間積立額</th>
+<th>利息</th>
+<th>期末残高</th>
+<th>累計利息</th>
+</tr>
+</thead>
+<tbody id="ci-tbody"></tbody>
+<tfoot id="ci-tfoot"></tfoot>
+</table>
+</div>
 </div>
 
 <!-- freee CTA -->
 <div class="ci-cta">
-  <h3>資産管理・確定申告は freee で効率化</h3>
-  <p>投資収益の記録や確定申告の手続きを、freee 会計なら自動仕訳でラクに管理できます。個人投資家にも対応した国内シェアNo.1のクラウド会計ソフトです。</p>
-  <a class="ci-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
-  <p class="ci-af">※本リンクはアフィリエイトリンクを含む場合があります。</p>
+<h3>資産管理・確定申告は freee で効率化</h3>
+<p>投資収益の記録や確定申告の手続きを、freee 会計なら自動仕訳でラクに管理できます。個人投資家にも対応した国内シェアNo.1のクラウド会計ソフトです。</p>
+<a class="ci-cta-btn" href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener sponsored">freee を無料で試す</a>
+<p class="ci-af">※本リンクはアフィリエイトリンクを含む場合があります。</p>
 </div>
 
 <!-- Related Tools -->
 <div class="ci-related">
-  <h3>関連する無料ツール</h3>
-  <ul>
-    <li><a href="/tools/savings-goal-calculator/">貯蓄目標計算ツール</a></li>
-    <li><a href="/tools/roi-calculator/">ROI計算ツール</a></li>
-  </ul>
+<h3>関連する無料ツール</h3>
+<ul>
+<li><a href="/tools/savings-goal-calculator/">貯蓄目標計算ツール</a></li>
+<li><a href="/tools/roi-calculator/">ROI計算ツール</a></li>
+</ul>
 </div>
 
 <script>
 (function(){
-  function fmtN(n){return n.toLocaleString('ja-JP',{minimumFractionDigits:0,maximumFractionDigits:0});}
-  function fmtY(n){
-    var a=Math.abs(n);
-    if(a>=1e8)return(n/1e8).toFixed(2)+'億円';
-    if(a>=1e4)return(n/1e4).toFixed(1)+'万円';
-    return fmtN(n)+'円';
-  }
-  function freqLabel(n){return{365:'毎日',12:'毎月',4:'四半期ごと',1:'毎年'}[n]||'毎月';}
+function fmtN(n){return n.toLocaleString('ja-JP',{minimumFractionDigits:0,maximumFractionDigits:0});}
+function fmtY(n){
+var a=Math.abs(n);
+if(a>=1e8)return(n/1e8).toFixed(2)+'億円';
+if(a>=1e4)return(n/1e4).toFixed(1)+'万円';
+return fmtN(n)+'円';
+}
+function freqLabel(n){return{365:'毎日',12:'毎月',4:'四半期ごと',1:'毎年'}[n]||'毎月';}
 
-  function buildRows(principal,monthly,rate,n,years){
-    var r=rate/100;
-    var rows=[];
-    var balance=principal;
-    var cumInterest=0;
-    for(var y=1;y<=years;y++){
-      var open=balance;
-      var yearContrib=monthly*12;
-      var bal=open;
-      if(n>=12){
-        var periodsPerMonth=n/12;
-        for(var m=0;m<12;m++){
-          bal+=monthly;
-          for(var pp=0;pp<periodsPerMonth;pp++){
-            bal=bal*(1+r/n);
-          }
-        }
-      } else {
-        var periodsPerYear=n;
-        var monthsPerPeriod=12/periodsPerYear;
-        for(var p=0;p<periodsPerYear;p++){
-          bal+=monthly*monthsPerPeriod;
-          bal=bal*(1+r/n);
-        }
-      }
-      var interest=bal-(open+yearContrib);
-      cumInterest+=interest;
-      rows.push({year:y,open:open,contrib:yearContrib,interest:interest,close:bal,cumInterest:cumInterest});
-      balance=bal;
-    }
-    return rows;
-  }
+function buildRows(principal,monthly,rate,n,years){
+var r=rate/100;
+var rows=[];
+var balance=principal;
+var cumInterest=0;
+for(var y=1;y<=years;y++){
+var open=balance;
+var yearContrib=monthly*12;
+var bal=open;
+if(n>=12){
+var periodsPerMonth=n/12;
+for(var m=0;m<12;m++){
+bal+=monthly;
+for(var pp=0;pp<periodsPerMonth;pp++){
+bal=bal*(1+r/n);
+}
+}
+} else {
+var periodsPerYear=n;
+var monthsPerPeriod=12/periodsPerYear;
+for(var p=0;p<periodsPerYear;p++){
+bal+=monthly*monthsPerPeriod;
+bal=bal*(1+r/n);
+}
+}
+var interest=bal-(open+yearContrib);
+cumInterest+=interest;
+rows.push({year:y,open:open,contrib:yearContrib,interest:interest,close:bal,cumInterest:cumInterest});
+balance=bal;
+}
+return rows;
+}
 
-  window.ciCalc=function(){
-    var principal=Math.max(0,parseFloat(document.getElementById('ci-principal').value)||0);
-    var monthly=Math.max(0,parseFloat(document.getElementById('ci-monthly').value)||0);
-    var rate=Math.max(0,parseFloat(document.getElementById('ci-rate').value)||0);
-    var n=parseInt(document.getElementById('ci-freq').value)||12;
-    var years=Math.min(50,Math.max(1,parseInt(document.getElementById('ci-years').value)||20));
+window.ciCalc=function(){
+var principal=Math.max(0,parseFloat(document.getElementById('ci-principal').value)||0);
+var monthly=Math.max(0,parseFloat(document.getElementById('ci-monthly').value)||0);
+var rate=Math.max(0,parseFloat(document.getElementById('ci-rate').value)||0);
+var n=parseInt(document.getElementById('ci-freq').value)||12;
+var years=Math.min(50,Math.max(1,parseInt(document.getElementById('ci-years').value)||20));
 
-    var rows=buildRows(principal,monthly,rate,n,years);
-    var last=rows[rows.length-1];
-    var totalContrib=principal+monthly*12*years;
-    var totalInterest=last.cumInterest;
-    var finalBalance=last.close;
+var rows=buildRows(principal,monthly,rate,n,years);
+var last=rows[rows.length-1];
+var totalContrib=principal+monthly*12*years;
+var totalInterest=last.cumInterest;
+var finalBalance=last.close;
 
-    ['ci-res-card','ci-chart-card','ci-table-card'].forEach(function(id){
-      document.getElementById(id).classList.remove('ci-hidden');
-    });
+['ci-res-card','ci-chart-card','ci-table-card'].forEach(function(id){
+document.getElementById(id).classList.remove('ci-hidden');
+});
 
-    var stats=[
-      {label:'最終残高',value:fmtY(Math.round(finalBalance)),hi:true},
-      {label:'累計投資額',value:fmtY(Math.round(totalContrib)),hi:false},
-      {label:'累計利息',value:fmtY(Math.round(totalInterest)),hi:false},
-      {label:'利息 / 投資額',value:(totalContrib>0?(totalInterest/totalContrib*100).toFixed(1):0)+'%',hi:false}
-    ];
-    document.getElementById('ci-summary').innerHTML=stats.map(function(s){
-      return'<div class="ci-stat'+(s.hi?' hi':'')+'"><div class="sl">'+s.label+'</div><div class="sv">'+s.value+'</div></div>';
-    }).join('');
-    document.getElementById('ci-note').textContent=
-      '年利'+rate+'%・'+freqLabel(n)+'複利・運用期間'+years+'年。'+
-      '初期元本'+fmtY(Math.round(principal))+'＋毎月積立'+fmtY(Math.round(monthly))+'で試算。';
+var stats=[
+{label:'最終残高',value:fmtY(Math.round(finalBalance)),hi:true},
+{label:'累計投資額',value:fmtY(Math.round(totalContrib)),hi:false},
+{label:'累計利息',value:fmtY(Math.round(totalInterest)),hi:false},
+{label:'利息 / 投資額',value:(totalContrib>0?(totalInterest/totalContrib*100).toFixed(1):0)+'%',hi:false}
+];
+document.getElementById('ci-summary').innerHTML=stats.map(function(s){
+return'<div class="ci-stat'+(s.hi?' hi':'')+'"><div class="sl">'+s.label+'</div><div class="sv">'+s.value+'</div></div>';
+}).join('');
+document.getElementById('ci-note').textContent=
+'年利'+rate+'%・'+freqLabel(n)+'複利・運用期間'+years+'年。'+
+'初期元本'+fmtY(Math.round(principal))+'＋毎月積立'+fmtY(Math.round(monthly))+'で試算。';
 
-    var tbody=document.getElementById('ci-tbody');
-    tbody.innerHTML=rows.map(function(r){
-      return'<tr>'+
-        '<td>'+r.year+'</td>'+
-        '<td>'+fmtY(Math.round(r.open))+'</td>'+
-        '<td>'+fmtY(Math.round(r.contrib))+'</td>'+
-        '<td style="color:#2f855a">'+fmtY(Math.round(r.interest))+'</td>'+
-        '<td><strong>'+fmtY(Math.round(r.close))+'</strong></td>'+
-        '<td style="color:#2f855a">'+fmtY(Math.round(r.cumInterest))+'</td>'+
-      '</tr>';
-    }).join('');
-    document.getElementById('ci-tfoot').innerHTML=
-      '<tr>'+
-        '<td>合計</td>'+
-        '<td>—</td>'+
-        '<td>'+fmtY(Math.round(totalContrib))+'</td>'+
-        '<td>'+fmtY(Math.round(totalInterest))+'</td>'+
-        '<td>'+fmtY(Math.round(finalBalance))+'</td>'+
-        '<td>'+fmtY(Math.round(totalInterest))+'</td>'+
-      '</tr>';
+var tbody=document.getElementById('ci-tbody');
+tbody.innerHTML=rows.map(function(r){
+return'<tr>'+
+'<td>'+r.year+'</td>'+
+'<td>'+fmtY(Math.round(r.open))+'</td>'+
+'<td>'+fmtY(Math.round(r.contrib))+'</td>'+
+'<td style="color:#2f855a">'+fmtY(Math.round(r.interest))+'</td>'+
+'<td><strong>'+fmtY(Math.round(r.close))+'</strong></td>'+
+'<td style="color:#2f855a">'+fmtY(Math.round(r.cumInterest))+'</td>'+
+'</tr>';
+}).join('');
+document.getElementById('ci-tfoot').innerHTML=
+'<tr>'+
+'<td>合計</td>'+
+'<td>—</td>'+
+'<td>'+fmtY(Math.round(totalContrib))+'</td>'+
+'<td>'+fmtY(Math.round(totalInterest))+'</td>'+
+'<td>'+fmtY(Math.round(finalBalance))+'</td>'+
+'<td>'+fmtY(Math.round(totalInterest))+'</td>'+
+'</tr>';
 
-    drawChart(rows,principal);
-  };
+drawChart(rows,principal);
+};
 
-  function drawChart(rows,principal){
-    var canvas=document.getElementById('ci-canvas');
-    var W=Math.max(300,canvas.parentElement.clientWidth||760);
-    var H=320;
-    canvas.width=W;
-    canvas.height=H;
-    var ctx=canvas.getContext('2d');
-    ctx.clearRect(0,0,W,H);
+function drawChart(rows,principal){
+var canvas=document.getElementById('ci-canvas');
+var W=Math.max(300,canvas.parentElement.clientWidth||760);
+var H=320;
+canvas.width=W;
+canvas.height=H;
+var ctx=canvas.getContext('2d');
+ctx.clearRect(0,0,W,H);
 
-    var pad={t:20,r:20,b:44,l:88};
-    var cw=W-pad.l-pad.r;
-    var ch=H-pad.t-pad.b;
-    var yrs=rows.length;
+var pad={t:20,r:20,b:44,l:88};
+var cw=W-pad.l-pad.r;
+var ch=H-pad.t-pad.b;
+var yrs=rows.length;
 
-    var balances=rows.map(function(r){return r.close;});
-    var contribs=[];
-    var acc=principal;
-    rows.forEach(function(r){acc+=r.contrib;contribs.push(acc);});
+var balances=rows.map(function(r){return r.close;});
+var contribs=[];
+var acc=principal;
+rows.forEach(function(r){acc+=r.contrib;contribs.push(acc);});
 
-    var maxVal=Math.max.apply(null,balances);
-    var mag=Math.pow(10,Math.floor(Math.log10(maxVal||1)));
-    var niceMax=Math.ceil(maxVal/mag)*mag;
-    var gridN=5;
+var maxVal=Math.max.apply(null,balances);
+var mag=Math.pow(10,Math.floor(Math.log10(maxVal||1)));
+var niceMax=Math.ceil(maxVal/mag)*mag;
+var gridN=5;
 
-    ctx.font='11px -apple-system,sans-serif';
-    ctx.textAlign='right';
-    ctx.textBaseline='middle';
-    for(var i=0;i<=gridN;i++){
-      var v=niceMax*i/gridN;
-      var yp=pad.t+ch-ch*(i/gridN);
-      ctx.strokeStyle='#e8edf3';ctx.lineWidth=1;
-      ctx.beginPath();ctx.moveTo(pad.l,yp);ctx.lineTo(pad.l+cw,yp);ctx.stroke();
-      ctx.fillStyle='#8896a5';
-      ctx.fillText(fmtY(Math.round(v)),pad.l-5,yp);
-    }
+ctx.font='11px -apple-system,sans-serif';
+ctx.textAlign='right';
+ctx.textBaseline='middle';
+for(var i=0;i<=gridN;i++){
+var v=niceMax*i/gridN;
+var yp=pad.t+ch-ch*(i/gridN);
+ctx.strokeStyle='#e8edf3';ctx.lineWidth=1;
+ctx.beginPath();ctx.moveTo(pad.l,yp);ctx.lineTo(pad.l+cw,yp);ctx.stroke();
+ctx.fillStyle='#8896a5';
+ctx.fillText(fmtY(Math.round(v)),pad.l-5,yp);
+}
 
-    ctx.textAlign='center';ctx.textBaseline='top';ctx.fillStyle='#8896a5';
-    var xStep=Math.max(1,Math.ceil(yrs/8));
-    for(var xi=0;xi<yrs;xi++){
-      if(xi===0||xi===yrs-1||(xi+1)%xStep===0){
-        var xp=pad.l+cw*(xi/(yrs-1||1));
-        ctx.fillText((xi+1)+'年',xp,pad.t+ch+8);
-      }
-    }
+ctx.textAlign='center';ctx.textBaseline='top';ctx.fillStyle='#8896a5';
+var xStep=Math.max(1,Math.ceil(yrs/8));
+for(var xi=0;xi<yrs;xi++){
+if(xi===0||xi===yrs-1||(xi+1)%xStep===0){
+var xp=pad.l+cw*(xi/(yrs-1||1));
+ctx.fillText((xi+1)+'年',xp,pad.t+ch+8);
+}
+}
 
-    function plotLine(data,lineColor,fillColor){
-      var pts=data.map(function(v,i){
-        return{x:pad.l+cw*(i/(yrs-1||1)),y:pad.t+ch-ch*(v/niceMax)};
-      });
-      ctx.beginPath();
-      ctx.moveTo(pts[0].x,pad.t+ch);
-      pts.forEach(function(p){ctx.lineTo(p.x,p.y);});
-      ctx.lineTo(pts[pts.length-1].x,pad.t+ch);
-      ctx.closePath();
-      ctx.fillStyle=fillColor;ctx.fill();
-      ctx.beginPath();
-      pts.forEach(function(p,i){i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y);});
-      ctx.strokeStyle=lineColor;ctx.lineWidth=2.5;ctx.lineJoin='round';ctx.stroke();
-      var lp=pts[pts.length-1];
-      ctx.beginPath();ctx.arc(lp.x,lp.y,5,0,Math.PI*2);
-      ctx.fillStyle=lineColor;ctx.fill();
-    }
+function plotLine(data,lineColor,fillColor){
+var pts=data.map(function(v,i){
+return{x:pad.l+cw*(i/(yrs-1||1)),y:pad.t+ch-ch*(v/niceMax)};
+});
+ctx.beginPath();
+ctx.moveTo(pts[0].x,pad.t+ch);
+pts.forEach(function(p){ctx.lineTo(p.x,p.y);});
+ctx.lineTo(pts[pts.length-1].x,pad.t+ch);
+ctx.closePath();
+ctx.fillStyle=fillColor;ctx.fill();
+ctx.beginPath();
+pts.forEach(function(p,i){i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y);});
+ctx.strokeStyle=lineColor;ctx.lineWidth=2.5;ctx.lineJoin='round';ctx.stroke();
+var lp=pts[pts.length-1];
+ctx.beginPath();ctx.arc(lp.x,lp.y,5,0,Math.PI*2);
+ctx.fillStyle=lineColor;ctx.fill();
+}
 
-    plotLine(balances,'#4f8ef7','rgba(79,142,247,.13)');
-    plotLine(contribs,'#94b8fb','rgba(148,184,251,.10)');
-  }
+plotLine(balances,'#4f8ef7','rgba(79,142,247,.13)');
+plotLine(contribs,'#94b8fb','rgba(148,184,251,.10)');
+}
 
-  window.ciCalc();
+window.ciCalc();
 })();
 </script>
 </div>

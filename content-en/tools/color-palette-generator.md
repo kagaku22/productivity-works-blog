@@ -88,33 +88,33 @@ cover:
 <p class="pa-lead">Pick a base color, choose a harmony mode, and instantly get a beautiful 5-color palette. Lock any color to keep it while regenerating the rest. Click any swatch to copy its HEX code.</p>
 
 <div class="pa-controls">
-  <div class="pa-group">
-    <label>Base Color</label>
-    <input type="color" id="pa-base-color" class="pa-color-pick" value="#6c63ff">
-  </div>
-  <div class="pa-group">
-    <label>Harmony Mode</label>
-    <select id="pa-harmony" class="pa-select">
-      <option value="complementary">Complementary</option>
-      <option value="analogous">Analogous</option>
-      <option value="triadic">Triadic</option>
-      <option value="split-complementary">Split-Complementary</option>
-      <option value="monochromatic">Monochromatic</option>
-    </select>
-  </div>
-  <button class="pa-btn pa-btn-primary" id="pa-generate-btn">Generate</button>
-  <button class="pa-btn pa-btn-random" id="pa-random-btn">&#9684; Random</button>
+<div class="pa-group">
+<label>Base Color</label>
+<input type="color" id="pa-base-color" class="pa-color-pick" value="#6c63ff">
+</div>
+<div class="pa-group">
+<label>Harmony Mode</label>
+<select id="pa-harmony" class="pa-select">
+<option value="complementary">Complementary</option>
+<option value="analogous">Analogous</option>
+<option value="triadic">Triadic</option>
+<option value="split-complementary">Split-Complementary</option>
+<option value="monochromatic">Monochromatic</option>
+</select>
+</div>
+<button class="pa-btn pa-btn-primary" id="pa-generate-btn">Generate</button>
+<button class="pa-btn pa-btn-random" id="pa-random-btn">&#9684; Random</button>
 </div>
 
 <div class="pa-strip" id="pa-strip"></div>
 <div class="pa-cards" id="pa-cards"></div>
 
 <div class="pa-export">
-  <div class="pa-export-header">
-    <h3>CSS Variables Export</h3>
-    <button class="pa-btn pa-btn-secondary" id="pa-copy-css-btn">Copy CSS</button>
-  </div>
-  <div class="pa-export-box" id="pa-css-output"></div>
+<div class="pa-export-header">
+<h3>CSS Variables Export</h3>
+<button class="pa-btn pa-btn-secondary" id="pa-copy-css-btn">Copy CSS</button>
+</div>
+<div class="pa-export-box" id="pa-css-output"></div>
 </div>
 
 <hr class="pa-divider">
@@ -124,243 +124,243 @@ cover:
 <div class="pa-toast" id="pa-toast"></div>
 
 <div class="pa-related">
-  Related: Pick individual colors → <a href="/tools/color-picker/">Color Picker</a>
+Related: Pick individual colors → <a href="/tools/color-picker/">Color Picker</a>
 </div>
 </div>
 
 <script>
 (function(){
-  // ── Color math helpers ──────────────────────────────────────────────────
-  function hexToRgb(hex){
-    hex=hex.replace(/^#/,'');
-    if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
-    const n=parseInt(hex,16);
-    return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
-  }
-  function rgbToHex(r,g,b){
-    return'#'+[r,g,b].map(v=>Math.round(Math.max(0,Math.min(255,v))).toString(16).padStart(2,'0')).join('');
-  }
-  function rgbToHsl(r,g,b){
-    r/=255;g/=255;b/=255;
-    const max=Math.max(r,g,b),min=Math.min(r,g,b);
-    let h,s,l=(max+min)/2;
-    if(max===min){h=s=0;}else{
-      const d=max-min;
-      s=l>0.5?d/(2-max-min):d/(max+min);
-      switch(max){case r:h=(g-b)/d+(g<b?6:0);break;case g:h=(b-r)/d+2;break;case b:h=(r-g)/d+4;break;}
-      h/=6;
-    }
-    return{h:h*360,s:s*100,l:l*100};
-  }
-  function hslToRgb(h,s,l){
-    h/=360;s/=100;l/=100;
-    let r,g,b;
-    if(s===0){r=g=b=l;}else{
-      function hue2rgb(p,q,t){if(t<0)t+=1;if(t>1)t-=1;if(t<1/6)return p+(q-p)*6*t;if(t<1/2)return q;if(t<2/3)return p+(q-p)*(2/3-t)*6;return p;}
-      const q=l<0.5?l*(1+s):l+s-l*s,p=2*l-q;
-      r=hue2rgb(p,q,h+1/3);g=hue2rgb(p,q,h);b=hue2rgb(p,q,h-1/3);
-    }
-    return{r:Math.round(r*255),g:Math.round(g*255),b:Math.round(b*255)};
-  }
-  function hslHex(h,s,l){const{r,g,b}=hslToRgb(h,s,l);return rgbToHex(r,g,b);}
-  function clampHue(h){return((h%360)+360)%360;}
+// ── Color math helpers ──────────────────────────────────────────────────
+function hexToRgb(hex){
+hex=hex.replace(/^#/,'');
+if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
+const n=parseInt(hex,16);
+return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
+}
+function rgbToHex(r,g,b){
+return'#'+[r,g,b].map(v=>Math.round(Math.max(0,Math.min(255,v))).toString(16).padStart(2,'0')).join('');
+}
+function rgbToHsl(r,g,b){
+r/=255;g/=255;b/=255;
+const max=Math.max(r,g,b),min=Math.min(r,g,b);
+let h,s,l=(max+min)/2;
+if(max===min){h=s=0;}else{
+const d=max-min;
+s=l>0.5?d/(2-max-min):d/(max+min);
+switch(max){case r:h=(g-b)/d+(g<b?6:0);break;case g:h=(b-r)/d+2;break;case b:h=(r-g)/d+4;break;}
+h/=6;
+}
+return{h:h*360,s:s*100,l:l*100};
+}
+function hslToRgb(h,s,l){
+h/=360;s/=100;l/=100;
+let r,g,b;
+if(s===0){r=g=b=l;}else{
+function hue2rgb(p,q,t){if(t<0)t+=1;if(t>1)t-=1;if(t<1/6)return p+(q-p)*6*t;if(t<1/2)return q;if(t<2/3)return p+(q-p)*(2/3-t)*6;return p;}
+const q=l<0.5?l*(1+s):l+s-l*s,p=2*l-q;
+r=hue2rgb(p,q,h+1/3);g=hue2rgb(p,q,h);b=hue2rgb(p,q,h-1/3);
+}
+return{r:Math.round(r*255),g:Math.round(g*255),b:Math.round(b*255)};
+}
+function hslHex(h,s,l){const{r,g,b}=hslToRgb(h,s,l);return rgbToHex(r,g,b);}
+function clampHue(h){return((h%360)+360)%360;}
 
-  // ── Harmony generators ──────────────────────────────────────────────────
-  function generatePalette(baseHex,mode){
-    const{r,g,b}=hexToRgb(baseHex);
-    const{h,s,l}=rgbToHsl(r,g,b);
-    switch(mode){
-      case'complementary':
-        return[
-          baseHex,
-          hslHex(h,Math.min(s*0.7,100),Math.min(l+15,90)),
-          hslHex(h,Math.min(s*0.4,100),Math.min(l+30,94)),
-          hslHex(clampHue(h+180),s,l),
-          hslHex(clampHue(h+180),Math.min(s*0.7,100),Math.min(l+15,90)),
-        ];
-      case'analogous':
-        return[
-          hslHex(clampHue(h-30),s,l),
-          hslHex(clampHue(h-15),s,l),
-          baseHex,
-          hslHex(clampHue(h+15),s,l),
-          hslHex(clampHue(h+30),s,l),
-        ];
-      case'triadic':
-        return[
-          baseHex,
-          hslHex(clampHue(h+120),s,l),
-          hslHex(clampHue(h+240),s,l),
-          hslHex(clampHue(h+120),Math.min(s*0.6,100),Math.min(l+18,90)),
-          hslHex(clampHue(h+240),Math.min(s*0.6,100),Math.min(l+18,90)),
-        ];
-      case'split-complementary':
-        return[
-          baseHex,
-          hslHex(clampHue(h+150),s,l),
-          hslHex(clampHue(h+210),s,l),
-          hslHex(clampHue(h+150),Math.min(s*0.65,100),Math.min(l+20,90)),
-          hslHex(clampHue(h+210),Math.min(s*0.65,100),Math.min(l+20,90)),
-        ];
-      case'monochromatic':
-      default:
-        return[
-          hslHex(h,Math.min(s*1.1,100),Math.max(l-30,10)),
-          hslHex(h,s,Math.max(l-15,10)),
-          baseHex,
-          hslHex(h,Math.max(s*0.75,10),Math.min(l+18,90)),
-          hslHex(h,Math.max(s*0.4,8),Math.min(l+36,94)),
-        ];
-    }
-  }
+// ── Harmony generators ──────────────────────────────────────────────────
+function generatePalette(baseHex,mode){
+const{r,g,b}=hexToRgb(baseHex);
+const{h,s,l}=rgbToHsl(r,g,b);
+switch(mode){
+case'complementary':
+return[
+baseHex,
+hslHex(h,Math.min(s*0.7,100),Math.min(l+15,90)),
+hslHex(h,Math.min(s*0.4,100),Math.min(l+30,94)),
+hslHex(clampHue(h+180),s,l),
+hslHex(clampHue(h+180),Math.min(s*0.7,100),Math.min(l+15,90)),
+];
+case'analogous':
+return[
+hslHex(clampHue(h-30),s,l),
+hslHex(clampHue(h-15),s,l),
+baseHex,
+hslHex(clampHue(h+15),s,l),
+hslHex(clampHue(h+30),s,l),
+];
+case'triadic':
+return[
+baseHex,
+hslHex(clampHue(h+120),s,l),
+hslHex(clampHue(h+240),s,l),
+hslHex(clampHue(h+120),Math.min(s*0.6,100),Math.min(l+18,90)),
+hslHex(clampHue(h+240),Math.min(s*0.6,100),Math.min(l+18,90)),
+];
+case'split-complementary':
+return[
+baseHex,
+hslHex(clampHue(h+150),s,l),
+hslHex(clampHue(h+210),s,l),
+hslHex(clampHue(h+150),Math.min(s*0.65,100),Math.min(l+20,90)),
+hslHex(clampHue(h+210),Math.min(s*0.65,100),Math.min(l+20,90)),
+];
+case'monochromatic':
+default:
+return[
+hslHex(h,Math.min(s*1.1,100),Math.max(l-30,10)),
+hslHex(h,s,Math.max(l-15,10)),
+baseHex,
+hslHex(h,Math.max(s*0.75,10),Math.min(l+18,90)),
+hslHex(h,Math.max(s*0.4,8),Math.min(l+36,94)),
+];
+}
+}
 
-  function randomHex(){
-    return'#'+Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0');
-  }
+function randomHex(){
+return'#'+Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0');
+}
 
-  // ── Presets ─────────────────────────────────────────────────────────────
-  const PRESETS=[
-    {name:'Neon Sunset',  colors:['#ff6b6b','#ffa36c','#ffd93d','#6bcb77','#4d96ff']},
-    {name:'Ocean Depth',  colors:['#03045e','#0077b6','#00b4d8','#90e0ef','#caf0f8']},
-    {name:'Forest Calm',  colors:['#1b4332','#2d6a4f','#52b788','#b7e4c7','#d8f3dc']},
-    {name:'Berry Bliss',  colors:['#6a0572','#ab83a1','#d6a2e8','#f8a5c2','#ff6b9d']},
-    {name:'Sand & Stone', colors:['#3d2b1f','#795548','#a1887f','#d7ccc8','#efebe9']},
-    {name:'Nordic Chill', colors:['#2b2d42','#8d99ae','#edf2f4','#ef233c','#d90429']},
-    {name:'Citrus Burst', colors:['#ff4800','#ff6d00','#ff9e00','#ffbd00','#ffd500']},
-    {name:'Lavender Fog', colors:['#7b2d8b','#9b5de5','#c77dff','#e0aaff','#f3d9fa']},
-    {name:'Midnight Pro', colors:['#0d0d0d','#1a1a2e','#16213e','#0f3460','#533483']},
-    {name:'Spring Fresh', colors:['#2dc653','#80ed99','#c7f9cc','#ffe5d9','#ff9a76']},
-  ];
+// ── Presets ─────────────────────────────────────────────────────────────
+const PRESETS=[
+{name:'Neon Sunset',  colors:['#ff6b6b','#ffa36c','#ffd93d','#6bcb77','#4d96ff']},
+{name:'Ocean Depth',  colors:['#03045e','#0077b6','#00b4d8','#90e0ef','#caf0f8']},
+{name:'Forest Calm',  colors:['#1b4332','#2d6a4f','#52b788','#b7e4c7','#d8f3dc']},
+{name:'Berry Bliss',  colors:['#6a0572','#ab83a1','#d6a2e8','#f8a5c2','#ff6b9d']},
+{name:'Sand & Stone', colors:['#3d2b1f','#795548','#a1887f','#d7ccc8','#efebe9']},
+{name:'Nordic Chill', colors:['#2b2d42','#8d99ae','#edf2f4','#ef233c','#d90429']},
+{name:'Citrus Burst', colors:['#ff4800','#ff6d00','#ff9e00','#ffbd00','#ffd500']},
+{name:'Lavender Fog', colors:['#7b2d8b','#9b5de5','#c77dff','#e0aaff','#f3d9fa']},
+{name:'Midnight Pro', colors:['#0d0d0d','#1a1a2e','#16213e','#0f3460','#533483']},
+{name:'Spring Fresh', colors:['#2dc653','#80ed99','#c7f9cc','#ffe5d9','#ff9a76']},
+];
 
-  // ── State ────────────────────────────────────────────────────────────────
-  let palette=['#6c63ff','#8b85ff','#d4d2ff','#ff6363','#ff9898'];
-  let locked=[false,false,false,false,false];
-  let currentBase='#6c63ff';
-  let currentMode='complementary';
+// ── State ────────────────────────────────────────────────────────────────
+let palette=['#6c63ff','#8b85ff','#d4d2ff','#ff6363','#ff9898'];
+let locked=[false,false,false,false,false];
+let currentBase='#6c63ff';
+let currentMode='complementary';
 
-  // ── DOM refs ─────────────────────────────────────────────────────────────
-  const baseInput=document.getElementById('pa-base-color');
-  const harmonySelect=document.getElementById('pa-harmony');
-  const strip=document.getElementById('pa-strip');
-  const cards=document.getElementById('pa-cards');
-  const cssOutput=document.getElementById('pa-css-output');
-  const toast=document.getElementById('pa-toast');
-  const presetsEl=document.getElementById('pa-presets');
+// ── DOM refs ─────────────────────────────────────────────────────────────
+const baseInput=document.getElementById('pa-base-color');
+const harmonySelect=document.getElementById('pa-harmony');
+const strip=document.getElementById('pa-strip');
+const cards=document.getElementById('pa-cards');
+const cssOutput=document.getElementById('pa-css-output');
+const toast=document.getElementById('pa-toast');
+const presetsEl=document.getElementById('pa-presets');
 
-  // ── Toast ────────────────────────────────────────────────────────────────
-  let toastTimer;
-  function showToast(msg){
-    toast.textContent=msg;
-    toast.classList.add('show');
-    clearTimeout(toastTimer);
-    toastTimer=setTimeout(()=>toast.classList.remove('show'),1800);
-  }
+// ── Toast ────────────────────────────────────────────────────────────────
+let toastTimer;
+function showToast(msg){
+toast.textContent=msg;
+toast.classList.add('show');
+clearTimeout(toastTimer);
+toastTimer=setTimeout(()=>toast.classList.remove('show'),1800);
+}
 
-  // ── Luminance for text contrast ──────────────────────────────────────────
-  function textColor(hex){
-    const{r,g,b}=hexToRgb(hex);
-    const lum=(0.299*r+0.587*g+0.114*b)/255;
-    return lum>0.55?'#1a1a2e':'#ffffff';
-  }
+// ── Luminance for text contrast ──────────────────────────────────────────
+function textColor(hex){
+const{r,g,b}=hexToRgb(hex);
+const lum=(0.299*r+0.587*g+0.114*b)/255;
+return lum>0.55?'#1a1a2e':'#ffffff';
+}
 
-  // ── Render ────────────────────────────────────────────────────────────────
-  function render(){
-    // Strip
-    strip.innerHTML='';
-    palette.forEach(c=>{
-      const s=document.createElement('div');
-      s.className='pa-strip-swatch';
-      s.style.background=c;
-      strip.appendChild(s);
-    });
+// ── Render ────────────────────────────────────────────────────────────────
+function render(){
+// Strip
+strip.innerHTML='';
+palette.forEach(c=>{
+const s=document.createElement('div');
+s.className='pa-strip-swatch';
+s.style.background=c;
+strip.appendChild(s);
+});
 
-    // Cards
-    cards.innerHTML='';
-    palette.forEach((c,i)=>{
-      const{r,g,b}=hexToRgb(c);
-      const card=document.createElement('div');
-      card.className='pa-card';
+// Cards
+cards.innerHTML='';
+palette.forEach((c,i)=>{
+const{r,g,b}=hexToRgb(c);
+const card=document.createElement('div');
+card.className='pa-card';
 
-      const sw=document.createElement('div');
-      sw.className='pa-card-swatch';
-      sw.style.background=c;
-      sw.title='Click to copy '+c;
-      sw.onclick=()=>{navigator.clipboard.writeText(c).then(()=>showToast('Copied '+c+'!'));};
+const sw=document.createElement('div');
+sw.className='pa-card-swatch';
+sw.style.background=c;
+sw.title='Click to copy '+c;
+sw.onclick=()=>{navigator.clipboard.writeText(c).then(()=>showToast('Copied '+c+'!'));};
 
-      const lockBtn=document.createElement('button');
-      lockBtn.className='pa-lock-btn'+(locked[i]?' locked':'');
-      lockBtn.title=locked[i]?'Unlock color':'Lock color';
-      lockBtn.innerHTML=locked[i]?'&#128274;':'&#128275;';
-      lockBtn.onclick=(e)=>{e.stopPropagation();locked[i]=!locked[i];render();};
-      sw.appendChild(lockBtn);
+const lockBtn=document.createElement('button');
+lockBtn.className='pa-lock-btn'+(locked[i]?' locked':'');
+lockBtn.title=locked[i]?'Unlock color':'Lock color';
+lockBtn.innerHTML=locked[i]?'&#128274;':'&#128275;';
+lockBtn.onclick=(e)=>{e.stopPropagation();locked[i]=!locked[i];render();};
+sw.appendChild(lockBtn);
 
-      const info=document.createElement('div');
-      info.className='pa-card-info';
-      const hex=document.createElement('div');
-      hex.className='pa-hex';
-      hex.textContent=c.toUpperCase();
-      const rgb=document.createElement('div');
-      rgb.className='pa-rgb';
-      rgb.textContent=`rgb(${r}, ${g}, ${b})`;
-      info.appendChild(hex);
-      info.appendChild(rgb);
+const info=document.createElement('div');
+info.className='pa-card-info';
+const hex=document.createElement('div');
+hex.className='pa-hex';
+hex.textContent=c.toUpperCase();
+const rgb=document.createElement('div');
+rgb.className='pa-rgb';
+rgb.textContent=`rgb(${r}, ${g}, ${b})`;
+info.appendChild(hex);
+info.appendChild(rgb);
 
-      card.appendChild(sw);
-      card.appendChild(info);
-      cards.appendChild(card);
-    });
+card.appendChild(sw);
+card.appendChild(info);
+cards.appendChild(card);
+});
 
-    // CSS export
-    const varLines=palette.map((c,i)=>`  --color-${i+1}: ${c.toUpperCase()};`).join('\n');
-    cssOutput.textContent=`:root {\n${varLines}\n}`;
-  }
+// CSS export
+const varLines=palette.map((c,i)=>`  --color-${i+1}: ${c.toUpperCase()};`).join('\n');
+cssOutput.textContent=`:root {\n${varLines}\n}`;
+}
 
-  function generate(){
-    const newPalette=generatePalette(currentBase,currentMode);
-    palette=palette.map((old,i)=>locked[i]?old:newPalette[i]);
-    render();
-  }
+function generate(){
+const newPalette=generatePalette(currentBase,currentMode);
+palette=palette.map((old,i)=>locked[i]?old:newPalette[i]);
+render();
+}
 
-  // ── Event listeners ───────────────────────────────────────────────────────
-  baseInput.addEventListener('input',e=>{currentBase=e.target.value;generate();});
-  harmonySelect.addEventListener('change',e=>{currentMode=e.target.value;generate();});
-  document.getElementById('pa-generate-btn').addEventListener('click',generate);
-  document.getElementById('pa-random-btn').addEventListener('click',()=>{
-    currentBase=randomHex();
-    baseInput.value=currentBase;
-    locked=[false,false,false,false,false];
-    generate();
-  });
-  document.getElementById('pa-copy-css-btn').addEventListener('click',()=>{
-    navigator.clipboard.writeText(cssOutput.textContent).then(()=>showToast('CSS copied!'));
-  });
+// ── Event listeners ───────────────────────────────────────────────────────
+baseInput.addEventListener('input',e=>{currentBase=e.target.value;generate();});
+harmonySelect.addEventListener('change',e=>{currentMode=e.target.value;generate();});
+document.getElementById('pa-generate-btn').addEventListener('click',generate);
+document.getElementById('pa-random-btn').addEventListener('click',()=>{
+currentBase=randomHex();
+baseInput.value=currentBase;
+locked=[false,false,false,false,false];
+generate();
+});
+document.getElementById('pa-copy-css-btn').addEventListener('click',()=>{
+navigator.clipboard.writeText(cssOutput.textContent).then(()=>showToast('CSS copied!'));
+});
 
-  // ── Presets ───────────────────────────────────────────────────────────────
-  PRESETS.forEach(p=>{
-    const el=document.createElement('div');
-    el.className='pa-preset';
-    el.title='Load: '+p.name;
-    const pStrip=document.createElement('div');
-    pStrip.className='pa-preset-strip';
-    p.colors.forEach(c=>{const s=document.createElement('div');s.className='pa-preset-swatch';s.style.background=c;pStrip.appendChild(s);});
-    const pName=document.createElement('div');
-    pName.className='pa-preset-name';
-    pName.textContent=p.name;
-    el.appendChild(pStrip);
-    el.appendChild(pName);
-    el.onclick=()=>{
-      palette=[...p.colors];
-      locked=[false,false,false,false,false];
-      currentBase=p.colors[0];
-      baseInput.value=currentBase;
-      render();
-      showToast('Loaded: '+p.name);
-    };
-    presetsEl.appendChild(el);
-  });
+// ── Presets ───────────────────────────────────────────────────────────────
+PRESETS.forEach(p=>{
+const el=document.createElement('div');
+el.className='pa-preset';
+el.title='Load: '+p.name;
+const pStrip=document.createElement('div');
+pStrip.className='pa-preset-strip';
+p.colors.forEach(c=>{const s=document.createElement('div');s.className='pa-preset-swatch';s.style.background=c;pStrip.appendChild(s);});
+const pName=document.createElement('div');
+pName.className='pa-preset-name';
+pName.textContent=p.name;
+el.appendChild(pStrip);
+el.appendChild(pName);
+el.onclick=()=>{
+palette=[...p.colors];
+locked=[false,false,false,false,false];
+currentBase=p.colors[0];
+baseInput.value=currentBase;
+render();
+showToast('Loaded: '+p.name);
+};
+presetsEl.appendChild(el);
+});
 
-  // ── Init ──────────────────────────────────────────────────────────────────
-  generate();
+// ── Init ──────────────────────────────────────────────────────────────────
+generate();
 })();
 </script>
 

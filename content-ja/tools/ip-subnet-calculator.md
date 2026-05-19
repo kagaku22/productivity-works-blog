@@ -66,272 +66,272 @@ IPv4アドレスとCIDRプレフィックス（またはサブネットマスク
 #ip-app .ip-tbl-wrap{max-height:320px;overflow-y:auto;border:1px solid #e2e8f0;border-radius:8px}
 #ip-app .ip-section-label{font-size:13px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
 @media(max-width:520px){
-  #ip-app .ip-bin-row{flex-direction:column;align-items:flex-start}
-  #ip-app .ip-stat-val{font-size:14px}
+#ip-app .ip-bin-row{flex-direction:column;align-items:flex-start}
+#ip-app .ip-stat-val{font-size:14px}
 }
 </style>
 
 <div class="ip-card">
-  <div class="ip-title">IPv4 サブネット計算ツール</div>
-  <div class="ip-row">
-    <div class="ip-field">
-      <label for="ip-addr">IPアドレス</label>
-      <input type="text" id="ip-addr" placeholder="例: 192.168.1.0" maxlength="18" autocomplete="off" spellcheck="false">
-    </div>
-    <div class="ip-field-sm">
-      <label for="ip-mask-sel">サブネットマスク</label>
-      <select id="ip-mask-sel"></select>
-    </div>
-    <div style="display:flex;gap:8px;padding-bottom:1px">
-      <button class="ip-btn" onclick="ipCalc()">計算する</button>
-      <button class="ip-btn ip-btn-clear" onclick="ipReset()">クリア</button>
-    </div>
-  </div>
+<div class="ip-title">IPv4 サブネット計算ツール</div>
+<div class="ip-row">
+<div class="ip-field">
+<label for="ip-addr">IPアドレス</label>
+<input type="text" id="ip-addr" placeholder="例: 192.168.1.0" maxlength="18" autocomplete="off" spellcheck="false">
+</div>
+<div class="ip-field-sm">
+<label for="ip-mask-sel">サブネットマスク</label>
+<select id="ip-mask-sel"></select>
+</div>
+<div style="display:flex;gap:8px;padding-bottom:1px">
+<button class="ip-btn" onclick="ipCalc()">計算する</button>
+<button class="ip-btn ip-btn-clear" onclick="ipReset()">クリア</button>
+</div>
+</div>
 
-  <div class="ip-section-label">CIDRプレフィックス長</div>
-  <div class="ip-slider-row">
-    <span style="font-size:12px;color:#94a3b8">/0</span>
-    <input type="range" id="ip-cidr" min="0" max="32" value="24" oninput="ipSliderChange(this.value)">
-    <span style="font-size:12px;color:#94a3b8">/32</span>
-    <span class="ip-slider-val" id="ip-cidr-label">/24</span>
-  </div>
+<div class="ip-section-label">CIDRプレフィックス長</div>
+<div class="ip-slider-row">
+<span style="font-size:12px;color:#94a3b8">/0</span>
+<input type="range" id="ip-cidr" min="0" max="32" value="24" oninput="ipSliderChange(this.value)">
+<span style="font-size:12px;color:#94a3b8">/32</span>
+<span class="ip-slider-val" id="ip-cidr-label">/24</span>
+</div>
 
-  <div class="ip-section-label" style="margin-bottom:8px">サブネットマスク ビット表示</div>
-  <div class="ip-mask-vis" id="ip-mask-vis"></div>
+<div class="ip-section-label" style="margin-bottom:8px">サブネットマスク ビット表示</div>
+<div class="ip-mask-vis" id="ip-mask-vis"></div>
 
-  <div class="ip-error" id="ip-error"></div>
+<div class="ip-error" id="ip-error"></div>
 </div>
 
 <div class="ip-results" id="ip-results">
 
-  <div class="ip-card">
-    <div class="ip-title">
-      計算結果
-      <span id="ip-class-badge"></span>
-      <span id="ip-scope-badge"></span>
-    </div>
-    <div class="ip-grid" id="ip-grid"></div>
-  </div>
+<div class="ip-card">
+<div class="ip-title">
+計算結果
+<span id="ip-class-badge"></span>
+<span id="ip-scope-badge"></span>
+</div>
+<div class="ip-grid" id="ip-grid"></div>
+</div>
 
-  <div class="ip-card">
-    <div class="ip-title">バイナリ表示</div>
-    <div class="ip-section-label">ネットワーク部 = <span style="color:#34d399">緑</span> &nbsp; ホスト部 = <span style="color:#f87171">赤</span></div>
-    <div class="ip-bin-box" id="ip-bin-box"></div>
-  </div>
+<div class="ip-card">
+<div class="ip-title">バイナリ表示</div>
+<div class="ip-section-label">ネットワーク部 = <span style="color:#34d399">緑</span> &nbsp; ホスト部 = <span style="color:#f87171">赤</span></div>
+<div class="ip-bin-box" id="ip-bin-box"></div>
+</div>
 
-  <div class="ip-card">
-    <div class="ip-title">サブネット一覧リファレンス</div>
-    <div class="ip-tbl-wrap">
-      <table id="ip-tbl">
-        <thead><tr><th>CIDR</th><th>サブネットマスク</th><th>利用可能ホスト数</th><th>ワイルドカード</th></tr></thead>
-        <tbody id="ip-tbl-body"></tbody>
-      </table>
-    </div>
-  </div>
+<div class="ip-card">
+<div class="ip-title">サブネット一覧リファレンス</div>
+<div class="ip-tbl-wrap">
+<table id="ip-tbl">
+<thead><tr><th>CIDR</th><th>サブネットマスク</th><th>利用可能ホスト数</th><th>ワイルドカード</th></tr></thead>
+<tbody id="ip-tbl-body"></tbody>
+</table>
+</div>
+</div>
 
 </div>
 
 <script>
 (function(){
-  var MASKS=[
-    [0,'0.0.0.0'],[1,'128.0.0.0'],[2,'192.0.0.0'],[3,'224.0.0.0'],
-    [4,'240.0.0.0'],[5,'248.0.0.0'],[6,'252.0.0.0'],[7,'254.0.0.0'],
-    [8,'255.0.0.0'],[9,'255.128.0.0'],[10,'255.192.0.0'],[11,'255.224.0.0'],
-    [12,'255.240.0.0'],[13,'255.248.0.0'],[14,'255.252.0.0'],[15,'255.254.0.0'],
-    [16,'255.255.0.0'],[17,'255.255.128.0'],[18,'255.255.192.0'],[19,'255.255.224.0'],
-    [20,'255.255.240.0'],[21,'255.255.248.0'],[22,'255.255.252.0'],[23,'255.255.254.0'],
-    [24,'255.255.255.0'],[25,'255.255.255.128'],[26,'255.255.255.192'],[27,'255.255.255.224'],
-    [28,'255.255.255.240'],[29,'255.255.255.248'],[30,'255.255.255.252'],[31,'255.255.255.254'],
-    [32,'255.255.255.255']
-  ];
+var MASKS=[
+[0,'0.0.0.0'],[1,'128.0.0.0'],[2,'192.0.0.0'],[3,'224.0.0.0'],
+[4,'240.0.0.0'],[5,'248.0.0.0'],[6,'252.0.0.0'],[7,'254.0.0.0'],
+[8,'255.0.0.0'],[9,'255.128.0.0'],[10,'255.192.0.0'],[11,'255.224.0.0'],
+[12,'255.240.0.0'],[13,'255.248.0.0'],[14,'255.252.0.0'],[15,'255.254.0.0'],
+[16,'255.255.0.0'],[17,'255.255.128.0'],[18,'255.255.192.0'],[19,'255.255.224.0'],
+[20,'255.255.240.0'],[21,'255.255.248.0'],[22,'255.255.252.0'],[23,'255.255.254.0'],
+[24,'255.255.255.0'],[25,'255.255.255.128'],[26,'255.255.255.192'],[27,'255.255.255.224'],
+[28,'255.255.255.240'],[29,'255.255.255.248'],[30,'255.255.255.252'],[31,'255.255.255.254'],
+[32,'255.255.255.255']
+];
 
-  var sel=document.getElementById('ip-mask-sel');
-  MASKS.forEach(function(m){
-    var o=document.createElement('option');
-    o.value=m[0];
-    o.textContent='/'+m[0]+' — '+m[1];
-    if(m[0]===24)o.selected=true;
-    sel.appendChild(o);
-  });
-  sel.addEventListener('change',function(){
-    document.getElementById('ip-cidr').value=this.value;
-    ipSliderChange(this.value);
-  });
+var sel=document.getElementById('ip-mask-sel');
+MASKS.forEach(function(m){
+var o=document.createElement('option');
+o.value=m[0];
+o.textContent='/'+m[0]+' — '+m[1];
+if(m[0]===24)o.selected=true;
+sel.appendChild(o);
+});
+sel.addEventListener('change',function(){
+document.getElementById('ip-cidr').value=this.value;
+ipSliderChange(this.value);
+});
 
-  document.getElementById('ip-addr').addEventListener('keydown',function(e){
-    if(e.key==='Enter')ipCalc();
-  });
+document.getElementById('ip-addr').addEventListener('keydown',function(e){
+if(e.key==='Enter')ipCalc();
+});
 
-  renderMaskVis(24);
+renderMaskVis(24);
 
-  window.ipSliderChange=function(v){
-    v=parseInt(v,10);
-    document.getElementById('ip-cidr-label').textContent='/'+v;
-    document.getElementById('ip-cidr').value=v;
-    sel.value=v;
-    renderMaskVis(v);
-  };
+window.ipSliderChange=function(v){
+v=parseInt(v,10);
+document.getElementById('ip-cidr-label').textContent='/'+v;
+document.getElementById('ip-cidr').value=v;
+sel.value=v;
+renderMaskVis(v);
+};
 
-  function renderMaskVis(prefix){
-    var el=document.getElementById('ip-mask-vis');
-    el.innerHTML='';
-    for(var g=0;g<4;g++){
-      var grp=document.createElement('div');
-      grp.className='ip-mask-grp';
-      for(var b=0;b<8;b++){
-        var bit=g*8+b;
-        var d=document.createElement('div');
-        d.className='ip-mask-bit '+(bit<prefix?'ip-mask-1':'ip-mask-0');
-        d.textContent=bit<prefix?'1':'0';
-        grp.appendChild(d);
-      }
-      el.appendChild(grp);
-      if(g<3){var sep=document.createElement('div');sep.className='ip-mask-sep';el.appendChild(sep);}
-    }
-  }
+function renderMaskVis(prefix){
+var el=document.getElementById('ip-mask-vis');
+el.innerHTML='';
+for(var g=0;g<4;g++){
+var grp=document.createElement('div');
+grp.className='ip-mask-grp';
+for(var b=0;b<8;b++){
+var bit=g*8+b;
+var d=document.createElement('div');
+d.className='ip-mask-bit '+(bit<prefix?'ip-mask-1':'ip-mask-0');
+d.textContent=bit<prefix?'1':'0';
+grp.appendChild(d);
+}
+el.appendChild(grp);
+if(g<3){var sep=document.createElement('div');sep.className='ip-mask-sep';el.appendChild(sep);}
+}
+}
 
-  function parseIP(s){
-    var p=s.trim().split('.');
-    if(p.length!==4)return null;
-    var n=[];
-    for(var i=0;i<4;i++){
-      var x=parseInt(p[i],10);
-      if(isNaN(x)||x<0||x>255||p[i].trim()==='')return null;
-      n.push(x);
-    }
-    return n;
-  }
+function parseIP(s){
+var p=s.trim().split('.');
+if(p.length!==4)return null;
+var n=[];
+for(var i=0;i<4;i++){
+var x=parseInt(p[i],10);
+if(isNaN(x)||x<0||x>255||p[i].trim()==='')return null;
+n.push(x);
+}
+return n;
+}
 
-  function ipToNum(oct){return((oct[0]<<24)|(oct[1]<<16)|(oct[2]<<8)|oct[3])>>>0;}
-  function numToIP(n){return [n>>>24,(n>>>16)&255,(n>>>8)&255,n&255].join('.');}
+function ipToNum(oct){return((oct[0]<<24)|(oct[1]<<16)|(oct[2]<<8)|oct[3])>>>0;}
+function numToIP(n){return [n>>>24,(n>>>16)&255,(n>>>8)&255,n&255].join('.');}
 
-  function detectClass(oct){
-    var f=oct[0];
-    if(f<128)return 'A';
-    if(f<192)return 'B';
-    if(f<224)return 'C';
-    if(f<240)return 'D';
-    return 'E';
-  }
+function detectClass(oct){
+var f=oct[0];
+if(f<128)return 'A';
+if(f<192)return 'B';
+if(f<224)return 'C';
+if(f<240)return 'D';
+return 'E';
+}
 
-  function isPrivate(oct){
-    var a=oct[0],b=oct[1];
-    if(a===10)return true;
-    if(a===172&&b>=16&&b<=31)return true;
-    if(a===192&&b===168)return true;
-    if(a===127)return true;
-    if(a===169&&b===254)return true;
-    return false;
-  }
+function isPrivate(oct){
+var a=oct[0],b=oct[1];
+if(a===10)return true;
+if(a===172&&b>=16&&b<=31)return true;
+if(a===192&&b===168)return true;
+if(a===127)return true;
+if(a===169&&b===254)return true;
+return false;
+}
 
-  function formatLarge(n){
-    if(n>=1e9)return (n/1e9).toFixed(2).replace(/\.?0+$/,'')+'B';
-    if(n>=1e6)return (n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M';
-    if(n>=1e3)return (n/1e3).toFixed(2).replace(/\.?0+$/,'')+'K';
-    return n.toString();
-  }
+function formatLarge(n){
+if(n>=1e9)return (n/1e9).toFixed(2).replace(/\.?0+$/,'')+'B';
+if(n>=1e6)return (n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M';
+if(n>=1e3)return (n/1e3).toFixed(2).replace(/\.?0+$/,'')+'K';
+return n.toString();
+}
 
-  window.ipCalc=function(){
-    var ipStr=document.getElementById('ip-addr').value.trim();
-    var prefix=parseInt(document.getElementById('ip-cidr').value,10);
-    var errEl=document.getElementById('ip-error');
-    var resEl=document.getElementById('ip-results');
+window.ipCalc=function(){
+var ipStr=document.getElementById('ip-addr').value.trim();
+var prefix=parseInt(document.getElementById('ip-cidr').value,10);
+var errEl=document.getElementById('ip-error');
+var resEl=document.getElementById('ip-results');
 
-    errEl.style.display='none';
-    resEl.style.display='none';
+errEl.style.display='none';
+resEl.style.display='none';
 
-    if(!ipStr){showErr('IPアドレスを入力してください。');return;}
-    var oct=parseIP(ipStr);
-    if(!oct){showErr('無効なIPアドレスです。ドット区切りの10進数形式（例: 192.168.1.0）で入力してください。');return;}
-    if(isNaN(prefix)||prefix<0||prefix>32){showErr('CIDRプレフィックスは0〜32の範囲で指定してください。');return;}
+if(!ipStr){showErr('IPアドレスを入力してください。');return;}
+var oct=parseIP(ipStr);
+if(!oct){showErr('無効なIPアドレスです。ドット区切りの10進数形式（例: 192.168.1.0）で入力してください。');return;}
+if(isNaN(prefix)||prefix<0||prefix>32){showErr('CIDRプレフィックスは0〜32の範囲で指定してください。');return;}
 
-    var ipNum=ipToNum(oct);
-    var maskNum= prefix===0?0:(0xFFFFFFFF<<(32-prefix))>>>0;
-    var wildNum=(~maskNum)>>>0;
-    var netNum=(ipNum&maskNum)>>>0;
-    var bcastNum=(netNum|wildNum)>>>0;
-    var firstHost=prefix<31?(netNum+1)>>>0:netNum;
-    var lastHost=prefix<31?(bcastNum-1)>>>0:bcastNum;
-    var hostCount=prefix>=31?(prefix===32?1:2):Math.pow(2,32-prefix)-2;
+var ipNum=ipToNum(oct);
+var maskNum= prefix===0?0:(0xFFFFFFFF<<(32-prefix))>>>0;
+var wildNum=(~maskNum)>>>0;
+var netNum=(ipNum&maskNum)>>>0;
+var bcastNum=(netNum|wildNum)>>>0;
+var firstHost=prefix<31?(netNum+1)>>>0:netNum;
+var lastHost=prefix<31?(bcastNum-1)>>>0:bcastNum;
+var hostCount=prefix>=31?(prefix===32?1:2):Math.pow(2,32-prefix)-2;
 
-    var cls=detectClass(oct);
-    var priv=isPrivate(oct);
+var cls=detectClass(oct);
+var priv=isPrivate(oct);
 
-    var clsBadgeMap={A:'ip-badge-a',B:'ip-badge-b',C:'ip-badge-c',D:'ip-badge-d',E:'ip-badge-e'};
-    document.getElementById('ip-class-badge').innerHTML='<span class="ip-badge '+clsBadgeMap[cls]+'">クラス'+cls+'</span>';
-    document.getElementById('ip-scope-badge').innerHTML='<span class="ip-badge '+(priv?'ip-badge-priv':'ip-badge-pub')+'">'+(priv?'プライベート':'パブリック')+'</span>';
+var clsBadgeMap={A:'ip-badge-a',B:'ip-badge-b',C:'ip-badge-c',D:'ip-badge-d',E:'ip-badge-e'};
+document.getElementById('ip-class-badge').innerHTML='<span class="ip-badge '+clsBadgeMap[cls]+'">クラス'+cls+'</span>';
+document.getElementById('ip-scope-badge').innerHTML='<span class="ip-badge '+(priv?'ip-badge-priv':'ip-badge-pub')+'">'+(priv?'プライベート':'パブリック')+'</span>';
 
-    var grid=document.getElementById('ip-grid');
-    var stats=[
-      {label:'IPアドレス',val:numToIP(ipNum),sub:'入力アドレス'},
-      {label:'ネットワークアドレス',val:numToIP(netNum),sub:'サブネットの先頭アドレス'},
-      {label:'ブロードキャストアドレス',val:numToIP(bcastNum),sub:'サブネットの末尾アドレス'},
-      {label:'サブネットマスク',val:numToIP(maskNum),sub:'ドット区切り10進数'},
-      {label:'ワイルドカードマスク',val:numToIP(wildNum),sub:'サブネットマスクの反転'},
-      {label:'CIDR表記',val:numToIP(netNum)+'/'+prefix,sub:'ネットワーク/プレフィックス'},
-      {label:'最初の利用可能ホスト',val:prefix<=30?numToIP(firstHost):'N/A',sub:prefix===31?'ポイントツーポイントリンク':prefix===32?'ホストルート':''},
-      {label:'最後の利用可能ホスト',val:prefix<=30?numToIP(lastHost):'N/A',sub:''},
-      {label:'利用可能ホスト数',val:hostCount>=0?hostCount.toLocaleString():'0',sub:hostCount>=1000?'(約'+formatLarge(hostCount)+')':''},
-      {label:'総アドレス数',val:Math.pow(2,32-prefix).toLocaleString(),sub:'ネット・ブロードキャスト含む'},
-    ];
-    grid.innerHTML=stats.map(function(s){
-      return '<div class="ip-stat"><div class="ip-stat-label">'+s.label+'</div><div class="ip-stat-val">'+s.val+'</div>'+(s.sub?'<div class="ip-stat-sub">'+s.sub+'</div>':'')+'</div>';
-    }).join('');
+var grid=document.getElementById('ip-grid');
+var stats=[
+{label:'IPアドレス',val:numToIP(ipNum),sub:'入力アドレス'},
+{label:'ネットワークアドレス',val:numToIP(netNum),sub:'サブネットの先頭アドレス'},
+{label:'ブロードキャストアドレス',val:numToIP(bcastNum),sub:'サブネットの末尾アドレス'},
+{label:'サブネットマスク',val:numToIP(maskNum),sub:'ドット区切り10進数'},
+{label:'ワイルドカードマスク',val:numToIP(wildNum),sub:'サブネットマスクの反転'},
+{label:'CIDR表記',val:numToIP(netNum)+'/'+prefix,sub:'ネットワーク/プレフィックス'},
+{label:'最初の利用可能ホスト',val:prefix<=30?numToIP(firstHost):'N/A',sub:prefix===31?'ポイントツーポイントリンク':prefix===32?'ホストルート':''},
+{label:'最後の利用可能ホスト',val:prefix<=30?numToIP(lastHost):'N/A',sub:''},
+{label:'利用可能ホスト数',val:hostCount>=0?hostCount.toLocaleString():'0',sub:hostCount>=1000?'(約'+formatLarge(hostCount)+')':''},
+{label:'総アドレス数',val:Math.pow(2,32-prefix).toLocaleString(),sub:'ネット・ブロードキャスト含む'},
+];
+grid.innerHTML=stats.map(function(s){
+return '<div class="ip-stat"><div class="ip-stat-label">'+s.label+'</div><div class="ip-stat-val">'+s.val+'</div>'+(s.sub?'<div class="ip-stat-sub">'+s.sub+'</div>':'')+'</div>';
+}).join('');
 
-    var binBox=document.getElementById('ip-bin-box');
-    function renderBinRow(label,num,pref){
-      var bits=[];
-      for(var i=31;i>=0;i--){
-        var b=(num>>>i)&1;
-        var bitPos=31-i;
-        var cls2=pref!==undefined?(bitPos<pref?'ip-net-bit':'ip-host-bit'):'';
-        bits.push('<span class="'+cls2+'">'+b+'</span>');
-        if(i>0&&(i%8===0))bits.push('<span class="ip-bin-sep"> . </span>');
-      }
-      return '<div class="ip-bin-row"><span class="ip-bin-label">'+label+'</span><span>'+bits.join('')+'</span></div>';
-    }
-    binBox.innerHTML=[
-      renderBinRow('IPアドレス:',ipNum,prefix),
-      renderBinRow('サブネットマスク:',maskNum),
-      renderBinRow('ネットワーク:',netNum,prefix),
-      renderBinRow('ブロードキャスト:',bcastNum,prefix),
-    ].join('');
+var binBox=document.getElementById('ip-bin-box');
+function renderBinRow(label,num,pref){
+var bits=[];
+for(var i=31;i>=0;i--){
+var b=(num>>>i)&1;
+var bitPos=31-i;
+var cls2=pref!==undefined?(bitPos<pref?'ip-net-bit':'ip-host-bit'):'';
+bits.push('<span class="'+cls2+'">'+b+'</span>');
+if(i>0&&(i%8===0))bits.push('<span class="ip-bin-sep"> . </span>');
+}
+return '<div class="ip-bin-row"><span class="ip-bin-label">'+label+'</span><span>'+bits.join('')+'</span></div>';
+}
+binBox.innerHTML=[
+renderBinRow('IPアドレス:',ipNum,prefix),
+renderBinRow('サブネットマスク:',maskNum),
+renderBinRow('ネットワーク:',netNum,prefix),
+renderBinRow('ブロードキャスト:',bcastNum,prefix),
+].join('');
 
-    var tbody=document.getElementById('ip-tbl-body');
-    var rows=[];
-    for(var p=8;p<=32;p++){
-      var m=p===0?0:(0xFFFFFFFF<<(32-p))>>>0;
-      var w=(~m)>>>0;
-      var h=p>=31?(p===32?1:2):Math.pow(2,32-p)-2;
-      var hl=p===prefix?' class="ip-hl"':'';
-      rows.push('<tr'+hl+'><td>/'+p+'</td><td>'+numToIP(m)+'</td><td>'+(h>0?h.toLocaleString():0)+'</td><td>'+numToIP(w)+'</td></tr>');
-    }
-    tbody.innerHTML=rows.join('');
+var tbody=document.getElementById('ip-tbl-body');
+var rows=[];
+for(var p=8;p<=32;p++){
+var m=p===0?0:(0xFFFFFFFF<<(32-p))>>>0;
+var w=(~m)>>>0;
+var h=p>=31?(p===32?1:2):Math.pow(2,32-p)-2;
+var hl=p===prefix?' class="ip-hl"':'';
+rows.push('<tr'+hl+'><td>/'+p+'</td><td>'+numToIP(m)+'</td><td>'+(h>0?h.toLocaleString():0)+'</td><td>'+numToIP(w)+'</td></tr>');
+}
+tbody.innerHTML=rows.join('');
 
-    setTimeout(function(){
-      var hlRow=tbody.querySelector('.ip-hl');
-      if(hlRow)hlRow.scrollIntoView({block:'nearest'});
-    },50);
+setTimeout(function(){
+var hlRow=tbody.querySelector('.ip-hl');
+if(hlRow)hlRow.scrollIntoView({block:'nearest'});
+},50);
 
-    resEl.style.display='block';
-  };
+resEl.style.display='block';
+};
 
-  window.ipReset=function(){
-    document.getElementById('ip-addr').value='';
-    document.getElementById('ip-cidr').value=24;
-    document.getElementById('ip-mask-sel').value=24;
-    ipSliderChange(24);
-    document.getElementById('ip-error').style.display='none';
-    document.getElementById('ip-results').style.display='none';
-  };
+window.ipReset=function(){
+document.getElementById('ip-addr').value='';
+document.getElementById('ip-cidr').value=24;
+document.getElementById('ip-mask-sel').value=24;
+ipSliderChange(24);
+document.getElementById('ip-error').style.display='none';
+document.getElementById('ip-results').style.display='none';
+};
 
-  function showErr(msg){
-    var e=document.getElementById('ip-error');
-    e.textContent=msg;
-    e.style.display='block';
-  }
+function showErr(msg){
+var e=document.getElementById('ip-error');
+e.textContent=msg;
+e.style.display='block';
+}
 
-  renderMaskVis(24);
+renderMaskVis(24);
 })();
 </script>
 
@@ -340,9 +340,9 @@ IPv4アドレスとCIDRプレフィックス（またはサブネットマスク
 ---
 
 <div class="ip-freee-cta" style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">ネットワーク管理の経費もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、サーバー・ネットワーク費用の経費精算もクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">ネットワーク管理の経費もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、サーバー・ネットワーク費用の経費精算もクラウドで一元管理。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 ---

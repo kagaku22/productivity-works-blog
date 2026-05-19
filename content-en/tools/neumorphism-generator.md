@@ -48,273 +48,273 @@ Create soft UI shadow effects with full control over distance, blur, intensity, 
 </style>
 
 <div class="nm-presets">
-  <button class="nm-preset-btn" onclick="nmLoadPreset('softcard')">Soft Card</button>
-  <button class="nm-preset-btn" onclick="nmLoadPreset('button')">Button</button>
-  <button class="nm-preset-btn" onclick="nmLoadPreset('circle')">Circle</button>
-  <button class="nm-preset-btn" onclick="nmLoadPreset('input')">Input Field</button>
-  <button class="nm-preset-btn" onclick="nmLoadPreset('toggle')">Toggle Switch</button>
+<button class="nm-preset-btn" onclick="nmLoadPreset('softcard')">Soft Card</button>
+<button class="nm-preset-btn" onclick="nmLoadPreset('button')">Button</button>
+<button class="nm-preset-btn" onclick="nmLoadPreset('circle')">Circle</button>
+<button class="nm-preset-btn" onclick="nmLoadPreset('input')">Input Field</button>
+<button class="nm-preset-btn" onclick="nmLoadPreset('toggle')">Toggle Switch</button>
 </div>
 
 <div class="nm-layout">
-  <!-- Left: Controls -->
-  <div class="nm-panel">
-    <h3 class="nm-section-title">Controls</h3>
+<!-- Left: Controls -->
+<div class="nm-panel">
+<h3 class="nm-section-title">Controls</h3>
 
-    <label class="nm-label">Background Color</label>
-    <div class="nm-color-row">
-      <input type="color" id="nm-bg" value="#e0e5ec" oninput="nmUpdate()">
-      <span class="nm-color-hex" id="nm-bg-hex">#e0e5ec</span>
-    </div>
+<label class="nm-label">Background Color</label>
+<div class="nm-color-row">
+<input type="color" id="nm-bg" value="#e0e5ec" oninput="nmUpdate()">
+<span class="nm-color-hex" id="nm-bg-hex">#e0e5ec</span>
+</div>
 
-    <div class="nm-divider"></div>
+<div class="nm-divider"></div>
 
-    <label class="nm-label">Shape Type</label>
-    <div class="nm-seg" id="nm-shape-seg">
-      <button class="active" onclick="nmShape('flat',this)">Flat</button>
-      <button onclick="nmShape('concave',this)">Concave</button>
-      <button onclick="nmShape('convex',this)">Convex</button>
-      <button onclick="nmShape('pressed',this)">Pressed</button>
-    </div>
+<label class="nm-label">Shape Type</label>
+<div class="nm-seg" id="nm-shape-seg">
+<button class="active" onclick="nmShape('flat',this)">Flat</button>
+<button onclick="nmShape('concave',this)">Concave</button>
+<button onclick="nmShape('convex',this)">Convex</button>
+<button onclick="nmShape('pressed',this)">Pressed</button>
+</div>
 
-    <label class="nm-label">Element Shape</label>
-    <div class="nm-seg" id="nm-el-seg">
-      <button class="active" onclick="nmElShape('card',this)">Card</button>
-      <button onclick="nmElShape('button',this)">Button</button>
-      <button onclick="nmElShape('circle',this)">Circle</button>
-    </div>
+<label class="nm-label">Element Shape</label>
+<div class="nm-seg" id="nm-el-seg">
+<button class="active" onclick="nmElShape('card',this)">Card</button>
+<button onclick="nmElShape('button',this)">Button</button>
+<button onclick="nmElShape('circle',this)">Circle</button>
+</div>
 
-    <div class="nm-divider"></div>
+<div class="nm-divider"></div>
 
-    <label class="nm-label">Size <span class="nm-val" id="v-size">160px</span></label>
-    <input type="range" id="nm-size" min="60" max="300" value="160" oninput="nmUpdate()">
+<label class="nm-label">Size <span class="nm-val" id="v-size">160px</span></label>
+<input type="range" id="nm-size" min="60" max="300" value="160" oninput="nmUpdate()">
 
-    <label class="nm-label">Shadow Distance <span class="nm-val" id="v-dist">10px</span></label>
-    <input type="range" id="nm-dist" min="1" max="50" value="10" oninput="nmUpdate()">
+<label class="nm-label">Shadow Distance <span class="nm-val" id="v-dist">10px</span></label>
+<input type="range" id="nm-dist" min="1" max="50" value="10" oninput="nmUpdate()">
 
-    <label class="nm-label">Blur <span class="nm-val" id="v-blur">20px</span></label>
-    <input type="range" id="nm-blur" min="1" max="100" value="20" oninput="nmUpdate()">
+<label class="nm-label">Blur <span class="nm-val" id="v-blur">20px</span></label>
+<input type="range" id="nm-blur" min="1" max="100" value="20" oninput="nmUpdate()">
 
-    <label class="nm-label">Intensity <span class="nm-val" id="v-int">0.25</span></label>
-    <input type="range" id="nm-int" min="1" max="50" value="25" oninput="nmUpdate()">
+<label class="nm-label">Intensity <span class="nm-val" id="v-int">0.25</span></label>
+<input type="range" id="nm-int" min="1" max="50" value="25" oninput="nmUpdate()">
 
-    <label class="nm-label">Border Radius <span class="nm-val" id="v-rad">16px</span></label>
-    <input type="range" id="nm-rad" min="0" max="60" value="16" oninput="nmUpdate()">
-  </div>
+<label class="nm-label">Border Radius <span class="nm-val" id="v-rad">16px</span></label>
+<input type="range" id="nm-rad" min="0" max="60" value="16" oninput="nmUpdate()">
+</div>
 
-  <!-- Right: Preview -->
-  <div>
-    <div class="nm-panel" style="padding:0;overflow:hidden;">
-      <div class="nm-preview-wrap" id="nm-preview-wrap">
-        <div class="nm-preview-el" id="nm-preview-el">PREVIEW</div>
-      </div>
-    </div>
-    <div class="nm-code-wrap">
-      <pre class="nm-code" id="nm-code-out"></pre>
-      <button class="nm-copy-btn" id="nm-copy-btn" onclick="nmCopy()">Copy CSS</button>
-    </div>
-  </div>
+<!-- Right: Preview -->
+<div>
+<div class="nm-panel" style="padding:0;overflow:hidden;">
+<div class="nm-preview-wrap" id="nm-preview-wrap">
+<div class="nm-preview-el" id="nm-preview-el">PREVIEW</div>
+</div>
+</div>
+<div class="nm-code-wrap">
+<pre class="nm-code" id="nm-code-out"></pre>
+<button class="nm-copy-btn" id="nm-copy-btn" onclick="nmCopy()">Copy CSS</button>
+</div>
+</div>
 </div>
 
 <script>
 (function(){
-  var state = {
-    bg: '#e0e5ec',
-    dist: 10,
-    blur: 20,
-    intensity: 0.25,
-    radius: 16,
-    size: 160,
-    shape: 'flat',
-    elShape: 'card'
-  };
+var state = {
+bg: '#e0e5ec',
+dist: 10,
+blur: 20,
+intensity: 0.25,
+radius: 16,
+size: 160,
+shape: 'flat',
+elShape: 'card'
+};
 
-  function hexToRgb(hex) {
-    hex = hex.replace('#','');
-    if(hex.length===3) hex=hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
-    var n=parseInt(hex,16);
-    return {r:(n>>16)&255,g:(n>>8)&255,b:n&255};
-  }
+function hexToRgb(hex) {
+hex = hex.replace('#','');
+if(hex.length===3) hex=hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+var n=parseInt(hex,16);
+return {r:(n>>16)&255,g:(n>>8)&255,b:n&255};
+}
 
-  function rgbToHex(r,g,b){
-    return '#'+[r,g,b].map(function(v){
-      v=Math.max(0,Math.min(255,Math.round(v)));
-      return v.toString(16).padStart(2,'0');
-    }).join('');
-  }
+function rgbToHex(r,g,b){
+return '#'+[r,g,b].map(function(v){
+v=Math.max(0,Math.min(255,Math.round(v)));
+return v.toString(16).padStart(2,'0');
+}).join('');
+}
 
-  function calcShadows(hex, dist, blur, intensity) {
-    var c = hexToRgb(hex);
-    var lighten = intensity * 255;
-    var darken = intensity * 255;
-    var light = rgbToHex(c.r+lighten, c.g+lighten, c.b+lighten);
-    var dark  = rgbToHex(c.r-darken,  c.g-darken,  c.b-darken);
-    return {light:light, dark:dark};
-  }
+function calcShadows(hex, dist, blur, intensity) {
+var c = hexToRgb(hex);
+var lighten = intensity * 255;
+var darken = intensity * 255;
+var light = rgbToHex(c.r+lighten, c.g+lighten, c.b+lighten);
+var dark  = rgbToHex(c.r-darken,  c.g-darken,  c.b-darken);
+return {light:light, dark:dark};
+}
 
-  function buildBoxShadow(dist, blur, sh, shape, inset) {
-    var prefix = inset ? 'inset ' : '';
-    var base = prefix+(-dist)+'px '+(-dist)+'px '+blur+'px '+sh.light+', '+
-               prefix+dist+'px '+dist+'px '+blur+'px '+sh.dark;
-    return base;
-  }
+function buildBoxShadow(dist, blur, sh, shape, inset) {
+var prefix = inset ? 'inset ' : '';
+var base = prefix+(-dist)+'px '+(-dist)+'px '+blur+'px '+sh.light+', '+
+prefix+dist+'px '+dist+'px '+blur+'px '+sh.dark;
+return base;
+}
 
-  function buildBackground(bg, shape) {
-    if(shape==='flat') return bg;
-    var c = hexToRgb(bg);
-    if(shape==='concave'){
-      var d=20;
-      var c1=rgbToHex(c.r-d,c.g-d,c.b-d);
-      var c2=rgbToHex(c.r+d,c.g+d,c.b+d);
-      return 'linear-gradient(145deg,'+c1+','+c2+')';
-    }
-    if(shape==='convex'){
-      var d=20;
-      var c1=rgbToHex(c.r+d,c.g+d,c.b+d);
-      var c2=rgbToHex(c.r-d,c.g-d,c.b-d);
-      return 'linear-gradient(145deg,'+c1+','+c2+')';
-    }
-    return bg;
-  }
+function buildBackground(bg, shape) {
+if(shape==='flat') return bg;
+var c = hexToRgb(bg);
+if(shape==='concave'){
+var d=20;
+var c1=rgbToHex(c.r-d,c.g-d,c.b-d);
+var c2=rgbToHex(c.r+d,c.g+d,c.b+d);
+return 'linear-gradient(145deg,'+c1+','+c2+')';
+}
+if(shape==='convex'){
+var d=20;
+var c1=rgbToHex(c.r+d,c.g+d,c.b+d);
+var c2=rgbToHex(c.r-d,c.g-d,c.b-d);
+return 'linear-gradient(145deg,'+c1+','+c2+')';
+}
+return bg;
+}
 
-  function getRadiusForElShape(elShape, radius) {
-    if(elShape==='circle') return '50%';
-    if(elShape==='button') return Math.min(radius,30)+'px';
-    return radius+'px';
-  }
+function getRadiusForElShape(elShape, radius) {
+if(elShape==='circle') return '50%';
+if(elShape==='button') return Math.min(radius,30)+'px';
+return radius+'px';
+}
 
-  function getSizeStyle(elShape, size) {
-    if(elShape==='circle') return {width:size+'px',height:size+'px'};
-    if(elShape==='button') return {width:(size*1.6)+'px',height:(size*0.5)+'px'};
-    return {width:size+'px',height:size+'px'};
-  }
+function getSizeStyle(elShape, size) {
+if(elShape==='circle') return {width:size+'px',height:size+'px'};
+if(elShape==='button') return {width:(size*1.6)+'px',height:(size*0.5)+'px'};
+return {width:size+'px',height:size+'px'};
+}
 
-  function nmUpdate() {
-    state.bg      = document.getElementById('nm-bg').value;
-    state.dist    = parseInt(document.getElementById('nm-dist').value);
-    state.blur    = parseInt(document.getElementById('nm-blur').value);
-    state.intensity = parseInt(document.getElementById('nm-int').value)/100;
-    state.radius  = parseInt(document.getElementById('nm-rad').value);
-    state.size    = parseInt(document.getElementById('nm-size').value);
+function nmUpdate() {
+state.bg      = document.getElementById('nm-bg').value;
+state.dist    = parseInt(document.getElementById('nm-dist').value);
+state.blur    = parseInt(document.getElementById('nm-blur').value);
+state.intensity = parseInt(document.getElementById('nm-int').value)/100;
+state.radius  = parseInt(document.getElementById('nm-rad').value);
+state.size    = parseInt(document.getElementById('nm-size').value);
 
-    document.getElementById('nm-bg-hex').textContent = state.bg;
-    document.getElementById('v-dist').textContent = state.dist+'px';
-    document.getElementById('v-blur').textContent = state.blur+'px';
-    document.getElementById('v-int').textContent  = state.intensity.toFixed(2);
-    document.getElementById('v-rad').textContent  = state.radius+'px';
-    document.getElementById('v-size').textContent = state.size+'px';
+document.getElementById('nm-bg-hex').textContent = state.bg;
+document.getElementById('v-dist').textContent = state.dist+'px';
+document.getElementById('v-blur').textContent = state.blur+'px';
+document.getElementById('v-int').textContent  = state.intensity.toFixed(2);
+document.getElementById('v-rad').textContent  = state.radius+'px';
+document.getElementById('v-size').textContent = state.size+'px';
 
-    var sh = calcShadows(state.bg, state.dist, state.blur, state.intensity);
-    var isPressed = state.shape==='pressed';
-    var boxShadow = buildBoxShadow(state.dist, state.blur, sh, state.shape, isPressed);
-    var bg = buildBackground(state.bg, state.shape);
-    var borderRadius = getRadiusForElShape(state.elShape, state.radius);
-    var sz = getSizeStyle(state.elShape, state.size);
+var sh = calcShadows(state.bg, state.dist, state.blur, state.intensity);
+var isPressed = state.shape==='pressed';
+var boxShadow = buildBoxShadow(state.dist, state.blur, sh, state.shape, isPressed);
+var bg = buildBackground(state.bg, state.shape);
+var borderRadius = getRadiusForElShape(state.elShape, state.radius);
+var sz = getSizeStyle(state.elShape, state.size);
 
-    // Update preview wrap
-    var wrap = document.getElementById('nm-preview-wrap');
-    wrap.style.background = state.bg;
-    wrap.style.padding = '40px';
+// Update preview wrap
+var wrap = document.getElementById('nm-preview-wrap');
+wrap.style.background = state.bg;
+wrap.style.padding = '40px';
 
-    // Update preview element
-    var el = document.getElementById('nm-preview-el');
-    el.style.width = sz.width;
-    el.style.height = sz.height;
-    el.style.borderRadius = borderRadius;
-    el.style.background = bg;
-    el.style.boxShadow = boxShadow;
+// Update preview element
+var el = document.getElementById('nm-preview-el');
+el.style.width = sz.width;
+el.style.height = sz.height;
+el.style.borderRadius = borderRadius;
+el.style.background = bg;
+el.style.boxShadow = boxShadow;
 
-    // Generate CSS
-    var radiusVal = borderRadius;
-    var bgVal = bg;
-    var lines = [];
-    lines.push('.nm-element {');
-    lines.push('  background: '+bgVal+';');
-    lines.push('  border-radius: '+radiusVal+';');
-    lines.push('  box-shadow: '+boxShadow+';');
-    if(sz.width===sz.height && state.elShape!=='button') {
-      lines.push('  width: '+sz.width+';');
-      lines.push('  height: '+sz.height+';');
-    } else {
-      lines.push('  width: '+sz.width+';');
-      lines.push('  height: '+sz.height+';');
-    }
-    lines.push('}');
+// Generate CSS
+var radiusVal = borderRadius;
+var bgVal = bg;
+var lines = [];
+lines.push('.nm-element {');
+lines.push('  background: '+bgVal+';');
+lines.push('  border-radius: '+radiusVal+';');
+lines.push('  box-shadow: '+boxShadow+';');
+if(sz.width===sz.height && state.elShape!=='button') {
+lines.push('  width: '+sz.width+';');
+lines.push('  height: '+sz.height+';');
+} else {
+lines.push('  width: '+sz.width+';');
+lines.push('  height: '+sz.height+';');
+}
+lines.push('}');
 
-    renderCode(lines.join('\n'), sh);
-  }
+renderCode(lines.join('\n'), sh);
+}
 
-  function renderCode(css, sh) {
-    // Simple syntax highlighting
-    var html = css
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;')
-      .replace(/([\w-]+)(?=\s*:)/g,'<span class="c-prop">$1</span>')
-      .replace(/:\s*([^;{}\n]+)/g,function(m,v){
-        return ': <span class="c-val">'+v+'</span>';
-      })
-      .replace(/[{}]/g,'<span class="c-punc">$&</span>');
-    document.getElementById('nm-code-out').innerHTML = html;
-  }
+function renderCode(css, sh) {
+// Simple syntax highlighting
+var html = css
+.replace(/&/g,'&amp;')
+.replace(/</g,'&lt;')
+.replace(/>/g,'&gt;')
+.replace(/([\w-]+)(?=\s*:)/g,'<span class="c-prop">$1</span>')
+.replace(/:\s*([^;{}\n]+)/g,function(m,v){
+return ': <span class="c-val">'+v+'</span>';
+})
+.replace(/[{}]/g,'<span class="c-punc">$&</span>');
+document.getElementById('nm-code-out').innerHTML = html;
+}
 
-  window.nmUpdate = nmUpdate;
+window.nmUpdate = nmUpdate;
 
-  window.nmShape = function(s, btn) {
-    state.shape = s;
-    document.querySelectorAll('#nm-shape-seg button').forEach(function(b){b.classList.remove('active');});
-    btn.classList.add('active');
-    nmUpdate();
-  };
+window.nmShape = function(s, btn) {
+state.shape = s;
+document.querySelectorAll('#nm-shape-seg button').forEach(function(b){b.classList.remove('active');});
+btn.classList.add('active');
+nmUpdate();
+};
 
-  window.nmElShape = function(s, btn) {
-    state.elShape = s;
-    document.querySelectorAll('#nm-el-seg button').forEach(function(b){b.classList.remove('active');});
-    btn.classList.add('active');
-    nmUpdate();
-  };
+window.nmElShape = function(s, btn) {
+state.elShape = s;
+document.querySelectorAll('#nm-el-seg button').forEach(function(b){b.classList.remove('active');});
+btn.classList.add('active');
+nmUpdate();
+};
 
-  window.nmCopy = function() {
-    var code = document.getElementById('nm-code-out').textContent;
-    navigator.clipboard.writeText(code).then(function(){
-      var btn = document.getElementById('nm-copy-btn');
-      btn.textContent = 'Copied!';
-      btn.classList.add('copied');
-      setTimeout(function(){btn.textContent='Copy CSS';btn.classList.remove('copied');},1800);
-    });
-  };
+window.nmCopy = function() {
+var code = document.getElementById('nm-code-out').textContent;
+navigator.clipboard.writeText(code).then(function(){
+var btn = document.getElementById('nm-copy-btn');
+btn.textContent = 'Copied!';
+btn.classList.add('copied');
+setTimeout(function(){btn.textContent='Copy CSS';btn.classList.remove('copied');},1800);
+});
+};
 
-  var presets = {
-    softcard:  {bg:'#e0e5ec',dist:10,blur:20,int:25,rad:16,size:160,shape:'flat',elShape:'card'},
-    button:    {bg:'#e8ecf0',dist:6, blur:12,int:20,rad:10,size:130,shape:'convex',elShape:'button'},
-    circle:    {bg:'#dde1e7',dist:8, blur:16,int:22,rad:50,size:140,shape:'flat',elShape:'circle'},
-    input:     {bg:'#eaeef3',dist:5, blur:10,int:18,rad:8, size:160,shape:'pressed',elShape:'button'},
-    toggle:    {bg:'#e0e5ec',dist:6, blur:12,int:20,rad:30,size:100,shape:'flat',elShape:'button'}
-  };
+var presets = {
+softcard:  {bg:'#e0e5ec',dist:10,blur:20,int:25,rad:16,size:160,shape:'flat',elShape:'card'},
+button:    {bg:'#e8ecf0',dist:6, blur:12,int:20,rad:10,size:130,shape:'convex',elShape:'button'},
+circle:    {bg:'#dde1e7',dist:8, blur:16,int:22,rad:50,size:140,shape:'flat',elShape:'circle'},
+input:     {bg:'#eaeef3',dist:5, blur:10,int:18,rad:8, size:160,shape:'pressed',elShape:'button'},
+toggle:    {bg:'#e0e5ec',dist:6, blur:12,int:20,rad:30,size:100,shape:'flat',elShape:'button'}
+};
 
-  window.nmLoadPreset = function(name) {
-    var p = presets[name];
-    if(!p) return;
-    document.getElementById('nm-bg').value = p.bg;
-    document.getElementById('nm-dist').value = p.dist;
-    document.getElementById('nm-blur').value = p.blur;
-    document.getElementById('nm-int').value = p.int;
-    document.getElementById('nm-rad').value = p.rad;
-    document.getElementById('nm-size').value = p.size;
-    state.shape = p.shape;
-    state.elShape = p.elShape;
-    // Update shape seg buttons
-    document.querySelectorAll('#nm-shape-seg button').forEach(function(b){
-      b.classList.toggle('active', b.textContent.toLowerCase()===p.shape||(p.shape==='pressed'&&b.textContent==='Pressed'));
-    });
-    document.querySelectorAll('#nm-el-seg button').forEach(function(b){
-      var label = b.textContent.toLowerCase();
-      b.classList.toggle('active', label===p.elShape);
-    });
-    nmUpdate();
-  };
+window.nmLoadPreset = function(name) {
+var p = presets[name];
+if(!p) return;
+document.getElementById('nm-bg').value = p.bg;
+document.getElementById('nm-dist').value = p.dist;
+document.getElementById('nm-blur').value = p.blur;
+document.getElementById('nm-int').value = p.int;
+document.getElementById('nm-rad').value = p.rad;
+document.getElementById('nm-size').value = p.size;
+state.shape = p.shape;
+state.elShape = p.elShape;
+// Update shape seg buttons
+document.querySelectorAll('#nm-shape-seg button').forEach(function(b){
+b.classList.toggle('active', b.textContent.toLowerCase()===p.shape||(p.shape==='pressed'&&b.textContent==='Pressed'));
+});
+document.querySelectorAll('#nm-el-seg button').forEach(function(b){
+var label = b.textContent.toLowerCase();
+b.classList.toggle('active', label===p.elShape);
+});
+nmUpdate();
+};
 
-  // Init
-  nmUpdate();
+// Init
+nmUpdate();
 })();
 </script>
 

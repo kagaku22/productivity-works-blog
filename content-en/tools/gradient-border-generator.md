@@ -19,807 +19,807 @@ Craft beautiful gradient borders in seconds — choose colors, adjust direction,
 #gb-app *,
 #gb-app *::before,
 #gb-app *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 #gb-app {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 0 0 56px;
-  color: #1f2937;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+max-width: 880px;
+margin: 0 auto;
+padding: 0 0 56px;
+color: #1f2937;
 }
 
 /* ── Preview ────────────────────────────────────────── */
 .gb-preview-wrap {
-  background: repeating-conic-gradient(#e5e7eb 0% 25%, #fff 0% 50%) 0 0 / 20px 20px;
-  border-radius: 16px;
-  padding: 48px 32px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 220px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+background: repeating-conic-gradient(#e5e7eb 0% 25%, #fff 0% 50%) 0 0 / 20px 20px;
+border-radius: 16px;
+padding: 48px 32px;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 220px;
+box-shadow: 0 4px 24px rgba(0,0,0,0.10);
 }
 .gb-preview-box {
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  color: #6b7280;
-  font-weight: 500;
-  min-width: 200px;
-  min-height: 100px;
-  transition: all 0.2s;
-  word-break: break-all;
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 15px;
+color: #6b7280;
+font-weight: 500;
+min-width: 200px;
+min-height: 100px;
+transition: all 0.2s;
+word-break: break-all;
 }
 
 /* ── Cards ──────────────────────────────────────────── */
 .gb-card {
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-  padding: 22px 24px;
-  margin-bottom: 16px;
+background: #fff;
+border-radius: 14px;
+box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+padding: 22px 24px;
+margin-bottom: 16px;
 }
 .gb-card-title {
-  font-size: 12px;
-  font-weight: 700;
-  color: #374151;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  border-bottom: 2px solid #f3f4f6;
-  padding-bottom: 10px;
-  margin-bottom: 18px;
+font-size: 12px;
+font-weight: 700;
+color: #374151;
+text-transform: uppercase;
+letter-spacing: 0.07em;
+border-bottom: 2px solid #f3f4f6;
+padding-bottom: 10px;
+margin-bottom: 18px;
 }
 
 /* ── Color Stops ─────────────────────────────────────── */
 .gb-stops-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 14px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-bottom: 14px;
 }
 .gb-stop-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
 }
 .gb-color-swatch {
-  width: 38px;
-  height: 38px;
-  border-radius: 8px;
-  border: 2px solid #e5e7eb;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
+width: 38px;
+height: 38px;
+border-radius: 8px;
+border: 2px solid #e5e7eb;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+flex-shrink: 0;
 }
 .gb-color-swatch input[type="color"] {
-  position: absolute;
-  inset: -4px;
-  width: calc(100% + 8px);
-  height: calc(100% + 8px);
-  opacity: 0;
-  cursor: pointer;
+position: absolute;
+inset: -4px;
+width: calc(100% + 8px);
+height: calc(100% + 8px);
+opacity: 0;
+cursor: pointer;
 }
 .gb-color-hex {
-  width: 88px;
-  padding: 7px 10px;
-  border: 1.5px solid #e5e7eb;
-  border-radius: 8px;
-  font-size: 13px;
-  font-family: 'Menlo', 'Consolas', monospace;
-  color: #374151;
-  outline: none;
-  transition: border-color 0.15s;
+width: 88px;
+padding: 7px 10px;
+border: 1.5px solid #e5e7eb;
+border-radius: 8px;
+font-size: 13px;
+font-family: 'Menlo', 'Consolas', monospace;
+color: #374151;
+outline: none;
+transition: border-color 0.15s;
 }
 .gb-color-hex:focus { border-color: #6366f1; }
 .gb-stop-label {
-  font-size: 12px;
-  color: #9ca3af;
-  width: 32px;
-  text-align: center;
-  flex-shrink: 0;
+font-size: 12px;
+color: #9ca3af;
+width: 32px;
+text-align: center;
+flex-shrink: 0;
 }
 .gb-stop-percent {
-  flex: 1;
-  accent-color: #6366f1;
+flex: 1;
+accent-color: #6366f1;
 }
 .gb-stop-pct-val {
-  font-size: 12px;
-  color: #6b7280;
-  width: 34px;
-  text-align: right;
-  flex-shrink: 0;
+font-size: 12px;
+color: #6b7280;
+width: 34px;
+text-align: right;
+flex-shrink: 0;
 }
 .gb-stop-remove {
-  width: 28px;
-  height: 28px;
-  border-radius: 6px;
-  border: none;
-  background: #fee2e2;
-  color: #ef4444;
-  font-size: 16px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: background 0.15s;
-  line-height: 1;
+width: 28px;
+height: 28px;
+border-radius: 6px;
+border: none;
+background: #fee2e2;
+color: #ef4444;
+font-size: 16px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+transition: background 0.15s;
+line-height: 1;
 }
 .gb-stop-remove:hover { background: #fecaca; }
 .gb-stop-remove:disabled { opacity: 0.3; cursor: default; }
 .gb-add-stop-btn {
-  padding: 8px 18px;
-  border-radius: 8px;
-  border: 1.5px dashed #c7d2fe;
-  background: #eef2ff;
-  color: #6366f1;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s;
+padding: 8px 18px;
+border-radius: 8px;
+border: 1.5px dashed #c7d2fe;
+background: #eef2ff;
+color: #6366f1;
+font-size: 13px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.15s;
 }
 .gb-add-stop-btn:hover { background: #e0e7ff; }
 .gb-add-stop-btn:disabled { opacity: 0.4; cursor: default; }
 
 /* ── Direction ───────────────────────────────────────── */
 .gb-dir-row {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
+display: flex;
+align-items: center;
+gap: 14px;
+flex-wrap: wrap;
 }
 .gb-dir-presets {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
+display: flex;
+gap: 6px;
+flex-wrap: wrap;
 }
 .gb-dir-btn {
-  padding: 6px 12px;
-  border-radius: 7px;
-  border: 1.5px solid #e5e7eb;
-  background: #f9fafb;
-  color: #374151;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s;
+padding: 6px 12px;
+border-radius: 7px;
+border: 1.5px solid #e5e7eb;
+background: #f9fafb;
+color: #374151;
+font-size: 12px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.15s;
 }
 .gb-dir-btn:hover { border-color: #a5b4fc; background: #eef2ff; }
 .gb-dir-btn.gb-active { border-color: #6366f1; background: #eef2ff; color: #4f46e5; }
 .gb-angle-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 14px;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 14px;
 }
 .gb-angle-label { font-size: 13px; color: #6b7280; flex-shrink: 0; }
 .gb-angle-slider { flex: 1; accent-color: #6366f1; }
 .gb-angle-num {
-  width: 60px;
-  padding: 6px 8px;
-  border: 1.5px solid #e5e7eb;
-  border-radius: 7px;
-  font-size: 13px;
-  text-align: center;
-  outline: none;
+width: 60px;
+padding: 6px 8px;
+border: 1.5px solid #e5e7eb;
+border-radius: 7px;
+font-size: 13px;
+text-align: center;
+outline: none;
 }
 .gb-angle-num:focus { border-color: #6366f1; }
 .gb-angle-deg { font-size: 13px; color: #9ca3af; }
 
 /* ── Sliders ─────────────────────────────────────────── */
 .gb-slider-row {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 14px;
+display: flex;
+align-items: center;
+gap: 14px;
+margin-bottom: 14px;
 }
 .gb-slider-row:last-child { margin-bottom: 0; }
 .gb-slider-label {
-  font-size: 13px;
-  color: #374151;
-  width: 110px;
-  flex-shrink: 0;
+font-size: 13px;
+color: #374151;
+width: 110px;
+flex-shrink: 0;
 }
 .gb-slider {
-  flex: 1;
-  accent-color: #6366f1;
+flex: 1;
+accent-color: #6366f1;
 }
 .gb-slider-val {
-  font-size: 13px;
-  color: #6b7280;
-  width: 44px;
-  text-align: right;
-  flex-shrink: 0;
-  font-variant-numeric: tabular-nums;
+font-size: 13px;
+color: #6b7280;
+width: 44px;
+text-align: right;
+flex-shrink: 0;
+font-variant-numeric: tabular-nums;
 }
 
 /* ── Technique Toggle ────────────────────────────────── */
 .gb-tech-row {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
 }
 .gb-tech-btn {
-  padding: 7px 16px;
-  border-radius: 8px;
-  border: 1.5px solid #e5e7eb;
-  background: #f9fafb;
-  color: #374151;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s;
+padding: 7px 16px;
+border-radius: 8px;
+border: 1.5px solid #e5e7eb;
+background: #f9fafb;
+color: #374151;
+font-size: 13px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.15s;
 }
 .gb-tech-btn:hover { border-color: #a5b4fc; }
 .gb-tech-btn.gb-active { border-color: #6366f1; background: #eef2ff; color: #4f46e5; }
 .gb-tech-note {
-  font-size: 12px;
-  color: #9ca3af;
-  margin-top: 10px;
-  line-height: 1.5;
+font-size: 12px;
+color: #9ca3af;
+margin-top: 10px;
+line-height: 1.5;
 }
 
 /* ── Presets ─────────────────────────────────────────── */
 .gb-presets-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-  gap: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+gap: 10px;
 }
 .gb-preset-item {
-  border-radius: 10px;
-  height: 52px;
-  cursor: pointer;
-  border: 3px solid transparent;
-  transition: all 0.15s;
-  position: relative;
-  overflow: hidden;
+border-radius: 10px;
+height: 52px;
+cursor: pointer;
+border: 3px solid transparent;
+transition: all 0.15s;
+position: relative;
+overflow: hidden;
 }
 .gb-preset-item:hover { transform: scale(1.06); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 .gb-preset-item.gb-active { border-color: #6366f1; }
 .gb-preset-label {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  background: rgba(0,0,0,0.45);
-  color: #fff;
-  font-size: 9px;
-  text-align: center;
-  padding: 2px 4px;
+position: absolute;
+bottom: 0; left: 0; right: 0;
+background: rgba(0,0,0,0.45);
+color: #fff;
+font-size: 9px;
+text-align: center;
+padding: 2px 4px;
 }
 
 /* ── CSS Output ──────────────────────────────────────── */
 .gb-output-wrap {
-  position: relative;
+position: relative;
 }
 .gb-output-code {
-  display: block;
-  background: #1e1e2e;
-  color: #cdd6f4;
-  border-radius: 10px;
-  padding: 18px 20px;
-  font-family: 'Menlo', 'Consolas', monospace;
-  font-size: 13px;
-  line-height: 1.7;
-  white-space: pre-wrap;
-  word-break: break-all;
-  min-height: 80px;
-  user-select: all;
+display: block;
+background: #1e1e2e;
+color: #cdd6f4;
+border-radius: 10px;
+padding: 18px 20px;
+font-family: 'Menlo', 'Consolas', monospace;
+font-size: 13px;
+line-height: 1.7;
+white-space: pre-wrap;
+word-break: break-all;
+min-height: 80px;
+user-select: all;
 }
 .gb-copy-btn {
-  margin-top: 12px;
-  padding: 11px 28px;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  color: #fff;
-  border: none;
-  border-radius: 9px;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: opacity 0.15s, transform 0.1s;
-  width: 100%;
+margin-top: 12px;
+padding: 11px 28px;
+background: linear-gradient(135deg, #6366f1, #8b5cf6);
+color: #fff;
+border: none;
+border-radius: 9px;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: opacity 0.15s, transform 0.1s;
+width: 100%;
 }
 .gb-copy-btn:hover { opacity: 0.9; transform: translateY(-1px); }
 .gb-copy-btn.gb-copied { background: linear-gradient(135deg, #10b981, #059669); }
 
 /* ── Related Links ───────────────────────────────────── */
 .gb-related {
-  margin-top: 28px;
-  padding-top: 22px;
-  border-top: 2px solid #f3f4f6;
+margin-top: 28px;
+padding-top: 22px;
+border-top: 2px solid #f3f4f6;
 }
 .gb-related-title {
-  font-size: 13px;
-  font-weight: 700;
-  color: #374151;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  margin-bottom: 12px;
+font-size: 13px;
+font-weight: 700;
+color: #374151;
+text-transform: uppercase;
+letter-spacing: 0.07em;
+margin-bottom: 12px;
 }
 .gb-related-links {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
 }
 .gb-related-links a {
-  padding: 7px 14px;
-  background: #f3f4f6;
-  border-radius: 7px;
-  font-size: 13px;
-  color: #4f46e5;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.15s;
+padding: 7px 14px;
+background: #f3f4f6;
+border-radius: 7px;
+font-size: 13px;
+color: #4f46e5;
+text-decoration: none;
+font-weight: 500;
+transition: background 0.15s;
 }
 .gb-related-links a:hover { background: #e0e7ff; }
 </style>
 
 <!-- Preview -->
 <div class="gb-preview-wrap">
-  <div class="gb-preview-box" id="gb-preview">Preview</div>
+<div class="gb-preview-box" id="gb-preview">Preview</div>
 </div>
 
 <!-- Color Stops -->
 <div class="gb-card">
-  <div class="gb-card-title">Color Stops</div>
-  <div class="gb-stops-list" id="gb-stops-list"></div>
-  <button class="gb-add-stop-btn" id="gb-add-stop">+ Add Color Stop</button>
+<div class="gb-card-title">Color Stops</div>
+<div class="gb-stops-list" id="gb-stops-list"></div>
+<button class="gb-add-stop-btn" id="gb-add-stop">+ Add Color Stop</button>
 </div>
 
 <!-- Direction -->
 <div class="gb-card">
-  <div class="gb-card-title">Gradient Direction</div>
-  <div class="gb-dir-row">
-    <div class="gb-dir-presets" id="gb-dir-presets">
-      <button class="gb-dir-btn" data-angle="0">↑ 0°</button>
-      <button class="gb-dir-btn" data-angle="45">↗ 45°</button>
-      <button class="gb-dir-btn gb-active" data-angle="90">→ 90°</button>
-      <button class="gb-dir-btn" data-angle="135">↘ 135°</button>
-      <button class="gb-dir-btn" data-angle="180">↓ 180°</button>
-      <button class="gb-dir-btn" data-angle="225">↙ 225°</button>
-      <button class="gb-dir-btn" data-angle="270">← 270°</button>
-      <button class="gb-dir-btn" data-angle="315">↖ 315°</button>
-    </div>
-  </div>
-  <div class="gb-angle-row">
-    <span class="gb-angle-label">Custom Angle</span>
-    <input type="range" class="gb-angle-slider" id="gb-angle-slider" min="0" max="360" value="90">
-    <input type="number" class="gb-angle-num" id="gb-angle-num" min="0" max="360" value="90">
-    <span class="gb-angle-deg">°</span>
-  </div>
+<div class="gb-card-title">Gradient Direction</div>
+<div class="gb-dir-row">
+<div class="gb-dir-presets" id="gb-dir-presets">
+<button class="gb-dir-btn" data-angle="0">↑ 0°</button>
+<button class="gb-dir-btn" data-angle="45">↗ 45°</button>
+<button class="gb-dir-btn gb-active" data-angle="90">→ 90°</button>
+<button class="gb-dir-btn" data-angle="135">↘ 135°</button>
+<button class="gb-dir-btn" data-angle="180">↓ 180°</button>
+<button class="gb-dir-btn" data-angle="225">↙ 225°</button>
+<button class="gb-dir-btn" data-angle="270">← 270°</button>
+<button class="gb-dir-btn" data-angle="315">↖ 315°</button>
+</div>
+</div>
+<div class="gb-angle-row">
+<span class="gb-angle-label">Custom Angle</span>
+<input type="range" class="gb-angle-slider" id="gb-angle-slider" min="0" max="360" value="90">
+<input type="number" class="gb-angle-num" id="gb-angle-num" min="0" max="360" value="90">
+<span class="gb-angle-deg">°</span>
+</div>
 </div>
 
 <!-- Border Controls -->
 <div class="gb-card">
-  <div class="gb-card-title">Border Settings</div>
-  <div class="gb-slider-row">
-    <span class="gb-slider-label">Border Width</span>
-    <input type="range" class="gb-slider" id="gb-border-width" min="1" max="10" value="3">
-    <span class="gb-slider-val" id="gb-border-width-val">3px</span>
-  </div>
-  <div class="gb-slider-row">
-    <span class="gb-slider-label">Border Radius</span>
-    <input type="range" class="gb-slider" id="gb-border-radius" min="0" max="50" value="12">
-    <span class="gb-slider-val" id="gb-border-radius-val">12px</span>
-  </div>
-  <div class="gb-slider-row">
-    <span class="gb-slider-label">Padding</span>
-    <input type="range" class="gb-slider" id="gb-padding" min="8" max="48" value="20">
-    <span class="gb-slider-val" id="gb-padding-val">20px</span>
-  </div>
+<div class="gb-card-title">Border Settings</div>
+<div class="gb-slider-row">
+<span class="gb-slider-label">Border Width</span>
+<input type="range" class="gb-slider" id="gb-border-width" min="1" max="10" value="3">
+<span class="gb-slider-val" id="gb-border-width-val">3px</span>
+</div>
+<div class="gb-slider-row">
+<span class="gb-slider-label">Border Radius</span>
+<input type="range" class="gb-slider" id="gb-border-radius" min="0" max="50" value="12">
+<span class="gb-slider-val" id="gb-border-radius-val">12px</span>
+</div>
+<div class="gb-slider-row">
+<span class="gb-slider-label">Padding</span>
+<input type="range" class="gb-slider" id="gb-padding" min="8" max="48" value="20">
+<span class="gb-slider-val" id="gb-padding-val">20px</span>
+</div>
 </div>
 
 <!-- Technique -->
 <div class="gb-card">
-  <div class="gb-card-title">CSS Technique</div>
-  <div class="gb-tech-row" id="gb-tech-row">
-    <button class="gb-tech-btn gb-active" data-tech="background-clip">background-clip (recommended)</button>
-    <button class="gb-tech-btn" data-tech="border-image">border-image</button>
-  </div>
-  <p class="gb-tech-note" id="gb-tech-note">Uses <code>background-clip: padding-box</code> with a gradient background behind — supports border-radius and all browsers.</p>
+<div class="gb-card-title">CSS Technique</div>
+<div class="gb-tech-row" id="gb-tech-row">
+<button class="gb-tech-btn gb-active" data-tech="background-clip">background-clip (recommended)</button>
+<button class="gb-tech-btn" data-tech="border-image">border-image</button>
+</div>
+<p class="gb-tech-note" id="gb-tech-note">Uses <code>background-clip: padding-box</code> with a gradient background behind — supports border-radius and all browsers.</p>
 </div>
 
 <!-- Presets -->
 <div class="gb-card">
-  <div class="gb-card-title">Presets</div>
-  <div class="gb-presets-grid" id="gb-presets-grid"></div>
+<div class="gb-card-title">Presets</div>
+<div class="gb-presets-grid" id="gb-presets-grid"></div>
 </div>
 
 <!-- CSS Output -->
 <div class="gb-card">
-  <div class="gb-card-title">Generated CSS</div>
-  <div class="gb-output-wrap">
-    <code class="gb-output-code" id="gb-output-code"></code>
-  </div>
-  <button class="gb-copy-btn" id="gb-copy-btn">Copy CSS</button>
+<div class="gb-card-title">Generated CSS</div>
+<div class="gb-output-wrap">
+<code class="gb-output-code" id="gb-output-code"></code>
+</div>
+<button class="gb-copy-btn" id="gb-copy-btn">Copy CSS</button>
 </div>
 
 <!-- Related -->
 <div class="gb-related">
-  <div class="gb-related-title">Related Tools</div>
-  <div class="gb-related-links">
-    <a href="/tools/css-gradient-generator/">CSS Gradient Generator</a>
-    <a href="/tools/border-radius-generator/">Border Radius Generator</a>
-    <a href="/tools/css-animation-generator/">CSS Animation Generator</a>
-  </div>
+<div class="gb-related-title">Related Tools</div>
+<div class="gb-related-links">
+<a href="/tools/css-gradient-generator/">CSS Gradient Generator</a>
+<a href="/tools/border-radius-generator/">Border Radius Generator</a>
+<a href="/tools/css-animation-generator/">CSS Animation Generator</a>
+</div>
 </div>
 
 <script>
 (function() {
-  'use strict';
+'use strict';
 
-  // ── State ──────────────────────────────────────────────
-  var state = {
-    stops: [
-      { color: '#6366f1', pct: 0 },
-      { color: '#ec4899', pct: 100 }
-    ],
-    angle: 90,
-    borderWidth: 3,
-    borderRadius: 12,
-    padding: 20,
-    technique: 'background-clip'
-  };
+// ── State ──────────────────────────────────────────────
+var state = {
+stops: [
+{ color: '#6366f1', pct: 0 },
+{ color: '#ec4899', pct: 100 }
+],
+angle: 90,
+borderWidth: 3,
+borderRadius: 12,
+padding: 20,
+technique: 'background-clip'
+};
 
-  var PRESETS = [
-    { name: 'Indigo Pink', stops: [{ color: '#6366f1', pct: 0 }, { color: '#ec4899', pct: 100 }], angle: 90 },
-    { name: 'Sunset', stops: [{ color: '#f97316', pct: 0 }, { color: '#ef4444', pct: 50 }, { color: '#a855f7', pct: 100 }], angle: 135 },
-    { name: 'Ocean', stops: [{ color: '#06b6d4', pct: 0 }, { color: '#3b82f6', pct: 100 }], angle: 180 },
-    { name: 'Aurora', stops: [{ color: '#10b981', pct: 0 }, { color: '#6366f1', pct: 50 }, { color: '#ec4899', pct: 100 }], angle: 45 },
-    { name: 'Gold', stops: [{ color: '#f59e0b', pct: 0 }, { color: '#fbbf24', pct: 50 }, { color: '#d97706', pct: 100 }], angle: 90 },
-    { name: 'Neon', stops: [{ color: '#22d3ee', pct: 0 }, { color: '#a855f7', pct: 100 }], angle: 270 },
-    { name: 'Rose', stops: [{ color: '#fb7185', pct: 0 }, { color: '#f43f5e', pct: 100 }], angle: 135 },
-    { name: 'Mint', stops: [{ color: '#34d399', pct: 0 }, { color: '#059669', pct: 100 }], angle: 90 },
-    { name: 'Peach', stops: [{ color: '#fed7aa', pct: 0 }, { color: '#fb923c', pct: 100 }], angle: 180 },
-    { name: 'Candy', stops: [{ color: '#f9a8d4', pct: 0 }, { color: '#c084fc', pct: 50 }, { color: '#818cf8', pct: 100 }], angle: 45 },
-    { name: 'Night', stops: [{ color: '#1e1b4b', pct: 0 }, { color: '#312e81', pct: 50 }, { color: '#4338ca', pct: 100 }], angle: 135 },
-    { name: 'Fire', stops: [{ color: '#fde68a', pct: 0 }, { color: '#f97316', pct: 50 }, { color: '#b91c1c', pct: 100 }], angle: 90 }
-  ];
+var PRESETS = [
+{ name: 'Indigo Pink', stops: [{ color: '#6366f1', pct: 0 }, { color: '#ec4899', pct: 100 }], angle: 90 },
+{ name: 'Sunset', stops: [{ color: '#f97316', pct: 0 }, { color: '#ef4444', pct: 50 }, { color: '#a855f7', pct: 100 }], angle: 135 },
+{ name: 'Ocean', stops: [{ color: '#06b6d4', pct: 0 }, { color: '#3b82f6', pct: 100 }], angle: 180 },
+{ name: 'Aurora', stops: [{ color: '#10b981', pct: 0 }, { color: '#6366f1', pct: 50 }, { color: '#ec4899', pct: 100 }], angle: 45 },
+{ name: 'Gold', stops: [{ color: '#f59e0b', pct: 0 }, { color: '#fbbf24', pct: 50 }, { color: '#d97706', pct: 100 }], angle: 90 },
+{ name: 'Neon', stops: [{ color: '#22d3ee', pct: 0 }, { color: '#a855f7', pct: 100 }], angle: 270 },
+{ name: 'Rose', stops: [{ color: '#fb7185', pct: 0 }, { color: '#f43f5e', pct: 100 }], angle: 135 },
+{ name: 'Mint', stops: [{ color: '#34d399', pct: 0 }, { color: '#059669', pct: 100 }], angle: 90 },
+{ name: 'Peach', stops: [{ color: '#fed7aa', pct: 0 }, { color: '#fb923c', pct: 100 }], angle: 180 },
+{ name: 'Candy', stops: [{ color: '#f9a8d4', pct: 0 }, { color: '#c084fc', pct: 50 }, { color: '#818cf8', pct: 100 }], angle: 45 },
+{ name: 'Night', stops: [{ color: '#1e1b4b', pct: 0 }, { color: '#312e81', pct: 50 }, { color: '#4338ca', pct: 100 }], angle: 135 },
+{ name: 'Fire', stops: [{ color: '#fde68a', pct: 0 }, { color: '#f97316', pct: 50 }, { color: '#b91c1c', pct: 100 }], angle: 90 }
+];
 
-  var TECH_NOTES = {
-    'background-clip': 'Uses <code>background-clip: padding-box</code> with a gradient background behind — supports border-radius and all browsers.',
-    'border-image': 'Uses <code>border-image</code> — lightweight but does <strong>not</strong> support border-radius. Use background-clip for rounded corners.'
-  };
+var TECH_NOTES = {
+'background-clip': 'Uses <code>background-clip: padding-box</code> with a gradient background behind — supports border-radius and all browsers.',
+'border-image': 'Uses <code>border-image</code> — lightweight but does <strong>not</strong> support border-radius. Use background-clip for rounded corners.'
+};
 
-  // ── DOM refs ───────────────────────────────────────────
-  var stopsList    = document.getElementById('gb-stops-list');
-  var addStopBtn   = document.getElementById('gb-add-stop');
-  var dirPresets   = document.getElementById('gb-dir-presets');
-  var angleSlider  = document.getElementById('gb-angle-slider');
-  var angleNum     = document.getElementById('gb-angle-num');
-  var bwSlider     = document.getElementById('gb-border-width');
-  var bwVal        = document.getElementById('gb-border-width-val');
-  var brSlider     = document.getElementById('gb-border-radius');
-  var brVal        = document.getElementById('gb-border-radius-val');
-  var padSlider    = document.getElementById('gb-padding');
-  var padVal       = document.getElementById('gb-padding-val');
-  var techRow      = document.getElementById('gb-tech-row');
-  var techNote     = document.getElementById('gb-tech-note');
-  var presetsGrid  = document.getElementById('gb-presets-grid');
-  var outputCode   = document.getElementById('gb-output-code');
-  var copyBtn      = document.getElementById('gb-copy-btn');
-  var preview      = document.getElementById('gb-preview');
+// ── DOM refs ───────────────────────────────────────────
+var stopsList    = document.getElementById('gb-stops-list');
+var addStopBtn   = document.getElementById('gb-add-stop');
+var dirPresets   = document.getElementById('gb-dir-presets');
+var angleSlider  = document.getElementById('gb-angle-slider');
+var angleNum     = document.getElementById('gb-angle-num');
+var bwSlider     = document.getElementById('gb-border-width');
+var bwVal        = document.getElementById('gb-border-width-val');
+var brSlider     = document.getElementById('gb-border-radius');
+var brVal        = document.getElementById('gb-border-radius-val');
+var padSlider    = document.getElementById('gb-padding');
+var padVal       = document.getElementById('gb-padding-val');
+var techRow      = document.getElementById('gb-tech-row');
+var techNote     = document.getElementById('gb-tech-note');
+var presetsGrid  = document.getElementById('gb-presets-grid');
+var outputCode   = document.getElementById('gb-output-code');
+var copyBtn      = document.getElementById('gb-copy-btn');
+var preview      = document.getElementById('gb-preview');
 
-  // ── Helpers ────────────────────────────────────────────
-  function gradientCSS() {
-    var stops = state.stops.map(function(s) { return s.color + ' ' + s.pct + '%'; }).join(', ');
-    return 'linear-gradient(' + state.angle + 'deg, ' + stops + ')';
-  }
+// ── Helpers ────────────────────────────────────────────
+function gradientCSS() {
+var stops = state.stops.map(function(s) { return s.color + ' ' + s.pct + '%'; }).join(', ');
+return 'linear-gradient(' + state.angle + 'deg, ' + stops + ')';
+}
 
-  function buildBackgroundClipCSS() {
-    var grad = gradientCSS();
-    var bw   = state.borderWidth;
-    var br   = state.borderRadius;
-    var pad  = state.padding;
-    return [
-      '.gradient-border {',
-      '  padding: ' + pad + 'px;',
-      '  background: ' + grad + ';',
-      '  border-radius: ' + br + 'px;',
-      '}',
-      '',
-      '.gradient-border-inner {',
-      '  background: #fff;',
-      '  border-radius: ' + Math.max(0, br - bw) + 'px;',
-      '  padding: ' + bw + 'px;',
-      '}'
-    ].join('\n');
-  }
+function buildBackgroundClipCSS() {
+var grad = gradientCSS();
+var bw   = state.borderWidth;
+var br   = state.borderRadius;
+var pad  = state.padding;
+return [
+'.gradient-border {',
+'  padding: ' + pad + 'px;',
+'  background: ' + grad + ';',
+'  border-radius: ' + br + 'px;',
+'}',
+'',
+'.gradient-border-inner {',
+'  background: #fff;',
+'  border-radius: ' + Math.max(0, br - bw) + 'px;',
+'  padding: ' + bw + 'px;',
+'}'
+].join('\n');
+}
 
-  function buildBorderImageCSS() {
-    var grad = gradientCSS();
-    var bw   = state.borderWidth;
-    var pad  = state.padding;
-    return [
-      '.gradient-border {',
-      '  padding: ' + pad + 'px;',
-      '  border: ' + bw + 'px solid transparent;',
-      '  border-image: ' + grad + ' 1;',
-      '}'
-    ].join('\n');
-  }
+function buildBorderImageCSS() {
+var grad = gradientCSS();
+var bw   = state.borderWidth;
+var pad  = state.padding;
+return [
+'.gradient-border {',
+'  padding: ' + pad + 'px;',
+'  border: ' + bw + 'px solid transparent;',
+'  border-image: ' + grad + ' 1;',
+'}'
+].join('\n');
+}
 
-  function buildFullCSS() {
-    if (state.technique === 'background-clip') return buildBackgroundClipCSS();
-    return buildBorderImageCSS();
-  }
+function buildFullCSS() {
+if (state.technique === 'background-clip') return buildBackgroundClipCSS();
+return buildBorderImageCSS();
+}
 
-  // ── Apply preview ──────────────────────────────────────
-  function applyPreview() {
-    var grad = gradientCSS();
-    var bw   = state.borderWidth;
-    var br   = state.borderRadius;
-    var pad  = state.padding;
+// ── Apply preview ──────────────────────────────────────
+function applyPreview() {
+var grad = gradientCSS();
+var bw   = state.borderWidth;
+var br   = state.borderRadius;
+var pad  = state.padding;
 
-    if (state.technique === 'background-clip') {
-      preview.style.cssText = [
-        'padding:' + pad + 'px',
-        'background:' + grad,
-        'border-radius:' + br + 'px',
-        'border:none',
-        'display:flex',
-        'align-items:center',
-        'justify-content:center',
-        'min-width:200px',
-        'min-height:100px',
-        'transition:all 0.2s'
-      ].join(';');
-      preview.innerHTML = '<div style="background:#fff;border-radius:' + Math.max(0, br - bw) + 'px;padding:' + bw + 'px;font-size:15px;color:#6b7280;font-weight:500;min-width:' + (160 - pad * 2) + 'px;min-height:' + (60 - pad * 2) + 'px;display:flex;align-items:center;justify-content:center;">Preview</div>';
-    } else {
-      preview.style.cssText = [
-        'padding:' + pad + 'px',
-        'border:' + bw + 'px solid transparent',
-        'border-image:' + grad + ' 1',
-        'border-radius:0',
-        'background:#fff',
-        'display:flex',
-        'align-items:center',
-        'justify-content:center',
-        'min-width:200px',
-        'min-height:100px',
-        'font-size:15px',
-        'color:#6b7280',
-        'font-weight:500',
-        'transition:all 0.2s'
-      ].join(';');
-      preview.textContent = 'Preview';
-    }
-  }
+if (state.technique === 'background-clip') {
+preview.style.cssText = [
+'padding:' + pad + 'px',
+'background:' + grad,
+'border-radius:' + br + 'px',
+'border:none',
+'display:flex',
+'align-items:center',
+'justify-content:center',
+'min-width:200px',
+'min-height:100px',
+'transition:all 0.2s'
+].join(';');
+preview.innerHTML = '<div style="background:#fff;border-radius:' + Math.max(0, br - bw) + 'px;padding:' + bw + 'px;font-size:15px;color:#6b7280;font-weight:500;min-width:' + (160 - pad * 2) + 'px;min-height:' + (60 - pad * 2) + 'px;display:flex;align-items:center;justify-content:center;">Preview</div>';
+} else {
+preview.style.cssText = [
+'padding:' + pad + 'px',
+'border:' + bw + 'px solid transparent',
+'border-image:' + grad + ' 1',
+'border-radius:0',
+'background:#fff',
+'display:flex',
+'align-items:center',
+'justify-content:center',
+'min-width:200px',
+'min-height:100px',
+'font-size:15px',
+'color:#6b7280',
+'font-weight:500',
+'transition:all 0.2s'
+].join(';');
+preview.textContent = 'Preview';
+}
+}
 
-  // ── Render ─────────────────────────────────────────────
-  function render() {
-    renderStops();
-    applyPreview();
-    outputCode.textContent = buildFullCSS();
-  }
+// ── Render ─────────────────────────────────────────────
+function render() {
+renderStops();
+applyPreview();
+outputCode.textContent = buildFullCSS();
+}
 
-  function renderStops() {
-    stopsList.innerHTML = '';
-    state.stops.forEach(function(stop, i) {
-      var row = document.createElement('div');
-      row.className = 'gb-stop-row';
+function renderStops() {
+stopsList.innerHTML = '';
+state.stops.forEach(function(stop, i) {
+var row = document.createElement('div');
+row.className = 'gb-stop-row';
 
-      // Swatch
-      var swatch = document.createElement('div');
-      swatch.className = 'gb-color-swatch';
-      swatch.style.background = stop.color;
-      var picker = document.createElement('input');
-      picker.type = 'color';
-      picker.value = stop.color;
-      picker.addEventListener('input', (function(idx) {
-        return function() {
-          state.stops[idx].color = this.value;
-          hexInput.value = this.value;
-          swatch.style.background = this.value;
-          render();
-        };
-      })(i));
-      swatch.appendChild(picker);
+// Swatch
+var swatch = document.createElement('div');
+swatch.className = 'gb-color-swatch';
+swatch.style.background = stop.color;
+var picker = document.createElement('input');
+picker.type = 'color';
+picker.value = stop.color;
+picker.addEventListener('input', (function(idx) {
+return function() {
+state.stops[idx].color = this.value;
+hexInput.value = this.value;
+swatch.style.background = this.value;
+render();
+};
+})(i));
+swatch.appendChild(picker);
 
-      // Hex input
-      var hexInput = document.createElement('input');
-      hexInput.type = 'text';
-      hexInput.className = 'gb-color-hex';
-      hexInput.value = stop.color;
-      hexInput.maxLength = 7;
-      hexInput.addEventListener('change', (function(idx) {
-        return function() {
-          var val = this.value.trim();
-          if (!val.startsWith('#')) val = '#' + val;
-          if (/^#[0-9a-fA-F]{6}$/.test(val)) {
-            state.stops[idx].color = val;
-            picker.value = val;
-            swatch.style.background = val;
-            render();
-          }
-        };
-      })(i));
+// Hex input
+var hexInput = document.createElement('input');
+hexInput.type = 'text';
+hexInput.className = 'gb-color-hex';
+hexInput.value = stop.color;
+hexInput.maxLength = 7;
+hexInput.addEventListener('change', (function(idx) {
+return function() {
+var val = this.value.trim();
+if (!val.startsWith('#')) val = '#' + val;
+if (/^#[0-9a-fA-F]{6}$/.test(val)) {
+state.stops[idx].color = val;
+picker.value = val;
+swatch.style.background = val;
+render();
+}
+};
+})(i));
 
-      // Position
-      var label = document.createElement('span');
-      label.className = 'gb-stop-label';
-      label.textContent = 'Pos';
+// Position
+var label = document.createElement('span');
+label.className = 'gb-stop-label';
+label.textContent = 'Pos';
 
-      var pctSlider = document.createElement('input');
-      pctSlider.type = 'range';
-      pctSlider.className = 'gb-stop-percent';
-      pctSlider.min = 0;
-      pctSlider.max = 100;
-      pctSlider.value = stop.pct;
-      pctSlider.addEventListener('input', (function(idx) {
-        return function() {
-          state.stops[idx].pct = parseInt(this.value);
-          pctValSpan.textContent = this.value + '%';
-          render();
-        };
-      })(i));
+var pctSlider = document.createElement('input');
+pctSlider.type = 'range';
+pctSlider.className = 'gb-stop-percent';
+pctSlider.min = 0;
+pctSlider.max = 100;
+pctSlider.value = stop.pct;
+pctSlider.addEventListener('input', (function(idx) {
+return function() {
+state.stops[idx].pct = parseInt(this.value);
+pctValSpan.textContent = this.value + '%';
+render();
+};
+})(i));
 
-      var pctValSpan = document.createElement('span');
-      pctValSpan.className = 'gb-stop-pct-val';
-      pctValSpan.textContent = stop.pct + '%';
+var pctValSpan = document.createElement('span');
+pctValSpan.className = 'gb-stop-pct-val';
+pctValSpan.textContent = stop.pct + '%';
 
-      // Remove
-      var removeBtn = document.createElement('button');
-      removeBtn.className = 'gb-stop-remove';
-      removeBtn.innerHTML = '&times;';
-      removeBtn.title = 'Remove';
-      removeBtn.disabled = state.stops.length <= 2;
-      removeBtn.addEventListener('click', (function(idx) {
-        return function() {
-          if (state.stops.length > 2) {
-            state.stops.splice(idx, 1);
-            render();
-          }
-        };
-      })(i));
+// Remove
+var removeBtn = document.createElement('button');
+removeBtn.className = 'gb-stop-remove';
+removeBtn.innerHTML = '&times;';
+removeBtn.title = 'Remove';
+removeBtn.disabled = state.stops.length <= 2;
+removeBtn.addEventListener('click', (function(idx) {
+return function() {
+if (state.stops.length > 2) {
+state.stops.splice(idx, 1);
+render();
+}
+};
+})(i));
 
-      row.appendChild(swatch);
-      row.appendChild(hexInput);
-      row.appendChild(label);
-      row.appendChild(pctSlider);
-      row.appendChild(pctValSpan);
-      row.appendChild(removeBtn);
-      stopsList.appendChild(row);
-    });
+row.appendChild(swatch);
+row.appendChild(hexInput);
+row.appendChild(label);
+row.appendChild(pctSlider);
+row.appendChild(pctValSpan);
+row.appendChild(removeBtn);
+stopsList.appendChild(row);
+});
 
-    addStopBtn.disabled = state.stops.length >= 5;
-  }
+addStopBtn.disabled = state.stops.length >= 5;
+}
 
-  // ── Presets grid ───────────────────────────────────────
-  function renderPresets() {
-    presetsGrid.innerHTML = '';
-    PRESETS.forEach(function(p, i) {
-      var stops = p.stops.map(function(s) { return s.color + ' ' + s.pct + '%'; }).join(', ');
-      var grad  = 'linear-gradient(' + p.angle + 'deg, ' + stops + ')';
-      var item  = document.createElement('div');
-      item.className = 'gb-preset-item';
-      item.style.background = grad;
-      var lbl   = document.createElement('div');
-      lbl.className = 'gb-preset-label';
-      lbl.textContent = p.name;
-      item.appendChild(lbl);
-      item.addEventListener('click', function() {
-        state.stops = p.stops.map(function(s) { return { color: s.color, pct: s.pct }; });
-        state.angle = p.angle;
-        angleSlider.value = p.angle;
-        angleNum.value = p.angle;
-        syncDirBtns();
-        render();
-      });
-      presetsGrid.appendChild(item);
-    });
-  }
+// ── Presets grid ───────────────────────────────────────
+function renderPresets() {
+presetsGrid.innerHTML = '';
+PRESETS.forEach(function(p, i) {
+var stops = p.stops.map(function(s) { return s.color + ' ' + s.pct + '%'; }).join(', ');
+var grad  = 'linear-gradient(' + p.angle + 'deg, ' + stops + ')';
+var item  = document.createElement('div');
+item.className = 'gb-preset-item';
+item.style.background = grad;
+var lbl   = document.createElement('div');
+lbl.className = 'gb-preset-label';
+lbl.textContent = p.name;
+item.appendChild(lbl);
+item.addEventListener('click', function() {
+state.stops = p.stops.map(function(s) { return { color: s.color, pct: s.pct }; });
+state.angle = p.angle;
+angleSlider.value = p.angle;
+angleNum.value = p.angle;
+syncDirBtns();
+render();
+});
+presetsGrid.appendChild(item);
+});
+}
 
-  // ── Direction buttons ──────────────────────────────────
-  function syncDirBtns() {
-    dirPresets.querySelectorAll('.gb-dir-btn').forEach(function(btn) {
-      btn.classList.toggle('gb-active', parseInt(btn.dataset.angle) === state.angle);
-    });
-  }
+// ── Direction buttons ──────────────────────────────────
+function syncDirBtns() {
+dirPresets.querySelectorAll('.gb-dir-btn').forEach(function(btn) {
+btn.classList.toggle('gb-active', parseInt(btn.dataset.angle) === state.angle);
+});
+}
 
-  dirPresets.addEventListener('click', function(e) {
-    var btn = e.target.closest('.gb-dir-btn');
-    if (!btn) return;
-    state.angle = parseInt(btn.dataset.angle);
-    angleSlider.value = state.angle;
-    angleNum.value = state.angle;
-    syncDirBtns();
-    render();
-  });
+dirPresets.addEventListener('click', function(e) {
+var btn = e.target.closest('.gb-dir-btn');
+if (!btn) return;
+state.angle = parseInt(btn.dataset.angle);
+angleSlider.value = state.angle;
+angleNum.value = state.angle;
+syncDirBtns();
+render();
+});
 
-  angleSlider.addEventListener('input', function() {
-    state.angle = parseInt(this.value);
-    angleNum.value = state.angle;
-    syncDirBtns();
-    render();
-  });
+angleSlider.addEventListener('input', function() {
+state.angle = parseInt(this.value);
+angleNum.value = state.angle;
+syncDirBtns();
+render();
+});
 
-  angleNum.addEventListener('change', function() {
-    var v = Math.min(360, Math.max(0, parseInt(this.value) || 0));
-    state.angle = v;
-    this.value = v;
-    angleSlider.value = v;
-    syncDirBtns();
-    render();
-  });
+angleNum.addEventListener('change', function() {
+var v = Math.min(360, Math.max(0, parseInt(this.value) || 0));
+state.angle = v;
+this.value = v;
+angleSlider.value = v;
+syncDirBtns();
+render();
+});
 
-  // ── Border controls ────────────────────────────────────
-  bwSlider.addEventListener('input', function() {
-    state.borderWidth = parseInt(this.value);
-    bwVal.textContent = state.borderWidth + 'px';
-    render();
-  });
+// ── Border controls ────────────────────────────────────
+bwSlider.addEventListener('input', function() {
+state.borderWidth = parseInt(this.value);
+bwVal.textContent = state.borderWidth + 'px';
+render();
+});
 
-  brSlider.addEventListener('input', function() {
-    state.borderRadius = parseInt(this.value);
-    brVal.textContent = state.borderRadius + 'px';
-    render();
-  });
+brSlider.addEventListener('input', function() {
+state.borderRadius = parseInt(this.value);
+brVal.textContent = state.borderRadius + 'px';
+render();
+});
 
-  padSlider.addEventListener('input', function() {
-    state.padding = parseInt(this.value);
-    padVal.textContent = state.padding + 'px';
-    render();
-  });
+padSlider.addEventListener('input', function() {
+state.padding = parseInt(this.value);
+padVal.textContent = state.padding + 'px';
+render();
+});
 
-  // ── Technique toggle ───────────────────────────────────
-  techRow.addEventListener('click', function(e) {
-    var btn = e.target.closest('.gb-tech-btn');
-    if (!btn) return;
-    state.technique = btn.dataset.tech;
-    techRow.querySelectorAll('.gb-tech-btn').forEach(function(b) {
-      b.classList.toggle('gb-active', b.dataset.tech === state.technique);
-    });
-    techNote.innerHTML = TECH_NOTES[state.technique];
-    render();
-  });
+// ── Technique toggle ───────────────────────────────────
+techRow.addEventListener('click', function(e) {
+var btn = e.target.closest('.gb-tech-btn');
+if (!btn) return;
+state.technique = btn.dataset.tech;
+techRow.querySelectorAll('.gb-tech-btn').forEach(function(b) {
+b.classList.toggle('gb-active', b.dataset.tech === state.technique);
+});
+techNote.innerHTML = TECH_NOTES[state.technique];
+render();
+});
 
-  // ── Add stop ───────────────────────────────────────────
-  addStopBtn.addEventListener('click', function() {
-    if (state.stops.length >= 5) return;
-    var colors = ['#a855f7', '#f59e0b', '#10b981', '#f43f5e', '#06b6d4'];
-    var nextColor = colors[state.stops.length % colors.length];
-    var lastPct = state.stops[state.stops.length - 1].pct;
-    var newPct  = Math.min(100, lastPct + Math.round((100 - lastPct) / 2));
-    state.stops.push({ color: nextColor, pct: newPct });
-    render();
-  });
+// ── Add stop ───────────────────────────────────────────
+addStopBtn.addEventListener('click', function() {
+if (state.stops.length >= 5) return;
+var colors = ['#a855f7', '#f59e0b', '#10b981', '#f43f5e', '#06b6d4'];
+var nextColor = colors[state.stops.length % colors.length];
+var lastPct = state.stops[state.stops.length - 1].pct;
+var newPct  = Math.min(100, lastPct + Math.round((100 - lastPct) / 2));
+state.stops.push({ color: nextColor, pct: newPct });
+render();
+});
 
-  // ── Copy ───────────────────────────────────────────────
-  copyBtn.addEventListener('click', function() {
-    var text = buildFullCSS();
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function() { flashCopied(); });
-    } else {
-      var ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.cssText = 'position:fixed;opacity:0;';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      flashCopied();
-    }
-  });
+// ── Copy ───────────────────────────────────────────────
+copyBtn.addEventListener('click', function() {
+var text = buildFullCSS();
+if (navigator.clipboard && navigator.clipboard.writeText) {
+navigator.clipboard.writeText(text).then(function() { flashCopied(); });
+} else {
+var ta = document.createElement('textarea');
+ta.value = text;
+ta.style.cssText = 'position:fixed;opacity:0;';
+document.body.appendChild(ta);
+ta.select();
+document.execCommand('copy');
+document.body.removeChild(ta);
+flashCopied();
+}
+});
 
-  function flashCopied() {
-    copyBtn.classList.add('gb-copied');
-    copyBtn.textContent = 'Copied!';
-    setTimeout(function() {
-      copyBtn.classList.remove('gb-copied');
-      copyBtn.textContent = 'Copy CSS';
-    }, 1800);
-  }
+function flashCopied() {
+copyBtn.classList.add('gb-copied');
+copyBtn.textContent = 'Copied!';
+setTimeout(function() {
+copyBtn.classList.remove('gb-copied');
+copyBtn.textContent = 'Copy CSS';
+}, 1800);
+}
 
-  // ── Init ───────────────────────────────────────────────
-  renderPresets();
-  syncDirBtns();
-  render();
+// ── Init ───────────────────────────────────────────────
+renderPresets();
+syncDirBtns();
+render();
 
 })();
 </script>
@@ -852,15 +852,15 @@ The most versatile approach. The outer element has a gradient background and bor
 
 ```css
 .gradient-border {
-  padding: 20px;
-  background: linear-gradient(90deg, #6366f1 0%, #ec4899 100%);
-  border-radius: 12px;
+padding: 20px;
+background: linear-gradient(90deg, #6366f1 0%, #ec4899 100%);
+border-radius: 12px;
 }
 
 .gradient-border-inner {
-  background: #fff;
-  border-radius: 9px;
-  padding: 3px;
+background: #fff;
+border-radius: 9px;
+padding: 3px;
 }
 ```
 
@@ -870,8 +870,8 @@ Simpler HTML — a single element — but border-radius is not supported:
 
 ```css
 .gradient-border {
-  border: 3px solid transparent;
-  border-image: linear-gradient(90deg, #6366f1 0%, #ec4899 100%) 1;
+border: 3px solid transparent;
+border-image: linear-gradient(90deg, #6366f1 0%, #ec4899 100%) 1;
 }
 ```
 

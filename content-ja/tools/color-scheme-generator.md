@@ -109,29 +109,29 @@ cover:
 
 <!-- Controls -->
 <div class="cs-controls">
-  <div class="cs-group">
-    <label>ベースカラー</label>
-    <input type="color" id="cs-picker" class="cs-color-pick" value="#6c63ff">
-  </div>
-  <div class="cs-group">
-    <label>HEX値</label>
-    <input type="text" id="cs-hex-in" class="cs-hex-input" value="#6c63ff" maxlength="7" placeholder="#000000">
-  </div>
-  <div class="cs-group">
-    <label>配色タイプ</label>
-    <select id="cs-scheme-sel" class="cs-select">
-      <option value="complementary">補色（コンプリメンタリー）</option>
-      <option value="analogous">類似色（アナロガス）</option>
-      <option value="triadic">トライアド</option>
-      <option value="split-complementary">スプリット補色</option>
-      <option value="tetradic">テトラード（4色）</option>
-      <option value="monochromatic">モノクロマティック</option>
-    </select>
-  </div>
-  <div class="cs-group">
-    <label>&nbsp;</label>
-    <button class="cs-btn cs-btn-primary" id="cs-gen-btn">生成する</button>
-  </div>
+<div class="cs-group">
+<label>ベースカラー</label>
+<input type="color" id="cs-picker" class="cs-color-pick" value="#6c63ff">
+</div>
+<div class="cs-group">
+<label>HEX値</label>
+<input type="text" id="cs-hex-in" class="cs-hex-input" value="#6c63ff" maxlength="7" placeholder="#000000">
+</div>
+<div class="cs-group">
+<label>配色タイプ</label>
+<select id="cs-scheme-sel" class="cs-select">
+<option value="complementary">補色（コンプリメンタリー）</option>
+<option value="analogous">類似色（アナロガス）</option>
+<option value="triadic">トライアド</option>
+<option value="split-complementary">スプリット補色</option>
+<option value="tetradic">テトラード（4色）</option>
+<option value="monochromatic">モノクロマティック</option>
+</select>
+</div>
+<div class="cs-group">
+<label>&nbsp;</label>
+<button class="cs-btn cs-btn-primary" id="cs-gen-btn">生成する</button>
+</div>
 </div>
 
 <!-- Scheme description -->
@@ -145,31 +145,31 @@ cover:
 
 <!-- Copy all bar -->
 <div class="cs-copy-all-bar">
-  <span>まとめてコピー：</span>
-  <button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-hex-all">全HEXをコピー</button>
-  <button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-css-all">CSS変数をコピー</button>
+<span>まとめてコピー：</span>
+<button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-hex-all">全HEXをコピー</button>
+<button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-css-all">CSS変数をコピー</button>
 </div>
 
 <!-- CSS Variables output -->
 <div class="cs-css-section">
-  <div class="cs-section-title">CSSカスタムプロパティ（変数）</div>
-  <div class="cs-css-box" id="cs-css-box">
-    <button class="cs-css-copy-btn" id="cs-css-copy-btn">コピー</button>
-    <pre id="cs-css-pre" style="white-space:pre-wrap;word-break:break-all;"></pre>
-  </div>
+<div class="cs-section-title">CSSカスタムプロパティ（変数）</div>
+<div class="cs-css-box" id="cs-css-box">
+<button class="cs-css-copy-btn" id="cs-css-copy-btn">コピー</button>
+<pre id="cs-css-pre" style="white-space:pre-wrap;word-break:break-all;"></pre>
+</div>
 </div>
 
 <!-- Contrast ratios -->
 <div class="cs-contrast-section">
-  <div class="cs-section-title">アクセシビリティ — コントラスト比（WCAG 2.1）</div>
-  <div class="cs-contrast-grid" id="cs-contrast-grid"></div>
+<div class="cs-section-title">アクセシビリティ — コントラスト比（WCAG 2.1）</div>
+<div class="cs-contrast-grid" id="cs-contrast-grid"></div>
 </div>
 
 <!-- freee CTA -->
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 </div>
@@ -182,103 +182,103 @@ cover:
 
 /* ── カラー変換 ── */
 function hexToRgb(hex){
-  hex=hex.replace(/^#/,'');
-  if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
-  const n=parseInt(hex,16);
-  return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
+hex=hex.replace(/^#/,'');
+if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
+const n=parseInt(hex,16);
+return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
 }
 function rgbToHex(r,g,b){
-  return'#'+[r,g,b].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
+return'#'+[r,g,b].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
 }
 function rgbToHsl(r,g,b){
-  r/=255;g/=255;b/=255;
-  const max=Math.max(r,g,b),min=Math.min(r,g,b);
-  let h,s,l=(max+min)/2;
-  if(max===min){h=s=0;}else{
-    const d=max-min;
-    s=l>.5?d/(2-max-min):d/(max+min);
-    switch(max){
-      case r:h=((g-b)/d+(g<b?6:0))/6;break;
-      case g:h=((b-r)/d+2)/6;break;
-      case b:h=((r-g)/d+4)/6;break;
-    }
-  }
-  return{h:Math.round(h*360),s:Math.round(s*100),l:Math.round(l*100)};
+r/=255;g/=255;b/=255;
+const max=Math.max(r,g,b),min=Math.min(r,g,b);
+let h,s,l=(max+min)/2;
+if(max===min){h=s=0;}else{
+const d=max-min;
+s=l>.5?d/(2-max-min):d/(max+min);
+switch(max){
+case r:h=((g-b)/d+(g<b?6:0))/6;break;
+case g:h=((b-r)/d+2)/6;break;
+case b:h=((r-g)/d+4)/6;break;
+}
+}
+return{h:Math.round(h*360),s:Math.round(s*100),l:Math.round(l*100)};
 }
 function hslToRgb(h,s,l){
-  s/=100;l/=100;
-  const k=n=>(n+h/30)%12;
-  const a=s*Math.min(l,1-l);
-  const f=n=>l-a*Math.max(-1,Math.min(k(n)-3,Math.min(9-k(n),1)));
-  return{r:Math.round(f(0)*255),g:Math.round(f(8)*255),b:Math.round(f(4)*255)};
+s/=100;l/=100;
+const k=n=>(n+h/30)%12;
+const a=s*Math.min(l,1-l);
+const f=n=>l-a*Math.max(-1,Math.min(k(n)-3,Math.min(9-k(n),1)));
+return{r:Math.round(f(0)*255),g:Math.round(f(8)*255),b:Math.round(f(4)*255)};
 }
 function hslToHex(h,s,l){
-  const{r,g,b}=hslToRgb(h,s,l);
-  return rgbToHex(r,g,b);
+const{r,g,b}=hslToRgb(h,s,l);
+return rgbToHex(r,g,b);
 }
 function clampH(h){return((h%360)+360)%360;}
 
 /* ── 配色スキーム ── */
 const SCHEMES={
-  complementary:{
-    desc:'カラーホイールで正反対に位置する2色の組み合わせ。コントラストが強く、力強い印象を与えます。',
-    roles:['プライマリ','補色'],
-    generate(h,s,l){return[[h,s,l],[clampH(h+180),s,l]];}
-  },
-  analogous:{
-    desc:'カラーホイール上で隣り合う色の組み合わせ。自然で調和のとれた、落ち着いた印象になります。',
-    roles:['プライマリ','類似色 −30°','類似色 +30°','類似色 −15°','類似色 +15°'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h-30),s,l],[clampH(h+30),s,l],[clampH(h-15),s,l],[clampH(h+15),s,l]];
-    }
-  },
-  triadic:{
-    desc:'カラーホイールを3等分した位置にある3色。バランスが取れながらも活気があり、多様なデザインに向きます。',
-    roles:['プライマリ','トライアド2','トライアド3'],
-    generate(h,s,l){return[[h,s,l],[clampH(h+120),s,l],[clampH(h+240),s,l]];}
-  },
-  'split-complementary':{
-    desc:'補色の両隣にある2色とベースカラーの組み合わせ。補色より柔らかく、それでも十分なコントラストを持ちます。',
-    roles:['プライマリ','スプリット1','スプリット2'],
-    generate(h,s,l){return[[h,s,l],[clampH(h+150),s,l],[clampH(h+210),s,l]];}
-  },
-  tetradic:{
-    desc:'90°間隔で配置した4色。豊かな色彩表現が可能で、1色を主役にすると効果的です。',
-    roles:['プライマリ','テトラード2','テトラード3','テトラード4'],
-    generate(h,s,l){return[[h,s,l],[clampH(h+90),s,l],[clampH(h+180),s,l],[clampH(h+270),s,l]];}
-  },
-  monochromatic:{
-    desc:'同じ色相の濃淡・明暗のバリエーション。統一感があり洗練された印象を与えます。',
-    roles:['ベース','ダーク','ダーカー','ライト','ライター','最明'],
-    generate(h,s,l){
-      return[
-        [h,s,l],
-        [h,s,Math.max(l-20,5)],
-        [h,s,Math.max(l-38,5)],
-        [h,s,Math.min(l+18,95)],
-        [h,s,Math.min(l+33,95)],
-        [h,Math.max(s-20,5),Math.min(l+48,96)],
-      ];
-    }
-  }
+complementary:{
+desc:'カラーホイールで正反対に位置する2色の組み合わせ。コントラストが強く、力強い印象を与えます。',
+roles:['プライマリ','補色'],
+generate(h,s,l){return[[h,s,l],[clampH(h+180),s,l]];}
+},
+analogous:{
+desc:'カラーホイール上で隣り合う色の組み合わせ。自然で調和のとれた、落ち着いた印象になります。',
+roles:['プライマリ','類似色 −30°','類似色 +30°','類似色 −15°','類似色 +15°'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h-30),s,l],[clampH(h+30),s,l],[clampH(h-15),s,l],[clampH(h+15),s,l]];
+}
+},
+triadic:{
+desc:'カラーホイールを3等分した位置にある3色。バランスが取れながらも活気があり、多様なデザインに向きます。',
+roles:['プライマリ','トライアド2','トライアド3'],
+generate(h,s,l){return[[h,s,l],[clampH(h+120),s,l],[clampH(h+240),s,l]];}
+},
+'split-complementary':{
+desc:'補色の両隣にある2色とベースカラーの組み合わせ。補色より柔らかく、それでも十分なコントラストを持ちます。',
+roles:['プライマリ','スプリット1','スプリット2'],
+generate(h,s,l){return[[h,s,l],[clampH(h+150),s,l],[clampH(h+210),s,l]];}
+},
+tetradic:{
+desc:'90°間隔で配置した4色。豊かな色彩表現が可能で、1色を主役にすると効果的です。',
+roles:['プライマリ','テトラード2','テトラード3','テトラード4'],
+generate(h,s,l){return[[h,s,l],[clampH(h+90),s,l],[clampH(h+180),s,l],[clampH(h+270),s,l]];}
+},
+monochromatic:{
+desc:'同じ色相の濃淡・明暗のバリエーション。統一感があり洗練された印象を与えます。',
+roles:['ベース','ダーク','ダーカー','ライト','ライター','最明'],
+generate(h,s,l){
+return[
+[h,s,l],
+[h,s,Math.max(l-20,5)],
+[h,s,Math.max(l-38,5)],
+[h,s,Math.min(l+18,95)],
+[h,s,Math.min(l+33,95)],
+[h,Math.max(s-20,5),Math.min(l+48,96)],
+];
+}
+}
 };
 
 /* ── WCAGコントラスト比 ── */
 function relativeLuminance(r,g,b){
-  const s=[r,g,b].map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});
-  return .2126*s[0]+.7152*s[1]+.0722*s[2];
+const s=[r,g,b].map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});
+return .2126*s[0]+.7152*s[1]+.0722*s[2];
 }
 function contrastRatio(c1,c2){
-  const l1=relativeLuminance(c1.r,c1.g,c1.b);
-  const l2=relativeLuminance(c2.r,c2.g,c2.b);
-  const bright=Math.max(l1,l2),dark=Math.min(l1,l2);
-  return Math.round(((bright+.05)/(dark+.05))*100)/100;
+const l1=relativeLuminance(c1.r,c1.g,c1.b);
+const l2=relativeLuminance(c2.r,c2.g,c2.b);
+const bright=Math.max(l1,l2),dark=Math.min(l1,l2);
+return Math.round(((bright+.05)/(dark+.05))*100)/100;
 }
 function wcagLevel(ratio){
-  if(ratio>=7)return'AAA';
-  if(ratio>=4.5)return'AA';
-  if(ratio>=3)return'AA 大テキスト';
-  return'不合格';
+if(ratio>=7)return'AAA';
+if(ratio>=4.5)return'AA';
+if(ratio>=3)return'AA 大テキスト';
+return'不合格';
 }
 
 /* ── 状態 ── */
@@ -303,20 +303,20 @@ const copyCssAll=document.getElementById('cs-copy-css-all');
 /* ── トースト ── */
 let toastTimer;
 function showToast(msg){
-  toast.textContent=msg;
-  toast.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
+toast.textContent=msg;
+toast.classList.add('show');
+clearTimeout(toastTimer);
+toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
 }
 
 /* ── コピー ── */
 function copyText(text,msg){
-  navigator.clipboard.writeText(text).then(()=>showToast(msg||'コピーしました！')).catch(()=>{
-    const ta=document.createElement('textarea');
-    ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
-    document.body.appendChild(ta);ta.select();document.execCommand('copy');
-    document.body.removeChild(ta);showToast(msg||'コピーしました！');
-  });
+navigator.clipboard.writeText(text).then(()=>showToast(msg||'コピーしました！')).catch(()=>{
+const ta=document.createElement('textarea');
+ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+document.body.appendChild(ta);ta.select();document.execCommand('copy');
+document.body.removeChild(ta);showToast(msg||'コピーしました！');
+});
 }
 
 /* ── CSS変数名 ── */
@@ -325,131 +325,131 @@ function getCssVarName(i){return CSS_VAR_NAMES[i]||('--color-'+(i+1));}
 
 /* ── スウォッチ文字色 ── */
 function swatchTextColor(hex){
-  const{r,g,b}=hexToRgb(hex);
-  const lum=relativeLuminance(r,g,b);
-  return lum>.35?'rgba(0,0,0,.82)':'rgba(255,255,255,.92)';
+const{r,g,b}=hexToRgb(hex);
+const lum=relativeLuminance(r,g,b);
+return lum>.35?'rgba(0,0,0,.82)':'rgba(255,255,255,.92)';
 }
 
 /* ── スキーム名表示 ── */
 const SCHEME_LABEL_JA={
-  complementary:'補色スキーム',
-  analogous:'類似色スキーム',
-  triadic:'トライアドスキーム',
-  'split-complementary':'スプリット補色スキーム',
-  tetradic:'テトラードスキーム',
-  monochromatic:'モノクロマティックスキーム'
+complementary:'補色スキーム',
+analogous:'類似色スキーム',
+triadic:'トライアドスキーム',
+'split-complementary':'スプリット補色スキーム',
+tetradic:'テトラードスキーム',
+monochromatic:'モノクロマティックスキーム'
 };
 
 /* ── 生成 ── */
 function generate(){
-  const hex=picker.value;
-  const{r,g,b}=hexToRgb(hex);
-  const{h,s,l}=rgbToHsl(r,g,b);
-  const schemeKey=schemeSel.value;
-  const scheme=SCHEMES[schemeKey];
-  const hslList=scheme.generate(h,s,l);
+const hex=picker.value;
+const{r,g,b}=hexToRgb(hex);
+const{h,s,l}=rgbToHsl(r,g,b);
+const schemeKey=schemeSel.value;
+const scheme=SCHEMES[schemeKey];
+const hslList=scheme.generate(h,s,l);
 
-  currentColors=hslList.map(([ch,cs,cl],i)=>{
-    const hexVal=hslToHex(ch,cs,cl);
-    const rgb=hexToRgb(hexVal);
-    return{hex:hexVal,r:rgb.r,g:rgb.g,b:rgb.b,h:ch,s:cs,l:cl,role:scheme.roles[i]||('カラー'+(i+1))};
-  });
+currentColors=hslList.map(([ch,cs,cl],i)=>{
+const hexVal=hslToHex(ch,cs,cl);
+const rgb=hexToRgb(hexVal);
+return{hex:hexVal,r:rgb.r,g:rgb.g,b:rgb.b,h:ch,s:cs,l:cl,role:scheme.roles[i]||('カラー'+(i+1))};
+});
 
-  /* 説明 */
-  descBox.textContent=scheme.desc;
+/* 説明 */
+descBox.textContent=scheme.desc;
 
-  /* ラベル */
-  schemeLabelBox.innerHTML=(SCHEME_LABEL_JA[schemeKey]||schemeKey)+' <span>全'+currentColors.length+'色</span>';
+/* ラベル */
+schemeLabelBox.innerHTML=(SCHEME_LABEL_JA[schemeKey]||schemeKey)+' <span>全'+currentColors.length+'色</span>';
 
-  /* スウォッチ */
-  swatchesEl.innerHTML='';
-  currentColors.forEach((col,i)=>{
-    const tc=swatchTextColor(col.hex);
-    const card=document.createElement('div');
-    card.className='cs-swatch-card';
-    card.innerHTML=`
-      <div class="cs-swatch-block" style="background:${col.hex}" data-hex="${col.hex}">
-        <span class="cs-swatch-role">${col.role}</span>
-        <div class="cs-swatch-copy-hint" style="color:${tc}">クリックでHEXコピー</div>
-      </div>
-      <div class="cs-swatch-info">
-        <div class="cs-swatch-hex">${col.hex.toUpperCase()}</div>
-        <div class="cs-swatch-rgb">rgb(${col.r}, ${col.g}, ${col.b})</div>
-        <div class="cs-swatch-hsl">hsl(${col.h}, ${col.s}%, ${col.l}%)</div>
-        <button class="cs-swatch-copy-btn" data-idx="${i}">HEXをコピー</button>
-      </div>`;
-    swatchesEl.appendChild(card);
-  });
+/* スウォッチ */
+swatchesEl.innerHTML='';
+currentColors.forEach((col,i)=>{
+const tc=swatchTextColor(col.hex);
+const card=document.createElement('div');
+card.className='cs-swatch-card';
+card.innerHTML=`
+<div class="cs-swatch-block" style="background:${col.hex}" data-hex="${col.hex}">
+<span class="cs-swatch-role">${col.role}</span>
+<div class="cs-swatch-copy-hint" style="color:${tc}">クリックでHEXコピー</div>
+</div>
+<div class="cs-swatch-info">
+<div class="cs-swatch-hex">${col.hex.toUpperCase()}</div>
+<div class="cs-swatch-rgb">rgb(${col.r}, ${col.g}, ${col.b})</div>
+<div class="cs-swatch-hsl">hsl(${col.h}, ${col.s}%, ${col.l}%)</div>
+<button class="cs-swatch-copy-btn" data-idx="${i}">HEXをコピー</button>
+</div>`;
+swatchesEl.appendChild(card);
+});
 
-  /* CSS変数 */
-  let cssText=':root {\n';
-  currentColors.forEach((col,i)=>{
-    const vname=getCssVarName(i);
-    cssText+=`  ${vname}: ${col.hex.toUpperCase()}; /* ${col.role} */\n`;
-    cssText+=`  ${vname}-rgb: ${col.r}, ${col.g}, ${col.b};\n`;
-    cssText+=`  ${vname}-hsl: ${col.h}deg ${col.s}% ${col.l}%;\n`;
-  });
-  cssText+='}';
+/* CSS変数 */
+let cssText=':root {\n';
+currentColors.forEach((col,i)=>{
+const vname=getCssVarName(i);
+cssText+=`  ${vname}: ${col.hex.toUpperCase()}; /* ${col.role} */\n`;
+cssText+=`  ${vname}-rgb: ${col.r}, ${col.g}, ${col.b};\n`;
+cssText+=`  ${vname}-hsl: ${col.h}deg ${col.s}% ${col.l}%;\n`;
+});
+cssText+='}';
 
-  cssPre.innerHTML=cssText
-    .replace(/(:root \{|\})/g,'<span class="cs-var-comment">$1</span>')
-    .replace(/(--[\w-]+)(:)/g,'<span class="cs-var-name">$1</span>$2')
-    .replace(/:\s*(#[0-9a-fA-F]+|\d+[^;]*);/g,(m,v)=>m.replace(v,'<span class="cs-var-val">'+v+'</span>'));
+cssPre.innerHTML=cssText
+.replace(/(:root \{|\})/g,'<span class="cs-var-comment">$1</span>')
+.replace(/(--[\w-]+)(:)/g,'<span class="cs-var-name">$1</span>$2')
+.replace(/:\s*(#[0-9a-fA-F]+|\d+[^;]*);/g,(m,v)=>m.replace(v,'<span class="cs-var-val">'+v+'</span>'));
 
-  /* コントラスト比 */
-  contrastGrid.innerHTML='';
-  const pairs=[];
-  for(let i=0;i<currentColors.length;i++){
-    for(let j=i+1;j<currentColors.length;j++){pairs.push([i,j]);}
-  }
-  pairs.forEach(([i,j])=>{
-    const a=currentColors[i],b=currentColors[j];
-    const ratio=contrastRatio(a,b);
-    const level=wcagLevel(ratio);
-    const ratioClass=level==='AAA'?'cs-ratio-aaa':level.startsWith('AA')?'cs-ratio-aa':'cs-ratio-fail';
-    const badgeClass=level==='AAA'?'cs-wcag-aaa':level.startsWith('AA')?'cs-wcag-aa':'cs-wcag-fail';
-    const row=document.createElement('div');
-    row.className='cs-contrast-row';
-    row.innerHTML=`
-      <div class="cs-contrast-swatch-pair">
-        <div class="cs-contrast-dot" style="background:${a.hex}"></div>
-        <div class="cs-contrast-dot" style="background:${b.hex}"></div>
-      </div>
-      <div class="cs-contrast-label">${a.role} × ${b.role}</div>
-      <div class="cs-contrast-ratio ${ratioClass}">${ratio}:1</div>
-      <span class="cs-wcag-badge ${badgeClass}">${level}</span>`;
-    contrastGrid.appendChild(row);
-  });
+/* コントラスト比 */
+contrastGrid.innerHTML='';
+const pairs=[];
+for(let i=0;i<currentColors.length;i++){
+for(let j=i+1;j<currentColors.length;j++){pairs.push([i,j]);}
+}
+pairs.forEach(([i,j])=>{
+const a=currentColors[i],b=currentColors[j];
+const ratio=contrastRatio(a,b);
+const level=wcagLevel(ratio);
+const ratioClass=level==='AAA'?'cs-ratio-aaa':level.startsWith('AA')?'cs-ratio-aa':'cs-ratio-fail';
+const badgeClass=level==='AAA'?'cs-wcag-aaa':level.startsWith('AA')?'cs-wcag-aa':'cs-wcag-fail';
+const row=document.createElement('div');
+row.className='cs-contrast-row';
+row.innerHTML=`
+<div class="cs-contrast-swatch-pair">
+<div class="cs-contrast-dot" style="background:${a.hex}"></div>
+<div class="cs-contrast-dot" style="background:${b.hex}"></div>
+</div>
+<div class="cs-contrast-label">${a.role} × ${b.role}</div>
+<div class="cs-contrast-ratio ${ratioClass}">${ratio}:1</div>
+<span class="cs-wcag-badge ${badgeClass}">${level}</span>`;
+contrastGrid.appendChild(row);
+});
 
-  cssBox.dataset.raw=cssText;
+cssBox.dataset.raw=cssText;
 }
 
 /* ── イベント ── */
 picker.addEventListener('input',()=>{hexIn.value=picker.value;generate();});
 
 hexIn.addEventListener('input',()=>{
-  let v=hexIn.value.trim();
-  if(!v.startsWith('#'))v='#'+v;
-  if(/^#[0-9a-fA-F]{6}$/.test(v)){picker.value=v;generate();}
+let v=hexIn.value.trim();
+if(!v.startsWith('#'))v='#'+v;
+if(/^#[0-9a-fA-F]{6}$/.test(v)){picker.value=v;generate();}
 });
 
 hexIn.addEventListener('keydown',e=>{
-  if(e.key==='Enter'){
-    let v=hexIn.value.trim();
-    if(!v.startsWith('#'))v='#'+v;
-    if(/^#[0-9a-fA-F]{3}$/.test(v)){v='#'+v[1]+v[1]+v[2]+v[2]+v[3]+v[3];}
-    if(/^#[0-9a-fA-F]{6}$/.test(v)){picker.value=v;hexIn.value=v;generate();}
-  }
+if(e.key==='Enter'){
+let v=hexIn.value.trim();
+if(!v.startsWith('#'))v='#'+v;
+if(/^#[0-9a-fA-F]{3}$/.test(v)){v='#'+v[1]+v[1]+v[2]+v[2]+v[3]+v[3];}
+if(/^#[0-9a-fA-F]{6}$/.test(v)){picker.value=v;hexIn.value=v;generate();}
+}
 });
 
 schemeSel.addEventListener('change',generate);
 genBtn.addEventListener('click',generate);
 
 swatchesEl.addEventListener('click',e=>{
-  const block=e.target.closest('.cs-swatch-block');
-  if(block){copyText(block.dataset.hex.toUpperCase(),'HEXをコピーしました！');return;}
-  const btn=e.target.closest('.cs-swatch-copy-btn');
-  if(btn){const idx=parseInt(btn.dataset.idx);copyText(currentColors[idx].hex.toUpperCase(),'HEXをコピーしました！');}
+const block=e.target.closest('.cs-swatch-block');
+if(block){copyText(block.dataset.hex.toUpperCase(),'HEXをコピーしました！');return;}
+const btn=e.target.closest('.cs-swatch-copy-btn');
+if(btn){const idx=parseInt(btn.dataset.idx);copyText(currentColors[idx].hex.toUpperCase(),'HEXをコピーしました！');}
 });
 
 cssCopyBtn.addEventListener('click',()=>copyText(cssBox.dataset.raw||'','CSS変数をコピーしました！'));

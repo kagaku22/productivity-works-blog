@@ -61,13 +61,13 @@ Enter your home price, down payment, and loan details to calculate your **full m
 <label style="display:block;font-weight:bold;margin-bottom:10px;">Loan Term</label>
 <div style="display:flex;gap:12px;">
 <label style="flex:1;text-align:center;padding:10px;border:2px solid #e2e8f0;border-radius:8px;cursor:pointer;font-weight:bold;" id="term15label">
-  <input type="radio" name="loanTerm" value="15" onchange="calcMort()" style="display:none;"> 15 Years
+<input type="radio" name="loanTerm" value="15" onchange="calcMort()" style="display:none;"> 15 Years
 </label>
 <label style="flex:1;text-align:center;padding:10px;border:2px solid #e2e8f0;border-radius:8px;cursor:pointer;font-weight:bold;" id="term20label">
-  <input type="radio" name="loanTerm" value="20" onchange="calcMort()" style="display:none;"> 20 Years
+<input type="radio" name="loanTerm" value="20" onchange="calcMort()" style="display:none;"> 20 Years
 </label>
 <label style="flex:1;text-align:center;padding:10px;border:2px solid #2563eb;border-radius:8px;cursor:pointer;font-weight:bold;background:#eff6ff;color:#2563eb;" id="term30label">
-  <input type="radio" name="loanTerm" value="30" checked onchange="calcMort()" style="display:none;"> 30 Years
+<input type="radio" name="loanTerm" value="30" checked onchange="calcMort()" style="display:none;"> 30 Years
 </label>
 </div>
 </div>
@@ -84,7 +84,7 @@ Enter your home price, down payment, and loan details to calculate your **full m
 </div>
 
 <div id="pmiRow" style="margin-bottom:4px;padding:10px 12px;background:#fef3c7;border:1px solid #fcd34d;border-radius:8px;font-size:14px;color:#92400e;display:none;">
-  PMI automatically added — down payment is below 20%. PMI is removed once equity reaches 20%.
+PMI automatically added — down payment is below 20%. PMI is removed once equity reaches 20%.
 </div>
 
 </div>
@@ -194,171 +194,171 @@ function fmt(n){return '$'+Math.round(n).toLocaleString();}
 function fmtR(n){return n.toFixed(3)+'%';}
 
 function getTermYears(){
-  var radios=document.getElementsByName('loanTerm');
-  for(var i=0;i<radios.length;i++){if(radios[i].checked)return parseInt(radios[i].value);}
-  return 30;
+var radios=document.getElementsByName('loanTerm');
+for(var i=0;i<radios.length;i++){if(radios[i].checked)return parseInt(radios[i].value);}
+return 30;
 }
 
 function updateTermLabels(selected){
-  var terms=[15,20,30];
-  terms.forEach(function(t){
-    var el=document.getElementById('term'+t+'label');
-    if(t===selected){
-      el.style.borderColor='#2563eb';
-      el.style.background='#eff6ff';
-      el.style.color='#2563eb';
-    } else {
-      el.style.borderColor='#e2e8f0';
-      el.style.background='white';
-      el.style.color='#1e293b';
-    }
-  });
+var terms=[15,20,30];
+terms.forEach(function(t){
+var el=document.getElementById('term'+t+'label');
+if(t===selected){
+el.style.borderColor='#2563eb';
+el.style.background='#eff6ff';
+el.style.color='#2563eb';
+} else {
+el.style.borderColor='#e2e8f0';
+el.style.background='white';
+el.style.color='#1e293b';
+}
+});
 }
 
 function calcPI(principal, annualRate, years){
-  var r=annualRate/100/12;
-  var n=years*12;
-  if(r===0) return principal/n;
-  return principal*(r*Math.pow(1+r,n))/(Math.pow(1+r,n)-1);
+var r=annualRate/100/12;
+var n=years*12;
+if(r===0) return principal/n;
+return principal*(r*Math.pow(1+r,n))/(Math.pow(1+r,n)-1);
 }
 
 function buildAmort(principal, annualRate, years){
-  var r=annualRate/100/12;
-  var n=years*12;
-  var payment=calcPI(principal,annualRate,years);
-  var balance=principal;
-  var rows=[];
-  for(var y=1;y<=years;y++){
-    var yearPrincipal=0;
-    var yearInterest=0;
-    var yearPayment=0;
-    for(var m=0;m<12;m++){
-      var interest=balance*r;
-      var princ=payment-interest;
-      if(princ>balance) princ=balance;
-      balance-=princ;
-      yearInterest+=interest;
-      yearPrincipal+=princ;
-      yearPayment+=payment;
-      if(balance<0.01){balance=0;break;}
-    }
-    rows.push({year:y,payment:yearPayment,principal:yearPrincipal,interest:yearInterest,balance:Math.max(0,balance)});
-    if(balance===0) break;
-  }
-  return rows;
+var r=annualRate/100/12;
+var n=years*12;
+var payment=calcPI(principal,annualRate,years);
+var balance=principal;
+var rows=[];
+for(var y=1;y<=years;y++){
+var yearPrincipal=0;
+var yearInterest=0;
+var yearPayment=0;
+for(var m=0;m<12;m++){
+var interest=balance*r;
+var princ=payment-interest;
+if(princ>balance) princ=balance;
+balance-=princ;
+yearInterest+=interest;
+yearPrincipal+=princ;
+yearPayment+=payment;
+if(balance<0.01){balance=0;break;}
+}
+rows.push({year:y,payment:yearPayment,principal:yearPrincipal,interest:yearInterest,balance:Math.max(0,balance)});
+if(balance===0) break;
+}
+return rows;
 }
 
 function amortRow(r,bg){
-  return '<tr style="background:'+bg+'">'+
-    '<td style="padding:8px;">Year '+r.year+'</td>'+
-    '<td style="padding:8px;text-align:right;">'+fmt(r.payment)+'</td>'+
-    '<td style="padding:8px;text-align:right;color:#0369a1;">'+fmt(r.principal)+'</td>'+
-    '<td style="padding:8px;text-align:right;color:#dc2626;">'+fmt(r.interest)+'</td>'+
-    '<td style="padding:8px;text-align:right;font-weight:bold;">'+fmt(r.balance)+'</td>'+
-    '</tr>';
+return '<tr style="background:'+bg+'">'+
+'<td style="padding:8px;">Year '+r.year+'</td>'+
+'<td style="padding:8px;text-align:right;">'+fmt(r.payment)+'</td>'+
+'<td style="padding:8px;text-align:right;color:#0369a1;">'+fmt(r.principal)+'</td>'+
+'<td style="padding:8px;text-align:right;color:#dc2626;">'+fmt(r.interest)+'</td>'+
+'<td style="padding:8px;text-align:right;font-weight:bold;">'+fmt(r.balance)+'</td>'+
+'</tr>';
 }
 
 function calcMort(){
-  var homePrice=parseFloat(document.getElementById('homePrice').value)||350000;
-  var dpPct=parseFloat(document.getElementById('downPct').value)||0;
-  var rate=parseFloat(document.getElementById('intRate').value)||6.5;
-  var years=getTermYears();
-  var taxRate=parseFloat(document.getElementById('propTax').value)||0;
-  var insAnnual=parseFloat(document.getElementById('insurance').value)||0;
+var homePrice=parseFloat(document.getElementById('homePrice').value)||350000;
+var dpPct=parseFloat(document.getElementById('downPct').value)||0;
+var rate=parseFloat(document.getElementById('intRate').value)||6.5;
+var years=getTermYears();
+var taxRate=parseFloat(document.getElementById('propTax').value)||0;
+var insAnnual=parseFloat(document.getElementById('insurance').value)||0;
 
-  updateTermLabels(years);
+updateTermLabels(years);
 
-  var downAmt=homePrice*(dpPct/100);
-  var loanAmt=homePrice-downAmt;
+var downAmt=homePrice*(dpPct/100);
+var loanAmt=homePrice-downAmt;
 
-  document.getElementById('dpPct').textContent=dpPct+'%';
-  document.getElementById('dpAmt').textContent='('+fmt(downAmt)+')';
-  document.getElementById('loanAmtDisplay').textContent=fmt(loanAmt);
-  document.getElementById('ratePct').textContent=rate.toFixed(3).replace(/\.?0+$/,'')+'%';
-  var taxMonthly=(homePrice*taxRate/100)/12;
-  document.getElementById('taxPct').textContent=taxRate.toFixed(1)+'%';
-  document.getElementById('taxAmt').textContent='('+fmt(taxMonthly)+'/mo)';
+document.getElementById('dpPct').textContent=dpPct+'%';
+document.getElementById('dpAmt').textContent='('+fmt(downAmt)+')';
+document.getElementById('loanAmtDisplay').textContent=fmt(loanAmt);
+document.getElementById('ratePct').textContent=rate.toFixed(3).replace(/\.?0+$/,'')+'%';
+var taxMonthly=(homePrice*taxRate/100)/12;
+document.getElementById('taxPct').textContent=taxRate.toFixed(1)+'%';
+document.getElementById('taxAmt').textContent='('+fmt(taxMonthly)+'/mo)';
 
-  var hasPMI=dpPct<20;
-  var pmiMonthly=hasPMI?(loanAmt*0.005/12):0;
+var hasPMI=dpPct<20;
+var pmiMonthly=hasPMI?(loanAmt*0.005/12):0;
 
-  document.getElementById('pmiRow').style.display=hasPMI?'block':'none';
-  document.getElementById('pmiCell').style.display=hasPMI?'block':'none';
-  document.getElementById('pmiLegend').style.display=hasPMI?'inline':'none';
+document.getElementById('pmiRow').style.display=hasPMI?'block':'none';
+document.getElementById('pmiCell').style.display=hasPMI?'block':'none';
+document.getElementById('pmiLegend').style.display=hasPMI?'inline':'none';
 
-  var pi=calcPI(loanAmt,rate,years);
-  var insMonthly=insAnnual/12;
-  var total=pi+taxMonthly+insMonthly+pmiMonthly;
+var pi=calcPI(loanAmt,rate,years);
+var insMonthly=insAnnual/12;
+var total=pi+taxMonthly+insMonthly+pmiMonthly;
 
-  document.getElementById('totalMonthly').textContent=fmt(total);
-  document.getElementById('piPayment').textContent=fmt(pi);
-  document.getElementById('taxPayment').textContent=fmt(taxMonthly);
-  document.getElementById('insPayment').textContent=fmt(insMonthly);
-  document.getElementById('pmiPayment').textContent=fmt(pmiMonthly);
+document.getElementById('totalMonthly').textContent=fmt(total);
+document.getElementById('piPayment').textContent=fmt(pi);
+document.getElementById('taxPayment').textContent=fmt(taxMonthly);
+document.getElementById('insPayment').textContent=fmt(insMonthly);
+document.getElementById('pmiPayment').textContent=fmt(pmiMonthly);
 
-  // Total over loan life (P&I only for interest calc, full payment for lifetime)
-  var totalPI=pi*years*12;
-  var totalInterest=totalPI-loanAmt;
-  var totalLifetime=total*years*12;
-  document.getElementById('totalLifetime').textContent=fmt(totalLifetime);
-  document.getElementById('totalInterest').textContent=fmt(totalInterest);
+// Total over loan life (P&I only for interest calc, full payment for lifetime)
+var totalPI=pi*years*12;
+var totalInterest=totalPI-loanAmt;
+var totalLifetime=total*years*12;
+document.getElementById('totalLifetime').textContent=fmt(totalLifetime);
+document.getElementById('totalInterest').textContent=fmt(totalInterest);
 
-  // Bar
-  var piPct=(pi/total)*100;
-  var taxPct=(taxMonthly/total)*100;
-  var insPct=(insMonthly/total)*100;
-  var pmiPct=(pmiMonthly/total)*100;
-  document.getElementById('barPI').style.width=piPct+'%';
-  document.getElementById('barTax').style.width=taxPct+'%';
-  document.getElementById('barIns').style.width=insPct+'%';
-  document.getElementById('barPMI').style.width=pmiPct+'%';
+// Bar
+var piPct=(pi/total)*100;
+var taxPct=(taxMonthly/total)*100;
+var insPct=(insMonthly/total)*100;
+var pmiPct=(pmiMonthly/total)*100;
+document.getElementById('barPI').style.width=piPct+'%';
+document.getElementById('barTax').style.width=taxPct+'%';
+document.getElementById('barIns').style.width=insPct+'%';
+document.getElementById('barPMI').style.width=pmiPct+'%';
 
-  // Amortization
-  var rows=buildAmort(loanAmt,rate,years);
-  var first5='';
-  var rest='';
-  rows.forEach(function(r,i){
-    var bg=i%2===0?'white':'#f8fafc';
-    if(i<5) first5+=amortRow(r,bg);
-    else rest+=amortRow(r,bg);
-  });
-  document.getElementById('amortFirst5').innerHTML=first5;
-  document.getElementById('amortRest').innerHTML=rest;
-  document.getElementById('amortDetails').style.display=rows.length>5?'block':'none';
+// Amortization
+var rows=buildAmort(loanAmt,rate,years);
+var first5='';
+var rest='';
+rows.forEach(function(r,i){
+var bg=i%2===0?'white':'#f8fafc';
+if(i<5) first5+=amortRow(r,bg);
+else rest+=amortRow(r,bg);
+});
+document.getElementById('amortFirst5').innerHTML=first5;
+document.getElementById('amortRest').innerHTML=rest;
+document.getElementById('amortDetails').style.display=rows.length>5?'block':'none';
 
-  // Rate comparison
-  var offsets=[-1.0,-0.5,0,0.5,1.0];
-  var compHTML='';
-  offsets.forEach(function(offset){
-    var r2=Math.max(0.125,rate+offset);
-    var pi2=calcPI(loanAmt,r2,years);
-    var total2=pi2+taxMonthly+insMonthly+pmiMonthly;
-    var diff=total2-total;
-    var isBase=offset===0;
-    var bg=isBase?'#eff6ff':'white';
-    var border=isBase?'2px solid #2563eb':'1px solid #e2e8f0';
-    var diffStr=isBase?'<span style="color:#2563eb;font-size:12px;">current rate</span>'
-      :(diff>0?'<span style="color:#dc2626;font-size:12px;">+'+fmt(diff)+'/mo</span>'
-              :'<span style="color:#059669;font-size:12px;">'+fmt(diff)+'/mo</span>');
-    compHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:'+bg+';border:'+border+';border-radius:8px;">';
-    compHTML+='<div><strong>'+r2.toFixed(3).replace(/0+$/,'').replace(/\.$/,'')+'%</strong>'+(offset!==0?' <span style="font-size:12px;color:#64748b;">('+( offset>0?'+':'')+offset.toFixed(1)+'%)</span>':'')+'</div>';
-    compHTML+='<div style="text-align:right;"><span style="font-size:18px;font-weight:bold;">'+fmt(total2)+'/mo</span> '+diffStr+'</div>';
-    compHTML+='</div>';
-  });
-  document.getElementById('rateComparison').innerHTML=compHTML;
+// Rate comparison
+var offsets=[-1.0,-0.5,0,0.5,1.0];
+var compHTML='';
+offsets.forEach(function(offset){
+var r2=Math.max(0.125,rate+offset);
+var pi2=calcPI(loanAmt,r2,years);
+var total2=pi2+taxMonthly+insMonthly+pmiMonthly;
+var diff=total2-total;
+var isBase=offset===0;
+var bg=isBase?'#eff6ff':'white';
+var border=isBase?'2px solid #2563eb':'1px solid #e2e8f0';
+var diffStr=isBase?'<span style="color:#2563eb;font-size:12px;">current rate</span>'
+:(diff>0?'<span style="color:#dc2626;font-size:12px;">+'+fmt(diff)+'/mo</span>'
+:'<span style="color:#059669;font-size:12px;">'+fmt(diff)+'/mo</span>');
+compHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:'+bg+';border:'+border+';border-radius:8px;">';
+compHTML+='<div><strong>'+r2.toFixed(3).replace(/0+$/,'').replace(/\.$/,'')+'%</strong>'+(offset!==0?' <span style="font-size:12px;color:#64748b;">('+( offset>0?'+':'')+offset.toFixed(1)+'%)</span>':'')+'</div>';
+compHTML+='<div style="text-align:right;"><span style="font-size:18px;font-weight:bold;">'+fmt(total2)+'/mo</span> '+diffStr+'</div>';
+compHTML+='</div>';
+});
+document.getElementById('rateComparison').innerHTML=compHTML;
 }
 
 // Attach term radio change to also update labels
 document.getElementsByName('loanTerm').forEach(function(r){
-  r.addEventListener('change',function(){calcMort();});
+r.addEventListener('change',function(){calcMort();});
 });
 
 // Attach term label clicks
 [15,20,30].forEach(function(t){
-  document.getElementById('term'+t+'label').addEventListener('click',function(){
-    document.querySelector('input[name="loanTerm"][value="'+t+'"]').checked=true;
-    calcMort();
-  });
+document.getElementById('term'+t+'label').addEventListener('click',function(){
+document.querySelector('input[name="loanTerm"][value="'+t+'"]').checked=true;
+calcMort();
+});
 });
 
 calcMort();

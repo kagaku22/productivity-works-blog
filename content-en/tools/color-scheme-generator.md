@@ -109,29 +109,29 @@ cover:
 
 <!-- Controls -->
 <div class="cs-controls">
-  <div class="cs-group">
-    <label>Base Color</label>
-    <input type="color" id="cs-picker" class="cs-color-pick" value="#6c63ff">
-  </div>
-  <div class="cs-group">
-    <label>HEX</label>
-    <input type="text" id="cs-hex-in" class="cs-hex-input" value="#6c63ff" maxlength="7" placeholder="#000000">
-  </div>
-  <div class="cs-group">
-    <label>Harmony Type</label>
-    <select id="cs-scheme-sel" class="cs-select">
-      <option value="complementary">Complementary</option>
-      <option value="analogous">Analogous</option>
-      <option value="triadic">Triadic</option>
-      <option value="split-complementary">Split-Complementary</option>
-      <option value="tetradic">Tetradic</option>
-      <option value="monochromatic">Monochromatic</option>
-    </select>
-  </div>
-  <div class="cs-group">
-    <label>&nbsp;</label>
-    <button class="cs-btn cs-btn-primary" id="cs-gen-btn">Generate</button>
-  </div>
+<div class="cs-group">
+<label>Base Color</label>
+<input type="color" id="cs-picker" class="cs-color-pick" value="#6c63ff">
+</div>
+<div class="cs-group">
+<label>HEX</label>
+<input type="text" id="cs-hex-in" class="cs-hex-input" value="#6c63ff" maxlength="7" placeholder="#000000">
+</div>
+<div class="cs-group">
+<label>Harmony Type</label>
+<select id="cs-scheme-sel" class="cs-select">
+<option value="complementary">Complementary</option>
+<option value="analogous">Analogous</option>
+<option value="triadic">Triadic</option>
+<option value="split-complementary">Split-Complementary</option>
+<option value="tetradic">Tetradic</option>
+<option value="monochromatic">Monochromatic</option>
+</select>
+</div>
+<div class="cs-group">
+<label>&nbsp;</label>
+<button class="cs-btn cs-btn-primary" id="cs-gen-btn">Generate</button>
+</div>
 </div>
 
 <!-- Scheme description -->
@@ -145,24 +145,24 @@ cover:
 
 <!-- Copy all bar -->
 <div class="cs-copy-all-bar">
-  <span>Copy entire scheme:</span>
-  <button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-hex-all">Copy all HEX</button>
-  <button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-css-all">Copy CSS vars</button>
+<span>Copy entire scheme:</span>
+<button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-hex-all">Copy all HEX</button>
+<button class="cs-btn cs-btn-secondary cs-btn-sm" id="cs-copy-css-all">Copy CSS vars</button>
 </div>
 
 <!-- CSS Variables output -->
 <div class="cs-css-section">
-  <div class="cs-section-title">CSS Variables</div>
-  <div class="cs-css-box" id="cs-css-box">
-    <button class="cs-css-copy-btn" id="cs-css-copy-btn">Copy</button>
-    <pre id="cs-css-pre" style="white-space:pre-wrap;word-break:break-all;"></pre>
-  </div>
+<div class="cs-section-title">CSS Variables</div>
+<div class="cs-css-box" id="cs-css-box">
+<button class="cs-css-copy-btn" id="cs-css-copy-btn">Copy</button>
+<pre id="cs-css-pre" style="white-space:pre-wrap;word-break:break-all;"></pre>
+</div>
 </div>
 
 <!-- Contrast ratios -->
 <div class="cs-contrast-section">
-  <div class="cs-section-title">Accessibility — Contrast Ratios (WCAG 2.1)</div>
-  <div class="cs-contrast-grid" id="cs-contrast-grid"></div>
+<div class="cs-section-title">Accessibility — Contrast Ratios (WCAG 2.1)</div>
+<div class="cs-contrast-grid" id="cs-contrast-grid"></div>
 </div>
 
 </div>
@@ -175,111 +175,111 @@ cover:
 
 /* ── Colour math ── */
 function hexToRgb(hex){
-  hex=hex.replace(/^#/,'');
-  if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
-  const n=parseInt(hex,16);
-  return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
+hex=hex.replace(/^#/,'');
+if(hex.length===3)hex=hex.split('').map(c=>c+c).join('');
+const n=parseInt(hex,16);
+return{r:(n>>16)&255,g:(n>>8)&255,b:n&255};
 }
 function rgbToHex(r,g,b){
-  return'#'+[r,g,b].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
+return'#'+[r,g,b].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
 }
 function rgbToHsl(r,g,b){
-  r/=255;g/=255;b/=255;
-  const max=Math.max(r,g,b),min=Math.min(r,g,b);
-  let h,s,l=(max+min)/2;
-  if(max===min){h=s=0;}else{
-    const d=max-min;
-    s=l>.5?d/(2-max-min):d/(max+min);
-    switch(max){
-      case r:h=((g-b)/d+(g<b?6:0))/6;break;
-      case g:h=((b-r)/d+2)/6;break;
-      case b:h=((r-g)/d+4)/6;break;
-    }
-  }
-  return{h:Math.round(h*360),s:Math.round(s*100),l:Math.round(l*100)};
+r/=255;g/=255;b/=255;
+const max=Math.max(r,g,b),min=Math.min(r,g,b);
+let h,s,l=(max+min)/2;
+if(max===min){h=s=0;}else{
+const d=max-min;
+s=l>.5?d/(2-max-min):d/(max+min);
+switch(max){
+case r:h=((g-b)/d+(g<b?6:0))/6;break;
+case g:h=((b-r)/d+2)/6;break;
+case b:h=((r-g)/d+4)/6;break;
+}
+}
+return{h:Math.round(h*360),s:Math.round(s*100),l:Math.round(l*100)};
 }
 function hslToRgb(h,s,l){
-  s/=100;l/=100;
-  const k=n=>(n+h/30)%12;
-  const a=s*Math.min(l,1-l);
-  const f=n=>l-a*Math.max(-1,Math.min(k(n)-3,Math.min(9-k(n),1)));
-  return{r:Math.round(f(0)*255),g:Math.round(f(8)*255),b:Math.round(f(4)*255)};
+s/=100;l/=100;
+const k=n=>(n+h/30)%12;
+const a=s*Math.min(l,1-l);
+const f=n=>l-a*Math.max(-1,Math.min(k(n)-3,Math.min(9-k(n),1)));
+return{r:Math.round(f(0)*255),g:Math.round(f(8)*255),b:Math.round(f(4)*255)};
 }
 function hslToHex(h,s,l){
-  const{r,g,b}=hslToRgb(h,s,l);
-  return rgbToHex(r,g,b);
+const{r,g,b}=hslToRgb(h,s,l);
+return rgbToHex(r,g,b);
 }
 function clampH(h){return((h%360)+360)%360;}
 
 /* ── Scheme generators ── */
 const SCHEMES={
-  complementary:{
-    desc:'Two colors opposite each other on the color wheel — high contrast, bold, and eye-catching.',
-    roles:['Primary','Complement'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h+180),s,l]];
-    }
-  },
-  analogous:{
-    desc:'Colors adjacent on the wheel — harmonious, serene, and pleasing. Great for backgrounds and brand palettes.',
-    roles:['Primary','Analogous −30°','Analogous +30°','Analogous −15°','Analogous +15°'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h-30),s,l],[clampH(h+30),s,l],[clampH(h-15),s,l],[clampH(h+15),s,l]];
-    }
-  },
-  triadic:{
-    desc:'Three colors evenly spaced 120° apart — vibrant and balanced, works well for diverse, dynamic designs.',
-    roles:['Primary','Triadic 2','Triadic 3'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h+120),s,l],[clampH(h+240),s,l]];
-    }
-  },
-  'split-complementary':{
-    desc:'The base color plus two colors adjacent to its complement — high contrast with more variety than complementary.',
-    roles:['Primary','Split 1','Split 2'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h+150),s,l],[clampH(h+210),s,l]];
-    }
-  },
-  tetradic:{
-    desc:'Four colors forming two complementary pairs — rich and full, best used with one dominant color.',
-    roles:['Primary','Tetrad 2','Tetrad 3','Tetrad 4'],
-    generate(h,s,l){
-      return[[h,s,l],[clampH(h+90),s,l],[clampH(h+180),s,l],[clampH(h+270),s,l]];
-    }
-  },
-  monochromatic:{
-    desc:'Tints, tones, and shades of a single hue — elegant, cohesive, and easy to work with.',
-    roles:['Base','Dark','Darker','Light','Lighter','Lightest'],
-    generate(h,s,l){
-      return[
-        [h,s,l],
-        [h,s,Math.max(l-20,5)],
-        [h,s,Math.max(l-38,5)],
-        [h,s,Math.min(l+18,95)],
-        [h,s,Math.min(l+33,95)],
-        [h,Math.max(s-20,5),Math.min(l+48,96)],
-      ];
-    }
-  }
+complementary:{
+desc:'Two colors opposite each other on the color wheel — high contrast, bold, and eye-catching.',
+roles:['Primary','Complement'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h+180),s,l]];
+}
+},
+analogous:{
+desc:'Colors adjacent on the wheel — harmonious, serene, and pleasing. Great for backgrounds and brand palettes.',
+roles:['Primary','Analogous −30°','Analogous +30°','Analogous −15°','Analogous +15°'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h-30),s,l],[clampH(h+30),s,l],[clampH(h-15),s,l],[clampH(h+15),s,l]];
+}
+},
+triadic:{
+desc:'Three colors evenly spaced 120° apart — vibrant and balanced, works well for diverse, dynamic designs.',
+roles:['Primary','Triadic 2','Triadic 3'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h+120),s,l],[clampH(h+240),s,l]];
+}
+},
+'split-complementary':{
+desc:'The base color plus two colors adjacent to its complement — high contrast with more variety than complementary.',
+roles:['Primary','Split 1','Split 2'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h+150),s,l],[clampH(h+210),s,l]];
+}
+},
+tetradic:{
+desc:'Four colors forming two complementary pairs — rich and full, best used with one dominant color.',
+roles:['Primary','Tetrad 2','Tetrad 3','Tetrad 4'],
+generate(h,s,l){
+return[[h,s,l],[clampH(h+90),s,l],[clampH(h+180),s,l],[clampH(h+270),s,l]];
+}
+},
+monochromatic:{
+desc:'Tints, tones, and shades of a single hue — elegant, cohesive, and easy to work with.',
+roles:['Base','Dark','Darker','Light','Lighter','Lightest'],
+generate(h,s,l){
+return[
+[h,s,l],
+[h,s,Math.max(l-20,5)],
+[h,s,Math.max(l-38,5)],
+[h,s,Math.min(l+18,95)],
+[h,s,Math.min(l+33,95)],
+[h,Math.max(s-20,5),Math.min(l+48,96)],
+];
+}
+}
 };
 
 /* ── WCAG contrast ── */
 function relativeLuminance(r,g,b){
-  const s=[r,g,b].map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});
-  return .2126*s[0]+.7152*s[1]+.0722*s[2];
+const s=[r,g,b].map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});
+return .2126*s[0]+.7152*s[1]+.0722*s[2];
 }
 function contrastRatio(c1,c2){
-  const l1=relativeLuminance(c1.r,c1.g,c1.b);
-  const l2=relativeLuminance(c2.r,c2.g,c2.b);
-  const bright=Math.max(l1,l2),dark=Math.min(l1,l2);
-  return Math.round(((bright+.05)/(dark+.05))*100)/100;
+const l1=relativeLuminance(c1.r,c1.g,c1.b);
+const l2=relativeLuminance(c2.r,c2.g,c2.b);
+const bright=Math.max(l1,l2),dark=Math.min(l1,l2);
+return Math.round(((bright+.05)/(dark+.05))*100)/100;
 }
 function wcagLevel(ratio){
-  if(ratio>=7)return'AAA';
-  if(ratio>=4.5)return'AA';
-  if(ratio>=3)return'AA Large';
-  return'Fail';
+if(ratio>=7)return'AAA';
+if(ratio>=4.5)return'AA';
+if(ratio>=3)return'AA Large';
+return'Fail';
 }
 
 /* ── State ── */
@@ -304,20 +304,20 @@ const copyCssAll=document.getElementById('cs-copy-css-all');
 /* ── Toast ── */
 let toastTimer;
 function showToast(msg){
-  toast.textContent=msg;
-  toast.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
+toast.textContent=msg;
+toast.classList.add('show');
+clearTimeout(toastTimer);
+toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
 }
 
 /* ── Copy helper ── */
 function copyText(text,msg){
-  navigator.clipboard.writeText(text).then(()=>showToast(msg||'Copied!')).catch(()=>{
-    const ta=document.createElement('textarea');
-    ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
-    document.body.appendChild(ta);ta.select();document.execCommand('copy');
-    document.body.removeChild(ta);showToast(msg||'Copied!');
-  });
+navigator.clipboard.writeText(text).then(()=>showToast(msg||'Copied!')).catch(()=>{
+const ta=document.createElement('textarea');
+ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+document.body.appendChild(ta);ta.select();document.execCommand('copy');
+document.body.removeChild(ta);showToast(msg||'Copied!');
+});
 }
 
 /* ── CSS var names ── */
@@ -326,125 +326,125 @@ function getCssVarName(i){return CSS_VAR_NAMES[i]||('--color-'+(i+1));}
 
 /* ── Text colour for swatch ── */
 function swatchTextColor(hex){
-  const{r,g,b}=hexToRgb(hex);
-  const lum=relativeLuminance(r,g,b);
-  return lum>.35?'rgba(0,0,0,.82)':'rgba(255,255,255,.92)';
+const{r,g,b}=hexToRgb(hex);
+const lum=relativeLuminance(r,g,b);
+return lum>.35?'rgba(0,0,0,.82)':'rgba(255,255,255,.92)';
 }
 
 /* ── Render ── */
 function generate(){
-  const hex=picker.value;
-  const{r,g,b}=hexToRgb(hex);
-  const{h,s,l}=rgbToHsl(r,g,b);
-  const schemeKey=schemeSel.value;
-  const scheme=SCHEMES[schemeKey];
-  const hslList=scheme.generate(h,s,l);
+const hex=picker.value;
+const{r,g,b}=hexToRgb(hex);
+const{h,s,l}=rgbToHsl(r,g,b);
+const schemeKey=schemeSel.value;
+const scheme=SCHEMES[schemeKey];
+const hslList=scheme.generate(h,s,l);
 
-  currentColors=hslList.map(([ch,cs,cl],i)=>{
-    const hexVal=hslToHex(ch,cs,cl);
-    const rgb=hexToRgb(hexVal);
-    return{hex:hexVal,r:rgb.r,g:rgb.g,b:rgb.b,h:ch,s:cs,l:cl,role:scheme.roles[i]||('Color '+(i+1))};
-  });
+currentColors=hslList.map(([ch,cs,cl],i)=>{
+const hexVal=hslToHex(ch,cs,cl);
+const rgb=hexToRgb(hexVal);
+return{hex:hexVal,r:rgb.r,g:rgb.g,b:rgb.b,h:ch,s:cs,l:cl,role:scheme.roles[i]||('Color '+(i+1))};
+});
 
-  /* Description */
-  descBox.textContent=scheme.desc;
+/* Description */
+descBox.textContent=scheme.desc;
 
-  /* Label */
-  schemeLabelBox.innerHTML=schemeKey.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join('-')+' Scheme <span>'+currentColors.length+' colors</span>';
+/* Label */
+schemeLabelBox.innerHTML=schemeKey.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join('-')+' Scheme <span>'+currentColors.length+' colors</span>';
 
-  /* Swatches */
-  swatchesEl.innerHTML='';
-  currentColors.forEach((col,i)=>{
-    const tc=swatchTextColor(col.hex);
-    const card=document.createElement('div');
-    card.className='cs-swatch-card';
-    card.innerHTML=`
-      <div class="cs-swatch-block" style="background:${col.hex}" data-hex="${col.hex}">
-        <span class="cs-swatch-role">${col.role}</span>
-        <div class="cs-swatch-copy-hint" style="color:${tc}">Click to copy HEX</div>
-      </div>
-      <div class="cs-swatch-info">
-        <div class="cs-swatch-hex">${col.hex.toUpperCase()}</div>
-        <div class="cs-swatch-rgb">rgb(${col.r}, ${col.g}, ${col.b})</div>
-        <div class="cs-swatch-hsl">hsl(${col.h}, ${col.s}%, ${col.l}%)</div>
-        <button class="cs-swatch-copy-btn" data-idx="${i}">Copy HEX</button>
-      </div>`;
-    swatchesEl.appendChild(card);
-  });
+/* Swatches */
+swatchesEl.innerHTML='';
+currentColors.forEach((col,i)=>{
+const tc=swatchTextColor(col.hex);
+const card=document.createElement('div');
+card.className='cs-swatch-card';
+card.innerHTML=`
+<div class="cs-swatch-block" style="background:${col.hex}" data-hex="${col.hex}">
+<span class="cs-swatch-role">${col.role}</span>
+<div class="cs-swatch-copy-hint" style="color:${tc}">Click to copy HEX</div>
+</div>
+<div class="cs-swatch-info">
+<div class="cs-swatch-hex">${col.hex.toUpperCase()}</div>
+<div class="cs-swatch-rgb">rgb(${col.r}, ${col.g}, ${col.b})</div>
+<div class="cs-swatch-hsl">hsl(${col.h}, ${col.s}%, ${col.l}%)</div>
+<button class="cs-swatch-copy-btn" data-idx="${i}">Copy HEX</button>
+</div>`;
+swatchesEl.appendChild(card);
+});
 
-  /* CSS variables */
-  let cssText=':root {\n';
-  currentColors.forEach((col,i)=>{
-    const vname=getCssVarName(i);
-    cssText+=`  ${vname}: ${col.hex.toUpperCase()}; /* ${col.role} */\n`;
-    cssText+=`  ${vname}-rgb: ${col.r}, ${col.g}, ${col.b};\n`;
-    cssText+=`  ${vname}-hsl: ${col.h}deg ${col.s}% ${col.l}%;\n`;
-  });
-  cssText+='}';
+/* CSS variables */
+let cssText=':root {\n';
+currentColors.forEach((col,i)=>{
+const vname=getCssVarName(i);
+cssText+=`  ${vname}: ${col.hex.toUpperCase()}; /* ${col.role} */\n`;
+cssText+=`  ${vname}-rgb: ${col.r}, ${col.g}, ${col.b};\n`;
+cssText+=`  ${vname}-hsl: ${col.h}deg ${col.s}% ${col.l}%;\n`;
+});
+cssText+='}';
 
-  /* Render code with spans */
-  cssPre.innerHTML=cssText
-    .replace(/(:root \{|\})/g,'<span class="cs-var-comment">$1</span>')
-    .replace(/(--[\w-]+)(:)/g,'<span class="cs-var-name">$1</span>$2')
-    .replace(/:\s*(#[0-9a-fA-F]+|\d+[^;]*);/g,(m,v)=>m.replace(v,'<span class="cs-var-val">'+v+'</span>'));
+/* Render code with spans */
+cssPre.innerHTML=cssText
+.replace(/(:root \{|\})/g,'<span class="cs-var-comment">$1</span>')
+.replace(/(--[\w-]+)(:)/g,'<span class="cs-var-name">$1</span>$2')
+.replace(/:\s*(#[0-9a-fA-F]+|\d+[^;]*);/g,(m,v)=>m.replace(v,'<span class="cs-var-val">'+v+'</span>'));
 
-  /* Contrast ratios */
-  contrastGrid.innerHTML='';
-  const pairs=[];
-  for(let i=0;i<currentColors.length;i++){
-    for(let j=i+1;j<currentColors.length;j++){
-      pairs.push([i,j]);
-    }
-  }
-  pairs.forEach(([i,j])=>{
-    const a=currentColors[i],b=currentColors[j];
-    const ratio=contrastRatio(a,b);
-    const level=wcagLevel(ratio);
-    const ratioClass=level==='AAA'?'cs-ratio-aaa':level.startsWith('AA')?'cs-ratio-aa':'cs-ratio-fail';
-    const badgeClass=level==='AAA'?'cs-wcag-aaa':level.startsWith('AA')?'cs-wcag-aa':'cs-wcag-fail';
-    const row=document.createElement('div');
-    row.className='cs-contrast-row';
-    row.innerHTML=`
-      <div class="cs-contrast-swatch-pair">
-        <div class="cs-contrast-dot" style="background:${a.hex}"></div>
-        <div class="cs-contrast-dot" style="background:${b.hex}"></div>
-      </div>
-      <div class="cs-contrast-label">${a.role} × ${b.role}</div>
-      <div class="cs-contrast-ratio ${ratioClass}">${ratio}:1</div>
-      <span class="cs-wcag-badge ${badgeClass}">${level}</span>`;
-    contrastGrid.appendChild(row);
-  });
+/* Contrast ratios */
+contrastGrid.innerHTML='';
+const pairs=[];
+for(let i=0;i<currentColors.length;i++){
+for(let j=i+1;j<currentColors.length;j++){
+pairs.push([i,j]);
+}
+}
+pairs.forEach(([i,j])=>{
+const a=currentColors[i],b=currentColors[j];
+const ratio=contrastRatio(a,b);
+const level=wcagLevel(ratio);
+const ratioClass=level==='AAA'?'cs-ratio-aaa':level.startsWith('AA')?'cs-ratio-aa':'cs-ratio-fail';
+const badgeClass=level==='AAA'?'cs-wcag-aaa':level.startsWith('AA')?'cs-wcag-aa':'cs-wcag-fail';
+const row=document.createElement('div');
+row.className='cs-contrast-row';
+row.innerHTML=`
+<div class="cs-contrast-swatch-pair">
+<div class="cs-contrast-dot" style="background:${a.hex}"></div>
+<div class="cs-contrast-dot" style="background:${b.hex}"></div>
+</div>
+<div class="cs-contrast-label">${a.role} × ${b.role}</div>
+<div class="cs-contrast-ratio ${ratioClass}">${ratio}:1</div>
+<span class="cs-wcag-badge ${badgeClass}">${level}</span>`;
+contrastGrid.appendChild(row);
+});
 
-  /* Store raw css for copy */
-  cssBox.dataset.raw=cssText;
+/* Store raw css for copy */
+cssBox.dataset.raw=cssText;
 }
 
 /* ── Events ── */
 picker.addEventListener('input',()=>{
-  hexIn.value=picker.value;
-  generate();
+hexIn.value=picker.value;
+generate();
 });
 
 hexIn.addEventListener('input',()=>{
-  let v=hexIn.value.trim();
-  if(!v.startsWith('#'))v='#'+v;
-  if(/^#[0-9a-fA-F]{6}$/.test(v)){
-    picker.value=v;
-    generate();
-  }
+let v=hexIn.value.trim();
+if(!v.startsWith('#'))v='#'+v;
+if(/^#[0-9a-fA-F]{6}$/.test(v)){
+picker.value=v;
+generate();
+}
 });
 
 hexIn.addEventListener('keydown',e=>{
-  if(e.key==='Enter'){
-    let v=hexIn.value.trim();
-    if(!v.startsWith('#'))v='#'+v;
-    if(/^#[0-9a-fA-F]{3}$/.test(v)){
-      v='#'+v[1]+v[1]+v[2]+v[2]+v[3]+v[3];
-    }
-    if(/^#[0-9a-fA-F]{6}$/.test(v)){
-      picker.value=v;hexIn.value=v;generate();
-    }
-  }
+if(e.key==='Enter'){
+let v=hexIn.value.trim();
+if(!v.startsWith('#'))v='#'+v;
+if(/^#[0-9a-fA-F]{3}$/.test(v)){
+v='#'+v[1]+v[1]+v[2]+v[2]+v[3]+v[3];
+}
+if(/^#[0-9a-fA-F]{6}$/.test(v)){
+picker.value=v;hexIn.value=v;generate();
+}
+}
 });
 
 schemeSel.addEventListener('change',generate);
@@ -452,26 +452,26 @@ genBtn.addEventListener('click',generate);
 
 /* swatch click events (delegated) */
 swatchesEl.addEventListener('click',e=>{
-  const block=e.target.closest('.cs-swatch-block');
-  if(block){copyText(block.dataset.hex.toUpperCase(),'HEX copied!');return;}
-  const btn=e.target.closest('.cs-swatch-copy-btn');
-  if(btn){
-    const idx=parseInt(btn.dataset.idx);
-    copyText(currentColors[idx].hex.toUpperCase(),'HEX copied!');
-  }
+const block=e.target.closest('.cs-swatch-block');
+if(block){copyText(block.dataset.hex.toUpperCase(),'HEX copied!');return;}
+const btn=e.target.closest('.cs-swatch-copy-btn');
+if(btn){
+const idx=parseInt(btn.dataset.idx);
+copyText(currentColors[idx].hex.toUpperCase(),'HEX copied!');
+}
 });
 
 cssCopyBtn.addEventListener('click',()=>{
-  copyText(cssBox.dataset.raw||'','CSS variables copied!');
+copyText(cssBox.dataset.raw||'','CSS variables copied!');
 });
 
 copyHexAll.addEventListener('click',()=>{
-  const text=currentColors.map(c=>c.hex.toUpperCase()).join('\n');
-  copyText(text,'All HEX values copied!');
+const text=currentColors.map(c=>c.hex.toUpperCase()).join('\n');
+copyText(text,'All HEX values copied!');
 });
 
 copyCssAll.addEventListener('click',()=>{
-  copyText(cssBox.dataset.raw||'','CSS variables copied!');
+copyText(cssBox.dataset.raw||'','CSS variables copied!');
 });
 
 /* Initial render */

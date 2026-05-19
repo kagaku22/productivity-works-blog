@@ -42,130 +42,130 @@ cover:
 </style>
 
 <div class="dc-inputs">
-  <div class="dc-col">
-    <label for="dc-text-a">元のテキスト</label>
-    <textarea id="dc-text-a" placeholder="比較元のテキストを貼り付けてください..."></textarea>
-  </div>
-  <div class="dc-col">
-    <label for="dc-text-b">変更後のテキスト</label>
-    <textarea id="dc-text-b" placeholder="変更後のテキストを貼り付けてください..."></textarea>
-  </div>
+<div class="dc-col">
+<label for="dc-text-a">元のテキスト</label>
+<textarea id="dc-text-a" placeholder="比較元のテキストを貼り付けてください..."></textarea>
+</div>
+<div class="dc-col">
+<label for="dc-text-b">変更後のテキスト</label>
+<textarea id="dc-text-b" placeholder="変更後のテキストを貼り付けてください..."></textarea>
+</div>
 </div>
 
 <div class="dc-actions">
-  <button class="btn-primary" onclick="dcRun()">比較する</button>
-  <button class="btn-secondary" onclick="dcSwap()">&#8646; 入れ替え</button>
-  <button class="btn-secondary" onclick="dcClear()">クリア</button>
-  <div class="dc-stats" id="dc-stats"></div>
+<button class="btn-primary" onclick="dcRun()">比較する</button>
+<button class="btn-secondary" onclick="dcSwap()">&#8646; 入れ替え</button>
+<button class="btn-secondary" onclick="dcClear()">クリア</button>
+<div class="dc-stats" id="dc-stats"></div>
 </div>
 
 <div class="dc-result-wrap" id="dc-result-wrap" style="display:none">
-  <div class="dc-result-header">
-    <span>差分結果</span>
-    <span id="dc-result-meta"></span>
-    <button class="btn-copy" style="margin-left:auto;padding:4px 14px;font-size:12px" onclick="dcCopy()">コピー</button>
-  </div>
-  <div class="dc-result" id="dc-result"></div>
+<div class="dc-result-header">
+<span>差分結果</span>
+<span id="dc-result-meta"></span>
+<button class="btn-copy" style="margin-left:auto;padding:4px 14px;font-size:12px" onclick="dcCopy()">コピー</button>
+</div>
+<div class="dc-result" id="dc-result"></div>
 </div>
 
 <div class="dc-legend">
-  <span><span class="dot dot-add"></span> 追加</span>
-  <span><span class="dot dot-rem"></span> 削除</span>
+<span><span class="dot dot-add"></span> 追加</span>
+<span><span class="dot dot-rem"></span> 削除</span>
 </div>
 
 <script>
 (function(){
-  function lcsTokens(a, b) {
-    var m = a.length, n = b.length;
-    var dp = new Uint16Array((m+1)*(n+1));
-    for (var i = m-1; i >= 0; i--) {
-      for (var j = n-1; j >= 0; j--) {
-        if (a[i] === b[j]) {
-          dp[i*(n+1)+j] = 1 + dp[(i+1)*(n+1)+(j+1)];
-        } else {
-          var x = dp[(i+1)*(n+1)+j], y = dp[i*(n+1)+(j+1)];
-          dp[i*(n+1)+j] = x > y ? x : y;
-        }
-      }
-    }
-    var ops = [], i = 0, j = 0;
-    while (i < m && j < n) {
-      if (a[i] === b[j]) { ops.push({t:'=',v:a[i]}); i++; j++; }
-      else if (dp[(i+1)*(n+1)+j] >= dp[i*(n+1)+(j+1)]) { ops.push({t:'-',v:a[i]}); i++; }
-      else { ops.push({t:'+',v:b[j]}); j++; }
-    }
-    while (i < m) { ops.push({t:'-',v:a[i]}); i++; }
-    while (j < n) { ops.push({t:'+',v:b[j]}); j++; }
-    return ops;
-  }
+function lcsTokens(a, b) {
+var m = a.length, n = b.length;
+var dp = new Uint16Array((m+1)*(n+1));
+for (var i = m-1; i >= 0; i--) {
+for (var j = n-1; j >= 0; j--) {
+if (a[i] === b[j]) {
+dp[i*(n+1)+j] = 1 + dp[(i+1)*(n+1)+(j+1)];
+} else {
+var x = dp[(i+1)*(n+1)+j], y = dp[i*(n+1)+(j+1)];
+dp[i*(n+1)+j] = x > y ? x : y;
+}
+}
+}
+var ops = [], i = 0, j = 0;
+while (i < m && j < n) {
+if (a[i] === b[j]) { ops.push({t:'=',v:a[i]}); i++; j++; }
+else if (dp[(i+1)*(n+1)+j] >= dp[i*(n+1)+(j+1)]) { ops.push({t:'-',v:a[i]}); i++; }
+else { ops.push({t:'+',v:b[j]}); j++; }
+}
+while (i < m) { ops.push({t:'-',v:a[i]}); i++; }
+while (j < n) { ops.push({t:'+',v:b[j]}); j++; }
+return ops;
+}
 
-  function tokenize(text) {
-    return text.match(/\S+|\s+/g) || [];
-  }
+function tokenize(text) {
+return text.match(/\S+|\s+/g) || [];
+}
 
-  window.dcRun = function() {
-    var a = document.getElementById('dc-text-a').value;
-    var b = document.getElementById('dc-text-b').value;
-    var wrap = document.getElementById('dc-result-wrap');
-    var out = document.getElementById('dc-result');
-    var meta = document.getElementById('dc-result-meta');
-    var statsEl = document.getElementById('dc-stats');
+window.dcRun = function() {
+var a = document.getElementById('dc-text-a').value;
+var b = document.getElementById('dc-text-b').value;
+var wrap = document.getElementById('dc-result-wrap');
+var out = document.getElementById('dc-result');
+var meta = document.getElementById('dc-result-meta');
+var statsEl = document.getElementById('dc-stats');
 
-    if (!a && !b) {
-      wrap.style.display = 'none';
-      statsEl.innerHTML = '';
-      return;
-    }
+if (!a && !b) {
+wrap.style.display = 'none';
+statsEl.innerHTML = '';
+return;
+}
 
-    var tokA = tokenize(a);
-    var tokB = tokenize(b);
-    var ops = lcsTokens(tokA, tokB);
+var tokA = tokenize(a);
+var tokB = tokenize(b);
+var ops = lcsTokens(tokA, tokB);
 
-    var added = 0, removed = 0;
-    var html = '';
-    for (var i = 0; i < ops.length; i++) {
-      var o = ops[i];
-      var esc = o.v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-      if (o.t === '=') { html += esc; }
-      else if (o.t === '+') { html += '<span class="dc-added">'+esc+'</span>'; added++; }
-      else { html += '<span class="dc-removed">'+esc+'</span>'; removed++; }
-    }
+var added = 0, removed = 0;
+var html = '';
+for (var i = 0; i < ops.length; i++) {
+var o = ops[i];
+var esc = o.v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+if (o.t === '=') { html += esc; }
+else if (o.t === '+') { html += '<span class="dc-added">'+esc+'</span>'; added++; }
+else { html += '<span class="dc-removed">'+esc+'</span>'; removed++; }
+}
 
-    var linesA = a ? a.split('\n').length : 0;
-    var linesB = b ? b.split('\n').length : 0;
+var linesA = a ? a.split('\n').length : 0;
+var linesB = b ? b.split('\n').length : 0;
 
-    out.innerHTML = html || '<span class="dc-empty">差分はありません。</span>';
-    wrap.style.display = '';
-    meta.textContent = '追加 ' + added + ' · 削除 ' + removed;
-    statsEl.innerHTML =
-      '<span>元: ' + linesA + ' 行</span>' +
-      '<span>変更後: ' + linesB + ' 行</span>' +
-      '<span>+' + added + ' / -' + removed + '</span>';
-  };
+out.innerHTML = html || '<span class="dc-empty">差分はありません。</span>';
+wrap.style.display = '';
+meta.textContent = '追加 ' + added + ' · 削除 ' + removed;
+statsEl.innerHTML =
+'<span>元: ' + linesA + ' 行</span>' +
+'<span>変更後: ' + linesB + ' 行</span>' +
+'<span>+' + added + ' / -' + removed + '</span>';
+};
 
-  window.dcSwap = function() {
-    var a = document.getElementById('dc-text-a');
-    var b = document.getElementById('dc-text-b');
-    var tmp = a.value; a.value = b.value; b.value = tmp;
-  };
+window.dcSwap = function() {
+var a = document.getElementById('dc-text-a');
+var b = document.getElementById('dc-text-b');
+var tmp = a.value; a.value = b.value; b.value = tmp;
+};
 
-  window.dcClear = function() {
-    document.getElementById('dc-text-a').value = '';
-    document.getElementById('dc-text-b').value = '';
-    document.getElementById('dc-result-wrap').style.display = 'none';
-    document.getElementById('dc-stats').innerHTML = '';
-  };
+window.dcClear = function() {
+document.getElementById('dc-text-a').value = '';
+document.getElementById('dc-text-b').value = '';
+document.getElementById('dc-result-wrap').style.display = 'none';
+document.getElementById('dc-stats').innerHTML = '';
+};
 
-  window.dcCopy = function() {
-    var el = document.getElementById('dc-result');
-    var text = el.innerText || el.textContent;
-    navigator.clipboard.writeText(text).then(function(){
-      var btn = event.target;
-      var orig = btn.textContent;
-      btn.textContent = 'コピー完了!';
-      setTimeout(function(){ btn.textContent = orig; }, 1500);
-    });
-  };
+window.dcCopy = function() {
+var el = document.getElementById('dc-result');
+var text = el.innerText || el.textContent;
+navigator.clipboard.writeText(text).then(function(){
+var btn = event.target;
+var orig = btn.textContent;
+btn.textContent = 'コピー完了!';
+setTimeout(function(){ btn.textContent = orig; }, 1500);
+});
+};
 })();
 </script>
 
@@ -182,9 +182,9 @@ cover:
 > **確定申告・会計をもっとラクに？** [freee会計](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) なら、フリーランスの経費管理もクラウドで簡単。
 
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す &rarr;</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す &rarr;</a>
 </div>
 
 </div>

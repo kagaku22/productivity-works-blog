@@ -87,11 +87,11 @@ cover:
 
 /* Responsive */
 @media(max-width:480px){
-  #mc-app{padding:18px 14px;}
-  #mc-app .mc-timer-time{font-size:2.2rem;}
-  #mc-app .mc-timer-cost{font-size:1.2rem;}
-  #mc-app .mc-participant-row input[type="text"]{width:100%;}
-  #mc-app .mc-participant-row{flex-direction:column;align-items:flex-start;}
+#mc-app{padding:18px 14px;}
+#mc-app .mc-timer-time{font-size:2.2rem;}
+#mc-app .mc-timer-cost{font-size:1.2rem;}
+#mc-app .mc-participant-row input[type="text"]{width:100%;}
+#mc-app .mc-participant-row{flex-direction:column;align-items:flex-start;}
 }
 </style>
 
@@ -100,332 +100,332 @@ cover:
 
 <!-- Section 1: Participants -->
 <div class="mc-card">
-  <h3>参加者を追加</h3>
-  <div id="mc-participant-list"></div>
-  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;">
-    <button class="mc-btn mc-btn-ghost mc-btn-sm" onclick="mcAddParticipant()">＋ 参加者を追加</button>
-    <button class="mc-btn mc-btn-ghost mc-btn-sm" onclick="mcClearParticipants()">全員削除</button>
-  </div>
+<h3>参加者を追加</h3>
+<div id="mc-participant-list"></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;">
+<button class="mc-btn mc-btn-ghost mc-btn-sm" onclick="mcAddParticipant()">＋ 参加者を追加</button>
+<button class="mc-btn mc-btn-ghost mc-btn-sm" onclick="mcClearParticipants()">全員削除</button>
+</div>
 </div>
 
 <!-- Section 2: Timer -->
 <div class="mc-card">
-  <h3>会議タイマー</h3>
-  <div class="mc-badge-list" id="mc-attendee-badges"></div>
-  <div class="mc-timer-display">
-    <div class="mc-timer-time" id="mc-timer-elapsed">00:00:00</div>
-    <div class="mc-timer-cost" id="mc-timer-cost">¥0</div>
-    <div class="mc-timer-label">累積コスト（リアルタイム）</div>
-  </div>
-  <div class="mc-timer-actions">
-    <button class="mc-btn mc-btn-success" id="mc-btn-start" onclick="mcStartTimer()">▶ 開始</button>
-    <button class="mc-btn mc-btn-warning" id="mc-btn-pause" onclick="mcPauseTimer()" disabled>⏸ 一時停止</button>
-    <button class="mc-btn mc-btn-danger" id="mc-btn-reset" onclick="mcResetTimer()" disabled>↺ リセット</button>
-  </div>
+<h3>会議タイマー</h3>
+<div class="mc-badge-list" id="mc-attendee-badges"></div>
+<div class="mc-timer-display">
+<div class="mc-timer-time" id="mc-timer-elapsed">00:00:00</div>
+<div class="mc-timer-cost" id="mc-timer-cost">¥0</div>
+<div class="mc-timer-label">累積コスト（リアルタイム）</div>
+</div>
+<div class="mc-timer-actions">
+<button class="mc-btn mc-btn-success" id="mc-btn-start" onclick="mcStartTimer()">▶ 開始</button>
+<button class="mc-btn mc-btn-warning" id="mc-btn-pause" onclick="mcPauseTimer()" disabled>⏸ 一時停止</button>
+<button class="mc-btn mc-btn-danger" id="mc-btn-reset" onclick="mcResetTimer()" disabled>↺ リセット</button>
+</div>
 </div>
 
 <!-- Section 3: Estimate -->
 <div class="mc-card">
-  <h3>事前コスト見積</h3>
-  <div class="mc-estimate-row">
-    <label for="mc-est-hours">予定時間</label>
-    <input type="number" id="mc-est-hours" value="1" min="0" max="24" step="0.5" oninput="mcUpdateEstimate()">
-    <label>時間</label>
-    <input type="number" id="mc-est-minutes" value="0" min="0" max="59" step="5" oninput="mcUpdateEstimate()">
-    <label>分</label>
-    <button class="mc-btn mc-btn-primary mc-btn-sm" onclick="mcUpdateEstimate()">計算</button>
-  </div>
-  <div id="mc-estimate-result" style="display:none;">
-    <div id="mc-results-area"></div>
-  </div>
-  <div id="mc-estimate-placeholder" style="font-size:14px;color:#94a3b8;padding:8px 0;">
-    参加者を追加してから予定時間を入力してください。
-  </div>
+<h3>事前コスト見積</h3>
+<div class="mc-estimate-row">
+<label for="mc-est-hours">予定時間</label>
+<input type="number" id="mc-est-hours" value="1" min="0" max="24" step="0.5" oninput="mcUpdateEstimate()">
+<label>時間</label>
+<input type="number" id="mc-est-minutes" value="0" min="0" max="59" step="5" oninput="mcUpdateEstimate()">
+<label>分</label>
+<button class="mc-btn mc-btn-primary mc-btn-sm" onclick="mcUpdateEstimate()">計算</button>
+</div>
+<div id="mc-estimate-result" style="display:none;">
+<div id="mc-results-area"></div>
+</div>
+<div id="mc-estimate-placeholder" style="font-size:14px;color:#94a3b8;padding:8px 0;">
+参加者を追加してから予定時間を入力してください。
+</div>
 </div>
 
 <script>
 (function(){
-  'use strict';
+'use strict';
 
-  // --- State ---
-  var participants = [];
-  var pidCounter = 0;
-  var timerInterval = null;
-  var timerElapsedMs = 0;
-  var timerStartedAt = null;
-  var timerRunning = false;
+// --- State ---
+var participants = [];
+var pidCounter = 0;
+var timerInterval = null;
+var timerElapsedMs = 0;
+var timerStartedAt = null;
+var timerRunning = false;
 
-  var PRESETS = [
-    {label:'新人（¥2,000/h）', rate:2000},
-    {label:'中堅（¥3,500/h）', rate:3500},
-    {label:'シニア（¥5,000/h）', rate:5000},
-    {label:'管理職（¥7,000/h）', rate:7000},
-    {label:'役員（¥10,000/h）', rate:10000},
-    {label:'カスタム', rate:null}
-  ];
+var PRESETS = [
+{label:'新人（¥2,000/h）', rate:2000},
+{label:'中堅（¥3,500/h）', rate:3500},
+{label:'シニア（¥5,000/h）', rate:5000},
+{label:'管理職（¥7,000/h）', rate:7000},
+{label:'役員（¥10,000/h）', rate:10000},
+{label:'カスタム', rate:null}
+];
 
-  var COMPARISONS = [
-    {icon:'☕',name:'スタバのコーヒー',price:700},
-    {icon:'🍱',name:'ランチ定食',price:900},
-    {icon:'📚',name:'ビジネス書',price:1800},
-    {icon:'🍕',name:'ピザ（Mサイズ）',price:2500},
-    {icon:'🎬',name:'映画チケット',price:2000},
-    {icon:'🎮',name:'スマホゲーム課金',price:3000},
-    {icon:'🍣',name:'回転寿司（一人前）',price:2000},
-    {icon:'✈️',name:'新幹線自由席（東京-大阪）',price:13870},
-    {icon:'💻',name:'Amazonプライム月額',price:600},
-    {icon:'🏨',name:'ビジネスホテル1泊',price:8000}
-  ];
+var COMPARISONS = [
+{icon:'☕',name:'スタバのコーヒー',price:700},
+{icon:'🍱',name:'ランチ定食',price:900},
+{icon:'📚',name:'ビジネス書',price:1800},
+{icon:'🍕',name:'ピザ（Mサイズ）',price:2500},
+{icon:'🎬',name:'映画チケット',price:2000},
+{icon:'🎮',name:'スマホゲーム課金',price:3000},
+{icon:'🍣',name:'回転寿司（一人前）',price:2000},
+{icon:'✈️',name:'新幹線自由席（東京-大阪）',price:13870},
+{icon:'💻',name:'Amazonプライム月額',price:600},
+{icon:'🏨',name:'ビジネスホテル1泊',price:8000}
+];
 
-  // --- Participants ---
-  function getTotalHourlyRate(){
-    return participants.reduce(function(s,p){ return s + (p.rate||0); }, 0);
-  }
+// --- Participants ---
+function getTotalHourlyRate(){
+return participants.reduce(function(s,p){ return s + (p.rate||0); }, 0);
+}
 
-  window.mcAddParticipant = function(){
-    var id = ++pidCounter;
-    participants.push({id:id, name:'参加者'+id, rate:3500, preset:1});
-    renderParticipants();
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcAddParticipant = function(){
+var id = ++pidCounter;
+participants.push({id:id, name:'参加者'+id, rate:3500, preset:1});
+renderParticipants();
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcClearParticipants = function(){
-    participants = [];
-    renderParticipants();
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcClearParticipants = function(){
+participants = [];
+renderParticipants();
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcRemoveParticipant = function(id){
-    participants = participants.filter(function(p){ return p.id !== id; });
-    renderParticipants();
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcRemoveParticipant = function(id){
+participants = participants.filter(function(p){ return p.id !== id; });
+renderParticipants();
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcOnPresetChange = function(id, selectEl){
-    var idx = parseInt(selectEl.value, 10);
-    var p = participants.find(function(p){ return p.id === id; });
-    if(!p) return;
-    p.preset = idx;
-    if(PRESETS[idx].rate !== null){
-      p.rate = PRESETS[idx].rate;
-      var rateInput = document.getElementById('mc-rate-'+id);
-      var annualInput = document.getElementById('mc-annual-'+id);
-      if(rateInput) rateInput.value = p.rate;
-      if(annualInput) annualInput.value = '';
-    }
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcOnPresetChange = function(id, selectEl){
+var idx = parseInt(selectEl.value, 10);
+var p = participants.find(function(p){ return p.id === id; });
+if(!p) return;
+p.preset = idx;
+if(PRESETS[idx].rate !== null){
+p.rate = PRESETS[idx].rate;
+var rateInput = document.getElementById('mc-rate-'+id);
+var annualInput = document.getElementById('mc-annual-'+id);
+if(rateInput) rateInput.value = p.rate;
+if(annualInput) annualInput.value = '';
+}
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcOnRateChange = function(id, val){
-    var p = participants.find(function(p){ return p.id === id; });
-    if(!p) return;
-    var v = parseFloat(val)||0;
-    p.rate = v;
-    var annualInput = document.getElementById('mc-annual-'+id);
-    if(annualInput) annualInput.value = '';
-    var selectEl = document.getElementById('mc-preset-'+id);
-    if(selectEl) selectEl.value = PRESETS.length - 1; // custom
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcOnRateChange = function(id, val){
+var p = participants.find(function(p){ return p.id === id; });
+if(!p) return;
+var v = parseFloat(val)||0;
+p.rate = v;
+var annualInput = document.getElementById('mc-annual-'+id);
+if(annualInput) annualInput.value = '';
+var selectEl = document.getElementById('mc-preset-'+id);
+if(selectEl) selectEl.value = PRESETS.length - 1; // custom
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcOnAnnualChange = function(id, val){
-    var p = participants.find(function(p){ return p.id === id; });
-    if(!p) return;
-    var annual = parseFloat(val)||0;
-    // annual salary / 12 months / 20 working days / 8 hours * 1.3 (social insurance factor)
-    var hourly = Math.round(annual * 10000 / 12 / 20 / 8 * 1.3);
-    p.rate = hourly;
-    var rateInput = document.getElementById('mc-rate-'+id);
-    if(rateInput) rateInput.value = hourly;
-    var selectEl = document.getElementById('mc-preset-'+id);
-    if(selectEl) selectEl.value = PRESETS.length - 1;
-    updateBadges();
-    mcUpdateEstimate();
-  };
+window.mcOnAnnualChange = function(id, val){
+var p = participants.find(function(p){ return p.id === id; });
+if(!p) return;
+var annual = parseFloat(val)||0;
+// annual salary / 12 months / 20 working days / 8 hours * 1.3 (social insurance factor)
+var hourly = Math.round(annual * 10000 / 12 / 20 / 8 * 1.3);
+p.rate = hourly;
+var rateInput = document.getElementById('mc-rate-'+id);
+if(rateInput) rateInput.value = hourly;
+var selectEl = document.getElementById('mc-preset-'+id);
+if(selectEl) selectEl.value = PRESETS.length - 1;
+updateBadges();
+mcUpdateEstimate();
+};
 
-  window.mcOnNameChange = function(id, val){
-    var p = participants.find(function(p){ return p.id === id; });
-    if(p) p.name = val || ('参加者'+id);
-    updateBadges();
-  };
+window.mcOnNameChange = function(id, val){
+var p = participants.find(function(p){ return p.id === id; });
+if(p) p.name = val || ('参加者'+id);
+updateBadges();
+};
 
-  function renderParticipants(){
-    var container = document.getElementById('mc-participant-list');
-    if(!container) return;
-    if(participants.length === 0){
-      container.innerHTML = '<p style="font-size:14px;color:#94a3b8;padding:6px 0 10px;">まだ参加者がいません。「参加者を追加」ボタンで追加してください。</p>';
-      return;
-    }
-    var html = '';
-    participants.forEach(function(p){
-      var presetOpts = PRESETS.map(function(pr,i){
-        return '<option value="'+i+'"'+(p.preset===i?' selected':'')+'>'+pr.label+'</option>';
-      }).join('');
-      html += '<div class="mc-participant-row" id="mc-row-'+p.id+'">';
-      html += '<input type="text" placeholder="名前・役職" value="'+escHtml(p.name)+'" oninput="mcOnNameChange('+p.id+',this.value)" style="width:120px;">';
-      html += '<select id="mc-preset-'+p.id+'" onchange="mcOnPresetChange('+p.id+',this)">'+presetOpts+'</select>';
-      html += '<label>時給</label>';
-      html += '<input type="number" id="mc-rate-'+p.id+'" value="'+p.rate+'" min="0" max="99999" step="100" oninput="mcOnRateChange('+p.id+',this.value)" placeholder="時給(円)">';
-      html += '<span class="mc-rate-label">円/h</span>';
-      html += '<label style="margin-left:4px;">年収</label>';
-      html += '<input type="number" id="mc-annual-'+p.id+'" min="0" max="9999" step="50" placeholder="万円" oninput="mcOnAnnualChange('+p.id+',this.value)" style="width:90px;">';
-      html += '<span class="mc-rate-label">万円→換算</span>';
-      html += '<button class="mc-btn-del" onclick="mcRemoveParticipant('+p.id+')" title="削除">×</button>';
-      html += '</div>';
-    });
-    container.innerHTML = html;
-  }
+function renderParticipants(){
+var container = document.getElementById('mc-participant-list');
+if(!container) return;
+if(participants.length === 0){
+container.innerHTML = '<p style="font-size:14px;color:#94a3b8;padding:6px 0 10px;">まだ参加者がいません。「参加者を追加」ボタンで追加してください。</p>';
+return;
+}
+var html = '';
+participants.forEach(function(p){
+var presetOpts = PRESETS.map(function(pr,i){
+return '<option value="'+i+'"'+(p.preset===i?' selected':'')+'>'+pr.label+'</option>';
+}).join('');
+html += '<div class="mc-participant-row" id="mc-row-'+p.id+'">';
+html += '<input type="text" placeholder="名前・役職" value="'+escHtml(p.name)+'" oninput="mcOnNameChange('+p.id+',this.value)" style="width:120px;">';
+html += '<select id="mc-preset-'+p.id+'" onchange="mcOnPresetChange('+p.id+',this)">'+presetOpts+'</select>';
+html += '<label>時給</label>';
+html += '<input type="number" id="mc-rate-'+p.id+'" value="'+p.rate+'" min="0" max="99999" step="100" oninput="mcOnRateChange('+p.id+',this.value)" placeholder="時給(円)">';
+html += '<span class="mc-rate-label">円/h</span>';
+html += '<label style="margin-left:4px;">年収</label>';
+html += '<input type="number" id="mc-annual-'+p.id+'" min="0" max="9999" step="50" placeholder="万円" oninput="mcOnAnnualChange('+p.id+',this.value)" style="width:90px;">';
+html += '<span class="mc-rate-label">万円→換算</span>';
+html += '<button class="mc-btn-del" onclick="mcRemoveParticipant('+p.id+')" title="削除">×</button>';
+html += '</div>';
+});
+container.innerHTML = html;
+}
 
-  function updateBadges(){
-    var el = document.getElementById('mc-attendee-badges');
-    if(!el) return;
-    if(participants.length === 0){
-      el.innerHTML = '<span style="font-size:13px;color:#94a3b8;">参加者を追加するとここに表示されます</span>';
-      return;
-    }
-    el.innerHTML = participants.map(function(p){
-      return '<span class="mc-badge">'+escHtml(p.name)+' ¥'+fmt(p.rate)+'/h</span>';
-    }).join('');
-  }
+function updateBadges(){
+var el = document.getElementById('mc-attendee-badges');
+if(!el) return;
+if(participants.length === 0){
+el.innerHTML = '<span style="font-size:13px;color:#94a3b8;">参加者を追加するとここに表示されます</span>';
+return;
+}
+el.innerHTML = participants.map(function(p){
+return '<span class="mc-badge">'+escHtml(p.name)+' ¥'+fmt(p.rate)+'/h</span>';
+}).join('');
+}
 
-  // --- Timer ---
-  function formatMs(ms){
-    var totalSec = Math.floor(ms / 1000);
-    var h = Math.floor(totalSec / 3600);
-    var m = Math.floor((totalSec % 3600) / 60);
-    var s = totalSec % 60;
-    return pad2(h)+':'+pad2(m)+':'+pad2(s);
-  }
+// --- Timer ---
+function formatMs(ms){
+var totalSec = Math.floor(ms / 1000);
+var h = Math.floor(totalSec / 3600);
+var m = Math.floor((totalSec % 3600) / 60);
+var s = totalSec % 60;
+return pad2(h)+':'+pad2(m)+':'+pad2(s);
+}
 
-  function tickTimer(){
-    timerElapsedMs = Date.now() - timerStartedAt;
-    var elapsedSec = timerElapsedMs / 1000;
-    var totalRate = getTotalHourlyRate();
-    var cost = Math.floor((totalRate / 3600) * elapsedSec);
-    document.getElementById('mc-timer-elapsed').textContent = formatMs(timerElapsedMs);
-    document.getElementById('mc-timer-cost').textContent = '¥' + fmt(cost);
-  }
+function tickTimer(){
+timerElapsedMs = Date.now() - timerStartedAt;
+var elapsedSec = timerElapsedMs / 1000;
+var totalRate = getTotalHourlyRate();
+var cost = Math.floor((totalRate / 3600) * elapsedSec);
+document.getElementById('mc-timer-elapsed').textContent = formatMs(timerElapsedMs);
+document.getElementById('mc-timer-cost').textContent = '¥' + fmt(cost);
+}
 
-  window.mcStartTimer = function(){
-    if(participants.length === 0){
-      alert('先に参加者を追加してください。');
-      return;
-    }
-    if(timerRunning) return;
-    timerRunning = true;
-    timerStartedAt = Date.now() - timerElapsedMs;
-    timerInterval = setInterval(tickTimer, 250);
-    document.getElementById('mc-btn-start').disabled = true;
-    document.getElementById('mc-btn-pause').disabled = false;
-    document.getElementById('mc-btn-reset').disabled = false;
-  };
+window.mcStartTimer = function(){
+if(participants.length === 0){
+alert('先に参加者を追加してください。');
+return;
+}
+if(timerRunning) return;
+timerRunning = true;
+timerStartedAt = Date.now() - timerElapsedMs;
+timerInterval = setInterval(tickTimer, 250);
+document.getElementById('mc-btn-start').disabled = true;
+document.getElementById('mc-btn-pause').disabled = false;
+document.getElementById('mc-btn-reset').disabled = false;
+};
 
-  window.mcPauseTimer = function(){
-    if(!timerRunning) return;
-    timerRunning = false;
-    clearInterval(timerInterval);
-    timerInterval = null;
-    document.getElementById('mc-btn-start').disabled = false;
-    document.getElementById('mc-btn-pause').disabled = true;
-  };
+window.mcPauseTimer = function(){
+if(!timerRunning) return;
+timerRunning = false;
+clearInterval(timerInterval);
+timerInterval = null;
+document.getElementById('mc-btn-start').disabled = false;
+document.getElementById('mc-btn-pause').disabled = true;
+};
 
-  window.mcResetTimer = function(){
-    timerRunning = false;
-    clearInterval(timerInterval);
-    timerInterval = null;
-    timerElapsedMs = 0;
-    timerStartedAt = null;
-    document.getElementById('mc-timer-elapsed').textContent = '00:00:00';
-    document.getElementById('mc-timer-cost').textContent = '¥0';
-    document.getElementById('mc-btn-start').disabled = false;
-    document.getElementById('mc-btn-pause').disabled = true;
-    document.getElementById('mc-btn-reset').disabled = true;
-  };
+window.mcResetTimer = function(){
+timerRunning = false;
+clearInterval(timerInterval);
+timerInterval = null;
+timerElapsedMs = 0;
+timerStartedAt = null;
+document.getElementById('mc-timer-elapsed').textContent = '00:00:00';
+document.getElementById('mc-timer-cost').textContent = '¥0';
+document.getElementById('mc-btn-start').disabled = false;
+document.getElementById('mc-btn-pause').disabled = true;
+document.getElementById('mc-btn-reset').disabled = true;
+};
 
-  // --- Estimate ---
-  window.mcUpdateEstimate = function(){
-    var phEl = document.getElementById('mc-estimate-placeholder');
-    var resEl = document.getElementById('mc-estimate-result');
-    var areaEl = document.getElementById('mc-results-area');
-    if(!phEl || !resEl || !areaEl) return;
+// --- Estimate ---
+window.mcUpdateEstimate = function(){
+var phEl = document.getElementById('mc-estimate-placeholder');
+var resEl = document.getElementById('mc-estimate-result');
+var areaEl = document.getElementById('mc-results-area');
+if(!phEl || !resEl || !areaEl) return;
 
-    var totalRate = getTotalHourlyRate();
-    if(participants.length === 0 || totalRate === 0){
-      phEl.style.display = '';
-      resEl.style.display = 'none';
-      return;
-    }
+var totalRate = getTotalHourlyRate();
+if(participants.length === 0 || totalRate === 0){
+phEl.style.display = '';
+resEl.style.display = 'none';
+return;
+}
 
-    var hours = parseFloat(document.getElementById('mc-est-hours').value)||0;
-    var minutes = parseFloat(document.getElementById('mc-est-minutes').value)||0;
-    var totalMinutes = hours * 60 + minutes;
-    if(totalMinutes <= 0){
-      phEl.style.display = '';
-      resEl.style.display = 'none';
-      return;
-    }
+var hours = parseFloat(document.getElementById('mc-est-hours').value)||0;
+var minutes = parseFloat(document.getElementById('mc-est-minutes').value)||0;
+var totalMinutes = hours * 60 + minutes;
+if(totalMinutes <= 0){
+phEl.style.display = '';
+resEl.style.display = 'none';
+return;
+}
 
-    phEl.style.display = 'none';
-    resEl.style.display = '';
+phEl.style.display = 'none';
+resEl.style.display = '';
 
-    var totalHours = totalMinutes / 60;
-    var totalCost = Math.round(totalRate * totalHours);
-    var perMinuteCost = Math.round(totalCost / totalMinutes);
-    var perPersonCost = participants.length > 0 ? Math.round(totalCost / participants.length) : 0;
+var totalHours = totalMinutes / 60;
+var totalCost = Math.round(totalRate * totalHours);
+var perMinuteCost = Math.round(totalCost / totalMinutes);
+var perPersonCost = participants.length > 0 ? Math.round(totalCost / participants.length) : 0;
 
-    // Comparisons
-    var compareHtml = '';
-    var affordableItems = COMPARISONS.filter(function(c){ return totalCost >= c.price; });
-    if(affordableItems.length > 0){
-      compareHtml = '<ul class="mc-compare-list">';
-      affordableItems.forEach(function(c){
-        var count = Math.floor(totalCost / c.price);
-        compareHtml += '<li><span class="mc-compare-icon">'+c.icon+'</span><span class="mc-compare-count">'+count+'個分</span><span>'+c.name+'（¥'+fmt(c.price)+'）</span></li>';
-      });
-      compareHtml += '</ul>';
-    } else {
-      compareHtml = '<p style="font-size:14px;color:#94a3b8;">もっと長い会議で比較が表示されます。</p>';
-    }
+// Comparisons
+var compareHtml = '';
+var affordableItems = COMPARISONS.filter(function(c){ return totalCost >= c.price; });
+if(affordableItems.length > 0){
+compareHtml = '<ul class="mc-compare-list">';
+affordableItems.forEach(function(c){
+var count = Math.floor(totalCost / c.price);
+compareHtml += '<li><span class="mc-compare-icon">'+c.icon+'</span><span class="mc-compare-count">'+count+'個分</span><span>'+c.name+'（¥'+fmt(c.price)+'）</span></li>';
+});
+compareHtml += '</ul>';
+} else {
+compareHtml = '<p style="font-size:14px;color:#94a3b8;">もっと長い会議で比較が表示されます。</p>';
+}
 
-    areaEl.innerHTML = ''
-      + '<div class="mc-results-grid">'
-      + mcResultCard('合計コスト','¥'+fmt(totalCost),true)
-      + mcResultCard('1分あたり','¥'+fmt(perMinuteCost)+'/分',false)
-      + mcResultCard('1人あたり','¥'+fmt(perPersonCost),false)
-      + mcResultCard('参加人数',participants.length+'名',false)
-      + '</div>'
-      + '<div style="margin-top:4px;">'
-      + '<p class="mc-section-label">このコストで買えるもの</p>'
-      + compareHtml
-      + '</div>';
-  };
+areaEl.innerHTML = ''
++ '<div class="mc-results-grid">'
++ mcResultCard('合計コスト','¥'+fmt(totalCost),true)
++ mcResultCard('1分あたり','¥'+fmt(perMinuteCost)+'/分',false)
++ mcResultCard('1人あたり','¥'+fmt(perPersonCost),false)
++ mcResultCard('参加人数',participants.length+'名',false)
++ '</div>'
++ '<div style="margin-top:4px;">'
++ '<p class="mc-section-label">このコストで買えるもの</p>'
++ compareHtml
++ '</div>';
+};
 
-  function mcResultCard(label, value, highlight){
-    return '<div class="mc-result-card'+(highlight?' mc-rc-highlight':'')+'"><div class="mc-rc-label">'+label+'</div><div class="mc-rc-value">'+value+'</div></div>';
-  }
+function mcResultCard(label, value, highlight){
+return '<div class="mc-result-card'+(highlight?' mc-rc-highlight':'')+'"><div class="mc-rc-label">'+label+'</div><div class="mc-rc-value">'+value+'</div></div>';
+}
 
-  // --- Utilities ---
-  function fmt(n){
-    return Number(n).toLocaleString('ja-JP');
-  }
-  function pad2(n){
-    return n < 10 ? '0'+n : ''+n;
-  }
-  function escHtml(s){
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
+// --- Utilities ---
+function fmt(n){
+return Number(n).toLocaleString('ja-JP');
+}
+function pad2(n){
+return n < 10 ? '0'+n : ''+n;
+}
+function escHtml(s){
+return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
 
-  // --- Init ---
-  renderParticipants();
-  updateBadges();
-  // Add two default participants
-  window.mcAddParticipant();
-  window.mcAddParticipant();
+// --- Init ---
+renderParticipants();
+updateBadges();
+// Add two default participants
+window.mcAddParticipant();
+window.mcAddParticipant();
 
 })();
 </script>
@@ -433,9 +433,9 @@ cover:
 ---
 
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の経費・人件費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、経費精算・給与計算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;width:fit-content;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の経費・人件費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、経費精算・給与計算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;width:fit-content;">freeeを無料で試す →</a>
 </div>
 
 </div>

@@ -54,252 +54,252 @@ Convert tabs to spaces (or spaces to tabs) instantly — choose your indent widt
 
 <!-- Controls -->
 <div class="tc-row">
-  <span class="tc-label">Mode:</span>
-  <div class="tc-btn-group">
-    <button class="tc-btn active" id="tc-mode-t2s" onclick="tcSetMode('t2s')">Tabs → Spaces</button>
-    <button class="tc-btn" id="tc-mode-s2t" onclick="tcSetMode('s2t')">Spaces → Tabs</button>
-  </div>
+<span class="tc-label">Mode:</span>
+<div class="tc-btn-group">
+<button class="tc-btn active" id="tc-mode-t2s" onclick="tcSetMode('t2s')">Tabs → Spaces</button>
+<button class="tc-btn" id="tc-mode-s2t" onclick="tcSetMode('s2t')">Spaces → Tabs</button>
+</div>
 </div>
 
 <div class="tc-row">
-  <span class="tc-label">Tab Width:</span>
-  <div class="tc-btn-group">
-    <button class="tc-btn active" id="tc-w-2" onclick="tcSetWidth(2)">2 spaces</button>
-    <button class="tc-btn" id="tc-w-4" onclick="tcSetWidth(4)">4 spaces</button>
-    <button class="tc-btn" id="tc-w-8" onclick="tcSetWidth(8)">8 spaces</button>
-  </div>
+<span class="tc-label">Tab Width:</span>
+<div class="tc-btn-group">
+<button class="tc-btn active" id="tc-w-2" onclick="tcSetWidth(2)">2 spaces</button>
+<button class="tc-btn" id="tc-w-4" onclick="tcSetWidth(4)">4 spaces</button>
+<button class="tc-btn" id="tc-w-8" onclick="tcSetWidth(8)">8 spaces</button>
+</div>
 </div>
 
 <div class="tc-row">
-  <label class="tc-check-label"><input type="checkbox" id="tc-trim" onchange="tcProcess()"> Trim trailing whitespace</label>
-  <label class="tc-check-label"><input type="checkbox" id="tc-normalize" onchange="tcProcess()"> Normalize line endings (CRLF → LF)</label>
-  <label class="tc-check-label"><input type="checkbox" id="tc-preview-ws" onchange="tcProcess()" checked> Show whitespace in preview</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-trim" onchange="tcProcess()"> Trim trailing whitespace</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-normalize" onchange="tcProcess()"> Normalize line endings (CRLF → LF)</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-preview-ws" onchange="tcProcess()" checked> Show whitespace in preview</label>
 </div>
 
 <div class="tc-row">
-  <div class="tc-btn-group">
-    <button class="tc-btn action" onclick="tcProcess()">Convert</button>
-    <button class="tc-btn secondary" onclick="tcSwap()">Swap Input / Output</button>
-    <button class="tc-btn secondary" onclick="tcClear()">Clear</button>
-    <div class="tc-upload-wrap">
-      <button class="tc-btn secondary">Upload File</button>
-      <input type="file" accept="text/*" onchange="tcUpload(event)">
-    </div>
-  </div>
+<div class="tc-btn-group">
+<button class="tc-btn action" onclick="tcProcess()">Convert</button>
+<button class="tc-btn secondary" onclick="tcSwap()">Swap Input / Output</button>
+<button class="tc-btn secondary" onclick="tcClear()">Clear</button>
+<div class="tc-upload-wrap">
+<button class="tc-btn secondary">Upload File</button>
+<input type="file" accept="text/*" onchange="tcUpload(event)">
+</div>
+</div>
 </div>
 
 <hr class="tc-divider">
 
 <!-- Editor panels -->
 <div class="tc-panels">
-  <div>
-    <div class="tc-panel-head">
-      <span class="tc-panel-title">INPUT</span>
-      <div class="tc-panel-actions">
-        <button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcPaste()">Paste</button>
-      </div>
-    </div>
-    <textarea id="tc-input" placeholder="Paste your code here, or upload a file above..." oninput="tcProcess()" spellcheck="false"></textarea>
-  </div>
-  <div>
-    <div class="tc-panel-head">
-      <span class="tc-panel-title">OUTPUT <span class="tc-mode-desc" id="tc-mode-label">(tabs → spaces)</span></span>
-      <div class="tc-panel-actions">
-        <button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcCopy()">Copy</button>
-        <span class="tc-copy-note" id="tc-copy-note">Copied!</span>
-      </div>
-    </div>
-    <div class="tc-preview" id="tc-output-preview" aria-live="polite"></div>
-    <textarea id="tc-output-raw" style="display:none" readonly spellcheck="false"></textarea>
-  </div>
+<div>
+<div class="tc-panel-head">
+<span class="tc-panel-title">INPUT</span>
+<div class="tc-panel-actions">
+<button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcPaste()">Paste</button>
+</div>
+</div>
+<textarea id="tc-input" placeholder="Paste your code here, or upload a file above..." oninput="tcProcess()" spellcheck="false"></textarea>
+</div>
+<div>
+<div class="tc-panel-head">
+<span class="tc-panel-title">OUTPUT <span class="tc-mode-desc" id="tc-mode-label">(tabs → spaces)</span></span>
+<div class="tc-panel-actions">
+<button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcCopy()">Copy</button>
+<span class="tc-copy-note" id="tc-copy-note">Copied!</span>
+</div>
+</div>
+<div class="tc-preview" id="tc-output-preview" aria-live="polite"></div>
+<textarea id="tc-output-raw" style="display:none" readonly spellcheck="false"></textarea>
+</div>
 </div>
 
 <!-- Stats -->
 <div class="tc-stats" id="tc-stats">
-  <span class="tc-stat">Lines: <strong id="tc-stat-lines">0</strong></span>
-  <span class="tc-stat">Input chars: <strong id="tc-stat-in-chars">0</strong></span>
-  <span class="tc-stat">Output chars: <strong id="tc-stat-out-chars">0</strong></span>
-  <span class="tc-stat">Tab stops (input): <strong id="tc-stat-tabs">0</strong></span>
-  <span class="tc-stat">Space indents (input): <strong id="tc-stat-spaces">0</strong></span>
-  <span class="tc-stat">Trailing WS lines: <strong id="tc-stat-trailing">0</strong></span>
+<span class="tc-stat">Lines: <strong id="tc-stat-lines">0</strong></span>
+<span class="tc-stat">Input chars: <strong id="tc-stat-in-chars">0</strong></span>
+<span class="tc-stat">Output chars: <strong id="tc-stat-out-chars">0</strong></span>
+<span class="tc-stat">Tab stops (input): <strong id="tc-stat-tabs">0</strong></span>
+<span class="tc-stat">Space indents (input): <strong id="tc-stat-spaces">0</strong></span>
+<span class="tc-stat">Trailing WS lines: <strong id="tc-stat-trailing">0</strong></span>
 </div>
 
 <script>
 (function(){
-  var mode = 't2s';
-  var width = 2;
+var mode = 't2s';
+var width = 2;
 
-  function setMode(m){
-    mode = m;
-    document.getElementById('tc-mode-t2s').classList.toggle('active', m==='t2s');
-    document.getElementById('tc-mode-s2t').classList.toggle('active', m==='s2t');
-    document.getElementById('tc-mode-label').textContent = m==='t2s' ? '(tabs → spaces)' : '(spaces → tabs)';
-    process();
-  }
-  function setWidth(w){
-    width = w;
-    [2,4,8].forEach(function(n){
-      document.getElementById('tc-w-'+n).classList.toggle('active', n===w);
-    });
-    process();
-  }
+function setMode(m){
+mode = m;
+document.getElementById('tc-mode-t2s').classList.toggle('active', m==='t2s');
+document.getElementById('tc-mode-s2t').classList.toggle('active', m==='s2t');
+document.getElementById('tc-mode-label').textContent = m==='t2s' ? '(tabs → spaces)' : '(spaces → tabs)';
+process();
+}
+function setWidth(w){
+width = w;
+[2,4,8].forEach(function(n){
+document.getElementById('tc-w-'+n).classList.toggle('active', n===w);
+});
+process();
+}
 
-  function process(){
-    var input = document.getElementById('tc-input').value;
-    var trim = document.getElementById('tc-trim').checked;
-    var norm = document.getElementById('tc-normalize').checked;
-    var showWs = document.getElementById('tc-preview-ws').checked;
+function process(){
+var input = document.getElementById('tc-input').value;
+var trim = document.getElementById('tc-trim').checked;
+var norm = document.getElementById('tc-normalize').checked;
+var showWs = document.getElementById('tc-preview-ws').checked;
 
-    // Normalize line endings first if requested
-    var text = norm ? input.replace(/\r\n/g,'\n').replace(/\r/g,'\n') : input;
+// Normalize line endings first if requested
+var text = norm ? input.replace(/\r\n/g,'\n').replace(/\r/g,'\n') : input;
 
-    // Convert
-    var lines = text.split('\n');
-    var outLines = lines.map(function(line){
-      var converted;
-      if(mode === 't2s'){
-        // Replace tabs with spaces — handle mid-line tabs too with tab-stop logic
-        var result = '';
-        var col = 0;
-        for(var i=0;i<line.length;i++){
-          var ch = line[i];
-          if(ch==='\t'){
-            var spaces = width - (col % width);
-            result += ' '.repeat(spaces);
-            col += spaces;
-          } else {
-            result += ch;
-            col++;
-          }
-        }
-        converted = result;
-      } else {
-        // Spaces → tabs: only convert leading whitespace
-        var leadMatch = line.match(/^( +)/);
-        if(leadMatch){
-          var spCount = leadMatch[1].length;
-          var tabs = Math.floor(spCount / width);
-          var rem = spCount % width;
-          converted = '\t'.repeat(tabs) + ' '.repeat(rem) + line.slice(spCount);
-        } else {
-          converted = line;
-        }
-      }
-      if(trim) converted = converted.replace(/[ \t]+$/, '');
-      return converted;
-    });
+// Convert
+var lines = text.split('\n');
+var outLines = lines.map(function(line){
+var converted;
+if(mode === 't2s'){
+// Replace tabs with spaces — handle mid-line tabs too with tab-stop logic
+var result = '';
+var col = 0;
+for(var i=0;i<line.length;i++){
+var ch = line[i];
+if(ch==='\t'){
+var spaces = width - (col % width);
+result += ' '.repeat(spaces);
+col += spaces;
+} else {
+result += ch;
+col++;
+}
+}
+converted = result;
+} else {
+// Spaces → tabs: only convert leading whitespace
+var leadMatch = line.match(/^( +)/);
+if(leadMatch){
+var spCount = leadMatch[1].length;
+var tabs = Math.floor(spCount / width);
+var rem = spCount % width;
+converted = '\t'.repeat(tabs) + ' '.repeat(rem) + line.slice(spCount);
+} else {
+converted = line;
+}
+}
+if(trim) converted = converted.replace(/[ \t]+$/, '');
+return converted;
+});
 
-    var output = outLines.join('\n');
-    document.getElementById('tc-output-raw').value = output;
+var output = outLines.join('\n');
+document.getElementById('tc-output-raw').value = output;
 
-    // Stats
-    var tabCount = 0;
-    var spaceIndentCount = 0;
-    var trailingCount = 0;
-    lines.forEach(function(l){
-      if(/\t/.test(l)) tabCount++;
-      if(/^ +/.test(l)) spaceIndentCount++;
-      if(/[ \t]+$/.test(l)) trailingCount++;
-    });
-    document.getElementById('tc-stat-lines').textContent = lines.length;
-    document.getElementById('tc-stat-in-chars').textContent = input.length;
-    document.getElementById('tc-stat-out-chars').textContent = output.length;
-    document.getElementById('tc-stat-tabs').textContent = tabCount;
-    document.getElementById('tc-stat-spaces').textContent = spaceIndentCount;
-    document.getElementById('tc-stat-trailing').textContent = trailingCount;
+// Stats
+var tabCount = 0;
+var spaceIndentCount = 0;
+var trailingCount = 0;
+lines.forEach(function(l){
+if(/\t/.test(l)) tabCount++;
+if(/^ +/.test(l)) spaceIndentCount++;
+if(/[ \t]+$/.test(l)) trailingCount++;
+});
+document.getElementById('tc-stat-lines').textContent = lines.length;
+document.getElementById('tc-stat-in-chars').textContent = input.length;
+document.getElementById('tc-stat-out-chars').textContent = output.length;
+document.getElementById('tc-stat-tabs').textContent = tabCount;
+document.getElementById('tc-stat-spaces').textContent = spaceIndentCount;
+document.getElementById('tc-stat-trailing').textContent = trailingCount;
 
-    // Render preview
-    renderPreview(output, showWs);
-  }
+// Render preview
+renderPreview(output, showWs);
+}
 
-  function renderPreview(text, showWs){
-    var el = document.getElementById('tc-output-preview');
-    if(!showWs){
-      el.textContent = text;
-      return;
-    }
-    // Escape HTML then replace whitespace markers
-    var escaped = text
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;');
-    var marked = escaped
-      .replace(/ /g,'<span class="ws-space">\u00b7</span>')
-      .replace(/\t/g,'<span class="ws-tab">\u2192   </span>');
-    el.innerHTML = marked;
-  }
+function renderPreview(text, showWs){
+var el = document.getElementById('tc-output-preview');
+if(!showWs){
+el.textContent = text;
+return;
+}
+// Escape HTML then replace whitespace markers
+var escaped = text
+.replace(/&/g,'&amp;')
+.replace(/</g,'&lt;')
+.replace(/>/g,'&gt;');
+var marked = escaped
+.replace(/ /g,'<span class="ws-space">\u00b7</span>')
+.replace(/\t/g,'<span class="ws-tab">\u2192   </span>');
+el.innerHTML = marked;
+}
 
-  function swap(){
-    var raw = document.getElementById('tc-output-raw').value;
-    document.getElementById('tc-input').value = raw;
-    process();
-  }
+function swap(){
+var raw = document.getElementById('tc-output-raw').value;
+document.getElementById('tc-input').value = raw;
+process();
+}
 
-  function clear(){
-    document.getElementById('tc-input').value = '';
-    document.getElementById('tc-output-raw').value = '';
-    document.getElementById('tc-output-preview').textContent = '';
-    ['tc-stat-lines','tc-stat-in-chars','tc-stat-out-chars','tc-stat-tabs','tc-stat-spaces','tc-stat-trailing'].forEach(function(id){
-      document.getElementById(id).textContent = '0';
-    });
-  }
+function clear(){
+document.getElementById('tc-input').value = '';
+document.getElementById('tc-output-raw').value = '';
+document.getElementById('tc-output-preview').textContent = '';
+['tc-stat-lines','tc-stat-in-chars','tc-stat-out-chars','tc-stat-tabs','tc-stat-spaces','tc-stat-trailing'].forEach(function(id){
+document.getElementById(id).textContent = '0';
+});
+}
 
-  function copy(){
-    var val = document.getElementById('tc-output-raw').value;
-    if(!val) return;
-    if(navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(val).then(flashCopy);
-    } else {
-      var ta = document.createElement('textarea');
-      ta.value = val;
-      ta.style.position='fixed';ta.style.opacity='0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      flashCopy();
-    }
-  }
+function copy(){
+var val = document.getElementById('tc-output-raw').value;
+if(!val) return;
+if(navigator.clipboard && navigator.clipboard.writeText){
+navigator.clipboard.writeText(val).then(flashCopy);
+} else {
+var ta = document.createElement('textarea');
+ta.value = val;
+ta.style.position='fixed';ta.style.opacity='0';
+document.body.appendChild(ta);
+ta.select();
+document.execCommand('copy');
+document.body.removeChild(ta);
+flashCopy();
+}
+}
 
-  function flashCopy(){
-    var note = document.getElementById('tc-copy-note');
-    note.style.display='inline';
-    setTimeout(function(){ note.style.display='none'; }, 1800);
-  }
+function flashCopy(){
+var note = document.getElementById('tc-copy-note');
+note.style.display='inline';
+setTimeout(function(){ note.style.display='none'; }, 1800);
+}
 
-  function paste(){
-    if(navigator.clipboard && navigator.clipboard.readText){
-      navigator.clipboard.readText().then(function(t){
-        document.getElementById('tc-input').value = t;
-        process();
-      });
-    }
-  }
+function paste(){
+if(navigator.clipboard && navigator.clipboard.readText){
+navigator.clipboard.readText().then(function(t){
+document.getElementById('tc-input').value = t;
+process();
+});
+}
+}
 
-  function upload(e){
-    var file = e.target.files[0];
-    if(!file) return;
-    var reader = new FileReader();
-    reader.onload = function(ev){
-      document.getElementById('tc-input').value = ev.target.result;
-      process();
-    };
-    reader.readAsText(file);
-    e.target.value = '';
-  }
+function upload(e){
+var file = e.target.files[0];
+if(!file) return;
+var reader = new FileReader();
+reader.onload = function(ev){
+document.getElementById('tc-input').value = ev.target.result;
+process();
+};
+reader.readAsText(file);
+e.target.value = '';
+}
 
-  // Expose to inline handlers
-  window.tcSetMode = setMode;
-  window.tcSetWidth = setWidth;
-  window.tcProcess = process;
-  window.tcSwap = swap;
-  window.tcClear = clear;
-  window.tcCopy = copy;
-  window.tcPaste = paste;
-  window.tcUpload = upload;
+// Expose to inline handlers
+window.tcSetMode = setMode;
+window.tcSetWidth = setWidth;
+window.tcProcess = process;
+window.tcSwap = swap;
+window.tcClear = clear;
+window.tcCopy = copy;
+window.tcPaste = paste;
+window.tcUpload = upload;
 
-  // Init
-  process();
+// Init
+process();
 })();
 </script>
 </div>

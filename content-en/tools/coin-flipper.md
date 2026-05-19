@@ -83,343 +83,343 @@ cover:
 #cf-app .cf-toggle input[type=checkbox]{width:16px;height:16px;cursor:pointer;accent-color:#2563eb}
 
 @media(max-width:480px){
-  #cf-app .cf-stats-grid{grid-template-columns:1fr 1fr}
-  #cf-app .cf-grid-2{grid-template-columns:1fr}
-  #cf-app .cf-coin{width:110px;height:110px}
-  #cf-app .cf-coin-face{font-size:2.1rem}
+#cf-app .cf-stats-grid{grid-template-columns:1fr 1fr}
+#cf-app .cf-grid-2{grid-template-columns:1fr}
+#cf-app .cf-coin{width:110px;height:110px}
+#cf-app .cf-coin-face{font-size:2.1rem}
 }
 </style>
 
 <!-- Main flip section -->
 <div class="cf-section">
-  <div class="cf-top-bar">
-    <h2>Coin Flipper</h2>
-    <label class="cf-toggle"><input type="checkbox" id="cf-sound" checked> Sound</label>
-  </div>
+<div class="cf-top-bar">
+<h2>Coin Flipper</h2>
+<label class="cf-toggle"><input type="checkbox" id="cf-sound" checked> Sound</label>
+</div>
 
-  <div class="cf-coin-wrap">
-    <div class="cf-coin" id="cf-coin">
-      <div class="cf-coin-face cf-heads" id="cf-face-h">H</div>
-      <div class="cf-coin-face cf-tails" id="cf-face-t">T</div>
-    </div>
-  </div>
+<div class="cf-coin-wrap">
+<div class="cf-coin" id="cf-coin">
+<div class="cf-coin-face cf-heads" id="cf-face-h">H</div>
+<div class="cf-coin-face cf-tails" id="cf-face-t">T</div>
+</div>
+</div>
 
-  <div class="cf-result" id="cf-result">—</div>
-  <div class="cf-result-label" id="cf-result-label">Click to flip</div>
+<div class="cf-result" id="cf-result">—</div>
+<div class="cf-result-label" id="cf-result-label">Click to flip</div>
 
-  <button class="cf-btn cf-btn-primary" id="cf-flip-btn">Flip Coin</button>
+<button class="cf-btn cf-btn-primary" id="cf-flip-btn">Flip Coin</button>
 
-  <div class="cf-controls">
-    <div style="flex:1;min-width:120px">
-      <span class="cf-label">Heads label</span>
-      <input class="cf-input" id="cf-label-h" value="Heads" maxlength="20">
-    </div>
-    <div style="flex:1;min-width:120px">
-      <span class="cf-label">Tails label</span>
-      <input class="cf-input" id="cf-label-t" value="Tails" maxlength="20">
-    </div>
-  </div>
+<div class="cf-controls">
+<div style="flex:1;min-width:120px">
+<span class="cf-label">Heads label</span>
+<input class="cf-input" id="cf-label-h" value="Heads" maxlength="20">
+</div>
+<div style="flex:1;min-width:120px">
+<span class="cf-label">Tails label</span>
+<input class="cf-input" id="cf-label-t" value="Tails" maxlength="20">
+</div>
+</div>
 </div>
 
 <!-- Statistics -->
 <div class="cf-section">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-    <h2>Statistics</h2>
-    <button class="cf-btn cf-btn-sm cf-btn-danger" id="cf-reset-btn">Reset</button>
-  </div>
-  <div class="cf-stats-grid">
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-h">0</div>
-      <div class="cf-stat-label">Heads</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-t">0</div>
-      <div class="cf-stat-label">Tails</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-pct">—</div>
-      <div class="cf-stat-label">Heads %</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-streak">0</div>
-      <div class="cf-stat-label">Longest streak</div>
-    </div>
-  </div>
-  <div class="cf-progress" style="margin-top:12px"><div class="cf-progress-bar" id="cf-prog" style="width:50%"></div></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+<h2>Statistics</h2>
+<button class="cf-btn cf-btn-sm cf-btn-danger" id="cf-reset-btn">Reset</button>
+</div>
+<div class="cf-stats-grid">
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-h">0</div>
+<div class="cf-stat-label">Heads</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-t">0</div>
+<div class="cf-stat-label">Tails</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-pct">—</div>
+<div class="cf-stat-label">Heads %</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-streak">0</div>
+<div class="cf-stat-label">Longest streak</div>
+</div>
+</div>
+<div class="cf-progress" style="margin-top:12px"><div class="cf-progress-bar" id="cf-prog" style="width:50%"></div></div>
 </div>
 
 <!-- Flip history -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">Flip History <span style="font-weight:400;font-size:0.82rem;color:#94a3b8">(last 50)</span></h2>
-  <div class="cf-history-list" id="cf-history"><span style="color:#94a3b8;font-size:0.85rem">No flips yet</span></div>
+<h2 style="margin-bottom:12px">Flip History <span style="font-weight:400;font-size:0.82rem;color:#94a3b8">(last 50)</span></h2>
+<div class="cf-history-list" id="cf-history"><span style="color:#94a3b8;font-size:0.85rem">No flips yet</span></div>
 </div>
 
 <!-- Multi flip -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">Flip Multiple Coins</h2>
-  <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap">
-    <div style="flex:1;min-width:100px">
-      <span class="cf-label">Number of coins</span>
-      <input class="cf-input" id="cf-multi-n" type="number" min="1" max="100" value="10">
-    </div>
-    <button class="cf-btn cf-btn-primary" id="cf-multi-btn" style="width:auto;padding:11px 22px;font-size:0.95rem;margin-bottom:0">Flip All</button>
-  </div>
-  <div id="cf-multi-summary" style="margin-top:10px;font-size:0.88rem;color:#475569"></div>
-  <div class="cf-multi-results" id="cf-multi-results"></div>
+<h2 style="margin-bottom:12px">Flip Multiple Coins</h2>
+<div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap">
+<div style="flex:1;min-width:100px">
+<span class="cf-label">Number of coins</span>
+<input class="cf-input" id="cf-multi-n" type="number" min="1" max="100" value="10">
+</div>
+<button class="cf-btn cf-btn-primary" id="cf-multi-btn" style="width:auto;padding:11px 22px;font-size:0.95rem;margin-bottom:0">Flip All</button>
+</div>
+<div id="cf-multi-summary" style="margin-top:10px;font-size:0.88rem;color:#475569"></div>
+<div class="cf-multi-results" id="cf-multi-results"></div>
 </div>
 
 <!-- Best of N -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">Best of N</h2>
-  <div class="cf-controls">
-    <div>
-      <span class="cf-label">Series</span>
-      <select class="cf-select" id="cf-bon-select">
-        <option value="3">Best of 3</option>
-        <option value="5">Best of 5</option>
-        <option value="7">Best of 7</option>
-      </select>
-    </div>
-    <button class="cf-btn cf-btn-sm" id="cf-bon-reset-btn">New series</button>
-  </div>
-  <div class="cf-bon-score">
-    <span>Heads: <span class="cf-bon-h" id="cf-bon-h">0</span></span>
-    <span>Tails: <span class="cf-bon-t" id="cf-bon-t">0</span></span>
-  </div>
-  <div id="cf-bon-history" style="font-size:0.82rem;color:#64748b;margin-bottom:10px;min-height:20px"></div>
-  <button class="cf-btn cf-btn-primary" id="cf-bon-flip-btn">Flip for Best of N</button>
-  <div class="cf-bon-win" id="cf-bon-win"></div>
+<h2 style="margin-bottom:12px">Best of N</h2>
+<div class="cf-controls">
+<div>
+<span class="cf-label">Series</span>
+<select class="cf-select" id="cf-bon-select">
+<option value="3">Best of 3</option>
+<option value="5">Best of 5</option>
+<option value="7">Best of 7</option>
+</select>
+</div>
+<button class="cf-btn cf-btn-sm" id="cf-bon-reset-btn">New series</button>
+</div>
+<div class="cf-bon-score">
+<span>Heads: <span class="cf-bon-h" id="cf-bon-h">0</span></span>
+<span>Tails: <span class="cf-bon-t" id="cf-bon-t">0</span></span>
+</div>
+<div id="cf-bon-history" style="font-size:0.82rem;color:#64748b;margin-bottom:10px;min-height:20px"></div>
+<button class="cf-btn cf-btn-primary" id="cf-bon-flip-btn">Flip for Best of N</button>
+<div class="cf-bon-win" id="cf-bon-win"></div>
 </div>
 
 <div style="margin-top:20px;padding:14px 16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;font-size:0.87rem;color:#475569">
-  <strong>More randomness tools:</strong><br>
-  Roll dice → <a href="/tools/dice-roller/">Dice Roller</a><br>
-  Generate random numbers → <a href="/tools/random-number-generator/">Random Number Generator</a>
+<strong>More randomness tools:</strong><br>
+Roll dice → <a href="/tools/dice-roller/">Dice Roller</a><br>
+Generate random numbers → <a href="/tools/random-number-generator/">Random Number Generator</a>
 </div>
 
 <script>
 (function(){
-  // State
-  var state = {
-    heads: 0, tails: 0,
-    history: [],
-    streakH: 0, streakT: 0, maxStreak: 0,
-    currentStreak: 0, currentSide: null,
-    bonH: 0, bonT: 0, bonDone: false
-  };
+// State
+var state = {
+heads: 0, tails: 0,
+history: [],
+streakH: 0, streakT: 0, maxStreak: 0,
+currentStreak: 0, currentSide: null,
+bonH: 0, bonT: 0, bonDone: false
+};
 
-  // Elements
-  var coin = document.getElementById('cf-coin');
-  var faceH = document.getElementById('cf-face-h');
-  var faceT = document.getElementById('cf-face-t');
-  var resultEl = document.getElementById('cf-result');
-  var resultLabel = document.getElementById('cf-result-label');
-  var flipBtn = document.getElementById('cf-flip-btn');
-  var resetBtn = document.getElementById('cf-reset-btn');
-  var labelH = document.getElementById('cf-label-h');
-  var labelT = document.getElementById('cf-label-t');
-  var statH = document.getElementById('cf-stat-h');
-  var statT = document.getElementById('cf-stat-t');
-  var statPct = document.getElementById('cf-stat-pct');
-  var statStreak = document.getElementById('cf-stat-streak');
-  var prog = document.getElementById('cf-prog');
-  var histEl = document.getElementById('cf-history');
-  var soundChk = document.getElementById('cf-sound');
-  var multiN = document.getElementById('cf-multi-n');
-  var multiBtn = document.getElementById('cf-multi-btn');
-  var multiSummary = document.getElementById('cf-multi-summary');
-  var multiResults = document.getElementById('cf-multi-results');
-  var bonSelect = document.getElementById('cf-bon-select');
-  var bonFlipBtn = document.getElementById('cf-bon-flip-btn');
-  var bonResetBtn = document.getElementById('cf-bon-reset-btn');
-  var bonHEl = document.getElementById('cf-bon-h');
-  var bonTEl = document.getElementById('cf-bon-t');
-  var bonHistEl = document.getElementById('cf-bon-history');
-  var bonWin = document.getElementById('cf-bon-win');
+// Elements
+var coin = document.getElementById('cf-coin');
+var faceH = document.getElementById('cf-face-h');
+var faceT = document.getElementById('cf-face-t');
+var resultEl = document.getElementById('cf-result');
+var resultLabel = document.getElementById('cf-result-label');
+var flipBtn = document.getElementById('cf-flip-btn');
+var resetBtn = document.getElementById('cf-reset-btn');
+var labelH = document.getElementById('cf-label-h');
+var labelT = document.getElementById('cf-label-t');
+var statH = document.getElementById('cf-stat-h');
+var statT = document.getElementById('cf-stat-t');
+var statPct = document.getElementById('cf-stat-pct');
+var statStreak = document.getElementById('cf-stat-streak');
+var prog = document.getElementById('cf-prog');
+var histEl = document.getElementById('cf-history');
+var soundChk = document.getElementById('cf-sound');
+var multiN = document.getElementById('cf-multi-n');
+var multiBtn = document.getElementById('cf-multi-btn');
+var multiSummary = document.getElementById('cf-multi-summary');
+var multiResults = document.getElementById('cf-multi-results');
+var bonSelect = document.getElementById('cf-bon-select');
+var bonFlipBtn = document.getElementById('cf-bon-flip-btn');
+var bonResetBtn = document.getElementById('cf-bon-reset-btn');
+var bonHEl = document.getElementById('cf-bon-h');
+var bonTEl = document.getElementById('cf-bon-t');
+var bonHistEl = document.getElementById('cf-bon-history');
+var bonWin = document.getElementById('cf-bon-win');
 
-  var flipping = false;
+var flipping = false;
 
-  // Audio context for click sound
-  function playFlipSound() {
-    if (!soundChk.checked) return;
-    try {
-      var ctx = new (window.AudioContext || window.webkitAudioContext)();
-      var o = ctx.createOscillator();
-      var g = ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
-      o.type = 'triangle';
-      o.frequency.setValueAtTime(880, ctx.currentTime);
-      o.frequency.exponentialRampToValueAtTime(220, ctx.currentTime + 0.25);
-      g.gain.setValueAtTime(0.3, ctx.currentTime);
-      g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
-      o.start(ctx.currentTime);
-      o.stop(ctx.currentTime + 0.3);
-    } catch(e){}
-  }
+// Audio context for click sound
+function playFlipSound() {
+if (!soundChk.checked) return;
+try {
+var ctx = new (window.AudioContext || window.webkitAudioContext)();
+var o = ctx.createOscillator();
+var g = ctx.createGain();
+o.connect(g); g.connect(ctx.destination);
+o.type = 'triangle';
+o.frequency.setValueAtTime(880, ctx.currentTime);
+o.frequency.exponentialRampToValueAtTime(220, ctx.currentTime + 0.25);
+g.gain.setValueAtTime(0.3, ctx.currentTime);
+g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+o.start(ctx.currentTime);
+o.stop(ctx.currentTime + 0.3);
+} catch(e){}
+}
 
-  function getLabel(side) {
-    return side === 'heads' ? (labelH.value || 'Heads') : (labelT.value || 'Tails');
-  }
+function getLabel(side) {
+return side === 'heads' ? (labelH.value || 'Heads') : (labelT.value || 'Tails');
+}
 
-  function updateStats() {
-    var total = state.heads + state.tails;
-    statH.textContent = state.heads;
-    statT.textContent = state.tails;
-    statPct.textContent = total ? (state.heads / total * 100).toFixed(1) + '%' : '—';
-    statStreak.textContent = state.maxStreak;
-    var pct = total ? (state.heads / total * 100) : 50;
-    prog.style.width = pct + '%';
-  }
+function updateStats() {
+var total = state.heads + state.tails;
+statH.textContent = state.heads;
+statT.textContent = state.tails;
+statPct.textContent = total ? (state.heads / total * 100).toFixed(1) + '%' : '—';
+statStreak.textContent = state.maxStreak;
+var pct = total ? (state.heads / total * 100) : 50;
+prog.style.width = pct + '%';
+}
 
-  function updateHistory() {
-    if (state.history.length === 0) {
-      histEl.innerHTML = '<span style="color:#94a3b8;font-size:0.85rem">No flips yet</span>';
-      return;
-    }
-    histEl.innerHTML = state.history.slice().reverse().map(function(s,i){
-      return '<span class="cf-chip ' + s + '">' + (i+1) + '. ' + getLabel(s) + '</span>';
-    }).join('');
-  }
+function updateHistory() {
+if (state.history.length === 0) {
+histEl.innerHTML = '<span style="color:#94a3b8;font-size:0.85rem">No flips yet</span>';
+return;
+}
+histEl.innerHTML = state.history.slice().reverse().map(function(s,i){
+return '<span class="cf-chip ' + s + '">' + (i+1) + '. ' + getLabel(s) + '</span>';
+}).join('');
+}
 
-  function doFlip(callback) {
-    var isHeads = Math.random() < 0.5;
-    var side = isHeads ? 'heads' : 'tails';
-    var endRot = isHeads ? 1080 : 900; // lands on heads or tails
+function doFlip(callback) {
+var isHeads = Math.random() < 0.5;
+var side = isHeads ? 'heads' : 'tails';
+var endRot = isHeads ? 1080 : 900; // lands on heads or tails
 
-    // Update face text before animation
-    faceH.textContent = labelH.value || 'H';
-    faceT.textContent = labelT.value || 'T';
+// Update face text before animation
+faceH.textContent = labelH.value || 'H';
+faceT.textContent = labelT.value || 'T';
 
-    coin.style.setProperty('--cf-end-rot', endRot + 'deg');
-    coin.classList.remove('spinning');
-    void coin.offsetWidth; // reflow
-    coin.classList.add('spinning');
-    playFlipSound();
+coin.style.setProperty('--cf-end-rot', endRot + 'deg');
+coin.classList.remove('spinning');
+void coin.offsetWidth; // reflow
+coin.classList.add('spinning');
+playFlipSound();
 
-    setTimeout(function(){
-      coin.classList.remove('spinning');
-      coin.style.transform = isHeads ? 'rotateY(0deg)' : 'rotateY(180deg)';
-      if (callback) callback(side);
-    }, 800);
+setTimeout(function(){
+coin.classList.remove('spinning');
+coin.style.transform = isHeads ? 'rotateY(0deg)' : 'rotateY(180deg)';
+if (callback) callback(side);
+}, 800);
 
-    return side;
-  }
+return side;
+}
 
-  function recordFlip(side) {
-    if (side === 'heads') state.heads++;
-    else state.tails++;
+function recordFlip(side) {
+if (side === 'heads') state.heads++;
+else state.tails++;
 
-    // Streak tracking
-    if (state.currentSide === side) {
-      state.currentStreak++;
-    } else {
-      state.currentSide = side;
-      state.currentStreak = 1;
-    }
-    if (state.currentStreak > state.maxStreak) state.maxStreak = state.currentStreak;
+// Streak tracking
+if (state.currentSide === side) {
+state.currentStreak++;
+} else {
+state.currentSide = side;
+state.currentStreak = 1;
+}
+if (state.currentStreak > state.maxStreak) state.maxStreak = state.currentStreak;
 
-    state.history.push(side);
-    if (state.history.length > 50) state.history.shift();
-  }
+state.history.push(side);
+if (state.history.length > 50) state.history.shift();
+}
 
-  // Main flip
-  flipBtn.addEventListener('click', function(){
-    if (flipping) return;
-    flipping = true;
-    flipBtn.disabled = true;
-    resultEl.textContent = '…';
-    resultEl.className = 'cf-result';
-    resultLabel.textContent = 'Flipping…';
+// Main flip
+flipBtn.addEventListener('click', function(){
+if (flipping) return;
+flipping = true;
+flipBtn.disabled = true;
+resultEl.textContent = '…';
+resultEl.className = 'cf-result';
+resultLabel.textContent = 'Flipping…';
 
-    doFlip(function(side){
-      recordFlip(side);
-      resultEl.textContent = getLabel(side);
-      resultEl.className = 'cf-result ' + side;
-      resultLabel.textContent = side === 'heads' ? 'It landed on heads!' : 'It landed on tails!';
-      updateStats();
-      updateHistory();
-      flipBtn.disabled = false;
-      flipping = false;
-    });
-  });
+doFlip(function(side){
+recordFlip(side);
+resultEl.textContent = getLabel(side);
+resultEl.className = 'cf-result ' + side;
+resultLabel.textContent = side === 'heads' ? 'It landed on heads!' : 'It landed on tails!';
+updateStats();
+updateHistory();
+flipBtn.disabled = false;
+flipping = false;
+});
+});
 
-  // Coin click = flip too
-  coin.addEventListener('click', function(){ if (!flipping) flipBtn.click(); });
+// Coin click = flip too
+coin.addEventListener('click', function(){ if (!flipping) flipBtn.click(); });
 
-  // Reset
-  resetBtn.addEventListener('click', function(){
-    state.heads = 0; state.tails = 0;
-    state.history = [];
-    state.maxStreak = 0; state.currentStreak = 0; state.currentSide = null;
-    resultEl.textContent = '—';
-    resultEl.className = 'cf-result';
-    resultLabel.textContent = 'Click to flip';
-    coin.style.transform = '';
-    updateStats();
-    updateHistory();
-  });
+// Reset
+resetBtn.addEventListener('click', function(){
+state.heads = 0; state.tails = 0;
+state.history = [];
+state.maxStreak = 0; state.currentStreak = 0; state.currentSide = null;
+resultEl.textContent = '—';
+resultEl.className = 'cf-result';
+resultLabel.textContent = 'Click to flip';
+coin.style.transform = '';
+updateStats();
+updateHistory();
+});
 
-  // Multi flip
-  multiBtn.addEventListener('click', function(){
-    var n = Math.min(100, Math.max(1, parseInt(multiN.value) || 10));
-    var h = 0, t = 0;
-    var icons = [];
-    for (var i = 0; i < n; i++) {
-      var s = Math.random() < 0.5 ? 'heads' : 'tails';
-      if (s === 'heads') h++; else t++;
-      icons.push('<div class="cf-mini-coin ' + s + '">' + (s === 'heads' ? (labelH.value||'H')[0] : (labelT.value||'T')[0]) + '</div>');
-    }
-    multiSummary.textContent = n + ' coins: ' + h + ' heads (' + (h/n*100).toFixed(1) + '%), ' + t + ' tails (' + (t/n*100).toFixed(1) + '%)';
-    multiResults.innerHTML = icons.join('');
-  });
+// Multi flip
+multiBtn.addEventListener('click', function(){
+var n = Math.min(100, Math.max(1, parseInt(multiN.value) || 10));
+var h = 0, t = 0;
+var icons = [];
+for (var i = 0; i < n; i++) {
+var s = Math.random() < 0.5 ? 'heads' : 'tails';
+if (s === 'heads') h++; else t++;
+icons.push('<div class="cf-mini-coin ' + s + '">' + (s === 'heads' ? (labelH.value||'H')[0] : (labelT.value||'T')[0]) + '</div>');
+}
+multiSummary.textContent = n + ' coins: ' + h + ' heads (' + (h/n*100).toFixed(1) + '%), ' + t + ' tails (' + (t/n*100).toFixed(1) + '%)';
+multiResults.innerHTML = icons.join('');
+});
 
-  // Best of N
-  function bonNeeded() { return Math.ceil(parseInt(bonSelect.value) / 2); }
+// Best of N
+function bonNeeded() { return Math.ceil(parseInt(bonSelect.value) / 2); }
 
-  function updateBon() {
-    bonHEl.textContent = state.bonH;
-    bonTEl.textContent = state.bonT;
-    var needed = bonNeeded();
-    var hist = [];
-    for (var i = 0; i < state.bonH; i++) hist.push('<span style="color:#b45309">H</span>');
-    for (var j = 0; j < state.bonT; j++) hist.push('<span style="color:#475569">T</span>');
-    bonHistEl.innerHTML = hist.join(' · ');
+function updateBon() {
+bonHEl.textContent = state.bonH;
+bonTEl.textContent = state.bonT;
+var needed = bonNeeded();
+var hist = [];
+for (var i = 0; i < state.bonH; i++) hist.push('<span style="color:#b45309">H</span>');
+for (var j = 0; j < state.bonT; j++) hist.push('<span style="color:#475569">T</span>');
+bonHistEl.innerHTML = hist.join(' · ');
 
-    if (state.bonH >= needed || state.bonT >= needed) {
-      state.bonDone = true;
-      var winner = state.bonH >= needed ? 'Heads' : 'Tails';
-      bonWin.textContent = winner + ' wins the series!';
-      bonWin.style.display = 'block';
-      bonFlipBtn.disabled = true;
-    }
-  }
+if (state.bonH >= needed || state.bonT >= needed) {
+state.bonDone = true;
+var winner = state.bonH >= needed ? 'Heads' : 'Tails';
+bonWin.textContent = winner + ' wins the series!';
+bonWin.style.display = 'block';
+bonFlipBtn.disabled = true;
+}
+}
 
-  bonFlipBtn.addEventListener('click', function(){
-    if (state.bonDone || flipping) return;
-    flipping = true;
-    bonFlipBtn.disabled = true;
-    doFlip(function(side){
-      if (side === 'heads') state.bonH++; else state.bonT++;
-      updateBon();
-      flipping = false;
-      if (!state.bonDone) bonFlipBtn.disabled = false;
-    });
-  });
+bonFlipBtn.addEventListener('click', function(){
+if (state.bonDone || flipping) return;
+flipping = true;
+bonFlipBtn.disabled = true;
+doFlip(function(side){
+if (side === 'heads') state.bonH++; else state.bonT++;
+updateBon();
+flipping = false;
+if (!state.bonDone) bonFlipBtn.disabled = false;
+});
+});
 
-  bonResetBtn.addEventListener('click', function(){
-    state.bonH = 0; state.bonT = 0; state.bonDone = false;
-    bonWin.style.display = 'none';
-    bonFlipBtn.disabled = false;
-    updateBon();
-  });
+bonResetBtn.addEventListener('click', function(){
+state.bonH = 0; state.bonT = 0; state.bonDone = false;
+bonWin.style.display = 'none';
+bonFlipBtn.disabled = false;
+updateBon();
+});
 
-  bonSelect.addEventListener('change', function(){ bonResetBtn.click(); });
+bonSelect.addEventListener('change', function(){ bonResetBtn.click(); });
 
-  // Init
-  faceH.textContent = 'H';
-  faceT.textContent = 'T';
-  updateStats();
-  updateBon();
+// Init
+faceH.textContent = 'H';
+faceT.textContent = 'T';
+updateStats();
+updateBon();
 })();
 </script>
 </div>

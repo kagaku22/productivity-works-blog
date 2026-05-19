@@ -85,336 +85,336 @@ cover:
 #cf-app .cf-freee-cta{margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px}
 
 @media(max-width:480px){
-  #cf-app .cf-stats-grid{grid-template-columns:1fr 1fr}
-  #cf-app .cf-coin{width:110px;height:110px}
-  #cf-app .cf-coin-face{font-size:2.1rem}
+#cf-app .cf-stats-grid{grid-template-columns:1fr 1fr}
+#cf-app .cf-coin{width:110px;height:110px}
+#cf-app .cf-coin-face{font-size:2.1rem}
 }
 </style>
 
 <!-- メインフリップセクション -->
 <div class="cf-section">
-  <div class="cf-top-bar">
-    <h2>コイントスシミュレーター</h2>
-    <label class="cf-toggle"><input type="checkbox" id="cf-sound" checked> 音</label>
-  </div>
+<div class="cf-top-bar">
+<h2>コイントスシミュレーター</h2>
+<label class="cf-toggle"><input type="checkbox" id="cf-sound" checked> 音</label>
+</div>
 
-  <div class="cf-coin-wrap">
-    <div class="cf-coin" id="cf-coin">
-      <div class="cf-coin-face cf-heads" id="cf-face-h">表</div>
-      <div class="cf-coin-face cf-tails" id="cf-face-t">裏</div>
-    </div>
-  </div>
+<div class="cf-coin-wrap">
+<div class="cf-coin" id="cf-coin">
+<div class="cf-coin-face cf-heads" id="cf-face-h">表</div>
+<div class="cf-coin-face cf-tails" id="cf-face-t">裏</div>
+</div>
+</div>
 
-  <div class="cf-result" id="cf-result">—</div>
-  <div class="cf-result-label" id="cf-result-label">クリックしてコインを投げる</div>
+<div class="cf-result" id="cf-result">—</div>
+<div class="cf-result-label" id="cf-result-label">クリックしてコインを投げる</div>
 
-  <button class="cf-btn cf-btn-primary" id="cf-flip-btn">コインを投げる</button>
+<button class="cf-btn cf-btn-primary" id="cf-flip-btn">コインを投げる</button>
 
-  <div class="cf-controls">
-    <div style="flex:1;min-width:120px">
-      <span class="cf-label">表のラベル</span>
-      <input class="cf-input" id="cf-label-h" value="表" maxlength="20">
-    </div>
-    <div style="flex:1;min-width:120px">
-      <span class="cf-label">裏のラベル</span>
-      <input class="cf-input" id="cf-label-t" value="裏" maxlength="20">
-    </div>
-  </div>
+<div class="cf-controls">
+<div style="flex:1;min-width:120px">
+<span class="cf-label">表のラベル</span>
+<input class="cf-input" id="cf-label-h" value="表" maxlength="20">
+</div>
+<div style="flex:1;min-width:120px">
+<span class="cf-label">裏のラベル</span>
+<input class="cf-input" id="cf-label-t" value="裏" maxlength="20">
+</div>
+</div>
 
-  <div class="cf-freee-cta">
-    <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">ビジネスの意思決定をデータで</p>
-    <span style="font-size:13px;color:#0c4a6e;">freee会計なら、経営判断に必要な財務データをリアルタイムで把握。無料トライアル実施中。</span>
-    <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
-  </div>
+<div class="cf-freee-cta">
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">ビジネスの意思決定をデータで</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、経営判断に必要な財務データをリアルタイムで把握。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+</div>
 </div>
 
 <!-- 統計 -->
 <div class="cf-section">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-    <h2>統計</h2>
-    <button class="cf-btn cf-btn-sm cf-btn-danger" id="cf-reset-btn">リセット</button>
-  </div>
-  <div class="cf-stats-grid">
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-h">0</div>
-      <div class="cf-stat-label">表の回数</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-t">0</div>
-      <div class="cf-stat-label">裏の回数</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-pct">—</div>
-      <div class="cf-stat-label">表の割合</div>
-    </div>
-    <div class="cf-stat-card">
-      <div class="cf-stat-num" id="cf-stat-streak">0</div>
-      <div class="cf-stat-label">最長連続記録</div>
-    </div>
-  </div>
-  <div class="cf-progress" style="margin-top:12px"><div class="cf-progress-bar" id="cf-prog" style="width:50%"></div></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+<h2>統計</h2>
+<button class="cf-btn cf-btn-sm cf-btn-danger" id="cf-reset-btn">リセット</button>
+</div>
+<div class="cf-stats-grid">
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-h">0</div>
+<div class="cf-stat-label">表の回数</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-t">0</div>
+<div class="cf-stat-label">裏の回数</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-pct">—</div>
+<div class="cf-stat-label">表の割合</div>
+</div>
+<div class="cf-stat-card">
+<div class="cf-stat-num" id="cf-stat-streak">0</div>
+<div class="cf-stat-label">最長連続記録</div>
+</div>
+</div>
+<div class="cf-progress" style="margin-top:12px"><div class="cf-progress-bar" id="cf-prog" style="width:50%"></div></div>
 </div>
 
 <!-- 履歴 -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">投げた履歴 <span style="font-weight:400;font-size:0.82rem;color:#94a3b8">（直近50回）</span></h2>
-  <div class="cf-history-list" id="cf-history"><span style="color:#94a3b8;font-size:0.85rem">まだ投げていません</span></div>
+<h2 style="margin-bottom:12px">投げた履歴 <span style="font-weight:400;font-size:0.82rem;color:#94a3b8">（直近50回）</span></h2>
+<div class="cf-history-list" id="cf-history"><span style="color:#94a3b8;font-size:0.85rem">まだ投げていません</span></div>
 </div>
 
 <!-- 複数枚 -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">複数枚を同時に投げる</h2>
-  <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap">
-    <div style="flex:1;min-width:100px">
-      <span class="cf-label">枚数（1〜100）</span>
-      <input class="cf-input" id="cf-multi-n" type="number" min="1" max="100" value="10">
-    </div>
-    <button class="cf-btn cf-btn-primary" id="cf-multi-btn" style="width:auto;padding:11px 22px;font-size:0.95rem;margin-bottom:0">一斉に投げる</button>
-  </div>
-  <div id="cf-multi-summary" style="margin-top:10px;font-size:0.88rem;color:#475569"></div>
-  <div class="cf-multi-results" id="cf-multi-results"></div>
+<h2 style="margin-bottom:12px">複数枚を同時に投げる</h2>
+<div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap">
+<div style="flex:1;min-width:100px">
+<span class="cf-label">枚数（1〜100）</span>
+<input class="cf-input" id="cf-multi-n" type="number" min="1" max="100" value="10">
+</div>
+<button class="cf-btn cf-btn-primary" id="cf-multi-btn" style="width:auto;padding:11px 22px;font-size:0.95rem;margin-bottom:0">一斉に投げる</button>
+</div>
+<div id="cf-multi-summary" style="margin-top:10px;font-size:0.88rem;color:#475569"></div>
+<div class="cf-multi-results" id="cf-multi-results"></div>
 </div>
 
 <!-- ベストオブN -->
 <div class="cf-section">
-  <h2 style="margin-bottom:12px">ベストオブN（勝負）</h2>
-  <div class="cf-controls">
-    <div>
-      <span class="cf-label">シリーズ</span>
-      <select class="cf-select" id="cf-bon-select">
-        <option value="3">ベストオブ3</option>
-        <option value="5">ベストオブ5</option>
-        <option value="7">ベストオブ7</option>
-      </select>
-    </div>
-    <button class="cf-btn cf-btn-sm" id="cf-bon-reset-btn">新しいシリーズ</button>
-  </div>
-  <div class="cf-bon-score">
-    <span>表: <span class="cf-bon-h" id="cf-bon-h">0</span></span>
-    <span>裏: <span class="cf-bon-t" id="cf-bon-t">0</span></span>
-  </div>
-  <div id="cf-bon-history" style="font-size:0.82rem;color:#64748b;margin-bottom:10px;min-height:20px"></div>
-  <button class="cf-btn cf-btn-primary" id="cf-bon-flip-btn">ベストオブNで投げる</button>
-  <div class="cf-bon-win" id="cf-bon-win"></div>
+<h2 style="margin-bottom:12px">ベストオブN（勝負）</h2>
+<div class="cf-controls">
+<div>
+<span class="cf-label">シリーズ</span>
+<select class="cf-select" id="cf-bon-select">
+<option value="3">ベストオブ3</option>
+<option value="5">ベストオブ5</option>
+<option value="7">ベストオブ7</option>
+</select>
+</div>
+<button class="cf-btn cf-btn-sm" id="cf-bon-reset-btn">新しいシリーズ</button>
+</div>
+<div class="cf-bon-score">
+<span>表: <span class="cf-bon-h" id="cf-bon-h">0</span></span>
+<span>裏: <span class="cf-bon-t" id="cf-bon-t">0</span></span>
+</div>
+<div id="cf-bon-history" style="font-size:0.82rem;color:#64748b;margin-bottom:10px;min-height:20px"></div>
+<button class="cf-btn cf-btn-primary" id="cf-bon-flip-btn">ベストオブNで投げる</button>
+<div class="cf-bon-win" id="cf-bon-win"></div>
 </div>
 
 <div style="margin-top:20px;padding:14px 16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;font-size:0.87rem;color:#475569">
-  <strong>他のランダムツール：</strong><br>
-  サイコロを振る → <a href="/ja/tools/dice-roller/">サイコロシミュレーター</a><br>
-  乱数を生成 → <a href="/ja/tools/random-number-generator/">乱数ジェネレーター</a>
+<strong>他のランダムツール：</strong><br>
+サイコロを振る → <a href="/ja/tools/dice-roller/">サイコロシミュレーター</a><br>
+乱数を生成 → <a href="/ja/tools/random-number-generator/">乱数ジェネレーター</a>
 </div>
 
 <script>
 (function(){
-  var state = {
-    heads: 0, tails: 0,
-    history: [],
-    maxStreak: 0, currentStreak: 0, currentSide: null,
-    bonH: 0, bonT: 0, bonDone: false
-  };
+var state = {
+heads: 0, tails: 0,
+history: [],
+maxStreak: 0, currentStreak: 0, currentSide: null,
+bonH: 0, bonT: 0, bonDone: false
+};
 
-  var coin = document.getElementById('cf-coin');
-  var faceH = document.getElementById('cf-face-h');
-  var faceT = document.getElementById('cf-face-t');
-  var resultEl = document.getElementById('cf-result');
-  var resultLabel = document.getElementById('cf-result-label');
-  var flipBtn = document.getElementById('cf-flip-btn');
-  var resetBtn = document.getElementById('cf-reset-btn');
-  var labelH = document.getElementById('cf-label-h');
-  var labelT = document.getElementById('cf-label-t');
-  var statH = document.getElementById('cf-stat-h');
-  var statT = document.getElementById('cf-stat-t');
-  var statPct = document.getElementById('cf-stat-pct');
-  var statStreak = document.getElementById('cf-stat-streak');
-  var prog = document.getElementById('cf-prog');
-  var histEl = document.getElementById('cf-history');
-  var soundChk = document.getElementById('cf-sound');
-  var multiN = document.getElementById('cf-multi-n');
-  var multiBtn = document.getElementById('cf-multi-btn');
-  var multiSummary = document.getElementById('cf-multi-summary');
-  var multiResults = document.getElementById('cf-multi-results');
-  var bonSelect = document.getElementById('cf-bon-select');
-  var bonFlipBtn = document.getElementById('cf-bon-flip-btn');
-  var bonResetBtn = document.getElementById('cf-bon-reset-btn');
-  var bonHEl = document.getElementById('cf-bon-h');
-  var bonTEl = document.getElementById('cf-bon-t');
-  var bonHistEl = document.getElementById('cf-bon-history');
-  var bonWin = document.getElementById('cf-bon-win');
+var coin = document.getElementById('cf-coin');
+var faceH = document.getElementById('cf-face-h');
+var faceT = document.getElementById('cf-face-t');
+var resultEl = document.getElementById('cf-result');
+var resultLabel = document.getElementById('cf-result-label');
+var flipBtn = document.getElementById('cf-flip-btn');
+var resetBtn = document.getElementById('cf-reset-btn');
+var labelH = document.getElementById('cf-label-h');
+var labelT = document.getElementById('cf-label-t');
+var statH = document.getElementById('cf-stat-h');
+var statT = document.getElementById('cf-stat-t');
+var statPct = document.getElementById('cf-stat-pct');
+var statStreak = document.getElementById('cf-stat-streak');
+var prog = document.getElementById('cf-prog');
+var histEl = document.getElementById('cf-history');
+var soundChk = document.getElementById('cf-sound');
+var multiN = document.getElementById('cf-multi-n');
+var multiBtn = document.getElementById('cf-multi-btn');
+var multiSummary = document.getElementById('cf-multi-summary');
+var multiResults = document.getElementById('cf-multi-results');
+var bonSelect = document.getElementById('cf-bon-select');
+var bonFlipBtn = document.getElementById('cf-bon-flip-btn');
+var bonResetBtn = document.getElementById('cf-bon-reset-btn');
+var bonHEl = document.getElementById('cf-bon-h');
+var bonTEl = document.getElementById('cf-bon-t');
+var bonHistEl = document.getElementById('cf-bon-history');
+var bonWin = document.getElementById('cf-bon-win');
 
-  var flipping = false;
+var flipping = false;
 
-  function playFlipSound() {
-    if (!soundChk.checked) return;
-    try {
-      var ctx = new (window.AudioContext || window.webkitAudioContext)();
-      var o = ctx.createOscillator();
-      var g = ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
-      o.type = 'triangle';
-      o.frequency.setValueAtTime(880, ctx.currentTime);
-      o.frequency.exponentialRampToValueAtTime(220, ctx.currentTime + 0.25);
-      g.gain.setValueAtTime(0.3, ctx.currentTime);
-      g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
-      o.start(ctx.currentTime);
-      o.stop(ctx.currentTime + 0.3);
-    } catch(e){}
-  }
+function playFlipSound() {
+if (!soundChk.checked) return;
+try {
+var ctx = new (window.AudioContext || window.webkitAudioContext)();
+var o = ctx.createOscillator();
+var g = ctx.createGain();
+o.connect(g); g.connect(ctx.destination);
+o.type = 'triangle';
+o.frequency.setValueAtTime(880, ctx.currentTime);
+o.frequency.exponentialRampToValueAtTime(220, ctx.currentTime + 0.25);
+g.gain.setValueAtTime(0.3, ctx.currentTime);
+g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+o.start(ctx.currentTime);
+o.stop(ctx.currentTime + 0.3);
+} catch(e){}
+}
 
-  function getLabel(side) {
-    return side === 'heads' ? (labelH.value || '表') : (labelT.value || '裏');
-  }
+function getLabel(side) {
+return side === 'heads' ? (labelH.value || '表') : (labelT.value || '裏');
+}
 
-  function updateStats() {
-    var total = state.heads + state.tails;
-    statH.textContent = state.heads;
-    statT.textContent = state.tails;
-    statPct.textContent = total ? (state.heads / total * 100).toFixed(1) + '%' : '—';
-    statStreak.textContent = state.maxStreak;
-    var pct = total ? (state.heads / total * 100) : 50;
-    prog.style.width = pct + '%';
-  }
+function updateStats() {
+var total = state.heads + state.tails;
+statH.textContent = state.heads;
+statT.textContent = state.tails;
+statPct.textContent = total ? (state.heads / total * 100).toFixed(1) + '%' : '—';
+statStreak.textContent = state.maxStreak;
+var pct = total ? (state.heads / total * 100) : 50;
+prog.style.width = pct + '%';
+}
 
-  function updateHistory() {
-    if (state.history.length === 0) {
-      histEl.innerHTML = '<span style="color:#94a3b8;font-size:0.85rem">まだ投げていません</span>';
-      return;
-    }
-    histEl.innerHTML = state.history.slice().reverse().map(function(s,i){
-      return '<span class="cf-chip ' + s + '">' + (i+1) + '. ' + getLabel(s) + '</span>';
-    }).join('');
-  }
+function updateHistory() {
+if (state.history.length === 0) {
+histEl.innerHTML = '<span style="color:#94a3b8;font-size:0.85rem">まだ投げていません</span>';
+return;
+}
+histEl.innerHTML = state.history.slice().reverse().map(function(s,i){
+return '<span class="cf-chip ' + s + '">' + (i+1) + '. ' + getLabel(s) + '</span>';
+}).join('');
+}
 
-  function doFlip(callback) {
-    var isHeads = Math.random() < 0.5;
-    var side = isHeads ? 'heads' : 'tails';
-    var endRot = isHeads ? 1080 : 900;
+function doFlip(callback) {
+var isHeads = Math.random() < 0.5;
+var side = isHeads ? 'heads' : 'tails';
+var endRot = isHeads ? 1080 : 900;
 
-    faceH.textContent = labelH.value || '表';
-    faceT.textContent = labelT.value || '裏';
+faceH.textContent = labelH.value || '表';
+faceT.textContent = labelT.value || '裏';
 
-    coin.style.setProperty('--cf-end-rot', endRot + 'deg');
-    coin.classList.remove('spinning');
-    void coin.offsetWidth;
-    coin.classList.add('spinning');
-    playFlipSound();
+coin.style.setProperty('--cf-end-rot', endRot + 'deg');
+coin.classList.remove('spinning');
+void coin.offsetWidth;
+coin.classList.add('spinning');
+playFlipSound();
 
-    setTimeout(function(){
-      coin.classList.remove('spinning');
-      coin.style.transform = isHeads ? 'rotateY(0deg)' : 'rotateY(180deg)';
-      if (callback) callback(side);
-    }, 800);
+setTimeout(function(){
+coin.classList.remove('spinning');
+coin.style.transform = isHeads ? 'rotateY(0deg)' : 'rotateY(180deg)';
+if (callback) callback(side);
+}, 800);
 
-    return side;
-  }
+return side;
+}
 
-  function recordFlip(side) {
-    if (side === 'heads') state.heads++;
-    else state.tails++;
+function recordFlip(side) {
+if (side === 'heads') state.heads++;
+else state.tails++;
 
-    if (state.currentSide === side) {
-      state.currentStreak++;
-    } else {
-      state.currentSide = side;
-      state.currentStreak = 1;
-    }
-    if (state.currentStreak > state.maxStreak) state.maxStreak = state.currentStreak;
+if (state.currentSide === side) {
+state.currentStreak++;
+} else {
+state.currentSide = side;
+state.currentStreak = 1;
+}
+if (state.currentStreak > state.maxStreak) state.maxStreak = state.currentStreak;
 
-    state.history.push(side);
-    if (state.history.length > 50) state.history.shift();
-  }
+state.history.push(side);
+if (state.history.length > 50) state.history.shift();
+}
 
-  flipBtn.addEventListener('click', function(){
-    if (flipping) return;
-    flipping = true;
-    flipBtn.disabled = true;
-    resultEl.textContent = '…';
-    resultEl.className = 'cf-result';
-    resultLabel.textContent = 'コインを投げています…';
+flipBtn.addEventListener('click', function(){
+if (flipping) return;
+flipping = true;
+flipBtn.disabled = true;
+resultEl.textContent = '…';
+resultEl.className = 'cf-result';
+resultLabel.textContent = 'コインを投げています…';
 
-    doFlip(function(side){
-      recordFlip(side);
-      resultEl.textContent = getLabel(side);
-      resultEl.className = 'cf-result ' + side;
-      resultLabel.textContent = side === 'heads' ? '表が出ました！' : '裏が出ました！';
-      updateStats();
-      updateHistory();
-      flipBtn.disabled = false;
-      flipping = false;
-    });
-  });
+doFlip(function(side){
+recordFlip(side);
+resultEl.textContent = getLabel(side);
+resultEl.className = 'cf-result ' + side;
+resultLabel.textContent = side === 'heads' ? '表が出ました！' : '裏が出ました！';
+updateStats();
+updateHistory();
+flipBtn.disabled = false;
+flipping = false;
+});
+});
 
-  coin.addEventListener('click', function(){ if (!flipping) flipBtn.click(); });
+coin.addEventListener('click', function(){ if (!flipping) flipBtn.click(); });
 
-  resetBtn.addEventListener('click', function(){
-    state.heads = 0; state.tails = 0;
-    state.history = [];
-    state.maxStreak = 0; state.currentStreak = 0; state.currentSide = null;
-    resultEl.textContent = '—';
-    resultEl.className = 'cf-result';
-    resultLabel.textContent = 'クリックしてコインを投げる';
-    coin.style.transform = '';
-    updateStats();
-    updateHistory();
-  });
+resetBtn.addEventListener('click', function(){
+state.heads = 0; state.tails = 0;
+state.history = [];
+state.maxStreak = 0; state.currentStreak = 0; state.currentSide = null;
+resultEl.textContent = '—';
+resultEl.className = 'cf-result';
+resultLabel.textContent = 'クリックしてコインを投げる';
+coin.style.transform = '';
+updateStats();
+updateHistory();
+});
 
-  multiBtn.addEventListener('click', function(){
-    var n = Math.min(100, Math.max(1, parseInt(multiN.value) || 10));
-    var h = 0, t = 0;
-    var icons = [];
-    for (var i = 0; i < n; i++) {
-      var s = Math.random() < 0.5 ? 'heads' : 'tails';
-      if (s === 'heads') h++; else t++;
-      icons.push('<div class="cf-mini-coin ' + s + '">' + (s === 'heads' ? (labelH.value||'表')[0] : (labelT.value||'裏')[0]) + '</div>');
-    }
-    multiSummary.textContent = n + '枚: 表 ' + h + '回 (' + (h/n*100).toFixed(1) + '%)、裏 ' + t + '回 (' + (t/n*100).toFixed(1) + '%)';
-    multiResults.innerHTML = icons.join('');
-  });
+multiBtn.addEventListener('click', function(){
+var n = Math.min(100, Math.max(1, parseInt(multiN.value) || 10));
+var h = 0, t = 0;
+var icons = [];
+for (var i = 0; i < n; i++) {
+var s = Math.random() < 0.5 ? 'heads' : 'tails';
+if (s === 'heads') h++; else t++;
+icons.push('<div class="cf-mini-coin ' + s + '">' + (s === 'heads' ? (labelH.value||'表')[0] : (labelT.value||'裏')[0]) + '</div>');
+}
+multiSummary.textContent = n + '枚: 表 ' + h + '回 (' + (h/n*100).toFixed(1) + '%)、裏 ' + t + '回 (' + (t/n*100).toFixed(1) + '%)';
+multiResults.innerHTML = icons.join('');
+});
 
-  function bonNeeded() { return Math.ceil(parseInt(bonSelect.value) / 2); }
+function bonNeeded() { return Math.ceil(parseInt(bonSelect.value) / 2); }
 
-  function updateBon() {
-    bonHEl.textContent = state.bonH;
-    bonTEl.textContent = state.bonT;
-    var needed = bonNeeded();
-    var hist = [];
-    for (var i = 0; i < state.bonH; i++) hist.push('<span style="color:#b45309">表</span>');
-    for (var j = 0; j < state.bonT; j++) hist.push('<span style="color:#475569">裏</span>');
-    bonHistEl.innerHTML = hist.join(' · ');
+function updateBon() {
+bonHEl.textContent = state.bonH;
+bonTEl.textContent = state.bonT;
+var needed = bonNeeded();
+var hist = [];
+for (var i = 0; i < state.bonH; i++) hist.push('<span style="color:#b45309">表</span>');
+for (var j = 0; j < state.bonT; j++) hist.push('<span style="color:#475569">裏</span>');
+bonHistEl.innerHTML = hist.join(' · ');
 
-    if (state.bonH >= needed || state.bonT >= needed) {
-      state.bonDone = true;
-      var winner = state.bonH >= needed ? '表' : '裏';
-      bonWin.textContent = winner + ' がシリーズを制しました！';
-      bonWin.style.display = 'block';
-      bonFlipBtn.disabled = true;
-    }
-  }
+if (state.bonH >= needed || state.bonT >= needed) {
+state.bonDone = true;
+var winner = state.bonH >= needed ? '表' : '裏';
+bonWin.textContent = winner + ' がシリーズを制しました！';
+bonWin.style.display = 'block';
+bonFlipBtn.disabled = true;
+}
+}
 
-  bonFlipBtn.addEventListener('click', function(){
-    if (state.bonDone || flipping) return;
-    flipping = true;
-    bonFlipBtn.disabled = true;
-    doFlip(function(side){
-      if (side === 'heads') state.bonH++; else state.bonT++;
-      updateBon();
-      flipping = false;
-      if (!state.bonDone) bonFlipBtn.disabled = false;
-    });
-  });
+bonFlipBtn.addEventListener('click', function(){
+if (state.bonDone || flipping) return;
+flipping = true;
+bonFlipBtn.disabled = true;
+doFlip(function(side){
+if (side === 'heads') state.bonH++; else state.bonT++;
+updateBon();
+flipping = false;
+if (!state.bonDone) bonFlipBtn.disabled = false;
+});
+});
 
-  bonResetBtn.addEventListener('click', function(){
-    state.bonH = 0; state.bonT = 0; state.bonDone = false;
-    bonWin.style.display = 'none';
-    bonFlipBtn.disabled = false;
-    updateBon();
-  });
+bonResetBtn.addEventListener('click', function(){
+state.bonH = 0; state.bonT = 0; state.bonDone = false;
+bonWin.style.display = 'none';
+bonFlipBtn.disabled = false;
+updateBon();
+});
 
-  bonSelect.addEventListener('change', function(){ bonResetBtn.click(); });
+bonSelect.addEventListener('change', function(){ bonResetBtn.click(); });
 
-  faceH.textContent = '表';
-  faceT.textContent = '裏';
-  updateStats();
-  updateBon();
+faceH.textContent = '表';
+faceT.textContent = '裏';
+updateStats();
+updateBon();
 })();
 </script>
 </div>

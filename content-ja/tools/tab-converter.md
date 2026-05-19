@@ -16,9 +16,9 @@ cover:
 > HTMLを整形 → [HTML整形ツール](/ja/tools/html-beautifier/)
 
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">事業の請求書・経費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、請求書作成・経費精算・確定申告までクラウドで一元管理。無料トライアル実施中。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 <div id="tc-app">
@@ -60,243 +60,243 @@ cover:
 
 <!-- 操作パネル -->
 <div class="tc-row">
-  <span class="tc-label">変換モード：</span>
-  <div class="tc-btn-group">
-    <button class="tc-btn active" id="tc-mode-t2s" onclick="tcSetMode('t2s')">タブ → スペース</button>
-    <button class="tc-btn" id="tc-mode-s2t" onclick="tcSetMode('s2t')">スペース → タブ</button>
-  </div>
+<span class="tc-label">変換モード：</span>
+<div class="tc-btn-group">
+<button class="tc-btn active" id="tc-mode-t2s" onclick="tcSetMode('t2s')">タブ → スペース</button>
+<button class="tc-btn" id="tc-mode-s2t" onclick="tcSetMode('s2t')">スペース → タブ</button>
+</div>
 </div>
 
 <div class="tc-row">
-  <span class="tc-label">タブ幅：</span>
-  <div class="tc-btn-group">
-    <button class="tc-btn active" id="tc-w-2" onclick="tcSetWidth(2)">2スペース</button>
-    <button class="tc-btn" id="tc-w-4" onclick="tcSetWidth(4)">4スペース</button>
-    <button class="tc-btn" id="tc-w-8" onclick="tcSetWidth(8)">8スペース</button>
-  </div>
+<span class="tc-label">タブ幅：</span>
+<div class="tc-btn-group">
+<button class="tc-btn active" id="tc-w-2" onclick="tcSetWidth(2)">2スペース</button>
+<button class="tc-btn" id="tc-w-4" onclick="tcSetWidth(4)">4スペース</button>
+<button class="tc-btn" id="tc-w-8" onclick="tcSetWidth(8)">8スペース</button>
+</div>
 </div>
 
 <div class="tc-row">
-  <label class="tc-check-label"><input type="checkbox" id="tc-trim" onchange="tcProcess()"> 行末の空白を除去</label>
-  <label class="tc-check-label"><input type="checkbox" id="tc-normalize" onchange="tcProcess()"> 改行コードを統一（CRLF → LF）</label>
-  <label class="tc-check-label"><input type="checkbox" id="tc-preview-ws" onchange="tcProcess()" checked> 空白文字をプレビューに表示</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-trim" onchange="tcProcess()"> 行末の空白を除去</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-normalize" onchange="tcProcess()"> 改行コードを統一（CRLF → LF）</label>
+<label class="tc-check-label"><input type="checkbox" id="tc-preview-ws" onchange="tcProcess()" checked> 空白文字をプレビューに表示</label>
 </div>
 
 <div class="tc-row">
-  <div class="tc-btn-group">
-    <button class="tc-btn action" onclick="tcProcess()">変換する</button>
-    <button class="tc-btn secondary" onclick="tcSwap()">入力と出力を入れ替え</button>
-    <button class="tc-btn secondary" onclick="tcClear()">クリア</button>
-    <div class="tc-upload-wrap">
-      <button class="tc-btn secondary">ファイルを開く</button>
-      <input type="file" accept="text/*" onchange="tcUpload(event)">
-    </div>
-  </div>
+<div class="tc-btn-group">
+<button class="tc-btn action" onclick="tcProcess()">変換する</button>
+<button class="tc-btn secondary" onclick="tcSwap()">入力と出力を入れ替え</button>
+<button class="tc-btn secondary" onclick="tcClear()">クリア</button>
+<div class="tc-upload-wrap">
+<button class="tc-btn secondary">ファイルを開く</button>
+<input type="file" accept="text/*" onchange="tcUpload(event)">
+</div>
+</div>
 </div>
 
 <hr class="tc-divider">
 
 <!-- エディタパネル -->
 <div class="tc-panels">
-  <div>
-    <div class="tc-panel-head">
-      <span class="tc-panel-title">入力</span>
-      <div class="tc-panel-actions">
-        <button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcPaste()">貼り付け</button>
-      </div>
-    </div>
-    <textarea id="tc-input" placeholder="ここにコードを貼り付け、またはファイルをアップロードしてください..." oninput="tcProcess()" spellcheck="false"></textarea>
-  </div>
-  <div>
-    <div class="tc-panel-head">
-      <span class="tc-panel-title">出力 <span class="tc-mode-desc" id="tc-mode-label">（タブ → スペース）</span></span>
-      <div class="tc-panel-actions">
-        <button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcCopy()">コピー</button>
-        <span class="tc-copy-note" id="tc-copy-note">コピーしました！</span>
-      </div>
-    </div>
-    <div class="tc-preview" id="tc-output-preview" aria-live="polite"></div>
-    <textarea id="tc-output-raw" style="display:none" readonly spellcheck="false"></textarea>
-  </div>
+<div>
+<div class="tc-panel-head">
+<span class="tc-panel-title">入力</span>
+<div class="tc-panel-actions">
+<button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcPaste()">貼り付け</button>
+</div>
+</div>
+<textarea id="tc-input" placeholder="ここにコードを貼り付け、またはファイルをアップロードしてください..." oninput="tcProcess()" spellcheck="false"></textarea>
+</div>
+<div>
+<div class="tc-panel-head">
+<span class="tc-panel-title">出力 <span class="tc-mode-desc" id="tc-mode-label">（タブ → スペース）</span></span>
+<div class="tc-panel-actions">
+<button class="tc-btn secondary" style="padding:4px 10px;font-size:12px" onclick="tcCopy()">コピー</button>
+<span class="tc-copy-note" id="tc-copy-note">コピーしました！</span>
+</div>
+</div>
+<div class="tc-preview" id="tc-output-preview" aria-live="polite"></div>
+<textarea id="tc-output-raw" style="display:none" readonly spellcheck="false"></textarea>
+</div>
 </div>
 
 <!-- 統計 -->
 <div class="tc-stats" id="tc-stats">
-  <span class="tc-stat">行数：<strong id="tc-stat-lines">0</strong></span>
-  <span class="tc-stat">入力文字数：<strong id="tc-stat-in-chars">0</strong></span>
-  <span class="tc-stat">出力文字数：<strong id="tc-stat-out-chars">0</strong></span>
-  <span class="tc-stat">タブ使用行（入力）：<strong id="tc-stat-tabs">0</strong></span>
-  <span class="tc-stat">スペースインデント行（入力）：<strong id="tc-stat-spaces">0</strong></span>
-  <span class="tc-stat">行末空白あり行：<strong id="tc-stat-trailing">0</strong></span>
+<span class="tc-stat">行数：<strong id="tc-stat-lines">0</strong></span>
+<span class="tc-stat">入力文字数：<strong id="tc-stat-in-chars">0</strong></span>
+<span class="tc-stat">出力文字数：<strong id="tc-stat-out-chars">0</strong></span>
+<span class="tc-stat">タブ使用行（入力）：<strong id="tc-stat-tabs">0</strong></span>
+<span class="tc-stat">スペースインデント行（入力）：<strong id="tc-stat-spaces">0</strong></span>
+<span class="tc-stat">行末空白あり行：<strong id="tc-stat-trailing">0</strong></span>
 </div>
 
 <script>
 (function(){
-  var mode = 't2s';
-  var width = 2;
+var mode = 't2s';
+var width = 2;
 
-  function setMode(m){
-    mode = m;
-    document.getElementById('tc-mode-t2s').classList.toggle('active', m==='t2s');
-    document.getElementById('tc-mode-s2t').classList.toggle('active', m==='s2t');
-    document.getElementById('tc-mode-label').textContent = m==='t2s' ? '（タブ → スペース）' : '（スペース → タブ）';
-    process();
-  }
-  function setWidth(w){
-    width = w;
-    [2,4,8].forEach(function(n){
-      document.getElementById('tc-w-'+n).classList.toggle('active', n===w);
-    });
-    process();
-  }
+function setMode(m){
+mode = m;
+document.getElementById('tc-mode-t2s').classList.toggle('active', m==='t2s');
+document.getElementById('tc-mode-s2t').classList.toggle('active', m==='s2t');
+document.getElementById('tc-mode-label').textContent = m==='t2s' ? '（タブ → スペース）' : '（スペース → タブ）';
+process();
+}
+function setWidth(w){
+width = w;
+[2,4,8].forEach(function(n){
+document.getElementById('tc-w-'+n).classList.toggle('active', n===w);
+});
+process();
+}
 
-  function process(){
-    var input = document.getElementById('tc-input').value;
-    var trim = document.getElementById('tc-trim').checked;
-    var norm = document.getElementById('tc-normalize').checked;
-    var showWs = document.getElementById('tc-preview-ws').checked;
+function process(){
+var input = document.getElementById('tc-input').value;
+var trim = document.getElementById('tc-trim').checked;
+var norm = document.getElementById('tc-normalize').checked;
+var showWs = document.getElementById('tc-preview-ws').checked;
 
-    var text = norm ? input.replace(/\r\n/g,'\n').replace(/\r/g,'\n') : input;
+var text = norm ? input.replace(/\r\n/g,'\n').replace(/\r/g,'\n') : input;
 
-    var lines = text.split('\n');
-    var outLines = lines.map(function(line){
-      var converted;
-      if(mode === 't2s'){
-        var result = '';
-        var col = 0;
-        for(var i=0;i<line.length;i++){
-          var ch = line[i];
-          if(ch==='\t'){
-            var spaces = width - (col % width);
-            result += ' '.repeat(spaces);
-            col += spaces;
-          } else {
-            result += ch;
-            col++;
-          }
-        }
-        converted = result;
-      } else {
-        var leadMatch = line.match(/^( +)/);
-        if(leadMatch){
-          var spCount = leadMatch[1].length;
-          var tabs = Math.floor(spCount / width);
-          var rem = spCount % width;
-          converted = '\t'.repeat(tabs) + ' '.repeat(rem) + line.slice(spCount);
-        } else {
-          converted = line;
-        }
-      }
-      if(trim) converted = converted.replace(/[ \t]+$/, '');
-      return converted;
-    });
+var lines = text.split('\n');
+var outLines = lines.map(function(line){
+var converted;
+if(mode === 't2s'){
+var result = '';
+var col = 0;
+for(var i=0;i<line.length;i++){
+var ch = line[i];
+if(ch==='\t'){
+var spaces = width - (col % width);
+result += ' '.repeat(spaces);
+col += spaces;
+} else {
+result += ch;
+col++;
+}
+}
+converted = result;
+} else {
+var leadMatch = line.match(/^( +)/);
+if(leadMatch){
+var spCount = leadMatch[1].length;
+var tabs = Math.floor(spCount / width);
+var rem = spCount % width;
+converted = '\t'.repeat(tabs) + ' '.repeat(rem) + line.slice(spCount);
+} else {
+converted = line;
+}
+}
+if(trim) converted = converted.replace(/[ \t]+$/, '');
+return converted;
+});
 
-    var output = outLines.join('\n');
-    document.getElementById('tc-output-raw').value = output;
+var output = outLines.join('\n');
+document.getElementById('tc-output-raw').value = output;
 
-    var tabCount = 0;
-    var spaceIndentCount = 0;
-    var trailingCount = 0;
-    lines.forEach(function(l){
-      if(/\t/.test(l)) tabCount++;
-      if(/^ +/.test(l)) spaceIndentCount++;
-      if(/[ \t]+$/.test(l)) trailingCount++;
-    });
-    document.getElementById('tc-stat-lines').textContent = lines.length;
-    document.getElementById('tc-stat-in-chars').textContent = input.length;
-    document.getElementById('tc-stat-out-chars').textContent = output.length;
-    document.getElementById('tc-stat-tabs').textContent = tabCount;
-    document.getElementById('tc-stat-spaces').textContent = spaceIndentCount;
-    document.getElementById('tc-stat-trailing').textContent = trailingCount;
+var tabCount = 0;
+var spaceIndentCount = 0;
+var trailingCount = 0;
+lines.forEach(function(l){
+if(/\t/.test(l)) tabCount++;
+if(/^ +/.test(l)) spaceIndentCount++;
+if(/[ \t]+$/.test(l)) trailingCount++;
+});
+document.getElementById('tc-stat-lines').textContent = lines.length;
+document.getElementById('tc-stat-in-chars').textContent = input.length;
+document.getElementById('tc-stat-out-chars').textContent = output.length;
+document.getElementById('tc-stat-tabs').textContent = tabCount;
+document.getElementById('tc-stat-spaces').textContent = spaceIndentCount;
+document.getElementById('tc-stat-trailing').textContent = trailingCount;
 
-    renderPreview(output, showWs);
-  }
+renderPreview(output, showWs);
+}
 
-  function renderPreview(text, showWs){
-    var el = document.getElementById('tc-output-preview');
-    if(!showWs){
-      el.textContent = text;
-      return;
-    }
-    var escaped = text
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;');
-    var marked = escaped
-      .replace(/ /g,'<span class="ws-space">\u00b7</span>')
-      .replace(/\t/g,'<span class="ws-tab">\u2192   </span>');
-    el.innerHTML = marked;
-  }
+function renderPreview(text, showWs){
+var el = document.getElementById('tc-output-preview');
+if(!showWs){
+el.textContent = text;
+return;
+}
+var escaped = text
+.replace(/&/g,'&amp;')
+.replace(/</g,'&lt;')
+.replace(/>/g,'&gt;');
+var marked = escaped
+.replace(/ /g,'<span class="ws-space">\u00b7</span>')
+.replace(/\t/g,'<span class="ws-tab">\u2192   </span>');
+el.innerHTML = marked;
+}
 
-  function swap(){
-    var raw = document.getElementById('tc-output-raw').value;
-    document.getElementById('tc-input').value = raw;
-    process();
-  }
+function swap(){
+var raw = document.getElementById('tc-output-raw').value;
+document.getElementById('tc-input').value = raw;
+process();
+}
 
-  function clear(){
-    document.getElementById('tc-input').value = '';
-    document.getElementById('tc-output-raw').value = '';
-    document.getElementById('tc-output-preview').textContent = '';
-    ['tc-stat-lines','tc-stat-in-chars','tc-stat-out-chars','tc-stat-tabs','tc-stat-spaces','tc-stat-trailing'].forEach(function(id){
-      document.getElementById(id).textContent = '0';
-    });
-  }
+function clear(){
+document.getElementById('tc-input').value = '';
+document.getElementById('tc-output-raw').value = '';
+document.getElementById('tc-output-preview').textContent = '';
+['tc-stat-lines','tc-stat-in-chars','tc-stat-out-chars','tc-stat-tabs','tc-stat-spaces','tc-stat-trailing'].forEach(function(id){
+document.getElementById(id).textContent = '0';
+});
+}
 
-  function copy(){
-    var val = document.getElementById('tc-output-raw').value;
-    if(!val) return;
-    if(navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(val).then(flashCopy);
-    } else {
-      var ta = document.createElement('textarea');
-      ta.value = val;
-      ta.style.position='fixed';ta.style.opacity='0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      flashCopy();
-    }
-  }
+function copy(){
+var val = document.getElementById('tc-output-raw').value;
+if(!val) return;
+if(navigator.clipboard && navigator.clipboard.writeText){
+navigator.clipboard.writeText(val).then(flashCopy);
+} else {
+var ta = document.createElement('textarea');
+ta.value = val;
+ta.style.position='fixed';ta.style.opacity='0';
+document.body.appendChild(ta);
+ta.select();
+document.execCommand('copy');
+document.body.removeChild(ta);
+flashCopy();
+}
+}
 
-  function flashCopy(){
-    var note = document.getElementById('tc-copy-note');
-    note.style.display='inline';
-    setTimeout(function(){ note.style.display='none'; }, 1800);
-  }
+function flashCopy(){
+var note = document.getElementById('tc-copy-note');
+note.style.display='inline';
+setTimeout(function(){ note.style.display='none'; }, 1800);
+}
 
-  function paste(){
-    if(navigator.clipboard && navigator.clipboard.readText){
-      navigator.clipboard.readText().then(function(t){
-        document.getElementById('tc-input').value = t;
-        process();
-      });
-    }
-  }
+function paste(){
+if(navigator.clipboard && navigator.clipboard.readText){
+navigator.clipboard.readText().then(function(t){
+document.getElementById('tc-input').value = t;
+process();
+});
+}
+}
 
-  function upload(e){
-    var file = e.target.files[0];
-    if(!file) return;
-    var reader = new FileReader();
-    reader.onload = function(ev){
-      document.getElementById('tc-input').value = ev.target.result;
-      process();
-    };
-    reader.readAsText(file);
-    e.target.value = '';
-  }
+function upload(e){
+var file = e.target.files[0];
+if(!file) return;
+var reader = new FileReader();
+reader.onload = function(ev){
+document.getElementById('tc-input').value = ev.target.result;
+process();
+};
+reader.readAsText(file);
+e.target.value = '';
+}
 
-  window.tcSetMode = setMode;
-  window.tcSetWidth = setWidth;
-  window.tcProcess = process;
-  window.tcSwap = swap;
-  window.tcClear = clear;
-  window.tcCopy = copy;
-  window.tcPaste = paste;
-  window.tcUpload = upload;
+window.tcSetMode = setMode;
+window.tcSetWidth = setWidth;
+window.tcProcess = process;
+window.tcSwap = swap;
+window.tcClear = clear;
+window.tcCopy = copy;
+window.tcPaste = paste;
+window.tcUpload = upload;
 
-  process();
+process();
 })();
 </script>
 </div>

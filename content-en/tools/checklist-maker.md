@@ -60,25 +60,25 @@ cover:
 #cl-app .cl-section-label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin:14px 0 6px}
 #cl-app .cl-cat-group-label{font-size:12px;font-weight:700;color:#3b82f6;margin-top:10px;margin-bottom:4px;padding-left:4px}
 @media(max-width:480px){
-  #cl-app .cl-header h1{font-size:1.2rem}
-  #cl-app .cl-add-row{flex-direction:column}
-  #cl-app .cl-footer-actions{flex-direction:column}
+#cl-app .cl-header h1{font-size:1.2rem}
+#cl-app .cl-add-row{flex-direction:column}
+#cl-app .cl-footer-actions{flex-direction:column}
 }
 </style>
 
 <div class="cl-header">
-  <h1>Checklist Maker</h1>
+<h1>Checklist Maker</h1>
 </div>
 
 <div class="cl-top-bar">
-  <input type="text" id="cl-search" class="cl-search" placeholder="Search items..." oninput="clRender()">
-  <button class="btn-secondary btn-sm" onclick="clExport()">Export as Text</button>
-  <button class="btn-danger btn-sm" onclick="clClearCompleted()">Clear Completed</button>
+<input type="text" id="cl-search" class="cl-search" placeholder="Search items..." oninput="clRender()">
+<button class="btn-secondary btn-sm" onclick="clExport()">Export as Text</button>
+<button class="btn-danger btn-sm" onclick="clClearCompleted()">Clear Completed</button>
 </div>
 
 <div class="cl-new-list" id="cl-new-list-row">
-  <input type="text" id="cl-new-list-name" placeholder="New list name..." style="width:200px">
-  <button class="btn-primary btn-sm" onclick="clAddList()">+ Add List</button>
+<input type="text" id="cl-new-list-name" placeholder="New list name..." style="width:200px">
+<button class="btn-primary btn-sm" onclick="clAddList()">+ Add List</button>
 </div>
 
 <div id="cl-tabs" class="cl-list-tabs"></div>
@@ -87,260 +87,260 @@ cover:
 <div class="cl-progress-bar-wrap"><div class="cl-progress-bar" id="cl-progress-bar" style="width:0%"></div></div>
 
 <div class="cl-add-row">
-  <input type="text" id="cl-new-item" placeholder="Add item..." onkeydown="if(event.key==='Enter')clAddItem()">
-  <input type="text" id="cl-new-cat" placeholder="Category (optional)" style="width:160px">
-  <button class="btn-primary" onclick="clAddItem()">+ Add</button>
+<input type="text" id="cl-new-item" placeholder="Add item..." onkeydown="if(event.key==='Enter')clAddItem()">
+<input type="text" id="cl-new-cat" placeholder="Category (optional)" style="width:160px">
+<button class="btn-primary" onclick="clAddItem()">+ Add</button>
 </div>
 
 <ul class="cl-list" id="cl-list"></ul>
 <div id="cl-empty" class="cl-empty" style="display:none">No items yet. Add one above!</div>
 
 <div class="cl-footer-actions">
-  <button class="btn-danger btn-sm" onclick="clDeleteList()">Delete This List</button>
+<button class="btn-danger btn-sm" onclick="clDeleteList()">Delete This List</button>
 </div>
 
 <script>
 (function(){
-  var STORE_KEY='cl_app_v1';
-  var state={lists:[],activeList:0};
+var STORE_KEY='cl_app_v1';
+var state={lists:[],activeList:0};
 
-  function load(){
-    try{var s=localStorage.getItem(STORE_KEY);if(s)state=JSON.parse(s);}catch(e){}
-    if(!state.lists||!state.lists.length){
-      state={lists:[{name:'My Checklist',items:[]}],activeList:0};
-    }
-    if(state.activeList>=state.lists.length)state.activeList=0;
-  }
+function load(){
+try{var s=localStorage.getItem(STORE_KEY);if(s)state=JSON.parse(s);}catch(e){}
+if(!state.lists||!state.lists.length){
+state={lists:[{name:'My Checklist',items:[]}],activeList:0};
+}
+if(state.activeList>=state.lists.length)state.activeList=0;
+}
 
-  function save(){
-    try{localStorage.setItem(STORE_KEY,JSON.stringify(state));}catch(e){}
-  }
+function save(){
+try{localStorage.setItem(STORE_KEY,JSON.stringify(state));}catch(e){}
+}
 
-  function currentList(){return state.lists[state.activeList];}
+function currentList(){return state.lists[state.activeList];}
 
-  function clAddList(){
-    var n=document.getElementById('cl-new-list-name');
-    var name=(n.value||'').trim();
-    if(!name)return;
-    state.lists.push({name:name,items:[]});
-    state.activeList=state.lists.length-1;
-    n.value='';
-    save();clRender();
-  }
-  window.clAddList=clAddList;
+function clAddList(){
+var n=document.getElementById('cl-new-list-name');
+var name=(n.value||'').trim();
+if(!name)return;
+state.lists.push({name:name,items:[]});
+state.activeList=state.lists.length-1;
+n.value='';
+save();clRender();
+}
+window.clAddList=clAddList;
 
-  function clDeleteList(){
-    if(state.lists.length<=1){alert('Cannot delete the last list.');return;}
-    if(!confirm('Delete this list and all its items?'))return;
-    state.lists.splice(state.activeList,1);
-    if(state.activeList>=state.lists.length)state.activeList=state.lists.length-1;
-    save();clRender();
-  }
-  window.clDeleteList=clDeleteList;
+function clDeleteList(){
+if(state.lists.length<=1){alert('Cannot delete the last list.');return;}
+if(!confirm('Delete this list and all its items?'))return;
+state.lists.splice(state.activeList,1);
+if(state.activeList>=state.lists.length)state.activeList=state.lists.length-1;
+save();clRender();
+}
+window.clDeleteList=clDeleteList;
 
-  function clSwitchList(i){
-    state.activeList=i;
-    save();clRender();
-  }
-  window.clSwitchList=clSwitchList;
+function clSwitchList(i){
+state.activeList=i;
+save();clRender();
+}
+window.clSwitchList=clSwitchList;
 
-  function clAddItem(){
-    var n=document.getElementById('cl-new-item');
-    var c=document.getElementById('cl-new-cat');
-    var text=(n.value||'').trim();
-    if(!text)return;
-    currentList().items.push({id:Date.now()+'_'+Math.random(),text:text,done:false,cat:(c.value||'').trim()});
-    n.value='';c.value='';
-    save();clRender();
-  }
-  window.clAddItem=clAddItem;
+function clAddItem(){
+var n=document.getElementById('cl-new-item');
+var c=document.getElementById('cl-new-cat');
+var text=(n.value||'').trim();
+if(!text)return;
+currentList().items.push({id:Date.now()+'_'+Math.random(),text:text,done:false,cat:(c.value||'').trim()});
+n.value='';c.value='';
+save();clRender();
+}
+window.clAddItem=clAddItem;
 
-  function clToggle(id){
-    var item=currentList().items.find(function(x){return x.id===id;});
-    if(item)item.done=!item.done;
-    save();clRender();
-  }
-  window.clToggle=clToggle;
+function clToggle(id){
+var item=currentList().items.find(function(x){return x.id===id;});
+if(item)item.done=!item.done;
+save();clRender();
+}
+window.clToggle=clToggle;
 
-  function clDelete(id){
-    var list=currentList();
-    list.items=list.items.filter(function(x){return x.id!==id;});
-    save();clRender();
-  }
-  window.clDelete=clDelete;
+function clDelete(id){
+var list=currentList();
+list.items=list.items.filter(function(x){return x.id!==id;});
+save();clRender();
+}
+window.clDelete=clDelete;
 
-  function clStartEdit(id){
-    var el=document.getElementById('cl-text-'+id);
-    var input=document.getElementById('cl-edit-'+id);
-    if(!el||!input)return;
-    el.style.display='none';
-    input.style.display='block';
-    input.focus();
-    input.select();
-  }
-  window.clStartEdit=clStartEdit;
+function clStartEdit(id){
+var el=document.getElementById('cl-text-'+id);
+var input=document.getElementById('cl-edit-'+id);
+if(!el||!input)return;
+el.style.display='none';
+input.style.display='block';
+input.focus();
+input.select();
+}
+window.clStartEdit=clStartEdit;
 
-  function clFinishEdit(id){
-    var input=document.getElementById('cl-edit-'+id);
-    var el=document.getElementById('cl-text-'+id);
-    if(!input||!el)return;
-    var item=currentList().items.find(function(x){return x.id===id;});
-    if(item){item.text=input.value.trim()||item.text;}
-    el.style.display='';
-    input.style.display='none';
-    save();clRender();
-  }
-  window.clFinishEdit=clFinishEdit;
+function clFinishEdit(id){
+var input=document.getElementById('cl-edit-'+id);
+var el=document.getElementById('cl-text-'+id);
+if(!input||!el)return;
+var item=currentList().items.find(function(x){return x.id===id;});
+if(item){item.text=input.value.trim()||item.text;}
+el.style.display='';
+input.style.display='none';
+save();clRender();
+}
+window.clFinishEdit=clFinishEdit;
 
-  function clClearCompleted(){
-    var list=currentList();
-    list.items=list.items.filter(function(x){return !x.done;});
-    save();clRender();
-  }
-  window.clClearCompleted=clClearCompleted;
+function clClearCompleted(){
+var list=currentList();
+list.items=list.items.filter(function(x){return !x.done;});
+save();clRender();
+}
+window.clClearCompleted=clClearCompleted;
 
-  function clExport(){
-    var list=currentList();
-    var lines=[list.name,''];
-    var cats={};
-    list.items.forEach(function(item){
-      var c=item.cat||'';
-      if(!cats[c])cats[c]=[];
-      cats[c].push(item);
-    });
-    Object.keys(cats).forEach(function(cat){
-      if(cat)lines.push('['+cat+']');
-      cats[cat].forEach(function(item){
-        lines.push((item.done?'[x] ':'[ ] ')+item.text);
-      });
-      lines.push('');
-    });
-    var blob=new Blob([lines.join('\n')],{type:'text/plain'});
-    var a=document.createElement('a');
-    a.href=URL.createObjectURL(blob);
-    a.download=(list.name||'checklist')+'.txt';
-    a.click();
-    URL.revokeObjectURL(a.href);
-  }
-  window.clExport=clExport;
+function clExport(){
+var list=currentList();
+var lines=[list.name,''];
+var cats={};
+list.items.forEach(function(item){
+var c=item.cat||'';
+if(!cats[c])cats[c]=[];
+cats[c].push(item);
+});
+Object.keys(cats).forEach(function(cat){
+if(cat)lines.push('['+cat+']');
+cats[cat].forEach(function(item){
+lines.push((item.done?'[x] ':'[ ] ')+item.text);
+});
+lines.push('');
+});
+var blob=new Blob([lines.join('\n')],{type:'text/plain'});
+var a=document.createElement('a');
+a.href=URL.createObjectURL(blob);
+a.download=(list.name||'checklist')+'.txt';
+a.click();
+URL.revokeObjectURL(a.href);
+}
+window.clExport=clExport;
 
-  // Drag and drop
-  var dragSrcId=null;
+// Drag and drop
+var dragSrcId=null;
 
-  function clDragStart(id){dragSrcId=id;}
-  window.clDragStart=clDragStart;
+function clDragStart(id){dragSrcId=id;}
+window.clDragStart=clDragStart;
 
-  function clDragOver(e,id){
-    e.preventDefault();
-    document.querySelectorAll('#cl-app .cl-item').forEach(function(el){el.classList.remove('drag-over');});
-    var el=document.getElementById('cl-li-'+id);
-    if(el)el.classList.add('drag-over');
-  }
-  window.clDragOver=clDragOver;
+function clDragOver(e,id){
+e.preventDefault();
+document.querySelectorAll('#cl-app .cl-item').forEach(function(el){el.classList.remove('drag-over');});
+var el=document.getElementById('cl-li-'+id);
+if(el)el.classList.add('drag-over');
+}
+window.clDragOver=clDragOver;
 
-  function clDrop(id){
-    if(!dragSrcId||dragSrcId===id)return;
-    var items=currentList().items;
-    var srcIdx=items.findIndex(function(x){return x.id===dragSrcId;});
-    var dstIdx=items.findIndex(function(x){return x.id===id;});
-    if(srcIdx<0||dstIdx<0)return;
-    var removed=items.splice(srcIdx,1)[0];
-    items.splice(dstIdx,0,removed);
-    dragSrcId=null;
-    save();clRender();
-  }
-  window.clDrop=clDrop;
+function clDrop(id){
+if(!dragSrcId||dragSrcId===id)return;
+var items=currentList().items;
+var srcIdx=items.findIndex(function(x){return x.id===dragSrcId;});
+var dstIdx=items.findIndex(function(x){return x.id===id;});
+if(srcIdx<0||dstIdx<0)return;
+var removed=items.splice(srcIdx,1)[0];
+items.splice(dstIdx,0,removed);
+dragSrcId=null;
+save();clRender();
+}
+window.clDrop=clDrop;
 
-  function clDragEnd(){
-    dragSrcId=null;
-    document.querySelectorAll('#cl-app .cl-item').forEach(function(el){el.classList.remove('drag-over','dragging');});
-  }
-  window.clDragEnd=clDragEnd;
+function clDragEnd(){
+dragSrcId=null;
+document.querySelectorAll('#cl-app .cl-item').forEach(function(el){el.classList.remove('drag-over','dragging');});
+}
+window.clDragEnd=clDragEnd;
 
-  function clRender(){
-    var list=currentList();
-    var search=(document.getElementById('cl-search')||{}).value||'';
-    var sq=search.trim().toLowerCase();
+function clRender(){
+var list=currentList();
+var search=(document.getElementById('cl-search')||{}).value||'';
+var sq=search.trim().toLowerCase();
 
-    // Tabs
-    var tabsEl=document.getElementById('cl-tabs');
-    tabsEl.innerHTML='';
-    state.lists.forEach(function(l,i){
-      var btn=document.createElement('button');
-      btn.className='cl-tab'+(i===state.activeList?' active':'');
-      btn.textContent=l.name;
-      btn.onclick=function(){clSwitchList(i);};
-      tabsEl.appendChild(btn);
-    });
+// Tabs
+var tabsEl=document.getElementById('cl-tabs');
+tabsEl.innerHTML='';
+state.lists.forEach(function(l,i){
+var btn=document.createElement('button');
+btn.className='cl-tab'+(i===state.activeList?' active':'');
+btn.textContent=l.name;
+btn.onclick=function(){clSwitchList(i);};
+tabsEl.appendChild(btn);
+});
 
-    // Progress
-    var total=list.items.length;
-    var done=list.items.filter(function(x){return x.done;}).length;
-    var pct=total?Math.round(done/total*100):0;
-    document.getElementById('cl-progress-label').textContent=total?done+' / '+total+' complete ('+pct+'%)':'No items';
-    document.getElementById('cl-progress-bar').style.width=pct+'%';
+// Progress
+var total=list.items.length;
+var done=list.items.filter(function(x){return x.done;}).length;
+var pct=total?Math.round(done/total*100):0;
+document.getElementById('cl-progress-label').textContent=total?done+' / '+total+' complete ('+pct+'%)':'No items';
+document.getElementById('cl-progress-bar').style.width=pct+'%';
 
-    // Filter
-    var filtered=list.items.filter(function(item){
-      return !sq||(item.text.toLowerCase().includes(sq)||(item.cat||'').toLowerCase().includes(sq));
-    });
+// Filter
+var filtered=list.items.filter(function(item){
+return !sq||(item.text.toLowerCase().includes(sq)||(item.cat||'').toLowerCase().includes(sq));
+});
 
-    // Group by category
-    var cats={};
-    var catOrder=[];
-    filtered.forEach(function(item){
-      var c=item.cat||'';
-      if(!cats[c]){cats[c]=[];catOrder.push(c);}
-      cats[c].push(item);
-    });
+// Group by category
+var cats={};
+var catOrder=[];
+filtered.forEach(function(item){
+var c=item.cat||'';
+if(!cats[c]){cats[c]=[];catOrder.push(c);}
+cats[c].push(item);
+});
 
-    var ul=document.getElementById('cl-list');
-    var emptyEl=document.getElementById('cl-empty');
-    ul.innerHTML='';
+var ul=document.getElementById('cl-list');
+var emptyEl=document.getElementById('cl-empty');
+ul.innerHTML='';
 
-    if(!filtered.length){
-      emptyEl.style.display='';
-    } else {
-      emptyEl.style.display='none';
-      catOrder.forEach(function(cat){
-        if(cat){
-          var lbl=document.createElement('li');
-          lbl.className='cl-cat-group-label';
-          lbl.textContent=cat;
-          ul.appendChild(lbl);
-        }
-        cats[cat].forEach(function(item){
-          var li=document.createElement('li');
-          li.className='cl-item'+(item.done?' done':'');
-          li.id='cl-li-'+item.id;
-          li.draggable=true;
-          li.ondragstart=function(){li.classList.add('dragging');clDragStart(item.id);};
-          li.ondragover=function(e){clDragOver(e,item.id);};
-          li.ondrop=function(){clDrop(item.id);};
-          li.ondragend=clDragEnd;
+if(!filtered.length){
+emptyEl.style.display='';
+} else {
+emptyEl.style.display='none';
+catOrder.forEach(function(cat){
+if(cat){
+var lbl=document.createElement('li');
+lbl.className='cl-cat-group-label';
+lbl.textContent=cat;
+ul.appendChild(lbl);
+}
+cats[cat].forEach(function(item){
+var li=document.createElement('li');
+li.className='cl-item'+(item.done?' done':'');
+li.id='cl-li-'+item.id;
+li.draggable=true;
+li.ondragstart=function(){li.classList.add('dragging');clDragStart(item.id);};
+li.ondragover=function(e){clDragOver(e,item.id);};
+li.ondrop=function(){clDrop(item.id);};
+li.ondragend=clDragEnd;
 
-          li.innerHTML=
-            '<span class="cl-item-drag" title="Drag to reorder">&#8942;&#8942;</span>'+
-            '<input type="checkbox"'+(item.done?' checked':'')+' onchange="clToggle(\''+item.id+'\')">'+
-            '<span class="cl-item-text" id="cl-text-'+item.id+'" ondblclick="clStartEdit(\''+item.id+'\')">'+escHtml(item.text)+'</span>'+
-            '<input type="text" class="cl-item-edit" id="cl-edit-'+item.id+'" value="'+escHtml(item.text)+'" style="display:none" onblur="clFinishEdit(\''+item.id+'\')" onkeydown="if(event.key===\'Enter\')clFinishEdit(\''+item.id+'\')">'+
-            (item.cat?'<span class="cl-item-cat">'+escHtml(item.cat)+'</span>':'')+
-            '<span class="cl-item-actions">'+
-              '<button class="btn-secondary btn-sm" onclick="clStartEdit(\''+item.id+'\')">Edit</button>'+
-              '<button class="btn-danger btn-sm" onclick="clDelete(\''+item.id+'\')">Del</button>'+
-            '</span>';
-          ul.appendChild(li);
-        });
-      });
-    }
-  }
+li.innerHTML=
+'<span class="cl-item-drag" title="Drag to reorder">&#8942;&#8942;</span>'+
+'<input type="checkbox"'+(item.done?' checked':'')+' onchange="clToggle(\''+item.id+'\')">'+
+'<span class="cl-item-text" id="cl-text-'+item.id+'" ondblclick="clStartEdit(\''+item.id+'\')">'+escHtml(item.text)+'</span>'+
+'<input type="text" class="cl-item-edit" id="cl-edit-'+item.id+'" value="'+escHtml(item.text)+'" style="display:none" onblur="clFinishEdit(\''+item.id+'\')" onkeydown="if(event.key===\'Enter\')clFinishEdit(\''+item.id+'\')">'+
+(item.cat?'<span class="cl-item-cat">'+escHtml(item.cat)+'</span>':'')+
+'<span class="cl-item-actions">'+
+'<button class="btn-secondary btn-sm" onclick="clStartEdit(\''+item.id+'\')">Edit</button>'+
+'<button class="btn-danger btn-sm" onclick="clDelete(\''+item.id+'\')">Del</button>'+
+'</span>';
+ul.appendChild(li);
+});
+});
+}
+}
 
-  function escHtml(s){
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
-  }
+function escHtml(s){
+return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
 
-  load();
-  clRender();
+load();
+clRender();
 })();
 </script>
 

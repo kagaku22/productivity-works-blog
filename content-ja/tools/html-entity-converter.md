@@ -48,39 +48,39 @@ cover:
 <div id="hec-app">
 
 <div class="hec-panels">
-  <div class="hec-panel">
-    <label for="hec-raw">プレーンテキスト / 生のHTML</label>
-    <textarea id="hec-raw" placeholder="ここにテキストを入力または貼り付けてください...&#10;例: &lt;こんにちは &amp; "世界"&gt;"></textarea>
-  </div>
-  <div class="hec-panel">
-    <label for="hec-enc">HTMLエンティティ</label>
-    <textarea id="hec-enc" placeholder="エンコード結果がここに表示されます...&#10;例: &amp;lt;こんにちは &amp;amp; &amp;quot;世界&amp;quot;&amp;gt;"></textarea>
-  </div>
+<div class="hec-panel">
+<label for="hec-raw">プレーンテキスト / 生のHTML</label>
+<textarea id="hec-raw" placeholder="ここにテキストを入力または貼り付けてください...&#10;例: &lt;こんにちは &amp; "世界"&gt;"></textarea>
+</div>
+<div class="hec-panel">
+<label for="hec-enc">HTMLエンティティ</label>
+<textarea id="hec-enc" placeholder="エンコード結果がここに表示されます...&#10;例: &amp;lt;こんにちは &amp;amp; &amp;quot;世界&amp;quot;&amp;gt;"></textarea>
+</div>
 </div>
 
 <div class="hec-controls">
-  <button class="btn-encode" onclick="hecEncode()">エンコード &rarr;</button>
-  <button class="btn-decode" onclick="hecDecode()">&larr; デコード</button>
-  <button class="btn-copy-raw" onclick="hecCopy('raw')">生テキストをコピー</button>
-  <button class="btn-copy-enc" onclick="hecCopy('enc')">エンコード結果をコピー</button>
-  <button class="btn-clear" onclick="hecClear()">クリア</button>
+<button class="btn-encode" onclick="hecEncode()">エンコード &rarr;</button>
+<button class="btn-decode" onclick="hecDecode()">&larr; デコード</button>
+<button class="btn-copy-raw" onclick="hecCopy('raw')">生テキストをコピー</button>
+<button class="btn-copy-enc" onclick="hecCopy('enc')">エンコード結果をコピー</button>
+<button class="btn-clear" onclick="hecClear()">クリア</button>
 </div>
 
 <div class="hec-ref">
-  <h3>よく使うHTMLエンティティ一覧</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>文字</th>
-        <th>名前付きエンティティ</th>
-        <th>数値コード</th>
-        <th>16進コード</th>
-        <th>説明</th>
-      </tr>
-    </thead>
-    <tbody id="hec-ref-body"></tbody>
-  </table>
-  <p style="font-size:.78rem;color:#888;margin-top:8px">エンティティコードをクリックするとクリップボードにコピーされます。</p>
+<h3>よく使うHTMLエンティティ一覧</h3>
+<table>
+<thead>
+<tr>
+<th>文字</th>
+<th>名前付きエンティティ</th>
+<th>数値コード</th>
+<th>16進コード</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody id="hec-ref-body"></tbody>
+</table>
+<p style="font-size:.78rem;color:#888;margin-top:8px">エンティティコードをクリックするとクリップボードにコピーされます。</p>
 </div>
 
 <div class="hec-toast" id="hec-toast"></div>
@@ -89,118 +89,118 @@ cover:
 
 <script>
 (function(){
-  var refData=[
-    ['&','&amp;','&#38;','&#x26;','アンパサンド'],
-    ['<','&lt;','&#60;','&#x3C;','小なり記号'],
-    ['>','&gt;','&#62;','&#x3E;','大なり記号'],
-    ['"','&quot;','&#34;','&#x22;','二重引用符'],
-    ["'",'&apos;','&#39;','&#x27;','一重引用符（アポストロフィ）'],
-    ['\u00A0','&nbsp;','&#160;','&#xA0;','ノーブレークスペース'],
-    ['©','&copy;','&#169;','&#xA9;','著作権記号'],
-    ['®','&reg;','&#174;','&#xAE;','登録商標記号'],
-    ['™','&trade;','&#8482;','&#x2122;','商標記号'],
-    ['€','&euro;','&#8364;','&#x20AC;','ユーロ記号'],
-    ['£','&pound;','&#163;','&#xA3;','ポンド記号'],
-    ['¥','&yen;','&#165;','&#xA5;','円・人民元記号'],
-    ['¢','&cent;','&#162;','&#xA2;','セント記号'],
-    ['§','&sect;','&#167;','&#xA7;','セクション記号'],
-    ['¶','&para;','&#182;','&#xB6;','段落記号'],
-    ['•','&bull;','&#8226;','&#x2022;','中黒・ビュレット'],
-    ['…','&hellip;','&#8230;','&#x2026;','水平省略記号'],
-    ['—','&mdash;','&#8212;','&#x2014;','全角ダッシュ'],
-    ['–','&ndash;','&#8211;','&#x2013;','半角ダッシュ'],
-    ['«','&laquo;','&#171;','&#xAB;','左二重山括弧'],
-    ['»','&raquo;','&#187;','&#xBB;','右二重山括弧'],
-    ['←','&larr;','&#8592;','&#x2190;','左向き矢印'],
-    ['→','&rarr;','&#8594;','&#x2192;','右向き矢印'],
-    ['↑','&uarr;','&#8593;','&#x2191;','上向き矢印'],
-    ['↓','&darr;','&#8595;','&#x2193;','下向き矢印'],
-    ['×','&times;','&#215;','&#xD7;','乗算記号'],
-    ['÷','&divide;','&#247;','&#xF7;','除算記号'],
-    ['±','&plusmn;','&#177;','&#xB1;','プラスマイナス記号'],
-    ['½','&frac12;','&#189;','&#xBD;','2分の1'],
-    ['¼','&frac14;','&#188;','&#xBC;','4分の1'],
-    ['¾','&frac34;','&#190;','&#xBE;','4分の3'],
-    ['°','&deg;','&#176;','&#xB0;','度記号'],
-    ['µ','&micro;','&#181;','&#xB5;','マイクロ記号'],
-    ['∞','&infin;','&#8734;','&#x221E;','無限大'],
-    ['≈','&asymp;','&#8776;','&#x2248;','ほぼ等しい'],
-    ['≠','&ne;','&#8800;','&#x2260;','等しくない'],
-    ['≤','&le;','&#8804;','&#x2264;','以下'],
-    ['≥','&ge;','&#8805;','&#x2265;','以上'],
-    ['∑','&sum;','&#8721;','&#x2211;','総和記号'],
-    ['√','&radic;','&#8730;','&#x221A;','平方根'],
-  ];
+var refData=[
+['&','&amp;','&#38;','&#x26;','アンパサンド'],
+['<','&lt;','&#60;','&#x3C;','小なり記号'],
+['>','&gt;','&#62;','&#x3E;','大なり記号'],
+['"','&quot;','&#34;','&#x22;','二重引用符'],
+["'",'&apos;','&#39;','&#x27;','一重引用符（アポストロフィ）'],
+['\u00A0','&nbsp;','&#160;','&#xA0;','ノーブレークスペース'],
+['©','&copy;','&#169;','&#xA9;','著作権記号'],
+['®','&reg;','&#174;','&#xAE;','登録商標記号'],
+['™','&trade;','&#8482;','&#x2122;','商標記号'],
+['€','&euro;','&#8364;','&#x20AC;','ユーロ記号'],
+['£','&pound;','&#163;','&#xA3;','ポンド記号'],
+['¥','&yen;','&#165;','&#xA5;','円・人民元記号'],
+['¢','&cent;','&#162;','&#xA2;','セント記号'],
+['§','&sect;','&#167;','&#xA7;','セクション記号'],
+['¶','&para;','&#182;','&#xB6;','段落記号'],
+['•','&bull;','&#8226;','&#x2022;','中黒・ビュレット'],
+['…','&hellip;','&#8230;','&#x2026;','水平省略記号'],
+['—','&mdash;','&#8212;','&#x2014;','全角ダッシュ'],
+['–','&ndash;','&#8211;','&#x2013;','半角ダッシュ'],
+['«','&laquo;','&#171;','&#xAB;','左二重山括弧'],
+['»','&raquo;','&#187;','&#xBB;','右二重山括弧'],
+['←','&larr;','&#8592;','&#x2190;','左向き矢印'],
+['→','&rarr;','&#8594;','&#x2192;','右向き矢印'],
+['↑','&uarr;','&#8593;','&#x2191;','上向き矢印'],
+['↓','&darr;','&#8595;','&#x2193;','下向き矢印'],
+['×','&times;','&#215;','&#xD7;','乗算記号'],
+['÷','&divide;','&#247;','&#xF7;','除算記号'],
+['±','&plusmn;','&#177;','&#xB1;','プラスマイナス記号'],
+['½','&frac12;','&#189;','&#xBD;','2分の1'],
+['¼','&frac14;','&#188;','&#xBC;','4分の1'],
+['¾','&frac34;','&#190;','&#xBE;','4分の3'],
+['°','&deg;','&#176;','&#xB0;','度記号'],
+['µ','&micro;','&#181;','&#xB5;','マイクロ記号'],
+['∞','&infin;','&#8734;','&#x221E;','無限大'],
+['≈','&asymp;','&#8776;','&#x2248;','ほぼ等しい'],
+['≠','&ne;','&#8800;','&#x2260;','等しくない'],
+['≤','&le;','&#8804;','&#x2264;','以下'],
+['≥','&ge;','&#8805;','&#x2265;','以上'],
+['∑','&sum;','&#8721;','&#x2211;','総和記号'],
+['√','&radic;','&#8730;','&#x221A;','平方根'],
+];
 
-  var tbody=document.getElementById('hec-ref-body');
-  refData.forEach(function(row){
-    var tr=document.createElement('tr');
-    var charTd=document.createElement('td');
-    charTd.textContent=row[0]=='\u00A0'?'(空白)':row[0];
-    tr.appendChild(charTd);
-    for(var i=1;i<=3;i++){
-      var td=document.createElement('td');
-      td.textContent=row[i];
-      td.className='hec-click-cell';
-      (function(val){td.addEventListener('click',function(){navigator.clipboard.writeText(val).then(function(){showToast('コピーしました: '+val)})});})(row[i]);
-      tr.appendChild(td);
-    }
-    var descTd=document.createElement('td');
-    descTd.textContent=row[4];
-    tr.appendChild(descTd);
-    tbody.appendChild(tr);
-  });
+var tbody=document.getElementById('hec-ref-body');
+refData.forEach(function(row){
+var tr=document.createElement('tr');
+var charTd=document.createElement('td');
+charTd.textContent=row[0]=='\u00A0'?'(空白)':row[0];
+tr.appendChild(charTd);
+for(var i=1;i<=3;i++){
+var td=document.createElement('td');
+td.textContent=row[i];
+td.className='hec-click-cell';
+(function(val){td.addEventListener('click',function(){navigator.clipboard.writeText(val).then(function(){showToast('コピーしました: '+val)})});})(row[i]);
+tr.appendChild(td);
+}
+var descTd=document.createElement('td');
+descTd.textContent=row[4];
+tr.appendChild(descTd);
+tbody.appendChild(tr);
+});
 
-  function encodeEntities(str){
-    return str
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;')
-      .replace(/"/g,'&quot;')
-      .replace(/'/g,'&apos;')
-      .replace(/\u00A0/g,'&nbsp;')
-      .replace(/[^\x00-\x7E\u00A0]/g,function(c){
-        var code=c.codePointAt(0);
-        return '&#'+code+';';
-      });
-  }
+function encodeEntities(str){
+return str
+.replace(/&/g,'&amp;')
+.replace(/</g,'&lt;')
+.replace(/>/g,'&gt;')
+.replace(/"/g,'&quot;')
+.replace(/'/g,'&apos;')
+.replace(/\u00A0/g,'&nbsp;')
+.replace(/[^\x00-\x7E\u00A0]/g,function(c){
+var code=c.codePointAt(0);
+return '&#'+code+';';
+});
+}
 
-  function decodeEntities(str){
-    var txt=document.createElement('textarea');
-    txt.innerHTML=str;
-    return txt.value;
-  }
+function decodeEntities(str){
+var txt=document.createElement('textarea');
+txt.innerHTML=str;
+return txt.value;
+}
 
-  window.hecEncode=function(){
-    var raw=document.getElementById('hec-raw').value;
-    document.getElementById('hec-enc').value=encodeEntities(raw);
-  };
+window.hecEncode=function(){
+var raw=document.getElementById('hec-raw').value;
+document.getElementById('hec-enc').value=encodeEntities(raw);
+};
 
-  window.hecDecode=function(){
-    var enc=document.getElementById('hec-enc').value;
-    document.getElementById('hec-raw').value=decodeEntities(enc);
-  };
+window.hecDecode=function(){
+var enc=document.getElementById('hec-enc').value;
+document.getElementById('hec-raw').value=decodeEntities(enc);
+};
 
-  window.hecCopy=function(side){
-    var id=side==='raw'?'hec-raw':'hec-enc';
-    var val=document.getElementById(id).value;
-    if(!val){showToast('コピーするテキストがありません');return;}
-    navigator.clipboard.writeText(val).then(function(){showToast('クリップボードにコピーしました!')});
-  };
+window.hecCopy=function(side){
+var id=side==='raw'?'hec-raw':'hec-enc';
+var val=document.getElementById(id).value;
+if(!val){showToast('コピーするテキストがありません');return;}
+navigator.clipboard.writeText(val).then(function(){showToast('クリップボードにコピーしました!')});
+};
 
-  window.hecClear=function(){
-    document.getElementById('hec-raw').value='';
-    document.getElementById('hec-enc').value='';
-  };
+window.hecClear=function(){
+document.getElementById('hec-raw').value='';
+document.getElementById('hec-enc').value='';
+};
 
-  var toastTimer=null;
-  function showToast(msg){
-    var t=document.getElementById('hec-toast');
-    t.textContent=msg;
-    t.classList.add('show');
-    if(toastTimer)clearTimeout(toastTimer);
-    toastTimer=setTimeout(function(){t.classList.remove('show');},2000);
-  }
+var toastTimer=null;
+function showToast(msg){
+var t=document.getElementById('hec-toast');
+t.textContent=msg;
+t.classList.add('show');
+if(toastTimer)clearTimeout(toastTimer);
+toastTimer=setTimeout(function(){t.classList.remove('show');},2000);
+}
 })();
 </script>
 
