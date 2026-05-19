@@ -174,35 +174,35 @@ function calcFH(){
   // グリッド
   var ghtml='';
   var cells=[
-    {label:'必要年間売上',val:fmt(Math.round(recAnnualSales/10000))+'万円',bg:'#f0fdfa',tc:'#0f766e'},
-    {label:'必要月間売上',val:fmt(Math.round(recMonthlySales/10000))+'万円',bg:'#f0fdfa',tc:'#0f766e'},
-    {label:'日単価（8時間）',val:fmt(dayRate)+'円',bg:'#fef3c7',tc:'#b45309'},
-    {label:'半日単価（4時間）',val:fmt(halfDayRate)+'円',bg:'#fef3c7',tc:'#b45309'},
+{label:'必要年間売上',val:fmt(Math.round(recAnnualSales/10000))+'万円',bg:'#f0fdfa',tc:'#0f766e'},
+{label:'必要月間売上',val:fmt(Math.round(recMonthlySales/10000))+'万円',bg:'#f0fdfa',tc:'#0f766e'},
+{label:'日単価（8時間）',val:fmt(dayRate)+'円',bg:'#fef3c7',tc:'#b45309'},
+{label:'半日単価（4時間）',val:fmt(halfDayRate)+'円',bg:'#fef3c7',tc:'#b45309'},
   ];
   cells.forEach(function(c){
-    ghtml+='<div style="background:'+c.bg+';border-radius:10px;padding:14px;text-align:center;">';
-    ghtml+='<div style="font-size:12px;color:#64748b;margin-bottom:4px;">'+c.label+'</div>';
-    ghtml+='<div style="font-size:20px;font-weight:bold;color:'+c.tc+';">'+c.val+'</div>';
-    ghtml+='</div>';
+ghtml+='<div style="background:'+c.bg+';border-radius:10px;padding:14px;text-align:center;">';
+ghtml+='<div style="font-size:12px;color:#64748b;margin-bottom:4px;">'+c.label+'</div>';
+ghtml+='<div style="font-size:20px;font-weight:bold;color:'+c.tc+';">'+c.val+'</div>';
+ghtml+='</div>';
   });
   document.getElementById('fh-result-grid').innerHTML=ghtml;
 
   // 内訳バー
   var total=recAnnualSales;
   var segs=[
-    {label:'手取り',amt:Math.max(tedoriAmt,0),color:'#0d9488'},
-    {label:'税金・社保',amt:taxAmt,color:'#f59e0b'},
-    {label:'経費',amt:expenseYen,color:'#94a3b8'},
-    {label:'マージン',amt:marginAmt,color:'#6366f1'},
+{label:'手取り',amt:Math.max(tedoriAmt,0),color:'#0d9488'},
+{label:'税金・社保',amt:taxAmt,color:'#f59e0b'},
+{label:'経費',amt:expenseYen,color:'#94a3b8'},
+{label:'マージン',amt:marginAmt,color:'#6366f1'},
   ];
   var barHtml='';
   var legendHtml='';
   var labelHtml='';
   segs.forEach(function(s){
-    var pct=(s.amt/total*100).toFixed(1);
-    if(parseFloat(pct)<=0)return;
-    barHtml+='<div style="width:'+pct+'%;background:'+s.color+';"></div>';
-    legendHtml+='<span><span style="display:inline-block;width:12px;height:12px;background:'+s.color+';border-radius:2px;vertical-align:middle;margin-right:4px;"></span>'+s.label+' '+fmt(Math.round(s.amt/10000))+'万円 ('+pct+'%)</span>';
+var pct=(s.amt/total*100).toFixed(1);
+if(parseFloat(pct)<=0)return;
+barHtml+='<div style="width:'+pct+'%;background:'+s.color+';"></div>';
+legendHtml+='<span><span style="display:inline-block;width:12px;height:12px;background:'+s.color+';border-radius:2px;vertical-align:middle;margin-right:4px;"></span>'+s.label+' '+fmt(Math.round(s.amt/10000))+'万円 ('+pct+'%)</span>';
   });
   document.getElementById('fh-bar').innerHTML=barHtml;
   document.getElementById('fh-bar-legend').innerHTML=legendHtml;
@@ -213,12 +213,12 @@ function calcFH(){
   var projectLabels=['2時間案件','5時間案件','10時間案件','20時間案件','40時間（月1件）'];
   var prHtml='';
   projectHours.forEach(function(h,i){
-    var rate=fmt(recHourlyRate*h);
-    var bg=i%2===0?'#f0fdfa':'#fff';
-    prHtml+='<div style="background:'+bg+';border:1px solid #ccfbf1;border-radius:8px;padding:12px;text-align:center;">';
-    prHtml+='<div style="font-size:12px;color:#64748b;margin-bottom:4px;">'+projectLabels[i]+'</div>';
-    prHtml+='<div style="font-size:18px;font-weight:bold;color:#0d9488;">'+rate+'<span style="font-size:12px;font-weight:normal;">円</span></div>';
-    prHtml+='</div>';
+var rate=fmt(recHourlyRate*h);
+var bg=i%2===0?'#f0fdfa':'#fff';
+prHtml+='<div style="background:'+bg+';border:1px solid #ccfbf1;border-radius:8px;padding:12px;text-align:center;">';
+prHtml+='<div style="font-size:12px;color:#64748b;margin-bottom:4px;">'+projectLabels[i]+'</div>';
+prHtml+='<div style="font-size:18px;font-weight:bold;color:#0d9488;">'+rate+'<span style="font-size:12px;font-weight:normal;">円</span></div>';
+prHtml+='</div>';
   });
   document.getElementById('fh-project-rates').innerHTML=prHtml;
 
@@ -231,20 +231,20 @@ function calcFH(){
   thtml+='<th style="padding:10px 8px;text-align:right;">日単価</th>';
   thtml+='</tr></thead><tbody>';
   nenshuList.forEach(function(n,i){
-    var ty=n*10000;
-    var rs=(ty+expenseYen)/(1-taxRate);
-    var mh=Math.ceil(rs/totalHours/10)*10;
-    var rh=Math.ceil(mh/(1-marginRate)/10)*10;
-    var dr=rh*8;
-    var bg=i%2===0?'#fff':'#f0fdfa';
-    var bold=n===Math.round(targetMan/100)*100?'font-weight:bold;':'';
-    var highlight=n===targetMan?'background:#ccfbf1;':('background:'+bg+';');
-    thtml+='<tr style="'+highlight+bold+'">';
-    thtml+='<td style="padding:9px 8px;">'+n+'万円'+(n===targetMan?' ✓':'')+'</td>';
-    thtml+='<td style="padding:9px 8px;text-align:right;">'+fmt(mh)+'円</td>';
-    thtml+='<td style="padding:9px 8px;text-align:right;color:#0d9488;font-weight:bold;">'+fmt(rh)+'円</td>';
-    thtml+='<td style="padding:9px 8px;text-align:right;">'+fmt(dr)+'円</td>';
-    thtml+='</tr>';
+var ty=n*10000;
+var rs=(ty+expenseYen)/(1-taxRate);
+var mh=Math.ceil(rs/totalHours/10)*10;
+var rh=Math.ceil(mh/(1-marginRate)/10)*10;
+var dr=rh*8;
+var bg=i%2===0?'#fff':'#f0fdfa';
+var bold=n===Math.round(targetMan/100)*100?'font-weight:bold;':'';
+var highlight=n===targetMan?'background:#ccfbf1;':('background:'+bg+';');
+thtml+='<tr style="'+highlight+bold+'">';
+thtml+='<td style="padding:9px 8px;">'+n+'万円'+(n===targetMan?' ✓':'')+'</td>';
+thtml+='<td style="padding:9px 8px;text-align:right;">'+fmt(mh)+'円</td>';
+thtml+='<td style="padding:9px 8px;text-align:right;color:#0d9488;font-weight:bold;">'+fmt(rh)+'円</td>';
+thtml+='<td style="padding:9px 8px;text-align:right;">'+fmt(dr)+'円</td>';
+thtml+='</tr>';
   });
   thtml+='</tbody>';
   document.getElementById('fh-table').innerHTML=thtml;

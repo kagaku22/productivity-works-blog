@@ -304,10 +304,10 @@ function calcNW(){
 
   var dtaEl=document.getElementById('debtRatioDisplay');
   if(totalAssets>0){
-    var dta=((totalLiabilities/totalAssets)*100).toFixed(1);
-    dtaEl.textContent='\u8ca0\u50b5\u8cc7\u7523\u6bd4\u7387: '+dta+'%';
+var dta=((totalLiabilities/totalAssets)*100).toFixed(1);
+dtaEl.textContent='\u8ca0\u50b5\u8cc7\u7523\u6bd4\u7387: '+dta+'%';
   } else {
-    dtaEl.textContent='\u8ca0\u50b5\u8cc7\u7523\u6bd4\u7387: \u2014';
+dtaEl.textContent='\u8ca0\u50b5\u8cc7\u7523\u6bd4\u7387: \u2014';
   }
 
   var pCash=pct(cash,totalAssets);
@@ -328,51 +328,51 @@ function calcNW(){
 
   var liabWrap=document.getElementById('liabBreakdownWrap');
   if(totalLiabilities>0){
-    liabWrap.style.display='block';
-    var lpM=pct(lMortgage,totalLiabilities);
-    var lpS=pct(lStudent,totalLiabilities);
-    var lpA=pct(lAuto,totalLiabilities);
-    var lpC=pct(lCredit,totalLiabilities);
-    var lpO=pct(lOther,totalLiabilities);
-    var lRemainder=Math.max(0,100-lpM-lpS-lpA-lpC-lpO);
-    lpO+=lRemainder;
-    document.getElementById('lbarMortgage').style.width=lpM+'%';
-    document.getElementById('lbarStudent').style.width=lpS+'%';
-    document.getElementById('lbarAuto').style.width=lpA+'%';
-    document.getElementById('lbarCredit').style.width=lpC+'%';
-    document.getElementById('lbarOther').style.width=lpO+'%';
-    document.getElementById('lpctMortgage').textContent=lpM+'%';
-    document.getElementById('lpctStudent').textContent=lpS+'%';
-    document.getElementById('lpctAuto').textContent=lpA+'%';
-    document.getElementById('lpctCredit').textContent=lpC+'%';
-    document.getElementById('lpctOther').textContent=lpO+'%';
+liabWrap.style.display='block';
+var lpM=pct(lMortgage,totalLiabilities);
+var lpS=pct(lStudent,totalLiabilities);
+var lpA=pct(lAuto,totalLiabilities);
+var lpC=pct(lCredit,totalLiabilities);
+var lpO=pct(lOther,totalLiabilities);
+var lRemainder=Math.max(0,100-lpM-lpS-lpA-lpC-lpO);
+lpO+=lRemainder;
+document.getElementById('lbarMortgage').style.width=lpM+'%';
+document.getElementById('lbarStudent').style.width=lpS+'%';
+document.getElementById('lbarAuto').style.width=lpA+'%';
+document.getElementById('lbarCredit').style.width=lpC+'%';
+document.getElementById('lbarOther').style.width=lpO+'%';
+document.getElementById('lpctMortgage').textContent=lpM+'%';
+document.getElementById('lpctStudent').textContent=lpS+'%';
+document.getElementById('lpctAuto').textContent=lpA+'%';
+document.getElementById('lpctCredit').textContent=lpC+'%';
+document.getElementById('lpctOther').textContent=lpO+'%';
   } else {
-    liabWrap.style.display='none';
+liabWrap.style.display='none';
   }
 
   var ageIdx=document.getElementById('ageGroup').value;
   var tbody='';
   NW_BENCHMARKS.forEach(function(b,i){
-    var isSelected=(ageIdx!==''&&parseInt(ageIdx)===i);
-    var bg=isSelected?'#eef2ff':(i%2===0?'white':'#f8fafc');
-    var border=isSelected?'2px solid #4f46e5':'1px solid transparent';
-    var position='';
-    if(isSelected){
-      if(netWorth>=b.median){
-        var abovePct=Math.round(((netWorth-b.median)/b.median)*100);
-        position='<span style="color:#059669;font-weight:bold;">\u4e2d\u592e\u5024\u4ee5\u4e0a (+'+abovePct+'%)</span>';
-      } else {
-        var belowPct=Math.round(((b.median-netWorth)/b.median)*100);
-        position='<span style="color:#dc2626;font-weight:bold;">\u4e2d\u592e\u5024\u672a\u6e80 (-'+belowPct+'%)</span>';
-      }
-    } else {
-      position='<span style="color:#94a3b8;">\u2014</span>';
-    }
-    tbody+='<tr style="background:'+bg+';border:'+border+';">';
-    tbody+='<td style="padding:10px 14px;font-weight:'+(isSelected?'bold':'normal')+';">'+b.label+'</td>';
-    tbody+='<td style="padding:10px 14px;text-align:right;">\u00a5'+b.median.toLocaleString('ja-JP')+'</td>';
-    tbody+='<td style="padding:10px 14px;text-align:center;">'+position+'</td>';
-    tbody+='</tr>';
+var isSelected=(ageIdx!==''&&parseInt(ageIdx)===i);
+var bg=isSelected?'#eef2ff':(i%2===0?'white':'#f8fafc');
+var border=isSelected?'2px solid #4f46e5':'1px solid transparent';
+var position='';
+if(isSelected){
+if(netWorth>=b.median){
+var abovePct=Math.round(((netWorth-b.median)/b.median)*100);
+position='<span style="color:#059669;font-weight:bold;">\u4e2d\u592e\u5024\u4ee5\u4e0a (+'+abovePct+'%)</span>';
+} else {
+var belowPct=Math.round(((b.median-netWorth)/b.median)*100);
+position='<span style="color:#dc2626;font-weight:bold;">\u4e2d\u592e\u5024\u672a\u6e80 (-'+belowPct+'%)</span>';
+}
+} else {
+position='<span style="color:#94a3b8;">\u2014</span>';
+}
+tbody+='<tr style="background:'+bg+';border:'+border+';">';
+tbody+='<td style="padding:10px 14px;font-weight:'+(isSelected?'bold':'normal')+';">'+b.label+'</td>';
+tbody+='<td style="padding:10px 14px;text-align:right;">\u00a5'+b.median.toLocaleString('ja-JP')+'</td>';
+tbody+='<td style="padding:10px 14px;text-align:center;">'+position+'</td>';
+tbody+='</tr>';
   });
   document.getElementById('benchmarkBody').innerHTML=tbody;
 
@@ -382,15 +382,15 @@ function calcNW(){
   document.getElementById('goalPctLabel').textContent=goalPct+'%';
   var goalMsg=document.getElementById('goalMessage');
   if(netWorth<=0){
-    goalMsg.textContent='\u8ca0\u50b5\u3092\u8fd4\u6e08\u3057\u3001\u8cc7\u7523\u3092\u5897\u3084\u3057\u3066\u76ee\u6a19\u306b\u5411\u304b\u3063\u3066\u524d\u9032\u3057\u307e\u3057\u3087\u3046\u3002';
-    goalMsg.style.color='#dc2626';
+goalMsg.textContent='\u8ca0\u50b5\u3092\u8fd4\u6e08\u3057\u3001\u8cc7\u7523\u3092\u5897\u3084\u3057\u3066\u76ee\u6a19\u306b\u5411\u304b\u3063\u3066\u524d\u9032\u3057\u307e\u3057\u3087\u3046\u3002';
+goalMsg.style.color='#dc2626';
   } else if(goalPct>=100){
-    goalMsg.textContent='\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u2014\u7d14\u8cc7\u7523\u306e\u76ee\u6a19\u3092\u9054\u6210\u3057\u307e\u3057\u305f\uff01';
-    goalMsg.style.color='#059669';
+goalMsg.textContent='\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u2014\u7d14\u8cc7\u7523\u306e\u76ee\u6a19\u3092\u9054\u6210\u3057\u307e\u3057\u305f\uff01';
+goalMsg.style.color='#059669';
   } else {
-    var remaining=goal-netWorth;
-    goalMsg.textContent='\u76ee\u6a19\u306e'+goalPct+'%\u306b\u9054\u3057\u3066\u3044\u307e\u3059\u3002\u6b8b\u308a '+fmt(remaining)+'\u3002';
-    goalMsg.style.color='#4f46e5';
+var remaining=goal-netWorth;
+goalMsg.textContent='\u76ee\u6a19\u306e'+goalPct+'%\u306b\u9054\u3057\u3066\u3044\u307e\u3059\u3002\u6b8b\u308a '+fmt(remaining)+'\u3002';
+goalMsg.style.color='#4f46e5';
   }
 }
 

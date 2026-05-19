@@ -206,11 +206,11 @@ var EDU_COSTS = {
   chugakkou:  { public: 54, private: 144, years: 3 },
   koukou:     { public: 51, private: 105, years: 3 },
   daigaku: {
-    national:    { cost: 54,  years: 4 },
-    private_bun: { cost: 95,  years: 4 },
-    private_ri:  { cost: 130, years: 4 },
-    medical:     { cost: 350, years: 6 },
-    none:        { cost: 0,   years: 0 }
+national:    { cost: 54,  years: 4 },
+private_bun: { cost: 95,  years: 4 },
+private_ri:  { cost: 130, years: 4 },
+medical:     { cost: 350, years: 6 },
+none:        { cost: 0,   years: 0 }
   }
 };
 
@@ -233,7 +233,7 @@ var STAGE_LABELS = {
 function getRadioVal(name) {
   var radios = document.getElementsByName(name);
   for (var i = 0; i < radios.length; i++) {
-    if (radios[i].checked) return radios[i].value;
+if (radios[i].checked) return radios[i].value;
   }
   return '';
 }
@@ -241,29 +241,29 @@ function getRadioVal(name) {
 function setRadio(name, value) {
   var radios = document.getElementsByName(name);
   for (var i = 0; i < radios.length; i++) {
-    radios[i].checked = (radios[i].value === value);
+radios[i].checked = (radios[i].value === value);
   }
 }
 
 function setPreset(type) {
   if (type === 'all_public') {
-    setRadio('yochien', 'public');
-    setRadio('shougakkou', 'public');
-    setRadio('chugakkou', 'public');
-    setRadio('koukou', 'public');
-    setRadio('daigaku', 'national');
+setRadio('yochien', 'public');
+setRadio('shougakkou', 'public');
+setRadio('chugakkou', 'public');
+setRadio('koukou', 'public');
+setRadio('daigaku', 'national');
   } else if (type === 'high_public_univ_private') {
-    setRadio('yochien', 'public');
-    setRadio('shougakkou', 'public');
-    setRadio('chugakkou', 'public');
-    setRadio('koukou', 'public');
-    setRadio('daigaku', 'private_bun');
+setRadio('yochien', 'public');
+setRadio('shougakkou', 'public');
+setRadio('chugakkou', 'public');
+setRadio('koukou', 'public');
+setRadio('daigaku', 'private_bun');
   } else if (type === 'all_private') {
-    setRadio('yochien', 'private');
-    setRadio('shougakkou', 'private');
-    setRadio('chugakkou', 'private');
-    setRadio('koukou', 'private');
-    setRadio('daigaku', 'private_ri');
+setRadio('yochien', 'private');
+setRadio('shougakkou', 'private');
+setRadio('chugakkou', 'private');
+setRadio('koukou', 'private');
+setRadio('daigaku', 'private_ri');
   }
   calcEdu();
 }
@@ -296,11 +296,11 @@ function calcEdu() {
   var d = getRadioVal('daigaku');
 
   var stages = [
-    { key: 'yochien',    label: 'Kindergarten', annual: EDU_COSTS.yochien[y],          years: EDU_COSTS.yochien.years,    subtotal: EDU_COSTS.yochien[y] * EDU_COSTS.yochien.years },
-    { key: 'shougakkou', label: 'Elementary',   annual: EDU_COSTS.shougakkou[s],        years: EDU_COSTS.shougakkou.years, subtotal: EDU_COSTS.shougakkou[s] * EDU_COSTS.shougakkou.years },
-    { key: 'chugakkou',  label: 'Middle School',annual: EDU_COSTS.chugakkou[c],         years: EDU_COSTS.chugakkou.years,  subtotal: EDU_COSTS.chugakkou[c] * EDU_COSTS.chugakkou.years },
-    { key: 'koukou',     label: 'High School',  annual: EDU_COSTS.koukou[k],            years: EDU_COSTS.koukou.years,     subtotal: EDU_COSTS.koukou[k] * EDU_COSTS.koukou.years },
-    { key: 'daigaku',    label: 'University',   annual: EDU_COSTS.daigaku[d].cost,      years: EDU_COSTS.daigaku[d].years, subtotal: EDU_COSTS.daigaku[d].cost * EDU_COSTS.daigaku[d].years }
+{ key: 'yochien',    label: 'Kindergarten', annual: EDU_COSTS.yochien[y],          years: EDU_COSTS.yochien.years,    subtotal: EDU_COSTS.yochien[y] * EDU_COSTS.yochien.years },
+{ key: 'shougakkou', label: 'Elementary',   annual: EDU_COSTS.shougakkou[s],        years: EDU_COSTS.shougakkou.years, subtotal: EDU_COSTS.shougakkou[s] * EDU_COSTS.shougakkou.years },
+{ key: 'chugakkou',  label: 'Middle School',annual: EDU_COSTS.chugakkou[c],         years: EDU_COSTS.chugakkou.years,  subtotal: EDU_COSTS.chugakkou[c] * EDU_COSTS.chugakkou.years },
+{ key: 'koukou',     label: 'High School',  annual: EDU_COSTS.koukou[k],            years: EDU_COSTS.koukou.years,     subtotal: EDU_COSTS.koukou[k] * EDU_COSTS.koukou.years },
+{ key: 'daigaku',    label: 'University',   annual: EDU_COSTS.daigaku[d].cost,      years: EDU_COSTS.daigaku[d].years, subtotal: EDU_COSTS.daigaku[d].cost * EDU_COSTS.daigaku[d].years }
   ];
 
   var total = 0;
@@ -316,33 +316,33 @@ function calcEdu() {
   var barHTML = '';
   var legendHTML = '';
   for (var i = 0; i < stages.length; i++) {
-    if (stages[i].subtotal === 0) continue;
-    var pct = total > 0 ? (stages[i].subtotal / total * 100).toFixed(1) : 0;
-    barHTML += '<div style="width:' + pct + '%;background:' + STAGE_COLORS[stages[i].key] + ';height:100%;transition:width 0.3s;" title="' + stages[i].label + ': ' + fmtMan(stages[i].subtotal) + '"></div>';
-    legendHTML += '<span><span style="display:inline-block;width:10px;height:10px;background:' + STAGE_COLORS[stages[i].key] + ';border-radius:2px;margin-right:3px;"></span>' + stages[i].label + ' ' + fmtMan(stages[i].subtotal) + '</span>';
+if (stages[i].subtotal === 0) continue;
+var pct = total > 0 ? (stages[i].subtotal / total * 100).toFixed(1) : 0;
+barHTML += '<div style="width:' + pct + '%;background:' + STAGE_COLORS[stages[i].key] + ';height:100%;transition:width 0.3s;" title="' + stages[i].label + ': ' + fmtMan(stages[i].subtotal) + '"></div>';
+legendHTML += '<span><span style="display:inline-block;width:10px;height:10px;background:' + STAGE_COLORS[stages[i].key] + ';border-radius:2px;margin-right:3px;"></span>' + stages[i].label + ' ' + fmtMan(stages[i].subtotal) + '</span>';
   }
   document.getElementById('stackedBar').innerHTML = barHTML;
   document.getElementById('barLegend').innerHTML = legendHTML;
 
   var tbodyHTML = '';
   for (var i = 0; i < stages.length; i++) {
-    var st = stages[i];
-    var bg = i % 2 === 0 ? '#fff' : '#fffbeb';
-    var typeLabel = '';
-    if (st.key === 'yochien') typeLabel = y === 'public' ? 'Public' : 'Private';
-    else if (st.key === 'shougakkou') typeLabel = s === 'public' ? 'Public' : 'Private';
-    else if (st.key === 'chugakkou') typeLabel = c === 'public' ? 'Public' : 'Private';
-    else if (st.key === 'koukou') typeLabel = k === 'public' ? 'Public' : 'Private';
-    else {
-      var labels = { national: 'National/Public', private_bun: 'Private Liberal Arts', private_ri: 'Private Science', medical: 'Private Medical', none: 'None' };
-      typeLabel = labels[d] || '';
-    }
-    tbodyHTML += '<tr style="background:' + bg + ';">';
-    tbodyHTML += '<td style="padding:9px 8px;">' + st.label + '<span style="font-size:11px;color:#64748b;margin-left:6px;">(' + typeLabel + ')</span></td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:center;">' + st.years + ' yrs</td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:right;">' + (st.annual > 0 ? fmtMan(st.annual) : '—') + '</td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:right;font-weight:bold;">' + (st.subtotal > 0 ? fmtMan(st.subtotal) : '—') + '</td>';
-    tbodyHTML += '</tr>';
+var st = stages[i];
+var bg = i % 2 === 0 ? '#fff' : '#fffbeb';
+var typeLabel = '';
+if (st.key === 'yochien') typeLabel = y === 'public' ? 'Public' : 'Private';
+else if (st.key === 'shougakkou') typeLabel = s === 'public' ? 'Public' : 'Private';
+else if (st.key === 'chugakkou') typeLabel = c === 'public' ? 'Public' : 'Private';
+else if (st.key === 'koukou') typeLabel = k === 'public' ? 'Public' : 'Private';
+else {
+var labels = { national: 'National/Public', private_bun: 'Private Liberal Arts', private_ri: 'Private Science', medical: 'Private Medical', none: 'None' };
+typeLabel = labels[d] || '';
+}
+tbodyHTML += '<tr style="background:' + bg + ';">';
+tbodyHTML += '<td style="padding:9px 8px;">' + st.label + '<span style="font-size:11px;color:#64748b;margin-left:6px;">(' + typeLabel + ')</span></td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:center;">' + st.years + ' yrs</td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:right;">' + (st.annual > 0 ? fmtMan(st.annual) : '—') + '</td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:right;font-weight:bold;">' + (st.subtotal > 0 ? fmtMan(st.subtotal) : '—') + '</td>';
+tbodyHTML += '</tr>';
   }
   document.getElementById('breakdownTable').innerHTML = tbodyHTML;
   document.getElementById('breakdownFoot').innerHTML = '<tr style="background:#d97706;color:white;"><td colspan="3" style="padding:10px 8px;font-weight:bold;">Total</td><td style="padding:10px 8px;text-align:right;font-weight:bold;font-size:16px;">' + fmtMan(total) + '</td></tr>';
@@ -355,24 +355,24 @@ function calcEdu() {
   var gap = totalSavings - total;
   var gapEl = document.getElementById('gapDisplay');
   if (gap >= 0) {
-    gapEl.style.background = '#d1fae5';
-    gapEl.style.color = '#065f46';
-    gapEl.textContent = 'Surplus: ' + fmtMan(gap) + ' (your savings plan covers education costs)';
+gapEl.style.background = '#d1fae5';
+gapEl.style.color = '#065f46';
+gapEl.textContent = 'Surplus: ' + fmtMan(gap) + ' (your savings plan covers education costs)';
   } else {
-    gapEl.style.background = '#fee2e2';
-    gapEl.style.color = '#991b1b';
-    gapEl.textContent = 'Shortfall: ' + fmtMan(Math.abs(gap)) + ' (consider increasing savings or adding investment returns)';
+gapEl.style.background = '#fee2e2';
+gapEl.style.color = '#991b1b';
+gapEl.textContent = 'Shortfall: ' + fmtMan(Math.abs(gap)) + ' (consider increasing savings or adding investment returns)';
   }
 
   var jidou = 200;
   var gapAfterJidou = gap + jidou;
   var gapJEl = document.getElementById('gapAfterJidou');
   if (gapAfterJidou >= 0) {
-    gapJEl.style.color = '#065f46';
-    gapJEl.textContent = 'Surplus ' + fmtMan(gapAfterJidou);
+gapJEl.style.color = '#065f46';
+gapJEl.textContent = 'Surplus ' + fmtMan(gapAfterJidou);
   } else {
-    gapJEl.style.color = '#dc2626';
-    gapJEl.textContent = 'Shortfall ' + fmtMan(Math.abs(gapAfterJidou));
+gapJEl.style.color = '#dc2626';
+gapJEl.textContent = 'Shortfall ' + fmtMan(Math.abs(gapAfterJidou));
   }
 
   var allPublic    = calcTotal('public', 'public', 'public', 'public', 'national');
@@ -384,23 +384,23 @@ function calcEdu() {
   var allPubMonths = univTotalYears * 12;
 
   var patterns = [
-    { label: 'All Public (National/Public Univ.)', total: allPublic,   months: allPubMonths },
-    { label: 'Public K-12 + Private Liberal Arts', total: mixPattern,  months: allPubMonths },
-    { label: 'All Private (Private Science Univ.)', total: allPrivate,  months: allPubMonths },
-    { label: 'Your Selection', total: userPattern, months: monthsLeft, highlight: true }
+{ label: 'All Public (National/Public Univ.)', total: allPublic,   months: allPubMonths },
+{ label: 'Public K-12 + Private Liberal Arts', total: mixPattern,  months: allPubMonths },
+{ label: 'All Private (Private Science Univ.)', total: allPrivate,  months: allPubMonths },
+{ label: 'Your Selection', total: userPattern, months: monthsLeft, highlight: true }
   ];
 
   var compHTML = '';
   for (var i = 0; i < patterns.length; i++) {
-    var p = patterns[i];
-    var monthlyEq = p.months > 0 ? Math.ceil(p.total / p.months * 10) / 10 : 0;
-    var bg = p.highlight ? '#fef3c7' : (i % 2 === 0 ? '#fff' : '#f8fafc');
-    var fw = p.highlight ? 'bold' : 'normal';
-    compHTML += '<tr style="background:' + bg + ';font-weight:' + fw + ';">';
-    compHTML += '<td style="padding:9px 8px;border-bottom:1px solid #e2e8f0;">' + p.label + (p.highlight ? ' ★' : '') + '</td>';
-    compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#d97706;font-weight:bold;">' + fmtMan(p.total) + '</td>';
-    compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">' + fmtMan(monthlyEq) + '</td>';
-    compHTML += '</tr>';
+var p = patterns[i];
+var monthlyEq = p.months > 0 ? Math.ceil(p.total / p.months * 10) / 10 : 0;
+var bg = p.highlight ? '#fef3c7' : (i % 2 === 0 ? '#fff' : '#f8fafc');
+var fw = p.highlight ? 'bold' : 'normal';
+compHTML += '<tr style="background:' + bg + ';font-weight:' + fw + ';">';
+compHTML += '<td style="padding:9px 8px;border-bottom:1px solid #e2e8f0;">' + p.label + (p.highlight ? ' ★' : '') + '</td>';
+compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#d97706;font-weight:bold;">' + fmtMan(p.total) + '</td>';
+compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">' + fmtMan(monthlyEq) + '</td>';
+compHTML += '</tr>';
   }
   document.getElementById('comparisonTable').innerHTML = compHTML;
 }

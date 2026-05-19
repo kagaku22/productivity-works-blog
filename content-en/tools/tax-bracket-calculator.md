@@ -129,20 +129,20 @@ Enter your taxable income and filing status to see your **federal tax bracket, e
 <script>
 const BRACKETS={
   single:[
-    [0,11925,0.10],[11925,48475,0.12],[48475,103350,0.22],
-    [103350,197300,0.24],[197300,250525,0.32],[250525,626350,0.35],[626350,Infinity,0.37]
+[0,11925,0.10],[11925,48475,0.12],[48475,103350,0.22],
+[103350,197300,0.24],[197300,250525,0.32],[250525,626350,0.35],[626350,Infinity,0.37]
   ],
   mfj:[
-    [0,23850,0.10],[23850,96950,0.12],[96950,206700,0.22],
-    [206700,394600,0.24],[394600,501050,0.32],[501050,751600,0.35],[751600,Infinity,0.37]
+[0,23850,0.10],[23850,96950,0.12],[96950,206700,0.22],
+[206700,394600,0.24],[394600,501050,0.32],[501050,751600,0.35],[751600,Infinity,0.37]
   ],
   mfs:[
-    [0,11925,0.10],[11925,48475,0.12],[48475,103350,0.22],
-    [103350,197300,0.24],[197300,250525,0.32],[250525,375800,0.35],[375800,Infinity,0.37]
+[0,11925,0.10],[11925,48475,0.12],[48475,103350,0.22],
+[103350,197300,0.24],[197300,250525,0.32],[250525,375800,0.35],[375800,Infinity,0.37]
   ],
   hoh:[
-    [0,17000,0.10],[17000,64850,0.12],[64850,103350,0.22],
-    [103350,197300,0.24],[197300,250500,0.32],[250500,626350,0.35],[626350,Infinity,0.37]
+[0,17000,0.10],[17000,64850,0.12],[64850,103350,0.22],
+[103350,197300,0.24],[197300,250500,0.32],[250500,626350,0.35],[626350,Infinity,0.37]
   ]
 };
 const STD_DED={single:15000,mfj:30000,mfs:15000,hoh:22500};
@@ -156,11 +156,11 @@ function computeTax(income,status){
   const brackets=BRACKETS[status];
   let tax=0;const details=[];
   for(const[lo,hi,rate]of brackets){
-    if(income<=lo)break;
-    const taxable=Math.min(income,hi)-lo;
-    const t=taxable*rate;
-    tax+=t;
-    details.push({lo,hi:Math.min(income,hi),rate,taxable,tax:t,cumTax:tax});
+if(income<=lo)break;
+const taxable=Math.min(income,hi)-lo;
+const t=taxable*rate;
+tax+=t;
+details.push({lo,hi:Math.min(income,hi),rate,taxable,tax:t,cumTax:tax});
   }
   return{tax,details};
 }
@@ -176,8 +176,8 @@ function calcTB(){
 
   // Highlight selected radio
   ['single','mfj','mfs','hoh'].forEach(s=>{
-    document.getElementById('lbl-'+s).style.borderColor=s===status?'#dc2626':'#e2e8f0';
-    document.getElementById('lbl-'+s).style.background=s===status?'#fef2f2':'white';
+document.getElementById('lbl-'+s).style.borderColor=s===status?'#dc2626':'#e2e8f0';
+document.getElementById('lbl-'+s).style.background=s===status?'#fef2f2':'white';
   });
 
   const{tax,details}=computeTax(taxableIncome,status);
@@ -194,13 +194,13 @@ function calcTB(){
   // Bar
   let barHTML='';let legendHTML='';
   if(taxableIncome>0){
-    details.forEach((d,i)=>{
-      const pct=(d.taxable/taxableIncome)*100;
-      if(pct>0){
-        barHTML+='<div style="width:'+pct+'%;background:'+COLORS[i%COLORS.length]+';height:100%;" title="'+Math.round(d.rate*100)+'%: $'+d.taxable.toLocaleString()+'"></div>';
-        legendHTML+='<span><span style="display:inline-block;width:10px;height:10px;background:'+COLORS[i%COLORS.length]+';border-radius:2px;"></span> '+Math.round(d.rate*100)+'%</span>';
-      }
-    });
+details.forEach((d,i)=>{
+const pct=(d.taxable/taxableIncome)*100;
+if(pct>0){
+barHTML+='<div style="width:'+pct+'%;background:'+COLORS[i%COLORS.length]+';height:100%;" title="'+Math.round(d.rate*100)+'%: $'+d.taxable.toLocaleString()+'"></div>';
+legendHTML+='<span><span style="display:inline-block;width:10px;height:10px;background:'+COLORS[i%COLORS.length]+';border-radius:2px;"></span> '+Math.round(d.rate*100)+'%</span>';
+}
+});
   }
   document.getElementById('tbBar').innerHTML=barHTML;
   document.getElementById('tbLegend').innerHTML=legendHTML;
@@ -209,21 +209,21 @@ function calcTB(){
   const allBrackets=BRACKETS[status];
   let tbody='';let cumTax=0;
   allBrackets.forEach((b,i)=>{
-    const[lo,hi,rate]=b;
-    const taxable=taxableIncome>lo?Math.min(taxableIncome,hi)-lo:0;
-    const t=taxable*rate;
-    cumTax+=t;
-    const active=taxableIncome>lo;
-    const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
-    const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
-    const hiStr=hi===Infinity?'+':'$'+hi.toLocaleString();
-    const arrow=current?' ←':'';
-    tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
-    tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">$'+lo.toLocaleString()+' – '+hiStr+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(t).toLocaleString()+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(cumTax).toLocaleString()+'</td>';
-    tbody+='</tr>';
+const[lo,hi,rate]=b;
+const taxable=taxableIncome>lo?Math.min(taxableIncome,hi)-lo:0;
+const t=taxable*rate;
+cumTax+=t;
+const active=taxableIncome>lo;
+const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
+const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
+const hiStr=hi===Infinity?'+':'$'+hi.toLocaleString();
+const arrow=current?' ←':'';
+tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
+tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">$'+lo.toLocaleString()+' – '+hiStr+'</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(t).toLocaleString()+'</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(cumTax).toLocaleString()+'</td>';
+tbody+='</tr>';
   });
   document.getElementById('tbTableBody').innerHTML=tbody;
 
@@ -231,15 +231,15 @@ function calcTB(){
   const changes=[10000,25000,50000];
   let sHTML='';
   changes.forEach(c=>{
-    const newGross=grossIncome+c;
-    const newTaxable=Math.max(0,newGross-deduction);
-    const r=computeTax(newTaxable,status);
-    const diff=r.tax-tax;
-    const newEff=newGross>0?(r.tax/newGross)*100:0;
-    sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
-    sHTML+='<div><strong>$'+newGross.toLocaleString()+'</strong> <span style="color:#64748b;font-size:13px;">(+$'+c.toLocaleString()+')</span></div>';
-    sHTML+='<div style="text-align:right;font-size:14px;">Tax: $'+Math.round(r.tax).toLocaleString()+' <span style="color:#dc2626;">(+$'+Math.round(diff).toLocaleString()+')</span> | Eff: '+newEff.toFixed(1)+'%</div>';
-    sHTML+='</div>';
+const newGross=grossIncome+c;
+const newTaxable=Math.max(0,newGross-deduction);
+const r=computeTax(newTaxable,status);
+const diff=r.tax-tax;
+const newEff=newGross>0?(r.tax/newGross)*100:0;
+sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
+sHTML+='<div><strong>$'+newGross.toLocaleString()+'</strong> <span style="color:#64748b;font-size:13px;">(+$'+c.toLocaleString()+')</span></div>';
+sHTML+='<div style="text-align:right;font-size:14px;">Tax: $'+Math.round(r.tax).toLocaleString()+' <span style="color:#dc2626;">(+$'+Math.round(diff).toLocaleString()+')</span> | Eff: '+newEff.toFixed(1)+'%</div>';
+sHTML+='</div>';
   });
   document.getElementById('tbScenarios').innerHTML=sHTML;
 }

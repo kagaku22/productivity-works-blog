@@ -146,13 +146,13 @@ function calcIdeco(){
   var taxableWith=Math.max(shotoku-totalDeduction-annualContrib,0);
 
   function getIncomeTax(taxable){
-    if(taxable<=1950000) return taxable*0.05;
-    else if(taxable<=3300000) return taxable*0.1-97500;
-    else if(taxable<=6950000) return taxable*0.2-427500;
-    else if(taxable<=9000000) return taxable*0.23-636000;
-    else if(taxable<=18000000) return taxable*0.33-1536000;
-    else if(taxable<=40000000) return taxable*0.40-2796000;
-    else return taxable*0.45-4796000;
+if(taxable<=1950000) return taxable*0.05;
+else if(taxable<=3300000) return taxable*0.1-97500;
+else if(taxable<=6950000) return taxable*0.2-427500;
+else if(taxable<=9000000) return taxable*0.23-636000;
+else if(taxable<=18000000) return taxable*0.33-1536000;
+else if(taxable<=40000000) return taxable*0.40-2796000;
+else return taxable*0.45-4796000;
   }
 
   var taxWithout=Math.floor(getIncomeTax(taxableWithout)*1.021)+Math.floor(taxableWithout*0.1)+5000;

@@ -96,8 +96,8 @@ function calcBudget(){
 
   function fmtJPY(n){return Math.floor(n/10000)+'万'+(Math.floor(n%10000)>0?Math.floor(n%10000)+'円':'円');}
   function fmtJPYSimple(n){
-    if(n>=10000){return Math.floor(n/10000).toLocaleString('ja-JP')+'万円';}
-    return n.toLocaleString('ja-JP')+'円';
+if(n>=10000){return Math.floor(n/10000).toLocaleString('ja-JP')+'万円';}
+return n.toLocaleString('ja-JP')+'円';
   }
 
   document.getElementById('payVal').textContent=Math.floor(pay/10000)+'万円';

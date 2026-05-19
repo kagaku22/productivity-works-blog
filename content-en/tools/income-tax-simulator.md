@@ -167,11 +167,11 @@ function calcEmployeeDeduction(income){
 
 function calcSocialInsurance(income,type){
   if(type==='employee'){
-    // Employee share: SS 6.2% up to $168,600 + Medicare 1.45%
-    return Math.round(Math.min(income,168600)*0.062+income*0.0145);
+// Employee share: SS 6.2% up to $168,600 + Medicare 1.45%
+return Math.round(Math.min(income,168600)*0.062+income*0.0145);
   } else {
-    // Self-employed: full 15.3% (SS+Medicare), deduct half
-    return Math.round(Math.min(income,168600)*0.124+income*0.029);
+// Self-employed: full 15.3% (SS+Medicare), deduct half
+return Math.round(Math.min(income,168600)*0.124+income*0.029);
   }
 }
 
@@ -179,11 +179,11 @@ function calcFederalTax(taxableIncome){
   if(taxableIncome<=0) return{tax:0,rate:0,details:[]};
   let tax=0;let topRate=0;const details=[];
   for(const[lo,hi,rate,deduction] of US_BRACKETS){
-    if(taxableIncome<=lo) break;
-    topRate=rate;
-    const portion=Math.min(taxableIncome,hi)-lo;
-    const t=portion*rate;
-    details.push({lo,hi:Math.min(taxableIncome,hi),rate,portion,tax:t});
+if(taxableIncome<=lo) break;
+topRate=rate;
+const portion=Math.min(taxableIncome,hi)-lo;
+const t=portion*rate;
+details.push({lo,hi:Math.min(taxableIncome,hi),rate,portion,tax:t});
   }
   const bracket=US_BRACKETS.find(b=>b[2]===topRate);
   tax=Math.floor(taxableIncome*topRate-(bracket?bracket[3]:0));
@@ -202,20 +202,20 @@ function calcST(){
   const deps=parseInt(document.getElementById('stDependents').value);
 
   ['employee','freelance'].forEach(t=>{
-    document.getElementById('lbl-'+t).style.borderColor=t===type?'#b91c1c':'#e2e8f0';
-    document.getElementById('lbl-'+t).style.background=t===type?'#fef2f2':'white';
+document.getElementById('lbl-'+t).style.borderColor=t===type?'#b91c1c':'#e2e8f0';
+document.getElementById('lbl-'+t).style.background=t===type?'#fef2f2':'white';
   });
   document.getElementById('stFreelanceOpts').style.display=type==='freelance'?'block':'none';
 
   // Deductions
   let deduction=0;
   if(type==='employee'){
-    deduction=calcEmployeeDeduction(income);
+deduction=calcEmployeeDeduction(income);
   }else{
-    const expRate=parseFloat(document.getElementById('stExpenseRate').value)/100;
-    document.getElementById('stExpenseVal').textContent=Math.round(expRate*100)+'%';
-    deduction=income*expRate;
-    if(document.getElementById('stBlueReturn').checked) deduction+=6500;
+const expRate=parseFloat(document.getElementById('stExpenseRate').value)/100;
+document.getElementById('stExpenseVal').textContent=Math.round(expRate*100)+'%';
+deduction=income*expRate;
+if(document.getElementById('stBlueReturn').checked) deduction+=6500;
   }
 
   // Additional deductions for dependents
@@ -249,34 +249,34 @@ function calcST(){
 
   // Breakdown bar
   if(income>0){
-    const pTH=((Math.max(0,takeHome)/income)*100).toFixed(1);
-    const pIT=((federalTax/income)*100).toFixed(1);
-    const pRT=((stateTax/income)*100).toFixed(1);
-    const pSI=((social/income)*100).toFixed(1);
-    document.getElementById('stBar').innerHTML=
-      '<div style="width:'+pTH+'%;background:#16a34a;height:100%;" title="Take-Home"></div>'+
-      '<div style="width:'+pIT+'%;background:#b91c1c;height:100%;" title="Federal Tax"></div>'+
-      '<div style="width:'+pRT+'%;background:#ea580c;height:100%;" title="State Tax"></div>'+
-      '<div style="width:'+pSI+'%;background:#7c3aed;height:100%;" title="FICA"></div>';
+const pTH=((Math.max(0,takeHome)/income)*100).toFixed(1);
+const pIT=((federalTax/income)*100).toFixed(1);
+const pRT=((stateTax/income)*100).toFixed(1);
+const pSI=((social/income)*100).toFixed(1);
+document.getElementById('stBar').innerHTML=
+'<div style="width:'+pTH+'%;background:#16a34a;height:100%;" title="Take-Home"></div>'+
+'<div style="width:'+pIT+'%;background:#b91c1c;height:100%;" title="Federal Tax"></div>'+
+'<div style="width:'+pRT+'%;background:#ea580c;height:100%;" title="State Tax"></div>'+
+'<div style="width:'+pSI+'%;background:#7c3aed;height:100%;" title="FICA"></div>';
   }
 
   // Bracket table
   let tbody='';
   US_BRACKETS.forEach((b,i)=>{
-    const[lo,hi,rate,ded]=b;
-    const active=taxableIncome>lo;
-    const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
-    const portion=active?Math.min(taxableIncome,hi)-lo:0;
-    const t=portion*rate;
-    const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
-    const hiStr=hi===Infinity?'+':'–$'+Math.round(hi).toLocaleString();
-    const arrow=current?' &larr;':'';
-    tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
-    tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">$'+Math.round(lo).toLocaleString()+hiStr+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">$'+Math.round(ded).toLocaleString()+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(t).toLocaleString()+'</td>';
-    tbody+='</tr>';
+const[lo,hi,rate,ded]=b;
+const active=taxableIncome>lo;
+const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
+const portion=active?Math.min(taxableIncome,hi)-lo:0;
+const t=portion*rate;
+const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
+const hiStr=hi===Infinity?'+':'–$'+Math.round(hi).toLocaleString();
+const arrow=current?' &larr;':'';
+tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
+tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">$'+Math.round(lo).toLocaleString()+hiStr+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">$'+Math.round(ded).toLocaleString()+'</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">$'+Math.round(t).toLocaleString()+'</td>';
+tbody+='</tr>';
   });
   document.getElementById('stTableBody').innerHTML=tbody;
 
@@ -286,20 +286,20 @@ function calcST(){
   const expRate=type==='freelance'?(parseFloat(document.getElementById('stExpenseRate').value)/100):0;
   const blueReturn=type==='freelance'&&document.getElementById('stBlueReturn').checked;
   scenarios.forEach(s=>{
-    const sDed=type==='employee'?calcEmployeeDeduction(s):s*expRate+(blueReturn?6500:0);
-    const depDed=(deps>=1?14600:0)+(deps>=2?2000:0)+(deps>=3?2000:0);
-    const sEarned=Math.max(0,s-sDed-depDed);
-    const sSocial=calcSocialInsurance(s,type);
-    const sSEDed=type==='freelance'?Math.round(sSocial/2):0;
-    const sTaxable=Math.max(0,sEarned-sSEDed);
-    const sFederal=calcFederalTax(sTaxable).tax;
-    const sState=calcStateTax(sTaxable);
-    const sTH=s-sFederal-sState-sSocial;
-    const current=s===income;
-    sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:'+(current?'#fef2f2':'white')+';border-radius:8px;border:'+(current?'2px solid #b91c1c':'1px solid #e2e8f0')+';font-size:14px;">';
-    sHTML+='<div><strong>$'+s.toLocaleString()+'</strong></div>';
-    sHTML+='<div style="text-align:right;">Take-Home <strong style="color:#16a34a;">$'+Math.max(0,Math.round(sTH)).toLocaleString()+'</strong> ('+((Math.max(0,sTH)/s)*100).toFixed(0)+'%)</div>';
-    sHTML+='</div>';
+const sDed=type==='employee'?calcEmployeeDeduction(s):s*expRate+(blueReturn?6500:0);
+const depDed=(deps>=1?14600:0)+(deps>=2?2000:0)+(deps>=3?2000:0);
+const sEarned=Math.max(0,s-sDed-depDed);
+const sSocial=calcSocialInsurance(s,type);
+const sSEDed=type==='freelance'?Math.round(sSocial/2):0;
+const sTaxable=Math.max(0,sEarned-sSEDed);
+const sFederal=calcFederalTax(sTaxable).tax;
+const sState=calcStateTax(sTaxable);
+const sTH=s-sFederal-sState-sSocial;
+const current=s===income;
+sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:'+(current?'#fef2f2':'white')+';border-radius:8px;border:'+(current?'2px solid #b91c1c':'1px solid #e2e8f0')+';font-size:14px;">';
+sHTML+='<div><strong>$'+s.toLocaleString()+'</strong></div>';
+sHTML+='<div style="text-align:right;">Take-Home <strong style="color:#16a34a;">$'+Math.max(0,Math.round(sTH)).toLocaleString()+'</strong> ('+((Math.max(0,sTH)/s)*100).toFixed(0)+'%)</div>';
+sHTML+='</div>';
   });
   document.getElementById('stScenarios').innerHTML=sHTML;
 }

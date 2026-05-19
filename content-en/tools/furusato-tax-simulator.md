@@ -123,15 +123,15 @@ function calcFurusatoLimit(income,familyType,loanDeduction){
 
   // Housing loan credit impact
   if(loanDeduction>0){
-    var reduction=Math.min(loanDeduction*0.15,limit*0.15);
-    limit=Math.max(limit-reduction,2000);
+var reduction=Math.min(loanDeduction*0.15,limit*0.15);
+limit=Math.max(limit-reduction,2000);
   }
 
   return{
-    limit:Math.floor(limit),
-    taxRate:taxRate,
-    taxableIncome:taxableIncome,
-    juminTax:juminTax
+limit:Math.floor(limit),
+taxRate:taxRate,
+taxableIncome:taxableIncome,
+juminTax:juminTax
   };
 }
 
@@ -165,17 +165,17 @@ function calcFN(){
   var thtml='<table style="width:100%;border-collapse:collapse;font-size:13px;">';
   thtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:6px;">Income</th><th style="text-align:right;padding:6px;">Single</th><th style="text-align:right;padding:6px;">Married</th><th style="text-align:right;padding:6px;">Married+1</th></tr>';
   for(var i=0;i<incomes.length;i++){
-    var s=calcFurusatoLimit(incomes[i],'single',0);
-    var c=calcFurusatoLimit(incomes[i],'couple',0);
-    var c1=calcFurusatoLimit(incomes[i],'couple1',0);
-    var bg=incomes[i]===income?'#dcfce7':i%2===0?'#fff':'#f0fdf4';
-    var bold=incomes[i]===income?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">'+fmt(incomes[i]*10000)+' JPY</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(s.limit)+' JPY</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(c.limit)+' JPY</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(c1.limit)+' JPY</td>';
-    thtml+='</tr>';
+var s=calcFurusatoLimit(incomes[i],'single',0);
+var c=calcFurusatoLimit(incomes[i],'couple',0);
+var c1=calcFurusatoLimit(incomes[i],'couple1',0);
+var bg=incomes[i]===income?'#dcfce7':i%2===0?'#fff':'#f0fdf4';
+var bold=incomes[i]===income?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">'+fmt(incomes[i]*10000)+' JPY</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(s.limit)+' JPY</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(c.limit)+' JPY</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(c1.limit)+' JPY</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
   thtml+='<div style="margin-top:8px;font-size:11px;color:#64748b;">* Estimates only. Medical expense deductions, life insurance deductions, etc. may alter your actual ceiling.</div>';
@@ -184,21 +184,21 @@ function calcFN(){
   // Gift return goods
   var rhtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">';
   var goods=[
-    {name:'Rice 20kg (domestic)',price:20000,value:8000},
-    {name:'Japanese Wagyu Beef 1kg',price:15000,value:5000},
-    {name:'Scallops 1kg (Hokkaido)',price:12000,value:4000},
-    {name:'Shine Muscat Grapes',price:10000,value:3500}
+{name:'Rice 20kg (domestic)',price:20000,value:8000},
+{name:'Japanese Wagyu Beef 1kg',price:15000,value:5000},
+{name:'Scallops 1kg (Hokkaido)',price:12000,value:4000},
+{name:'Shine Muscat Grapes',price:10000,value:3500}
   ];
   for(var i=0;i<goods.length;i++){
-    var canAfford=r.limit>=goods[i].price?'#10b981':'#94a3b8';
-    var badge=r.limit>=goods[i].price?'Within limit':'Exceeds limit';
-    var badgeBg=r.limit>=goods[i].price?'#dcfce7':'#f1f5f9';
-    rhtml+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b;">'+goods[i].name+'</div>';
-    rhtml+='<div style="font-size:12px;color:#64748b;">Donation: '+fmt(goods[i].price)+' JPY</div>';
-    rhtml+='<div style="font-size:12px;color:#64748b;">Market value: ~'+fmt(goods[i].value)+' JPY</div>';
-    rhtml+='<span style="display:inline-block;margin-top:4px;padding:2px 8px;font-size:11px;font-weight:bold;background:'+badgeBg+';color:'+canAfford+';border-radius:4px;">'+badge+'</span>';
-    rhtml+='</div>';
+var canAfford=r.limit>=goods[i].price?'#10b981':'#94a3b8';
+var badge=r.limit>=goods[i].price?'Within limit':'Exceeds limit';
+var badgeBg=r.limit>=goods[i].price?'#dcfce7':'#f1f5f9';
+rhtml+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b;">'+goods[i].name+'</div>';
+rhtml+='<div style="font-size:12px;color:#64748b;">Donation: '+fmt(goods[i].price)+' JPY</div>';
+rhtml+='<div style="font-size:12px;color:#64748b;">Market value: ~'+fmt(goods[i].value)+' JPY</div>';
+rhtml+='<span style="display:inline-block;margin-top:4px;padding:2px 8px;font-size:11px;font-weight:bold;background:'+badgeBg+';color:'+canAfford+';border-radius:4px;">'+badge+'</span>';
+rhtml+='</div>';
   }
   rhtml+='</div>';
   rhtml+='<div style="margin-top:12px;font-size:12px;color:#92400e;text-align:center;">* Gift return rates are typical estimates as of 2026. Actual values vary by municipality and time of year.</div>';

@@ -110,12 +110,12 @@ function calcTax(annual){
   var takeHome=income-totalDeductions;
 
   return {
-    gross:income,
-    incomeTax:Math.max(0,incomeTax),
-    residentTax:Math.max(0,residentTax),
-    socialIns:socialIns,
-    totalDeductions:totalDeductions,
-    takeHome:Math.max(0,takeHome)
+gross:income,
+incomeTax:Math.max(0,incomeTax),
+residentTax:Math.max(0,residentTax),
+socialIns:socialIns,
+totalDeductions:totalDeductions,
+takeHome:Math.max(0,takeHome)
   };
 }
 
@@ -150,25 +150,25 @@ function calcTC(){
   chtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:8px;">項目</th><th style="text-align:right;padding:8px;">現在</th><th style="text-align:right;padding:8px;">転職後</th><th style="text-align:right;padding:8px;">差額</th></tr>';
 
   var rows=[
-    ['額面年収',curT.gross,newT.gross],
-    ['所得税',curT.incomeTax,newT.incomeTax],
-    ['住民税',curT.residentTax,newT.residentTax],
-    ['社会保険料',curT.socialIns,newT.socialIns],
-    ['手取り年収',curT.takeHome,newT.takeHome]
+['額面年収',curT.gross,newT.gross],
+['所得税',curT.incomeTax,newT.incomeTax],
+['住民税',curT.residentTax,newT.residentTax],
+['社会保険料',curT.socialIns,newT.socialIns],
+['手取り年収',curT.takeHome,newT.takeHome]
   ];
 
   for(var i=0;i<rows.length;i++){
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=i===rows.length-1?'font-weight:bold;':'';
-    var d=(rows[i][2]-rows[i][1])/10000;
-    var dc=d>=0?'#10b981':'#ef4444';
-    var ds=d>=0?'+':'';
-    chtml+='<tr style="background:'+bg+';'+bold+'">';
-    chtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
-    chtml+='<td style="padding:8px;text-align:right;">'+fmt(Math.round(rows[i][1]/10000))+'万円</td>';
-    chtml+='<td style="padding:8px;text-align:right;">'+fmt(Math.round(rows[i][2]/10000))+'万円</td>';
-    chtml+='<td style="padding:8px;text-align:right;color:'+dc+';">'+ds+fmt(Math.round(d))+'万円</td>';
-    chtml+='</tr>';
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=i===rows.length-1?'font-weight:bold;':'';
+var d=(rows[i][2]-rows[i][1])/10000;
+var dc=d>=0?'#10b981':'#ef4444';
+var ds=d>=0?'+':'';
+chtml+='<tr style="background:'+bg+';'+bold+'">';
+chtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
+chtml+='<td style="padding:8px;text-align:right;">'+fmt(Math.round(rows[i][1]/10000))+'万円</td>';
+chtml+='<td style="padding:8px;text-align:right;">'+fmt(Math.round(rows[i][2]/10000))+'万円</td>';
+chtml+='<td style="padding:8px;text-align:right;color:'+dc+';">'+ds+fmt(Math.round(d))+'万円</td>';
+chtml+='</tr>';
   }
   chtml+='</table>';
 

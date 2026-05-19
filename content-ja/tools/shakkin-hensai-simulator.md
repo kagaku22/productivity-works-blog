@@ -76,7 +76,7 @@ function removeDebt(id){
 
 function updateDebt(id,field,val){
   for(var i=0;i<debts.length;i++){
-    if(debts[i].id===id){debts[i][field]=field==='name'?val:+val;break;}
+if(debts[i].id===id){debts[i][field]=field==='name'?val:+val;break;}
   }
   calcDP();
 }
@@ -84,17 +84,17 @@ function updateDebt(id,field,val){
 function renderDebts(){
   var html='';
   for(var i=0;i<debts.length;i++){
-    var d=debts[i];
-    html+='<div style="padding:12px;margin-bottom:8px;background:#fff;border-radius:8px;border:1px solid #fca5a5;">';
-    html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">';
-    html+='<input type="text" value="'+d.name+'" onchange="updateDebt('+d.id+',\'name\',this.value)" style="border:none;font-weight:bold;font-size:14px;color:#991b1b;width:60%;outline:none;">';
-    html+='<button onclick="removeDebt('+d.id+')" style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:18px;">×</button>';
-    html+='</div>';
-    html+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">';
-    html+='<div><label style="display:block;font-size:11px;color:#64748b;">残高（円）</label><input type="number" value="'+d.balance+'" onchange="updateDebt('+d.id+',\'balance\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
-    html+='<div><label style="display:block;font-size:11px;color:#64748b;">年利（%）</label><input type="number" value="'+d.rate+'" step="0.1" onchange="updateDebt('+d.id+',\'rate\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
-    html+='<div><label style="display:block;font-size:11px;color:#64748b;">月々返済額（円）</label><input type="number" value="'+d.minPay+'" onchange="updateDebt('+d.id+',\'minPay\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
-    html+='</div></div>';
+var d=debts[i];
+html+='<div style="padding:12px;margin-bottom:8px;background:#fff;border-radius:8px;border:1px solid #fca5a5;">';
+html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">';
+html+='<input type="text" value="'+d.name+'" onchange="updateDebt('+d.id+',\'name\',this.value)" style="border:none;font-weight:bold;font-size:14px;color:#991b1b;width:60%;outline:none;">';
+html+='<button onclick="removeDebt('+d.id+')" style="background:none;border:none;color:#ef4444;cursor:pointer;font-size:18px;">×</button>';
+html+='</div>';
+html+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">';
+html+='<div><label style="display:block;font-size:11px;color:#64748b;">残高（円）</label><input type="number" value="'+d.balance+'" onchange="updateDebt('+d.id+',\'balance\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
+html+='<div><label style="display:block;font-size:11px;color:#64748b;">年利（%）</label><input type="number" value="'+d.rate+'" step="0.1" onchange="updateDebt('+d.id+',\'rate\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
+html+='<div><label style="display:block;font-size:11px;color:#64748b;">月々返済額（円）</label><input type="number" value="'+d.minPay+'" onchange="updateDebt('+d.id+',\'minPay\',this.value)" style="width:100%;padding:6px;border:1px solid #cbd5e1;border-radius:4px;font-size:13px;"></div>';
+html+='</div></div>';
   }
   document.getElementById('debtList').innerHTML=html;
 }
@@ -106,25 +106,25 @@ function simulate(sortFn,extra){
   var totalPaid=0,months=0,history=[getTotalBal(ds)];
   var maxMonths=600;
   while(getTotalBal(ds)>0&&months<maxMonths){
-    months++;
-    ds.sort(sortFn);
-    var leftover=extra;
-    for(var i=0;i<ds.length;i++){
-      if(ds[i].balance<=0)continue;
-      var interest=ds[i].balance*(ds[i].rate/100/12);
-      ds[i].balance+=interest;
-      var pay=Math.min(ds[i].balance,ds[i].minPay);
-      ds[i].balance-=pay;
-      totalPaid+=pay;
-    }
-    for(var i=0;i<ds.length;i++){
-      if(ds[i].balance<=0||leftover<=0)continue;
-      var ep=Math.min(ds[i].balance,leftover);
-      ds[i].balance-=ep;
-      leftover-=ep;
-      totalPaid+=ep;
-    }
-    history.push(getTotalBal(ds));
+months++;
+ds.sort(sortFn);
+var leftover=extra;
+for(var i=0;i<ds.length;i++){
+if(ds[i].balance<=0)continue;
+var interest=ds[i].balance*(ds[i].rate/100/12);
+ds[i].balance+=interest;
+var pay=Math.min(ds[i].balance,ds[i].minPay);
+ds[i].balance-=pay;
+totalPaid+=pay;
+}
+for(var i=0;i<ds.length;i++){
+if(ds[i].balance<=0||leftover<=0)continue;
+var ep=Math.min(ds[i].balance,leftover);
+ds[i].balance-=ep;
+leftover-=ep;
+totalPaid+=ep;
+}
+history.push(getTotalBal(ds));
   }
   return{months:months,totalPaid:totalPaid,history:history};
 }
@@ -175,11 +175,11 @@ function calcDP(){
   html+='</div>';
 
   if(saved>0){
-    html+='<div style="margin-top:16px;padding:16px;background:#f0fdf4;border-radius:8px;text-align:center;">';
-    html+='<div style="font-size:13px;color:#64748b;">毎月'+fmt(extra)+'円の追加返済で</div>';
-    html+='<div style="font-size:24px;font-weight:bold;color:#059669;">'+fmt(saved)+'円の利息を節約</div>';
-    html+='<div style="font-size:13px;color:#64748b;">完済が'+(noExtra.months-Math.min(snowball.months,avalanche.months))+'ヶ月早くなります</div>';
-    html+='</div>';
+html+='<div style="margin-top:16px;padding:16px;background:#f0fdf4;border-radius:8px;text-align:center;">';
+html+='<div style="font-size:13px;color:#64748b;">毎月'+fmt(extra)+'円の追加返済で</div>';
+html+='<div style="font-size:24px;font-weight:bold;color:#059669;">'+fmt(saved)+'円の利息を節約</div>';
+html+='<div style="font-size:13px;color:#64748b;">完済が'+(noExtra.months-Math.min(snowball.months,avalanche.months))+'ヶ月早くなります</div>';
+html+='</div>';
   }
 
   document.getElementById('dpResult').innerHTML=html;
@@ -200,19 +200,19 @@ function drawDPChart(snow,ava,noEx){
 
   ctx.strokeStyle='#e2e8f0';ctx.lineWidth=1;
   for(var i=0;i<=4;i++){
-    var y=pad.t+ch*(1-i/4);
-    ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
-    ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
-    ctx.fillText(fmt(maxVal*i/4)+'円',pad.l-6,y+4);
+var y=pad.t+ch*(1-i/4);
+ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
+ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
+ctx.fillText(fmt(maxVal*i/4)+'円',pad.l-6,y+4);
   }
 
   function drawLine(hist,color,dash){
-    ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=2;ctx.setLineDash(dash||[]);
-    for(var m=0;m<hist.length&&m<=maxM;m++){
-      var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-hist[m]/maxVal);
-      if(m===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
-    }
-    ctx.stroke();ctx.setLineDash([]);
+ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=2;ctx.setLineDash(dash||[]);
+for(var m=0;m<hist.length&&m<=maxM;m++){
+var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-hist[m]/maxVal);
+if(m===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
+}
+ctx.stroke();ctx.setLineDash([]);
   }
 
   drawLine(noEx.history,'#94a3b8',[4,4]);
@@ -221,15 +221,15 @@ function drawDPChart(snow,ava,noEx){
 
   var lx=pad.l+10,ly=pad.t+12;
   [[' 雪だるま式','#dc2626'],[' 高金利優先','#7c3aed'],[' 最低返済のみ','#94a3b8']].forEach(function(item,i){
-    ctx.fillStyle=item[1];ctx.fillRect(lx,ly+i*16,12,3);
-    ctx.fillStyle='#334155';ctx.font='11px sans-serif';ctx.textAlign='left';
-    ctx.fillText(item[0],lx+16,ly+i*16+5);
+ctx.fillStyle=item[1];ctx.fillRect(lx,ly+i*16,12,3);
+ctx.fillStyle='#334155';ctx.font='11px sans-serif';ctx.textAlign='left';
+ctx.fillText(item[0],lx+16,ly+i*16+5);
   });
 
   ctx.fillStyle='#64748b';ctx.font='11px sans-serif';ctx.textAlign='center';
   var step=maxM<=12?1:maxM<=24?3:maxM<=48?6:12;
   for(var m=0;m<=maxM;m+=step){
-    ctx.fillText(m+'月',pad.l+cw*m/maxM,H-pad.b+20);
+ctx.fillText(m+'月',pad.l+cw*m/maxM,H-pad.b+20);
   }
 }
 

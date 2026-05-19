@@ -99,49 +99,49 @@ function calcLoan(){
   var balances=[],interests=[],principals=[];
 
   if(method==='equal_payment'){
-    if(mr===0){monthly=Pyen/n;}
-    else{monthly=Pyen*mr*Math.pow(1+mr,n)/(Math.pow(1+mr,n)-1);}
-    totalPay=monthly*n;
-    totalInterest=totalPay-Pyen;
-    var bal=Pyen;
-    for(var y=0;y<=Y;y++){
-      balances.push(Math.round(bal/10000));
-      if(y<Y){
-        var yInt=0,yPrin=0;
-        for(var m=0;m<12;m++){
-          var intPart=bal*mr;
-          var prinPart=monthly-intPart;
-          yInt+=intPart;yPrin+=prinPart;bal-=prinPart;
-        }
-        interests.push(Math.round(yInt/10000));
-        principals.push(Math.round(yPrin/10000));
-      }
-    }
+if(mr===0){monthly=Pyen/n;}
+else{monthly=Pyen*mr*Math.pow(1+mr,n)/(Math.pow(1+mr,n)-1);}
+totalPay=monthly*n;
+totalInterest=totalPay-Pyen;
+var bal=Pyen;
+for(var y=0;y<=Y;y++){
+balances.push(Math.round(bal/10000));
+if(y<Y){
+var yInt=0,yPrin=0;
+for(var m=0;m<12;m++){
+var intPart=bal*mr;
+var prinPart=monthly-intPart;
+yInt+=intPart;yPrin+=prinPart;bal-=prinPart;
+}
+interests.push(Math.round(yInt/10000));
+principals.push(Math.round(yPrin/10000));
+}
+}
   }else{
-    var prinPerMonth=Pyen/n;
-    totalPay=0;totalInterest=0;
-    var bal=Pyen;
-    var firstMonth=prinPerMonth+bal*mr;
-    for(var y=0;y<=Y;y++){
-      balances.push(Math.round(bal/10000));
-      if(y<Y){
-        var yInt=0,yPrin=0;
-        for(var m=0;m<12;m++){
-          var intPart=bal*mr;
-          var pay=prinPerMonth+intPart;
-          totalPay+=pay;totalInterest+=intPart;
-          yPrin+=prinPerMonth;yInt+=intPart;bal-=prinPerMonth;
-        }
-        interests.push(Math.round(yInt/10000));
-        principals.push(Math.round(yPrin/10000));
-      }
-    }
-    if(method==='equal_payment'){monthly=monthly;}
-    else{monthly=firstMonth;}
+var prinPerMonth=Pyen/n;
+totalPay=0;totalInterest=0;
+var bal=Pyen;
+var firstMonth=prinPerMonth+bal*mr;
+for(var y=0;y<=Y;y++){
+balances.push(Math.round(bal/10000));
+if(y<Y){
+var yInt=0,yPrin=0;
+for(var m=0;m<12;m++){
+var intPart=bal*mr;
+var pay=prinPerMonth+intPart;
+totalPay+=pay;totalInterest+=intPart;
+yPrin+=prinPerMonth;yInt+=intPart;bal-=prinPerMonth;
+}
+interests.push(Math.round(yInt/10000));
+principals.push(Math.round(yPrin/10000));
+}
+}
+if(method==='equal_payment'){monthly=monthly;}
+else{monthly=firstMonth;}
   }
 
   if(method==='equal_payment'){
-    totalPay=monthly*n;totalInterest=totalPay-Pyen;
+totalPay=monthly*n;totalInterest=totalPay-Pyen;
   }
 
   var html='<div style="text-align:center;margin-bottom:16px;">';
@@ -155,8 +155,8 @@ function calcLoan(){
   html+='</div>';
 
   if(method==='equal_principal'){
-    var lastMonth=prinPerMonth+prinPerMonth*mr;
-    html+='<div style="margin-top:12px;text-align:center;font-size:13px;color:#64748b;">最終月の返済額: <strong>'+fmt(Math.round(lastMonth))+'円</strong></div>';
+var lastMonth=prinPerMonth+prinPerMonth*mr;
+html+='<div style="margin-top:12px;text-align:center;font-size:13px;color:#64748b;">最終月の返済額: <strong>'+fmt(Math.round(lastMonth))+'円</strong></div>';
   }
 
   document.getElementById('result').innerHTML=html;
@@ -178,16 +178,16 @@ function drawChart(balances,interests,principals,Y){
 
   ctx.strokeStyle='#e2e8f0';ctx.lineWidth=1;
   for(var i=0;i<=4;i++){
-    var y=pad.t+ch*(1-i/4);
-    ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
-    ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
-    ctx.fillText(fmt(Math.round(maxBal*i/4))+'万',pad.l-6,y+4);
+var y=pad.t+ch*(1-i/4);
+ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
+ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
+ctx.fillText(fmt(Math.round(maxBal*i/4))+'万',pad.l-6,y+4);
   }
 
   ctx.beginPath();ctx.strokeStyle='#2563eb';ctx.lineWidth=2.5;
   for(var i=0;i<=Y;i++){
-    var x=pad.l+cw*i/Y,y=pad.t+ch*(1-balances[i]/maxBal);
-    if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
+var x=pad.l+cw*i/Y,y=pad.t+ch*(1-balances[i]/maxBal);
+if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
   }
   ctx.stroke();
 
@@ -195,16 +195,16 @@ function drawChart(balances,interests,principals,Y){
   ctx.beginPath();
   ctx.moveTo(pad.l,pad.t+ch);
   for(var i=0;i<=Y;i++){
-    var x=pad.l+cw*i/Y,y=pad.t+ch*(1-balances[i]/maxBal);
-    ctx.lineTo(x,y);
+var x=pad.l+cw*i/Y,y=pad.t+ch*(1-balances[i]/maxBal);
+ctx.lineTo(x,y);
   }
   ctx.lineTo(pad.l+cw,pad.t+ch);ctx.closePath();ctx.fill();
 
   ctx.fillStyle='#64748b';ctx.font='11px sans-serif';ctx.textAlign='center';
   var step=Y<=10?1:Y<=20?5:Y<=35?5:10;
   for(var i=0;i<=Y;i+=step){
-    var x=pad.l+cw*i/Y;
-    ctx.fillText(i+'年',x,H-pad.b+20);
+var x=pad.l+cw*i/Y;
+ctx.fillText(i+'年',x,H-pad.b+20);
   }
   if(Y%step!==0){ctx.fillText(Y+'年',pad.l+cw,H-pad.b+20);}
 
@@ -218,14 +218,14 @@ function drawRateCompare(P,Y){
   var html='<table style="width:100%;border-collapse:collapse;font-size:14px;">';
   html+='<tr style="border-bottom:2px solid #92400e;"><th style="text-align:left;padding:6px;">金利</th><th style="text-align:right;padding:6px;">月々返済</th><th style="text-align:right;padding:6px;">総返済額</th><th style="text-align:right;padding:6px;">利息総額</th></tr>';
   for(var i=0;i<rates.length;i++){
-    var mr=rates[i]/100/12;
-    var m=Pyen*mr*Math.pow(1+mr,n)/(Math.pow(1+mr,n)-1);
-    var total=m*n;var interest=total-Pyen;
-    var bg=i%2===0?'#fff':'#fef3c7';
-    html+='<tr style="background:'+bg+';"><td style="padding:6px;font-weight:bold;">'+rates[i].toFixed(2)+'%</td>';
-    html+='<td style="padding:6px;text-align:right;">'+fmt(Math.round(m))+'円</td>';
-    html+='<td style="padding:6px;text-align:right;">'+fmt(Math.round(total/10000))+'万円</td>';
-    html+='<td style="padding:6px;text-align:right;color:#dc2626;">'+fmt(Math.round(interest/10000))+'万円</td></tr>';
+var mr=rates[i]/100/12;
+var m=Pyen*mr*Math.pow(1+mr,n)/(Math.pow(1+mr,n)-1);
+var total=m*n;var interest=total-Pyen;
+var bg=i%2===0?'#fff':'#fef3c7';
+html+='<tr style="background:'+bg+';"><td style="padding:6px;font-weight:bold;">'+rates[i].toFixed(2)+'%</td>';
+html+='<td style="padding:6px;text-align:right;">'+fmt(Math.round(m))+'円</td>';
+html+='<td style="padding:6px;text-align:right;">'+fmt(Math.round(total/10000))+'万円</td>';
+html+='<td style="padding:6px;text-align:right;color:#dc2626;">'+fmt(Math.round(interest/10000))+'万円</td></tr>';
   }
   html+='</table>';
   document.getElementById('rateCompare').innerHTML=html;

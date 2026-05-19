@@ -119,15 +119,15 @@ function calcSideTax(){
 
   // 所得税計算関数
   function incomeTax(t){
-    var tax;
-    if(t<=1950000) tax=t*0.05;
-    else if(t<=3300000) tax=t*0.1-97500;
-    else if(t<=6950000) tax=t*0.2-427500;
-    else if(t<=9000000) tax=t*0.23-636000;
-    else if(t<=18000000) tax=t*0.33-1536000;
-    else if(t<=40000000) tax=t*0.40-2796000;
-    else tax=t*0.45-4796000;
-    return Math.floor(tax*1.021);
+var tax;
+if(t<=1950000) tax=t*0.05;
+else if(t<=3300000) tax=t*0.1-97500;
+else if(t<=6950000) tax=t*0.2-427500;
+else if(t<=9000000) tax=t*0.23-636000;
+else if(t<=18000000) tax=t*0.33-1536000;
+else if(t<=40000000) tax=t*0.40-2796000;
+else tax=t*0.45-4796000;
+return Math.floor(tax*1.021);
   }
 
   var mainTax=incomeTax(mainTaxable);
@@ -153,14 +153,14 @@ function calcSideTax(){
   var needFiling=sideShotoku>200000;
   var alertEl=document.getElementById('filingAlert');
   if(sideShotoku===0){
-    alertEl.style.background='#94a3b8';
-    alertEl.textContent='副業所得0円：申告不要';
+alertEl.style.background='#94a3b8';
+alertEl.textContent='副業所得0円：申告不要';
   } else if(needFiling){
-    alertEl.style.background='#dc2626';
-    alertEl.textContent='確定申告が必要です（所得20万円超）';
+alertEl.style.background='#dc2626';
+alertEl.textContent='確定申告が必要です（所得20万円超）';
   } else {
-    alertEl.style.background='#16a34a';
-    alertEl.textContent='確定申告は不要です（所得20万円以下）';
+alertEl.style.background='#16a34a';
+alertEl.textContent='確定申告は不要です（所得20万円以下）';
   }
 
   document.getElementById('mainIncomeVal').textContent=(mainAnnual/10000).toLocaleString()+'万円';

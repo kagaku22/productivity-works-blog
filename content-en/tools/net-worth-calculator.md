@@ -309,10 +309,10 @@ function calcNW(){
   // Debt-to-asset ratio
   var dtaEl=document.getElementById('debtRatioDisplay');
   if(totalAssets>0){
-    var dta=((totalLiabilities/totalAssets)*100).toFixed(1);
-    dtaEl.textContent='Debt-to-Asset Ratio: '+dta+'%';
+var dta=((totalLiabilities/totalAssets)*100).toFixed(1);
+dtaEl.textContent='Debt-to-Asset Ratio: '+dta+'%';
   } else {
-    dtaEl.textContent='Debt-to-Asset Ratio: —';
+dtaEl.textContent='Debt-to-Asset Ratio: —';
   }
 
   // Asset allocation bar
@@ -336,52 +336,52 @@ function calcNW(){
   // Liability breakdown bar
   var liabWrap=document.getElementById('liabBreakdownWrap');
   if(totalLiabilities>0){
-    liabWrap.style.display='block';
-    var lpM=pct(lMortgage,totalLiabilities);
-    var lpS=pct(lStudent,totalLiabilities);
-    var lpA=pct(lAuto,totalLiabilities);
-    var lpC=pct(lCredit,totalLiabilities);
-    var lpO=pct(lOther,totalLiabilities);
-    var lRemainder=Math.max(0,100-lpM-lpS-lpA-lpC-lpO);
-    lpO+=lRemainder;
-    document.getElementById('lbarMortgage').style.width=lpM+'%';
-    document.getElementById('lbarStudent').style.width=lpS+'%';
-    document.getElementById('lbarAuto').style.width=lpA+'%';
-    document.getElementById('lbarCredit').style.width=lpC+'%';
-    document.getElementById('lbarOther').style.width=lpO+'%';
-    document.getElementById('lpctMortgage').textContent=lpM+'%';
-    document.getElementById('lpctStudent').textContent=lpS+'%';
-    document.getElementById('lpctAuto').textContent=lpA+'%';
-    document.getElementById('lpctCredit').textContent=lpC+'%';
-    document.getElementById('lpctOther').textContent=lpO+'%';
+liabWrap.style.display='block';
+var lpM=pct(lMortgage,totalLiabilities);
+var lpS=pct(lStudent,totalLiabilities);
+var lpA=pct(lAuto,totalLiabilities);
+var lpC=pct(lCredit,totalLiabilities);
+var lpO=pct(lOther,totalLiabilities);
+var lRemainder=Math.max(0,100-lpM-lpS-lpA-lpC-lpO);
+lpO+=lRemainder;
+document.getElementById('lbarMortgage').style.width=lpM+'%';
+document.getElementById('lbarStudent').style.width=lpS+'%';
+document.getElementById('lbarAuto').style.width=lpA+'%';
+document.getElementById('lbarCredit').style.width=lpC+'%';
+document.getElementById('lbarOther').style.width=lpO+'%';
+document.getElementById('lpctMortgage').textContent=lpM+'%';
+document.getElementById('lpctStudent').textContent=lpS+'%';
+document.getElementById('lpctAuto').textContent=lpA+'%';
+document.getElementById('lpctCredit').textContent=lpC+'%';
+document.getElementById('lpctOther').textContent=lpO+'%';
   } else {
-    liabWrap.style.display='none';
+liabWrap.style.display='none';
   }
 
   // Benchmark table
   var ageIdx=document.getElementById('ageGroup').value;
   var tbody='';
   NW_BENCHMARKS.forEach(function(b,i){
-    var isSelected=(ageIdx!=='' && parseInt(ageIdx)===i);
-    var bg=isSelected?'#eef2ff':(i%2===0?'white':'#f8fafc');
-    var border=isSelected?'2px solid #4f46e5':'1px solid transparent';
-    var position='';
-    if(isSelected){
-      if(netWorth>=b.median){
-        var abovePct=Math.round(((netWorth-b.median)/b.median)*100);
-        position='<span style="color:#059669;font-weight:bold;">Above median (+'+abovePct+'%)</span>';
-      } else {
-        var belowPct=Math.round(((b.median-netWorth)/b.median)*100);
-        position='<span style="color:#dc2626;font-weight:bold;">Below median (-'+belowPct+'%)</span>';
-      }
-    } else {
-      position='<span style="color:#94a3b8;">—</span>';
-    }
-    tbody+='<tr style="background:'+bg+';border:'+border+';">';
-    tbody+='<td style="padding:10px 14px;font-weight:'+(isSelected?'bold':'normal')+';">'+b.label+'</td>';
-    tbody+='<td style="padding:10px 14px;text-align:right;">$'+b.median.toLocaleString('en-US')+'</td>';
-    tbody+='<td style="padding:10px 14px;text-align:center;">'+position+'</td>';
-    tbody+='</tr>';
+var isSelected=(ageIdx!=='' && parseInt(ageIdx)===i);
+var bg=isSelected?'#eef2ff':(i%2===0?'white':'#f8fafc');
+var border=isSelected?'2px solid #4f46e5':'1px solid transparent';
+var position='';
+if(isSelected){
+if(netWorth>=b.median){
+var abovePct=Math.round(((netWorth-b.median)/b.median)*100);
+position='<span style="color:#059669;font-weight:bold;">Above median (+'+abovePct+'%)</span>';
+} else {
+var belowPct=Math.round(((b.median-netWorth)/b.median)*100);
+position='<span style="color:#dc2626;font-weight:bold;">Below median (-'+belowPct+'%)</span>';
+}
+} else {
+position='<span style="color:#94a3b8;">—</span>';
+}
+tbody+='<tr style="background:'+bg+';border:'+border+';">';
+tbody+='<td style="padding:10px 14px;font-weight:'+(isSelected?'bold':'normal')+';">'+b.label+'</td>';
+tbody+='<td style="padding:10px 14px;text-align:right;">$'+b.median.toLocaleString('en-US')+'</td>';
+tbody+='<td style="padding:10px 14px;text-align:center;">'+position+'</td>';
+tbody+='</tr>';
   });
   document.getElementById('benchmarkBody').innerHTML=tbody;
 
@@ -392,15 +392,15 @@ function calcNW(){
   document.getElementById('goalPctLabel').textContent=goalPct+'%';
   var goalMsg=document.getElementById('goalMessage');
   if(netWorth<=0){
-    goalMsg.textContent="Build your assets and reduce debt to start making progress toward your goal.";
-    goalMsg.style.color='#dc2626';
+goalMsg.textContent="Build your assets and reduce debt to start making progress toward your goal.";
+goalMsg.style.color='#dc2626';
   } else if(goalPct>=100){
-    goalMsg.textContent="Congratulations — you've reached your net worth goal!";
-    goalMsg.style.color='#059669';
+goalMsg.textContent="Congratulations — you've reached your net worth goal!";
+goalMsg.style.color='#059669';
   } else {
-    var remaining=goal-netWorth;
-    goalMsg.textContent="You're "+goalPct+"% of the way there. "+fmt(remaining)+" to go.";
-    goalMsg.style.color='#4f46e5';
+var remaining=goal-netWorth;
+goalMsg.textContent="You're "+goalPct+"% of the way there. "+fmt(remaining)+" to go.";
+goalMsg.style.color='#4f46e5';
   }
 }
 

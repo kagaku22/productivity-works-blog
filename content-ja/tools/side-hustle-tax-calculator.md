@@ -87,20 +87,20 @@ function fmtJP(n){return Math.round(n).toLocaleString('ja-JP');}
 function calcJPIncomeTax(taxable){
   // 日本の所得税速算表（2026年度・概算）
   var brackets=[
-    [1950000,0.05,0],
-    [3300000,0.10,97500],
-    [6950000,0.20,427500],
-    [9000000,0.23,636000],
-    [18000000,0.33,1536000],
-    [40000000,0.40,2796000],
-    [Infinity,0.45,4796000]
+[1950000,0.05,0],
+[3300000,0.10,97500],
+[6950000,0.20,427500],
+[9000000,0.23,636000],
+[18000000,0.33,1536000],
+[40000000,0.40,2796000],
+[Infinity,0.45,4796000]
   ];
   var tax=0;
   for(var i=0;i<brackets.length;i++){
-    if(taxable<=brackets[i][0]){
-      tax=taxable*brackets[i][1]-brackets[i][2];
-      break;
-    }
+if(taxable<=brackets[i][0]){
+tax=taxable*brackets[i][1]-brackets[i][2];
+break;
+}
   }
   return Math.max(0,tax);
 }
@@ -178,25 +178,25 @@ function calcSH(){
   bhtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:8px;">\u9805\u76ee</th><th style="text-align:right;padding:8px;">\u91d1\u984d</th></tr>';
 
   var rows=[
-    ['\u526f\u696d\u306e\u7dcf\u53ce\u5165','\u00a5'+fmtJP(rev)],
-    ['\u4e8b\u696d\u7d4c\u8cbb','-\u00a5'+fmtJP(exp)],
-    ['\u4e8b\u696d\u6240\u5f97\uff08\u7d14\u5229\u76ca\uff09','\u00a5'+fmtJP(netProfit)],
-    ['',''],
-    ['\u8ffd\u52a0\u6240\u5f97\u7a0e\uff08\u5fa9\u8208\u7279\u5225\u6240\u5f97\u7a0e\u542b\uff09','\u00a5'+fmtJP(Math.round(additionalIncomeTax))],
-    ['\u8ffd\u52a0\u4f4f\u6c11\u7a0e\uff08\u6982\u7b97\uff09','\u00a5'+fmtJP(Math.round(additionalJuminzei))],
-    ['',''],
-    ['\u526f\u696d\u5206\u306e\u7a0e\u8ca0\u62c5\u5408\u8a08','\u00a5'+fmtJP(Math.round(totalSHTax))],
-    ['\u526f\u696d\u306e\u624b\u53d6\u308a\u984d','\u00a5'+fmtJP(Math.round(takeHome))]
+['\u526f\u696d\u306e\u7dcf\u53ce\u5165','\u00a5'+fmtJP(rev)],
+['\u4e8b\u696d\u7d4c\u8cbb','-\u00a5'+fmtJP(exp)],
+['\u4e8b\u696d\u6240\u5f97\uff08\u7d14\u5229\u76ca\uff09','\u00a5'+fmtJP(netProfit)],
+['',''],
+['\u8ffd\u52a0\u6240\u5f97\u7a0e\uff08\u5fa9\u8208\u7279\u5225\u6240\u5f97\u7a0e\u542b\uff09','\u00a5'+fmtJP(Math.round(additionalIncomeTax))],
+['\u8ffd\u52a0\u4f4f\u6c11\u7a0e\uff08\u6982\u7b97\uff09','\u00a5'+fmtJP(Math.round(additionalJuminzei))],
+['',''],
+['\u526f\u696d\u5206\u306e\u7a0e\u8ca0\u62c5\u5408\u8a08','\u00a5'+fmtJP(Math.round(totalSHTax))],
+['\u526f\u696d\u306e\u624b\u53d6\u308a\u984d','\u00a5'+fmtJP(Math.round(takeHome))]
   ];
 
   for(var i=0;i<rows.length;i++){
-    if(rows[i][0]===''){bhtml+='<tr><td colspan="2" style="padding:4px;"></td></tr>';continue;}
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=(i===rows.length-1||i===rows.length-2)?'font-weight:bold;':'';
-    bhtml+='<tr style="background:'+bg+';'+bold+'">';
-    bhtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
-    bhtml+='<td style="padding:8px;text-align:right;">'+rows[i][1]+'</td>';
-    bhtml+='</tr>';
+if(rows[i][0]===''){bhtml+='<tr><td colspan="2" style="padding:4px;"></td></tr>';continue;}
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=(i===rows.length-1||i===rows.length-2)?'font-weight:bold;':'';
+bhtml+='<tr style="background:'+bg+';'+bold+'">';
+bhtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
+bhtml+='<td style="padding:8px;text-align:right;">'+rows[i][1]+'</td>';
+bhtml+='</tr>';
   }
   bhtml+='</table>';
   document.getElementById('shBreakdown').innerHTML=bhtml;
@@ -206,10 +206,10 @@ function calcSH(){
   var qhtml='<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px;text-align:center;">';
   var periods=['\u7b2c1\u671f\uff087\u6708\uff09','\u7b2c2\u671f\uff0811\u6708\uff09','\u78ba\u5b9a\u7533\u544a\uff083\u6708\uff09','\u4f59\u5104\uff083\u6708\uff09'];
   for(var i=0;i<4;i++){
-    qhtml+='<div style="padding:12px;background:#fff;border-radius:8px;">';
-    qhtml+='<div style="font-size:11px;color:#64748b;">'+periods[i]+'</div>';
-    qhtml+='<div style="font-size:18px;font-weight:bold;color:#92400e;">\u00a5'+fmtJP(quarterly)+'</div>';
-    qhtml+='</div>';
+qhtml+='<div style="padding:12px;background:#fff;border-radius:8px;">';
+qhtml+='<div style="font-size:11px;color:#64748b;">'+periods[i]+'</div>';
+qhtml+='<div style="font-size:18px;font-weight:bold;color:#92400e;">\u00a5'+fmtJP(quarterly)+'</div>';
+qhtml+='</div>';
   }
   qhtml+='</div>';
   qhtml+='<div style="margin-top:12px;font-size:12px;color:#92400e;text-align:center;">\u526f\u696d\u6240\u5f97\u304c20\u4e07\u5186\u8d85\u306e\u5834\u5408\u306f\u78ba\u5b9a\u7533\u544a\u304c\u5fc5\u8981\u3067\u3059\u3002\u4e88\u5b9a\u7d0d\u7a0e\u306f\u524d\u5e74\u5ea6\u7a0e\u984d\u304c15\u4e07\u5186\u4ee5\u4e0a\u306e\u5834\u5408\u306b\u767a\u751f\u3057\u307e\u3059\u3002</div>';

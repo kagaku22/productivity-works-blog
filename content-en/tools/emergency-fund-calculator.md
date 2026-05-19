@@ -135,10 +135,10 @@ function drawEFChart(target,targetMax,sav,totalM){
 
   ctx.strokeStyle='#e2e8f0';ctx.lineWidth=1;
   for(var i=0;i<=4;i++){
-    var y=pad.t+ch*(1-i/4);
-    ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
-    ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
-    ctx.fillText('$'+fmt(Math.round(maxVal*i/4)),pad.l-6,y+4);
+var y=pad.t+ch*(1-i/4);
+ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
+ctx.fillStyle='#94a3b8';ctx.font='11px sans-serif';ctx.textAlign='right';
+ctx.fillText('$'+fmt(Math.round(maxVal*i/4)),pad.l-6,y+4);
   }
 
   var targetY=pad.t+ch*(1-target/maxVal);
@@ -150,25 +150,25 @@ function drawEFChart(target,targetMax,sav,totalM){
 
   ctx.beginPath();ctx.strokeStyle='#2563eb';ctx.lineWidth=2.5;
   for(var m=0;m<=maxM;m++){
-    var bal=Math.min(sav*m,sav*totalM);
-    var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-bal/maxVal);
-    if(m===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
+var bal=Math.min(sav*m,sav*totalM);
+var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-bal/maxVal);
+if(m===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
   }
   ctx.stroke();
 
   ctx.fillStyle='rgba(37,99,235,0.08)';
   ctx.beginPath();ctx.moveTo(pad.l,pad.t+ch);
   for(var m=0;m<=maxM;m++){
-    var bal=Math.min(sav*m,sav*totalM);
-    var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-bal/maxVal);
-    ctx.lineTo(x,y);
+var bal=Math.min(sav*m,sav*totalM);
+var x=pad.l+cw*m/maxM,y=pad.t+ch*(1-bal/maxVal);
+ctx.lineTo(x,y);
   }
   ctx.lineTo(pad.l+cw,pad.t+ch);ctx.closePath();ctx.fill();
 
   ctx.fillStyle='#64748b';ctx.font='11px sans-serif';ctx.textAlign='center';
   var step=maxM<=12?1:maxM<=24?3:6;
   for(var m=0;m<=maxM;m+=step){
-    ctx.fillText(m+'mo',pad.l+cw*m/maxM,H-pad.b+20);
+ctx.fillText(m+'mo',pad.l+cw*m/maxM,H-pad.b+20);
   }
 }
 

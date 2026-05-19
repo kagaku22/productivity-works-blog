@@ -124,7 +124,7 @@ function calcDiv(){
   html+='</div>';
 
   if(account==='nisa'){
-    html+='<div style="margin-top:8px;text-align:center;font-size:12px;color:#10b981;font-weight:bold;">NISA account: dividends are tax-free! Annual tax saving of ¥'+fmt(annualDiv*0.20315)+'</div>';
+html+='<div style="margin-top:8px;text-align:center;font-size:12px;color:#10b981;font-weight:bold;">NISA account: dividends are tax-free! Annual tax saving of ¥'+fmt(annualDiv*0.20315)+'</div>';
   }
 
   document.getElementById('divResult').innerHTML=html;
@@ -141,23 +141,23 @@ function calcDiv(){
 
   var yearData=[];
   for(var y=1;y<=years;y++){
-    var div=balance*rate;
-    var divNet=div*(1-taxRate);
-    totalDiv+=divNet;
-    if(reinvest==='yes') balance+=divNet;
-    yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
+var div=balance*rate;
+var divNet=div*(1-taxRate);
+totalDiv+=divNet;
+if(reinvest==='yes') balance+=divNet;
+yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
   }
 
   for(var i=0;i<showYears.length;i++){
-    var d=yearData[showYears[i]-1];
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=showYears[i]===years?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">Year '+d.year+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;">¥'+fmt(d.balance)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;">¥'+fmt(d.div)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;color:#10b981;">¥'+fmt(d.total)+'</td>';
-    thtml+='</tr>';
+var d=yearData[showYears[i]-1];
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=showYears[i]===years?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">Year '+d.year+'</td>';
+thtml+='<td style="padding:6px;text-align:right;">¥'+fmt(d.balance)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;">¥'+fmt(d.div)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;color:#10b981;">¥'+fmt(d.total)+'</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
 
@@ -166,42 +166,42 @@ function calcDiv(){
   thtml+='<span style="font-size:13px;color:#64748b;">Portfolio value after '+years+' year'+(years>1?'s':'')+': </span>';
   thtml+='<span style="font-size:20px;font-weight:bold;color:#166534;">¥'+fmt(reinvest==='yes'?finalData.balance:principal)+'</span>';
   if(reinvest==='yes'){
-    thtml+='<span style="font-size:13px;color:#64748b;"> + cumulative dividends: </span>';
-    thtml+='<span style="font-size:13px;font-weight:bold;color:#10b981;">reinvested</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + cumulative dividends: </span>';
+thtml+='<span style="font-size:13px;font-weight:bold;color:#10b981;">reinvested</span>';
   } else {
-    thtml+='<span style="font-size:13px;color:#64748b;"> + cumulative dividends received: </span>';
-    thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">¥'+fmt(finalData.total)+'</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + cumulative dividends received: </span>';
+thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">¥'+fmt(finalData.total)+'</span>';
   }
   thtml+='</div>';
 
   if(reinvest==='yes'){
-    var noReinvestTotal=principal*rate*(1-taxRate)*years;
-    var diff=finalData.total-noReinvestTotal;
-    thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">Reinvestment compounding bonus: <strong>+¥'+fmt(diff)+'</strong> (vs. no reinvestment)</div>';
+var noReinvestTotal=principal*rate*(1-taxRate)*years;
+var diff=finalData.total-noReinvestTotal;
+thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">Reinvestment compounding bonus: <strong>+¥'+fmt(diff)+'</strong> (vs. no reinvestment)</div>';
   }
 
   document.getElementById('divTimeline').innerHTML=thtml;
 
   var etfs=[
-    {name:'VYM',desc:'Vanguard High Dividend Yield ETF',yield:2.8,type:'US ETF'},
-    {name:'HDV',desc:'iShares Core High Dividend ETF',yield:3.5,type:'US ETF'},
-    {name:'SPYD',desc:'SPDR Portfolio S&P 500 High Dividend ETF',yield:4.5,type:'US ETF'},
-    {name:'1489',desc:'Nikkei High Dividend 50 ETF',yield:3.2,type:'JP ETF'},
-    {name:'2914',desc:'Japan Tobacco (JT)',yield:4.8,type:'JP Stock'},
-    {name:'8593',desc:'Mitsubishi HC Capital',yield:3.8,type:'JP Stock'}
+{name:'VYM',desc:'Vanguard High Dividend Yield ETF',yield:2.8,type:'US ETF'},
+{name:'HDV',desc:'iShares Core High Dividend ETF',yield:3.5,type:'US ETF'},
+{name:'SPYD',desc:'SPDR Portfolio S&P 500 High Dividend ETF',yield:4.5,type:'US ETF'},
+{name:'1489',desc:'Nikkei High Dividend 50 ETF',yield:3.2,type:'JP ETF'},
+{name:'2914',desc:'Japan Tobacco (JT)',yield:4.8,type:'JP Stock'},
+{name:'8593',desc:'Mitsubishi HC Capital',yield:3.8,type:'JP Stock'}
   ];
 
   var ehtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">';
   for(var i=0;i<etfs.length;i++){
-    var annDiv=principal*etfs[i].yield/100*(account==='nisa'?1:0.79685);
-    ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
-    ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
-    ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
-    ehtml+='</div>';
-    ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'</div>';
-    ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">Annual dividend: <strong>¥'+fmt(annDiv)+'</strong> (after tax)</div>';
-    ehtml+='</div>';
+var annDiv=principal*etfs[i].yield/100*(account==='nisa'?1:0.79685);
+ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
+ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
+ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
+ehtml+='</div>';
+ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'</div>';
+ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">Annual dividend: <strong>¥'+fmt(annDiv)+'</strong> (after tax)</div>';
+ehtml+='</div>';
   }
   ehtml+='</div>';
   ehtml+='<div style="margin-top:8px;font-size:11px;color:#92400e;text-align:center;">*Dividend yields are reference values as of May 2026. Actual dividends fluctuate.</div>';

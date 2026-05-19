@@ -143,9 +143,9 @@ function fxCalc(){
   if(jpyPerPip>1){marginRate=entry*units*jpyPerPip/25;}else{marginRate=entry*units/25;}
   var marginJpy;
   if(sel.value.endsWith('JPY')){
-    marginJpy=Math.ceil(entry*units/25);
+marginJpy=Math.ceil(entry*units/25);
   }else{
-    marginJpy=Math.ceil(entry*units*jpyPerPip/25);
+marginJpy=Math.ceil(entry*units*jpyPerPip/25);
   }
   var lev=(entry*units*(sel.value.endsWith('JPY')?1:jpyPerPip))/marginJpy;
   var tax=plRound>0?Math.floor(plRound*0.20315):0;
@@ -153,9 +153,9 @@ function fxCalc(){
   var roiPct=marginJpy>0?((plRound/marginJpy)*100):0;
   var plBox=document.getElementById('plBox');
   if(plRound>=0){
-    plBox.style.background='#16a34a';
+plBox.style.background='#16a34a';
   }else{
-    plBox.style.background='#dc2626';
+plBox.style.background='#dc2626';
   }
   document.getElementById('lotsVal').textContent=lots+'ロット';
   document.getElementById('spreadVal').textContent=spreadPips.toFixed(1)+' pips';

@@ -222,13 +222,13 @@ function calcYearsToFireFractional(currentAsset, annualSave, targetAmount, retur
   var asset = currentAsset;
   var r = returnRate / 100;
   for(var y = 0; y <= 200; y++){
-    if(asset >= targetAmount) return y;
-    var nextAsset = asset * (1 + r) + annualSave;
-    if(nextAsset >= targetAmount){
-      var frac = (targetAmount - asset) / (nextAsset - asset);
-      return y + frac;
-    }
-    asset = nextAsset;
+if(asset >= targetAmount) return y;
+var nextAsset = asset * (1 + r) + annualSave;
+if(nextAsset >= targetAmount){
+var frac = (targetAmount - asset) / (nextAsset - asset);
+return y + frac;
+}
+asset = nextAsset;
   }
   return Infinity;
 }
@@ -276,8 +276,8 @@ window.calcFire = function(){
   // Coast FIRE
   var yearsToRetire = Math.max(65 - age, 0);
   var coastAmount = yearsToRetire > 0
-    ? targetNormal / Math.pow(1 + retRate / 100, yearsToRetire)
-    : targetNormal;
+? targetNormal / Math.pow(1 + retRate / 100, yearsToRetire)
+: targetNormal;
   var coastAchieved = asset >= coastAmount;
 
   // Update main results
@@ -290,14 +290,14 @@ window.calcFire = function(){
   document.getElementById('fireMonthlySave').textContent = (monthlySave >= 0 ? '' : '-') + '$' + Math.round(Math.abs(monthlySave)).toLocaleString();
 
   if(yearsNormal === Infinity){
-    document.getElementById('fireYears').textContent    = 'Not achievable';
-    document.getElementById('fireAgeResult').textContent = '—';
+document.getElementById('fireYears').textContent    = 'Not achievable';
+document.getElementById('fireAgeResult').textContent = '—';
   } else if(asset >= targetNormal){
-    document.getElementById('fireYears').textContent    = 'Already achieved!';
-    document.getElementById('fireAgeResult').textContent = age + ' yrs';
+document.getElementById('fireYears').textContent    = 'Already achieved!';
+document.getElementById('fireAgeResult').textContent = age + ' yrs';
   } else {
-    document.getElementById('fireYears').textContent    = fmtYears(yearsNormal);
-    document.getElementById('fireAgeResult').textContent = Math.floor(age + yearsNormal) + ' yrs';
+document.getElementById('fireYears').textContent    = fmtYears(yearsNormal);
+document.getElementById('fireAgeResult').textContent = Math.floor(age + yearsNormal) + ' yrs';
   }
 
   // FIRE type cards
@@ -311,12 +311,12 @@ window.calcFire = function(){
 
   document.getElementById('coastTarget').textContent = fmt(coastAmount);
   if(coastAchieved){
-    document.getElementById('coastStatus').textContent = 'Achieved! No more contributions needed to FIRE at 65';
-    document.getElementById('coastStatus').style.color = '#059669';
+document.getElementById('coastStatus').textContent = 'Achieved! No more contributions needed to FIRE at 65';
+document.getElementById('coastStatus').style.color = '#059669';
   } else {
-    var coastShortfall = coastAmount - asset;
-    document.getElementById('coastStatus').textContent = '$' + Math.round(coastShortfall).toLocaleString() + ' more to achieve Coast FIRE';
-    document.getElementById('coastStatus').style.color = '#6b7280';
+var coastShortfall = coastAmount - asset;
+document.getElementById('coastStatus').textContent = '$' + Math.round(coastShortfall).toLocaleString() + ' more to achieve Coast FIRE';
+document.getElementById('coastStatus').style.color = '#6b7280';
   }
 
   // Year-by-year table
@@ -325,43 +325,43 @@ window.calcFire = function(){
   var a = asset;
   var r = retRate / 100;
   var maxYears = Math.min(
-    yearsNormal === Infinity ? 50 : Math.ceil(yearsNormal) + 2,
-    60
+yearsNormal === Infinity ? 50 : Math.ceil(yearsNormal) + 2,
+60
   );
   var fireReached = false;
   for(var y = 0; y <= maxYears; y++){
-    var investment = a * r;
-    var tr = document.createElement('tr');
-    var isFireYear = !fireReached && a >= targetNormal;
-    if(isFireYear){ fireReached = true; }
-    tr.style.background = isFireYear ? '#ede9fe' : (y % 2 === 0 ? 'white' : '#faf5ff');
-    tr.style.fontWeight = isFireYear ? 'bold' : 'normal';
-    var saveCurrent = y === 0 ? 0 : annualSave;
-    tr.innerHTML =
-      '<td style="padding:7px 12px;text-align:right;">' + (isFireYear ? '<span style="color:#7c3aed;">&#9733; ' : '') + 'Year ' + y + (isFireYear ? '</span>' : '') + '</td>' +
-      '<td style="padding:7px 12px;text-align:right;">' + (age + y) + '</td>' +
-      '<td style="padding:7px 12px;text-align:right;">' + (y === 0 ? '—' : '$' + Math.round(saveCurrent).toLocaleString()) + '</td>' +
-      '<td style="padding:7px 12px;text-align:right;">$' + Math.round(y === 0 ? 0 : a * r / (1 + r)).toLocaleString() + '</td>' +
-      '<td style="padding:7px 12px;text-align:right;color:' + (isFireYear ? '#7c3aed' : '#1e293b') + ';">$' + Math.round(a).toLocaleString() + '</td>';
-    tbody.appendChild(tr);
-    if(y > 0) a = a * (1 + r) + annualSave;
-    else a = a * (1 + r) + annualSave;
+var investment = a * r;
+var tr = document.createElement('tr');
+var isFireYear = !fireReached && a >= targetNormal;
+if(isFireYear){ fireReached = true; }
+tr.style.background = isFireYear ? '#ede9fe' : (y % 2 === 0 ? 'white' : '#faf5ff');
+tr.style.fontWeight = isFireYear ? 'bold' : 'normal';
+var saveCurrent = y === 0 ? 0 : annualSave;
+tr.innerHTML =
+'<td style="padding:7px 12px;text-align:right;">' + (isFireYear ? '<span style="color:#7c3aed;">&#9733; ' : '') + 'Year ' + y + (isFireYear ? '</span>' : '') + '</td>' +
+'<td style="padding:7px 12px;text-align:right;">' + (age + y) + '</td>' +
+'<td style="padding:7px 12px;text-align:right;">' + (y === 0 ? '—' : '$' + Math.round(saveCurrent).toLocaleString()) + '</td>' +
+'<td style="padding:7px 12px;text-align:right;">$' + Math.round(y === 0 ? 0 : a * r / (1 + r)).toLocaleString() + '</td>' +
+'<td style="padding:7px 12px;text-align:right;color:' + (isFireYear ? '#7c3aed' : '#1e293b') + ';">$' + Math.round(a).toLocaleString() + '</td>';
+tbody.appendChild(tr);
+if(y > 0) a = a * (1 + r) + annualSave;
+else a = a * (1 + r) + annualSave;
   }
 
   // Savings rate table
   var rates = [20, 30, 40, 50, 60, 70];
   rates.forEach(function(sr){
-    var annSave2 = income * (sr / 100);
-    var exp2 = income - annSave2;
-    var target2 = exp2 > 0 ? exp2 / (wdRate / 100) : 0;
-    var y2 = target2 > 0 ? calcYearsToFireFractional(0, annSave2, target2, retRate) : 0;
-    var el = document.getElementById('sr' + sr);
-    if(el){
-      el.textContent = y2 === Infinity ? 'N/A' : (y2 <= 0 ? 'Now' : fmtYears(y2));
-      el.style.color = '#7c3aed';
-      var curSR = Math.round(savingsRate / 10) * 10;
-      el.style.background = (sr === curSR) ? '#ddd6fe' : '';
-    }
+var annSave2 = income * (sr / 100);
+var exp2 = income - annSave2;
+var target2 = exp2 > 0 ? exp2 / (wdRate / 100) : 0;
+var y2 = target2 > 0 ? calcYearsToFireFractional(0, annSave2, target2, retRate) : 0;
+var el = document.getElementById('sr' + sr);
+if(el){
+el.textContent = y2 === Infinity ? 'N/A' : (y2 <= 0 ? 'Now' : fmtYears(y2));
+el.style.color = '#7c3aed';
+var curSR = Math.round(savingsRate / 10) * 10;
+el.style.background = (sr === curSR) ? '#ddd6fe' : '';
+}
   });
 };
 

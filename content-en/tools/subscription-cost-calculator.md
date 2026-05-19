@@ -202,12 +202,12 @@ function makeRow(catId, name, cost) {
 
 function initRows() {
   CATEGORIES.forEach(function(cat) {
-    var container = document.getElementById('rows-' + cat.id);
-    if(!container) return;
-    var items = DEFAULTS[cat.id] || [];
-    items.forEach(function(item) {
-      container.appendChild(makeRow(cat.id, item.name, item.cost));
-    });
+var container = document.getElementById('rows-' + cat.id);
+if(!container) return;
+var items = DEFAULTS[cat.id] || [];
+items.forEach(function(item) {
+container.appendChild(makeRow(cat.id, item.name, item.cost));
+});
   });
 }
 
@@ -227,18 +227,18 @@ function calcSubs() {
 
   // Collect all row divs across all category containers
   CATEGORIES.forEach(function(cat) {
-    var container = document.getElementById('rows-' + cat.id);
-    if(!container) return;
-    var rows = container.children;
-    for(var i=0; i<rows.length; i++){
-      var row = rows[i];
-      var chk = row._chk;
-      var costInput = row._costInput;
-      if(chk && chk.checked){
-        var val = parseFloat(costInput.value) || 0;
-        catTotals[cat.id] += val;
-      }
-    }
+var container = document.getElementById('rows-' + cat.id);
+if(!container) return;
+var rows = container.children;
+for(var i=0; i<rows.length; i++){
+var row = rows[i];
+var chk = row._chk;
+var costInput = row._costInput;
+if(chk && chk.checked){
+var val = parseFloat(costInput.value) || 0;
+catTotals[cat.id] += val;
+}
+}
   });
 
   // Also check custom rows added to other that may not be in container
@@ -256,11 +256,11 @@ function calcSubs() {
   var rate = 0.07;
   var mr = rate / 12;
   function futureValue(annualAmt, years) {
-    var fv = 0;
-    for(var y=0; y<years; y++){
-      fv = (fv + annualAmt) * Math.pow(1+mr, 12);
-    }
-    return fv;
+var fv = 0;
+for(var y=0; y<years; y++){
+fv = (fv + annualAmt) * Math.pow(1+mr, 12);
+}
+return fv;
   }
   document.getElementById('res-inv5').textContent  = fmtUSD0(futureValue(annual, 5));
   document.getElementById('res-inv10').textContent = fmtUSD0(futureValue(annual, 10));
@@ -269,23 +269,23 @@ function calcSubs() {
   // Category breakdown bars
   var breakdownEl = document.getElementById('res-breakdown');
   if(monthly === 0){
-    breakdownEl.innerHTML = '<div style="color:#94a3b8;font-size:14px;">Add subscriptions above to see your breakdown.</div>';
-    return;
+breakdownEl.innerHTML = '<div style="color:#94a3b8;font-size:14px;">Add subscriptions above to see your breakdown.</div>';
+return;
   }
   var html = '';
   CATEGORIES.forEach(function(cat) {
-    var amt = catTotals[cat.id];
-    if(amt <= 0) return;
-    var pct = (amt / monthly * 100);
-    html += '<div style="margin-bottom:12px;">';
-    html += '<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">';
-    html += '<span style="font-weight:bold;">' + cat.label + '</span>';
-    html += '<span>' + fmtUSD(amt) + '/mo &nbsp;<span style="color:#94a3b8;">(' + pct.toFixed(1) + '%)</span></span>';
-    html += '</div>';
-    html += '<div style="height:12px;background:#f1f5f9;border-radius:6px;overflow:hidden;">';
-    html += '<div style="height:100%;width:' + Math.min(pct,100).toFixed(2) + '%;background:' + cat.color + ';border-radius:6px;transition:width 0.3s;"></div>';
-    html += '</div>';
-    html += '</div>';
+var amt = catTotals[cat.id];
+if(amt <= 0) return;
+var pct = (amt / monthly * 100);
+html += '<div style="margin-bottom:12px;">';
+html += '<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">';
+html += '<span style="font-weight:bold;">' + cat.label + '</span>';
+html += '<span>' + fmtUSD(amt) + '/mo &nbsp;<span style="color:#94a3b8;">(' + pct.toFixed(1) + '%)</span></span>';
+html += '</div>';
+html += '<div style="height:12px;background:#f1f5f9;border-radius:6px;overflow:hidden;">';
+html += '<div style="height:100%;width:' + Math.min(pct,100).toFixed(2) + '%;background:' + cat.color + ';border-radius:6px;transition:width 0.3s;"></div>';
+html += '</div>';
+html += '</div>';
   });
   breakdownEl.innerHTML = html;
 }

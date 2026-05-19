@@ -140,23 +140,23 @@ function calcDC(){
 
   var yearData=[];
   for(var y=1;y<=years;y++){
-    var div=balance*rate;
-    var divNet=div*(1-taxRate);
-    totalDiv+=divNet;
-    if(drip==='yes') balance+=divNet;
-    yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
+var div=balance*rate;
+var divNet=div*(1-taxRate);
+totalDiv+=divNet;
+if(drip==='yes') balance+=divNet;
+yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
   }
 
   for(var i=0;i<showYears.length;i++){
-    var d=yearData[showYears[i]-1];
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=showYears[i]===years?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">'+d.year+'年目</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmtJP(d.balance)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmtJP(d.div)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;color:#10b981;">'+fmtJP(d.total)+'</td>';
-    thtml+='</tr>';
+var d=yearData[showYears[i]-1];
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=showYears[i]===years?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">'+d.year+'年目</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmtJP(d.balance)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmtJP(d.div)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;color:#10b981;">'+fmtJP(d.total)+'</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
 
@@ -165,40 +165,40 @@ function calcDC(){
   thtml+='<span style="font-size:13px;color:#64748b;">'+years+'年後のポートフォリオ: </span>';
   thtml+='<span style="font-size:20px;font-weight:bold;color:#166534;">'+fmtJP(drip==='yes'?finalData.balance:amount)+'</span>';
   if(drip==='no'){
-    thtml+='<span style="font-size:13px;color:#64748b;"> + 累計配当: </span>';
-    thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">'+fmtJP(finalData.total)+'</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + 累計配当: </span>';
+thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">'+fmtJP(finalData.total)+'</span>';
   }
   thtml+='</div>';
 
   if(drip==='yes'){
-    var noReinvest=amount*rate*(1-taxRate)*years;
-    var diff=finalData.total-noReinvest;
-    thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">DRIP複利ボーナス: <strong>+'+fmtJP(diff)+'</strong>（現金受取との比較）</div>';
+var noReinvest=amount*rate*(1-taxRate)*years;
+var diff=finalData.total-noReinvest;
+thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">DRIP複利ボーナス: <strong>+'+fmtJP(diff)+'</strong>（現金受取との比較）</div>';
   }
 
   document.getElementById('dcTimeline').innerHTML=thtml;
 
   // ETF comparison (Japan-focused)
   var etfs=[
-    {name:'VYM',desc:'バンガード高配当利回りETF',yield:2.8,expense:0.06},
-    {name:'HDV',desc:'iShares コア高配当ETF',yield:3.5,expense:0.08},
-    {name:'SPYD',desc:'SPDR S&P500高配当ETF',yield:4.5,expense:0.07},
-    {name:'SCHD',desc:'シュワブ米国配当株式ETF',yield:3.4,expense:0.06},
-    {name:'VIG',desc:'バンガード増配株式ETF',yield:1.8,expense:0.06},
-    {name:'JEPI',desc:'JPモルガン・プレミアム・インカムETF',yield:7.5,expense:0.35}
+{name:'VYM',desc:'バンガード高配当利回りETF',yield:2.8,expense:0.06},
+{name:'HDV',desc:'iShares コア高配当ETF',yield:3.5,expense:0.08},
+{name:'SPYD',desc:'SPDR S&P500高配当ETF',yield:4.5,expense:0.07},
+{name:'SCHD',desc:'シュワブ米国配当株式ETF',yield:3.4,expense:0.06},
+{name:'VIG',desc:'バンガード増配株式ETF',yield:1.8,expense:0.06},
+{name:'JEPI',desc:'JPモルガン・プレミアム・インカムETF',yield:7.5,expense:0.35}
   ];
 
   var ehtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">';
   for(var i=0;i<etfs.length;i++){
-    var annDivE=amount*etfs[i].yield/100*(1-taxRate);
-    ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
-    ehtml+='<span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span>';
-    ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
-    ehtml+='</div>';
-    ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'（経費率: '+etfs[i].expense+'%）</div>';
-    ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">年間収入: <strong>'+fmtJP(annDivE)+'</strong>（税引後）</div>';
-    ehtml+='</div>';
+var annDivE=amount*etfs[i].yield/100*(1-taxRate);
+ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
+ehtml+='<span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span>';
+ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
+ehtml+='</div>';
+ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'（経費率: '+etfs[i].expense+'%）</div>';
+ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">年間収入: <strong>'+fmtJP(annDivE)+'</strong>（税引後）</div>';
+ehtml+='</div>';
   }
   ehtml+='</div>';
   ehtml+='<div style="margin-top:8px;font-size:11px;color:#92400e;text-align:center;">利回りは2026年5月時点の概算値。実際の配当は変動します。過去の実績は将来の成果を保証しません。</div>';

@@ -232,117 +232,117 @@ Enter your **assets** (cash, investments, real estate, etc.) and **liabilities**
   var ageCmpIds = {20:'ssCmp20', 30:'ssCmp30', 40:'ssCmp40', 50:'ssCmp50', 60:'ssCmp60', 70:'ssCmp70'};
 
   function fmtMan(v) {
-    return '¥' + (v * 10000).toLocaleString();
+return '¥' + (v * 10000).toLocaleString();
   }
 
   function calcSS() {
-    var cash = parseFloat(document.getElementById('ssCash').value) || 0;
-    var invest = parseFloat(document.getElementById('ssInvest').value) || 0;
-    var realty = parseFloat(document.getElementById('ssRealty').value) || 0;
-    var otherAsset = parseFloat(document.getElementById('ssOtherAsset').value) || 0;
+var cash = parseFloat(document.getElementById('ssCash').value) || 0;
+var invest = parseFloat(document.getElementById('ssInvest').value) || 0;
+var realty = parseFloat(document.getElementById('ssRealty').value) || 0;
+var otherAsset = parseFloat(document.getElementById('ssOtherAsset').value) || 0;
 
-    var homeLoan = parseFloat(document.getElementById('ssHomeLoan').value) || 0;
-    var carLoan = parseFloat(document.getElementById('ssCarLoan').value) || 0;
-    var eduLoan = parseFloat(document.getElementById('ssEduLoan').value) || 0;
-    var creditCard = parseFloat(document.getElementById('ssCreditCard').value) || 0;
-    var otherDebt = parseFloat(document.getElementById('ssOtherDebt').value) || 0;
+var homeLoan = parseFloat(document.getElementById('ssHomeLoan').value) || 0;
+var carLoan = parseFloat(document.getElementById('ssCarLoan').value) || 0;
+var eduLoan = parseFloat(document.getElementById('ssEduLoan').value) || 0;
+var creditCard = parseFloat(document.getElementById('ssCreditCard').value) || 0;
+var otherDebt = parseFloat(document.getElementById('ssOtherDebt').value) || 0;
 
-    var totalAsset = cash + invest + realty + otherAsset;
-    var totalDebt = homeLoan + carLoan + eduLoan + creditCard + otherDebt;
-    var netWorth = totalAsset - totalDebt;
-    var debtRatio = totalAsset > 0 ? ((totalDebt / totalAsset) * 100).toFixed(1) : 0;
+var totalAsset = cash + invest + realty + otherAsset;
+var totalDebt = homeLoan + carLoan + eduLoan + creditCard + otherDebt;
+var netWorth = totalAsset - totalDebt;
+var debtRatio = totalAsset > 0 ? ((totalDebt / totalAsset) * 100).toFixed(1) : 0;
 
-    document.getElementById('ssTotalAsset').textContent = fmtMan(totalAsset);
-    document.getElementById('ssTotalDebt').textContent = fmtMan(totalDebt);
+document.getElementById('ssTotalAsset').textContent = fmtMan(totalAsset);
+document.getElementById('ssTotalDebt').textContent = fmtMan(totalDebt);
 
-    var nwEl = document.getElementById('ssNetWorth');
-    nwEl.textContent = (netWorth >= 0 ? '' : '-') + fmtMan(Math.abs(netWorth));
-    nwEl.style.color = netWorth >= 0 ? '#4f46e5' : '#dc2626';
+var nwEl = document.getElementById('ssNetWorth');
+nwEl.textContent = (netWorth >= 0 ? '' : '-') + fmtMan(Math.abs(netWorth));
+nwEl.style.color = netWorth >= 0 ? '#4f46e5' : '#dc2626';
 
-    document.getElementById('ssDebtRatio').textContent = 'Debt ratio: ' + debtRatio + '%';
+document.getElementById('ssDebtRatio').textContent = 'Debt ratio: ' + debtRatio + '%';
 
-    if (totalAsset > 0) {
-      document.getElementById('ssBarCash').style.width = ((cash / totalAsset) * 100) + '%';
-      document.getElementById('ssBarInvest').style.width = ((invest / totalAsset) * 100) + '%';
-      document.getElementById('ssBarRealty').style.width = ((realty / totalAsset) * 100) + '%';
-      document.getElementById('ssBarOtherAsset').style.width = ((otherAsset / totalAsset) * 100) + '%';
-    } else {
-      ['ssBarCash','ssBarInvest','ssBarRealty','ssBarOtherAsset'].forEach(function(id){
-        document.getElementById(id).style.width = '0%';
-      });
-    }
+if (totalAsset > 0) {
+document.getElementById('ssBarCash').style.width = ((cash / totalAsset) * 100) + '%';
+document.getElementById('ssBarInvest').style.width = ((invest / totalAsset) * 100) + '%';
+document.getElementById('ssBarRealty').style.width = ((realty / totalAsset) * 100) + '%';
+document.getElementById('ssBarOtherAsset').style.width = ((otherAsset / totalAsset) * 100) + '%';
+} else {
+['ssBarCash','ssBarInvest','ssBarRealty','ssBarOtherAsset'].forEach(function(id){
+document.getElementById(id).style.width = '0%';
+});
+}
 
-    if (totalDebt > 0) {
-      document.getElementById('ssBarHomeLoan').style.width = ((homeLoan / totalDebt) * 100) + '%';
-      document.getElementById('ssBarCarLoan').style.width = ((carLoan / totalDebt) * 100) + '%';
-      document.getElementById('ssBarEduLoan').style.width = ((eduLoan / totalDebt) * 100) + '%';
-      document.getElementById('ssBarCredit').style.width = ((creditCard / totalDebt) * 100) + '%';
-      document.getElementById('ssBarOtherDebt').style.width = ((otherDebt / totalDebt) * 100) + '%';
-    } else {
-      ['ssBarHomeLoan','ssBarCarLoan','ssBarEduLoan','ssBarCredit','ssBarOtherDebt'].forEach(function(id){
-        document.getElementById(id).style.width = '0%';
-      });
-    }
+if (totalDebt > 0) {
+document.getElementById('ssBarHomeLoan').style.width = ((homeLoan / totalDebt) * 100) + '%';
+document.getElementById('ssBarCarLoan').style.width = ((carLoan / totalDebt) * 100) + '%';
+document.getElementById('ssBarEduLoan').style.width = ((eduLoan / totalDebt) * 100) + '%';
+document.getElementById('ssBarCredit').style.width = ((creditCard / totalDebt) * 100) + '%';
+document.getElementById('ssBarOtherDebt').style.width = ((otherDebt / totalDebt) * 100) + '%';
+} else {
+['ssBarHomeLoan','ssBarCarLoan','ssBarEduLoan','ssBarCredit','ssBarOtherDebt'].forEach(function(id){
+document.getElementById(id).style.width = '0%';
+});
+}
 
-    var selectedAge = document.getElementById('ssAge').value;
-    var ageKeys = [20, 30, 40, 50, 60, 70];
-    ageKeys.forEach(function(age) {
-      var cell = document.getElementById(ageCmpIds[age]);
-      var row = cell.closest('tr');
-      if (selectedAge && parseInt(selectedAge) === age) {
-        row.style.background = '#eef2ff';
-        row.style.fontWeight = 'bold';
-        var bench = ageBenchmarks[age];
-        var diff = netWorth - bench;
-        if (diff >= 0) {
-          cell.innerHTML = '<span style="color:#059669;">+' + fmtMan(diff) + '</span>';
-        } else {
-          cell.innerHTML = '<span style="color:#dc2626;">' + fmtMan(diff) + '</span>';
-        }
-      } else {
-        row.style.background = (age === 30 || age === 50 || age === 70) ? '#f8fafc' : 'white';
-        row.style.fontWeight = 'normal';
-        cell.innerHTML = '—';
-      }
-    });
+var selectedAge = document.getElementById('ssAge').value;
+var ageKeys = [20, 30, 40, 50, 60, 70];
+ageKeys.forEach(function(age) {
+var cell = document.getElementById(ageCmpIds[age]);
+var row = cell.closest('tr');
+if (selectedAge && parseInt(selectedAge) === age) {
+row.style.background = '#eef2ff';
+row.style.fontWeight = 'bold';
+var bench = ageBenchmarks[age];
+var diff = netWorth - bench;
+if (diff >= 0) {
+cell.innerHTML = '<span style="color:#059669;">+' + fmtMan(diff) + '</span>';
+} else {
+cell.innerHTML = '<span style="color:#dc2626;">' + fmtMan(diff) + '</span>';
+}
+} else {
+row.style.background = (age === 30 || age === 50 || age === 70) ? '#f8fafc' : 'white';
+row.style.fontWeight = 'normal';
+cell.innerHTML = '—';
+}
+});
 
-    var ageComment = document.getElementById('ssAgeComment');
-    if (selectedAge) {
-      var age = parseInt(selectedAge);
-      var bench = ageBenchmarks[age];
-      var diff = netWorth - bench;
-      ageComment.style.display = 'block';
-      if (diff >= 0) {
-        ageComment.style.background = '#dcfce7';
-        ageComment.style.color = '#166534';
-        ageComment.textContent = 'You are ' + fmtMan(diff) + ' above the median net worth for your age group (' + fmtMan(bench) + '). Keep it up!';
-      } else {
-        ageComment.style.background = '#fef2f2';
-        ageComment.style.color = '#991b1b';
-        ageComment.textContent = 'You are ' + fmtMan(Math.abs(diff)) + ' below the median net worth for your age group (' + fmtMan(bench) + '). Growing income or cutting expenses can help close the gap.';
-      }
-    } else {
-      ageComment.style.display = 'none';
-    }
+var ageComment = document.getElementById('ssAgeComment');
+if (selectedAge) {
+var age = parseInt(selectedAge);
+var bench = ageBenchmarks[age];
+var diff = netWorth - bench;
+ageComment.style.display = 'block';
+if (diff >= 0) {
+ageComment.style.background = '#dcfce7';
+ageComment.style.color = '#166534';
+ageComment.textContent = 'You are ' + fmtMan(diff) + ' above the median net worth for your age group (' + fmtMan(bench) + '). Keep it up!';
+} else {
+ageComment.style.background = '#fef2f2';
+ageComment.style.color = '#991b1b';
+ageComment.textContent = 'You are ' + fmtMan(Math.abs(diff)) + ' below the median net worth for your age group (' + fmtMan(bench) + '). Growing income or cutting expenses can help close the gap.';
+}
+} else {
+ageComment.style.display = 'none';
+}
 
-    var goal = parseFloat(document.getElementById('ssGoal').value) || 3000;
-    var pct = goal > 0 ? Math.min(Math.round((netWorth / goal) * 100), 100) : 0;
-    var pctDisplay = netWorth < 0 ? 0 : pct;
-    document.getElementById('ssGoalPct').textContent = pctDisplay + '%';
-    document.getElementById('ssGoalBar').style.width = pctDisplay + '%';
+var goal = parseFloat(document.getElementById('ssGoal').value) || 3000;
+var pct = goal > 0 ? Math.min(Math.round((netWorth / goal) * 100), 100) : 0;
+var pctDisplay = netWorth < 0 ? 0 : pct;
+document.getElementById('ssGoalPct').textContent = pctDisplay + '%';
+document.getElementById('ssGoalBar').style.width = pctDisplay + '%';
 
-    var goalComment = document.getElementById('ssGoalComment');
-    if (netWorth < 0) {
-      goalComment.textContent = 'Your net worth is negative. Prioritize paying down high-interest debt first.';
-      goalComment.style.color = '#dc2626';
-    } else if (pct >= 100) {
-      goalComment.textContent = 'Goal achieved! Consider setting a higher target.';
-      goalComment.style.color = '#059669';
-    } else {
-      var remaining = goal - netWorth;
-      goalComment.textContent = fmtMan(remaining) + ' remaining to reach your goal. Keep building steadily.';
-      goalComment.style.color = '#64748b';
-    }
+var goalComment = document.getElementById('ssGoalComment');
+if (netWorth < 0) {
+goalComment.textContent = 'Your net worth is negative. Prioritize paying down high-interest debt first.';
+goalComment.style.color = '#dc2626';
+} else if (pct >= 100) {
+goalComment.textContent = 'Goal achieved! Consider setting a higher target.';
+goalComment.style.color = '#059669';
+} else {
+var remaining = goal - netWorth;
+goalComment.textContent = fmtMan(remaining) + ' remaining to reach your goal. Keep building steadily.';
+goalComment.style.color = '#64748b';
+}
   }
 
   window.calcSS = calcSS;

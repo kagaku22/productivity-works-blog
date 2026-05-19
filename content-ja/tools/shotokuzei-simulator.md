@@ -180,11 +180,11 @@ function calcIncomeTax(taxableIncome){
   if(taxableIncome<=0) return{tax:0,rate:0,details:[]};
   let tax=0;let topRate=0;const details=[];
   for(const[lo,hi,rate,deduction] of JP_BRACKETS){
-    if(taxableIncome<=lo) break;
-    topRate=rate;
-    const portion=Math.min(taxableIncome,hi)-lo;
-    const t=portion*rate;
-    details.push({lo,hi:Math.min(taxableIncome,hi),rate,portion,tax:t});
+if(taxableIncome<=lo) break;
+topRate=rate;
+const portion=Math.min(taxableIncome,hi)-lo;
+const t=portion*rate;
+details.push({lo,hi:Math.min(taxableIncome,hi),rate,portion,tax:t});
   }
   tax=Math.floor(taxableIncome*topRate-JP_BRACKETS.find(b=>b[2]===topRate)[3]);
   const recoveryTax=Math.floor(tax*0.021);
@@ -203,20 +203,20 @@ function calcST(){
   const deps=parseInt(document.getElementById('stDependents').value);
 
   ['employee','freelance'].forEach(t=>{
-    document.getElementById('lbl-'+t).style.borderColor=t===type?'#b91c1c':'#e2e8f0';
-    document.getElementById('lbl-'+t).style.background=t===type?'#fef2f2':'white';
+document.getElementById('lbl-'+t).style.borderColor=t===type?'#b91c1c':'#e2e8f0';
+document.getElementById('lbl-'+t).style.background=t===type?'#fef2f2':'white';
   });
   document.getElementById('stFreelanceOpts').style.display=type==='freelance'?'block':'none';
 
   // 給与所得控除 or 経費
   let deduction=0;
   if(type==='employee'){
-    deduction=calcEmployeeDeduction(income);
+deduction=calcEmployeeDeduction(income);
   }else{
-    const expRate=parseFloat(document.getElementById('stExpenseRate').value)/100;
-    document.getElementById('stExpenseVal').textContent=Math.round(expRate*100)+'%';
-    deduction=income*expRate;
-    if(document.getElementById('stBlueReturn').checked) deduction+=650000;
+const expRate=parseFloat(document.getElementById('stExpenseRate').value)/100;
+document.getElementById('stExpenseVal').textContent=Math.round(expRate*100)+'%';
+deduction=income*expRate;
+if(document.getElementById('stBlueReturn').checked) deduction+=650000;
   }
 
   const earnedIncome=Math.max(0,income-deduction);
@@ -250,34 +250,34 @@ function calcST(){
 
   // バー
   if(income>0){
-    const pTH=((takeHome/income)*100).toFixed(1);
-    const pIT=((incomeTax/income)*100).toFixed(1);
-    const pRT=((residentTaxCalc/income)*100).toFixed(1);
-    const pSI=((social/income)*100).toFixed(1);
-    document.getElementById('stBar').innerHTML=
-      '<div style="width:'+pTH+'%;background:#16a34a;height:100%;" title="手取り"></div>'+
-      '<div style="width:'+pIT+'%;background:#b91c1c;height:100%;" title="所得税"></div>'+
-      '<div style="width:'+pRT+'%;background:#ea580c;height:100%;" title="住民税"></div>'+
-      '<div style="width:'+pSI+'%;background:#7c3aed;height:100%;" title="社会保険料"></div>';
+const pTH=((takeHome/income)*100).toFixed(1);
+const pIT=((incomeTax/income)*100).toFixed(1);
+const pRT=((residentTaxCalc/income)*100).toFixed(1);
+const pSI=((social/income)*100).toFixed(1);
+document.getElementById('stBar').innerHTML=
+'<div style="width:'+pTH+'%;background:#16a34a;height:100%;" title="手取り"></div>'+
+'<div style="width:'+pIT+'%;background:#b91c1c;height:100%;" title="所得税"></div>'+
+'<div style="width:'+pRT+'%;background:#ea580c;height:100%;" title="住民税"></div>'+
+'<div style="width:'+pSI+'%;background:#7c3aed;height:100%;" title="社会保険料"></div>';
   }
 
   // ブラケット表
   let tbody='';
   JP_BRACKETS.forEach((b,i)=>{
-    const[lo,hi,rate,ded]=b;
-    const active=taxableIncome>lo;
-    const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
-    const portion=active?Math.min(taxableIncome,hi)-lo:0;
-    const t=portion*rate;
-    const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
-    const hiStr=hi===Infinity?'〜':'〜'+Math.round(hi/10000)+'万円';
-    const arrow=current?' ←':'';
-    tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
-    tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">'+Math.round(lo/10000)+'万円'+hiStr+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">'+Math.round(ded/10000)+'万円</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">'+Math.round(t/10000)+'万円</td>';
-    tbody+='</tr>';
+const[lo,hi,rate,ded]=b;
+const active=taxableIncome>lo;
+const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
+const portion=active?Math.min(taxableIncome,hi)-lo:0;
+const t=portion*rate;
+const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
+const hiStr=hi===Infinity?'〜':'〜'+Math.round(hi/10000)+'万円';
+const arrow=current?' ←':'';
+tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
+tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">'+Math.round(lo/10000)+'万円'+hiStr+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">'+Math.round(ded/10000)+'万円</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">'+Math.round(t/10000)+'万円</td>';
+tbody+='</tr>';
   });
   document.getElementById('stTableBody').innerHTML=tbody;
 
@@ -285,21 +285,21 @@ function calcST(){
   const scenarios=[300,400,500,600,700,800,1000,1500];
   let sHTML='';
   scenarios.forEach(s=>{
-    const sInc=s*10000;
-    const sDed=type==='employee'?calcEmployeeDeduction(sInc):sInc*(parseFloat(document.getElementById('stExpenseRate').value)/100)+(type==='freelance'&&document.getElementById('stBlueReturn').checked?650000:0);
-    const sEarned=Math.max(0,sInc-sDed);
-    const sSocial=calcSocialInsurance(sInc,type);
-    let sPD=480000+sSocial;
-    if(deps>=1)sPD+=380000;if(deps>=2)sPD+=380000;if(deps>=3)sPD+=380000;
-    const sTaxable=Math.max(0,sEarned-sPD);
-    const sIT=calcIncomeTax(sTaxable).tax;
-    const sRT=calcResidentTax(Math.max(0,sEarned-sPD+50000));
-    const sTH=sInc-sIT-sRT-sSocial;
-    const current=s===incomeMan;
-    sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:'+(current?'#fef2f2':'white')+';border-radius:8px;border:'+(current?'2px solid #b91c1c':'1px solid #e2e8f0')+';font-size:14px;">';
-    sHTML+='<div><strong>'+s+'万円</strong></div>';
-    sHTML+='<div style="text-align:right;">手取り <strong style="color:#16a34a;">'+Math.round(sTH/10000)+'万円</strong> ('+((sTH/sInc)*100).toFixed(0)+'%)</div>';
-    sHTML+='</div>';
+const sInc=s*10000;
+const sDed=type==='employee'?calcEmployeeDeduction(sInc):sInc*(parseFloat(document.getElementById('stExpenseRate').value)/100)+(type==='freelance'&&document.getElementById('stBlueReturn').checked?650000:0);
+const sEarned=Math.max(0,sInc-sDed);
+const sSocial=calcSocialInsurance(sInc,type);
+let sPD=480000+sSocial;
+if(deps>=1)sPD+=380000;if(deps>=2)sPD+=380000;if(deps>=3)sPD+=380000;
+const sTaxable=Math.max(0,sEarned-sPD);
+const sIT=calcIncomeTax(sTaxable).tax;
+const sRT=calcResidentTax(Math.max(0,sEarned-sPD+50000));
+const sTH=sInc-sIT-sRT-sSocial;
+const current=s===incomeMan;
+sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:'+(current?'#fef2f2':'white')+';border-radius:8px;border:'+(current?'2px solid #b91c1c':'1px solid #e2e8f0')+';font-size:14px;">';
+sHTML+='<div><strong>'+s+'万円</strong></div>';
+sHTML+='<div style="text-align:right;">手取り <strong style="color:#16a34a;">'+Math.round(sTH/10000)+'万円</strong> ('+((sTH/sInc)*100).toFixed(0)+'%)</div>';
+sHTML+='</div>';
   });
   document.getElementById('stScenarios').innerHTML=sHTML;
 }

@@ -124,14 +124,14 @@ function calc(){
   tb.innerHTML='';
   var milestones=[1,3,5,10,15,20,25,30,35,40];
   for(var i=0;i<milestones.length;i++){
-    var yr=milestones[i];
-    if(yr>y)break;
-    var nm=yr*12;
-    var fvY=m*((Math.pow(1+mr,nm)-1)/mr);
-    var pY=m*nm;
-    var gY=fvY-pY;
-    var bg=i%2===0?'#f8fafc':'#ffffff';
-    tb.innerHTML+='<tr style="background:'+bg+'"><td style="padding:6px 8px;text-align:center;border-bottom:1px solid #e2e8f0;">'+yr+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">$'+pY.toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;font-weight:bold;">$'+Math.floor(fvY).toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#15803d;">+$'+Math.floor(gY).toLocaleString()+'</td></tr>';
+var yr=milestones[i];
+if(yr>y)break;
+var nm=yr*12;
+var fvY=m*((Math.pow(1+mr,nm)-1)/mr);
+var pY=m*nm;
+var gY=fvY-pY;
+var bg=i%2===0?'#f8fafc':'#ffffff';
+tb.innerHTML+='<tr style="background:'+bg+'"><td style="padding:6px 8px;text-align:center;border-bottom:1px solid #e2e8f0;">'+yr+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">$'+pY.toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;font-weight:bold;">$'+Math.floor(fvY).toLocaleString()+'</td><td style="padding:6px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#15803d;">+$'+Math.floor(gY).toLocaleString()+'</td></tr>';
   }
 }
 calc();

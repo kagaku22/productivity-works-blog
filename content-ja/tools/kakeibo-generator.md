@@ -69,60 +69,60 @@ function calcBudget(){
 
   var ratios;
   if(type==='single'){
-    ratios=[
-      {name:'住居費',rate:0.28,color:'#ef4444'},
-      {name:'食費',rate:0.15,color:'#f97316'},
-      {name:'水道光熱費',rate:0.05,color:'#eab308'},
-      {name:'通信費',rate:0.05,color:'#22c55e'},
-      {name:'日用品・衣服',rate:0.05,color:'#06b6d4'},
-      {name:'交際費・娯楽',rate:0.08,color:'#8b5cf6'},
-      {name:'交通費',rate:0.04,color:'#ec4899'},
-      {name:'保険・医療',rate:0.03,color:'#6366f1'},
-      {name:'自己投資',rate:0.05,color:'#14b8a6'},
-      {name:'予備費',rate:0.02,color:'#94a3b8'},
-      {name:'貯蓄・投資',rate:0.20,color:'#2563eb'}
-    ];
+ratios=[
+{name:'住居費',rate:0.28,color:'#ef4444'},
+{name:'食費',rate:0.15,color:'#f97316'},
+{name:'水道光熱費',rate:0.05,color:'#eab308'},
+{name:'通信費',rate:0.05,color:'#22c55e'},
+{name:'日用品・衣服',rate:0.05,color:'#06b6d4'},
+{name:'交際費・娯楽',rate:0.08,color:'#8b5cf6'},
+{name:'交通費',rate:0.04,color:'#ec4899'},
+{name:'保険・医療',rate:0.03,color:'#6366f1'},
+{name:'自己投資',rate:0.05,color:'#14b8a6'},
+{name:'予備費',rate:0.02,color:'#94a3b8'},
+{name:'貯蓄・投資',rate:0.20,color:'#2563eb'}
+];
   } else if(type==='couple'){
-    ratios=[
-      {name:'住居費',rate:0.25,color:'#ef4444'},
-      {name:'食費',rate:0.15,color:'#f97316'},
-      {name:'水道光熱費',rate:0.05,color:'#eab308'},
-      {name:'通信費',rate:0.05,color:'#22c55e'},
-      {name:'日用品・衣服',rate:0.05,color:'#06b6d4'},
-      {name:'交際費・娯楽',rate:0.07,color:'#8b5cf6'},
-      {name:'交通費',rate:0.04,color:'#ec4899'},
-      {name:'保険・医療',rate:0.04,color:'#6366f1'},
-      {name:'自己投資',rate:0.03,color:'#14b8a6'},
-      {name:'予備費',rate:0.02,color:'#94a3b8'},
-      {name:'貯蓄・投資',rate:0.25,color:'#2563eb'}
-    ];
+ratios=[
+{name:'住居費',rate:0.25,color:'#ef4444'},
+{name:'食費',rate:0.15,color:'#f97316'},
+{name:'水道光熱費',rate:0.05,color:'#eab308'},
+{name:'通信費',rate:0.05,color:'#22c55e'},
+{name:'日用品・衣服',rate:0.05,color:'#06b6d4'},
+{name:'交際費・娯楽',rate:0.07,color:'#8b5cf6'},
+{name:'交通費',rate:0.04,color:'#ec4899'},
+{name:'保険・医療',rate:0.04,color:'#6366f1'},
+{name:'自己投資',rate:0.03,color:'#14b8a6'},
+{name:'予備費',rate:0.02,color:'#94a3b8'},
+{name:'貯蓄・投資',rate:0.25,color:'#2563eb'}
+];
   } else {
-    ratios=[
-      {name:'住居費',rate:0.25,color:'#ef4444'},
-      {name:'食費',rate:0.18,color:'#f97316'},
-      {name:'水道光熱費',rate:0.06,color:'#eab308'},
-      {name:'通信費',rate:0.04,color:'#22c55e'},
-      {name:'日用品・衣服',rate:0.06,color:'#06b6d4'},
-      {name:'教育費',rate:0.08,color:'#8b5cf6'},
-      {name:'交通費',rate:0.04,color:'#ec4899'},
-      {name:'保険・医療',rate:0.06,color:'#6366f1'},
-      {name:'娯楽・交際',rate:0.05,color:'#14b8a6'},
-      {name:'予備費',rate:0.03,color:'#94a3b8'},
-      {name:'貯蓄・投資',rate:0.15,color:'#2563eb'}
-    ];
+ratios=[
+{name:'住居費',rate:0.25,color:'#ef4444'},
+{name:'食費',rate:0.18,color:'#f97316'},
+{name:'水道光熱費',rate:0.06,color:'#eab308'},
+{name:'通信費',rate:0.04,color:'#22c55e'},
+{name:'日用品・衣服',rate:0.06,color:'#06b6d4'},
+{name:'教育費',rate:0.08,color:'#8b5cf6'},
+{name:'交通費',rate:0.04,color:'#ec4899'},
+{name:'保険・医療',rate:0.06,color:'#6366f1'},
+{name:'娯楽・交際',rate:0.05,color:'#14b8a6'},
+{name:'予備費',rate:0.03,color:'#94a3b8'},
+{name:'貯蓄・投資',rate:0.15,color:'#2563eb'}
+];
   }
 
   var savings=0;
   var html='';
   for(var i=0;i<ratios.length;i++){
-    var amt=Math.floor(income*ratios[i].rate);
-    var pct=Math.round(ratios[i].rate*100);
-    if(ratios[i].name==='貯蓄・投資') savings=amt;
-    html+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #e2e8f0;">';
-    html+='<div style="width:12px;height:12px;border-radius:50%;background:'+ratios[i].color+';margin-right:10px;flex-shrink:0;"></div>';
-    html+='<div style="flex:1;font-size:14px;">'+ratios[i].name+' <span style="color:#94a3b8;">('+pct+'%)</span></div>';
-    html+='<div style="font-weight:bold;font-size:15px;">'+amt.toLocaleString()+'円</div>';
-    html+='</div>';
+var amt=Math.floor(income*ratios[i].rate);
+var pct=Math.round(ratios[i].rate*100);
+if(ratios[i].name==='貯蓄・投資') savings=amt;
+html+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #e2e8f0;">';
+html+='<div style="width:12px;height:12px;border-radius:50%;background:'+ratios[i].color+';margin-right:10px;flex-shrink:0;"></div>';
+html+='<div style="flex:1;font-size:14px;">'+ratios[i].name+' <span style="color:#94a3b8;">('+pct+'%)</span></div>';
+html+='<div style="font-weight:bold;font-size:15px;">'+amt.toLocaleString()+'円</div>';
+html+='</div>';
   }
 
   document.getElementById('incomeVal').textContent=(income/10000)+'万円';

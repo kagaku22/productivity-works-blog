@@ -126,15 +126,15 @@ function calcFurusatoLimit(income,familyType,loanDeduction){
 
   // 住宅ローン控除の影響（控除分だけ上限が下がる可能性）
   if(loanDeduction>0){
-    var reduction=Math.min(loanDeduction*0.15,limit*0.15);
-    limit=Math.max(limit-reduction,2000);
+var reduction=Math.min(loanDeduction*0.15,limit*0.15);
+limit=Math.max(limit-reduction,2000);
   }
 
   return{
-    limit:Math.floor(limit),
-    taxRate:taxRate,
-    taxableIncome:taxableIncome,
-    juminTax:juminTax
+limit:Math.floor(limit),
+taxRate:taxRate,
+taxableIncome:taxableIncome,
+juminTax:juminTax
   };
 }
 
@@ -170,17 +170,17 @@ function calcFN(){
   var thtml='<table style="width:100%;border-collapse:collapse;font-size:13px;">';
   thtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:6px;">年収</th><th style="text-align:right;padding:6px;">独身</th><th style="text-align:right;padding:6px;">夫婦</th><th style="text-align:right;padding:6px;">夫婦+子1</th></tr>';
   for(var i=0;i<incomes.length;i++){
-    var s=calcFurusatoLimit(incomes[i],'single',0);
-    var c=calcFurusatoLimit(incomes[i],'couple',0);
-    var c1=calcFurusatoLimit(incomes[i],'couple1',0);
-    var bg=incomes[i]===income?'#dcfce7':i%2===0?'#fff':'#f0fdf4';
-    var bold=incomes[i]===income?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">'+fmt(incomes[i])+'万円</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(s.limit)+'円</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(c.limit)+'円</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(c1.limit)+'円</td>';
-    thtml+='</tr>';
+var s=calcFurusatoLimit(incomes[i],'single',0);
+var c=calcFurusatoLimit(incomes[i],'couple',0);
+var c1=calcFurusatoLimit(incomes[i],'couple1',0);
+var bg=incomes[i]===income?'#dcfce7':i%2===0?'#fff':'#f0fdf4';
+var bold=incomes[i]===income?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">'+fmt(incomes[i])+'万円</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(s.limit)+'円</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(c.limit)+'円</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(c1.limit)+'円</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
   thtml+='<div style="margin-top:8px;font-size:11px;color:#64748b;">※概算値です。医療費控除・生命保険料控除等がある場合は上限額が変わります。</div>';
@@ -189,21 +189,21 @@ function calcFN(){
   // Return goods section
   var rhtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">';
   var goods=[
-    {name:'お米 20kg',price:20000,value:8000},
-    {name:'国産牛 1kg',price:15000,value:5000},
-    {name:'ホタテ 1kg',price:12000,value:4000},
-    {name:'シャインマスカット',price:10000,value:3500}
+{name:'お米 20kg',price:20000,value:8000},
+{name:'国産牛 1kg',price:15000,value:5000},
+{name:'ホタテ 1kg',price:12000,value:4000},
+{name:'シャインマスカット',price:10000,value:3500}
   ];
   for(var i=0;i<goods.length;i++){
-    var canAfford=r.limit>=goods[i].price?'#10b981':'#94a3b8';
-    var badge=r.limit>=goods[i].price?'申込OK':'上限超過';
-    var badgeBg=r.limit>=goods[i].price?'#dcfce7':'#f1f5f9';
-    rhtml+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b;">'+goods[i].name+'</div>';
-    rhtml+='<div style="font-size:12px;color:#64748b;">寄付額: '+fmt(goods[i].price)+'円</div>';
-    rhtml+='<div style="font-size:12px;color:#64748b;">市場価値: 約'+fmt(goods[i].value)+'円</div>';
-    rhtml+='<span style="display:inline-block;margin-top:4px;padding:2px 8px;font-size:11px;font-weight:bold;background:'+badgeBg+';color:'+canAfford+';border-radius:4px;">'+badge+'</span>';
-    rhtml+='</div>';
+var canAfford=r.limit>=goods[i].price?'#10b981':'#94a3b8';
+var badge=r.limit>=goods[i].price?'申込OK':'上限超過';
+var badgeBg=r.limit>=goods[i].price?'#dcfce7':'#f1f5f9';
+rhtml+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b;">'+goods[i].name+'</div>';
+rhtml+='<div style="font-size:12px;color:#64748b;">寄付額: '+fmt(goods[i].price)+'円</div>';
+rhtml+='<div style="font-size:12px;color:#64748b;">市場価値: 約'+fmt(goods[i].value)+'円</div>';
+rhtml+='<span style="display:inline-block;margin-top:4px;padding:2px 8px;font-size:11px;font-weight:bold;background:'+badgeBg+';color:'+canAfford+';border-radius:4px;">'+badge+'</span>';
+rhtml+='</div>';
   }
   rhtml+='</div>';
   rhtml+='<div style="margin-top:12px;font-size:12px;color:#92400e;text-align:center;">※返礼品の還元率は2026年時点の一般的な目安です。自治体・時期により変動します。</div>';

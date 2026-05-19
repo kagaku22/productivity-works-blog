@@ -126,7 +126,7 @@ function calcDiv(){
   html+='</div>';
 
   if(account==='nisa'){
-    html+='<div style="margin-top:8px;text-align:center;font-size:12px;color:#10b981;font-weight:bold;">NISA口座なら配当金が非課税！年間 '+fmt(annualDiv*0.20315)+' 円の節税効果</div>';
+html+='<div style="margin-top:8px;text-align:center;font-size:12px;color:#10b981;font-weight:bold;">NISA口座なら配当金が非課税！年間 '+fmt(annualDiv*0.20315)+' 円の節税効果</div>';
   }
 
   document.getElementById('divResult').innerHTML=html;
@@ -144,23 +144,23 @@ function calcDiv(){
 
   var yearData=[];
   for(var y=1;y<=years;y++){
-    var div=balance*rate;
-    var divNet=div*(1-taxRate);
-    totalDiv+=divNet;
-    if(reinvest==='yes') balance+=divNet;
-    yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
+var div=balance*rate;
+var divNet=div*(1-taxRate);
+totalDiv+=divNet;
+if(reinvest==='yes') balance+=divNet;
+yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
   }
 
   for(var i=0;i<showYears.length;i++){
-    var d=yearData[showYears[i]-1];
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=showYears[i]===years?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">'+d.year+'年目</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(d.balance)+'円</td>';
-    thtml+='<td style="padding:6px;text-align:right;">'+fmt(d.div)+'円</td>';
-    thtml+='<td style="padding:6px;text-align:right;color:#10b981;">'+fmt(d.total)+'円</td>';
-    thtml+='</tr>';
+var d=yearData[showYears[i]-1];
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=showYears[i]===years?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">'+d.year+'年目</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(d.balance)+'円</td>';
+thtml+='<td style="padding:6px;text-align:right;">'+fmt(d.div)+'円</td>';
+thtml+='<td style="padding:6px;text-align:right;color:#10b981;">'+fmt(d.total)+'円</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
 
@@ -170,43 +170,43 @@ function calcDiv(){
   thtml+='<span style="font-size:13px;color:#64748b;">'+years+'年後の資産総額: </span>';
   thtml+='<span style="font-size:20px;font-weight:bold;color:#166534;">'+fmt(reinvest==='yes'?finalData.balance:principal)+'円</span>';
   if(reinvest==='yes'){
-    thtml+='<span style="font-size:13px;color:#64748b;"> + 受取配当累計: </span>';
-    thtml+='<span style="font-size:13px;font-weight:bold;color:#10b981;">再投資済み</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + 受取配当累計: </span>';
+thtml+='<span style="font-size:13px;font-weight:bold;color:#10b981;">再投資済み</span>';
   } else {
-    thtml+='<span style="font-size:13px;color:#64748b;"> + 受取配当累計: </span>';
-    thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">'+fmt(finalData.total)+'円</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + 受取配当累計: </span>';
+thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">'+fmt(finalData.total)+'円</span>';
   }
   thtml+='</div>';
 
   if(reinvest==='yes'){
-    var noReinvestTotal=principal*rate*(1-taxRate)*years;
-    var diff=finalData.total-noReinvestTotal;
-    thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">配当再投資の複利効果: <strong>+'+fmt(diff)+'円</strong>（再投資なしと比較）</div>';
+var noReinvestTotal=principal*rate*(1-taxRate)*years;
+var diff=finalData.total-noReinvestTotal;
+thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">配当再投資の複利効果: <strong>+'+fmt(diff)+'円</strong>（再投資なしと比較）</div>';
   }
 
   document.getElementById('divTimeline').innerHTML=thtml;
 
   // ETF comparison
   var etfs=[
-    {name:'VYM',desc:'バンガード米国高配当',yield:2.8,type:'米国ETF'},
-    {name:'HDV',desc:'iシェアーズ高配当',yield:3.5,type:'米国ETF'},
-    {name:'SPYD',desc:'S&P500高配当',yield:4.5,type:'米国ETF'},
-    {name:'1489',desc:'日経高配当50',yield:3.2,type:'国内ETF'},
-    {name:'2914',desc:'日本たばこ産業(JT)',yield:4.8,type:'個別株'},
-    {name:'8593',desc:'三菱HCキャピタル',yield:3.8,type:'個別株'}
+{name:'VYM',desc:'バンガード米国高配当',yield:2.8,type:'米国ETF'},
+{name:'HDV',desc:'iシェアーズ高配当',yield:3.5,type:'米国ETF'},
+{name:'SPYD',desc:'S&P500高配当',yield:4.5,type:'米国ETF'},
+{name:'1489',desc:'日経高配当50',yield:3.2,type:'国内ETF'},
+{name:'2914',desc:'日本たばこ産業(JT)',yield:4.8,type:'個別株'},
+{name:'8593',desc:'三菱HCキャピタル',yield:3.8,type:'個別株'}
   ];
 
   var ehtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">';
   for(var i=0;i<etfs.length;i++){
-    var annDiv=principal*etfs[i].yield/100*(account==='nisa'?1:0.79685);
-    ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
-    ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
-    ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
-    ehtml+='</div>';
-    ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'</div>';
-    ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">年間配当: <strong>'+fmt(annDiv)+'円</strong>（税引後）</div>';
-    ehtml+='</div>';
+var annDiv=principal*etfs[i].yield/100*(account==='nisa'?1:0.79685);
+ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
+ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
+ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
+ehtml+='</div>';
+ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'</div>';
+ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">年間配当: <strong>'+fmt(annDiv)+'円</strong>（税引後）</div>';
+ehtml+='</div>';
   }
   ehtml+='</div>';
   ehtml+='<div style="margin-top:8px;font-size:11px;color:#92400e;text-align:center;">※配当利回りは2026年5月時点の参考値です。実際の配当は変動します。</div>';

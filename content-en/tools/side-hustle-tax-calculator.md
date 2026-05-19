@@ -87,19 +87,19 @@ function fmt(n){return Math.round(n).toLocaleString('en-US');}
 function calcFedTax(taxable,filing){
   var brackets;
   if(filing==='married'){
-    brackets=[[23200,0.10],[94300,0.12],[201050,0.22],[383900,0.24],[487450,0.32],[731200,0.35],[Infinity,0.37]];
+brackets=[[23200,0.10],[94300,0.12],[201050,0.22],[383900,0.24],[487450,0.32],[731200,0.35],[Infinity,0.37]];
   } else if(filing==='hoh'){
-    brackets=[[16550,0.10],[63100,0.12],[100500,0.22],[191950,0.24],[243725,0.32],[609350,0.35],[Infinity,0.37]];
+brackets=[[16550,0.10],[63100,0.12],[100500,0.22],[191950,0.24],[243725,0.32],[609350,0.35],[Infinity,0.37]];
   } else {
-    brackets=[[11600,0.10],[47150,0.12],[100525,0.22],[191950,0.24],[243725,0.32],[609350,0.35],[Infinity,0.37]];
+brackets=[[11600,0.10],[47150,0.12],[100525,0.22],[191950,0.24],[243725,0.32],[609350,0.35],[Infinity,0.37]];
   }
   var tax=0,prev=0;
   for(var i=0;i<brackets.length;i++){
-    var upper=brackets[i][0],rate=brackets[i][1];
-    var amt=Math.min(taxable,upper)-prev;
-    if(amt<=0) break;
-    tax+=amt*rate;
-    prev=upper;
+var upper=brackets[i][0],rate=brackets[i][1];
+var amt=Math.min(taxable,upper)-prev;
+if(amt<=0) break;
+tax+=amt*rate;
+prev=upper;
   }
   return Math.max(0,tax);
 }
@@ -167,30 +167,30 @@ function calcSH(){
   bhtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:8px;">Item</th><th style="text-align:right;padding:8px;">Amount</th></tr>';
 
   var rows=[
-    ['Side hustle gross revenue','$'+fmt(rev)],
-    ['Business expenses','-$'+fmt(exp)],
-    ['Net profit (Schedule C)','$'+fmt(netProfit)],
-    ['',''],
-    ['Self-employment tax (15.3%)','$'+fmt(Math.round(seTax))],
-    ['  Social Security (12.4%)','$'+fmt(Math.round(ssTax))],
-    ['  Medicare (2.9%)','$'+fmt(Math.round(medicareTax))],
-    ['',''],
-    ['Additional federal income tax','$'+fmt(Math.round(additionalFed))],
-    ['SE tax deduction (above-the-line)','-$'+fmt(Math.round(seDeduction))],
-    ['',''],
-    ['Total tax on side income','$'+fmt(Math.round(totalSHTax))],
-    ['Take-home from side hustle','$'+fmt(Math.round(takeHome))]
+['Side hustle gross revenue','$'+fmt(rev)],
+['Business expenses','-$'+fmt(exp)],
+['Net profit (Schedule C)','$'+fmt(netProfit)],
+['',''],
+['Self-employment tax (15.3%)','$'+fmt(Math.round(seTax))],
+['  Social Security (12.4%)','$'+fmt(Math.round(ssTax))],
+['  Medicare (2.9%)','$'+fmt(Math.round(medicareTax))],
+['',''],
+['Additional federal income tax','$'+fmt(Math.round(additionalFed))],
+['SE tax deduction (above-the-line)','-$'+fmt(Math.round(seDeduction))],
+['',''],
+['Total tax on side income','$'+fmt(Math.round(totalSHTax))],
+['Take-home from side hustle','$'+fmt(Math.round(takeHome))]
   ];
 
   for(var i=0;i<rows.length;i++){
-    if(rows[i][0]===''){bhtml+='<tr><td colspan="2" style="padding:4px;"></td></tr>';continue;}
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=(i===rows.length-1||i===rows.length-2)?'font-weight:bold;':'';
-    var indent=rows[i][0].startsWith('  ')?'padding-left:24px;':'';
-    bhtml+='<tr style="background:'+bg+';'+bold+'">';
-    bhtml+='<td style="padding:8px;'+indent+'">'+rows[i][0].trim()+'</td>';
-    bhtml+='<td style="padding:8px;text-align:right;">'+rows[i][1]+'</td>';
-    bhtml+='</tr>';
+if(rows[i][0]===''){bhtml+='<tr><td colspan="2" style="padding:4px;"></td></tr>';continue;}
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=(i===rows.length-1||i===rows.length-2)?'font-weight:bold;':'';
+var indent=rows[i][0].startsWith('  ')?'padding-left:24px;':'';
+bhtml+='<tr style="background:'+bg+';'+bold+'">';
+bhtml+='<td style="padding:8px;'+indent+'">'+rows[i][0].trim()+'</td>';
+bhtml+='<td style="padding:8px;text-align:right;">'+rows[i][1]+'</td>';
+bhtml+='</tr>';
   }
   bhtml+='</table>';
   document.getElementById('shBreakdown').innerHTML=bhtml;
@@ -200,10 +200,10 @@ function calcSH(){
   var qhtml='<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px;text-align:center;">';
   var dates=['Apr 15','Jun 15','Sep 15','Jan 15'];
   for(var i=0;i<4;i++){
-    qhtml+='<div style="padding:12px;background:#fff;border-radius:8px;">';
-    qhtml+='<div style="font-size:11px;color:#64748b;">Q'+(i+1)+' ('+dates[i]+')</div>';
-    qhtml+='<div style="font-size:18px;font-weight:bold;color:#92400e;">$'+fmt(quarterly)+'</div>';
-    qhtml+='</div>';
+qhtml+='<div style="padding:12px;background:#fff;border-radius:8px;">';
+qhtml+='<div style="font-size:11px;color:#64748b;">Q'+(i+1)+' ('+dates[i]+')</div>';
+qhtml+='<div style="font-size:18px;font-weight:bold;color:#92400e;">$'+fmt(quarterly)+'</div>';
+qhtml+='</div>';
   }
   qhtml+='</div>';
   qhtml+='<div style="margin-top:12px;font-size:12px;color:#92400e;text-align:center;">Pay quarterly estimated taxes to avoid underpayment penalties. Use IRS Form 1040-ES.</div>';

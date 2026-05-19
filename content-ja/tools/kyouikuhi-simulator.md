@@ -208,11 +208,11 @@ var EDU_COSTS = {
   chugakkou:  { public: 54, private: 144, years: 3 },
   koukou:     { public: 51, private: 105, years: 3 },
   daigaku: {
-    national:    { cost: 54,  years: 4 },
-    private_bun: { cost: 95,  years: 4 },
-    private_ri:  { cost: 130, years: 4 },
-    medical:     { cost: 350, years: 6 },
-    none:        { cost: 0,   years: 0 }
+national:    { cost: 54,  years: 4 },
+private_bun: { cost: 95,  years: 4 },
+private_ri:  { cost: 130, years: 4 },
+medical:     { cost: 350, years: 6 },
+none:        { cost: 0,   years: 0 }
   }
 };
 
@@ -235,7 +235,7 @@ var STAGE_LABELS = {
 function getRadioVal(name) {
   var radios = document.getElementsByName(name);
   for (var i = 0; i < radios.length; i++) {
-    if (radios[i].checked) return radios[i].value;
+if (radios[i].checked) return radios[i].value;
   }
   return '';
 }
@@ -243,29 +243,29 @@ function getRadioVal(name) {
 function setRadio(name, value) {
   var radios = document.getElementsByName(name);
   for (var i = 0; i < radios.length; i++) {
-    radios[i].checked = (radios[i].value === value);
+radios[i].checked = (radios[i].value === value);
   }
 }
 
 function setPreset(type) {
   if (type === 'all_public') {
-    setRadio('yochien', 'public');
-    setRadio('shougakkou', 'public');
-    setRadio('chugakkou', 'public');
-    setRadio('koukou', 'public');
-    setRadio('daigaku', 'national');
+setRadio('yochien', 'public');
+setRadio('shougakkou', 'public');
+setRadio('chugakkou', 'public');
+setRadio('koukou', 'public');
+setRadio('daigaku', 'national');
   } else if (type === 'high_public_univ_private') {
-    setRadio('yochien', 'public');
-    setRadio('shougakkou', 'public');
-    setRadio('chugakkou', 'public');
-    setRadio('koukou', 'public');
-    setRadio('daigaku', 'private_bun');
+setRadio('yochien', 'public');
+setRadio('shougakkou', 'public');
+setRadio('chugakkou', 'public');
+setRadio('koukou', 'public');
+setRadio('daigaku', 'private_bun');
   } else if (type === 'all_private') {
-    setRadio('yochien', 'private');
-    setRadio('shougakkou', 'private');
-    setRadio('chugakkou', 'private');
-    setRadio('koukou', 'private');
-    setRadio('daigaku', 'private_ri');
+setRadio('yochien', 'private');
+setRadio('shougakkou', 'private');
+setRadio('chugakkou', 'private');
+setRadio('koukou', 'private');
+setRadio('daigaku', 'private_ri');
   }
   calcEdu();
 }
@@ -282,7 +282,7 @@ function calcTotal(yochien, shougakkou, chugakkou, koukou, daigaku) {
 
 function fmtMan(val) {
   if (val >= 10000) {
-    return (val / 10000).toFixed(0) + '億' + (val % 10000 > 0 ? (val % 10000) + '万' : '') + '円';
+return (val / 10000).toFixed(0) + '億' + (val % 10000 > 0 ? (val % 10000) + '万' : '') + '円';
   }
   return val.toLocaleString() + '万円';
 }
@@ -302,11 +302,11 @@ function calcEdu() {
 
   // Stage subtotals
   var stages = [
-    { key: 'yochien',    label: '幼稚園', annual: EDU_COSTS.yochien[y],          years: EDU_COSTS.yochien.years,    subtotal: EDU_COSTS.yochien[y] * EDU_COSTS.yochien.years },
-    { key: 'shougakkou', label: '小学校', annual: EDU_COSTS.shougakkou[s],        years: EDU_COSTS.shougakkou.years, subtotal: EDU_COSTS.shougakkou[s] * EDU_COSTS.shougakkou.years },
-    { key: 'chugakkou',  label: '中学校', annual: EDU_COSTS.chugakkou[c],         years: EDU_COSTS.chugakkou.years,  subtotal: EDU_COSTS.chugakkou[c] * EDU_COSTS.chugakkou.years },
-    { key: 'koukou',     label: '高校',   annual: EDU_COSTS.koukou[k],            years: EDU_COSTS.koukou.years,     subtotal: EDU_COSTS.koukou[k] * EDU_COSTS.koukou.years },
-    { key: 'daigaku',    label: '大学',   annual: EDU_COSTS.daigaku[d].cost,      years: EDU_COSTS.daigaku[d].years, subtotal: EDU_COSTS.daigaku[d].cost * EDU_COSTS.daigaku[d].years }
+{ key: 'yochien',    label: '幼稚園', annual: EDU_COSTS.yochien[y],          years: EDU_COSTS.yochien.years,    subtotal: EDU_COSTS.yochien[y] * EDU_COSTS.yochien.years },
+{ key: 'shougakkou', label: '小学校', annual: EDU_COSTS.shougakkou[s],        years: EDU_COSTS.shougakkou.years, subtotal: EDU_COSTS.shougakkou[s] * EDU_COSTS.shougakkou.years },
+{ key: 'chugakkou',  label: '中学校', annual: EDU_COSTS.chugakkou[c],         years: EDU_COSTS.chugakkou.years,  subtotal: EDU_COSTS.chugakkou[c] * EDU_COSTS.chugakkou.years },
+{ key: 'koukou',     label: '高校',   annual: EDU_COSTS.koukou[k],            years: EDU_COSTS.koukou.years,     subtotal: EDU_COSTS.koukou[k] * EDU_COSTS.koukou.years },
+{ key: 'daigaku',    label: '大学',   annual: EDU_COSTS.daigaku[d].cost,      years: EDU_COSTS.daigaku[d].years, subtotal: EDU_COSTS.daigaku[d].cost * EDU_COSTS.daigaku[d].years }
   ];
 
   var total = 0;
@@ -324,10 +324,10 @@ function calcEdu() {
   var barHTML = '';
   var legendHTML = '';
   for (var i = 0; i < stages.length; i++) {
-    if (stages[i].subtotal === 0) continue;
-    var pct = total > 0 ? (stages[i].subtotal / total * 100).toFixed(1) : 0;
-    barHTML += '<div style="width:' + pct + '%;background:' + STAGE_COLORS[stages[i].key] + ';height:100%;transition:width 0.3s;" title="' + stages[i].label + ': ' + stages[i].subtotal + '万円"></div>';
-    legendHTML += '<span><span style="display:inline-block;width:10px;height:10px;background:' + STAGE_COLORS[stages[i].key] + ';border-radius:2px;margin-right:3px;"></span>' + stages[i].label + ' ' + stages[i].subtotal + '万円</span>';
+if (stages[i].subtotal === 0) continue;
+var pct = total > 0 ? (stages[i].subtotal / total * 100).toFixed(1) : 0;
+barHTML += '<div style="width:' + pct + '%;background:' + STAGE_COLORS[stages[i].key] + ';height:100%;transition:width 0.3s;" title="' + stages[i].label + ': ' + stages[i].subtotal + '万円"></div>';
+legendHTML += '<span><span style="display:inline-block;width:10px;height:10px;background:' + STAGE_COLORS[stages[i].key] + ';border-radius:2px;margin-right:3px;"></span>' + stages[i].label + ' ' + stages[i].subtotal + '万円</span>';
   }
   document.getElementById('stackedBar').innerHTML = barHTML;
   document.getElementById('barLegend').innerHTML = legendHTML;
@@ -335,23 +335,23 @@ function calcEdu() {
   // Breakdown table
   var tbodyHTML = '';
   for (var i = 0; i < stages.length; i++) {
-    var st = stages[i];
-    var bg = i % 2 === 0 ? '#fff' : '#fffbeb';
-    var typeLabel = '';
-    if (st.key === 'yochien') typeLabel = y === 'public' ? '公立' : '私立';
-    else if (st.key === 'shougakkou') typeLabel = s === 'public' ? '公立' : '私立';
-    else if (st.key === 'chugakkou') typeLabel = c === 'public' ? '公立' : '私立';
-    else if (st.key === 'koukou') typeLabel = k === 'public' ? '公立' : '私立';
-    else {
-      var labels = { national: '国公立', private_bun: '私立文系', private_ri: '私立理系', medical: '私立医学部', none: 'なし' };
-      typeLabel = labels[d] || '';
-    }
-    tbodyHTML += '<tr style="background:' + bg + ';">';
-    tbodyHTML += '<td style="padding:9px 8px;">' + st.label + '<span style="font-size:11px;color:#64748b;margin-left:6px;">（' + typeLabel + '）</span></td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:center;">' + st.years + '年</td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:right;">' + (st.annual > 0 ? st.annual + '万円' : '—') + '</td>';
-    tbodyHTML += '<td style="padding:9px 8px;text-align:right;font-weight:bold;">' + (st.subtotal > 0 ? st.subtotal + '万円' : '—') + '</td>';
-    tbodyHTML += '</tr>';
+var st = stages[i];
+var bg = i % 2 === 0 ? '#fff' : '#fffbeb';
+var typeLabel = '';
+if (st.key === 'yochien') typeLabel = y === 'public' ? '公立' : '私立';
+else if (st.key === 'shougakkou') typeLabel = s === 'public' ? '公立' : '私立';
+else if (st.key === 'chugakkou') typeLabel = c === 'public' ? '公立' : '私立';
+else if (st.key === 'koukou') typeLabel = k === 'public' ? '公立' : '私立';
+else {
+var labels = { national: '国公立', private_bun: '私立文系', private_ri: '私立理系', medical: '私立医学部', none: 'なし' };
+typeLabel = labels[d] || '';
+}
+tbodyHTML += '<tr style="background:' + bg + ';">';
+tbodyHTML += '<td style="padding:9px 8px;">' + st.label + '<span style="font-size:11px;color:#64748b;margin-left:6px;">（' + typeLabel + '）</span></td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:center;">' + st.years + '年</td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:right;">' + (st.annual > 0 ? st.annual + '万円' : '—') + '</td>';
+tbodyHTML += '<td style="padding:9px 8px;text-align:right;font-weight:bold;">' + (st.subtotal > 0 ? st.subtotal + '万円' : '—') + '</td>';
+tbodyHTML += '</tr>';
   }
   document.getElementById('breakdownTable').innerHTML = tbodyHTML;
   document.getElementById('breakdownFoot').innerHTML = '<tr style="background:#d97706;color:white;"><td colspan="3" style="padding:10px 8px;font-weight:bold;">合計</td><td style="padding:10px 8px;text-align:right;font-weight:bold;font-size:16px;">' + total + '万円</td></tr>';
@@ -365,13 +365,13 @@ function calcEdu() {
   var gap = totalSavings - total;
   var gapEl = document.getElementById('gapDisplay');
   if (gap >= 0) {
-    gapEl.style.background = '#d1fae5';
-    gapEl.style.color = '#065f46';
-    gapEl.textContent = '余裕額: ' + fmtMan(gap) + '（積立で教育費をカバーできます）';
+gapEl.style.background = '#d1fae5';
+gapEl.style.color = '#065f46';
+gapEl.textContent = '余裕額: ' + fmtMan(gap) + '（積立で教育費をカバーできます）';
   } else {
-    gapEl.style.background = '#fee2e2';
-    gapEl.style.color = '#991b1b';
-    gapEl.textContent = '不足額: ' + fmtMan(Math.abs(gap)) + '（積立額を増やすか他の資金源を検討しましょう）';
+gapEl.style.background = '#fee2e2';
+gapEl.style.color = '#991b1b';
+gapEl.textContent = '不足額: ' + fmtMan(Math.abs(gap)) + '（積立額を増やすか他の資金源を検討しましょう）';
   }
 
   // 児童手当後の不足
@@ -379,11 +379,11 @@ function calcEdu() {
   var gapAfterJidou = gap + jidou;
   var gapJEl = document.getElementById('gapAfterJidou');
   if (gapAfterJidou >= 0) {
-    gapJEl.style.color = '#065f46';
-    gapJEl.textContent = '余裕額 ' + fmtMan(gapAfterJidou);
+gapJEl.style.color = '#065f46';
+gapJEl.textContent = '余裕額 ' + fmtMan(gapAfterJidou);
   } else {
-    gapJEl.style.color = '#dc2626';
-    gapJEl.textContent = '不足額 ' + fmtMan(Math.abs(gapAfterJidou));
+gapJEl.style.color = '#dc2626';
+gapJEl.textContent = '不足額 ' + fmtMan(Math.abs(gapAfterJidou));
   }
 
   // Comparison table
@@ -396,23 +396,23 @@ function calcEdu() {
   var allPubMonths = univTotalYears * 12;
 
   var patterns = [
-    { label: 'オール公立（国公立大）', total: allPublic,   months: allPubMonths },
-    { label: '高校まで公立＋私立文系大', total: mixPattern,  months: allPubMonths },
-    { label: 'オール私立（私立理系大）', total: allPrivate,  months: allPubMonths },
-    { label: 'あなたの選択', total: userPattern, months: monthsLeft, highlight: true }
+{ label: 'オール公立（国公立大）', total: allPublic,   months: allPubMonths },
+{ label: '高校まで公立＋私立文系大', total: mixPattern,  months: allPubMonths },
+{ label: 'オール私立（私立理系大）', total: allPrivate,  months: allPubMonths },
+{ label: 'あなたの選択', total: userPattern, months: monthsLeft, highlight: true }
   ];
 
   var compHTML = '';
   for (var i = 0; i < patterns.length; i++) {
-    var p = patterns[i];
-    var monthlyEq = p.months > 0 ? Math.ceil(p.total / p.months * 10) / 10 : 0;
-    var bg = p.highlight ? '#fef3c7' : (i % 2 === 0 ? '#fff' : '#f8fafc');
-    var fw = p.highlight ? 'bold' : 'normal';
-    compHTML += '<tr style="background:' + bg + ';font-weight:' + fw + ';">';
-    compHTML += '<td style="padding:9px 8px;border-bottom:1px solid #e2e8f0;">' + p.label + (p.highlight ? ' ★' : '') + '</td>';
-    compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#d97706;font-weight:bold;">' + fmtMan(p.total) + '</td>';
-    compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">' + monthlyEq + '万円</td>';
-    compHTML += '</tr>';
+var p = patterns[i];
+var monthlyEq = p.months > 0 ? Math.ceil(p.total / p.months * 10) / 10 : 0;
+var bg = p.highlight ? '#fef3c7' : (i % 2 === 0 ? '#fff' : '#f8fafc');
+var fw = p.highlight ? 'bold' : 'normal';
+compHTML += '<tr style="background:' + bg + ';font-weight:' + fw + ';">';
+compHTML += '<td style="padding:9px 8px;border-bottom:1px solid #e2e8f0;">' + p.label + (p.highlight ? ' ★' : '') + '</td>';
+compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#d97706;font-weight:bold;">' + fmtMan(p.total) + '</td>';
+compHTML += '<td style="padding:9px 8px;text-align:right;border-bottom:1px solid #e2e8f0;">' + monthlyEq + '万円</td>';
+compHTML += '</tr>';
   }
   document.getElementById('comparisonTable').innerHTML = compHTML;
 }

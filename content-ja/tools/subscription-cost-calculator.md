@@ -119,51 +119,51 @@ cover:
 
 var categories = [
   {
-    id: 'video',
-    label: '動画・音楽',
-    color: '#e11d48',
-    items: [
-      {name:'Netflix', cost:1490, checked:true},
-      {name:'Spotify', cost:980, checked:true},
-      {name:'YouTube Premium', cost:1280, checked:false},
-      {name:'Disney+', cost:990, checked:false},
-      {name:'Amazon Prime', cost:600, checked:true}
-    ]
+id: 'video',
+label: '動画・音楽',
+color: '#e11d48',
+items: [
+{name:'Netflix', cost:1490, checked:true},
+{name:'Spotify', cost:980, checked:true},
+{name:'YouTube Premium', cost:1280, checked:false},
+{name:'Disney+', cost:990, checked:false},
+{name:'Amazon Prime', cost:600, checked:true}
+]
   },
   {
-    id: 'work',
-    label: '仕事・生産性',
-    color: '#7c3aed',
-    items: [
-      {name:'Microsoft 365', cost:1490, checked:false},
-      {name:'Google One', cost:250, checked:false},
-      {name:'Notion', cost:0, checked:false},
-      {name:'Dropbox', cost:1500, checked:false}
-    ]
+id: 'work',
+label: '仕事・生産性',
+color: '#7c3aed',
+items: [
+{name:'Microsoft 365', cost:1490, checked:false},
+{name:'Google One', cost:250, checked:false},
+{name:'Notion', cost:0, checked:false},
+{name:'Dropbox', cost:1500, checked:false}
+]
   },
   {
-    id: 'health',
-    label: '健康・フィットネス',
-    color: '#059669',
-    items: [
-      {name:'ジム会費', cost:8000, checked:false},
-      {name:'フィットネスアプリ', cost:980, checked:false}
-    ]
+id: 'health',
+label: '健康・フィットネス',
+color: '#059669',
+items: [
+{name:'ジム会費', cost:8000, checked:false},
+{name:'フィットネスアプリ', cost:980, checked:false}
+]
   },
   {
-    id: 'news',
-    label: 'ニュース・学習',
-    color: '#d97706',
-    items: [
-      {name:'新聞電子版', cost:1000, checked:false},
-      {name:'オンライン講座', cost:2000, checked:false}
-    ]
+id: 'news',
+label: 'ニュース・学習',
+color: '#d97706',
+items: [
+{name:'新聞電子版', cost:1000, checked:false},
+{name:'オンライン講座', cost:2000, checked:false}
+]
   },
   {
-    id: 'other',
-    label: 'その他',
-    color: '#0284c7',
-    items: []
+id: 'other',
+label: 'その他',
+color: '#0284c7',
+items: []
   }
 ];
 
@@ -178,15 +178,15 @@ function renderRows(cat){
   if(!container) return;
   var html = '';
   for(var i=0;i<cat.items.length;i++){
-    var item = cat.items[i];
-    var ck = item.checked ? 'checked' : '';
-    html += '<div style="'+rowStyle()+'">';
-    html += '<input type="checkbox" '+ck+' data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onCheck(this)" style="width:18px;height:18px;accent-color:#e11d48;flex-shrink:0;cursor:pointer;">';
-    html += '<input type="text" value="'+escHtml(item.name)+'" data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onNameChange(this)" style="flex:1;border:none;background:transparent;font-size:14px;color:#1e293b;min-width:0;padding:2px 4px;border-radius:4px;" onfocus="this.style.background=\'#fff\';this.style.border=\'1px solid #fda4af\';" onblur="this.style.background=\'transparent\';this.style.border=\'none\';">';
-    html += '<input type="number" value="'+item.cost+'" min="0" data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onCostChange(this)" style="width:90px;padding:4px 6px;border:1px solid #cbd5e1;border-radius:6px;font-size:14px;text-align:right;">';
-    html += '<span style="font-size:13px;color:#64748b;flex-shrink:0;">円/月</span>';
-    html += '<button onclick="removeRow(\''+cat.id+'\','+i+')" style="background:none;border:none;color:#94a3b8;font-size:18px;cursor:pointer;padding:0 4px;line-height:1;flex-shrink:0;" title="削除">×</button>';
-    html += '</div>';
+var item = cat.items[i];
+var ck = item.checked ? 'checked' : '';
+html += '<div style="'+rowStyle()+'">';
+html += '<input type="checkbox" '+ck+' data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onCheck(this)" style="width:18px;height:18px;accent-color:#e11d48;flex-shrink:0;cursor:pointer;">';
+html += '<input type="text" value="'+escHtml(item.name)+'" data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onNameChange(this)" style="flex:1;border:none;background:transparent;font-size:14px;color:#1e293b;min-width:0;padding:2px 4px;border-radius:4px;" onfocus="this.style.background=\'#fff\';this.style.border=\'1px solid #fda4af\';" onblur="this.style.background=\'transparent\';this.style.border=\'none\';">';
+html += '<input type="number" value="'+item.cost+'" min="0" data-cat="'+cat.id+'" data-idx="'+i+'" onchange="onCostChange(this)" style="width:90px;padding:4px 6px;border:1px solid #cbd5e1;border-radius:6px;font-size:14px;text-align:right;">';
+html += '<span style="font-size:13px;color:#64748b;flex-shrink:0;">円/月</span>';
+html += '<button onclick="removeRow(\''+cat.id+'\','+i+')" style="background:none;border:none;color:#94a3b8;font-size:18px;cursor:pointer;padding:0 4px;line-height:1;flex-shrink:0;" title="削除">×</button>';
+html += '</div>';
   }
   container.innerHTML = html;
 }
@@ -197,14 +197,14 @@ function escHtml(s){
 
 function renderAll(){
   for(var i=0;i<categories.length;i++){
-    renderRows(categories[i]);
+renderRows(categories[i]);
   }
   calcResults();
 }
 
 function getCatById(id){
   for(var i=0;i<categories.length;i++){
-    if(categories[i].id===id) return categories[i];
+if(categories[i].id===id) return categories[i];
   }
   return null;
 }
@@ -254,15 +254,15 @@ function calcResults(){
   var catTotals = [];
 
   for(var i=0;i<categories.length;i++){
-    var cat = categories[i];
-    var catSum = 0;
-    for(var j=0;j<cat.items.length;j++){
-      if(cat.items[j].checked){
-        catSum += cat.items[j].cost;
-      }
-    }
-    catTotals.push({label:cat.label, color:cat.color, sum:catSum});
-    totalMonthly += catSum;
+var cat = categories[i];
+var catSum = 0;
+for(var j=0;j<cat.items.length;j++){
+if(cat.items[j].checked){
+catSum += cat.items[j].cost;
+}
+}
+catTotals.push({label:cat.label, color:cat.color, sum:catSum});
+totalMonthly += catSum;
   }
 
   var totalYearly = totalMonthly * 12;
@@ -279,21 +279,21 @@ function calcResults(){
 
   var bHtml = '';
   if(totalMonthly === 0){
-    bHtml = '<div style="color:#94a3b8;font-size:14px;text-align:center;padding:12px 0;">チェックを入れたサービスがありません</div>';
+bHtml = '<div style="color:#94a3b8;font-size:14px;text-align:center;padding:12px 0;">チェックを入れたサービスがありません</div>';
   } else {
-    for(var k=0;k<catTotals.length;k++){
-      if(catTotals[k].sum===0) continue;
-      var pct = Math.round(catTotals[k].sum / totalMonthly * 100);
-      bHtml += '<div style="margin-bottom:10px;">';
-      bHtml += '<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">';
-      bHtml += '<span style="font-weight:bold;color:'+catTotals[k].color+';">'+catTotals[k].label+'</span>';
-      bHtml += '<span style="color:#1e293b;">'+catTotals[k].sum.toLocaleString()+'円/月 <span style="color:#94a3b8;">('+pct+'%)</span></span>';
-      bHtml += '</div>';
-      bHtml += '<div style="background:#f1f5f9;border-radius:4px;height:10px;overflow:hidden;">';
-      bHtml += '<div style="background:'+catTotals[k].color+';height:100%;width:'+pct+'%;border-radius:4px;transition:width 0.4s;"></div>';
-      bHtml += '</div>';
-      bHtml += '</div>';
-    }
+for(var k=0;k<catTotals.length;k++){
+if(catTotals[k].sum===0) continue;
+var pct = Math.round(catTotals[k].sum / totalMonthly * 100);
+bHtml += '<div style="margin-bottom:10px;">';
+bHtml += '<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">';
+bHtml += '<span style="font-weight:bold;color:'+catTotals[k].color+';">'+catTotals[k].label+'</span>';
+bHtml += '<span style="color:#1e293b;">'+catTotals[k].sum.toLocaleString()+'円/月 <span style="color:#94a3b8;">('+pct+'%)</span></span>';
+bHtml += '</div>';
+bHtml += '<div style="background:#f1f5f9;border-radius:4px;height:10px;overflow:hidden;">';
+bHtml += '<div style="background:'+catTotals[k].color+';height:100%;width:'+pct+'%;border-radius:4px;transition:width 0.4s;"></div>';
+bHtml += '</div>';
+bHtml += '</div>';
+}
   }
   document.getElementById('res-breakdown').innerHTML = bHtml;
 }

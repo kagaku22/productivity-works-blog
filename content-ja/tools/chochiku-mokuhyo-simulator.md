@@ -158,25 +158,25 @@ function calcCS(){
   document.getElementById('csReturnVal').textContent=(annualReturn*100).toFixed(1)+'%';
 
   if(goal<=current){
-    document.getElementById('csTime').textContent='既に達成済み！';
-    document.getElementById('csDate').textContent='現在の貯金が目標額を超えています。';
-    document.getElementById('csContributed').textContent='0万円';
-    document.getElementById('csInterest').textContent='0万円';
-    document.getElementById('csFinal').textContent=currentMan+'万円';
-    document.getElementById('csBarCurrent').style.width='100%';
-    document.getElementById('csBarContrib').style.width='0%';
-    document.getElementById('csBarReturn').style.width='0%';
-    document.getElementById('csPctLabel').textContent='目標達成済み';
-    document.getElementById('csTableBody').innerHTML='';
-    document.getElementById('csScenarios').innerHTML='';
-    document.getElementById('csComparison').innerHTML='';
-    return;
+document.getElementById('csTime').textContent='既に達成済み！';
+document.getElementById('csDate').textContent='現在の貯金が目標額を超えています。';
+document.getElementById('csContributed').textContent='0万円';
+document.getElementById('csInterest').textContent='0万円';
+document.getElementById('csFinal').textContent=currentMan+'万円';
+document.getElementById('csBarCurrent').style.width='100%';
+document.getElementById('csBarContrib').style.width='0%';
+document.getElementById('csBarReturn').style.width='0%';
+document.getElementById('csPctLabel').textContent='目標達成済み';
+document.getElementById('csTableBody').innerHTML='';
+document.getElementById('csScenarios').innerHTML='';
+document.getElementById('csComparison').innerHTML='';
+return;
   }
 
   if(monthly<=0){
-    document.getElementById('csTime').textContent='積立額を設定してください';
-    document.getElementById('csDate').textContent='毎月の積立額が必要です。';
-    return;
+document.getElementById('csTime').textContent='積立額を設定してください';
+document.getElementById('csDate').textContent='毎月の積立額が必要です。';
+return;
   }
 
   const result=computeM(goal,current,monthly,monthlyReturn);
@@ -190,9 +190,9 @@ function calcCS(){
   if(months===0) timeStr='1ヶ月以内';
   if(months>600){timeStr='50年以上';document.getElementById('csDate').textContent='積立額または利回りを上げましょう。';}
   else{
-    const td=new Date();
-    td.setMonth(td.getMonth()+months);
-    document.getElementById('csDate').textContent='達成予定: '+td.getFullYear()+'年'+(td.getMonth()+1)+'月';
+const td=new Date();
+td.setMonth(td.getMonth()+months);
+document.getElementById('csDate').textContent='達成予定: '+td.getFullYear()+'年'+(td.getMonth()+1)+'月';
   }
   document.getElementById('csTime').textContent=timeStr;
 
@@ -218,16 +218,16 @@ function calcCS(){
   let balance=current;
   const totalYears=Math.ceil(months/12);
   for(let y=1;y<=Math.min(totalYears,40);y++){
-    const mty=y===totalYears?(months%12||12):12;
-    let yc=0,yr=0;
-    for(let m=0;m<mty;m++){
-      const ret=balance*monthlyReturn;
-      yr+=ret;balance+=ret+monthly;yc+=monthly;
-      if(balance>=goal){balance=Math.max(balance,goal);break;}
-    }
-    const bg=y%2===0?'#f5f3ff':'white';
-    tbody+='<tr style="background:'+bg+'"><td style="padding:8px;">'+y+'年目</td><td style="padding:8px;text-align:right;">'+Math.round(yc/10000)+'万円</td><td style="padding:8px;text-align:right;color:#7c3aed;">'+Math.round(yr/10000)+'万円</td><td style="padding:8px;text-align:right;font-weight:bold;">'+Math.round(Math.min(balance,goal*1.1)/10000)+'万円</td></tr>';
-    if(balance>=goal) break;
+const mty=y===totalYears?(months%12||12):12;
+let yc=0,yr=0;
+for(let m=0;m<mty;m++){
+const ret=balance*monthlyReturn;
+yr+=ret;balance+=ret+monthly;yc+=monthly;
+if(balance>=goal){balance=Math.max(balance,goal);break;}
+}
+const bg=y%2===0?'#f5f3ff':'white';
+tbody+='<tr style="background:'+bg+'"><td style="padding:8px;">'+y+'年目</td><td style="padding:8px;text-align:right;">'+Math.round(yc/10000)+'万円</td><td style="padding:8px;text-align:right;color:#7c3aed;">'+Math.round(yr/10000)+'万円</td><td style="padding:8px;text-align:right;font-weight:bold;">'+Math.round(Math.min(balance,goal*1.1)/10000)+'万円</td></tr>';
+if(balance>=goal) break;
   }
   document.getElementById('csTableBody').innerHTML=tbody;
 
@@ -235,18 +235,18 @@ function calcCS(){
   const scenarios=[monthlyMan*1.5,monthlyMan*2,monthlyMan*3].filter(s=>s<=50);
   let sHTML='';
   scenarios.forEach(s=>{
-    const r=computeM(goal,current,s*10000,monthlyReturn);
-    const sy=Math.floor(r.months/12);
-    const sm=r.months%12;
-    let st='';
-    if(sy>0)st+=sy+'年';
-    if(sm>0)st+=(sy>0?' ':'')+sm+'ヶ月';
-    const saved=months-r.months;
-    sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
-    sHTML+='<div><strong>月'+s+'万円</strong></div>';
-    sHTML+='<div style="text-align:right;"><span style="font-weight:bold;">'+st+'</span>';
-    if(saved>0)sHTML+=' <span style="color:#7c3aed;font-size:13px;">('+saved+'ヶ月短縮)</span>';
-    sHTML+='</div></div>';
+const r=computeM(goal,current,s*10000,monthlyReturn);
+const sy=Math.floor(r.months/12);
+const sm=r.months%12;
+let st='';
+if(sy>0)st+=sy+'年';
+if(sm>0)st+=(sy>0?' ':'')+sm+'ヶ月';
+const saved=months-r.months;
+sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
+sHTML+='<div><strong>月'+s+'万円</strong></div>';
+sHTML+='<div style="text-align:right;"><span style="font-weight:bold;">'+st+'</span>';
+if(saved>0)sHTML+=' <span style="color:#7c3aed;font-size:13px;">('+saved+'ヶ月短縮)</span>';
+sHTML+='</div></div>';
   });
   document.getElementById('csScenarios').innerHTML=sHTML;
 
@@ -274,11 +274,11 @@ function setPurpose(){
   const p=document.getElementById('csPurpose').value;
   const presets={emergency:{goal:150,current:0,monthly:3,ret:0},car:{goal:300,current:50,monthly:5,ret:0},wedding:{goal:350,current:50,monthly:5,ret:0},education:{goal:1000,current:0,monthly:3,ret:3},house:{goal:1000,current:100,monthly:5,ret:3},retirement:{goal:2000,current:0,monthly:5,ret:5}};
   if(presets[p]){
-    document.getElementById('csGoal').value=presets[p].goal;
-    document.getElementById('csCurrent').value=presets[p].current;
-    document.getElementById('csMonthly').value=presets[p].monthly;
-    document.getElementById('csReturn').value=presets[p].ret;
-    calcCS();
+document.getElementById('csGoal').value=presets[p].goal;
+document.getElementById('csCurrent').value=presets[p].current;
+document.getElementById('csMonthly').value=presets[p].monthly;
+document.getElementById('csReturn').value=presets[p].ret;
+calcCS();
   }
 }
 

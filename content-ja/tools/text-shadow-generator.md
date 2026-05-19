@@ -58,191 +58,191 @@ cover:
 
 <!-- ライブプレビュー -->
 <div class="ts-panel" style="margin-bottom:16px">
-  <h2>ライブプレビュー</h2>
-  <div class="ts-preview-wrap" id="ts-preview-bg">
-    <span id="ts-preview-text">テキスト シャドウ</span>
-  </div>
-  <div class="ts-preview-controls">
-    <label>テキスト：</label>
-    <input type="text" id="ts-input-text" value="テキスト シャドウ" style="width:180px">
-    <label>文字色：</label>
-    <input type="color" id="ts-input-textcolor" value="#ffffff">
-    <label>サイズ：</label>
-    <input type="range" id="ts-input-fontsize" min="16" max="96" value="48" style="width:100px">
-    <span class="ts-val" id="ts-fontsize-val">48px</span>
-    <label>背景：</label>
-    <input type="color" id="ts-input-bg" value="#1e293b">
-  </div>
+<h2>ライブプレビュー</h2>
+<div class="ts-preview-wrap" id="ts-preview-bg">
+<span id="ts-preview-text">テキスト シャドウ</span>
+</div>
+<div class="ts-preview-controls">
+<label>テキスト：</label>
+<input type="text" id="ts-input-text" value="テキスト シャドウ" style="width:180px">
+<label>文字色：</label>
+<input type="color" id="ts-input-textcolor" value="#ffffff">
+<label>サイズ：</label>
+<input type="range" id="ts-input-fontsize" min="16" max="96" value="48" style="width:100px">
+<span class="ts-val" id="ts-fontsize-val">48px</span>
+<label>背景：</label>
+<input type="color" id="ts-input-bg" value="#1e293b">
+</div>
 </div>
 
 <!-- プリセット -->
 <div class="ts-panel" style="margin-bottom:16px">
-  <h2>プリセット</h2>
-  <div class="ts-presets" id="ts-presets"></div>
+<h2>プリセット</h2>
+<div class="ts-presets" id="ts-presets"></div>
 </div>
 
 <!-- レイヤー + CSS出力 -->
 <div class="ts-grid">
-  <div class="ts-panel">
-    <h2>シャドウレイヤー</h2>
-    <div class="ts-layers" id="ts-layers"></div>
-    <div class="ts-add-row">
-      <button class="ts-btn ts-btn-primary" onclick="tsAddLayer()">＋ レイヤーを追加</button>
-    </div>
-  </div>
-  <div class="ts-panel">
-    <h2>生成されたCSS</h2>
-    <div class="ts-code-wrap">
-      <pre class="ts-code" id="ts-css-out"></pre>
-      <button class="ts-copy-btn" id="ts-copy-btn" onclick="tsCopy()">コピー</button>
-    </div>
-  </div>
+<div class="ts-panel">
+<h2>シャドウレイヤー</h2>
+<div class="ts-layers" id="ts-layers"></div>
+<div class="ts-add-row">
+<button class="ts-btn ts-btn-primary" onclick="tsAddLayer()">＋ レイヤーを追加</button>
+</div>
+</div>
+<div class="ts-panel">
+<h2>生成されたCSS</h2>
+<div class="ts-code-wrap">
+<pre class="ts-code" id="ts-css-out"></pre>
+<button class="ts-copy-btn" id="ts-copy-btn" onclick="tsCopy()">コピー</button>
+</div>
+</div>
 </div>
 
 <script>
 (function(){
-  var layers=[];
-  var lid=0;
+var layers=[];
+var lid=0;
 
-  var PRESETS=[
-    {name:"ネオングロー",layers:[
-      {h:0,v:0,b:4,c:"#ff00ff",a:1},
-      {h:0,v:0,b:16,c:"#ff00ff",a:.8},
-      {h:0,v:0,b:32,c:"#ff00ff",a:.4}
-    ],bg:"#0a0a1a",tc:"#ff00ff",fs:48},
-    {name:"エンボス",layers:[
-      {h:-2,v:-2,b:4,c:"#ffffff",a:.9},
-      {h:2,v:2,b:4,c:"#000000",a:.4}
-    ],bg:"#c0c8d8",tc:"#c0c8d8",fs:48},
-    {name:"レトロ",layers:[
-      {h:3,v:3,b:0,c:"#f97316",a:1},
-      {h:6,v:6,b:0,c:"#ef4444",a:1}
-    ],bg:"#fef9c3",tc:"#1e293b",fs:48},
-    {name:"ファイア",layers:[
-      {h:0,v:-4,b:8,c:"#fbbf24",a:1},
-      {h:0,v:-8,b:16,c:"#f97316",a:.9},
-      {h:0,v:-16,b:24,c:"#ef4444",a:.6},
-      {h:0,v:-24,b:32,c:"#dc2626",a:.3}
-    ],bg:"#18181b",tc:"#fef9c3",fs:48},
-    {name:"3D",layers:[
-      {h:1,v:1,b:0,c:"#475569",a:1},
-      {h:2,v:2,b:0,c:"#64748b",a:1},
-      {h:3,v:3,b:0,c:"#94a3b8",a:1},
-      {h:4,v:4,b:0,c:"#cbd5e1",a:1}
-    ],bg:"#1e293b",tc:"#f8fafc",fs:48},
-    {name:"アウトライン",layers:[
-      {h:1,v:0,b:0,c:"#000000",a:1},
-      {h:-1,v:0,b:0,c:"#000000",a:1},
-      {h:0,v:1,b:0,c:"#000000",a:1},
-      {h:0,v:-1,b:0,c:"#000000",a:1}
-    ],bg:"#f8fafc",tc:"#6366f1",fs:48}
-  ];
+var PRESETS=[
+{name:"ネオングロー",layers:[
+{h:0,v:0,b:4,c:"#ff00ff",a:1},
+{h:0,v:0,b:16,c:"#ff00ff",a:.8},
+{h:0,v:0,b:32,c:"#ff00ff",a:.4}
+],bg:"#0a0a1a",tc:"#ff00ff",fs:48},
+{name:"エンボス",layers:[
+{h:-2,v:-2,b:4,c:"#ffffff",a:.9},
+{h:2,v:2,b:4,c:"#000000",a:.4}
+],bg:"#c0c8d8",tc:"#c0c8d8",fs:48},
+{name:"レトロ",layers:[
+{h:3,v:3,b:0,c:"#f97316",a:1},
+{h:6,v:6,b:0,c:"#ef4444",a:1}
+],bg:"#fef9c3",tc:"#1e293b",fs:48},
+{name:"ファイア",layers:[
+{h:0,v:-4,b:8,c:"#fbbf24",a:1},
+{h:0,v:-8,b:16,c:"#f97316",a:.9},
+{h:0,v:-16,b:24,c:"#ef4444",a:.6},
+{h:0,v:-24,b:32,c:"#dc2626",a:.3}
+],bg:"#18181b",tc:"#fef9c3",fs:48},
+{name:"3D",layers:[
+{h:1,v:1,b:0,c:"#475569",a:1},
+{h:2,v:2,b:0,c:"#64748b",a:1},
+{h:3,v:3,b:0,c:"#94a3b8",a:1},
+{h:4,v:4,b:0,c:"#cbd5e1",a:1}
+],bg:"#1e293b",tc:"#f8fafc",fs:48},
+{name:"アウトライン",layers:[
+{h:1,v:0,b:0,c:"#000000",a:1},
+{h:-1,v:0,b:0,c:"#000000",a:1},
+{h:0,v:1,b:0,c:"#000000",a:1},
+{h:0,v:-1,b:0,c:"#000000",a:1}
+],bg:"#f8fafc",tc:"#6366f1",fs:48}
+];
 
-  function hexToRgba(hex,a){
-    var r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
-    return a<1?'rgba('+r+','+g+','+b+','+a+')':'rgb('+r+','+g+','+b+')';
-  }
+function hexToRgba(hex,a){
+var r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+return a<1?'rgba('+r+','+g+','+b+','+a+')':'rgb('+r+','+g+','+b+')';
+}
 
-  function makeCss(){
-    if(!layers.length)return'text-shadow: none;';
-    var parts=layers.map(function(l){
-      return l.h+'px '+l.v+'px '+l.b+'px '+hexToRgba(l.c,l.a);
-    });
-    return'text-shadow:\n  '+parts.join(',\n  ')+';';
-  }
+function makeCss(){
+if(!layers.length)return'text-shadow: none;';
+var parts=layers.map(function(l){
+return l.h+'px '+l.v+'px '+l.b+'px '+hexToRgba(l.c,l.a);
+});
+return'text-shadow:\n  '+parts.join(',\n  ')+';';
+}
 
-  function applyPreview(){
-    var text=document.getElementById('ts-input-text').value||'テキスト シャドウ';
-    var tc=document.getElementById('ts-input-textcolor').value;
-    var fs=document.getElementById('ts-input-fontsize').value;
-    var bg=document.getElementById('ts-input-bg').value;
-    document.getElementById('ts-fontsize-val').textContent=fs+'px';
-    var el=document.getElementById('ts-preview-text');
-    el.textContent=text;
-    el.style.color=tc;
-    el.style.fontSize=fs+'px';
-    el.style.textShadow=layers.map(function(l){
-      return l.h+'px '+l.v+'px '+l.b+'px '+hexToRgba(l.c,l.a);
-    }).join(', ')||'none';
-    document.getElementById('ts-preview-bg').style.background=bg;
-    document.getElementById('ts-css-out').textContent=makeCss();
-  }
+function applyPreview(){
+var text=document.getElementById('ts-input-text').value||'テキスト シャドウ';
+var tc=document.getElementById('ts-input-textcolor').value;
+var fs=document.getElementById('ts-input-fontsize').value;
+var bg=document.getElementById('ts-input-bg').value;
+document.getElementById('ts-fontsize-val').textContent=fs+'px';
+var el=document.getElementById('ts-preview-text');
+el.textContent=text;
+el.style.color=tc;
+el.style.fontSize=fs+'px';
+el.style.textShadow=layers.map(function(l){
+return l.h+'px '+l.v+'px '+l.b+'px '+hexToRgba(l.c,l.a);
+}).join(', ')||'none';
+document.getElementById('ts-preview-bg').style.background=bg;
+document.getElementById('ts-css-out').textContent=makeCss();
+}
 
-  function renderLayers(){
-    var cont=document.getElementById('ts-layers');
-    cont.innerHTML='';
-    if(!layers.length){
-      cont.innerHTML='<p style="color:#94a3b8;font-size:13px;text-align:center;padding:16px 0;">レイヤーがありません。追加またはプリセットを選択してください。</p>';
-      return;
-    }
-    layers.forEach(function(l,i){
-      var d=document.createElement('div');
-      d.className='ts-layer-card';
-      d.innerHTML='<div class="ts-layer-header"><span class="ts-layer-title">レイヤー '+(i+1)+'</span><button class="ts-btn ts-btn-danger" onclick="tsRemoveLayer('+l.id+')">削除</button></div>'+
-        '<div class="ts-ctrl-row"><label>水平オフセット</label><input type="range" min="-50" max="50" value="'+l.h+'" oninput="tsLayerChange('+l.id+',\'h\',this.value);document.getElementById(\'ts-h-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-h-val-'+l.id+'">'+l.h+'px</span></div>'+
-        '<div class="ts-ctrl-row"><label>垂直オフセット</label><input type="range" min="-50" max="50" value="'+l.v+'" oninput="tsLayerChange('+l.id+',\'v\',this.value);document.getElementById(\'ts-v-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-v-val-'+l.id+'">'+l.v+'px</span></div>'+
-        '<div class="ts-ctrl-row"><label>ぼかし半径</label><input type="range" min="0" max="60" value="'+l.b+'" oninput="tsLayerChange('+l.id+',\'b\',this.value);document.getElementById(\'ts-b-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-b-val-'+l.id+'">'+l.b+'px</span></div>'+
-        '<div class="ts-ctrl-row"><label>カラー</label><input type="color" value="'+l.c+'" oninput="tsLayerChange('+l.id+',\'c\',this.value)"></div>'+
-        '<div class="ts-ctrl-row"><label>不透明度</label><input type="range" min="0" max="1" step="0.01" value="'+l.a+'" oninput="tsLayerChange('+l.id+',\'a\',parseFloat(this.value));document.getElementById(\'ts-a-val-'+l.id+'\').textContent=parseFloat(this.value).toFixed(2)"><span class="ts-val" id="ts-a-val-'+l.id+'">'+l.a.toFixed(2)+'</span></div>';
-      cont.appendChild(d);
-    });
-  }
+function renderLayers(){
+var cont=document.getElementById('ts-layers');
+cont.innerHTML='';
+if(!layers.length){
+cont.innerHTML='<p style="color:#94a3b8;font-size:13px;text-align:center;padding:16px 0;">レイヤーがありません。追加またはプリセットを選択してください。</p>';
+return;
+}
+layers.forEach(function(l,i){
+var d=document.createElement('div');
+d.className='ts-layer-card';
+d.innerHTML='<div class="ts-layer-header"><span class="ts-layer-title">レイヤー '+(i+1)+'</span><button class="ts-btn ts-btn-danger" onclick="tsRemoveLayer('+l.id+')">削除</button></div>'+
+'<div class="ts-ctrl-row"><label>水平オフセット</label><input type="range" min="-50" max="50" value="'+l.h+'" oninput="tsLayerChange('+l.id+',\'h\',this.value);document.getElementById(\'ts-h-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-h-val-'+l.id+'">'+l.h+'px</span></div>'+
+'<div class="ts-ctrl-row"><label>垂直オフセット</label><input type="range" min="-50" max="50" value="'+l.v+'" oninput="tsLayerChange('+l.id+',\'v\',this.value);document.getElementById(\'ts-v-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-v-val-'+l.id+'">'+l.v+'px</span></div>'+
+'<div class="ts-ctrl-row"><label>ぼかし半径</label><input type="range" min="0" max="60" value="'+l.b+'" oninput="tsLayerChange('+l.id+',\'b\',this.value);document.getElementById(\'ts-b-val-'+l.id+'\').textContent=this.value+\'px\'"><span class="ts-val" id="ts-b-val-'+l.id+'">'+l.b+'px</span></div>'+
+'<div class="ts-ctrl-row"><label>カラー</label><input type="color" value="'+l.c+'" oninput="tsLayerChange('+l.id+',\'c\',this.value)"></div>'+
+'<div class="ts-ctrl-row"><label>不透明度</label><input type="range" min="0" max="1" step="0.01" value="'+l.a+'" oninput="tsLayerChange('+l.id+',\'a\',parseFloat(this.value));document.getElementById(\'ts-a-val-'+l.id+'\').textContent=parseFloat(this.value).toFixed(2)"><span class="ts-val" id="ts-a-val-'+l.id+'">'+l.a.toFixed(2)+'</span></div>';
+cont.appendChild(d);
+});
+}
 
-  window.tsAddLayer=function(){
-    layers.push({id:lid++,h:2,v:2,b:4,c:'#000000',a:0.5});
-    renderLayers();applyPreview();
-  };
+window.tsAddLayer=function(){
+layers.push({id:lid++,h:2,v:2,b:4,c:'#000000',a:0.5});
+renderLayers();applyPreview();
+};
 
-  window.tsRemoveLayer=function(id){
-    layers=layers.filter(function(l){return l.id!==id;});
-    renderLayers();applyPreview();
-  };
+window.tsRemoveLayer=function(id){
+layers=layers.filter(function(l){return l.id!==id;});
+renderLayers();applyPreview();
+};
 
-  window.tsLayerChange=function(id,prop,val){
-    var l=layers.find(function(x){return x.id===id;});
-    if(l){l[prop]=prop==='h'||prop==='v'||prop==='b'?parseInt(val,10):val;}
-    applyPreview();
-  };
+window.tsLayerChange=function(id,prop,val){
+var l=layers.find(function(x){return x.id===id;});
+if(l){l[prop]=prop==='h'||prop==='v'||prop==='b'?parseInt(val,10):val;}
+applyPreview();
+};
 
-  window.tsCopy=function(){
-    var txt=makeCss();
-    if(navigator.clipboard){navigator.clipboard.writeText(txt);}else{var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);}
-    var btn=document.getElementById('ts-copy-btn');
-    btn.textContent='コピー済！';btn.classList.add('copied');
-    setTimeout(function(){btn.textContent='コピー';btn.classList.remove('copied');},1800);
-  };
+window.tsCopy=function(){
+var txt=makeCss();
+if(navigator.clipboard){navigator.clipboard.writeText(txt);}else{var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);}
+var btn=document.getElementById('ts-copy-btn');
+btn.textContent='コピー済！';btn.classList.add('copied');
+setTimeout(function(){btn.textContent='コピー';btn.classList.remove('copied');},1800);
+};
 
-  // プリセットボタン描画
-  var pb=document.getElementById('ts-presets');
-  PRESETS.forEach(function(p){
-    var b=document.createElement('button');
-    b.className='ts-preset-btn';b.textContent=p.name;
-    b.onclick=function(){
-      layers=p.layers.map(function(l){return Object.assign({id:lid++},l);});
-      document.getElementById('ts-input-bg').value=p.bg;
-      document.getElementById('ts-input-textcolor').value=p.tc;
-      document.getElementById('ts-input-fontsize').value=p.fs;
-      document.getElementById('ts-fontsize-val').textContent=p.fs+'px';
-      renderLayers();applyPreview();
-    };
-    pb.appendChild(b);
-  });
+// プリセットボタン描画
+var pb=document.getElementById('ts-presets');
+PRESETS.forEach(function(p){
+var b=document.createElement('button');
+b.className='ts-preset-btn';b.textContent=p.name;
+b.onclick=function(){
+layers=p.layers.map(function(l){return Object.assign({id:lid++},l);});
+document.getElementById('ts-input-bg').value=p.bg;
+document.getElementById('ts-input-textcolor').value=p.tc;
+document.getElementById('ts-input-fontsize').value=p.fs;
+document.getElementById('ts-fontsize-val').textContent=p.fs+'px';
+renderLayers();applyPreview();
+};
+pb.appendChild(b);
+});
 
-  // プレビューコントロール
-  ['ts-input-text','ts-input-textcolor','ts-input-fontsize','ts-input-bg'].forEach(function(id){
-    document.getElementById(id).addEventListener('input',applyPreview);
-  });
+// プレビューコントロール
+['ts-input-text','ts-input-textcolor','ts-input-fontsize','ts-input-bg'].forEach(function(id){
+document.getElementById(id).addEventListener('input',applyPreview);
+});
 
-  // 初期表示：ネオングロー
-  (function(){
-    var p=PRESETS[0];
-    layers=p.layers.map(function(l){return Object.assign({id:lid++},l);});
-    document.getElementById('ts-input-bg').value=p.bg;
-    document.getElementById('ts-input-textcolor').value=p.tc;
-    document.getElementById('ts-input-fontsize').value=p.fs;
-    document.getElementById('ts-fontsize-val').textContent=p.fs+'px';
-    renderLayers();applyPreview();
-  })();
+// 初期表示：ネオングロー
+(function(){
+var p=PRESETS[0];
+layers=p.layers.map(function(l){return Object.assign({id:lid++},l);});
+document.getElementById('ts-input-bg').value=p.bg;
+document.getElementById('ts-input-textcolor').value=p.tc;
+document.getElementById('ts-input-fontsize').value=p.fs;
+document.getElementById('ts-fontsize-val').textContent=p.fs+'px';
+renderLayers();applyPreview();
+})();
 })();
 </script>
 </div>
@@ -271,7 +271,7 @@ cover:
 
 ```css
 text-shadow: 水平 垂直 ぼかし カラー, /* レイヤー1 */
-             水平 垂直 ぼかし カラー; /* レイヤー2 */
+水平 垂直 ぼかし カラー; /* レイヤー2 */
 ```
 
 - **水平オフセット** — 正の値で右方向、負の値で左方向
@@ -284,9 +284,9 @@ text-shadow: 水平 垂直 ぼかし カラー, /* レイヤー1 */
 ---
 
 <div style="margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%);border:1.5px solid #bae6fd;border-radius:10px;">
-  <p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">Web制作の経費管理もかんたんに</p>
-  <span style="font-size:13px;color:#0c4a6e;">freee会計なら、デザインツール費用の経費精算もクラウドで一元管理。</span>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
+<p style="margin:0;font-size:14px;color:#0369a1;font-weight:600;">Web制作の経費管理もかんたんに</p>
+<span style="font-size:13px;color:#0c4a6e;">freee会計なら、デザインツール費用の経費精算もクラウドで一元管理。</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;padding:9px 20px;background:#0284c7;color:#fff;border-radius:7px;font-size:13px;font-weight:700;text-decoration:none;">freeeを無料で試す →</a>
 </div>
 
 ---

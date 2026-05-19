@@ -231,11 +231,11 @@ function simulateMonths(currentSavings, monthlyContrib, monthlyReturn, fireNumbe
   var monthsPerYear = 12;
   var annualIncrease = savIncRate / 100;
   for (var month = 1; month <= 600; month++) {
-    if (month > 1 && (month - 1) % monthsPerYear === 0) {
-      contrib *= (1 + annualIncrease);
-    }
-    savings = savings * (1 + monthlyReturn) + contrib;
-    if (savings >= fireNumber) return month;
+if (month > 1 && (month - 1) % monthsPerYear === 0) {
+contrib *= (1 + annualIncrease);
+}
+savings = savings * (1 + monthlyReturn) + contrib;
+if (savings >= fireNumber) return month;
   }
   return Infinity;
 }
@@ -243,8 +243,8 @@ function simulateMonths(currentSavings, monthlyContrib, monthlyReturn, fireNumbe
 function simulateMonthsFixed(currentSavings, monthlyContrib, monthlyReturn, fireNumber) {
   var savings = currentSavings;
   for (var month = 1; month <= 600; month++) {
-    savings = savings * (1 + monthlyReturn) + monthlyContrib;
-    if (savings >= fireNumber) return month;
+savings = savings * (1 + monthlyReturn) + monthlyContrib;
+if (savings >= fireNumber) return month;
   }
   return Infinity;
 }
@@ -310,11 +310,11 @@ function calcFIRE() {
   document.getElementById('fatYears').textContent = fatMonths === Infinity ? 'Not achievable' : yearsMonths(fatMonths);
   document.getElementById('coastNum').textContent = fmtFull(coastFireNum);
   if (coastDiff <= 0) {
-    document.getElementById('coastStatus').textContent = 'You\'ve already hit Coast FIRE!';
-    document.getElementById('coastStatus').style.color = '#16a34a';
+document.getElementById('coastStatus').textContent = 'You\'ve already hit Coast FIRE!';
+document.getElementById('coastStatus').style.color = '#16a34a';
   } else {
-    document.getElementById('coastStatus').textContent = 'Need ' + fmtFull(coastDiff) + ' more';
-    document.getElementById('coastStatus').style.color = '#64748b';
+document.getElementById('coastStatus').textContent = 'Need ' + fmtFull(coastDiff) + ' more';
+document.getElementById('coastStatus').style.color = '#64748b';
   }
 
   // Savings Rate Impact Table
@@ -322,23 +322,23 @@ function calcFIRE() {
   var tbody = document.getElementById('savingsRateBody');
   tbody.innerHTML = '';
   rates.forEach(function(rate) {
-    var annSav = income * (rate / 100);
-    var mContrib = annSav / 12;
-    // Derive implied expenses for this rate
-    var impliedExpenses = income - annSav;
-    var fn = impliedExpenses / swr;
-    var m = simulateMonthsFixed(currentSavings, mContrib, monthlyReturn, fn);
-    var fireA = m === Infinity ? null : age + m / 12;
-    var isClosest = Math.abs(rate - savingsRate) === Math.min.apply(null, rates.map(function(r) { return Math.abs(r - savingsRate); }));
-    var highlight = isClosest ? 'background:#ede9fe;font-weight:700;' : '';
-    var tr = document.createElement('tr');
-    tr.style.cssText = highlight + 'border-bottom:1px solid #e9d5ff;';
-    tr.innerHTML =
-      '<td style="padding:9px 14px;' + (isClosest ? 'color:#7c3aed;' : '') + '">' + rate + '%' + (isClosest ? ' &#9664;' : '') + '</td>' +
-      '<td style="padding:9px 14px;">' + fmtFull(annSav) + '</td>' +
-      '<td style="padding:9px 14px;">' + (m === Infinity ? 'Never' : yearsMonths(m)) + '</td>' +
-      '<td style="padding:9px 14px;">' + (fireA === null ? '—' : 'Age ' + Math.round(fireA)) + '</td>';
-    tbody.appendChild(tr);
+var annSav = income * (rate / 100);
+var mContrib = annSav / 12;
+// Derive implied expenses for this rate
+var impliedExpenses = income - annSav;
+var fn = impliedExpenses / swr;
+var m = simulateMonthsFixed(currentSavings, mContrib, monthlyReturn, fn);
+var fireA = m === Infinity ? null : age + m / 12;
+var isClosest = Math.abs(rate - savingsRate) === Math.min.apply(null, rates.map(function(r) { return Math.abs(r - savingsRate); }));
+var highlight = isClosest ? 'background:#ede9fe;font-weight:700;' : '';
+var tr = document.createElement('tr');
+tr.style.cssText = highlight + 'border-bottom:1px solid #e9d5ff;';
+tr.innerHTML =
+'<td style="padding:9px 14px;' + (isClosest ? 'color:#7c3aed;' : '') + '">' + rate + '%' + (isClosest ? ' &#9664;' : '') + '</td>' +
+'<td style="padding:9px 14px;">' + fmtFull(annSav) + '</td>' +
+'<td style="padding:9px 14px;">' + (m === Infinity ? 'Never' : yearsMonths(m)) + '</td>' +
+'<td style="padding:9px 14px;">' + (fireA === null ? '—' : 'Age ' + Math.round(fireA)) + '</td>';
+tbody.appendChild(tr);
   });
 
   // Year-by-year projection
@@ -355,20 +355,20 @@ function buildProjection(age, currentSavings, annualSavings, annualReturn, fireN
   var maxYears = fireYear === null ? 40 : Math.min(fireYear + 2, 50);
 
   for (var yr = 1; yr <= maxYears; yr++) {
-    var returns = portfolio * annualReturn;
-    portfolio = portfolio + returns + annSav;
-    var isFIREYear = fireYear !== null && yr === fireYear;
-    var rowStyle = isFIREYear ? 'background:#d1fae5;font-weight:700;' : (yr % 2 === 0 ? 'background:#faf5ff;' : '');
-    var tr = document.createElement('tr');
-    tr.style.cssText = rowStyle + 'border-bottom:1px solid #e9d5ff;';
-    tr.innerHTML =
-      '<td style="padding:8px 14px;">' + yr + (isFIREYear ? ' &#127881;' : '') + '</td>' +
-      '<td style="padding:8px 14px;">' + (Math.floor(age) + yr) + '</td>' +
-      '<td style="padding:8px 14px;text-align:right;">' + fmtFull(annSav) + '</td>' +
-      '<td style="padding:8px 14px;text-align:right;">' + fmtFull(returns) + '</td>' +
-      '<td style="padding:8px 14px;text-align:right;">' + fmtFull(portfolio) + '</td>';
-    tbody.appendChild(tr);
-    annSav *= (1 + savInc);
+var returns = portfolio * annualReturn;
+portfolio = portfolio + returns + annSav;
+var isFIREYear = fireYear !== null && yr === fireYear;
+var rowStyle = isFIREYear ? 'background:#d1fae5;font-weight:700;' : (yr % 2 === 0 ? 'background:#faf5ff;' : '');
+var tr = document.createElement('tr');
+tr.style.cssText = rowStyle + 'border-bottom:1px solid #e9d5ff;';
+tr.innerHTML =
+'<td style="padding:8px 14px;">' + yr + (isFIREYear ? ' &#127881;' : '') + '</td>' +
+'<td style="padding:8px 14px;">' + (Math.floor(age) + yr) + '</td>' +
+'<td style="padding:8px 14px;text-align:right;">' + fmtFull(annSav) + '</td>' +
+'<td style="padding:8px 14px;text-align:right;">' + fmtFull(returns) + '</td>' +
+'<td style="padding:8px 14px;text-align:right;">' + fmtFull(portfolio) + '</td>';
+tbody.appendChild(tr);
+annSav *= (1 + savInc);
   }
 }
 
@@ -376,11 +376,11 @@ window.toggleProjection = function() {
   var panel = document.getElementById('projectionTable');
   var icon = document.getElementById('projToggleIcon');
   if (panel.style.display === 'none') {
-    panel.style.display = 'block';
-    icon.textContent = '−';
+panel.style.display = 'block';
+icon.textContent = '−';
   } else {
-    panel.style.display = 'none';
-    icon.textContent = '+';
+panel.style.display = 'none';
+icon.textContent = '+';
   }
 };
 

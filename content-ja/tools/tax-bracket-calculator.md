@@ -130,40 +130,40 @@ cover:
 // 日本の所得税速算表（2026年度）
 const BRACKETS={
   single:[
-    [0,1950000,0.05,0],
-    [1950000,3300000,0.10,97500],
-    [3300000,6950000,0.20,427500],
-    [6950000,9000000,0.23,636000],
-    [9000000,18000000,0.33,1536000],
-    [18000000,40000000,0.40,2796000],
-    [40000000,Infinity,0.45,4796000]
+[0,1950000,0.05,0],
+[1950000,3300000,0.10,97500],
+[3300000,6950000,0.20,427500],
+[6950000,9000000,0.23,636000],
+[9000000,18000000,0.33,1536000],
+[18000000,40000000,0.40,2796000],
+[40000000,Infinity,0.45,4796000]
   ],
   mfj:[
-    [0,1950000,0.05,0],
-    [1950000,3300000,0.10,97500],
-    [3300000,6950000,0.20,427500],
-    [6950000,9000000,0.23,636000],
-    [9000000,18000000,0.33,1536000],
-    [18000000,40000000,0.40,2796000],
-    [40000000,Infinity,0.45,4796000]
+[0,1950000,0.05,0],
+[1950000,3300000,0.10,97500],
+[3300000,6950000,0.20,427500],
+[6950000,9000000,0.23,636000],
+[9000000,18000000,0.33,1536000],
+[18000000,40000000,0.40,2796000],
+[40000000,Infinity,0.45,4796000]
   ],
   mfs:[
-    [0,1950000,0.05,0],
-    [1950000,3300000,0.10,97500],
-    [3300000,6950000,0.20,427500],
-    [6950000,9000000,0.23,636000],
-    [9000000,18000000,0.33,1536000],
-    [18000000,40000000,0.40,2796000],
-    [40000000,Infinity,0.45,4796000]
+[0,1950000,0.05,0],
+[1950000,3300000,0.10,97500],
+[3300000,6950000,0.20,427500],
+[6950000,9000000,0.23,636000],
+[9000000,18000000,0.33,1536000],
+[18000000,40000000,0.40,2796000],
+[40000000,Infinity,0.45,4796000]
   ],
   hoh:[
-    [0,1950000,0.05,0],
-    [1950000,3300000,0.10,97500],
-    [3300000,6950000,0.20,427500],
-    [6950000,9000000,0.23,636000],
-    [9000000,18000000,0.33,1536000],
-    [18000000,40000000,0.40,2796000],
-    [40000000,Infinity,0.45,4796000]
+[0,1950000,0.05,0],
+[1950000,3300000,0.10,97500],
+[3300000,6950000,0.20,427500],
+[6950000,9000000,0.23,636000],
+[9000000,18000000,0.33,1536000],
+[18000000,40000000,0.40,2796000],
+[40000000,Infinity,0.45,4796000]
   ]
 };
 // 各区分の追加控除（基礎控除48万は別途）
@@ -179,11 +179,11 @@ function computeTax(income,status){
   const brackets=BRACKETS[status];
   let tax=0;const details=[];
   for(const[lo,hi,rate,ded]of brackets){
-    if(income<=lo)break;
-    const taxable=Math.min(income,hi)-lo;
-    const t=taxable*rate;
-    tax+=t;
-    details.push({lo,hi:Math.min(income,hi),rate,taxable,tax:t,cumTax:tax});
+if(income<=lo)break;
+const taxable=Math.min(income,hi)-lo;
+const t=taxable*rate;
+tax+=t;
+details.push({lo,hi:Math.min(income,hi),rate,taxable,tax:t,cumTax:tax});
   }
   // 復興特別所得税 2.1%
   const finalTax=tax*1.021;
@@ -200,8 +200,8 @@ function calcTB(){
   document.getElementById('tbDeductionAmt').textContent='\uff08'+deduction.toLocaleString('ja-JP')+'\u5186\uff09';
 
   ['single','mfj','mfs','hoh'].forEach(s=>{
-    document.getElementById('lbl-'+s).style.borderColor=s===status?'#dc2626':'#e2e8f0';
-    document.getElementById('lbl-'+s).style.background=s===status?'#fef2f2':'white';
+document.getElementById('lbl-'+s).style.borderColor=s===status?'#dc2626':'#e2e8f0';
+document.getElementById('lbl-'+s).style.background=s===status?'#fef2f2':'white';
   });
 
   const{tax,details}=computeTax(taxableIncome,status);
@@ -217,13 +217,13 @@ function calcTB(){
 
   let barHTML='';let legendHTML='';
   if(taxableIncome>0){
-    details.forEach((d,i)=>{
-      const pct=(d.taxable/taxableIncome)*100;
-      if(pct>0){
-        barHTML+='<div style="width:'+pct+'%;background:'+COLORS[i%COLORS.length]+';height:100%;" title="'+Math.round(d.rate*100)+'%: \u00a5'+d.taxable.toLocaleString('ja-JP')+'"></div>';
-        legendHTML+='<span><span style="display:inline-block;width:10px;height:10px;background:'+COLORS[i%COLORS.length]+';border-radius:2px;"></span> '+Math.round(d.rate*100)+'%</span>';
-      }
-    });
+details.forEach((d,i)=>{
+const pct=(d.taxable/taxableIncome)*100;
+if(pct>0){
+barHTML+='<div style="width:'+pct+'%;background:'+COLORS[i%COLORS.length]+';height:100%;" title="'+Math.round(d.rate*100)+'%: \u00a5'+d.taxable.toLocaleString('ja-JP')+'"></div>';
+legendHTML+='<span><span style="display:inline-block;width:10px;height:10px;background:'+COLORS[i%COLORS.length]+';border-radius:2px;"></span> '+Math.round(d.rate*100)+'%</span>';
+}
+});
   }
   document.getElementById('tbBar').innerHTML=barHTML;
   document.getElementById('tbLegend').innerHTML=legendHTML;
@@ -231,36 +231,36 @@ function calcTB(){
   const allBrackets=BRACKETS[status];
   let tbody='';let cumTax=0;
   allBrackets.forEach((b,i)=>{
-    const[lo,hi,rate,ded]=b;
-    const taxable=taxableIncome>lo?Math.min(taxableIncome,hi)-lo:0;
-    const t=taxable*rate*1.021;
-    cumTax+=t;
-    const active=taxableIncome>lo;
-    const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
-    const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
-    const hiStr=hi===Infinity?'\u8d85':''+hi.toLocaleString('ja-JP')+'\u5186';
-    const arrow=current?' \u2190':'';
-    tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
-    tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;">\u00a5'+lo.toLocaleString('ja-JP')+' \uff5e '+hiStr+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">\u00a5'+Math.round(t).toLocaleString('ja-JP')+'</td>';
-    tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">\u00a5'+Math.round(cumTax).toLocaleString('ja-JP')+'</td>';
-    tbody+='</tr>';
+const[lo,hi,rate,ded]=b;
+const taxable=taxableIncome>lo?Math.min(taxableIncome,hi)-lo:0;
+const t=taxable*rate*1.021;
+cumTax+=t;
+const active=taxableIncome>lo;
+const current=taxableIncome>lo&&(hi===Infinity||taxableIncome<=hi);
+const bg=current?'#fef2f2':i%2===0?'#f8fafc':'white';
+const hiStr=hi===Infinity?'\u8d85':''+hi.toLocaleString('ja-JP')+'\u5186';
+const arrow=current?' \u2190':'';
+tbody+='<tr style="background:'+bg+';'+(current?'font-weight:bold;':'')+'">';
+tbody+='<td style="padding:8px;">'+Math.round(rate*100)+'%'+arrow+'</td>';
+tbody+='<td style="padding:8px;text-align:right;">\u00a5'+lo.toLocaleString('ja-JP')+' \uff5e '+hiStr+'</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">\u00a5'+Math.round(t).toLocaleString('ja-JP')+'</td>';
+tbody+='<td style="padding:8px;text-align:right;'+(active?'':'color:#94a3b8;')+'">\u00a5'+Math.round(cumTax).toLocaleString('ja-JP')+'</td>';
+tbody+='</tr>';
   });
   document.getElementById('tbTableBody').innerHTML=tbody;
 
   const changes=[500000,1000000,2000000];
   let sHTML='';
   changes.forEach(c=>{
-    const newGross=grossIncome+c;
-    const newTaxable=Math.max(0,newGross-deduction);
-    const r=computeTax(newTaxable,status);
-    const diff=r.tax-tax;
-    const newEff=newGross>0?(r.tax/newGross)*100:0;
-    sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
-    sHTML+='<div><strong>\u00a5'+newGross.toLocaleString('ja-JP')+'</strong> <span style="color:#64748b;font-size:13px;">(+\u00a5'+c.toLocaleString('ja-JP')+')</span></div>';
-    sHTML+='<div style="text-align:right;font-size:14px;">\u7a0e\u984d: \u00a5'+Math.round(r.tax).toLocaleString('ja-JP')+' <span style="color:#dc2626;">(+\u00a5'+Math.round(diff).toLocaleString('ja-JP')+')</span> | \u5b9f\u52b9: '+newEff.toFixed(1)+'%</div>';
-    sHTML+='</div>';
+const newGross=grossIncome+c;
+const newTaxable=Math.max(0,newGross-deduction);
+const r=computeTax(newTaxable,status);
+const diff=r.tax-tax;
+const newEff=newGross>0?(r.tax/newGross)*100:0;
+sHTML+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;background:white;border-radius:8px;border:1px solid #e2e8f0;">';
+sHTML+='<div><strong>\u00a5'+newGross.toLocaleString('ja-JP')+'</strong> <span style="color:#64748b;font-size:13px;">(+\u00a5'+c.toLocaleString('ja-JP')+')</span></div>';
+sHTML+='<div style="text-align:right;font-size:14px;">\u7a0e\u984d: \u00a5'+Math.round(r.tax).toLocaleString('ja-JP')+' <span style="color:#dc2626;">(+\u00a5'+Math.round(diff).toLocaleString('ja-JP')+')</span> | \u5b9f\u52b9: '+newEff.toFixed(1)+'%</div>';
+sHTML+='</div>';
   });
   document.getElementById('tbScenarios').innerHTML=sHTML;
 }

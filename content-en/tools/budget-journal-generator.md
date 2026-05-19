@@ -67,60 +67,60 @@ function calcBudget(){
 
   var ratios;
   if(type==='single'){
-    ratios=[
-      {name:'Housing',rate:0.28,color:'#ef4444'},
-      {name:'Food & Groceries',rate:0.15,color:'#f97316'},
-      {name:'Utilities',rate:0.05,color:'#eab308'},
-      {name:'Phone & Internet',rate:0.05,color:'#22c55e'},
-      {name:'Personal & Clothing',rate:0.05,color:'#06b6d4'},
-      {name:'Social & Entertainment',rate:0.08,color:'#8b5cf6'},
-      {name:'Transportation',rate:0.04,color:'#ec4899'},
-      {name:'Insurance & Healthcare',rate:0.03,color:'#6366f1'},
-      {name:'Self-Development',rate:0.05,color:'#14b8a6'},
-      {name:'Emergency Fund',rate:0.02,color:'#94a3b8'},
-      {name:'Savings & Investing',rate:0.20,color:'#2563eb'}
-    ];
+ratios=[
+{name:'Housing',rate:0.28,color:'#ef4444'},
+{name:'Food & Groceries',rate:0.15,color:'#f97316'},
+{name:'Utilities',rate:0.05,color:'#eab308'},
+{name:'Phone & Internet',rate:0.05,color:'#22c55e'},
+{name:'Personal & Clothing',rate:0.05,color:'#06b6d4'},
+{name:'Social & Entertainment',rate:0.08,color:'#8b5cf6'},
+{name:'Transportation',rate:0.04,color:'#ec4899'},
+{name:'Insurance & Healthcare',rate:0.03,color:'#6366f1'},
+{name:'Self-Development',rate:0.05,color:'#14b8a6'},
+{name:'Emergency Fund',rate:0.02,color:'#94a3b8'},
+{name:'Savings & Investing',rate:0.20,color:'#2563eb'}
+];
   } else if(type==='couple'){
-    ratios=[
-      {name:'Housing',rate:0.25,color:'#ef4444'},
-      {name:'Food & Groceries',rate:0.15,color:'#f97316'},
-      {name:'Utilities',rate:0.05,color:'#eab308'},
-      {name:'Phone & Internet',rate:0.05,color:'#22c55e'},
-      {name:'Personal & Clothing',rate:0.05,color:'#06b6d4'},
-      {name:'Social & Entertainment',rate:0.07,color:'#8b5cf6'},
-      {name:'Transportation',rate:0.04,color:'#ec4899'},
-      {name:'Insurance & Healthcare',rate:0.04,color:'#6366f1'},
-      {name:'Self-Development',rate:0.03,color:'#14b8a6'},
-      {name:'Emergency Fund',rate:0.02,color:'#94a3b8'},
-      {name:'Savings & Investing',rate:0.25,color:'#2563eb'}
-    ];
+ratios=[
+{name:'Housing',rate:0.25,color:'#ef4444'},
+{name:'Food & Groceries',rate:0.15,color:'#f97316'},
+{name:'Utilities',rate:0.05,color:'#eab308'},
+{name:'Phone & Internet',rate:0.05,color:'#22c55e'},
+{name:'Personal & Clothing',rate:0.05,color:'#06b6d4'},
+{name:'Social & Entertainment',rate:0.07,color:'#8b5cf6'},
+{name:'Transportation',rate:0.04,color:'#ec4899'},
+{name:'Insurance & Healthcare',rate:0.04,color:'#6366f1'},
+{name:'Self-Development',rate:0.03,color:'#14b8a6'},
+{name:'Emergency Fund',rate:0.02,color:'#94a3b8'},
+{name:'Savings & Investing',rate:0.25,color:'#2563eb'}
+];
   } else {
-    ratios=[
-      {name:'Housing',rate:0.25,color:'#ef4444'},
-      {name:'Food & Groceries',rate:0.18,color:'#f97316'},
-      {name:'Utilities',rate:0.06,color:'#eab308'},
-      {name:'Phone & Internet',rate:0.04,color:'#22c55e'},
-      {name:'Personal & Clothing',rate:0.06,color:'#06b6d4'},
-      {name:'Education & Childcare',rate:0.08,color:'#8b5cf6'},
-      {name:'Transportation',rate:0.04,color:'#ec4899'},
-      {name:'Insurance & Healthcare',rate:0.06,color:'#6366f1'},
-      {name:'Entertainment & Social',rate:0.05,color:'#14b8a6'},
-      {name:'Emergency Fund',rate:0.03,color:'#94a3b8'},
-      {name:'Savings & Investing',rate:0.15,color:'#2563eb'}
-    ];
+ratios=[
+{name:'Housing',rate:0.25,color:'#ef4444'},
+{name:'Food & Groceries',rate:0.18,color:'#f97316'},
+{name:'Utilities',rate:0.06,color:'#eab308'},
+{name:'Phone & Internet',rate:0.04,color:'#22c55e'},
+{name:'Personal & Clothing',rate:0.06,color:'#06b6d4'},
+{name:'Education & Childcare',rate:0.08,color:'#8b5cf6'},
+{name:'Transportation',rate:0.04,color:'#ec4899'},
+{name:'Insurance & Healthcare',rate:0.06,color:'#6366f1'},
+{name:'Entertainment & Social',rate:0.05,color:'#14b8a6'},
+{name:'Emergency Fund',rate:0.03,color:'#94a3b8'},
+{name:'Savings & Investing',rate:0.15,color:'#2563eb'}
+];
   }
 
   var savings=0;
   var html='';
   for(var i=0;i<ratios.length;i++){
-    var amt=Math.floor(income*ratios[i].rate);
-    var pct=Math.round(ratios[i].rate*100);
-    if(ratios[i].name==='Savings & Investing') savings=amt;
-    html+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #e2e8f0;">';
-    html+='<div style="width:12px;height:12px;border-radius:50%;background:'+ratios[i].color+';margin-right:10px;flex-shrink:0;"></div>';
-    html+='<div style="flex:1;font-size:14px;">'+ratios[i].name+' <span style="color:#94a3b8;">('+pct+'%)</span></div>';
-    html+='<div style="font-weight:bold;font-size:15px;">$'+amt.toLocaleString()+'</div>';
-    html+='</div>';
+var amt=Math.floor(income*ratios[i].rate);
+var pct=Math.round(ratios[i].rate*100);
+if(ratios[i].name==='Savings & Investing') savings=amt;
+html+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #e2e8f0;">';
+html+='<div style="width:12px;height:12px;border-radius:50%;background:'+ratios[i].color+';margin-right:10px;flex-shrink:0;"></div>';
+html+='<div style="flex:1;font-size:14px;">'+ratios[i].name+' <span style="color:#94a3b8;">('+pct+'%)</span></div>';
+html+='<div style="font-weight:bold;font-size:15px;">$'+amt.toLocaleString()+'</div>';
+html+='</div>';
   }
 
   document.getElementById('incomeVal').textContent='$'+income.toLocaleString();

@@ -99,12 +99,12 @@ function calcTax(annual){
   var takeHome=income-totalDeductions;
 
   return {
-    gross:income,
-    incomeTax:Math.max(0,incomeTax),
-    residentTax:Math.max(0,stateTax),
-    socialIns:socialIns,
-    totalDeductions:totalDeductions,
-    takeHome:Math.max(0,takeHome)
+gross:income,
+incomeTax:Math.max(0,incomeTax),
+residentTax:Math.max(0,stateTax),
+socialIns:socialIns,
+totalDeductions:totalDeductions,
+takeHome:Math.max(0,takeHome)
   };
 }
 
@@ -139,25 +139,25 @@ function calcTC(){
   chtml+='<tr style="border-bottom:2px solid #10b981;"><th style="text-align:left;padding:8px;">Item</th><th style="text-align:right;padding:8px;">Current</th><th style="text-align:right;padding:8px;">After Change</th><th style="text-align:right;padding:8px;">Difference</th></tr>';
 
   var rows=[
-    ['Gross Salary',curT.gross,newT.gross],
-    ['Federal Income Tax',curT.incomeTax,newT.incomeTax],
-    ['State Income Tax',curT.residentTax,newT.residentTax],
-    ['FICA / Social Insurance',curT.socialIns,newT.socialIns],
-    ['Take-Home Pay',curT.takeHome,newT.takeHome]
+['Gross Salary',curT.gross,newT.gross],
+['Federal Income Tax',curT.incomeTax,newT.incomeTax],
+['State Income Tax',curT.residentTax,newT.residentTax],
+['FICA / Social Insurance',curT.socialIns,newT.socialIns],
+['Take-Home Pay',curT.takeHome,newT.takeHome]
   ];
 
   for(var i=0;i<rows.length;i++){
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=i===rows.length-1?'font-weight:bold;':'';
-    var d=rows[i][2]-rows[i][1];
-    var dc=d>=0?'#10b981':'#ef4444';
-    var ds=d>=0?'+':'';
-    chtml+='<tr style="background:'+bg+';'+bold+'">';
-    chtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
-    chtml+='<td style="padding:8px;text-align:right;">$'+fmt(Math.round(rows[i][1]))+'</td>';
-    chtml+='<td style="padding:8px;text-align:right;">$'+fmt(Math.round(rows[i][2]))+'</td>';
-    chtml+='<td style="padding:8px;text-align:right;color:'+dc+';">'+ds+'$'+fmt(Math.round(Math.abs(d)))+'</td>';
-    chtml+='</tr>';
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=i===rows.length-1?'font-weight:bold;':'';
+var d=rows[i][2]-rows[i][1];
+var dc=d>=0?'#10b981':'#ef4444';
+var ds=d>=0?'+':'';
+chtml+='<tr style="background:'+bg+';'+bold+'">';
+chtml+='<td style="padding:8px;">'+rows[i][0]+'</td>';
+chtml+='<td style="padding:8px;text-align:right;">$'+fmt(Math.round(rows[i][1]))+'</td>';
+chtml+='<td style="padding:8px;text-align:right;">$'+fmt(Math.round(rows[i][2]))+'</td>';
+chtml+='<td style="padding:8px;text-align:right;color:'+dc+';">'+ds+'$'+fmt(Math.round(Math.abs(d)))+'</td>';
+chtml+='</tr>';
   }
   chtml+='</table>';
 

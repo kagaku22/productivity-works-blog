@@ -135,23 +135,23 @@ function calcDC(){
 
   var yearData=[];
   for(var y=1;y<=years;y++){
-    var div=balance*rate;
-    var divNet=div*(1-taxRate);
-    totalDiv+=divNet;
-    if(drip==='yes') balance+=divNet;
-    yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
+var div=balance*rate;
+var divNet=div*(1-taxRate);
+totalDiv+=divNet;
+if(drip==='yes') balance+=divNet;
+yearData.push({year:y,balance:balance,div:divNet,total:totalDiv});
   }
 
   for(var i=0;i<showYears.length;i++){
-    var d=yearData[showYears[i]-1];
-    var bg=i%2===0?'#fff':'#f0fdf4';
-    var bold=showYears[i]===years?'font-weight:bold;':'';
-    thtml+='<tr style="background:'+bg+';'+bold+'">';
-    thtml+='<td style="padding:6px;">Year '+d.year+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;">$'+fmtD(d.balance)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;">$'+fmtD(d.div)+'</td>';
-    thtml+='<td style="padding:6px;text-align:right;color:#10b981;">$'+fmtD(d.total)+'</td>';
-    thtml+='</tr>';
+var d=yearData[showYears[i]-1];
+var bg=i%2===0?'#fff':'#f0fdf4';
+var bold=showYears[i]===years?'font-weight:bold;':'';
+thtml+='<tr style="background:'+bg+';'+bold+'">';
+thtml+='<td style="padding:6px;">Year '+d.year+'</td>';
+thtml+='<td style="padding:6px;text-align:right;">$'+fmtD(d.balance)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;">$'+fmtD(d.div)+'</td>';
+thtml+='<td style="padding:6px;text-align:right;color:#10b981;">$'+fmtD(d.total)+'</td>';
+thtml+='</tr>';
   }
   thtml+='</table>';
 
@@ -160,40 +160,40 @@ function calcDC(){
   thtml+='<span style="font-size:13px;color:#64748b;">After '+years+' years — Portfolio: </span>';
   thtml+='<span style="font-size:20px;font-weight:bold;color:#166534;">$'+fmtD(drip==='yes'?finalData.balance:amount)+'</span>';
   if(drip==='no'){
-    thtml+='<span style="font-size:13px;color:#64748b;"> + Cash Dividends: </span>';
-    thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">$'+fmtD(finalData.total)+'</span>';
+thtml+='<span style="font-size:13px;color:#64748b;"> + Cash Dividends: </span>';
+thtml+='<span style="font-size:20px;font-weight:bold;color:#10b981;">$'+fmtD(finalData.total)+'</span>';
   }
   thtml+='</div>';
 
   if(drip==='yes'){
-    var noReinvest=amount*rate*(1-taxRate)*years;
-    var diff=finalData.total-noReinvest;
-    thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">DRIP compounding bonus: <strong>+$'+fmtD(diff)+'</strong> vs taking cash dividends</div>';
+var noReinvest=amount*rate*(1-taxRate)*years;
+var diff=finalData.total-noReinvest;
+thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:center;">DRIP compounding bonus: <strong>+$'+fmtD(diff)+'</strong> vs taking cash dividends</div>';
   }
 
   document.getElementById('dcTimeline').innerHTML=thtml;
 
   // ETF comparison
   var etfs=[
-    {name:'VYM',desc:'Vanguard High Dividend Yield',yield:2.8,expense:0.06},
-    {name:'HDV',desc:'iShares Core High Dividend',yield:3.5,expense:0.08},
-    {name:'SPYD',desc:'SPDR S&P 500 High Dividend',yield:4.5,expense:0.07},
-    {name:'SCHD',desc:'Schwab US Dividend Equity',yield:3.4,expense:0.06},
-    {name:'VIG',desc:'Vanguard Dividend Appreciation',yield:1.8,expense:0.06},
-    {name:'JEPI',desc:'JPMorgan Equity Premium Income',yield:7.5,expense:0.35}
+{name:'VYM',desc:'Vanguard High Dividend Yield',yield:2.8,expense:0.06},
+{name:'HDV',desc:'iShares Core High Dividend',yield:3.5,expense:0.08},
+{name:'SPYD',desc:'SPDR S&P 500 High Dividend',yield:4.5,expense:0.07},
+{name:'SCHD',desc:'Schwab US Dividend Equity',yield:3.4,expense:0.06},
+{name:'VIG',desc:'Vanguard Dividend Appreciation',yield:1.8,expense:0.06},
+{name:'JEPI',desc:'JPMorgan Equity Premium Income',yield:7.5,expense:0.35}
   ];
 
   var ehtml='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">';
   for(var i=0;i<etfs.length;i++){
-    var annDivE=amount*etfs[i].yield/100*(1-taxRate);
-    ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-    ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
-    ehtml+='<span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span>';
-    ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
-    ehtml+='</div>';
-    ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+' (ER: '+etfs[i].expense+'%)</div>';
-    ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">Annual income: <strong>$'+fmtD(annDivE)+'</strong> (after tax)</div>';
-    ehtml+='</div>';
+var annDivE=amount*etfs[i].yield/100*(1-taxRate);
+ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
+ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
+ehtml+='<span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span>';
+ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
+ehtml+='</div>';
+ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+' (ER: '+etfs[i].expense+'%)</div>';
+ehtml+='<div style="font-size:12px;margin-top:4px;color:#2563eb;">Annual income: <strong>$'+fmtD(annDivE)+'</strong> (after tax)</div>';
+ehtml+='</div>';
   }
   ehtml+='</div>';
   ehtml+='<div style="margin-top:8px;font-size:11px;color:#92400e;text-align:center;">Yields as of May 2026 (approximate). Actual dividends vary. Past performance does not guarantee future results.</div>';
