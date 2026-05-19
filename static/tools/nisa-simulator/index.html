@@ -6,12 +6,12 @@
 <title>新NISAシミュレーター | つみたて投資の将来予測 | Productivity Works</title>
 <meta name="description" content="新NISAで毎月いくら積み立てると将来いくらになる？投資額・利回り・期間を入力して、資産推移をグラフで確認。つみたて投資枠・成長投資枠の両方に対応。">
 <meta name="keywords" content="新NISA,シミュレーター,つみたてNISA,投資シミュレーション,複利計算,資産運用">
-<link rel="canonical" href="https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/">
+<link rel="canonical" href="https://productivity-works.com/tools/nisa-simulator/">
 <meta property="og:title" content="新NISAシミュレーター | つみたて投資の将来予測">
 <meta property="og:description" content="新NISAで毎月いくら積み立てると将来いくらになる？グラフで資産推移を確認できる無料ツール。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/">
-<meta property="og:image" content="https://kagaku22.github.io/productivity-works-blog/images/covers/nisa-simulator-og.png">
+<meta property="og:url" content="https://productivity-works.com/tools/nisa-simulator/">
+<meta property="og:image" content="https://productivity-works.com/images/covers/nisa-simulator-og.png">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {
@@ -19,7 +19,7 @@
   "@type": "WebApplication",
   "name": "新NISAシミュレーター",
   "description": "新NISAで毎月いくら積み立てると将来いくらになる？投資額・利回り・期間を入力して資産推移をグラフで確認。",
-  "url": "https://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/",
+  "url": "https://productivity-works.com/tools/nisa-simulator/",
   "applicationCategory": "FinanceApplication",
   "operatingSystem": "Web",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
@@ -666,7 +666,7 @@ function copyResult() {
   const monthly = document.getElementById('monthly').value;
   const rate = document.getElementById('rate').value;
   const years = document.getElementById('years').value;
-  const text = `【新NISAシミュレーション結果】\n月${parseInt(monthly).toLocaleString()}円 × ${years}年（利回り${rate}%）\n投資元本: ${invested}\n運用益: ${profit}\n最終資産: ${total}\nhttps://kagaku22.github.io/productivity-works-blog/tools/nisa-simulator/`;
+  const text = `【新NISAシミュレーション結果】\n月${parseInt(monthly).toLocaleString()}円 × ${years}年（利回り${rate}%）\n投資元本: ${invested}\n運用益: ${profit}\n最終資産: ${total}\nhttps://productivity-works.com/tools/nisa-simulator/`;
   navigator.clipboard.writeText(text).then(() => {
     const btn = document.querySelector('.share-btn.copy');
     btn.textContent = 'コピーしました!';

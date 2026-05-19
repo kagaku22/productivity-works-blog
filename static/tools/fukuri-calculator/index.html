@@ -6,12 +6,12 @@
 <title>複利計算シミュレーター | 積立・一括投資の将来予測 | Productivity Works</title>
 <meta name="description" content="複利計算シミュレーター。元本・積立額・利回り・期間を入力して資産がどう増えるか計算。積立投資・一括投資の両方に対応。グラフ付き無料ツール。">
 <meta name="keywords" content="複利計算,シミュレーター,積立投資,複利効果,資産運用,計算ツール">
-<link rel="canonical" href="https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/">
+<link rel="canonical" href="https://productivity-works.com/tools/fukuri-calculator/">
 <meta property="og:title" content="複利計算シミュレーター | 積立・一括投資の将来予測">
 <meta property="og:description" content="元本・積立額・利回り・期間を入力して複利効果を確認。グラフ付き無料ツール。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/">
-<meta property="og:image" content="https://kagaku22.github.io/productivity-works-blog/images/covers/fukuri-calculator-og.png">
+<meta property="og:url" content="https://productivity-works.com/tools/fukuri-calculator/">
+<meta property="og:image" content="https://productivity-works.com/images/covers/fukuri-calculator-og.png">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {
@@ -19,7 +19,7 @@
   "@type": "WebApplication",
   "name": "複利計算シミュレーター",
   "description": "元本・積立額・利回り・期間を入力して複利効果をグラフで確認できる無料ツール。",
-  "url": "https://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/",
+  "url": "https://productivity-works.com/tools/fukuri-calculator/",
   "applicationCategory": "FinanceApplication",
   "operatingSystem": "Web",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
@@ -424,7 +424,7 @@ function copyResult() {
   const inv = document.getElementById('rInvested').textContent;
   const prof = document.getElementById('rProfit').textContent;
   const tot = document.getElementById('rTotal').textContent;
-  const text = `【複利計算結果】\n投資元本: ${inv}\n運用益: ${prof}\n最終資産: ${tot}\nhttps://kagaku22.github.io/productivity-works-blog/tools/fukuri-calculator/`;
+  const text = `【複利計算結果】\n投資元本: ${inv}\n運用益: ${prof}\n最終資産: ${tot}\nhttps://productivity-works.com/tools/fukuri-calculator/`;
   navigator.clipboard.writeText(text).then(() => {
     const btn = document.querySelector('.share-btn.copy');
     btn.textContent = 'コピーしました!';
