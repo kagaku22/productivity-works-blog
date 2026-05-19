@@ -86,6 +86,7 @@ summaryLength = 140
   env = "production"
   description = "生産性・副業・AI活用の実践情報メディア"
   author = "Productivity Works編集部"
+  images = ["/images/default-og.png"]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
