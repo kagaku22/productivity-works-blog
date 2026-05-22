@@ -248,19 +248,19 @@ Check your [take-home pay](/ja/tools/salary-calculator/) after FX taxes to under
 
 ### Related Articles
 
-- [NISA vs FX in Japan: Which Is Better for Growing Your Money?](/posts/nisa-vs-fx-japan-investing/)
-- [FX Loss Carryforward in Japan: How to File](/posts/fx-loss-carryforward-japan-tax/)
-- [Best FX Brokers in Japan (English Guide)](/posts/best-fx-brokers-japan-english/)
-- [FX Spread Comparison Japan 2026](/posts/fx-spread-comparison-japan-2026/)
-- [Kakuteishinkoku FX Income Guide](/posts/kakuteishinkoku-fx-income-guide/)
+- [NISA vs FX in Japan: Which Is Better for Growing Your Money?](/en/posts/nisa-vs-fx-japan-investing/)
+- [FX Loss Carryforward in Japan: How to File](/en/posts/fx-loss-carryforward-japan-tax/)
+- [Best FX Brokers in Japan (English Guide)](/en/posts/best-fx-brokers-japan-english/)
+- [FX Spread Comparison Japan 2026](/en/posts/fx-spread-comparison-japan-2026/)
+- [Kakuteishinkoku FX Income Guide](/en/posts/kakuteishinkoku-fx-income-guide/)
 
 ---
 
 ## Related Tools
 
-> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Calculate forex profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ---
 

@@ -235,7 +235,7 @@ Notion AI is exceptional for the specific workflow of thinking and writing insid
 
 **Ideal user:** Anyone who already uses Notion and wants writing help built into their workflow.
 
-Related: [Best Notion AI Templates for Productivity 2026](/posts/best-notion-ai-templates-for-productivity-2026/)
+Related: [Best Notion AI Templates for Productivity 2026](/en/posts/best-notion-ai-templates-for-productivity-2026/)
 
 ---
 
@@ -342,21 +342,21 @@ The total cost of two tools ($40-80/month) is still a fraction of a single junio
 Our [AI Content Creator's Toolkit](https://payhip.com/productivityworks) includes 80+ writing prompts, content calendar templates, and workflow blueprints for bloggers, freelancers, and content marketers — tested across all the tools reviewed here.
 
 **Related Reading:**
-- [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [Best AI Tools for Small Business 2026](/posts/top-ai-tools-small-business-owners-2026/)
-- [AI Prompt Engineering Tips for Beginners 2026](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+- [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/top-ai-tools-small-business-owners-2026/)
+- [AI Prompt Engineering Tips for Beginners 2026](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 
 ## Related Tools
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
-> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
+> Compare texts and find differences → [Text Diff Checker](/en/tools/text-diff/)
 
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
 
-> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+> Need a markdown editor? → [Markdown Preview](/en/tools/markdown-preview/) — write and preview markdown live
 
-> Generate placeholder text for drafts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+> Generate placeholder text for drafts → [Lorem Ipsum Generator](/en/tools/lorem-ipsum-generator/) — instant filler content
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

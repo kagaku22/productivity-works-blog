@@ -174,19 +174,19 @@ Whatever you choose, the return on investment is immediate — less time on book
 
 > Freelancing or running a small business in Japan? [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) is purpose-built for self-employed individuals and sole proprietors — it handles invoicing, expense tracking, and kakuteishinkoku (annual tax filing) in one guided workflow, even if Japanese isn't your first language.
 
-[Related: AI Tools for Freelancers to Earn More](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
-[Related: Freelance Tax Guide 2026](/posts/freelance-tax-guide-2026/)
+[Related: Freelance Tax Guide 2026](/en/posts/freelance-tax-guide-2026/)
 
 ---
 
 *This article is for informational purposes only and does not constitute tax or financial advice. Consult a tax professional for advice specific to your situation.*
 
 ## Related Tools
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create and download professional invoices for free → [Invoice Generator](/tools/invoice-generator/)
-> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create and download professional invoices for free → [Invoice Generator](/en/tools/invoice-generator/)
+> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Estimate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ---
 

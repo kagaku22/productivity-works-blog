@@ -288,13 +288,13 @@ Ready to get your books in order? **[Get started with freee today](https://px.a8
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> See how savings compound over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ## You May Also Like
 
-- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/posts/freee-cloud-accounting-tutorial-japan-english/)
-- [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)
-- [Setting Up a Freelance Business in Japan: Domain, Registration, and Accounting in One Weekend](/posts/freelance-business-setup-japan-foreigner/)
+- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/en/posts/freee-cloud-accounting-tutorial-japan-english/)
+- [Freelance Tax Guide 2026: Everything You Need to Know](/en/posts/freelance-tax-guide-2026/)
+- [Setting Up a Freelance Business in Japan: Domain, Registration, and Accounting in One Weekend](/en/posts/freelance-business-setup-japan-foreigner/)

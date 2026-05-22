@@ -183,7 +183,7 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 
 > Before you can launch, you need a domain. [Onamae.com](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+29KENM+50+2HU3GX) is Japan's largest domain registrar — competitively priced, easy to set up, and a natural pairing with any of the hosting providers above.
 
-[Related: Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
+[Related: Best AI Tools for Small Business 2026](/en/posts/best-ai-tools-small-business-2026/)
 
 ---
 
@@ -194,19 +194,19 @@ Start with shared hosting, upgrade when your traffic demands it. Your hosting ch
 ---
 
 ## Related Tools
-> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
+> Pick colors and convert between formats → [Color Picker](/en/tools/color-picker/)
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
-> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
-> Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/en/tools/hash-generator/)
+> Encode and decode Base64 strings → [Base64 Encoder](/en/tools/base64-encoder/)
 
-> Design with gradients → [CSS Gradient Generator](/tools/css-gradient-generator/) — create beautiful CSS gradients visually
+> Design with gradients → [CSS Gradient Generator](/en/tools/css-gradient-generator/) — create beautiful CSS gradients visually
 
-> Generate placeholder text for your site → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+> Generate placeholder text for your site → [Lorem Ipsum Generator](/en/tools/lorem-ipsum-generator/) — instant filler content
 
-> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+> Need a markdown editor? → [Markdown Preview](/en/tools/markdown-preview/) — write and preview markdown live
 
 ---
 

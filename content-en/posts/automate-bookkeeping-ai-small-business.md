@@ -367,10 +367,10 @@ Start with the bank connection today. Build from there.
 
 ## Related Tools
 
-> Estimate self-employment taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Create a monthly business budget → [Budget Planner](/tools/budget-planner/)
-> Plan debt payoff for business loans → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
-> Calculate loan repayment schedules → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+> Estimate self-employment taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Create a monthly business budget → [Budget Planner](/en/tools/budget-planner/)
+> Plan debt payoff for business loans → [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/)
+> Calculate loan repayment schedules → [Loan Repayment Calculator](/en/tools/loan-repayment-calculator/)
 
 ## Related Templates
 
@@ -381,6 +381,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [Best Accounting Software for Freelancers 2026: Full Compare](/posts/best-accounting-software-freelancers-2026/)
-- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/posts/freee-cloud-accounting-tutorial-japan-english/)
-- [AI Bookkeeping for Small Restaurants: Complete Automation Guide (2026)](/posts/ai-bookkeeping-small-restaurant-2026/)
+- [Best Accounting Software for Freelancers 2026: Full Compare](/en/posts/best-accounting-software-freelancers-2026/)
+- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/en/posts/freee-cloud-accounting-tutorial-japan-english/)
+- [AI Bookkeeping for Small Restaurants: Complete Automation Guide (2026)](/en/posts/ai-bookkeeping-small-restaurant-2026/)

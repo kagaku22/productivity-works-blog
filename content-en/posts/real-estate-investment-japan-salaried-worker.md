@@ -27,7 +27,7 @@ This article walks through all three pillars, explains how they interact, and he
 
 - [NISA Simulator — model your tax-free investment returns](/ja/tools/compound-interest-calculator/)
 - [iDeCo Simulator — calculate your annual tax deduction](/ja/tools/ideco-simulator/)
-- [Retirement Calculator — project your total retirement assets](/tools/retirement-calculator/)
+- [Retirement Calculator — project your total retirement assets](/en/tools/retirement-calculator/)
 
 ---
 
@@ -126,7 +126,7 @@ Let's say you are a salaried worker earning 9 million yen per year and you own a
 
 That -1,300,000 yen (net rental loss) is aggregated with your salary income, reducing your taxable income from 9 million to 7.7 million yen. In the 23-33% marginal bracket range, this could reduce your income and residence tax liability by 350,000 to 450,000 yen that year.
 
-To confirm your take-home pay under different income scenarios, try the [Take-home Pay Calculator](/tools/salary-calculator/).
+To confirm your take-home pay under different income scenarios, try the [Take-home Pay Calculator](/en/tools/salary-calculator/).
 
 ### The Important Caveat: Depreciation Runs Out
 
@@ -220,7 +220,7 @@ This is the range where the combination begins to shine. Your marginal rate is i
 
 At this income level, a single well-selected investment property in Tokyo, financed with a 20-25 year loan, can reduce your annual tax bill by 200,000-500,000 yen during the depreciation period while building an asset over time.
 
-Check your [Retirement Calculator](/tools/retirement-calculator/) to see how these contributions affect your projected retirement balance.
+Check your [Retirement Calculator](/en/tools/retirement-calculator/) to see how these contributions affect your projected retirement balance.
 
 ### 8-15 Million Yen Annual Income: Real Estate Becomes High Priority
 
@@ -282,10 +282,10 @@ And use these tools to anchor your planning with real numbers:
 
 - [NISA Simulator](/ja/tools/compound-interest-calculator/) — project your NISA account growth
 - [iDeCo Simulator](/ja/tools/ideco-simulator/) — calculate your annual iDeCo tax saving
-- [Retirement Calculator](/tools/retirement-calculator/) — combine all sources into a retirement projection
-- [Take-home Pay Calculator](/tools/salary-calculator/) — understand your net income baseline
+- [Retirement Calculator](/en/tools/retirement-calculator/) — combine all sources into a retirement projection
+- [Take-home Pay Calculator](/en/tools/salary-calculator/) — understand your net income baseline
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
 
 ---
 
@@ -295,9 +295,9 @@ And use these tools to anchor your planning with real numbers:
 
 ## Related Tools
 
-> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate your mortgage payments → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Calculate compound interest → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ---
 
@@ -307,6 +307,6 @@ And use these tools to anchor your planning with real numbers:
 
 ## You May Also Like
 
-- [RENOSY Review for Expats: Is Real Estate Investment in Japan Worth It? (2026)](/posts/renosy-real-estate-investment-review-expat-japan/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [RENOSY Review for Expats: Is Real Estate Investment in Japan Worth It? (2026)](/en/posts/renosy-real-estate-investment-review-expat-japan/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)

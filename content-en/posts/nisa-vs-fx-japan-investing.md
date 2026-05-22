@@ -226,17 +226,17 @@ Start with NISA. Explore FX when you are ready. Keep them separate, and let each
 
 ### Related Tools
 
-> Calculate forex trading profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> See how NISA investments compound tax-free → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Estimate retirement savings → [Retirement Calculator](/tools/retirement-calculator/)
-> Calculate dividend income from stocks → [Dividend Income Calculator](/tools/dividend-income-calculator/)
+> Calculate forex trading profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> See how NISA investments compound tax-free → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Estimate retirement savings → [Retirement Calculator](/en/tools/retirement-calculator/)
+> Calculate dividend income from stocks → [Dividend Income Calculator](/en/tools/dividend-income-calculator/)
 
 ### Related Articles
 
-- [Best Investment Account in Japan: NISA vs iDeCo](/posts/best-investment-account-japan-nisa-ideco/)
-- [How Much Tax Do You Pay on FX Profits in Japan?](/posts/fx-tax-japan-salary-worker/)
-- [Best FX Brokers in Japan (English Guide)](/posts/best-fx-brokers-japan-english/)
-- [iDeCo Tax Deduction Calculator for Japan](/posts/ideco-tax-deduction-calculator-japan/)
-- [Beginner Investing Guide 2026](/posts/beginner-investing-guide-2026/)
+- [Best Investment Account in Japan: NISA vs iDeCo](/en/posts/best-investment-account-japan-nisa-ideco/)
+- [How Much Tax Do You Pay on FX Profits in Japan?](/en/posts/fx-tax-japan-salary-worker/)
+- [Best FX Brokers in Japan (English Guide)](/en/posts/best-fx-brokers-japan-english/)
+- [iDeCo Tax Deduction Calculator for Japan](/en/posts/ideco-tax-deduction-calculator-japan/)
+- [Beginner Investing Guide 2026](/en/posts/beginner-investing-guide-2026/)
 
 *This article is for informational purposes only and does not constitute financial advice. Tax rules are based on regulations current as of 2026. Consult a licensed tax advisor or financial planner for guidance specific to your situation.*

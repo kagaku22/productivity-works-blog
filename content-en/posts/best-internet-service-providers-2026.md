@@ -186,9 +186,9 @@ The best internet service depends on what's available at your address. Check ava
 
 Whatever you choose, buy your own router and negotiate your rate annually. These two actions alone can save $200-400/year.
 
-[Related: Best Cell Phone Plans 2026](/posts/best-cell-phone-plans-2026/)
+[Related: Best Cell Phone Plans 2026](/en/posts/best-cell-phone-plans-2026/)
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
 ---
 
@@ -200,9 +200,9 @@ Whatever you choose, buy your own router and negotiate your rate annually. These
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
 
 ---
 

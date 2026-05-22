@@ -351,9 +351,9 @@ If you do not yet have a dedicated business bank account to link with freee, [Ra
 
 ## Related Tools
 
-> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ---
 
@@ -361,6 +361,6 @@ If you do not yet have a dedicated business bank account to link with freee, [Ra
 
 ## You May Also Like
 
-- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/posts/freelance-japan-freee-tax-filing/)
-- [Best Accounting Software for Freelancers in Japan 2026: freee vs Money Forward vs Yayoi](/posts/accounting-software-japan-freelancer/)
-- [Best Accounting Software for Freelancers 2026: Full Compare](/posts/best-accounting-software-freelancers-2026/)
+- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/en/posts/freelance-japan-freee-tax-filing/)
+- [Best Accounting Software for Freelancers in Japan 2026: freee vs Money Forward vs Yayoi](/en/posts/accounting-software-japan-freelancer/)
+- [Best Accounting Software for Freelancers 2026: Full Compare](/en/posts/best-accounting-software-freelancers-2026/)

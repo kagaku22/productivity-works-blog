@@ -91,7 +91,7 @@ Key characteristics:
 - Cannot trade intraday
 - Actively managed mutual funds often have high expense ratios and underperform benchmarks
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -273,7 +273,7 @@ Start simple. Stay consistent. Keep costs low.
 - [Compare ETF options at Charles Schwab](https://payhip.com/productivityworks)
 - [Invest automatically with M1 Finance](https://payhip.com/productivityworks)
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -285,17 +285,17 @@ Start simple. Stay consistent. Keep costs low.
 
 ### Related Tools & Articles
 
-> Compare long-term growth of your investments → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Estimate dividend income from ETFs → [Dividend Income Calculator](/tools/dividend-income-calculator/)
-> Plan your retirement savings → [Retirement Savings Calculator](/tools/retirement-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+> Compare long-term growth of your investments → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Estimate dividend income from ETFs → [Dividend Income Calculator](/en/tools/dividend-income-calculator/)
+> Plan your retirement savings → [Retirement Savings Calculator](/en/tools/retirement-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
 
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
-- [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [401k vs IRA Differences Explained (2026)](/en/posts/401k-vs-ira-differences-explained/)
+- [Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

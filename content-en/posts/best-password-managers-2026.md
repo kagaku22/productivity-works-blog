@@ -185,7 +185,7 @@ Start with **1Password** ($2.99/month) for the best experience, or **Bitwarden**
 
 The best time to start using a password manager was years ago. The second best time is today.
 
-[Related: Best VPN Services 2026](/posts/best-vpn-services-2026/)
+[Related: Best VPN Services 2026](/en/posts/best-vpn-services-2026/)
 
 ---
 
@@ -197,9 +197,9 @@ The best time to start using a password manager was years ago. The second best t
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
-> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/en/tools/hash-generator/)
 
 ---
 

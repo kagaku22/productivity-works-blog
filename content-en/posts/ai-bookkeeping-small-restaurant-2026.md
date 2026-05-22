@@ -448,11 +448,11 @@ Start with Step 1 this week. Get your chart of accounts right, and everything el
 ---
 
 ## Related Tools
-> Convert between units of measurement → [Unit Converter](/tools/unit-converter/)
+> Convert between units of measurement → [Unit Converter](/en/tools/unit-converter/)
 
-> Create a business budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Plan loan repayment → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+> Create a business budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your side hustle taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Plan loan repayment → [Loan Repayment Calculator](/en/tools/loan-repayment-calculator/)
 
 ---
 
@@ -467,6 +467,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [Track Food Costs with AI: Restaurant Owner Guide (2026)](/posts/ai-restaurant-food-cost-tracking-2026/)
-- [How to Automate Bookkeeping with AI for Small Business (2026 Guide)](/posts/automate-bookkeeping-ai-small-business/)
-- [Best Accounting Software for Freelancers 2026: Full Compare](/posts/best-accounting-software-freelancers-2026/)
+- [Track Food Costs with AI: Restaurant Owner Guide (2026)](/en/posts/ai-restaurant-food-cost-tracking-2026/)
+- [How to Automate Bookkeeping with AI for Small Business (2026 Guide)](/en/posts/automate-bookkeeping-ai-small-business/)
+- [Best Accounting Software for Freelancers 2026: Full Compare](/en/posts/best-accounting-software-freelancers-2026/)

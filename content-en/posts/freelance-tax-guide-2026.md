@@ -319,25 +319,25 @@ If you earn $75,000+ as a freelancer, working with a CPA who specializes in self
 Want a ready-made system? Our [Freelance Finance Toolkit](https://payhip.com/productivityworks) on Payhip includes a quarterly tax tracker spreadsheet, expense categorization template, client invoice tracker, and a 2026 tax deduction checklist — everything to manage freelance finances without the chaos.
 
 **Related reads:**
-- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
-- [How to Use Notion for Project Management 2026](/posts/notion-project-management-guide-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/best-ai-tools-small-business-2026/)
+- [How to Use Notion for Project Management 2026](/en/posts/notion-project-management-guide-2026/)
 
 ---
 
 ### Related Tools & Articles
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create professional invoices for your clients → [Invoice Generator](/tools/invoice-generator/)
-- [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income
-- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
-- [US Salary Calculator](/tools/salary-calculator/) — See your W-2 take-home pay breakdown
-- [Budget Planner](/tools/budget-planner/) — Plan your monthly budget including tax set-asides
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
-- [How to Start Freelancing in 2026: Complete Beginner's Guide](/posts/how-to-start-freelancing-2026/)
-- [Side Job Tax Rules in Japan](/posts/side-job-tax-japan-rules/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create professional invoices for your clients → [Invoice Generator](/en/tools/invoice-generator/)
+- [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/) — Calculate SE tax, federal tax, and quarterly payments on freelance income
+- [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
+- [US Salary Calculator](/en/tools/salary-calculator/) — See your W-2 take-home pay breakdown
+- [Budget Planner](/en/tools/budget-planner/) — Plan your monthly budget including tax set-asides
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [How to Start Freelancing in 2026: Complete Beginner's Guide](/en/posts/how-to-start-freelancing-2026/)
+- [Side Job Tax Rules in Japan](/en/posts/side-job-tax-japan-rules/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ## Related Templates
 

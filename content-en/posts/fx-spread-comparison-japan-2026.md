@@ -257,8 +257,8 @@ Before committing to any broker, use a demo account to test real execution quali
 
 ## Related Tools
 
-> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate forex profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 
@@ -266,6 +266,6 @@ Before committing to any broker, use a demo account to test real execution quali
 
 ## You May Also Like
 
-- [Best FX Brokers for English Speakers in Japan 2026: What to Look For](/posts/best-fx-brokers-japan-english/)
-- [Best Forex Brokers 2026: Platforms for Beginners & Traders](/posts/best-forex-brokers-2026/)
-- [How to Open a DMM FX Account in Japan: Complete English Guide for Beginners (2026)](/posts/dmm-fx-account-opening-guide-japan-english-2026/)
+- [Best FX Brokers for English Speakers in Japan 2026: What to Look For](/en/posts/best-fx-brokers-japan-english/)
+- [Best Forex Brokers 2026: Platforms for Beginners & Traders](/en/posts/best-forex-brokers-2026/)
+- [How to Open a DMM FX Account in Japan: Complete English Guide for Beginners (2026)](/en/posts/dmm-fx-account-opening-guide-japan-english-2026/)

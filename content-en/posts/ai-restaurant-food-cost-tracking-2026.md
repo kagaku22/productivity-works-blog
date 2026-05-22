@@ -27,7 +27,7 @@ AI tools, including ChatGPT, can't replace a proper POS system or accounting sof
 
 This guide covers the full picture: the math behind food costs, how AI tools fit into your workflow, waste tracking strategies, inventory management approaches, and the specific ChatGPT prompts that save time on menu pricing.
 
-For a broader view of AI tools in restaurant financial management, see our [AI Bookkeeping Guide for Small Restaurants](/posts/ai-bookkeeping-small-restaurant-2026/).
+For a broader view of AI tools in restaurant financial management, see our [AI Bookkeeping Guide for Small Restaurants](/en/posts/ai-bookkeeping-small-restaurant-2026/).
 
 ---
 
@@ -295,11 +295,11 @@ My restaurant has [number] seats, serves [lunch/dinner/both], and does approxima
 ---
 
 ## Related Tools
-> Convert between units of measurement → [Unit Converter](/tools/unit-converter/)
+> Convert between units of measurement → [Unit Converter](/en/tools/unit-converter/)
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> Create a business budget → [Budget Planner](/tools/budget-planner/)
-> Plan loan repayment → [Loan Repayment Calculator](/tools/loan-repayment-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> Create a business budget → [Budget Planner](/en/tools/budget-planner/)
+> Plan loan repayment → [Loan Repayment Calculator](/en/tools/loan-repayment-calculator/)
 
 ---
 

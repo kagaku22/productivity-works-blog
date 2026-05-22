@@ -597,8 +597,8 @@ Start with Prompt 7 (the 13-tag generator) for your worst-performing listing. Co
 
 ## Related Tools
 
-> Calculate your Etsy shop taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Track your shop's profitability → [Budget Planner](/tools/budget-planner/)
+> Calculate your Etsy shop taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Track your shop's profitability → [Budget Planner](/en/tools/budget-planner/)
 
 ## Related Templates
 
@@ -611,6 +611,6 @@ Grow your Etsy business with these resources:
 
 ## You May Also Like
 
-- [How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026 Guide)](/posts/chatgpt-etsy-shop-descriptions/)
-- [Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by-Step)](/posts/etsy-seo-tags-chatgpt-optimization/)
-- [7 Passive Income Ideas Using Digital Products](/posts/passive-income-digital-products-2026/)
+- [How to Use ChatGPT for Etsy Shop Descriptions (Complete 2026 Guide)](/en/posts/chatgpt-etsy-shop-descriptions/)
+- [Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by-Step)](/en/posts/etsy-seo-tags-chatgpt-optimization/)
+- [7 Passive Income Ideas Using Digital Products](/en/posts/passive-income-digital-products-2026/)

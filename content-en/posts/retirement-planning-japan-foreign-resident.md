@@ -52,7 +52,7 @@ Japan also has **social security agreements with over 20 countries** — includi
 
 Before building a strategy, you need to understand your personal numbers. The public pension payout figures above are national averages. Your actual situation depends on your age, years of coverage, current salary, expected retirement age, and target monthly spending in retirement.
 
-Start by plugging your numbers into the **[Retirement Calculator](/tools/retirement-calculator/)** to get a personalized estimate of:
+Start by plugging your numbers into the **[Retirement Calculator](/en/tools/retirement-calculator/)** to get a personalized estimate of:
 
 - Your projected pension payout based on actual years of coverage in Japan
 - Your target retirement corpus (the lump sum you need invested to bridge the gap)
@@ -76,7 +76,7 @@ Here is an illustrative example:
 
 To fund ¥48.8 million over 25 years of retirement, assuming a 3% annual drawdown rate, you need a retirement portfolio of roughly **¥65 million** at age 65.
 
-That sounds enormous. But over 30 years, with consistent investing and compound returns, it is achievable — and the [Compound Interest Calculator](/tools/compound-interest-calculator/) makes the math visible. Investing ¥70,000 per month for 30 years at a 6% annual return produces a corpus of approximately ¥70 million. The numbers work. The discipline is what most people lack.
+That sounds enormous. But over 30 years, with consistent investing and compound returns, it is achievable — and the [Compound Interest Calculator](/en/tools/compound-interest-calculator/) makes the math visible. Investing ¥70,000 per month for 30 years at a 6% annual return produces a corpus of approximately ¥70 million. The numbers work. The discipline is what most people lack.
 
 The gap most foreign residents ignore is not the pension shortfall itself — it is the failure to start modeling it early. A 10-year delay in starting contributions roughly doubles the monthly savings required to reach the same target. Use the calculator now, not at 50.
 
@@ -176,10 +176,10 @@ At a 6% average annual return, ¥123,000/month (iDeCo + NISA) invested for 30 ye
 
 ### Tools to Track Your Progress
 
-- **[Retirement Calculator](/tools/retirement-calculator/)** — Model your pension gap and required corpus in under 5 minutes
-- **[Compound Interest Calculator](/tools/compound-interest-calculator/)** — See exactly how your monthly contributions grow over time at different return assumptions
+- **[Retirement Calculator](/en/tools/retirement-calculator/)** — Model your pension gap and required corpus in under 5 minutes
+- **[Compound Interest Calculator](/en/tools/compound-interest-calculator/)** — See exactly how your monthly contributions grow over time at different return assumptions
 - **[NISA Simulator](/ja/tools/compound-interest-calculator/)** — Optimize your NISA contribution allocation between the tsumitate and seichyo slots
-- **[Take-home Pay Calculator](/tools/salary-calculator/)** — Calculate your actual net monthly income after pension, health insurance, and income tax deductions to know your true investable surplus
+- **[Take-home Pay Calculator](/en/tools/salary-calculator/)** — Calculate your actual net monthly income after pension, health insurance, and income tax deductions to know your true investable surplus
 
 ---
 
@@ -205,24 +205,24 @@ Japan's pension system is structurally sound but underpowered relative to the ac
 
 The key insight from running the numbers: the Japanese pension is a floor, not a plan. Your NISA, your iDeCo, and your disciplined monthly investment habit are the actual plan.
 
-Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to know your number. Then use Rakuten Securities to build the portfolio that reaches it.
+Start with the **[Retirement Calculator](/en/tools/retirement-calculator/)** to know your number. Then use Rakuten Securities to build the portfolio that reaches it.
 
 > Ready to open your Rakuten Securities account and start your retirement portfolio today? [Get started here](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP)
 
 ---
 
 ## Related Tools
-> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
+> Calculate your exact age instantly → [Age Calculator](/en/tools/age-calculator/)
 
-- [Retirement Calculator](/tools/retirement-calculator/) — Project your pension gap and required savings corpus
-- [Compound Interest Calculator](/tools/compound-interest-calculator/) — Model long-term growth of your monthly investments
+- [Retirement Calculator](/en/tools/retirement-calculator/) — Project your pension gap and required savings corpus
+- [Compound Interest Calculator](/en/tools/compound-interest-calculator/) — Model long-term growth of your monthly investments
 - [NISA Simulator](/ja/tools/compound-interest-calculator/) — Optimize your NISA tsumitate and seichyo slot allocation
-- [Take-home Pay Calculator](/tools/salary-calculator/) — Calculate net monthly income after all Japanese deductions
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [Take-home Pay Calculator](/en/tools/salary-calculator/) — Calculate net monthly income after all Japanese deductions
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 ---
 
@@ -230,6 +230,6 @@ Start with the **[Retirement Calculator](/tools/retirement-calculator/)** to kno
 
 ## You May Also Like
 
-- [iDeCo Tax Deduction Calculator: How Much Can You Actually Save in Japan?](/posts/ideco-tax-deduction-calculator-japan/)
-- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/posts/best-investment-account-japan-nisa-ideco/)
-- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
+- [iDeCo Tax Deduction Calculator: How Much Can You Actually Save in Japan?](/en/posts/ideco-tax-deduction-calculator-japan/)
+- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/en/posts/best-investment-account-japan-nisa-ideco/)
+- [401k vs IRA Differences Explained (2026)](/en/posts/401k-vs-ira-differences-explained/)

@@ -348,8 +348,8 @@ Notion has a learning curve, but it's shallower than people expect. The biggest 
 If you want a head start, our [Notion PM Starter Kit](https://payhip.com/productivityworks) (available on our Payhip store) includes a pre-built workspace with all the databases, views, templates, and formulas described in this guide — ready to duplicate into your account.
 
 **Related reads:**
-- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
-- [Best Free Alternatives to ChatGPT 2026](/posts/best-free-chatgpt-alternatives-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/best-ai-tools-small-business-2026/)
+- [Best Free Alternatives to ChatGPT 2026](/en/posts/best-free-chatgpt-alternatives-2026/)
 
 ---
 
@@ -357,10 +357,10 @@ If you want a head start, our [Notion PM Starter Kit](https://payhip.com/product
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
 
 ## Related Templates
 

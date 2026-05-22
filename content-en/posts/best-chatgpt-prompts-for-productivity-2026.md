@@ -293,7 +293,7 @@ You are a research analyst. Read the following text and give me:
 
 **Strategy 5: Batch similar tasks.** Instead of one email at a time, paste 5 email drafts and ask ChatGPT to polish all of them in one go.
 
-[Related: How to Use ChatGPT for Data Analysis](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+[Related: How to Use ChatGPT for Data Analysis](/en/posts/how-to-use-chatgpt-for-data-analysis-2026/)
 
 ---
 
@@ -341,7 +341,7 @@ Want 100+ ready-to-use prompts organized by job function? Check out our **[Compl
 
 Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/productivityworks)** walks you through building a complete AI-powered workflow for your specific role — from morning routine to end-of-day wrap-up. Thousands of professionals have used it to reclaim 10+ hours per week.
 
-[Related: AI Prompt Engineering Tips for Beginners](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+[Related: AI Prompt Engineering Tips for Beginners](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 
@@ -349,11 +349,11 @@ Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/producti
 
 ### Related Articles
 
-- [ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [Claude AI vs ChatGPT Comparison 2026](/posts/claude-ai-vs-chatgpt-comparison-2026/)
-- [AI Prompt Engineering Tips for Beginners 2026](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
-- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/posts/how-to-make-money-with-ai-2026/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
+- [ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [Claude AI vs ChatGPT Comparison 2026](/en/posts/claude-ai-vs-chatgpt-comparison-2026/)
+- [AI Prompt Engineering Tips for Beginners 2026](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/en/posts/how-to-make-money-with-ai-2026/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)
 
 *Disclosure: This article may contain affiliate links. We may earn a commission at no additional cost to you.*
 
@@ -363,11 +363,11 @@ Ready to go deeper? Our **[AI Productivity Playbook](https://payhip.com/producti
 
 ## Related Tools
 
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
-> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
+> Compare texts and find differences → [Text Diff Checker](/en/tools/text-diff/)
 
 ## Related Templates
 

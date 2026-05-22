@@ -304,7 +304,7 @@ Your products deserve descriptions that do them justice. Now you have the tools 
 
 ## Related Tools
 
-> Calculate your Etsy income taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate your Etsy income taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
 
 ## Related Templates
 
@@ -317,6 +317,6 @@ Grow your Etsy business with these resources:
 
 ## You May Also Like
 
-- [ChatGPT for Etsy Sellers: Descriptions, SEO & Marketing 2026](/posts/chatgpt-etsy-seller-complete-guide-2026/)
-- [Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by-Step)](/posts/etsy-seo-tags-chatgpt-optimization/)
-- [AI Writing Tools Comparison 2026: Best Options Ranked and Reviewed](/posts/ai-writing-tools-comparison-2026/)
+- [ChatGPT for Etsy Sellers: Descriptions, SEO & Marketing 2026](/en/posts/chatgpt-etsy-seller-complete-guide-2026/)
+- [Etsy SEO: How to Generate Perfect Tags with ChatGPT (Step-by-Step)](/en/posts/etsy-seo-tags-chatgpt-optimization/)
+- [AI Writing Tools Comparison 2026: Best Options Ranked and Reviewed](/en/posts/ai-writing-tools-comparison-2026/)

@@ -266,7 +266,7 @@ If you don't understand an explanation: "I'm still confused. Can you try a diffe
 
 While this guide focuses on ChatGPT, Claude (by Anthropic) is also excellent for studying — particularly for nuanced topics in humanities, social sciences, and complex reasoning. Try both for different subjects.
 
-See our comparison: [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+See our comparison: [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
 
 ---
 
@@ -324,16 +324,16 @@ The students who will thrive in 2026 and beyond are those who learn to work with
 Our [Student Productivity Toolkit](https://payhip.com/productivityworks) includes ChatGPT prompt templates for 12 subject areas, a weekly study planner template, and an exam preparation framework — all designed for students who want to learn faster and more effectively.
 
 **Related Reading:**
-- [Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
-- [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [AI Prompt Engineering Tips for Beginners 2026](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+- [Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+- [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [AI Prompt Engineering Tips for Beginners 2026](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

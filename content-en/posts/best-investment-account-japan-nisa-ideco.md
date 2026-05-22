@@ -171,9 +171,9 @@ You can model your own numbers using the [NISA Simulator](/ja/tools/compound-int
 5. The simulator shows your final NISA balance alongside a taxable account scenario, so you can see the exact yen difference tax-free compounding makes.
 6. Click "Compare with iDeCo" to run a parallel iDeCo projection. Enter your monthly contribution limit and marginal tax rate.
 
-Also try the [iDeCo Simulator](/ja/tools/ideco-simulator/) to model the tax-deduction savings year by year, and the [Compound Interest Calculator](/tools/compound-interest-calculator/) to experiment with different return assumptions.
+Also try the [iDeCo Simulator](/ja/tools/ideco-simulator/) to model the tax-deduction savings year by year, and the [Compound Interest Calculator](/en/tools/compound-interest-calculator/) to experiment with different return assumptions.
 
-For a full picture of how these accounts feed into retirement, the [Retirement Calculator](/tools/retirement-calculator/) lets you combine your NISA, iDeCo, and public pension (nenkin) into a single retirement income projection.
+For a full picture of how these accounts feed into retirement, the [Retirement Calculator](/en/tools/retirement-calculator/) lets you combine your NISA, iDeCo, and public pension (nenkin) into a single retirement income projection.
 
 ---
 
@@ -230,7 +230,7 @@ Set up a monthly automatic purchase (積立設定) aligned with your NISA tsumit
 - The 20-year simulation shows roughly **¥1M in tax savings** just by using NISA instead of a taxable account on the same ¥30,000/month plan.
 - Open a Rakuten Securities account with your My Number card — the e-KYC process takes under 10 minutes.
 
-Run your own numbers with the [NISA Simulator](/ja/tools/compound-interest-calculator/), the [iDeCo Simulator](/ja/tools/ideco-simulator/), and the [Retirement Calculator](/tools/retirement-calculator/) before you decide on a contribution amount.
+Run your own numbers with the [NISA Simulator](/ja/tools/compound-interest-calculator/), the [iDeCo Simulator](/ja/tools/ideco-simulator/), and the [Retirement Calculator](/en/tools/retirement-calculator/) before you decide on a contribution amount.
 
 ---
 
@@ -241,10 +241,10 @@ Run your own numbers with the [NISA Simulator](/ja/tools/compound-interest-calcu
 
 ## Related Tools
 
-> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Plan your retirement → [Retirement Calculator](/tools/retirement-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> Calculate compound interest → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Plan your retirement → [Retirement Calculator](/en/tools/retirement-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 ---
 
@@ -254,6 +254,6 @@ Run your own numbers with the [NISA Simulator](/ja/tools/compound-interest-calcu
 
 ## You May Also Like
 
-- [iDeCo Tax Deduction Calculator: How Much Can You Actually Save in Japan?](/posts/ideco-tax-deduction-calculator-japan/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [Beginner Investing Guide 2026: How to Start Building Wealth Today](/posts/beginner-investing-guide-2026/)
+- [iDeCo Tax Deduction Calculator: How Much Can You Actually Save in Japan?](/en/posts/ideco-tax-deduction-calculator-japan/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [Beginner Investing Guide 2026: How to Start Building Wealth Today](/en/posts/beginner-investing-guide-2026/)

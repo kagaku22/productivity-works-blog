@@ -43,12 +43,12 @@ Before investing, make sure:
 **1. You have an emergency fund.**
 Keep 3-6 months of expenses in a high-yield savings account. This prevents you from being forced to sell investments at the worst time.
 
-See: [How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+See: [How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 **2. You have no high-interest debt.**
 Paying off debt with a 20%+ interest rate (credit cards) is guaranteed to be more profitable than investing, which averages 7-10% annually.
 
-See: [How to Pay Off Debt Fast](/posts/how-to-pay-off-debt-fast-strategies/)
+See: [How to Pay Off Debt Fast](/en/posts/how-to-pay-off-debt-fast-strategies/)
 
 **3. You have at least $50/month you can commit consistently.**
 Consistency matters more than the amount. Start with whatever you can sustain.
@@ -308,17 +308,17 @@ The best investing plan is the one you actually follow — simple, automated, an
 Our [Personal Finance Starter Pack](https://payhip.com/productivityworks) includes an investment tracker spreadsheet, budget templates, and a step-by-step account setup guide for all major brokerages.
 
 ## Related Tools
-> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> See how your investments grow → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Estimate dividend income → [Dividend Income Calculator](/tools/dividend-income-calculator/)
-> Plan your retirement → [Retirement Savings Calculator](/tools/retirement-calculator/)
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> Calculate loan payments and payoff timeline → [Loan Calculator](/en/tools/loan-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> See how your investments grow → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Estimate dividend income → [Dividend Income Calculator](/en/tools/dividend-income-calculator/)
+> Plan your retirement → [Retirement Savings Calculator](/en/tools/retirement-calculator/)
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 **Related Reading:**
-- [How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
-- [Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026/)
+- [How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+- [Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026/)

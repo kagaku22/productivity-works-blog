@@ -274,14 +274,14 @@ A remote team with three tools used well outperforms a team with twelve tools us
 
 ## Related Tools
 
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/en/tools/stopwatch/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
 
-> Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly
+> Working across time zones? → [Timezone Converter](/en/tools/timezone-converter/) — convert times between any cities instantly
 
 ## Related Templates
 
@@ -294,6 +294,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/posts/best-productivity-apps-remote-workers-2026/)
-- [Work From Home Tips for Beginners 2026: Everything You Need to Succeed](/posts/work-from-home-tips-beginners-2026/)
-- [The Ultimate Notion Setup for Maximum Productivity](/posts/ultimate-notion-productivity-setup/)
+- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/en/posts/best-productivity-apps-remote-workers-2026/)
+- [Work From Home Tips for Beginners 2026: Everything You Need to Succeed](/en/posts/work-from-home-tips-beginners-2026/)
+- [The Ultimate Notion Setup for Maximum Productivity](/en/posts/ultimate-notion-productivity-setup/)

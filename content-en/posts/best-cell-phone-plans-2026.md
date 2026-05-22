@@ -175,9 +175,9 @@ Start with **Mint Mobile** ($15/mo) if you want the best value, or **Visible** (
 
 Put the savings toward your emergency fund, investments, or something more enjoyable than a phone bill.
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
@@ -185,9 +185,9 @@ Put the savings toward your emergency fund, investments, or something more enjoy
 
 ## Related Tools
 
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
 
 ---
 

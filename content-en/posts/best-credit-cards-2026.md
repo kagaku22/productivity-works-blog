@@ -179,7 +179,7 @@ Every card in this guide is evaluated on five criteria:
 
 **Best for:** Freelancers and small business owners who spend on advertising, software subscriptions, and shipping. The 100K point bonus (worth $1,250+ in travel) is one of the best in any category.
 
-[Related: AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ### Best No-Fee Business: Chase Ink Business Unlimited
 
@@ -251,29 +251,29 @@ Start with one card that covers your biggest spending category. Use it for 6 mon
 
 The cards above represent the strongest options available in 2026, but always check the issuer's website for the most current terms, APRs, and bonus offers before applying.
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
 ### Related Articles
 
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
-- [How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
-- [How to Pay Off Debt Fast: Proven Strategies](/posts/how-to-pay-off-debt-fast-strategies/)
-- [Best High-Yield Savings Accounts 2026](/posts/best-high-yield-savings-accounts-2026/)
-- [ChatGPT Tips to Save Money](/posts/chatgpt-save-money/)
+- [Best Budgeting Apps 2026: Full Comparison](/en/posts/best-budgeting-apps-2026-comparison/)
+- [How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [How to Pay Off Debt Fast: Proven Strategies](/en/posts/how-to-pay-off-debt-fast-strategies/)
+- [Best High-Yield Savings Accounts 2026](/en/posts/best-high-yield-savings-accounts-2026/)
+- [ChatGPT Tips to Save Money](/en/posts/chatgpt-save-money/)
 
 ## Related Tools
-> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
+> Calculate loan payments and payoff timeline → [Loan Calculator](/en/tools/loan-calculator/)
 
-> Plan your debt payoff strategy → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Create a monthly spending plan → [Budget Planner](/tools/budget-planner/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Plan your debt payoff strategy → [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Create a monthly spending plan → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> See how savings grow over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
 
 ## Related Templates
 

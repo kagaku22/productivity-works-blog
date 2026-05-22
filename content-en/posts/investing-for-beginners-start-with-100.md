@@ -220,19 +220,19 @@ A $100 investment made today is worth more than a $1,000 investment made next ye
 ---
 
 ### Related Tools & Articles
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
 
-> See how $100/month grows over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
-> Create a budget to free up investment funds → [Budget Calculator](/tools/budget-planner/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> See how $100/month grows over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Estimate dividend income from your portfolio → [Dividend Income Calculator](/en/tools/dividend-income-calculator/)
+> Create a budget to free up investment funds → [Budget Calculator](/en/tools/budget-planner/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
-- [How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [ETF vs Mutual Fund: Which Should I Choose?](/en/posts/etf-vs-mutual-fund-which-should-i-choose/)
+- [How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
+- [How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [Best Budgeting Apps 2026: Full Comparison](/en/posts/best-budgeting-apps-2026-comparison/)
 
 ## Related Templates
 

@@ -25,7 +25,7 @@ Etsy tags are one of the highest-leverage points in your entire shop. The right 
 
 ChatGPT, used correctly, gives you a systematic way to generate high-quality tag candidates in minutes. This guide explains exactly how to do it — including how Etsy's algorithm actually works, what makes a tag effective, and the specific prompts to use for different product categories and seasons.
 
-For a broader look at running your Etsy shop with AI, see our [Complete ChatGPT Guide for Etsy Sellers](/posts/chatgpt-etsy-seller-complete-guide-2026/).
+For a broader look at running your Etsy shop with AI, see our [Complete ChatGPT Guide for Etsy Sellers](/en/posts/chatgpt-etsy-seller-complete-guide-2026/).
 
 ---
 
@@ -279,13 +279,13 @@ Done consistently, this process will take your tag quality from "good enough" to
 ---
 
 ## Related Tools
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
 
-> Estimate taxes on your Etsy profits → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Estimate taxes on your Etsy profits → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
 
-> Resize product images for Etsy listings and social media → [Image Resizer](/tools/image-resizer/)
+> Resize product images for Etsy listings and social media → [Image Resizer](/en/tools/image-resizer/)
 
-> Generate a QR code to link your Etsy shop from physical products → [QR Code Generator](/tools/qr-code-generator/)
+> Generate a QR code to link your Etsy shop from physical products → [QR Code Generator](/en/tools/qr-code-generator/)
 
 ## Related Templates
 

@@ -270,7 +270,7 @@ If you are ready to get your bookkeeping under control and stop dreading every M
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ---
 
@@ -278,6 +278,6 @@ If you are ready to get your bookkeeping under control and stop dreading every M
 
 ## You May Also Like
 
-- [Best Accounting Software for Freelancers 2026: Full Compare](/posts/best-accounting-software-freelancers-2026/)
-- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/posts/freelance-japan-freee-tax-filing/)
-- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/posts/freee-cloud-accounting-tutorial-japan-english/)
+- [Best Accounting Software for Freelancers 2026: Full Compare](/en/posts/best-accounting-software-freelancers-2026/)
+- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/en/posts/freelance-japan-freee-tax-filing/)
+- [freee Cloud Accounting Tutorial: The Complete English Guide for Freelancers in Japan (2026)](/en/posts/freee-cloud-accounting-tutorial-japan-english/)

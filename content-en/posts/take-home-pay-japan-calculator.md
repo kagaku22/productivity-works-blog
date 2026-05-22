@@ -298,11 +298,11 @@ Understanding your payslip is the first step to managing your money confidently 
 
 ## Related Tools
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
 ---
 
@@ -310,6 +310,6 @@ Understanding your payslip is the first step to managing your money confidently 
 
 ## You May Also Like
 
-- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/posts/salary-negotiation-japan-switching-jobs/)
-- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/posts/side-job-tax-japan-rules/)
-- [How to Use doda for Salary Negotiation in Japan: An English Guide for Career Changers (2026)](/posts/doda-japan-salary-negotiation-english-guide/)
+- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/en/posts/salary-negotiation-japan-switching-jobs/)
+- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/en/posts/side-job-tax-japan-rules/)
+- [How to Use doda for Salary Negotiation in Japan: An English Guide for Career Changers (2026)](/en/posts/doda-japan-salary-negotiation-english-guide/)

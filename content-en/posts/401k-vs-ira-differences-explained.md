@@ -96,7 +96,7 @@ Key features:
 - Roth IRA has income limits that may exclude high earners
 - Requires self-discipline to set up and fund consistently
 
-[Related: Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
+[Related: Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
 
 ---
 
@@ -285,7 +285,7 @@ Follow this order consistently over your career, invest in low-cost index funds,
 - [Compare IRA options at Charles Schwab](https://payhip.com/productivityworks)
 - [Get your 401k portfolio reviewed by Blooom](https://payhip.com/productivityworks)
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -296,22 +296,22 @@ Follow this order consistently over your career, invest in low-cost index funds,
 ---
 
 ### Related Tools & Articles
-> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+> Calculate your exact age instantly → [Age Calculator](/en/tools/age-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
 
-> Plan your retirement contributions → [Retirement Savings Calculator](/tools/retirement-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> See how your investments grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Estimate dividend income from your portfolio → [Dividend Income Calculator](/tools/dividend-income-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
+> Plan your retirement contributions → [Retirement Savings Calculator](/en/tools/retirement-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> See how your investments grow over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Estimate dividend income from your portfolio → [Dividend Income Calculator](/en/tools/dividend-income-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
 
-- [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
-- [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+- [ETF vs Mutual Fund: Which Should I Choose?](/en/posts/etf-vs-mutual-fund-which-should-i-choose/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

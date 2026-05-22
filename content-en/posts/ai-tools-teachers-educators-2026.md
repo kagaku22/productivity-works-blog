@@ -382,8 +382,8 @@ That is what great teaching has always been. AI can give you more time to do it.
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
 
 ## Related Templates
 
@@ -396,6 +396,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [How to Use ChatGPT for Studying: The Complete Student Guide 2026](/posts/how-to-use-chatgpt-for-studying-guide-2026/)
-- [Best Language Learning Apps 2026: Actually Become Conversational](/posts/best-online-language-learning-apps-2026/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
+- [How to Use ChatGPT for Studying: The Complete Student Guide 2026](/en/posts/how-to-use-chatgpt-for-studying-guide-2026/)
+- [Best Language Learning Apps 2026: Actually Become Conversational](/en/posts/best-online-language-learning-apps-2026/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)

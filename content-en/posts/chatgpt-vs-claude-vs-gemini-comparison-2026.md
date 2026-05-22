@@ -140,7 +140,7 @@ Claude excels at creative writing and story generation but lacks image output. G
 
 For students and lifelong learners, Claude's patient explanations, willingness to break down complex topics, and high accuracy on factual questions make it the best study partner. It rarely oversimplifies, and it handles follow-up questions exceptionally well.
 
-See our full guide: [How to Use ChatGPT for Studying](/posts/how-to-use-chatgpt-for-studying-guide-2026/) for specific prompt templates.
+See our full guide: [How to Use ChatGPT for Studying](/en/posts/how-to-use-chatgpt-for-studying-guide-2026/) for specific prompt templates.
 
 **Best for:** Students, educators, researchers.
 
@@ -253,25 +253,25 @@ The good news: all three have improved dramatically, and any of them will make y
 Ready to get more from AI tools? Our [AI Productivity Templates Pack](https://payhip.com/productivityworks) includes 50+ tested prompts for ChatGPT, Claude, and Gemini — covering writing, research, email, and business workflows.
 
 **Related Reading:**
-- [Best AI Tools for Small Business 2026](/posts/top-ai-tools-small-business-owners-2026/)
-- [AI Writing Tools Comparison 2026](/posts/ai-writing-tools-comparison-2026/)
-- [How to Make Money with AI 2026](/posts/how-to-make-money-with-ai-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/top-ai-tools-small-business-owners-2026/)
+- [AI Writing Tools Comparison 2026](/en/posts/ai-writing-tools-comparison-2026/)
+- [How to Make Money with AI 2026](/en/posts/how-to-make-money-with-ai-2026/)
 
 ---
 
 ### Related Articles
 
-- [Claude AI vs ChatGPT Comparison 2026](/posts/claude-ai-vs-chatgpt-comparison-2026/)
-- [AI Writing Tools Comparison 2026: Best Options Ranked and Reviewed](/posts/ai-writing-tools-comparison-2026/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
-- [Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
-- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/posts/how-to-make-money-with-ai-2026/)
+- [Claude AI vs ChatGPT Comparison 2026](/en/posts/claude-ai-vs-chatgpt-comparison-2026/)
+- [AI Writing Tools Comparison 2026: Best Options Ranked and Reviewed](/en/posts/ai-writing-tools-comparison-2026/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)
+- [Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/en/posts/how-to-make-money-with-ai-2026/)
 
 ---
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

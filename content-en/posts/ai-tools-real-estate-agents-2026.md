@@ -346,8 +346,8 @@ Your clients are already interacting with AI in every other part of their lives.
 
 ## Related Tools
 
-> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Estimate your mortgage payments → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ## Related Templates
 
@@ -360,6 +360,6 @@ Supercharge your real estate business with these AI tools:
 
 ## You May Also Like
 
-- [ChatGPT Prompts for Real Estate Agents: 30 Templates (2026)](/posts/chatgpt-real-estate-agent-prompts-2026/)
-- [How to Write Property Listing Descriptions with ChatGPT (10 Templates)](/posts/chatgpt-property-listing-description-templates/)
-- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/posts/real-estate-investment-japan-salaried-worker/)
+- [ChatGPT Prompts for Real Estate Agents: 30 Templates (2026)](/en/posts/chatgpt-real-estate-agent-prompts-2026/)
+- [How to Write Property Listing Descriptions with ChatGPT (10 Templates)](/en/posts/chatgpt-property-listing-description-templates/)
+- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/en/posts/real-estate-investment-japan-salaried-worker/)

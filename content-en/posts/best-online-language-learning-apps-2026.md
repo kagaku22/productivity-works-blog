@@ -192,7 +192,7 @@ Start with Duolingo (free) to build the habit, add Babbel ($7.45/month) for gram
 
 The key is starting today and practicing daily — even 15 minutes counts.
 
-[Related: Best ChatGPT Prompts for Productivity](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -201,9 +201,9 @@ The key is starting today and practicing daily — even 15 minutes counts.
 ---
 
 ## Related Tools
-> Convert between units of measurement → [Unit Converter](/tools/unit-converter/)
+> Convert between units of measurement → [Unit Converter](/en/tools/unit-converter/)
 
-> Planning to work abroad? Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Planning to work abroad? Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ## Related Templates
 

@@ -141,7 +141,7 @@ QuickBooks' AI features have matured significantly. In 2026, the standout capabi
 
 **Price:** Add-on to Notion Plus ($10/member/month)
 
-If your team uses Notion (see our [Notion PM guide](/posts/notion-project-management-guide-2026/)), the AI add-on pays for itself quickly through:
+If your team uses Notion (see our [Notion PM guide](/en/posts/notion-project-management-guide-2026/)), the AI add-on pays for itself quickly through:
 
 - **SOP drafting** — Describe a process in bullets, AI expands it into a full procedure doc
 - **Meeting summaries** — Paste transcripts, get structured summaries with action items
@@ -324,20 +324,20 @@ Start with the free tiers, prove the value, then upgrade. The small business own
 Want a done-for-you AI tool setup guide tailored to your specific business type? Check out our [Small Business AI Toolkit](https://payhip.com/productivityworks) on Payhip — includes ChatGPT prompt libraries, Zapier templates, and a step-by-step 30-day implementation plan.
 
 **Related reads:**
-- [How to Use Notion for Project Management 2026](/posts/notion-project-management-guide-2026/)
-- [Best Free Alternatives to ChatGPT 2026](/posts/best-free-chatgpt-alternatives-2026/)
+- [How to Use Notion for Project Management 2026](/en/posts/notion-project-management-guide-2026/)
+- [Best Free Alternatives to ChatGPT 2026](/en/posts/best-free-chatgpt-alternatives-2026/)
 - How to Create a Resume with AI (Step-by-Step)
 
 ---
 
 ## Related Tools
 
-> Create a business budget → [Budget Planner](/tools/budget-planner/)
-> Estimate your side hustle taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator())
-> Generate professional client invoices instantly → [Invoice Generator](/tools/invoice-generator/)
-> Generate QR codes for marketing, menus, and payments → [QR Code Generator](/tools/qr-code-generator/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
-> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
+> Create a business budget → [Budget Planner](/en/tools/budget-planner/)
+> Estimate your side hustle taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator())
+> Generate professional client invoices instantly → [Invoice Generator](/en/tools/invoice-generator/)
+> Generate QR codes for marketing, menus, and payments → [QR Code Generator](/en/tools/qr-code-generator/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/en/tools/hash-generator/)
 
 ## Related Templates
 
@@ -350,10 +350,10 @@ Put these techniques into practice with our ready-made templates:
 
 ### Related Articles
 
-- [Best AI Tools for Small Business Owners 2026: Complete Guide](/posts/top-ai-tools-small-business-owners-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
-- [ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/posts/how-to-make-money-with-ai-2026/)
+- [Best AI Tools for Small Business Owners 2026: Complete Guide](/en/posts/top-ai-tools-small-business-owners-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+- [ChatGPT vs Claude vs Gemini: The Definitive AI Comparison 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/en/posts/how-to-make-money-with-ai-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

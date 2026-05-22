@@ -112,7 +112,7 @@ Example: If your essential monthly expenses total $3,500, a 3-month emergency fu
 
 Note: Use essential expenses, not your full monthly spending. You don't need to fund dining out and Netflix subscriptions during a financial emergency.
 
-[Related: Best High-Yield Savings Accounts 2026](/posts/best-high-yield-savings-accounts-2026/)
+[Related: Best High-Yield Savings Accounts 2026](/en/posts/best-high-yield-savings-accounts-2026/)
 
 ---
 
@@ -299,7 +299,7 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 - [Start with Marcus by Goldman Sachs — simple, no fees](https://payhip.com/productivityworks)
 - [Try Ally Bank — consistently excellent HYSA with great app](https://payhip.com/productivityworks)
 
-[Related: Best Budgeting Apps 2026 — Find Money to Save Faster](/posts/best-budgeting-apps-2026/)
+[Related: Best Budgeting Apps 2026 — Find Money to Save Faster](/en/posts/best-budgeting-apps-2026/)
 
 ---
 
@@ -310,19 +310,19 @@ Start today. Open a high-yield savings account, deposit whatever you can, and se
 ---
 
 ### Related Tools & Articles
-> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
+> Calculate loan payments and payoff timeline → [Loan Calculator](/en/tools/loan-calculator/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
 
-- [Emergency Fund Calculator](/tools/emergency-fund-calculator/) — Calculate your ideal fund size and see your savings timeline
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
-- [Budget Planner](/tools/budget-planner/) — Find money to save faster with a personalized budget
-- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your savings grow over time
+- [Emergency Fund Calculator](/en/tools/emergency-fund-calculator/) — Calculate your ideal fund size and see your savings timeline
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [Budget Planner](/en/tools/budget-planner/) — Find money to save faster with a personalized budget
+- [Compound Interest Calculator](/en/tools/compound-interest-calculator/) — See how your savings grow over time
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
-- [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
+- [How to Pay Off Debt Fast: Best Strategies 2026](/en/posts/how-to-pay-off-debt-fast-strategies/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

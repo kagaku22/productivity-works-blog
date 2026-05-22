@@ -350,16 +350,16 @@ Building a great resume with AI takes about 2-3 hours for a strong first draft �
 Want to skip the setup? Our [AI Resume Toolkit](https://payhip.com/productivityworks) on Payhip includes 25 tested ChatGPT prompts for resumes, a master resume template, a cover letter template, and an ATS keyword guide — everything you need to run this process for any job application.
 
 **Related reads:**
-- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
-- [Best Free Alternatives to ChatGPT 2026](/posts/best-free-chatgpt-alternatives-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/best-ai-tools-small-business-2026/)
+- [Best Free Alternatives to ChatGPT 2026](/en/posts/best-free-chatgpt-alternatives-2026/)
 
 ---
 
 ## Related Tools
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
 
-> Calculate your take-home pay for any salary → [Salary Calculator](/tools/salary-calculator/)
-> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your take-home pay for any salary → [Salary Calculator](/en/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 

@@ -252,8 +252,8 @@ Start collecting your documents in January, authenticate your My Number card for
 
 ## Related Tools
 
-> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate forex profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 
@@ -261,6 +261,6 @@ Start collecting your documents in January, authenticate your My Number card for
 
 ## You May Also Like
 
-- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
-- [FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?](/posts/fx-loss-carryforward-japan-tax/)
-- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/posts/side-job-tax-japan-rules/)
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/en/posts/fx-tax-japan-salary-worker/)
+- [FX Trading and Japan Tax Filing: Can You Carry Forward Losses for 3 Years?](/en/posts/fx-loss-carryforward-japan-tax/)
+- [Side Job Tax Rules in Japan: When Do You Need to File and How to Avoid Penalties?](/en/posts/side-job-tax-japan-rules/)

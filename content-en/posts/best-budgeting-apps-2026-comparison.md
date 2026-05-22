@@ -225,7 +225,7 @@ Budgeting apps work passively, but the behavior change requires active review. A
 **Mistake 5: Ignoring "miscellaneous" spending**
 Miscellaneous categories are where budgets go to die. Give every recurring spend its own category. If you notice $300 in "other" spending, dig in — there are almost always surprises.
 
-[Related: How to Pay Off Debt Fast](/posts/how-to-pay-off-debt-fast-strategies/)
+[Related: How to Pay Off Debt Fast](/en/posts/how-to-pay-off-debt-fast-strategies/)
 
 ---
 
@@ -311,7 +311,7 @@ Start the free trial of your top choice today. Commit to 30 days. The data you g
 - [Try Monarch Money free for 7 days](https://payhip.com/productivityworks)
 - [Download Copilot — 2-month free trial (iOS)](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
@@ -322,20 +322,20 @@ Start the free trial of your top choice today. Commit to 30 days. The data you g
 ---
 
 ### Related Tools & Articles
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
 
-> Create your monthly budget plan → [Budget Calculator](/tools/budget-planner/)
-> Track your debt payoff progress → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
-> See how savings grow over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
+> Create your monthly budget plan → [Budget Calculator](/en/tools/budget-planner/)
+> Track your debt payoff progress → [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/)
+> See how savings grow over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
 
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
-- [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)
-- [Best High-Yield Savings Accounts 2026: Where to Earn 4-5% APY](/posts/best-high-yield-savings-accounts-2026/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [How to Pay Off Debt Fast: Best Strategies 2026](/en/posts/how-to-pay-off-debt-fast-strategies/)
+- [Best High-Yield Savings Accounts 2026: Where to Earn 4-5% APY](/en/posts/best-high-yield-savings-accounts-2026/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

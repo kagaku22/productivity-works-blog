@@ -261,7 +261,7 @@ Niching deeper almost always allows higher rates. "I write content" earns less t
 ### Add AI tools to increase output
 With AI tools, many freelancers can produce 2-3x the volume of work in the same time. This allows you to either take more clients at the same rate or deliver faster at a premium.
 
-See our guide: [AI Tools for Freelancers](/posts/ai-tools-for-freelancers-to-earn-more-2026/) for specific tools and workflows.
+See our guide: [AI Tools for Freelancers](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/) for specific tools and workflows.
 
 ---
 
@@ -318,15 +318,15 @@ The perfect time to start freelancing was last year. The second-best time is tod
 Our [Freelance Starter Toolkit](https://payhip.com/productivityworks) includes a contract template, rate calculator, client pitch scripts, and 30-day action plan — everything you need to launch professionally from day one.
 
 ## Related Tools
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Create professional invoices for your first clients → [Invoice Generator](/tools/invoice-generator/)
-> Generate a QR code for your freelance portfolio → [QR Code Generator](/tools/qr-code-generator/)
-> Plan your freelance budget → [Budget Calculator](/tools/budget-planner/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Create professional invoices for your first clients → [Invoice Generator](/en/tools/invoice-generator/)
+> Generate a QR code for your freelance portfolio → [QR Code Generator](/en/tools/qr-code-generator/)
+> Plan your freelance budget → [Budget Calculator](/en/tools/budget-planner/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
 **Related Reading:**
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [Freelance Tax Guide 2026](/posts/freelance-tax-guide-2026/)
-- [Work From Home Tips for Beginners 2026](/posts/work-from-home-tips-beginners-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [Freelance Tax Guide 2026](/en/posts/freelance-tax-guide-2026/)
+- [Work From Home Tips for Beginners 2026](/en/posts/work-from-home-tips-beginners-2026/)

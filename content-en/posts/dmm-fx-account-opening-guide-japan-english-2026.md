@@ -320,8 +320,8 @@ If you are still weighing your options across different brokers, our comparison 
 
 ## Related Tools
 
-> Calculate potential FX profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Check your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Calculate potential FX profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Check your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ---
 
@@ -329,6 +329,6 @@ If you are still weighing your options across different brokers, our comparison 
 
 ## You May Also Like
 
-- [Best FX Brokers for English Speakers in Japan 2026: What to Look For](/posts/best-fx-brokers-japan-english/)
-- [FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY](/posts/fx-spread-comparison-japan-2026/)
-- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
+- [Best FX Brokers for English Speakers in Japan 2026: What to Look For](/en/posts/best-fx-brokers-japan-english/)
+- [FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY](/en/posts/fx-spread-comparison-japan-2026/)
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/en/posts/fx-tax-japan-salary-worker/)

@@ -338,11 +338,11 @@ Build it before you need it.
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create a quick monthly budget → [Budget Planner](/tools/budget-planner/)
-> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Calculate take-home from salary + freelance → [Salary Calculator](/tools/salary-calculator/)
-> Plan your debt payoff strategy → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create a quick monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Estimate your freelance tax burden → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Calculate take-home from salary + freelance → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your debt payoff strategy → [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/)
 
 ## Related Templates
 
@@ -355,6 +355,6 @@ Start your freelance or side hustle journey with these resources:
 
 ## You May Also Like
 
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
-- [The Ultimate Notion Setup for Maximum Productivity](/posts/ultimate-notion-productivity-setup/)
-- [Best Notion AI Templates for Productivity 2026](/posts/best-notion-ai-templates-for-productivity-2026/)
+- [Best Budgeting Apps 2026: Full Comparison](/en/posts/best-budgeting-apps-2026-comparison/)
+- [The Ultimate Notion Setup for Maximum Productivity](/en/posts/ultimate-notion-productivity-setup/)
+- [Best Notion AI Templates for Productivity 2026](/en/posts/best-notion-ai-templates-for-productivity-2026/)

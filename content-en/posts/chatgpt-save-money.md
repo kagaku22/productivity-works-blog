@@ -190,13 +190,13 @@ The goal isn't to become a financial expert. It's to stop leaving money on the t
 
 ## Related Tools
 
-> Create a personalized budget → [Budget Planner](/tools/budget-planner/)
-> See how your savings compound → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Pay off debt faster → [Debt Payoff Calculator](/tools/debt-payoff-calculator/)
-> How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> Create a personalized budget → [Budget Planner](/en/tools/budget-planner/)
+> See how your savings compound → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Pay off debt faster → [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/)
+> How much emergency fund do you need? → [Emergency Fund Calculator](/en/tools/emergency-fund-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 ## Related Templates
 
@@ -209,6 +209,6 @@ Take control of your finances with these tools:
 
 ## You May Also Like
 
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
-- [How to Pay Off Debt Fast: Best Strategies 2026](/posts/how-to-pay-off-debt-fast-strategies/)
+- [Best Budgeting Apps 2026: Full Comparison](/en/posts/best-budgeting-apps-2026-comparison/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [How to Pay Off Debt Fast: Best Strategies 2026](/en/posts/how-to-pay-off-debt-fast-strategies/)

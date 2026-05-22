@@ -196,7 +196,7 @@ For beginners, start with **OANDA** (zero minimum, flexible lot sizes) or **eTor
 
 Remember: forex trading is high-risk. Start with a demo account, learn proper risk management, and never trade with money you can't afford to lose. Consider building a foundation with index investing first, then exploring forex with surplus funds.
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
 ---
 
@@ -206,9 +206,9 @@ Remember: forex trading is high-risk. Start with a demo account, learn proper ri
 
 ## Related Tools
 
-> Calculate forex trading profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> See how reinvested profits grow → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate forex trading profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> See how reinvested profits grow → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ## Related Templates
 

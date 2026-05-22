@@ -346,10 +346,10 @@ Understand your salary structure. Know your market value. Let your advisor negot
 
 ## Related Tools
 
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
 ---
 
@@ -360,6 +360,6 @@ Understand your salary structure. Know your market value. Let your advisor negot
 
 ## You May Also Like
 
-- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/posts/salary-negotiation-japan-switching-jobs/)
-- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/posts/best-job-search-sites-2026/)
-- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/posts/take-home-pay-japan-calculator/)
+- [How to Negotiate a Higher Salary When Switching Jobs in Japan (With Take-Home Pay Reality Check)](/en/posts/salary-negotiation-japan-switching-jobs/)
+- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/en/posts/best-job-search-sites-2026/)
+- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/en/posts/take-home-pay-japan-calculator/)

@@ -311,7 +311,7 @@ Once you own a rental property, you are in the tax filing business whether you l
 
 **[Start managing rental income with freee →](https://www.freee.co.jp/)** *(affiliate link)*
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
 
 ---
 
@@ -327,9 +327,9 @@ Before or alongside real estate, NISA is the most efficient savings vehicle avai
 
 ## Related Tools
 
-> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Calculate your net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Calculate compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Estimate your mortgage payments → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Calculate your net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Calculate compound interest → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ---
 
@@ -337,6 +337,6 @@ Before or alongside real estate, NISA is the most efficient savings vehicle avai
 
 ## You May Also Like
 
-- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/posts/real-estate-investment-japan-salaried-worker/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/en/posts/real-estate-investment-japan-salaried-worker/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)

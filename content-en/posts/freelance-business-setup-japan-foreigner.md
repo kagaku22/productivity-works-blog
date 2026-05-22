@@ -49,7 +49,7 @@ The main advantages of a KK over a sole proprietorship are improved credibility 
 
 For a first-time freelancer in Japan, **sole proprietor is almost always the right starting point.** You can always incorporate later. The administrative overhead of a KK — corporate tax filings, board resolutions, statutory audits at scale — adds cost and complexity that a solo operator rarely needs in the early stages.
 
-Use our [Budget Planner](/tools/budget-planner/) to model your projected income and expenses before deciding, since the break-even point for KK incorporation varies significantly depending on your revenue level and business type.
+Use our [Budget Planner](/en/tools/budget-planner/) to model your projected income and expenses before deciding, since the break-even point for KK incorporation varies significantly depending on your revenue level and business type.
 
 ---
 
@@ -171,9 +171,9 @@ For B2B freelancers, registering under the invoice system is increasingly a prac
 
 ### Planning Your Finances: The Budget Planner
 
-Once your bookkeeping is running, take thirty minutes to map your financial projections using our [Budget Planner](/tools/budget-planner/). Input your expected monthly revenue, your fixed costs (domain, software subscriptions, phone, coworking space), and your variable costs (travel, equipment). The planner will show you your projected net income and help you estimate quarterly tax payment obligations.
+Once your bookkeeping is running, take thirty minutes to map your financial projections using our [Budget Planner](/en/tools/budget-planner/). Input your expected monthly revenue, your fixed costs (domain, software subscriptions, phone, coworking space), and your variable costs (travel, equipment). The planner will show you your projected net income and help you estimate quarterly tax payment obligations.
 
-For a clearer picture of what you will actually take home after income tax and resident tax, use the [Take-home Pay calculator](/tools/salary-calculator/). Japan's tax brackets and resident tax (住民税) can take a significant share of income above ¥3–4 million, so understanding your effective take-home rate early helps you price your services correctly.
+For a clearer picture of what you will actually take home after income tax and resident tax, use the [Take-home Pay calculator](/en/tools/salary-calculator/). Japan's tax brackets and resident tax (住民税) can take a significant share of income above ¥3–4 million, so understanding your effective take-home rate early helps you price your services correctly.
 
 ---
 
@@ -199,7 +199,7 @@ Here is a compressed checklist for turning a weekend into a fully operational fr
 - [ ] Create your [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) account and complete initial setup.
 - [ ] Connect your bank account.
 - [ ] Create your first invoice template.
-- [ ] Run your numbers through the [Budget Planner](/tools/budget-planner/) and [Take-home Pay calculator](/tools/salary-calculator/).
+- [ ] Run your numbers through the [Budget Planner](/en/tools/budget-planner/) and [Take-home Pay calculator](/en/tools/salary-calculator/).
 
 By Sunday evening, you have a registered business, a professional web presence, and accounting software tracking every yen from day one.
 
@@ -225,7 +225,7 @@ Once you are operational, the next milestones to plan for are:
 
 - **Incorporating as a KK** when your annual revenue consistently exceeds ¥5–6 million and the tax planning advantages of a corporation begin to outweigh the administrative overhead.
 - **Hiring** — even one part-time assistant changes your compliance obligations significantly. freee's payroll module handles withholding tax and social insurance calculations.
-- **Expanding savings and investment** — as a sole proprietor, you can contribute to an **iDeCo** (individual defined contribution pension) account, which offers significant income deductions. Use the [Compound Interest calculator](/tools/compound-interest-calculator/) to model the long-term impact of consistent iDeCo contributions.
+- **Expanding savings and investment** — as a sole proprietor, you can contribute to an **iDeCo** (individual defined contribution pension) account, which offers significant income deductions. Use the [Compound Interest calculator](/en/tools/compound-interest-calculator/) to model the long-term impact of consistent iDeCo contributions.
 
 ---
 
@@ -235,13 +235,13 @@ Setting up a freelance business in Japan as a foreigner is far less complicated 
 
 The keys are: choose the right structure for your visa status, file your 開業届 and Blue Return application within the deadline windows, and start your bookkeeping on day one rather than scrambling in February. A weekend of focused action gets all of this done.
 
-Use [お名前.com](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+29KENM+50+2HU3GX) to secure your domain and professional email, [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) to keep your books clean from the first invoice, and our [Budget Planner](/tools/budget-planner/) to make sure your pricing covers both your costs and your taxes.
+Use [お名前.com](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+29KENM+50+2HU3GX) to secure your domain and professional email, [freee](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+7YYYCY+3SPO+9FHKUP) to keep your books clean from the first invoice, and our [Budget Planner](/en/tools/budget-planner/) to make sure your pricing covers both your costs and your taxes.
 
 Good luck — and welcome to self-employment in Japan.
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ---
 
@@ -253,6 +253,6 @@ Good luck — and welcome to self-employment in Japan.
 
 ## You May Also Like
 
-- [How to Start Freelancing in 2026: Complete Beginner''s Guide](/posts/how-to-start-freelancing-2026/)
-- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/posts/freelance-japan-freee-tax-filing/)
-- [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)
+- [How to Start Freelancing in 2026: Complete Beginner''s Guide](/en/posts/how-to-start-freelancing-2026/)
+- [Freelance in Japan: How to Register as Kojin Jigyonushi and File Taxes With freee](/en/posts/freelance-japan-freee-tax-filing/)
+- [Freelance Tax Guide 2026: Everything You Need to Know](/en/posts/freelance-tax-guide-2026/)

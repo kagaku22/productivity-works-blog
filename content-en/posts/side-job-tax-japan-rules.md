@@ -261,11 +261,11 @@ The filing process itself — while conducted in Japanese — is navigable with 
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Estimate your side income taxes → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate Japan take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Estimate your side income taxes → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate Japan take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your monthly budget → [Budget Planner](/en/tools/budget-planner/)
 
 ---
 
@@ -273,6 +273,6 @@ The filing process itself — while conducted in Japanese — is navigable with 
 
 ## You May Also Like
 
-- [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)
-- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/posts/kakuteishinkoku-fx-income-guide/)
-- [How to Start Freelancing in 2026: Complete Beginner''s Guide](/posts/how-to-start-freelancing-2026/)
+- [Freelance Tax Guide 2026: Everything You Need to Know](/en/posts/freelance-tax-guide-2026/)
+- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/en/posts/kakuteishinkoku-fx-income-guide/)
+- [How to Start Freelancing in 2026: Complete Beginner''s Guide](/en/posts/how-to-start-freelancing-2026/)

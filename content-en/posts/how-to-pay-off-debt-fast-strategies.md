@@ -349,7 +349,7 @@ The average person who follows a structured debt payoff plan gets out of consume
 - [Check debt consolidation loan rates — see your offers in 2 minutes](https://payhip.com/productivityworks)
 - [Get a free debt payoff plan from a nonprofit credit counselor](https://payhip.com/productivityworks)
 
-[Related: Best Budgeting Apps 2026 to Find Extra Money for Debt Payoff](/posts/best-budgeting-apps-2026/)
+[Related: Best Budgeting Apps 2026 to Find Extra Money for Debt Payoff](/en/posts/best-budgeting-apps-2026/)
 
 ---
 
@@ -360,18 +360,18 @@ The average person who follows a structured debt payoff plan gets out of consume
 ---
 
 ### Related Tools & Articles
-> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
+> Calculate loan payments and payoff timeline → [Loan Calculator](/en/tools/loan-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
 
-- [Debt Payoff Calculator](/tools/debt-payoff-calculator/) — Compare snowball vs avalanche strategies with interactive charts
-- [Budget Planner](/tools/budget-planner/) — Create a personalized monthly budget to free up debt payments
-- [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Estimate taxes on extra income from side gigs
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [Debt Payoff Calculator](/en/tools/debt-payoff-calculator/) — Compare snowball vs avalanche strategies with interactive charts
+- [Budget Planner](/en/tools/budget-planner/) — Create a personalized monthly budget to free up debt payments
+- [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/) — Estimate taxes on extra income from side gigs
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
 
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

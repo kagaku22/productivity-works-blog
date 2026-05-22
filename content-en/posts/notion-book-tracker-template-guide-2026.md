@@ -550,8 +550,8 @@ Start with your last five books. Add them to the database this weekend. Everythi
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Set a savings goal → [Savings Goal Calculator](/tools/savings-goal-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Set a savings goal → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
 
 ## Related Templates
 
@@ -564,6 +564,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [The Ultimate Notion Setup for Maximum Productivity](/posts/ultimate-notion-productivity-setup/)
-- [Best Notion AI Templates for Productivity 2026](/posts/best-notion-ai-templates-for-productivity-2026/)
-- [How to Use Notion for Project Management 2026: The Complete Guide](/posts/notion-project-management-guide-2026/)
+- [The Ultimate Notion Setup for Maximum Productivity](/en/posts/ultimate-notion-productivity-setup/)
+- [Best Notion AI Templates for Productivity 2026](/en/posts/best-notion-ai-templates-for-productivity-2026/)
+- [How to Use Notion for Project Management 2026: The Complete Guide](/en/posts/notion-project-management-guide-2026/)

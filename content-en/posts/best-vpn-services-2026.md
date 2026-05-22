@@ -193,7 +193,7 @@ For most people: **NordVPN** offers the best balance of speed, security, and fea
 
 Whatever you choose, any reputable paid VPN is dramatically better than no VPN on public networks, and infinitely better than a free VPN that sells your data.
 
-[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
@@ -201,9 +201,9 @@ Whatever you choose, any reputable paid VPN is dramatically better than no VPN o
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
-> Generate SHA-256 and MD5 hashes → [Hash Generator](/tools/hash-generator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
+> Generate SHA-256 and MD5 hashes → [Hash Generator](/en/tools/hash-generator/)
 
 ---
 

@@ -234,8 +234,8 @@ The gap between where your resume is and where it needs to be is probably smalle
 
 ## Related Tools
 
-> Calculate your take-home pay for any offer → [Salary Calculator](/tools/salary-calculator/)
-> Check your federal tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your take-home pay for any offer → [Salary Calculator](/en/tools/salary-calculator/)
+> Check your federal tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 
@@ -248,6 +248,6 @@ Ace your next career move with these resources:
 
 ## You May Also Like
 
-- [How to Create a Resume with AI (Step-by-Step Guide for 2026)](/posts/create-resume-with-ai-step-by-step/)
-- [ChatGPT Resume Tips for Career Changers Over 50 (2026)](/posts/chatgpt-resume-over-50-career-change/)
-- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/posts/best-job-search-sites-2026/)
+- [How to Create a Resume with AI (Step-by-Step Guide for 2026)](/en/posts/create-resume-with-ai-step-by-step/)
+- [ChatGPT Resume Tips for Career Changers Over 50 (2026)](/en/posts/chatgpt-resume-over-50-career-change/)
+- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/en/posts/best-job-search-sites-2026/)

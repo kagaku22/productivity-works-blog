@@ -326,7 +326,7 @@ Passive income is taxable income. Dividends may be qualified (lower rate) or ord
 **Mistake 5: Using passive income as an excuse to delay investing**
 For most people under 40, the single highest-return "passive income" strategy is maximizing retirement account contributions and investing in broad market index funds. The guaranteed, risk-adjusted return of tax-free compounding in a Roth IRA often beats speculative passive income ventures.
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -427,7 +427,7 @@ The best time to start building passive income streams was five years ago. The s
 - [Open a high-yield savings account at SoFi — earn 4.6% APY passively](https://payhip.com/productivityworks)
 - [Sell your first digital product on Gumroad — free to start](https://payhip.com/productivityworks)
 
-[Related: How to Start Investing with $100](/posts/how-to-start-investing-with-100/)
+[Related: How to Start Investing with $100](/en/posts/how-to-start-investing-with-100/)
 
 ---
 
@@ -439,17 +439,17 @@ The best time to start building passive income streams was five years ago. The s
 
 ### Related Tools & Articles
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how investments grow with compound interest over time
-- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
-- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your nest egg with 401(k), IRA, and employer match
-- [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/) — Estimate taxes on your passive income streams
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
-- [15 Side Hustles You Can Start with AI Tools Today](/posts/side-hustles-ai-tools-2026/)
-- [How to Start Investing with $100 in 2026](/posts/how-to-start-investing-with-100/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+- [Compound Interest Calculator](/en/tools/compound-interest-calculator/) — See how investments grow with compound interest over time
+- [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [Retirement Savings Calculator](/en/tools/retirement-calculator/) — Estimate your nest egg with 401(k), IRA, and employer match
+- [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/) — Estimate taxes on your passive income streams
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
+- [15 Side Hustles You Can Start with AI Tools Today](/en/posts/side-hustles-ai-tools-2026/)
+- [How to Start Investing with $100 in 2026](/en/posts/how-to-start-investing-with-100/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

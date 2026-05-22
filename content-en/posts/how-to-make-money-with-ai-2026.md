@@ -79,7 +79,7 @@ Every business is trying to implement AI, and most are doing it badly — using 
 
 **Getting started:** Spend 4 weeks mastering prompts for 2-3 specific business functions (email, customer service, content). Offer free audits to 5 local businesses. Turn results into case studies.
 
-Related: [AI Prompt Engineering Tips for Beginners 2026](/posts/ai-prompt-engineering-tips-for-beginners-2026/)
+Related: [AI Prompt Engineering Tips for Beginners 2026](/en/posts/ai-prompt-engineering-tips-for-beginners-2026/)
 
 ---
 
@@ -238,7 +238,7 @@ AI image generators (Midjourney, Adobe Firefly, Stable Diffusion) have transform
 
 **The key:** Specificity wins. "Funny nurse print" competes with thousands. "Funny NICU nurse night shift coffee mug design" finds its audience.
 
-See our related guide: [Passive Income with Digital Products 2026](/posts/passive-income-digital-products-2026/)
+See our related guide: [Passive Income with Digital Products 2026](/en/posts/passive-income-digital-products-2026/)
 
 ---
 
@@ -326,7 +326,7 @@ AI dramatically improves resume and cover letter quality. Positioning yourself a
 
 **Total package:** $375 per client. 10 clients/month = $3,750.
 
-Related: [AI Resume Optimization for Job Search 2026](/posts/ai-resume-optimization-job-search-2026/)
+Related: [AI Resume Optimization for Job Search 2026](/en/posts/ai-resume-optimization-job-search-2026/)
 
 ---
 
@@ -451,28 +451,28 @@ The people making real money with AI in 2026 started months ago. The second-best
 Our [AI Income Starter Pack](https://payhip.com/productivityworks) includes proven prompt templates, client pitch scripts, digital product blueprints, and workflow guides for the top 5 strategies in this article.
 
 **Related Reading:**
-- [Best AI Tools for Small Business 2026](/posts/top-ai-tools-small-business-owners-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [Passive Income with Digital Products 2026](/posts/passive-income-digital-products-2026/)
-- [Side Hustles with AI Tools 2026](/posts/side-hustles-ai-tools-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/top-ai-tools-small-business-owners-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [Passive Income with Digital Products 2026](/en/posts/passive-income-digital-products-2026/)
+- [Side Hustles with AI Tools 2026](/en/posts/side-hustles-ai-tools-2026/)
 
 ---
 
 ### Related Tools
-> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
+> Pick colors and convert between formats → [Color Picker](/en/tools/color-picker/)
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Estimate taxes on your AI income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> See how reinvested income compounds → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Estimate taxes on your AI income → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> See how reinvested income compounds → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ### Related Articles
 
-- [15 Side Hustles You Can Start with AI Tools Today](/posts/side-hustles-ai-tools-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [7 Passive Income Ideas Using Digital Products](/posts/passive-income-digital-products-2026/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
-- [How to Start Freelancing With No Experience 2026: Full Guide](/posts/how-to-start-freelancing-with-no-experience-2026/)
+- [15 Side Hustles You Can Start with AI Tools Today](/en/posts/side-hustles-ai-tools-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [7 Passive Income Ideas Using Digital Products](/en/posts/passive-income-digital-products-2026/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)
+- [How to Start Freelancing With No Experience 2026: Full Guide](/en/posts/how-to-start-freelancing-with-no-experience-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

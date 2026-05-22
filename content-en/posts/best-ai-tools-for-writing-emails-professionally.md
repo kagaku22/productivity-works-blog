@@ -217,7 +217,7 @@ Looking forward to connecting.
 
 **Strategy 5: Use AI to improve, not just create.** Paste your own draft and say "Make this 30% shorter, more direct, and remove any passive voice." The editing use case is often more valuable than writing from scratch.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -263,7 +263,7 @@ Want 50+ ready-to-use email prompt templates organized by situation (follow-ups,
 
 And if you want to build a full communication system that handles email, proposals, and client interactions with AI, the **[AI Productivity Playbook](https://payhip.com/productivityworks)** has you covered end-to-end.
 
-[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
@@ -273,20 +273,20 @@ And if you want to build a full communication system that handles email, proposa
 
 ### Related Articles
 
-- [ChatGPT vs Claude vs Gemini: Full Comparison 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
-- [AI Writing Tools Comparison 2026](/posts/ai-writing-tools-comparison-2026/)
-- [How to Use ChatGPT for Data Analysis 2026](/posts/how-to-use-chatgpt-for-data-analysis-2026/)
-- [Best AI Tools for Small Business 2026](/posts/best-ai-tools-small-business-2026/)
+- [ChatGPT vs Claude vs Gemini: Full Comparison 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+- [AI Writing Tools Comparison 2026](/en/posts/ai-writing-tools-comparison-2026/)
+- [How to Use ChatGPT for Data Analysis 2026](/en/posts/how-to-use-chatgpt-for-data-analysis-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/best-ai-tools-small-business-2026/)
 
 ---
 
 ## Related Tools
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
-> Compare texts and find differences → [Text Diff Checker](/tools/text-diff/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
+> Compare texts and find differences → [Text Diff Checker](/en/tools/text-diff/)
 
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ## Related Templates
 

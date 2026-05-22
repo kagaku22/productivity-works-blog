@@ -572,8 +572,8 @@ Save this guide. Bookmark the prompts most relevant to your business. And start 
 
 ## Related Tools
 
-> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Estimate your mortgage payments → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ## Related Templates
 
@@ -586,6 +586,6 @@ Supercharge your real estate business with these AI tools:
 
 ## You May Also Like
 
-- [How to Write Property Listing Descriptions with ChatGPT (10 Templates)](/posts/chatgpt-property-listing-description-templates/)
-- [Best AI Tools for Real Estate Agents 2026: Complete Guide](/posts/ai-tools-real-estate-agents-2026/)
-- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/posts/real-estate-investment-japan-salaried-worker/)
+- [How to Write Property Listing Descriptions with ChatGPT (10 Templates)](/en/posts/chatgpt-property-listing-description-templates/)
+- [Best AI Tools for Real Estate Agents 2026: Complete Guide](/en/posts/ai-tools-real-estate-agents-2026/)
+- [Real Estate Investment in Japan for Salaried Workers: How It Compares to NISA and iDeCo](/en/posts/real-estate-investment-japan-salaried-worker/)

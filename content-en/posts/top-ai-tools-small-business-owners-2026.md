@@ -140,7 +140,7 @@ Fathom pulls data from your accounting software and generates beautiful, easy-to
 
 Notion AI turns your company wiki into a searchable, intelligent knowledge base. It summarizes meeting notes, drafts SOPs, generates project plans, and answers questions about your documented processes. For small teams, it replaces multiple specialist tools.
 
-See our full guide: [Notion Project Management for Small Teams](/posts/notion-project-management-guide-2026/)
+See our full guide: [Notion Project Management for Small Teams](/en/posts/notion-project-management-guide-2026/)
 
 **Rating:** 5/5 for knowledge management
 
@@ -264,8 +264,8 @@ Read privacy policies carefully. Most reputable tools offer business agreements 
 
 ## Related Tools
 
-> Plan your business budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Plan your business budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your tax obligations → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
 
 > **Round Out Your Small Business Stack with Cloud Accounting**  AI tools handle marketing and operations — freee handles the money. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" rel="nofollow">Try freee — Japan's #1 cloud accounting</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3ZD3R9+DNEO+4PA2+5YJRM" alt=""> to automate bookkeeping, invoicing, and tax preparation so every part of your business runs efficiently.
 
@@ -274,8 +274,8 @@ Read privacy policies carefully. Most reputable tools offer business agreements 
 Our [Small Business AI Toolkit](https://payhip.com/productivityworks) includes 100+ prompt templates, workflow blueprints, and setup guides optimized for small business owners. Stop starting from scratch with every AI interaction.
 
 **Related Reading:**
-- [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
-- [Best Productivity Apps for Remote Workers 2026](/posts/best-productivity-apps-remote-workers-2026/)
+- [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+- [Best Productivity Apps for Remote Workers 2026](/en/posts/best-productivity-apps-remote-workers-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

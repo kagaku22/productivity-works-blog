@@ -328,7 +328,7 @@ Be direct. If I'm behind, say so clearly with a specific suggestion.
 
 **Strategy 5: Combine Notion with Zapier for automated AI workflows.** New project created in Notion → Zapier sends it to ChatGPT for a project brief → the brief is pasted back into Notion automatically. Notion + Zapier + AI = your personal automated EA.
 
-[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
@@ -377,7 +377,7 @@ Want pre-built Notion templates with AI prompts already embedded? Our **[Complet
 
 For building a complete AI-powered productivity system (Notion + automation + ChatGPT all working together), our **[AI Productivity Playbook](https://payhip.com/productivityworks)** is the end-to-end guide you've been looking for.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -389,9 +389,9 @@ For building a complete AI-powered productivity system (Notion + automation + Ch
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
 
 ## Related Templates
 

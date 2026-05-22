@@ -392,29 +392,29 @@ Working from home successfully is a skill, not a trait. The routines, boundaries
 Our [Remote Work Starter Kit](https://payhip.com/productivityworks) includes a home office setup checklist, daily schedule templates, and a 30-day habit-building plan for new remote workers.
 
 ## Related Tools
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Plan your freelance budget → [Budget Planner](/tools/budget-planner/)
-> Calculate tax on side income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Plan your freelance budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate tax on side income → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/en/tools/stopwatch/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
 
-> Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly
+> Working across time zones? → [Timezone Converter](/en/tools/timezone-converter/) — convert times between any cities instantly
 
 **Related Reading:**
-- [Best Productivity Apps for Remote Workers 2026](/posts/best-productivity-apps-remote-workers-2026/)
-- [Best Remote Work Tools 2026](/posts/best-remote-work-tools-2026/)
-- [How to Start Freelancing with No Experience 2026](/posts/how-to-start-freelancing-with-no-experience-2026/)
+- [Best Productivity Apps for Remote Workers 2026](/en/posts/best-productivity-apps-remote-workers-2026/)
+- [Best Remote Work Tools 2026](/en/posts/best-remote-work-tools-2026/)
+- [How to Start Freelancing with No Experience 2026](/en/posts/how-to-start-freelancing-with-no-experience-2026/)
 
 ---
 
 ### Related Articles
 
-- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/posts/best-productivity-apps-remote-workers-2026/)
-- [Best Remote Work Tools in 2026: The Complete Stack](/posts/best-remote-work-tools-2026/)
-- [Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
-- [How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
-- [How to Start Freelancing With No Experience 2026: Full Guide](/posts/how-to-start-freelancing-with-no-experience-2026/)
+- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/en/posts/best-productivity-apps-remote-workers-2026/)
+- [Best Remote Work Tools in 2026: The Complete Stack](/en/posts/best-remote-work-tools-2026/)
+- [Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+- [How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+- [How to Start Freelancing With No Experience 2026: Full Guide](/en/posts/how-to-start-freelancing-with-no-experience-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

@@ -29,7 +29,7 @@ The gap between how experienced candidates are *perceived* and how they could be
 
 This guide is for professionals over 50 who are changing careers — either by choice or necessity — and want to use AI to craft a resume that converts decades of experience into competitive advantage rather than red flags.
 
-For the complete step-by-step resume writing process with AI, see our [Create a Resume with AI: Step-by-Step Guide](/posts/create-resume-with-ai-step-by-step/).
+For the complete step-by-step resume writing process with AI, see our [Create a Resume with AI: Step-by-Step Guide](/en/posts/create-resume-with-ai-step-by-step/).
 
 ---
 
@@ -351,8 +351,8 @@ The career change you're making isn't a retreat. It's a pivot. There's a big dif
 
 ## Related Tools
 
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 

@@ -613,8 +613,8 @@ Start with your appointment reminders. Build your template library one scenario 
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ## Related Templates
 
@@ -627,6 +627,6 @@ Streamline your veterinary practice with these AI tools:
 
 ## You May Also Like
 
-- [15 AI-Generated Client Communication Templates for Veterinary Clinics](/posts/ai-veterinary-client-communication-templates/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
-- [Best AI Tools for Small Business Owners 2026: Complete Guide](/posts/top-ai-tools-small-business-owners-2026/)
+- [15 AI-Generated Client Communication Templates for Veterinary Clinics](/en/posts/ai-veterinary-client-communication-templates/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)
+- [Best AI Tools for Small Business Owners 2026: Complete Guide](/en/posts/top-ai-tools-small-business-owners-2026/)

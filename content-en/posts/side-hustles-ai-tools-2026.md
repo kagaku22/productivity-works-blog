@@ -257,14 +257,14 @@ Pick one. Not two or three — one. Work it consistently for 90 days before eval
 
 ## Related Tools
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Estimate taxes on side hustle income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Create professional invoices for clients → [Invoice Generator](/tools/invoice-generator/)
-> Generate a QR code for your side hustle or product link → [QR Code Generator](/tools/qr-code-generator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner())
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Estimate taxes on side hustle income → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Create professional invoices for clients → [Invoice Generator](/en/tools/invoice-generator/)
+> Generate a QR code for your side hustle or product link → [QR Code Generator](/en/tools/qr-code-generator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner())
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
 ## Related Templates
 
@@ -277,10 +277,10 @@ Start your freelance or side hustle journey with these resources:
 
 ### Related Articles
 
-- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/posts/how-to-make-money-with-ai-2026/)
-- [7 Passive Income Ideas Using Digital Products](/posts/passive-income-digital-products-2026/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [How to Start Freelancing With No Experience 2026: Full Guide](/posts/how-to-start-freelancing-with-no-experience-2026/)
+- [How to Make Money With AI in 2026: 15 Realistic Ways That Work](/en/posts/how-to-make-money-with-ai-2026/)
+- [7 Passive Income Ideas Using Digital Products](/en/posts/passive-income-digital-products-2026/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [How to Start Freelancing With No Experience 2026: Full Guide](/en/posts/how-to-start-freelancing-with-no-experience-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

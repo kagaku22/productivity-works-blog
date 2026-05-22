@@ -72,7 +72,7 @@ The one hard constraint: **you cannot withdraw until age 60**. iDeCo is a lock-i
 
 The figures below use the standard salary earner's deduction (給与所得控除) for each bracket and Japan's current tax rates. They assume the contributor has no other deductions beyond the standard ones.
 
-> Run these numbers interactively with the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** and cross-check your take-home with the **[Take-Home Pay Calculator](/tools/salary-calculator/)**.
+> Run these numbers interactively with the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** and cross-check your take-home with the **[Take-Home Pay Calculator](/en/tools/salary-calculator/)**.
 
 ---
 
@@ -180,7 +180,7 @@ Key notes:
 - If your company introduced a **iDeCo+ (中小事業主掛金納付制度)** scheme, employer contributions count toward your limit.
 - Limits are set by the Defined Contribution Pension Act and are reviewed periodically; check the Japan Pension Service (日本年金機構) website for the latest figures.
 
-Need to estimate how iDeCo fits into your overall retirement picture? The **[Retirement Calculator](/tools/retirement-calculator/)** lets you model contribution scenarios alongside your expected pension and other assets.
+Need to estimate how iDeCo fits into your overall retirement picture? The **[Retirement Calculator](/en/tools/retirement-calculator/)** lets you model contribution scenarios alongside your expected pension and other assets.
 
 ---
 
@@ -259,7 +259,7 @@ The main points to remember:
 4. Opening an account at Rakuten Securities takes about 1–2 months and is fully online.
 5. The hard constraint is the **no-withdrawal-until-60 rule** — plan your liquidity needs with NISA and other accounts accordingly.
 
-Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal numbers, compare with the **[NISA Simulator](/ja/tools/compound-interest-calculator/)** for the flexible counterpart, and check your monthly take-home with the **[Take-Home Pay Calculator](/tools/salary-calculator/)**.
+Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal numbers, compare with the **[NISA Simulator](/ja/tools/compound-interest-calculator/)** for the flexible counterpart, and check your monthly take-home with the **[Take-Home Pay Calculator](/en/tools/salary-calculator/)**.
 
 ---
 
@@ -267,9 +267,9 @@ Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal
 
 ## Related Tools
 
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Plan your retirement → [Retirement Calculator](/tools/retirement-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Plan your retirement → [Retirement Calculator](/en/tools/retirement-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
 ---
 
@@ -277,6 +277,6 @@ Use the **[iDeCo Simulator](/ja/tools/ideco-simulator/)** to model your personal
 
 ## You May Also Like
 
-- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/posts/best-investment-account-japan-nisa-ideco/)
-- [Retirement Planning in Japan for Foreign Residents: What the Pension System Won't Cover](/posts/retirement-planning-japan-foreign-resident/)
-- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
+- [Best Investment Account for Beginners in Japan: NISA vs. iDeCo vs. Regular Brokerage](/en/posts/best-investment-account-japan-nisa-ideco/)
+- [Retirement Planning in Japan for Foreign Residents: What the Pension System Won't Cover](/en/posts/retirement-planning-japan-foreign-resident/)
+- [401k vs IRA Differences Explained (2026)](/en/posts/401k-vs-ira-differences-explained/)

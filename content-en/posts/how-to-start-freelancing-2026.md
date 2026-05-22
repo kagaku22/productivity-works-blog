@@ -242,21 +242,21 @@ Most people who follow this plan and do the outreach have their first paying cli
 
 ### Related Tools & Articles
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create professional invoices for your clients → [Invoice Generator](/tools/invoice-generator/)
-> Generate a QR code for your freelance portfolio or payment link → [QR Code Generator](/tools/qr-code-generator/)
-> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Estimate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Plan your budget as a freelancer → [Budget Calculator](/tools/budget-planner/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create professional invoices for your clients → [Invoice Generator](/en/tools/invoice-generator/)
+> Generate a QR code for your freelance portfolio or payment link → [QR Code Generator](/en/tools/qr-code-generator/)
+> Calculate your freelance tax obligations → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Estimate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your budget as a freelancer → [Budget Calculator](/en/tools/budget-planner/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
-- [How to Start Freelancing with No Experience 2026](/posts/how-to-start-freelancing-with-no-experience-2026/)
-- [Freelance Tax Guide 2026: Everything You Need to Know](/posts/freelance-tax-guide-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [Best Accounting Software for Freelancers 2026](/posts/best-accounting-software-freelancers-2026/)
-- [Side Hustles with AI Tools 2026](/posts/side-hustles-ai-tools-2026/)
+- [How to Start Freelancing with No Experience 2026](/en/posts/how-to-start-freelancing-with-no-experience-2026/)
+- [Freelance Tax Guide 2026: Everything You Need to Know](/en/posts/freelance-tax-guide-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [Best Accounting Software for Freelancers 2026](/en/posts/best-accounting-software-freelancers-2026/)
+- [Side Hustles with AI Tools 2026](/en/posts/side-hustles-ai-tools-2026/)
 
 ## Related Templates
 

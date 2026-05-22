@@ -262,8 +262,8 @@ With the right broker, the right expectations, and a solid understanding of Japa
 
 ## Related Tools
 
-> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate forex profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ---
 
@@ -271,6 +271,6 @@ With the right broker, the right expectations, and a solid understanding of Japa
 
 ## You May Also Like
 
-- [Best Forex Brokers 2026: Platforms for Beginners & Traders](/posts/best-forex-brokers-2026/)
-- [How to Open a DMM FX Account in Japan: Complete English Guide for Beginners (2026)](/posts/dmm-fx-account-opening-guide-japan-english-2026/)
-- [FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY](/posts/fx-spread-comparison-japan-2026/)
+- [Best Forex Brokers 2026: Platforms for Beginners & Traders](/en/posts/best-forex-brokers-2026/)
+- [How to Open a DMM FX Account in Japan: Complete English Guide for Beginners (2026)](/en/posts/dmm-fx-account-opening-guide-japan-english-2026/)
+- [FX Spread Comparison Japan 2026: Finding the Lowest Cost Broker for USD/JPY](/en/posts/fx-spread-comparison-japan-2026/)

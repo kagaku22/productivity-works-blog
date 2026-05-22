@@ -243,7 +243,7 @@ Keep it to 150 words. Direct, actionable, no fluff.
 
 **Strategy 5: Use n8n for sensitive or complex workflows.** n8n can be self-hosted, meaning your data stays on your servers. For automations involving sensitive client data, this is the right choice over SaaS tools.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -289,7 +289,7 @@ Want the complete automation prompt template library — 40+ workflows pre-built
 
 For the complete system — from identifying your first automation to building a fully AI-automated workday — our **[AI Productivity Playbook](https://payhip.com/productivityworks)** is the definitive guide.
 
-[Related: AI Tools for Freelancers to Earn More](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ---
 
@@ -300,13 +300,13 @@ For the complete system — from identifying your first automation to building a
 ---
 
 ## Related Tools
-> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
-> Test regular expressions in real-time → [Regex Tester](/tools/regex-tester/)
-> Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
+> Format and validate JSON data → [JSON Formatter](/en/tools/json-formatter/)
+> Test regular expressions in real-time → [Regex Tester](/en/tools/regex-tester/)
+> Encode and decode Base64 strings → [Base64 Encoder](/en/tools/base64-encoder/)
 
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Generate secure passwords instantly → [Password Generator](/tools/password-generator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Generate secure passwords instantly → [Password Generator](/en/tools/password-generator/)
 
 ## Related Templates
 

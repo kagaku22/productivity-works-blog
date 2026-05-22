@@ -125,7 +125,7 @@ This guide separates the two. We compare the top bootcamps based on actual outco
 
 **Best for:** Anyone who wants a high-quality curriculum without spending a dollar. The Odin Project is consistently rated as the best free coding education available. The trade-off: no mentorship, no job guarantee, no structured career support. You need self-discipline.
 
-[Related: AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ---
 
@@ -152,7 +152,7 @@ This guide separates the two. We compare the top bootcamps based on actual outco
 
 **Best for:** Anyone interested in AI/ML. Fast.ai's "Practical Deep Learning for Coders" course is legendary — it's produced thousands of practicing ML engineers. The top-down approach means you build real AI applications from week one.
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ### UX/UI Design: Designlab
 
@@ -244,25 +244,25 @@ The best bootcamp depends entirely on your situation:
 
 Whatever you choose, the most important factor is completion. 40% of bootcamp enrollees don't finish. Pick the format that matches your learning style and life constraints, not just the one with the best marketing.
 
-[Related: How to Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
+[Related: How to Create a Resume with AI Step by Step](/en/posts/create-resume-with-ai-step-by-step/)
 
-[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
 ## Related Tools
-> Format and validate JSON data → [JSON Formatter](/tools/json-formatter/)
-> Test regular expressions in real-time → [Regex Tester](/tools/regex-tester/)
-> Encode and decode Base64 strings → [Base64 Encoder](/tools/base64-encoder/)
+> Format and validate JSON data → [JSON Formatter](/en/tools/json-formatter/)
+> Test regular expressions in real-time → [Regex Tester](/en/tools/regex-tester/)
+> Encode and decode Base64 strings → [Base64 Encoder](/en/tools/base64-encoder/)
 
-> Calculate your expected salary after bootcamp → [Salary Calculator](/tools/salary-calculator/)
-> Check your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate your expected salary after bootcamp → [Salary Calculator](/en/tools/salary-calculator/)
+> Check your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
-> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+> Need a markdown editor? → [Markdown Preview](/en/tools/markdown-preview/) — write and preview markdown live
 
-> Design with gradients → [CSS Gradient Generator](/tools/css-gradient-generator/) — create beautiful CSS gradients visually
+> Design with gradients → [CSS Gradient Generator](/en/tools/css-gradient-generator/) — create beautiful CSS gradients visually
 
-> Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+> Generate placeholder text for layouts → [Lorem Ipsum Generator](/en/tools/lorem-ipsum-generator/) — instant filler content
 
 ## Related Templates
 

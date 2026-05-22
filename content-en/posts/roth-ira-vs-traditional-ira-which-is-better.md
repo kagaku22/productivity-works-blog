@@ -83,7 +83,7 @@ Think of it this way: Traditional IRA is "pay taxes later." Roth IRA is "pay tax
 - Income limits restrict who can contribute directly
 - Less beneficial if you're currently in a very high tax bracket and expect lower income in retirement
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -240,7 +240,7 @@ The process takes about 10–15 minutes online. You'll need:
 Transfer funds from your checking/savings account. You can contribute up to $7,000 ($8,000 if 50+) for the 2026 tax year. You have until the tax filing deadline (April 15, 2027) to make 2026 contributions.
 
 **Step 6: Invest your contributions**
-Don't leave your IRA in cash! Choose your investments — most beginners do well with a simple three-fund portfolio or a target-date retirement fund. [Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+Don't leave your IRA in cash! Choose your investments — most beginners do well with a simple three-fund portfolio or a target-date retirement fund. [Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 **Step 7: Set up automatic contributions**
 Automate monthly contributions to take advantage of dollar-cost averaging. A $583/month automatic contribution hits the $7,000 annual limit.
@@ -293,7 +293,7 @@ The most important decision is the one you actually make. Both accounts are vast
 - [Compare IRA options at Charles Schwab](https://payhip.com/productivityworks)
 - [Start investing with Betterment's automated IRA](https://payhip.com/productivityworks)
 
-[Related: 401k vs IRA — Differences Explained](/posts/401k-vs-ira-differences-explained/)
+[Related: 401k vs IRA — Differences Explained](/en/posts/401k-vs-ira-differences-explained/)
 
 ---
 
@@ -304,19 +304,19 @@ The most important decision is the one you actually make. Both accounts are vast
 ---
 
 ### Related Tools & Articles
-> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
+> Calculate your exact age instantly → [Age Calculator](/en/tools/age-calculator/)
 
-- [Retirement Savings Calculator](/tools/retirement-calculator/) — Estimate your retirement nest egg with IRA and 401(k) projections
-- [Tax Bracket Calculator](/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
-- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate tax-free dividend income in a Roth IRA
-- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See the power of tax-advantaged compounding
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
-- [401k vs IRA Differences Explained (2026)](/posts/401k-vs-ira-differences-explained/)
-- [Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
-- [Passive Income Ideas That Actually Work 2026](/posts/passive-income-ideas-that-actually-work-2026/)
+- [Retirement Savings Calculator](/en/tools/retirement-calculator/) — Estimate your retirement nest egg with IRA and 401(k) projections
+- [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/) — See your 2026 federal tax bracket and effective rate
+- [Dividend Income Calculator](/en/tools/dividend-income-calculator/) — Calculate tax-free dividend income in a Roth IRA
+- [Compound Interest Calculator](/en/tools/compound-interest-calculator/) — See the power of tax-advantaged compounding
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
+- [401k vs IRA Differences Explained (2026)](/en/posts/401k-vs-ira-differences-explained/)
+- [Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
+- [Passive Income Ideas That Actually Work 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

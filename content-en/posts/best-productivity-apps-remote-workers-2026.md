@@ -121,7 +121,7 @@ Notion has become the central operating system for thousands of remote teams. It
 
 **Biggest strength:** One tool that replaces Confluence (wikis), Trello (project boards), and Google Docs (documents) for most teams.
 
-See our full guide: [Notion Project Management Guide 2026](/posts/notion-project-management-guide-2026/)
+See our full guide: [Notion Project Management Guide 2026](/en/posts/notion-project-management-guide-2026/)
 
 ### 6. Linear — 9/10
 
@@ -234,7 +234,7 @@ For remote workers, an AI assistant is now as essential as email. The ability to
 - Create meeting agendas from bullet points
 - Analyze and explain data in spreadsheets
 
-See our comparison: [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+See our comparison: [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
 
 ### 17. Toggl Track — 8.5/10
 
@@ -335,27 +335,27 @@ Increasingly yes. Remote workers who use AI assistants effectively consistently 
 ---
 
 ## Related Tools
-> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
+> Pick colors and convert between formats → [Color Picker](/en/tools/color-picker/)
 
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Plan your monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Plan your monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
 
-> Working across time zones? → [Timezone Converter](/tools/timezone-converter/) — convert times between any cities instantly
+> Working across time zones? → [Timezone Converter](/en/tools/timezone-converter/) — convert times between any cities instantly
 
 > **Find a Remote Job That Matches Your Productivity Setup**  Having the perfect remote work toolkit means nothing without the right remote role. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> to discover remote-friendly positions where your productivity skills will be valued and rewarded.
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Track time on tasks with lap timer support → [Stopwatch](/tools/stopwatch/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Track time on tasks with lap timer support → [Stopwatch](/en/tools/stopwatch/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
 
 ## Build Your Ideal Remote Work Setup
 
 Our [Remote Work Productivity Pack](https://payhip.com/productivityworks) includes Notion templates for remote teams, a complete tool evaluation framework, and a 30-day productivity optimization plan.
 
 **Related Reading:**
-- [Work From Home Tips for Beginners 2026](/posts/work-from-home-tips-beginners-2026/)
-- [Best Remote Work Tools 2026](/posts/best-remote-work-tools-2026/)
-- [ChatGPT vs Claude vs Gemini 2026](/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
-- [Notion Project Management Guide 2026](/posts/notion-project-management-guide-2026/)
+- [Work From Home Tips for Beginners 2026](/en/posts/work-from-home-tips-beginners-2026/)
+- [Best Remote Work Tools 2026](/en/posts/best-remote-work-tools-2026/)
+- [ChatGPT vs Claude vs Gemini 2026](/en/posts/chatgpt-vs-claude-vs-gemini-comparison-2026/)
+- [Notion Project Management Guide 2026](/en/posts/notion-project-management-guide-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

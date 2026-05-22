@@ -39,7 +39,7 @@ When a recruiter quotes you ¥6,000,000 a year, that number is *nenkyū* (年収
 
 Taken together, a ¥6 million gross annual salary typically nets somewhere between ¥4.2 million and ¥4.5 million after all deductions—roughly 70–75 cents on every yen. That gap is larger than in many European countries and far larger than most newcomers anticipate.
 
-Before you set a target number in any negotiation, run the actual numbers. Our **[Take-Home Pay Calculator](/tools/salary-calculator/)** lets you enter any gross monthly figure and see your estimated net after income tax, residence tax, and social insurance. Use it to work backward: decide what monthly net you need to cover your life, then calculate what gross you must ask for. This one step alone prevents the most common post-offer disappointment.
+Before you set a target number in any negotiation, run the actual numbers. Our **[Take-Home Pay Calculator](/en/tools/salary-calculator/)** lets you enter any gross monthly figure and see your estimated net after income tax, residence tax, and social insurance. Use it to work backward: decide what monthly net you need to cover your life, then calculate what gross you must ask for. This one step alone prevents the most common post-offer disappointment.
 
 **Pro tip:** Social insurance contributions are calculated based on your *hyōjun hōshū getsugaku* (標準報酬月額)—a standardized remuneration bracket, not your exact salary. The brackets update every September based on a four-month average (April–July). Ask your HR contact which bracket your new salary falls into, because the difference between adjacent brackets can mean ¥2,000–¥5,000 a month.
 
@@ -80,7 +80,7 @@ This is a feature of Japanese employment that has no real Western equivalent. Tr
 - Years of service × ¥400,000 (standard multiplier)
 - A higher multiplier of ¥700,000 per year applies after 20 years of continuous service at many firms
 
-If you are leaving a company after 10 years to switch jobs, you may be walking away from a ¥4,000,000 retirement allowance you would have earned in 10 more years. Factor this into your negotiation. Use our **[Budget Planner](/tools/budget-planner/)** to model the long-term wealth impact of staying versus switching.
+If you are leaving a company after 10 years to switch jobs, you may be walking away from a ¥4,000,000 retirement allowance you would have earned in 10 more years. Factor this into your negotiation. Use our **[Budget Planner](/en/tools/budget-planner/)** to model the long-term wealth impact of staying versus switching.
 
 ---
 
@@ -142,13 +142,13 @@ Registration on doda is free. You create a profile, upload a Japanese-format res
 
 Before you accept any offer, work through this list:
 
-1. **Run the take-home number.** Use the [Take-Home Pay Calculator](/tools/salary-calculator/) with the gross figure offered. Confirm the net is livable.
+1. **Run the take-home number.** Use the [Take-Home Pay Calculator](/en/tools/salary-calculator/) with the gross figure offered. Confirm the net is livable.
 2. **Identify the social insurance bracket.** Ask HR for the *hyōjun hōshū getsugaku* that applies to your new salary.
 3. **Quantify your forfeited bonus.** Calculate what bonus (June or December) you will miss at your current company and request a sign-on offset.
 4. **Check the *minashi zangyō* component.** Remove any fixed overtime allowance from the headline figure before comparing base salaries.
 5. **Confirm the residence tax handover.** Find out whether your current employer will collect remaining residence tax in your final paycheck and plan cash flow accordingly.
 6. **Negotiate start date for social insurance continuity.** Aim for month-start at new employer, month-end departure from current.
-7. **Model the retirement allowance gap.** Use the [Budget Planner](/tools/budget-planner/) if you are leaving a long-tenure position.
+7. **Model the retirement allowance gap.** Use the [Budget Planner](/en/tools/budget-planner/) if you are leaving a long-tenure position.
 8. **Use a bilingual agent for the final ask.** [doda's service](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+8P60Z6+47GS+60WN6) is purpose-built for this.
 
 ---
@@ -171,12 +171,12 @@ Run the real numbers first. Know which months will be tight. Understand where ne
 
 ## Related Tools
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> Calculate your take-home pay in Japan → [Salary Calculator](/tools/salary-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Compare side income tax implications → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> Calculate your take-home pay in Japan → [Salary Calculator](/en/tools/salary-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Compare side income tax implications → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> See how your savings grow with compound interest → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
 ---
 
@@ -184,6 +184,6 @@ Run the real numbers first. Know which months will be tight. Understand where ne
 
 ## You May Also Like
 
-- [How to Use doda for Salary Negotiation in Japan: An English Guide for Career Changers (2026)](/posts/doda-japan-salary-negotiation-english-guide/)
-- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/posts/best-job-search-sites-2026/)
-- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/posts/take-home-pay-japan-calculator/)
+- [How to Use doda for Salary Negotiation in Japan: An English Guide for Career Changers (2026)](/en/posts/doda-japan-salary-negotiation-english-guide/)
+- [Best Job Search Sites 2026: Where to Actually Find Good Jobs](/en/posts/best-job-search-sites-2026/)
+- [How to Calculate Your Take-Home Pay in Japan After Tax, Pension and Insurance (2026)](/en/posts/take-home-pay-japan-calculator/)

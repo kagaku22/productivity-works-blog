@@ -264,24 +264,24 @@ The income builds slowly, then compounds. Most creators who hit $3,000+/month in
 
 ### Related Tools & Articles
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> See how passive income compounds → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
-> Calculate tax on your digital product income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> See how passive income compounds → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> See your 2026 federal tax bracket and effective rate → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
+> Calculate tax on your digital product income → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
 
-> Need a markdown editor? → [Markdown Preview](/tools/markdown-preview/) — write and preview markdown live
+> Need a markdown editor? → [Markdown Preview](/en/tools/markdown-preview/) — write and preview markdown live
 
-> Generate placeholder text for layouts → [Lorem Ipsum Generator](/tools/lorem-ipsum-generator/) — instant filler content
+> Generate placeholder text for layouts → [Lorem Ipsum Generator](/en/tools/lorem-ipsum-generator/) — instant filler content
 
-> Resize images for your digital product covers and thumbnails → [Image Resizer](/tools/image-resizer/)
+> Resize images for your digital product covers and thumbnails → [Image Resizer](/en/tools/image-resizer/)
 
-> Generate a QR code for your product landing page → [QR Code Generator](/tools/qr-code-generator/)
+> Generate a QR code for your product landing page → [QR Code Generator](/en/tools/qr-code-generator/)
 
-- [Side Hustles with AI Tools 2026: Best Ways to Earn](/posts/side-hustles-ai-tools-2026/)
-- [How to Make Money with AI in 2026](/posts/how-to-make-money-with-ai-2026/)
-- [AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
-- [Passive Income Ideas That Actually Work in 2026](/posts/passive-income-ideas-that-actually-work-2026/)
-- [How to Start Freelancing in 2026](/posts/how-to-start-freelancing-2026/)
+- [Side Hustles with AI Tools 2026: Best Ways to Earn](/en/posts/side-hustles-ai-tools-2026/)
+- [How to Make Money with AI in 2026](/en/posts/how-to-make-money-with-ai-2026/)
+- [AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+- [Passive Income Ideas That Actually Work in 2026](/en/posts/passive-income-ideas-that-actually-work-2026/)
+- [How to Start Freelancing in 2026](/en/posts/how-to-start-freelancing-2026/)
 
 ## Related Templates
 

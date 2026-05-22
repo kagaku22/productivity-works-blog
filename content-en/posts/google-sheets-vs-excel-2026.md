@@ -183,7 +183,7 @@ Google Sheets is faster to learn and has a less intimidating interface. The Goog
 
 Excel's depth is also its complexity. Beginners often feel overwhelmed. But this complexity pays off — professionals who master Excel become genuinely irreplaceable at many organizations.
 
-See our guide: [Excel Skills That Can Double Your Salary](/posts/excel-skills-double-salary/) for advanced techniques worth learning.
+See our guide: [Excel Skills That Can Double Your Salary](/en/posts/excel-skills-double-salary/) for advanced techniques worth learning.
 
 **Score: Sheets 9/10 | Excel 6/10 for beginners**
 
@@ -308,9 +308,9 @@ Google has been closing the gap for years, but Excel's depth in data analysis an
 ---
 
 ## Related Tools
-> Pick colors and convert between formats → [Color Picker](/tools/color-picker/)
+> Pick colors and convert between formats → [Color Picker](/en/tools/color-picker/)
 
-> Try our free online budget planner → [Budget Planner](/tools/budget-planner/)
+> Try our free online budget planner → [Budget Planner](/en/tools/budget-planner/)
 
 > **Spreadsheet Skills Are One of the Highest-ROI Career Investments**  Finance, analytics, marketing, and operations roles all reward candidates who can work confidently with data. <a href="https://px.a8.net/svt/ejp?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" rel="nofollow">Find your next career on doda</a><img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=3ZD3R9+DPXS1E+GDO+C03K1" alt=""> — browse finance and analytics roles on Japan's top job platform.
 
@@ -321,8 +321,8 @@ Whether you choose Sheets, Excel, or both — mastering spreadsheet skills is on
 Our [Spreadsheet Productivity Bundle](https://payhip.com/productivityworks) includes formula cheat sheets, automation templates, and financial model blueprints for both Google Sheets and Excel.
 
 **Related Reading:**
-- [Excel Skills That Can Double Your Salary](/posts/excel-skills-double-salary/)
-- [How to Use AI for Excel Automation 2026](/posts/how-to-use-ai-for-excel-automation-2026/)
-- [Best AI Tools for Small Business 2026](/posts/top-ai-tools-small-business-owners-2026/)
+- [Excel Skills That Can Double Your Salary](/en/posts/excel-skills-double-salary/)
+- [How to Use AI for Excel Automation 2026](/en/posts/how-to-use-ai-for-excel-automation-2026/)
+- [Best AI Tools for Small Business 2026](/en/posts/top-ai-tools-small-business-owners-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

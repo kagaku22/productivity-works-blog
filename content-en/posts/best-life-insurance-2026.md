@@ -195,9 +195,9 @@ Life insurance doesn't have to be complicated:
 
 The best time to buy life insurance was yesterday. The second-best time is today.
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
 ---
 
@@ -206,13 +206,13 @@ The best time to buy life insurance was yesterday. The second-best time is today
 ---
 
 ## Related Tools
-> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
+> Calculate your exact age instantly → [Age Calculator](/en/tools/age-calculator/)
 
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> How much emergency fund do you need? → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> How much emergency fund do you need? → [Emergency Fund Calculator](/en/tools/emergency-fund-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
 
 ## Related Templates
 

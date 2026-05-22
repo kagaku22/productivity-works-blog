@@ -244,10 +244,10 @@ The gap between where most people are and where they need to be is smaller than 
 
 ## Related Tools
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> See how investing your raise compounds → [Compound Interest Calculator](/tools/compound-interest-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> See how investing your raise compounds → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
 
 ## Related Templates
 
@@ -260,10 +260,10 @@ Start using these techniques right away with our Excel templates:
 
 ### Related Articles
 
-- [Google Sheets vs Excel 2026: Which Is Better for You?](/posts/google-sheets-vs-excel-2026/)
-- [How to Use AI for Excel Automation 2026](/posts/how-to-use-ai-for-excel-automation-2026/)
-- [How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
-- [Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
-- [Best AI Tools for Small Business 2026: The Complete Roundup](/posts/best-ai-tools-small-business-2026/)
+- [Google Sheets vs Excel 2026: Which Is Better for You?](/en/posts/google-sheets-vs-excel-2026/)
+- [How to Use AI for Excel Automation 2026](/en/posts/how-to-use-ai-for-excel-automation-2026/)
+- [How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
+- [Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
+- [Best AI Tools for Small Business 2026: The Complete Roundup](/en/posts/best-ai-tools-small-business-2026/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*

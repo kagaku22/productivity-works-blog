@@ -249,11 +249,11 @@ Getting the filing right in a loss year costs you nothing but time — and it ca
 
 ## Related Tools
 
-> Calculate forex profits → [Forex Profit Calculator](/tools/forex-profit-calculator/)
-> Estimate your tax bracket → [Tax Bracket Calculator](/tools/tax-bracket-calculator/)
+> Calculate forex profits → [Forex Profit Calculator](/en/tools/forex-profit-calculator/)
+> Estimate your tax bracket → [Tax Bracket Calculator](/en/tools/tax-bracket-calculator/)
 
 ## You May Also Like
 
-- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/posts/kakuteishinkoku-fx-income-guide/)
-- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/posts/fx-tax-japan-salary-worker/)
-- [NISA vs FX in Japan: Which Is Better for Growing Your Money Tax-Efficiently?](/posts/nisa-vs-fx-japan-investing/)
+- [How to File a Kakuteishinkoku for FX Income in Japan: 2026 Guide](/en/posts/kakuteishinkoku-fx-income-guide/)
+- [How Much Tax Do You Pay on FX Profits in Japan? A Salary Worker's Guide](/en/posts/fx-tax-japan-salary-worker/)
+- [NISA vs FX in Japan: Which Is Better for Growing Your Money Tax-Efficiently?](/en/posts/nisa-vs-fx-japan-investing/)

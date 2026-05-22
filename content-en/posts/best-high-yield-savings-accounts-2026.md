@@ -202,16 +202,16 @@ The money you earn in interest can fund your investments, build your emergency f
 
 > Once your savings are working harder, consider putting some to work in the market. [Rakuten Securities](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9) offers NISA accounts and low-cost index funds for residents in Japan — a logical next step once your emergency fund is in place and earning a competitive rate.
 
-[Related: Best Budgeting Apps 2026](/posts/best-budgeting-apps-2026-comparison/)
+[Related: Best Budgeting Apps 2026](/en/posts/best-budgeting-apps-2026-comparison/)
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ## Related Tools
-> See how your savings grow with compound interest → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Create a monthly savings plan → [Budget Calculator](/tools/budget-planner/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> See how your savings grow with compound interest → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Create a monthly savings plan → [Budget Calculator](/en/tools/budget-planner/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 ---
 

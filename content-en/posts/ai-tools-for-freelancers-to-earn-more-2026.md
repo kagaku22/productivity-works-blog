@@ -255,7 +255,7 @@ Design a productized service offer:
 
 **Strategy 5: Create a Gumroad product from your best work.** Your AI-powered proposal template, your client communication scripts, your content brief system — these are all products freelancers would pay $19–$49 for. AI helps you package and sell your expertise at scale.
 
-[Related: Best AI Image Generators Free 2026](/posts/best-ai-image-generators-free-2026/)
+[Related: Best AI Image Generators Free 2026](/en/posts/best-ai-image-generators-free-2026/)
 
 ---
 
@@ -298,7 +298,7 @@ Ready to build your full AI-powered freelance workflow? Our **[Complete ChatGPT 
 
 For a complete system — from landing clients to delivering work to building passive income — the **[AI Productivity Playbook](https://payhip.com/productivityworks)** is your roadmap.
 
-[Related: How to Automate Tasks with AI Step by Step](/posts/how-to-automate-tasks-with-ai-step-by-step/)
+[Related: How to Automate Tasks with AI Step by Step](/en/posts/how-to-automate-tasks-with-ai-step-by-step/)
 
 ---
 
@@ -307,14 +307,14 @@ For a complete system — from landing clients to delivering work to building pa
 ---
 
 ## Related Tools
-> Count words and characters in your text → [Word Counter](/tools/word-counter/)
+> Count words and characters in your text → [Word Counter](/en/tools/word-counter/)
 
-> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator())
-> Create and download professional client invoices → [Invoice Generator](/tools/invoice-generator/)
-> Generate a QR code for your portfolio or payment link → [QR Code Generator](/tools/qr-code-generator/)
-> Estimate taxes on freelance income → [Side Hustle Tax Calculator](/tools/side-hustle-tax-calculator/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
+> Calculate your ideal freelance hourly rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator())
+> Create and download professional client invoices → [Invoice Generator](/en/tools/invoice-generator/)
+> Generate a QR code for your portfolio or payment link → [QR Code Generator](/en/tools/qr-code-generator/)
+> Estimate taxes on freelance income → [Side Hustle Tax Calculator](/en/tools/side-hustle-tax-calculator/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
 
 ## Related Templates
 

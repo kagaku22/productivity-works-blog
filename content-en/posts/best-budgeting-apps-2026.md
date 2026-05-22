@@ -237,15 +237,15 @@ All seven apps offer free trials or free tiers. There's no reason not to test yo
 ---
 
 ## Related Tools
-> Calculate loan payments and payoff timeline → [Loan Calculator](/tools/loan-calculator/)
+> Calculate loan payments and payoff timeline → [Loan Calculator](/en/tools/loan-calculator/)
 
-> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/tools/percentage-calculator/)
-> Create a free monthly budget plan → [Budget Planner](/tools/budget-planner/)
-> Calculate your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> See how savings compound over time → [Compound Interest Calculator](/tools/compound-interest-calculator/)
-> Calculate how long to reach any savings target → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
+> Calculate percentages, discounts, and tips instantly → [Percentage Calculator](/en/tools/percentage-calculator/)
+> Create a free monthly budget plan → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> See how savings compound over time → [Compound Interest Calculator](/en/tools/compound-interest-calculator/)
+> Calculate how long to reach any savings target → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
 
 ## Related Templates
 
@@ -256,6 +256,6 @@ Take control of your finances with these tools:
 
 ## You May Also Like
 
-- [Best Budgeting Apps 2026: Full Comparison](/posts/best-budgeting-apps-2026-comparison/)
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
-- [10 Ways ChatGPT Can Save You $500/Month](/posts/chatgpt-save-money/)
+- [Best Budgeting Apps 2026: Full Comparison](/en/posts/best-budgeting-apps-2026-comparison/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)
+- [10 Ways ChatGPT Can Save You $500/Month](/en/posts/chatgpt-save-money/)

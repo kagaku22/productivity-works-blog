@@ -25,7 +25,7 @@ ChatGPT changes this completely. Not by writing generic filler — but by helpin
 
 This guide gives you 10 copy-and-paste prompt templates for every property type you're likely to encounter, plus real before/after examples so you can see exactly what the difference looks like.
 
-For the complete collection, see our [ChatGPT Prompts for Real Estate Agents guide](/posts/chatgpt-real-estate-agent-prompts-2026/).
+For the complete collection, see our [ChatGPT Prompts for Real Estate Agents guide](/en/posts/chatgpt-real-estate-agent-prompts-2026/).
 
 ---
 
@@ -287,8 +287,8 @@ A few extra tips for making ChatGPT listing descriptions reliably good:
 
 ## Related Tools
 
-> Estimate your mortgage payments → [Mortgage Calculator](/tools/mortgage-calculator/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
+> Estimate your mortgage payments → [Mortgage Calculator](/en/tools/mortgage-calculator/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
 
 ## Related Templates
 

@@ -138,7 +138,7 @@ If you have $100 invested and the market drops 2%, you've "lost" $2. That's a co
 **Mistake 5: Not reinvesting dividends**
 Make sure your brokerage account is set to automatically reinvest dividends (DRIP — Dividend Reinvestment Plan). Over decades, dividend reinvestment accounts for roughly 40% of total stock market returns.
 
-[Related: Best Index Funds for Beginners 2026](/posts/best-index-funds-for-beginners-2026/)
+[Related: Best Index Funds for Beginners 2026](/en/posts/best-index-funds-for-beginners-2026/)
 
 ---
 
@@ -310,7 +310,7 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 - [Start with Betterment's automated portfolio — $0 minimum](https://payhip.com/productivityworks)
 - [Try Acorns — invest your spare change automatically](https://payhip.com/productivityworks)
 
-[Related: How to Build an Emergency Fund Fast](/posts/how-to-build-an-emergency-fund-fast/)
+[Related: How to Build an Emergency Fund Fast](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 ---
 
@@ -322,16 +322,16 @@ Open your account today. Buy one index fund. Set up $25/month auto-invest. That'
 
 ### Related Tools & Articles
 
-- [Compound Interest Calculator](/tools/compound-interest-calculator/) — See how your $100 grows with compound interest
-- [Savings Goal Calculator](/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
-- [Dividend Income Calculator](/tools/dividend-income-calculator/) — Calculate passive income from dividend stocks and ETFs
-- [Budget Planner](/tools/budget-planner/) — Find money to invest with a personalized budget
-> Track your total net worth → [Net Worth Calculator](/tools/net-worth-calculator/)
-> Plan your path to financial independence → [FIRE Calculator](/tools/fire-calculator/)
-> See how inflation affects your money → [Inflation Calculator](/tools/inflation-calculator/)
-- [ETF vs Mutual Fund: Which Should I Choose?](/posts/etf-vs-mutual-fund-which-should-i-choose/)
-- [Roth IRA vs Traditional IRA: Which Is Better?](/posts/roth-ira-vs-traditional-ira-which-is-better/)
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
+- [Compound Interest Calculator](/en/tools/compound-interest-calculator/) — See how your $100 grows with compound interest
+- [Savings Goal Calculator](/en/tools/savings-goal-calculator/) — Calculate how long to reach any savings target
+- [Dividend Income Calculator](/en/tools/dividend-income-calculator/) — Calculate passive income from dividend stocks and ETFs
+- [Budget Planner](/en/tools/budget-planner/) — Find money to invest with a personalized budget
+> Track your total net worth → [Net Worth Calculator](/en/tools/net-worth-calculator/)
+> Plan your path to financial independence → [FIRE Calculator](/en/tools/fire-calculator/)
+> See how inflation affects your money → [Inflation Calculator](/en/tools/inflation-calculator/)
+- [ETF vs Mutual Fund: Which Should I Choose?](/en/posts/etf-vs-mutual-fund-which-should-i-choose/)
+- [Roth IRA vs Traditional IRA: Which Is Better?](/en/posts/roth-ira-vs-traditional-ira-which-is-better/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)
 
 *This article contains affiliate links. We may earn a commission at no extra cost to you.*
 

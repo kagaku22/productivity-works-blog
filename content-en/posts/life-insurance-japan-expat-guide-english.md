@@ -321,13 +321,13 @@ Insurance is not exciting. It is not meant to be. The goal is to have exactly as
 ---
 
 ## Related Tools
-> Calculate your exact age instantly → [Age Calculator](/tools/age-calculator/)
+> Calculate your exact age instantly → [Age Calculator](/en/tools/age-calculator/)
 
-> Check your BMI and healthy weight range → [BMI Calculator](/tools/bmi-calculator/)
-> Calculate your ideal emergency fund → [Emergency Fund Calculator](/tools/emergency-fund-calculator/)
-> Check your take-home pay → [Salary Calculator](/tools/salary-calculator/)
-> Plan your savings goals → [Savings Goal Calculator](/tools/savings-goal-calculator/)
-> Calculate your mortgage payment → [Mortgage Calculator](/tools/mortgage-calculator/)
+> Check your BMI and healthy weight range → [BMI Calculator](/en/tools/bmi-calculator/)
+> Calculate your ideal emergency fund → [Emergency Fund Calculator](/en/tools/emergency-fund-calculator/)
+> Check your take-home pay → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your savings goals → [Savings Goal Calculator](/en/tools/savings-goal-calculator/)
+> Calculate your mortgage payment → [Mortgage Calculator](/en/tools/mortgage-calculator/)
 
 ---
 
@@ -335,6 +335,6 @@ Insurance is not exciting. It is not meant to be. The goal is to have exactly as
 
 ## You May Also Like
 
-- [Best Life Insurance 2026: Compare Policies, Rates & Coverage](/posts/best-life-insurance-2026/)
-- [Retirement Planning in Japan for Foreign Residents: What the Pension System Won't Cover](/posts/retirement-planning-japan-foreign-resident/)
-- [How to Build an Emergency Fund Fast (2026)](/posts/how-to-build-an-emergency-fund-fast/)
+- [Best Life Insurance 2026: Compare Policies, Rates & Coverage](/en/posts/best-life-insurance-2026/)
+- [Retirement Planning in Japan for Foreign Residents: What the Pension System Won't Cover](/en/posts/retirement-planning-japan-foreign-resident/)
+- [How to Build an Emergency Fund Fast (2026)](/en/posts/how-to-build-an-emergency-fund-fast/)

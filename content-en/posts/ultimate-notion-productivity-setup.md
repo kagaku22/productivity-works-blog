@@ -282,10 +282,10 @@ The system will evolve as you use it. That's not a problem — it's evidence the
 
 ## Related Tools
 
-> Create a monthly budget → [Budget Planner](/tools/budget-planner/)
-> Calculate your ideal freelance rate → [Freelance Rate Calculator](/tools/freelance-rate-calculator/)
-> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/tools/pomodoro-timer/)
-> Count down to any date or event → [Countdown Timer](/tools/countdown-timer/)
+> Create a monthly budget → [Budget Planner](/en/tools/budget-planner/)
+> Calculate your ideal freelance rate → [Freelance Rate Calculator](/en/tools/freelance-rate-calculator/)
+> Stay focused with the Pomodoro Technique → [Pomodoro Timer](/en/tools/pomodoro-timer/)
+> Count down to any date or event → [Countdown Timer](/en/tools/countdown-timer/)
 
 ## Related Templates
 
@@ -298,6 +298,6 @@ Put these techniques into practice with our ready-made templates:
 
 ## You May Also Like
 
-- [Best Notion AI Templates for Productivity 2026](/posts/best-notion-ai-templates-for-productivity-2026/)
-- [How to Use Notion for Project Management 2026: The Complete Guide](/posts/notion-project-management-guide-2026/)
-- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/posts/best-productivity-apps-remote-workers-2026/)
+- [Best Notion AI Templates for Productivity 2026](/en/posts/best-notion-ai-templates-for-productivity-2026/)
+- [How to Use Notion for Project Management 2026: The Complete Guide](/en/posts/notion-project-management-guide-2026/)
+- [Best Productivity Apps for Remote Workers 2026: Tested and Ranked](/en/posts/best-productivity-apps-remote-workers-2026/)

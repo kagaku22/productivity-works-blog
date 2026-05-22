@@ -156,7 +156,7 @@ This guide covers where to actually find good jobs — not just any jobs, but po
 - Use AI to research companies and identify potential opportunities before they're posted
 - Use AI to prepare for informational interviews with targeted questions
 
-[Related: How to Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
+[Related: How to Create a Resume with AI Step by Step](/en/posts/create-resume-with-ai-step-by-step/)
 
 ---
 
@@ -192,7 +192,7 @@ For each application:
 | LinkedIn AI features | Job match recommendations, profile optimization suggestions |
 | AI interview prep tools | Practice with AI mock interviews |
 
-[Related: Best ChatGPT Prompts for Productivity 2026](/posts/best-chatgpt-prompts-for-productivity-2026/)
+[Related: Best ChatGPT Prompts for Productivity 2026](/en/posts/best-chatgpt-prompts-for-productivity-2026/)
 
 ---
 
@@ -228,21 +228,21 @@ Start with LinkedIn optimization today — it's the single highest-ROI action in
 
 > Searching for work in Japan? [doda](https://px.a8.net/svt/ejp?a8mat=4B3QAZ+8P60Z6+47GS+60WN6) is one of Japan's largest job platforms, offering bilingual listings and dedicated agent support for English-speaking professionals — useful whether you're navigating a first Japanese job search or making a mid-career pivot.
 
-[Related: AI Tools for Freelancers to Earn More 2026](/posts/ai-tools-for-freelancers-to-earn-more-2026/)
+[Related: AI Tools for Freelancers to Earn More 2026](/en/posts/ai-tools-for-freelancers-to-earn-more-2026/)
 
 ---
 
 ### Related Tools & Articles
 
-> Compare salary offers → [Salary Calculator](/tools/salary-calculator/)
-> Plan your budget during job transitions → [Budget Calculator](/tools/budget-planner/)
-> Convert hourly wage to salary → [Hourly to Salary Calculator](/tools/hourly-to-salary-calculator/)
+> Compare salary offers → [Salary Calculator](/en/tools/salary-calculator/)
+> Plan your budget during job transitions → [Budget Calculator](/en/tools/budget-planner/)
+> Convert hourly wage to salary → [Hourly to Salary Calculator](/en/tools/hourly-to-salary-calculator/)
 
-- [AI Resume Optimization for Job Search 2026](/posts/ai-resume-optimization-job-search-2026/)
-- [Create a Resume with AI Step by Step](/posts/create-resume-with-ai-step-by-step/)
-- [ChatGPT Resume Tips for Career Changers Over 50](/posts/chatgpt-resume-over-50-career-change/)
-- [Salary Negotiation in Japan: Switching Jobs Guide](/posts/salary-negotiation-japan-switching-jobs/)
-- [How to Start Freelancing in 2026](/posts/how-to-start-freelancing-2026/)
+- [AI Resume Optimization for Job Search 2026](/en/posts/ai-resume-optimization-job-search-2026/)
+- [Create a Resume with AI Step by Step](/en/posts/create-resume-with-ai-step-by-step/)
+- [ChatGPT Resume Tips for Career Changers Over 50](/en/posts/chatgpt-resume-over-50-career-change/)
+- [Salary Negotiation in Japan: Switching Jobs Guide](/en/posts/salary-negotiation-japan-switching-jobs/)
+- [How to Start Freelancing in 2026](/en/posts/how-to-start-freelancing-2026/)
 
 ## Related Templates
 
