@@ -19,7 +19,7 @@ cover:
 <div id="icp-app">
 <style>
 #icp-app *,#icp-app *::before,#icp-app *::after{box-sizing:border-box;margin:0;padding:0}
-#icp-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans JP',sans-serif;color:#1e293b;background:#f8fafc;border-radius:14px;padding:24px;max-width:860px;margin:0 auto}
+#icp-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans JP',sans-serif;color:#1e293b !important;color-scheme:light;background:#f8fafc;border-radius:14px;padding:24px;max-width:860px;margin:0 auto}
 #icp-drop-zone{border:2.5px dashed #94a3b8;border-radius:12px;background:#fff;min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative;overflow:hidden;margin-bottom:16px}
 #icp-drop-zone.drag-over{border-color:#6366f1;background:#eef2ff}
 #icp-drop-zone.has-image{min-height:unset;cursor:crosshair}

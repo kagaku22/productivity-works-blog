@@ -32,7 +32,7 @@ cover:
 
 幼稚園から大学まで**進路を選択するだけ**で、子供1人にかかる教育費の総額を自動計算します。毎月の積立額との比較や、児童手当を活用した場合の試算も確認できます。
 
-<div id="edu-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b;">
+<div id="edu-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- 入力パネル -->
 <div style="padding:24px;border:2px solid #d97706;border-radius:12px;background:#fffbeb;">
@@ -157,7 +157,7 @@ cover:
 </div>
 <div style="padding:12px;background:#fef3c7;border-radius:8px;">
 <div style="font-size:12px;color:#64748b;">教育費総額</div>
-<div id="costDisplay" style="font-size:22px;font-weight:bold;color:#1e293b;">1,577万円</div>
+<div id="costDisplay" style="font-size:22px;font-weight:bold;color:#1e293b !important;color-scheme:light;">1,577万円</div>
 </div>
 </div>
 <div id="gapDisplay" style="padding:12px;border-radius:8px;text-align:center;font-size:15px;font-weight:bold;"></div>

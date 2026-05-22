@@ -23,7 +23,7 @@ cover:
 
 以下の数字を入力して、**FIRE達成に必要な資産額**、早期退職までの年数、貯蓄率がタイムラインに与える影響を確認しましょう。
 
-<div id="fire-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="fire-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- INPUTS -->
 <div style="padding:28px;border:2px solid #7c3aed;border-radius:12px;background:#faf5ff;margin-bottom:20px;">
@@ -34,22 +34,22 @@ cover:
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">現在の年齢</label>
-<input type="number" id="fireAge" min="18" max="70" step="1" value="30" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireAge" min="18" max="70" step="1" value="30" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">年収（円）</label>
-<input type="number" id="fireIncome" min="0" step="100000" value="6000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireIncome" min="0" step="100000" value="6000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">年間支出（円）</label>
-<input type="number" id="fireExpenses" min="0" step="100000" value="4000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireExpenses" min="0" step="100000" value="4000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">現在の貯蓄・投資額（円）</label>
-<input type="number" id="fireSavings" min="0" step="100000" value="5000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireSavings" min="0" step="100000" value="5000000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 </div>
@@ -128,7 +128,7 @@ cover:
 <div id="varLean" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">リーンFIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">支出 × 0.8（倹約型）</div>
-<div id="leanNum" style="font-size:22px;font-weight:800;color:#1e293b;">8,000万円</div>
+<div id="leanNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">8,000万円</div>
 <div id="leanYears" style="font-size:13px;color:#64748b;margin-top:4px;">12年1ヶ月</div>
 </div>
 
@@ -138,21 +138,21 @@ cover:
 <span style="background:#7c3aed;color:white;font-size:10px;padding:1px 6px;border-radius:999px;font-weight:600;">あなたの目標</span>
 </div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">現在の支出水準を維持</div>
-<div id="regNum" style="font-size:22px;font-weight:800;color:#1e293b;">1億円</div>
+<div id="regNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">1億円</div>
 <div id="regYears" style="font-size:13px;color:#64748b;margin-top:4px;">14年3ヶ月</div>
 </div>
 
 <div id="varFat" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">ファットFIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">支出 × 1.5（ゆとり型）</div>
-<div id="fatNum" style="font-size:22px;font-weight:800;color:#1e293b;">1.5億円</div>
+<div id="fatNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">1.5億円</div>
 <div id="fatYears" style="font-size:13px;color:#64748b;margin-top:4px;">20年8ヶ月</div>
 </div>
 
 <div id="varCoast" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">コーストFIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">積立停止→65歳まで運用</div>
-<div id="coastNum" style="font-size:22px;font-weight:800;color:#1e293b;">1,820万円</div>
+<div id="coastNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">1,820万円</div>
 <div id="coastStatus" style="font-size:13px;color:#64748b;margin-top:4px;">あと1,320万円必要</div>
 </div>
 

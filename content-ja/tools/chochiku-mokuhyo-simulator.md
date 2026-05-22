@@ -25,7 +25,7 @@ cover:
 
 目標金額・現在の貯金額・毎月の積立額を入力して、**目標達成までの期間**を計算します。運用利回りを加味した場合の効果も一目でわかります。
 
-<div id="cs-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b;">
+<div id="cs-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <div style="padding:24px;border:2px solid #7c3aed;border-radius:12px;background:#faf5ff;">
 
@@ -78,7 +78,7 @@ cover:
 <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;text-align:center;">
 <div style="padding:16px;background:white;border-radius:8px;">
 <div style="font-size:12px;color:#64748b;">積立総額</div>
-<div id="csContributed" style="font-size:20px;font-weight:bold;color:#1e293b;">450万円</div>
+<div id="csContributed" style="font-size:20px;font-weight:bold;color:#1e293b !important;color-scheme:light;">450万円</div>
 </div>
 <div style="padding:16px;background:white;border-radius:8px;">
 <div style="font-size:12px;color:#64748b;">運用益</div>
@@ -86,7 +86,7 @@ cover:
 </div>
 <div style="padding:16px;background:white;border-radius:8px;">
 <div style="font-size:12px;color:#64748b;">最終残高</div>
-<div id="csFinal" style="font-size:20px;font-weight:bold;color:#1e293b;">500万円</div>
+<div id="csFinal" style="font-size:20px;font-weight:bold;color:#1e293b !important;color-scheme:light;">500万円</div>
 </div>
 </div>
 

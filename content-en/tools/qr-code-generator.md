@@ -25,7 +25,7 @@ Generate QR codes instantly in your browser — no uploads, no accounts, no trac
 #qr-app .qa-panel.active{display:block}
 #qr-app .qa-field{margin-bottom:.9rem}
 #qr-app .qa-label{display:block;font-size:.8rem;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.35rem}
-#qr-app .qa-input{width:100%;padding:.55rem .75rem;border:1px solid #cbd5e1;border-radius:7px;font-size:.95rem;color:#1e293b;background:#f8fafc;transition:border-color .15s,box-shadow .15s;outline:none}
+#qr-app .qa-input{width:100%;padding:.55rem .75rem;border:1px solid #cbd5e1;border-radius:7px;font-size:.95rem;color:#1e293b !important;color-scheme:light;background:#f8fafc;transition:border-color .15s,box-shadow .15s;outline:none}
 #qr-app .qa-input:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,.15);background:#fff}
 #qr-app select.qa-input{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2364748b' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .75rem center;background-color:#f8fafc;padding-right:2.25rem;cursor:pointer}
 #qr-app .qa-row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}

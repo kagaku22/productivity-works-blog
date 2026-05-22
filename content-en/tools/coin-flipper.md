@@ -46,9 +46,9 @@ cover:
 /* Controls row */
 #cf-app .cf-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
 #cf-app .cf-label{font-size:0.82rem;font-weight:600;color:#64748b;margin-bottom:4px;display:block}
-#cf-app .cf-input{border:1px solid #cbd5e1;border-radius:7px;padding:7px 10px;font-size:0.9rem;color:#1e293b;background:#f8fafc;width:100%}
+#cf-app .cf-input{border:1px solid #cbd5e1;border-radius:7px;padding:7px 10px;font-size:0.9rem;color:#1e293b !important;color-scheme:light;background:#f8fafc;width:100%}
 #cf-app .cf-input:focus{outline:2px solid #2563eb;border-color:#2563eb;background:#fff}
-#cf-app .cf-select{border:1px solid #cbd5e1;border-radius:7px;padding:7px 10px;font-size:0.9rem;color:#1e293b;background:#f8fafc;cursor:pointer}
+#cf-app .cf-select{border:1px solid #cbd5e1;border-radius:7px;padding:7px 10px;font-size:0.9rem;color:#1e293b !important;color-scheme:light;background:#f8fafc;cursor:pointer}
 #cf-app .cf-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 
 /* Stats */

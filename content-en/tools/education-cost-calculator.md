@@ -30,7 +30,7 @@ cover:
 
 **Just select a schooling path** from kindergarten through university to automatically calculate the total education cost for one child. Compare savings requirements and see the impact of child benefit funds.
 
-<div id="edu-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b;">
+<div id="edu-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- Input panel -->
 <div style="padding:24px;border:2px solid #d97706;border-radius:12px;background:#fffbeb;">
@@ -155,7 +155,7 @@ cover:
 </div>
 <div style="padding:12px;background:#fef3c7;border-radius:8px;">
 <div style="font-size:12px;color:#64748b;">Total Education Cost</div>
-<div id="costDisplay" style="font-size:22px;font-weight:bold;color:#1e293b;">¥15,770,000</div>
+<div id="costDisplay" style="font-size:22px;font-weight:bold;color:#1e293b !important;color-scheme:light;">¥15,770,000</div>
 </div>
 </div>
 <div id="gapDisplay" style="padding:12px;border-radius:8px;text-align:center;font-size:15px;font-weight:bold;"></div>

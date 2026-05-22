@@ -16,7 +16,7 @@ cover:
 #dpcja-app *,#dpcja-app *::before,#dpcja-app *::after{box-sizing:border-box;}
 #dpcja-app{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;max-width:920px;margin:0 auto;color:#1e293b;line-height:1.7;}
 #dpcja-app h2{font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:#0f172a;}
-#dpcja-app h3{font-size:1rem;font-weight:600;margin:0 0 .75rem;color:#1e293b;}
+#dpcja-app h3{font-size:1rem;font-weight:600;margin:0 0 .75rem;color:#1e293b !important;color-scheme:light;}
 #dpcja-app .dpcja-hero{background:linear-gradient(135deg,#dc2626 0%,#7c3aed 100%);color:#fff;border-radius:16px;padding:1.5rem 2rem;margin-bottom:1.5rem;}
 #dpcja-app .dpcja-hero h2{color:#fff;font-size:1.45rem;margin:0 0 .5rem;}
 #dpcja-app .dpcja-hero p{margin:0;opacity:.9;font-size:.93rem;}

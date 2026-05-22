@@ -13,7 +13,7 @@ cover:
 <div id="aa-app">
 <style>
 #aa-app *,#aa-app *::before,#aa-app *::after{box-sizing:border-box;margin:0;padding:0;}
-#aa-app{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;color:#1e293b;background:#f8fafc;border-radius:12px;padding:24px;max-width:860px;margin:0 auto;}
+#aa-app{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;color:#1e293b !important;color-scheme:light;background:#f8fafc;border-radius:12px;padding:24px;max-width:860px;margin:0 auto;}
 #aa-app h2{font-size:1.4rem;font-weight:700;color:#0f172a;margin-bottom:4px;}
 #aa-app .aa-subtitle{font-size:0.88rem;color:#64748b;margin-bottom:20px;}
 #aa-app .aa-section{margin-bottom:16px;}

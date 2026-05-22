@@ -13,7 +13,7 @@ cover:
 <div id="mc-app">
 <style>
 #mc-app *,#mc-app *::before,#mc-app *::after{box-sizing:border-box;margin:0;padding:0;}
-#mc-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans','Noto Sans JP',sans-serif;color:#1e293b;background:#f8fafc;border-radius:14px;padding:28px 24px;max-width:760px;margin:0 auto;}
+#mc-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans','Noto Sans JP',sans-serif;color:#1e293b !important;color-scheme:light;background:#f8fafc;border-radius:14px;padding:28px 24px;max-width:760px;margin:0 auto;}
 #mc-app h2{font-size:1.35rem;font-weight:700;color:#0f172a;margin-bottom:6px;}
 #mc-app h3{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:10px;}
 #mc-app p.mc-sub{font-size:0.88rem;color:#64748b;margin-bottom:20px;}
@@ -25,7 +25,7 @@ cover:
 #mc-app .mc-participant-row{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;}
 #mc-app .mc-participant-row input[type="text"],
 #mc-app .mc-participant-row input[type="number"],
-#mc-app .mc-participant-row select{height:38px;border:1px solid #cbd5e1;border-radius:7px;padding:0 10px;font-size:14px;color:#1e293b;background:#f8fafc;outline:none;transition:border-color .15s;}
+#mc-app .mc-participant-row select{height:38px;border:1px solid #cbd5e1;border-radius:7px;padding:0 10px;font-size:14px;color:#1e293b !important;color-scheme:light;background:#f8fafc;outline:none;transition:border-color .15s;}
 #mc-app .mc-participant-row input[type="text"]{width:130px;}
 #mc-app .mc-participant-row input[type="number"]{width:110px;}
 #mc-app .mc-participant-row select{width:160px;}
@@ -61,7 +61,7 @@ cover:
 /* Estimate section */
 #mc-app .mc-estimate-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;}
 #mc-app .mc-estimate-row label{font-size:14px;color:#475569;white-space:nowrap;}
-#mc-app .mc-estimate-row input[type="number"]{height:38px;border:1px solid #cbd5e1;border-radius:7px;padding:0 10px;font-size:14px;color:#1e293b;background:#f8fafc;outline:none;width:100px;}
+#mc-app .mc-estimate-row input[type="number"]{height:38px;border:1px solid #cbd5e1;border-radius:7px;padding:0 10px;font-size:14px;color:#1e293b !important;color-scheme:light;background:#f8fafc;outline:none;width:100px;}
 #mc-app .mc-estimate-row input:focus{border-color:#3b82f6;background:#fff;}
 
 /* Results */

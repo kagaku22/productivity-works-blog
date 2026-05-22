@@ -30,7 +30,7 @@ cover:
 
 Enter your home price, down payment, and loan details to calculate your **full monthly payment** — including principal & interest, property taxes, insurance, and PMI.
 
-<div id="mort-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="mort-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- Inputs -->
 <div style="padding:24px;border:2px solid #2563eb;border-radius:12px;background:#f8fafc;">
@@ -118,7 +118,7 @@ PMI automatically added — down payment is below 20%. PMI is removed once equit
 <div style="margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px;">
 <div style="padding:16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;text-align:center;">
 <div style="font-size:12px;color:#64748b;margin-bottom:4px;">Total Payment Over Loan Life</div>
-<div id="totalLifetime" style="font-size:20px;font-weight:bold;color:#1e293b;">$637,320</div>
+<div id="totalLifetime" style="font-size:20px;font-weight:bold;color:#1e293b !important;color-scheme:light;">$637,320</div>
 </div>
 <div style="padding:16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;text-align:center;">
 <div style="font-size:12px;color:#64748b;margin-bottom:4px;">Total Interest Paid</div>
@@ -145,7 +145,7 @@ PMI automatically added — down payment is below 20%. PMI is removed once equit
 
 <!-- Amortization table -->
 <div style="margin-top:24px;">
-<div style="font-size:16px;font-weight:bold;margin-bottom:12px;color:#1e293b;">Amortization Schedule</div>
+<div style="font-size:16px;font-weight:bold;margin-bottom:12px;color:#1e293b !important;color-scheme:light;">Amortization Schedule</div>
 
 <div style="overflow-x:auto;">
 <table style="width:100%;border-collapse:collapse;font-size:14px;">
@@ -183,7 +183,7 @@ PMI automatically added — down payment is below 20%. PMI is removed once equit
 
 <!-- Rate comparison -->
 <div style="margin-top:24px;padding:20px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;">
-<div style="font-size:16px;font-weight:bold;margin-bottom:14px;color:#1e293b;">Rate Comparison</div>
+<div style="font-size:16px;font-weight:bold;margin-bottom:14px;color:#1e293b !important;color-scheme:light;">Rate Comparison</div>
 <div id="rateComparison" style="display:grid;gap:8px;"></div>
 </div>
 

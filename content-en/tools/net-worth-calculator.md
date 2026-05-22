@@ -23,7 +23,7 @@ cover:
 
 Enter your assets and liabilities below to instantly calculate your **net worth** and see how your financial health stacks up.
 
-<div id="nw-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="nw-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- ASSETS SECTION -->
 <div style="padding:24px;border:2px solid #059669;border-radius:12px;background:#f0fdf4;margin-bottom:20px;">
@@ -194,7 +194,7 @@ Enter your assets and liabilities below to instantly calculate your **net worth*
 <!-- BENCHMARK SECTION -->
 <div style="padding:24px;border-radius:12px;background:#f8fafc;border:1px solid #e2e8f0;margin-bottom:20px;">
 
-<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b;">How Do You Compare?</h3>
+<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b !important;color-scheme:light;">How Do You Compare?</h3>
 <p style="font-size:13px;color:#64748b;margin:0 0 16px 0;">Median net worth by age group in the United States (Federal Reserve data).</p>
 
 <div style="overflow-x:auto;">
@@ -230,7 +230,7 @@ Enter your assets and liabilities below to instantly calculate your **net worth*
 <!-- GOAL TRACKER -->
 <div style="padding:24px;border-radius:12px;background:#f8fafc;border:1px solid #e2e8f0;margin-bottom:8px;">
 
-<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b;">Goal Tracker</h3>
+<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b !important;color-scheme:light;">Goal Tracker</h3>
 
 <div style="margin-bottom:16px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">Net Worth Goal ($)</label>

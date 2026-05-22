@@ -23,7 +23,7 @@ cover:
 
 資産と負債を入力して、**純資産**を即座に計算し、財務状況を確認しましょう。
 
-<div id="nw-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="nw-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- 資産セクション -->
 <div style="padding:24px;border:2px solid #059669;border-radius:12px;background:#f0fdf4;margin-bottom:20px;">
@@ -194,7 +194,7 @@ cover:
 <!-- 比較セクション -->
 <div style="padding:24px;border-radius:12px;background:#f8fafc;border:1px solid #e2e8f0;margin-bottom:20px;">
 
-<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b;">平均と比べてどうか？</h3>
+<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b !important;color-scheme:light;">平均と比べてどうか？</h3>
 <p style="font-size:13px;color:#64748b;margin:0 0 16px 0;">日本の年齢層別・世帯純資産の中央値の目安（金融広報中央委員会データを参考）。</p>
 
 <div style="overflow-x:auto;">
@@ -230,7 +230,7 @@ cover:
 <!-- 目標トラッカー -->
 <div style="padding:24px;border-radius:12px;background:#f8fafc;border:1px solid #e2e8f0;margin-bottom:8px;">
 
-<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b;">目標トラッカー</h3>
+<h3 style="margin:0 0 16px 0;font-size:18px;color:#1e293b !important;color-scheme:light;">目標トラッカー</h3>
 
 <div style="margin-bottom:16px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">純資産の目標額（円）</label>

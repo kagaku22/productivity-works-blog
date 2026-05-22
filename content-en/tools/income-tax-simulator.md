@@ -23,7 +23,7 @@ cover:
 
 Enter your income to instantly calculate your **federal income tax, state tax, social insurance, and take-home pay** all at once. The progressive tax bracket breakdown is shown clearly so you can understand exactly where your money goes.
 
-<div id="st-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b;">
+<div id="st-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <div style="padding:24px;border:2px solid #b91c1c;border-radius:12px;background:#fef2f2;">
 

@@ -32,7 +32,7 @@ cover:
 
 毎月当たり前のように引き落とされているサブスクリプション費用、合計いくらか把握できていますか？**使っているサービスにチェックを入れて金額を確認**するだけで、年間コスト・1日あたりの費用・もし投資に回した場合の将来額を自動で計算します。見えにくい固定費を「見える化」して、賢く節約しましょう。
 
-<div id="sub-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b;">
+<div id="sub-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- サブスクリスト -->
 <div style="padding:24px;border:2px solid #e11d48;border-radius:12px;background:#fff1f2;margin-bottom:20px;">
@@ -287,7 +287,7 @@ var pct = Math.round(catTotals[k].sum / totalMonthly * 100);
 bHtml += '<div style="margin-bottom:10px;">';
 bHtml += '<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">';
 bHtml += '<span style="font-weight:bold;color:'+catTotals[k].color+';">'+catTotals[k].label+'</span>';
-bHtml += '<span style="color:#1e293b;">'+catTotals[k].sum.toLocaleString()+'円/月 <span style="color:#94a3b8;">('+pct+'%)</span></span>';
+bHtml += '<span style="color:#1e293b !important;color-scheme:light;">'+catTotals[k].sum.toLocaleString()+'円/月 <span style="color:#94a3b8;">('+pct+'%)</span></span>';
 bHtml += '</div>';
 bHtml += '<div style="background:#f1f5f9;border-radius:4px;height:10px;overflow:hidden;">';
 bHtml += '<div style="background:'+catTotals[k].color+';height:100%;width:'+pct+'%;border-radius:4px;transition:width 0.4s;"></div>';

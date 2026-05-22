@@ -23,7 +23,7 @@ cover:
 
 Enter your **assets** (cash, investments, real estate, etc.) and **liabilities** (loans, debt, etc.) to instantly calculate your **net worth**. Compare against age-group averages and set a personal goal.
 
-<div id="ss-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b;">
+<div id="ss-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- Assets section -->
 <div style="padding:24px;border:2px solid #059669;border-radius:12px;background:#f0fdf4;margin-bottom:20px;">

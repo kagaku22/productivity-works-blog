@@ -20,7 +20,7 @@ IPv4アドレスとCIDRプレフィックス（またはサブネットマスク
 #ip-app .ip-title{font-size:17px;font-weight:700;color:#0f172a;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #e2e8f0}
 #ip-app .ip-row{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;margin-bottom:16px}
 #ip-app label{display:block;font-size:13px;font-weight:600;color:#475569;margin-bottom:5px}
-#ip-app input[type=text],#ip-app select{width:100%;padding:10px 13px;border:1.5px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#f8fafc;transition:border-color .2s}
+#ip-app input[type=text],#ip-app select{width:100%;padding:10px 13px;border:1.5px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;color-scheme:light;background:#f8fafc;transition:border-color .2s}
 #ip-app input[type=text]:focus,#ip-app select:focus{outline:none;border-color:#3b82f6;background:#fff}
 #ip-app .ip-field{flex:1;min-width:160px}
 #ip-app .ip-field-sm{flex:0 0 160px}

@@ -24,7 +24,7 @@ cover:
 <div id="tc-app">
 <style>
 #tc-app *,#tc-app *::before,#tc-app *::after{box-sizing:border-box;margin:0;padding:0}
-#tc-app{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;color:#1e293b;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:20px;max-width:900px;margin-top:20px}
+#tc-app{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;color:#1e293b !important;color-scheme:light;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:20px;max-width:900px;margin-top:20px}
 #tc-app h2{display:none}
 #tc-app .tc-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
 #tc-app .tc-label{font-weight:600;font-size:13px;color:#475569;white-space:nowrap}

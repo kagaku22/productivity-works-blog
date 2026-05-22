@@ -15,7 +15,7 @@ ShowToc: false
 <div id="url-app">
 <style>
 #url-app *,#url-app *::before,#url-app *::after{box-sizing:border-box;margin:0;padding:0}
-#url-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;background:#f8fafc;border-radius:12px;padding:24px;max-width:900px;margin:0 auto}
+#url-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;background:#f8fafc;border-radius:12px;padding:24px;max-width:900px;margin:0 auto}
 #url-app h2{font-size:1.1rem;font-weight:700;color:#1e293b;margin-bottom:12px}
 #url-app .tabs{display:flex;gap:4px;background:#e2e8f0;padding:4px;border-radius:8px;margin-bottom:20px;flex-wrap:wrap}
 #url-app .tab-btn{flex:1;min-width:120px;padding:8px 12px;border:none;border-radius:6px;font-size:0.85rem;font-weight:600;cursor:pointer;background:transparent;color:#64748b;transition:all .2s}

@@ -117,7 +117,7 @@ function calcDiv(){
   html+='</div>';
 
   html+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:16px;text-align:center;">';
-  html+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;"><div style="font-size:11px;color:#64748b;">Pre-tax dividend</div><div style="font-size:18px;font-weight:bold;color:#1e293b;">¥'+fmt(annualDiv)+'/yr</div></div>';
+  html+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;"><div style="font-size:11px;color:#64748b;">Pre-tax dividend</div><div style="font-size:18px;font-weight:bold;color:#1e293b !important;color-scheme:light;">¥'+fmt(annualDiv)+'/yr</div></div>';
   var taxAmount=annualDiv*taxRate;
   html+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;"><div style="font-size:11px;color:#64748b;">Tax withheld</div><div style="font-size:18px;font-weight:bold;color:'+(taxRate>0?'#ef4444':'#10b981')+';">¥'+fmt(taxAmount)+'/yr</div></div>';
   html+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;"><div style="font-size:11px;color:#64748b;">Effective yield (after tax)</div><div style="font-size:18px;font-weight:bold;color:#f59e0b;">'+(yieldRate*(1-taxRate)).toFixed(2)+'%</div></div>';
@@ -196,7 +196,7 @@ thtml+='<div style="margin-top:8px;font-size:12px;color:#166534;text-align:cente
 var annDiv=principal*etfs[i].yield/100*(account==='nisa'?1:0.79685);
 ehtml+='<div style="padding:10px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
 ehtml+='<div style="display:flex;justify-content:space-between;align-items:center;">';
-ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
+ehtml+='<div><span style="font-weight:bold;font-size:14px;color:#1e293b !important;color-scheme:light;">'+etfs[i].name+'</span><span style="font-size:11px;color:#64748b;margin-left:4px;">'+etfs[i].type+'</span></div>';
 ehtml+='<span style="font-size:14px;font-weight:bold;color:#10b981;">'+etfs[i].yield+'%</span>';
 ehtml+='</div>';
 ehtml+='<div style="font-size:11px;color:#64748b;">'+etfs[i].desc+'</div>';

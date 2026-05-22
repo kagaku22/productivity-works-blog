@@ -23,7 +23,7 @@ cover:
 
 Check the subscriptions you pay for, enter your monthly costs, and instantly see your **true annual spend** — plus what that money could grow to if you invested it instead.
 
-<div id="sub-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="sub-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- Subscription list -->
 <div style="padding:24px;border:2px solid #e11d48;border-radius:12px;background:#fff1f2;">
@@ -78,11 +78,11 @@ Check the subscriptions you pay for, enter your monthly costs, and instantly see
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;">
 <div style="padding:16px;background:white;border-radius:8px;text-align:center;border:1px solid #fecdd3;">
 <div style="font-size:12px;color:#64748b;">Annual Cost</div>
-<div id="res-annual" style="font-size:26px;font-weight:bold;color:#1e293b;">$0.00</div>
+<div id="res-annual" style="font-size:26px;font-weight:bold;color:#1e293b !important;color-scheme:light;">$0.00</div>
 </div>
 <div style="padding:16px;background:white;border-radius:8px;text-align:center;border:1px solid #fecdd3;">
 <div style="font-size:12px;color:#64748b;">Daily Cost</div>
-<div id="res-daily" style="font-size:26px;font-weight:bold;color:#1e293b;">$0.00</div>
+<div id="res-daily" style="font-size:26px;font-weight:bold;color:#1e293b !important;color-scheme:light;">$0.00</div>
 </div>
 </div>
 

@@ -23,7 +23,7 @@ cover:
 
 Enter your income, annual living expenses, and current assets to automatically calculate **years to FIRE** and your **target nest egg**. Lean FIRE, Fat FIRE, and Coast FIRE are all compared in one view.
 
-<div id="fire-calc" style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b;">
+<div id="fire-calc" style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- Input Panel -->
 <div style="padding:24px;border:2px solid #7c3aed;border-radius:12px;background:#faf5ff;margin-bottom:20px;">

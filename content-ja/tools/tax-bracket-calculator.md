@@ -23,7 +23,7 @@ cover:
 
 課税所得と申告区分を入力して、**税率・実効税率・税額**をビジュアルで確認しましょう。
 
-<div id="tb-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="tb-calc" style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <div style="padding:24px;border:2px solid #dc2626;border-radius:12px;background:#fef2f2;">
 
@@ -76,18 +76,18 @@ cover:
 </div>
 <div style="padding:20px;background:#f8fafc;border-radius:12px;border:1px solid #e2e8f0;">
 <div style="font-size:12px;color:#64748b;">所得税額合計</div>
-<div id="tbTotal" style="font-size:28px;font-weight:bold;color:#1e293b;">¥0</div>
+<div id="tbTotal" style="font-size:28px;font-weight:bold;color:#1e293b !important;color-scheme:light;">¥0</div>
 </div>
 </div>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;text-align:center;">
 <div style="padding:16px;background:white;border-radius:8px;border:1px solid #e2e8f0;">
 <div style="font-size:12px;color:#64748b;">税引後所得</div>
-<div id="tbAfterTax" style="font-size:22px;font-weight:bold;color:#1e293b;">¥0</div>
+<div id="tbAfterTax" style="font-size:22px;font-weight:bold;color:#1e293b !important;color-scheme:light;">¥0</div>
 </div>
 <div style="padding:16px;background:white;border-radius:8px;border:1px solid #e2e8f0;">
 <div style="font-size:12px;color:#64748b;">月換算手取り（所得税のみ）</div>
-<div id="tbMonthly" style="font-size:22px;font-weight:bold;color:#1e293b;">¥0</div>
+<div id="tbMonthly" style="font-size:22px;font-weight:bold;color:#1e293b !important;color-scheme:light;">¥0</div>
 </div>
 </div>
 

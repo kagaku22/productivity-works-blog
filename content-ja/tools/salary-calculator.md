@@ -25,7 +25,7 @@ cover:
 #sc-app-ja label{display:block;font-size:13px;font-weight:600;color:#475569;margin-bottom:6px;margin-top:14px}
 #sc-app-ja label:first-child{margin-top:0}
 #sc-app-ja input[type=number],#sc-app-ja input[type=range],#sc-app-ja select{font-family:inherit}
-#sc-app-ja input[type=number],#sc-app-ja select{width:100%;padding:9px 12px;border:1.5px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#f8fafc;transition:border-color .2s;-webkit-appearance:none;appearance:none}
+#sc-app-ja input[type=number],#sc-app-ja select{width:100%;padding:9px 12px;border:1.5px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;color-scheme:light;background:#f8fafc;transition:border-color .2s;-webkit-appearance:none;appearance:none}
 #sc-app-ja input[type=number]:focus,#sc-app-ja select:focus{outline:none;border-color:#3b82f6;background:#fff;box-shadow:0 0 0 3px rgba(59,130,246,.12)}
 #sc-app-ja input[type=range]{width:100%;accent-color:#3b82f6;cursor:pointer;margin-top:4px}
 #sc-app-ja .sc-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}

@@ -34,7 +34,7 @@ padding:14px 16px;margin-bottom:18px;
 #cg-app .cg-toolbar select,
 #cg-app .cg-toolbar input[type=number]{
 border:1px solid #cbd5e1;border-radius:6px;padding:5px 8px;
-font-size:14px;color:#1e293b;background:#f8fafc;
+font-size:14px;color:#1e293b !important;color-scheme:light;background:#f8fafc;
 outline:none;cursor:pointer;
 }
 #cg-app .cg-toolbar select:focus,
@@ -115,7 +115,7 @@ z-index:9999;align-items:center;justify-content:center;
 background:#fff;border-radius:12px;padding:24px;width:90%;max-width:380px;
 box-shadow:0 20px 60px rgba(0,0,0,0.2);
 }
-#cg-app .cg-modal h3{font-size:16px;font-weight:700;margin-bottom:14px;color:#1e293b;}
+#cg-app .cg-modal h3{font-size:16px;font-weight:700;margin-bottom:14px;color:#1e293b !important;color-scheme:light;}
 #cg-app .cg-modal input[type=text]{
 width:100%;border:1px solid #cbd5e1;border-radius:7px;padding:9px 12px;
 font-size:14px;outline:none;margin-bottom:10px;

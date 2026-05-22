@@ -23,7 +23,7 @@ cover:
 
 Enter your numbers below to find your **Financial Independence number**, years to early retirement, and see exactly how your savings rate affects your timeline.
 
-<div id="fire-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;">
+<div id="fire-calc" style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- INPUTS -->
 <div style="padding:28px;border:2px solid #7c3aed;border-radius:12px;background:#faf5ff;margin-bottom:20px;">
@@ -34,22 +34,22 @@ Enter your numbers below to find your **Financial Independence number**, years t
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">Current Age</label>
-<input type="number" id="fireAge" min="18" max="70" step="1" value="30" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireAge" min="18" max="70" step="1" value="30" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">Annual Income ($)</label>
-<input type="number" id="fireIncome" min="0" step="1000" value="80000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireIncome" min="0" step="1000" value="80000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">Annual Expenses ($)</label>
-<input type="number" id="fireExpenses" min="0" step="1000" value="50000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireExpenses" min="0" step="1000" value="50000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 <div>
 <label style="display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em;">Current Savings / Investments ($)</label>
-<input type="number" id="fireSavings" min="0" step="1000" value="50000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b;">
+<input type="number" id="fireSavings" min="0" step="1000" value="50000" oninput="calcFIRE()" style="width:100%;padding:10px 12px;border:1.5px solid #c4b5fd;border-radius:8px;font-size:16px;box-sizing:border-box;background:#fff;color:#1e293b !important;color-scheme:light;">
 </div>
 
 </div>
@@ -128,7 +128,7 @@ Enter your numbers below to find your **Financial Independence number**, years t
 <div id="varLean" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">Lean FIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">Expenses &times; 0.8</div>
-<div id="leanNum" style="font-size:22px;font-weight:800;color:#1e293b;">$1,000,000</div>
+<div id="leanNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">$1,000,000</div>
 <div id="leanYears" style="font-size:13px;color:#64748b;margin-top:4px;">12 years 1 month</div>
 </div>
 
@@ -138,21 +138,21 @@ Enter your numbers below to find your **Financial Independence number**, years t
 <span style="background:#7c3aed;color:white;font-size:10px;padding:1px 6px;border-radius:999px;font-weight:600;">YOUR TARGET</span>
 </div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">Your current expenses</div>
-<div id="regNum" style="font-size:22px;font-weight:800;color:#1e293b;">$1,250,000</div>
+<div id="regNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">$1,250,000</div>
 <div id="regYears" style="font-size:13px;color:#64748b;margin-top:4px;">14 years 3 months</div>
 </div>
 
 <div id="varFat" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">Fat FIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">Expenses &times; 1.5</div>
-<div id="fatNum" style="font-size:22px;font-weight:800;color:#1e293b;">$1,875,000</div>
+<div id="fatNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">$1,875,000</div>
 <div id="fatYears" style="font-size:13px;color:#64748b;margin-top:4px;">20 years 8 months</div>
 </div>
 
 <div id="varCoast" style="padding:16px;border-radius:10px;border:2px solid #e9d5ff;background:#f5f3ff;">
 <div style="font-weight:700;font-size:14px;color:#6d28d9;margin-bottom:4px;">Coast FIRE</div>
 <div style="font-size:11px;color:#94a3b8;margin-bottom:8px;">Stop saving, coast to 65</div>
-<div id="coastNum" style="font-size:22px;font-weight:800;color:#1e293b;">$182,000</div>
+<div id="coastNum" style="font-size:22px;font-weight:800;color:#1e293b !important;color-scheme:light;">$182,000</div>
 <div id="coastStatus" style="font-size:13px;color:#64748b;margin-top:4px;">Need $132,000 more</div>
 </div>
 

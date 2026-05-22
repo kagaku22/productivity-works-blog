@@ -194,7 +194,7 @@ var canAfford=r.limit>=goods[i].price?'#10b981':'#94a3b8';
 var badge=r.limit>=goods[i].price?'Within limit':'Exceeds limit';
 var badgeBg=r.limit>=goods[i].price?'#dcfce7':'#f1f5f9';
 rhtml+='<div style="padding:12px;background:#fff;border-radius:8px;border:1px solid #e2e8f0;">';
-rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b;">'+goods[i].name+'</div>';
+rhtml+='<div style="font-size:13px;font-weight:bold;color:#1e293b !important;color-scheme:light;">'+goods[i].name+'</div>';
 rhtml+='<div style="font-size:12px;color:#64748b;">Donation: '+fmt(goods[i].price)+' JPY</div>';
 rhtml+='<div style="font-size:12px;color:#64748b;">Market value: ~'+fmt(goods[i].value)+' JPY</div>';
 rhtml+='<span style="display:inline-block;margin-top:4px;padding:2px 8px;font-size:11px;font-weight:bold;background:'+badgeBg+';color:'+canAfford+';border-radius:4px;">'+badge+'</span>';

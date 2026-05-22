@@ -25,7 +25,7 @@ cover:
 
 年収・年間生活費・現在の資産額を入力するだけで、**FIRE達成までの年数**と**必要資産額**を自動計算します。リーンFIRE・ファットFIRE・コーストFIREの比較も一覧表示。
 
-<div id="fire-calc" style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b;">
+<div id="fire-calc" style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;color:#1e293b !important;color-scheme:light;">
 
 <!-- 入力パネル -->
 <div style="padding:24px;border:2px solid #7c3aed;border-radius:12px;background:#faf5ff;margin-bottom:20px;">

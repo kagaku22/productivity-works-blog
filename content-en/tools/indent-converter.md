@@ -20,7 +20,7 @@ Re-indent any code instantly — convert between 2-space, 4-space, and tab style
 <div id="ic-app">
 <style>
 #ic-app *,#ic-app *::before,#ic-app *::after{box-sizing:border-box;margin:0;padding:0}
-#ic-app{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;color:#1e293b;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:20px;max-width:960px}
+#ic-app{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;color:#1e293b !important;color-scheme:light;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:20px;max-width:960px}
 #ic-app .ic-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
 #ic-app .ic-label{font-weight:600;font-size:13px;color:#475569;white-space:nowrap;min-width:90px}
 #ic-app .ic-btn-group{display:flex;gap:6px;flex-wrap:wrap}
