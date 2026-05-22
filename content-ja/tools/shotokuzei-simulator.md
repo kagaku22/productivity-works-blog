@@ -61,7 +61,7 @@ cover:
 
 <div style="margin-bottom:8px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">扶養家族</label>
-<select id="stDependents" onchange="calcST()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="stDependents" onchange="calcST()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="0">なし（独身・共働き）</option>
 <option value="1">配偶者控除あり</option>
 <option value="2">配偶者+子1人</option>

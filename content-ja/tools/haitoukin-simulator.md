@@ -50,14 +50,14 @@ cover:
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;">
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">口座タイプ</label>
-<select id="divAccount" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="divAccount" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="nisa">新NISA（非課税）</option>
 <option value="tokutei">特定口座（課税20.315%）</option>
 </select>
 </div>
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当再投資</label>
-<select id="divReinvest" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="divReinvest" onchange="calcDiv()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="yes">する（複利効果あり）</option>
 <option value="no">しない（配当受取）</option>
 </select>

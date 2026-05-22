@@ -42,7 +42,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">雇用形態</label>
-<select id="employment" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="employment" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="stable">安定した会社員（公務員・大手企業）</option>
 <option value="regular" selected>一般的な会社員</option>
 <option value="contract">契約社員・派遣社員</option>
@@ -53,7 +53,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;">家族構成</label>
-<select id="household" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="household" onchange="calcEF()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="single">独身・扶養なし</option>
 <option value="couple" selected>夫婦・共働き</option>
 <option value="couple_single">夫婦・片働き</option>

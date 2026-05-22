@@ -26,7 +26,7 @@ cover:
 #lc-app .lc-badge{font-size:11px;padding:2px 8px;border-radius:20px;font-weight:700;background:#22c55e;color:#fff}
 #lc-app label{display:block;font-size:12px;font-weight:600;color:#64748b;margin-bottom:4px;margin-top:10px}
 #lc-app label:first-of-type{margin-top:0}
-#lc-app input[type=number],#lc-app input[type=text]{width:100%;padding:8px 10px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:14px;color:#1e293b;background:#fff;transition:border-color .2s}
+#lc-app input[type=number],#lc-app input[type=text]{width:100%;padding:8px 10px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:14px;color:#1e293b !important;background:#fff !important;transition:border-color .2s}
 #lc-app input[type=number]:focus,#lc-app input[type=text]:focus{outline:none;border-color:#3b82f6}
 #lc-app .lc-btn{display:inline-block;padding:10px 28px;background:#3b82f6;color:#fff;border:none;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;transition:background .2s;margin-right:8px}
 #lc-app .lc-btn:hover{background:#2563eb}

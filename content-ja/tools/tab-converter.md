@@ -43,7 +43,7 @@ cover:
 #tc-app .tc-panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
 #tc-app .tc-panel-title{font-weight:600;font-size:13px;color:#64748b}
 #tc-app .tc-panel-actions{display:flex;gap:6px}
-#tc-app textarea{width:100%;height:280px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13px;line-height:1.6;color:#1e293b;background:#fff;resize:vertical;outline:none;transition:border-color .15s}
+#tc-app textarea{width:100%;height:280px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13px;line-height:1.6;color:#1e293b !important;background:#fff !important;resize:vertical;outline:none;transition:border-color .15s}
 #tc-app textarea:focus{border-color:#6366f1}
 #tc-app .tc-preview{width:100%;height:280px;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13px;line-height:1.6;background:#fff;overflow:auto;white-space:pre;word-break:normal}
 #tc-app .tc-preview .ws-space{color:#94a3b8}

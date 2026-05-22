@@ -39,7 +39,7 @@ cover:
 #cr-app .cr-field{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px}
 #cr-app .cr-field-label{font-size:11px;font-weight:700;text-transform:uppercase;color:#64748b;letter-spacing:.06em;margin-bottom:8px;display:flex;align-items:center;gap:6px}
 #cr-app .cr-field-label span.cr-tag{background:#e2e8f0;color:#475569;border-radius:4px;padding:1px 6px;font-size:10px;font-weight:700}
-#cr-app .cr-field select,#cr-app .cr-field input{width:100%;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;color:#1e293b;background:#fff;outline:none;margin-top:4px}
+#cr-app .cr-field select,#cr-app .cr-field input{width:100%;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;color:#1e293b !important;background:#fff !important;outline:none;margin-top:4px}
 #cr-app .cr-field select:focus,#cr-app .cr-field input:focus{border-color:#3b82f6}
 #cr-app .cr-field .cr-range-row{display:flex;align-items:center;gap:4px;margin-top:4px}
 #cr-app .cr-field .cr-range-row input{flex:1;min-width:0}

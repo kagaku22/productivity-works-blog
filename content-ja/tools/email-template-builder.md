@@ -18,7 +18,7 @@ cover:
 <div id="et-app">
 <style>
 #et-app *,#et-app *::before,#et-app *::after{box-sizing:border-box;margin:0;padding:0}
-#et-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b;background:#f1f5f9;min-height:100vh;padding:0}
+#et-app{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1e293b !important;background:#f1f5f9 !important;color-scheme:light;min-height:100vh;padding:0}
 #et-app .et-wrap{display:grid;grid-template-columns:340px 1fr;gap:0;min-height:600px;background:#f1f5f9}
 #et-app .et-panel{background:#fff;border-right:1px solid #e2e8f0;overflow-y:auto;max-height:900px;padding:0}
 #et-app .et-panel-header{padding:16px 18px;background:linear-gradient(135deg,#6366f1 0%,#8b5cf6 100%);color:#fff}
@@ -28,7 +28,7 @@ cover:
 #et-app .et-section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8;margin-bottom:10px}
 #et-app .et-field{margin-bottom:10px}
 #et-app .et-field label{display:block;font-size:12px;font-weight:600;color:#475569;margin-bottom:4px}
-#et-app .et-field input[type=text],#et-app .et-field input[type=url],#et-app .et-field textarea,#et-app .et-field select{width:100%;padding:7px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;color:#1e293b;background:#fff;outline:none;transition:border .15s}
+#et-app .et-field input[type=text],#et-app .et-field input[type=url],#et-app .et-field textarea,#et-app .et-field select{width:100%;padding:7px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;color:#1e293b !important;background:#fff !important;outline:none;transition:border .15s}
 #et-app .et-field input[type=text]:focus,#et-app .et-field input[type=url]:focus,#et-app .et-field textarea:focus,#et-app .et-field select:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,.12)}
 #et-app .et-field textarea{resize:vertical;min-height:70px;font-family:inherit}
 #et-app .et-color-row{display:flex;gap:8px;align-items:center}

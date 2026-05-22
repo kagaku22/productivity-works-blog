@@ -61,7 +61,7 @@ cover:
 
 <div style="margin-bottom:16px;">
 <label style="display:block;font-weight:bold;margin-bottom:4px;font-size:13px;">申告区分</label>
-<select id="shFiling" onchange="calcSH()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="shFiling" onchange="calcSH()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="single">単身（一般）</option>
 <option value="married">配偶者控除あり</option>
 <option value="hoh">ひとり親控除あり</option>

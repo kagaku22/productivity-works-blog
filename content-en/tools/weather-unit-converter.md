@@ -34,7 +34,7 @@ Convert all weather measurement units in real time — temperature, wind speed, 
 #wu-app .wu-conv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
 #wu-app .wu-field{display:flex;flex-direction:column;gap:4px}
 #wu-app .wu-field label{font-size:12px;font-weight:600;color:#64748b;letter-spacing:.03em}
-#wu-app .wu-field input{padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:15px;font-weight:600;color:#1e293b;background:#fff;outline:none;transition:border-color .15s;width:100%}
+#wu-app .wu-field input{padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:15px;font-weight:600;color:#1e293b !important;background:#fff !important;outline:none;transition:border-color .15s;width:100%}
 #wu-app .wu-field input:focus{border-color:#0ea5e9}
 #wu-app .wu-field input.source{border-color:#0ea5e9;background:#f0f9ff}
 #wu-app .wu-formula{margin-top:14px;padding:10px 14px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;font-size:12px;color:#64748b;line-height:1.7;font-family:"SFMono-Regular",Consolas,monospace}

@@ -42,7 +42,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">家族構成</label>
-<select id="fnFamily" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="fnFamily" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="single">独身または共働き（配偶者控除なし）</option>
 <option value="couple">夫婦（配偶者控除あり）</option>
 <option value="couple1">夫婦+子1人（高校生）</option>
@@ -52,7 +52,7 @@ cover:
 
 <div style="margin-bottom:20px;">
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">住宅ローン控除</label>
-<select id="fnLoan" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="fnLoan" onchange="calcFN()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="0">なし</option>
 <option value="100000">あり（年10万円）</option>
 <option value="200000">あり（年20万円）</option>

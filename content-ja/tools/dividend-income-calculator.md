@@ -50,14 +50,14 @@ cover:
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;">
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当再投資（DRIP）</label>
-<select id="dcDRIP" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="dcDRIP" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="yes">あり（複利で増やす）</option>
 <option value="no">なし（現金で受け取る）</option>
 </select>
 </div>
 <div>
 <label style="display:block;font-weight:bold;margin-bottom:6px;font-size:14px;">配当課税率</label>
-<select id="dcTax" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b;background:#fff;">
+<select id="dcTax" onchange="calcDC()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;color:#1e293b !important;background:#fff !important;">
 <option value="0">0%（非課税口座・NISA等）</option>
 <option value="20" selected>20.315%（国内源泉徴収）</option>
 <option value="15">15%（外国税額控除適用後）</option>
