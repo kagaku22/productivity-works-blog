@@ -4,6 +4,7 @@ description: "Create pixel art with an interactive grid editor. Export as PNG. F
 date: 2025-05-16
 slug: "pixel-art-maker"
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/pixel-art-maker.png"

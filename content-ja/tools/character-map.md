@@ -3,6 +3,7 @@ title: "Unicode文字マップ"
 date: 2025-10-14
 description: "Unicodeの文字をカテゴリ別に閲覧・コピーできる無料ツール。矢印・数学記号・通貨記号・ギリシャ文字・囲み線文字など、任意の文字のコードポイント・HTMLエンティティ・CSS値・UTF-8バイト列を即座にコピーできます。"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 slug: "character-map"
 ShowToc: false
 cover:

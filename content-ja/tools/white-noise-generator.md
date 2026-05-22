@@ -4,6 +4,7 @@ description: "集中・睡眠・リラックスのためのホワイト・ピン
 date: 2025-09-14
 slug: "white-noise-generator"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/white-noise-generator.png"

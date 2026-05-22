@@ -3,6 +3,7 @@ title: "Dog Age Calculator - Convert Dog Years to Human Years"
 date: 2025-05-16
 description: "Calculate your dog's age in human years using the latest scientific research. Accounts for breed size (small, medium, large, giant)."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "dog-age-calculator"
 ShowToc: false
 cover:

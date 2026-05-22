@@ -3,6 +3,7 @@ title: "CSS Animation Generator — Keyframe Builder"
 date: 2025-05-16
 description: "Create CSS animations with a visual keyframe editor. Presets for fade, slide, bounce, pulse, and more. Live preview and copy @keyframes code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-animation-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "Markdown Link Checker — Extract & Validate Links"
 date: 2025-05-16
 description: "Extract and validate links from Markdown text. Find duplicates, broken formats, and categorize internal/external links. Export as CSV or JSON."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "markdown-link-checker"
 ShowToc: false
 cover:

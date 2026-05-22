@@ -3,6 +3,7 @@ title: "Timezone Clock Dashboard"
 date: 2025-05-16
 description: "Free world clock dashboard. Display live clocks for multiple timezones. Add/remove cities, see time differences, day/night indicator, and 12/24 hour toggle."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "timezone-clock"
 ShowToc: false
 aliases: ["/tools/world-clock/"]

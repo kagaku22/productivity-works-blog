@@ -3,6 +3,7 @@ title: "Date Calculator"
 slug: "date-calculator"
 description: "Free date calculator. Find the difference between two dates, add or subtract days from a date, and calculate business days."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 date: 2025-05-16
 ShowToc: false
 cover:

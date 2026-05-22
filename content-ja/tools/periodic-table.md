@@ -4,6 +4,7 @@ description: "無料のインタラクティブ周期表。全118元素をクリ
 date: 2025-10-07
 slug: periodic-table
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/periodic-table-ja.png

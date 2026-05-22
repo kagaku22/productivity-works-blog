@@ -3,6 +3,7 @@ title: ".htaccess Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate .htaccess files instantly. Visual editor for redirects, security headers, caching, CORS, gzip, and error pages. Presets for WordPress and static sites."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "htaccess-generator"
 ShowToc: false
 aliases:

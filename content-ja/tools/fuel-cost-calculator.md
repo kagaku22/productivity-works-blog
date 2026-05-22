@@ -3,6 +3,7 @@ title: "ガソリン代計算ツール"
 date: 2025-09-02
 description: "無料のガソリン代計算ツール。距離・燃費・ガソリン価格から費用を計算。往復・年間コスト・車両比較対応。通勤費の計算に最適。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "fuel-cost-calculator"
 ShowToc: false
 cover:

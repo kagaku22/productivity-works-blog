@@ -4,6 +4,7 @@ description: "Analyze word frequency and text statistics. Count word occurrences
 date: 2025-05-16
 slug: "word-frequency"
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/word-frequency-counter/"

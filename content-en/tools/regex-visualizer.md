@@ -3,6 +3,7 @@ title: "Regex Visualizer & Explainer"
 date: 2025-05-16
 description: "Free regex visualizer tool. Enter a regular expression to see a visual breakdown of each component. Highlights matches in test text with group extraction."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "regex-visualizer"
 ShowToc: false
 cover:

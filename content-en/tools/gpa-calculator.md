@@ -4,6 +4,7 @@ description: "Free GPA calculator. Calculate your Grade Point Average with custo
 slug: gpa-calculator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/gpa-calculator.png

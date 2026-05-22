@@ -3,6 +3,7 @@ title: "バイト変換ツール — データサイズ計算"
 date: 2025-09-07
 description: "バイト・KB・MB・GB・TB間の変換。2進数・10進数単位対応。ファイルサイズと帯域幅からダウンロード時間を計算。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "byte-converter"
 ShowToc: false
 cover:

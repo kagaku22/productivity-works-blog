@@ -3,6 +3,7 @@ title: "プレースホルダー画像生成ツール"
 date: 2025-08-22
 description: "無料のプレースホルダー（ダミー）画像ジェネレーター。サイズ・背景色・テキストを自由に設定してPNG/JPEGで即ダウンロード。会員登録不要、すべてブラウザで完結。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "placeholder-image"
 ShowToc: false
 aliases:

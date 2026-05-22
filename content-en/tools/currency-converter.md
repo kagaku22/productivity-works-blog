@@ -3,6 +3,7 @@ title: "Currency Converter - Exchange Rate Calculator"
 date: 2025-05-16
 description: "Convert between major world currencies. Reference exchange rates for USD, EUR, GBP, JPY, and more. Includes conversion table."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "currency-converter"
 ShowToc: false
 cover:

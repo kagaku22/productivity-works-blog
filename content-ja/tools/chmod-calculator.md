@@ -3,6 +3,7 @@ title: "Chmod計算ツール — Unixパーミッション設定"
 date: 2025-09-17
 description: "無料のchmod計算ツール。ビジュアルパーミッションエディタで8進数・シンボリック表記を即座に確認。ファイル権限のプリセット付き。chmodコマンドをワンクリックコピー。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "chmod-calculator"
 ShowToc: false
 aliases:

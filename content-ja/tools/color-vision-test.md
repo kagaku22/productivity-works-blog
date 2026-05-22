@@ -4,6 +4,7 @@ description: "石原式カラーテスト風のインタラクティブ色覚ス
 date: 2025-04-04
 slug: "color-vision-test"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/color-vision-test.png"

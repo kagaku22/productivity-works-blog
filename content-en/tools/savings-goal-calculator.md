@@ -3,6 +3,7 @@ title: "Savings Goal Calculator"
 date: 2025-05-16
 description: "Free savings goal calculator. Plan how to reach your financial target with compound interest projections, monthly contributions, and visual progress tracking."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "savings-goal-calculator"
 ShowToc: false
 cover:

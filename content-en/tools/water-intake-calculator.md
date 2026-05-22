@@ -3,6 +3,7 @@ title: "Water Intake Calculator - Daily Hydration Guide"
 date: 2025-05-16
 description: "Calculate how much water you need daily based on weight, activity level, and climate. Track your daily water intake."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "water-intake-calculator"
 ShowToc: false
 cover:

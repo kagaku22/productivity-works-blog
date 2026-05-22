@@ -3,6 +3,7 @@ title: "Paper Size Guide - A Series, B Series & US Sizes"
 date: 2025-05-16
 description: "Complete paper size reference. Compare A0-A10, B0-B10, Letter, Legal, Tabloid sizes in mm, cm, and inches. Visual size comparison."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "paper-size-guide"
 ShowToc: false
 cover:

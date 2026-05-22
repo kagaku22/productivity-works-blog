@@ -3,6 +3,7 @@ title: "CSS Border Radius Generator — Free Visual Tool"
 date: 2025-05-16
 description: "Generate CSS border-radius with visual controls. Individual corners, elliptical values, and shape presets. Copy border-radius CSS code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "border-radius-generator"
 ShowToc: false
 aliases:

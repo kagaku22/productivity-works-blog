@@ -3,6 +3,7 @@ title: "Online Metronome - Free BPM Timer"
 date: 2025-05-16
 description: "Free online metronome with adjustable BPM, time signatures, and accent patterns. Practice music with a precise beat."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "metronome"
 ShowToc: false
 cover:

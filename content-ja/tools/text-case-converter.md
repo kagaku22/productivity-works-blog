@@ -3,6 +3,7 @@ title: "テキスト変換ツール"
 date: 2025-09-20
 description: "無料のテキスト変換ツール。大文字・小文字・タイトルケース・camelCase・snake_case・kebab-caseなど12種類の変換を即実行。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "text-case-converter"
 ShowToc: false
 cover:

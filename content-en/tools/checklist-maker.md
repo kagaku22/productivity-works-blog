@@ -3,6 +3,7 @@ title: "Checklist Maker"
 date: 2025-05-16
 description: "Free online checklist maker. Create, organize, and track to-do lists with drag reorder, categories, and progress tracking. Saves to browser storage."
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 slug: "checklist-maker"
 ShowToc: false
 cover:

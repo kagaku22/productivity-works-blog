@@ -4,6 +4,7 @@ slug: "text-shadow-generator"
 date: 2025-05-16
 description: "Free CSS text shadow generator. Add single or multiple text shadows with live preview, presets, and one-click CSS copy."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/text-shadow-generator.png

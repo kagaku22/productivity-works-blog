@@ -3,6 +3,7 @@ title: "Image to Base64 Converter — Data URI Tool"
 date: 2025-05-16
 description: "Convert images to Base64 data URIs instantly. Drag & drop PNG, JPG, GIF, SVG, or WebP. Copy as Base64 string, data URI, CSS background, or HTML img tag."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "image-to-base64"
 ShowToc: false
 cover:

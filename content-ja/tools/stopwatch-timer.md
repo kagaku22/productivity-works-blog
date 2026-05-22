@@ -3,6 +3,7 @@ title: "ストップウォッチ・タイマー"
 date: 2025-11-13
 description: "無料のストップウォッチ＆カウントダウンタイマー。ラップ計測・アラーム音・キーボードショートカット対応。登録不要。"
 categories: ["無料ツール"]
+tags: ["日付・時間", "計算ツール", "無料ツール"]
 slug: "stopwatch-timer"
 ShowToc: false
 cover:

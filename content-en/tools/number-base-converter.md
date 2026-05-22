@@ -3,6 +3,7 @@ title: "Number Base Converter"
 date: 2025-05-16
 description: "Free number base converter. Convert between binary, octal, decimal, and hexadecimal. Bitwise operations, two's complement, and custom base support."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "number-base-converter"
 ShowToc: false
 cover:

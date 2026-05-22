@@ -3,6 +3,7 @@ title: "正規表現ビジュアライザー"
 date: 2025-12-19
 description: "無料の正規表現解説ツール。正規表現を入力するとトークンごとに日本語で意味を表示。テスト文字列のマッチをハイライト。グループ抽出対応。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "regex-visualizer"
 ShowToc: false
 cover:

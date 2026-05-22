@@ -3,6 +3,7 @@ title: "睡眠負債計算ツール - あなたの睡眠不足を可視化"
 date: 2025-04-17
 description: "睡眠負債（睡眠不足の蓄積）を計算します。1週間の睡眠時間を入力するだけで、不足量と回復プランを自動算出。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "sleep-debt-calculator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Tab ↔ Spaces Converter"
 date: 2025-05-16
 description: "Free online tool to convert tabs to spaces or spaces to tabs. Configurable indent size (2/4/8), real-time whitespace preview, line stats, clipboard copy, and file upload."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "tab-converter"
 ShowToc: false
 aliases: ["/tools/tab-converter/", "/tools/tab-converter/"]

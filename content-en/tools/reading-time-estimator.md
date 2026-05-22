@@ -3,6 +3,7 @@ title: "Reading Time Estimator - Article Length Calculator"
 date: 2025-05-16
 description: "Free reading time estimator. Paste your article to instantly see estimated reading time, speaking time, word count, and character count. Adjustable reading speed."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "reading-time-estimator"
 ShowToc: false
 cover:

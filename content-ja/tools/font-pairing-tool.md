@@ -3,6 +3,7 @@ title: "フォントペアリングツール"
 date: 2025-11-30
 description: "見出し＋本文の相性抜群なフォント組み合わせを12種類収録。システムフォントのみ使用。文字サイズ・行間・字間・色をリアルタイムで調整し、CSSをそのままコピー。"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 slug: "font-pairing-tool"
 ShowToc: false
 aliases:

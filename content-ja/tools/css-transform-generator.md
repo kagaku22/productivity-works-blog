@@ -3,6 +3,7 @@ title: "CSS Transformジェネレーター — ビジュアルプレイグラウ
 date: 2025-12-17
 description: "CSSトランスフォームをビジュアルで作成。移動・回転・拡縮・傾斜をライブプレビュー。CSSコードを即コピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "css-transform-generator"
 ShowToc: false
 cover:

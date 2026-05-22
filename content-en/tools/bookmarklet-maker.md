@@ -4,6 +4,7 @@ description: "Free bookmarklet maker tool. Convert JavaScript code into a bookma
 slug: bookmarklet-maker
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 cover:
   image: /images/covers/bookmarklet-maker.png
   alt: "Bookmarklet Maker — Convert JavaScript to bookmarklet URL"

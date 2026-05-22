@@ -3,6 +3,7 @@ title: "Levenshtein Distance Calculator"
 date: 2025-05-16
 description: "Free Levenshtein distance calculator. Measure the edit distance between two strings. Shows step-by-step operations (insert, delete, substitute) and similarity percentage."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "levenshtein-distance"
 ShowToc: false
 cover:

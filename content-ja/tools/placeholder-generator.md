@@ -3,6 +3,7 @@ title: "プレースホルダー画像生成ツール - カスタムサイズ＆
 date: 2025-09-19
 description: "Web開発用プレースホルダー画像を無料で生成。サイズ・背景色・テキスト色・文字を自由にカスタマイズ。PNG ダウンロードまたはデータURLコピーに対応。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "placeholder-generator"
 ShowToc: false
 cover:

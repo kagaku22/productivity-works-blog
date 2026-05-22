@@ -3,6 +3,7 @@ title: "Text Statistics Analyzer"
 date: 2025-05-16
 description: "Free online text statistics analyzer. Instantly get word count, character count, sentence count, paragraph count, reading time, speaking time, readability scores, top keywords, and unique word percentage."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "text-statistics"
 ShowToc: false
 aliases:

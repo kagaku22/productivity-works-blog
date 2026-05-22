@@ -3,6 +3,7 @@ title: "水分摂取量計算ツール - 1日の必要水分量ガイド"
 date: 2025-07-27
 description: "体重・運動量・気候に基づいて1日に必要な水分量を計算。毎日の水分補給を記録して健康管理をサポートします。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "water-intake-calculator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Stopwatch & Timer"
 date: 2025-05-16
 description: "Free online stopwatch and countdown timer. Lap timing, alarm sound, keyboard shortcuts, and millisecond precision. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "stopwatch-timer"
 ShowToc: false
 cover:

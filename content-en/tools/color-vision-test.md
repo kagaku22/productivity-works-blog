@@ -4,6 +4,7 @@ description: "Test your color vision with an interactive Ishihara-style color bl
 date: 2025-05-16
 slug: "color-vision-test"
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/color-vision-test.png"

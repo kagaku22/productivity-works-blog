@@ -4,6 +4,7 @@ slug: "csv-to-json"
 date: 2025-04-26
 description: "無料のCSV↔JSON変換ツール。CSVデータをJSON配列・オブジェクトに変換。区切り文字自動検出・型推論対応。ブラウザで完結。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/csv-to-json-ja.png

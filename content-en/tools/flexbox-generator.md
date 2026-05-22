@@ -3,6 +3,7 @@ title: "CSS Flexbox Generator — Visual Playground"
 date: 2025-05-16
 description: "Free visual CSS Flexbox generator. Drag controls to build flex layouts instantly. Presets for navbars, grids, and holy grail layouts. Copy CSS with one click."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "flexbox-generator"
 ShowToc: false
 aliases:

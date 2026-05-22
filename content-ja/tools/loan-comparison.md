@@ -3,6 +3,7 @@ title: "ローン比較計算ツール"
 date: 2025-06-01
 description: "無料のローン比較計算ツール。最大3つのローンを並べて比較。月額返済・総利息・償還スケジュールを一覧表示。"
 categories: ["無料ツール"]
+tags: ["金融計算", "マネー", "無料ツール"]
 slug: "loan-comparison"
 ShowToc: false
 cover:

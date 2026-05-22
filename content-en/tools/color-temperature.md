@@ -3,6 +3,7 @@ title: "Color Temperature Converter"
 date: 2025-05-16
 description: "Convert color temperature (Kelvin) to RGB and HEX values. Visualize warm to cool light colors with an interactive slider. Free, no sign-up."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-temperature"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "CSS Clip-Path Generator — Shape Builder"
 date: 2025-05-16
 description: "Create CSS clip-path shapes visually. Preset shapes, custom polygons, and interactive point editing. Copy clip-path CSS code with one click."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "clip-path-generator"
 ShowToc: false
 aliases:

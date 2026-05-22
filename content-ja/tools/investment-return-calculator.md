@@ -3,6 +3,7 @@ title: "投資リターン計算ツール - 年平均成長率(CAGR)＆トータ
 description: "複利成長・配当・手数料を含む投資リターンを計算。無料ROI・ポートフォリオ成長計算ツール。"
 date: 2025-08-07
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "investment-return-calculator"
 ShowToc: false
 cover:

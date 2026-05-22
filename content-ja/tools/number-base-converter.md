@@ -3,6 +3,7 @@ title: "進数変換ツール"
 date: 2025-11-14
 description: "無料の進数変換ツール。2進数・8進数・10進数・16進数を相互変換。ビット演算・2の補数・カスタム基数対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "number-base-converter"
 ShowToc: false
 cover:

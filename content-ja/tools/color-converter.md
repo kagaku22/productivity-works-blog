@@ -3,6 +3,7 @@ title: "カラー変換ツール — HEX RGB HSL CMYK"
 date: 2025-05-16
 description: "HEX・RGB・HSL・HSV・CMYK間でカラーを即座に変換。カラーピッカー・シェード生成・補色検索。各フォーマットをワンクリックコピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "color-converter"
 ShowToc: false
 cover:

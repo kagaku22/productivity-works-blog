@@ -3,6 +3,7 @@ title: "Color Wheel Picker"
 date: 2025-05-16
 description: "Free online color wheel picker. Explore color harmonies — complementary, triadic, analogous, split-complementary — with real-time preview and CSS export."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-wheel-picker"
 ShowToc: false
 cover:

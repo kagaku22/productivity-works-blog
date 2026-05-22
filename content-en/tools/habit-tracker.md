@@ -3,6 +3,7 @@ title: "Habit Tracker"
 date: 2025-05-16
 description: "Free online habit tracker. Track daily habits with streaks, completion rates, and heatmap visualization — data saved locally, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "habit-tracker"
 ShowToc: false
 cover:

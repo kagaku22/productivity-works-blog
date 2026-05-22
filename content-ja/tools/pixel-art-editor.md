@@ -3,6 +3,7 @@ title: "ドット絵エディター"
 date: 2025-04-11
 description: "無料のドット絵エディター。カスタマイズ可能なグリッドでピクセルアートを作成。カラーパレット・塗りつぶし・PNG書き出し対応、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "pixel-art-editor"
 ShowToc: false
 cover:

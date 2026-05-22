@@ -3,6 +3,7 @@ title: "CSS変数ジェネレーター — デザイントークンビルダー"
 date: 2025-04-30
 description: "デザインシステム用CSSカスタムプロパティを生成。カラーパレット・タイポグラフィ・スペーシング等。ライブプレビュー＆:root変数をコピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "css-variables-generator"
 ShowToc: false
 cover:

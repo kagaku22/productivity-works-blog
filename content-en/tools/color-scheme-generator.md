@@ -3,6 +3,7 @@ title: "Color Scheme Generator — Free Online Tool"
 description: "Generate beautiful color schemes from any base color. Complementary, analogous, triadic, split-complementary, tetradic, and monochromatic harmonies. Copy HEX/RGB/HSL, export CSS variables, check contrast ratios."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-scheme-generator"
 ShowToc: false
 aliases:

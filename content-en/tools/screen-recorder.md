@@ -3,6 +3,7 @@ title: "Screen Recorder"
 date: 2025-05-16
 description: "Free online screen recorder. Record your screen, camera, or both using the browser's MediaRecorder API — download as WebM, no sign-up or install required."
 categories: ["Free Tools"]
+tags: ["Lifestyle", "Converter", "Free Tools"]
 slug: "screen-recorder"
 ShowToc: false
 cover:

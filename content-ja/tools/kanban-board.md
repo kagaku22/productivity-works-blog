@@ -3,6 +3,7 @@ title: "カンバンボード"
 date: 2025-05-05
 description: "無料のカンバンボード。やること・進行中・完了のカラムでタスクを管理。ドラッグ＆ドロップ対応、データはローカル保存、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["業務効率化", "生産性", "無料ツール"]
 slug: "kanban-board"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Meeting Cost Calculator"
 date: 2025-05-16
 description: "Free online meeting cost calculator. See the real-time cost of your meetings based on attendees and salaries — make every minute count."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "meeting-cost-calculator"
 ShowToc: false
 cover:

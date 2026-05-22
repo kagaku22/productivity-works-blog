@@ -3,6 +3,7 @@ title: "Grade Calculator - Weighted Average & Final Grade"
 description: "Calculate your GPA, weighted grades, and final exam scores needed. Free online grade and GPA calculator."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "grade-calculator"
 ShowToc: false
 cover:

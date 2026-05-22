@@ -3,6 +3,7 @@ title: "Markdown Table Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate Markdown tables instantly with this free online tool. Add/remove rows and columns, set column alignment, import CSV/TSV, and copy the result with one click."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "markdown-table-generator"
 aliases:
   - "/tools/markdown-table-generator/"

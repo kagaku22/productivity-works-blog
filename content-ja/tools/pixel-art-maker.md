@@ -4,6 +4,7 @@ description: "グリッドエディタでピクセルアートを作成、PNGで
 date: 2025-09-24
 slug: "pixel-art-maker"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/pixel-art-maker.png"

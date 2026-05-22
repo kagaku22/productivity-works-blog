@@ -3,6 +3,7 @@ title: "Pomodoro Timer"
 date: 2025-05-16
 description: "Free online Pomodoro timer. Boost your productivity with customizable work/break intervals, session tracking, and audio notifications — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "pomodoro-timer"
 ShowToc: false
 cover:

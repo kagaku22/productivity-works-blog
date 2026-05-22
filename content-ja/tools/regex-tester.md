@@ -3,6 +3,7 @@ title: "正規表現テスター｜リアルタイムマッチ確認＆置換テ
 date: 2025-05-22
 description: "無料の正規表現テスター。リアルタイムマッチハイライト、キャプチャグループ、フラグ設定でRegexを検証。登録不要、ブラウザで完結。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "regex-tester"
 ShowToc: false
 cover:

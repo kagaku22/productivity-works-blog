@@ -3,6 +3,7 @@ title: "貯金目標計算ツール｜目標金額までの期間・毎月の積
 date: 2025-05-01
 description: "無料の貯金目標計算ツール。複利シミュレーション・月額積立額・目標達成期間を計算。ビジュアル進捗表示付き。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "savings-goal-calculator"
 ShowToc: false
 cover:

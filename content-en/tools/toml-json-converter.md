@@ -3,6 +3,7 @@ title: "TOML/INI ↔ JSON Converter"
 date: 2025-05-16
 description: "Convert between TOML, INI, and JSON formats. Bidirectional conversion with syntax validation. Presets for Cargo.toml, pyproject.toml, and config files."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "toml-json-converter"
 ShowToc: false
 cover:

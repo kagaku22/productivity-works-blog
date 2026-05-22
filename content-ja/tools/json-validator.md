@@ -3,6 +3,7 @@ title: "JSONバリデーター＆フォーマッター"
 date: 2026-01-06
 description: "無料オンラインJSONバリデーター・フォーマッター。JSONの構文チェック（行番号・位置付きエラー）、整形（インデント設定可）、圧縮、ツリービュー、パス表示、コピー、ファイルアップロード対応。登録不要。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "json-validator"
 ShowToc: false
 aliases: ["/ja/tools/json-formatter/", "/ja/tools/json-validator/"]

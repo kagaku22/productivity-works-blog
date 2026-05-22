@@ -3,6 +3,7 @@ title: "CSS角丸ジェネレーター — 無料ビジュアルツール"
 date: 2025-06-24
 description: "ビジュアルコントロールでCSS border-radiusを生成。個別コーナー・楕円値・形状プリセット対応。CSSコードをワンクリックコピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "border-radius-generator"
 ShowToc: false
 aliases:

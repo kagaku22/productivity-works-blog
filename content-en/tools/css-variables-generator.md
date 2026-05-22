@@ -3,6 +3,7 @@ title: "CSS Variables Generator — Design Token Builder"
 date: 2025-05-16
 description: "Generate CSS custom properties for design systems. Build color palettes, typography scales, spacing, and more. Preview live and copy :root variables."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-variables-generator"
 ShowToc: false
 cover:

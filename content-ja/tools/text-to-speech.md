@@ -4,6 +4,7 @@ slug: "text-to-speech"
 date: 2025-09-10
 description: "無料のテキスト読み上げツール。ブラウザの音声合成APIでテキストを読み上げ。声・速度・ピッチ・言語を自由に設定。登録不要。"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/text-to-speech-ja.png"

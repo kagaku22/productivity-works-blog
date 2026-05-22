@@ -3,6 +3,7 @@ title: "Loan Comparison Calculator"
 date: 2025-05-16
 description: "Free loan comparison calculator. Compare up to 3 loans side by side with monthly payments, total interest, and amortization schedules."
 categories: ["Free Tools"]
+tags: ["Finance", "Money", "Free Tools"]
 slug: "loan-comparison"
 ShowToc: false
 cover:

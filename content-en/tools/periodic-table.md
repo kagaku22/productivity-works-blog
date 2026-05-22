@@ -4,6 +4,7 @@ description: "Free interactive periodic table of elements. Click any element to 
 date: 2025-05-16
 slug: periodic-table
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/periodic-table.png

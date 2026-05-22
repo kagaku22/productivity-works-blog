@@ -3,6 +3,7 @@ title: "メールアドレス検証ツール - メール形式チェッカー"
 date: 2025-08-28
 description: "メールアドレスの形式を無料でチェック。構文・ドメイン・よくあるタイプミスを検出。一括検証にも対応。"
 categories: ["無料ツール"]
+tags: ["業務効率化", "生産性", "無料ツール"]
 slug: "email-validator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "SQL to MongoDB Converter"
 date: 2025-05-16
 description: "Free SQL to MongoDB query converter. Convert SELECT, INSERT, UPDATE, DELETE SQL statements to MongoDB find(), insertOne(), updateOne(), deleteOne() syntax instantly."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "sql-to-mongodb"
 ShowToc: false
 cover:

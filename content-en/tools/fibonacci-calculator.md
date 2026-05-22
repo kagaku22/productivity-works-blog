@@ -3,6 +3,7 @@ title: "Fibonacci Calculator"
 date: 2025-05-16
 description: "Free Fibonacci calculator. Compute the Nth Fibonacci number up to N=1000 using BigInt, generate sequences, check Fibonacci membership, view golden ratio convergence, and visualize the spiral."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "fibonacci-calculator"
 ShowToc: false
 aliases: ["/tools/fibonacci-calculator/", "/tools/fibonacci-calculator/"]

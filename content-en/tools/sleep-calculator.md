@@ -3,6 +3,7 @@ title: "Sleep Cycle Calculator"
 date: 2025-05-16
 description: "Free sleep cycle calculator. Find the best bedtime or wake-up time based on 90-minute sleep cycles. Wake up feeling refreshed. Includes sleep quality tips."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "sleep-calculator"
 ShowToc: false
 cover:

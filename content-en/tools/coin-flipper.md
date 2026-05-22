@@ -4,6 +4,7 @@ description: "Free online coin flipper. Flip a virtual coin with realistic 3D an
 slug: coin-flipper
 date: 2026-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/coin-flipper.png

@@ -3,6 +3,7 @@ title: "JSON Path Finder — Tree Explorer"
 date: 2025-05-16
 description: "Explore JSON data with an interactive tree view. Click any node to get its JSONPath expression. Search, copy paths, and inspect values instantly."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "json-path-finder"
 ShowToc: false
 cover:

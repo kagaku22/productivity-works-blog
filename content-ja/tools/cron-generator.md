@@ -3,6 +3,7 @@ title: "Cron式ジェネレーター"
 date: 2025-09-21
 description: "無料のオンラインCron式ジェネレーター。ドロップダウンで視覚的にスケジュールを構築し、日本語で説明を確認。次回5回の実行時刻もすぐわかります。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "cron-generator"
 ShowToc: false
 cover:

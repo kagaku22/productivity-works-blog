@@ -3,6 +3,7 @@ title: "CSV Editor"
 slug: "csv-editor"
 description: "Free online CSV editor. Import, edit, sort, filter, and export CSV data in a spreadsheet-like table. RFC 4180 compliant. No uploads, no sign-up."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 date: 2025-05-16
 ShowToc: false
 cover:

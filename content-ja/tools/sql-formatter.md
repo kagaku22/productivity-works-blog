@@ -3,6 +3,7 @@ title: "SQLフォーマッター — 無料オンラインツール"
 description: "SQLクエリをブラウザ上で即座に整形・美化・ミニファイ。キーワード大文字化、サブクエリインデント、シンタックスハイライト対応。データはサーバーに送信されません。"
 date: 2026-01-25
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "sql-formatter"
 aliases: ["/ja/tools/sql-formatter/", "/ja/tools/sql-formatter/"]
 ShowToc: false

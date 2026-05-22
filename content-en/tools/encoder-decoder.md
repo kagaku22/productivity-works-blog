@@ -3,6 +3,7 @@ title: "Universal Encoder/Decoder — Multi-Format Tool"
 date: 2025-05-16
 description: "Encode and decode text in multiple formats: Base64, URL, HTML entities, hex, binary, Unicode, and more. Bidirectional conversion with auto-detection. Free, client-side only."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "encoder-decoder"
 ShowToc: false
 aliases:

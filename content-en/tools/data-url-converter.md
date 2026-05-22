@@ -3,6 +3,7 @@ title: "Data URL Converter"
 date: 2025-05-16
 description: "Free data URL converter. Convert files to data URIs (base64) and back. Supports images, fonts, SVGs, and any file type. Preview images, copy output, check file sizes."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "data-url-converter"
 ShowToc: false
 cover:

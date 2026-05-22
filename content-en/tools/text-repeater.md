@@ -4,6 +4,7 @@ description: "Repeat any text string multiple times with custom separators. Free
 date: 2025-05-16
 slug: "text-repeater"
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 aliases: ["/tools/text-repeater/", "/tools/text-repeater/"]
 cover:
   image: "/images/covers/text-repeater.png"

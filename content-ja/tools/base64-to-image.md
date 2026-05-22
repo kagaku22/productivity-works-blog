@@ -4,6 +4,7 @@ slug: "base64-to-image"
 date: 2025-04-18
 description: "無料のBase64→画像デコーダー。Base64文字列を貼り付けて画像をプレビュー・ダウンロード。登録不要。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/base64-to-image-ja.png"

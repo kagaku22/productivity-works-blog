@@ -3,6 +3,7 @@ title: "CSS Box Shadow Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate CSS box-shadow code instantly. Live preview, multiple shadows, presets, opacity control, inset toggle, and Tailwind equivalents. No signup, no external libs."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "box-shadow-generator"
 ShowToc: false
 aliases:

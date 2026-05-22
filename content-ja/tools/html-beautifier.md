@@ -3,6 +3,7 @@ title: "HTML整形・フォーマッター"
 date: 2025-05-13
 description: "無料のHTML整形ツール。インデント・フォーマット・圧縮を即座に実行。カスタムインデント・シンタックスハイライト対応。登録不要。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "html-beautifier"
 ShowToc: false
 cover:

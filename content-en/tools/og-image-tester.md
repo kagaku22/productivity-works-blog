@@ -3,6 +3,7 @@ title: "OG Image Tester"
 date: 2025-05-16
 description: "Free OG image preview tool. Paste your Open Graph meta tags and instantly preview how your page will look when shared on Twitter/X, Facebook, LinkedIn, and Discord. Check image dimensions, character counts, and copy HTML tags."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "og-image-tester"
 ShowToc: false
 aliases: ["/tools/og-preview/", "/tools/og-preview/"]

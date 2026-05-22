@@ -3,6 +3,7 @@ title: "所得税計算ツール - 税額シミュレーション"
 date: 2025-12-04
 description: "無料の所得税計算ツール。給与所得から所得税額を即座に計算。累進税率・控除額・実効税率を表示。確定申告の参考に。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "tax-calculator"
 ShowToc: false
 aliases:

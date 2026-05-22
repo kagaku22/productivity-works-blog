@@ -3,6 +3,7 @@ title: "Morse Code Translator"
 date: 2025-05-16
 description: "Free Morse code translator. Convert text to Morse code and back. Play audio, copy output, and see the full reference chart. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "morse-code"
 ShowToc: false
 cover:

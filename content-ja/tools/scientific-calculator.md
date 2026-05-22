@@ -4,6 +4,7 @@ description: "無料のオンライン関数電卓。三角関数・対数・指
 slug: scientific-calculator
 date: 2025-06-10
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/scientific-calculator-ja.png

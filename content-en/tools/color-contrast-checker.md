@@ -3,6 +3,7 @@ title: "Color Contrast Checker — WCAG Accessibility Tool"
 date: 2025-05-16
 description: "Check color contrast ratios for WCAG 2.1 compliance. Test AA and AAA levels with live preview, color blindness simulation, and accessible color suggestions."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-contrast-checker"
 ShowToc: false
 aliases:

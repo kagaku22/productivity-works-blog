@@ -3,6 +3,7 @@ title: "API Request Builder - Generate cURL, Fetch & Axios Code"
 date: 2025-05-16
 description: "Build API requests visually and generate code for cURL, JavaScript Fetch, Axios, Python requests, and more. No actual requests sent."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "api-request-builder"
 ShowToc: false
 cover:

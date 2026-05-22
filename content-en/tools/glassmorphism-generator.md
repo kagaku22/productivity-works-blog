@@ -3,6 +3,7 @@ title: "Glassmorphism Generator"
 date: 2025-05-16
 description: "Free CSS glassmorphism generator. Create frosted glass effects with backdrop-filter, transparency, and blur — copy the CSS code instantly."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "glassmorphism-generator"
 ShowToc: false
 cover:

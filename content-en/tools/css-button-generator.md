@@ -3,6 +3,7 @@ title: "CSS Button Generator — Free Visual Builder"
 date: 2025-05-16
 description: "Design CSS buttons with live preview. Customize colors, borders, shadows, hover effects, and transitions. Presets for primary, outline, gradient, and 3D buttons."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-button-generator"
 ShowToc: false
 cover:

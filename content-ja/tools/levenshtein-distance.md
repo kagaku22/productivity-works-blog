@@ -3,6 +3,7 @@ title: "レーベンシュタイン距離計算ツール"
 date: 2025-07-28
 description: "無料の編集距離（レーベンシュタイン距離）計算ツール。2つの文字列間の編集距離を計算。挿入・削除・置換の操作をステップバイステップで表示。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "levenshtein-distance"
 ShowToc: false
 cover:

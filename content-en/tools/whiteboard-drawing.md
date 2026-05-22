@@ -3,6 +3,7 @@ title: "Whiteboard Drawing Tool"
 date: 2025-05-16
 description: "Free online whiteboard drawing tool. Sketch, draw, and annotate with pen, shapes, and text — download as PNG, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "whiteboard-drawing"
 ShowToc: false
 cover:

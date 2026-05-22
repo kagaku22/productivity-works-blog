@@ -3,6 +3,7 @@ title: "Changelog Generator — Release Notes Tool"
 date: 2025-05-16
 description: "Generate changelogs and release notes in Keep a Changelog format. Add entries by category, preview in markdown, and copy or download. Free, no sign-up."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Documentation", "Free Tools"]
 slug: "changelog-generator"
 ShowToc: false
 aliases:

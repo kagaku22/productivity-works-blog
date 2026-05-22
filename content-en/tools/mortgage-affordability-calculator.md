@@ -3,6 +3,7 @@ title: "Mortgage Affordability Calculator - How Much House Can You Afford?"
 description: "Find out how much house you can afford based on income, debts, and down payment. Free mortgage affordability calculator."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "mortgage-affordability-calculator"
 ShowToc: false
 cover:

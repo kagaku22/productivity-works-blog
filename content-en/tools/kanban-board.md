@@ -3,6 +3,7 @@ title: "Kanban Board"
 date: 2025-05-16
 description: "Free online Kanban board. Organize tasks in To Do, In Progress, and Done columns with drag-and-drop — data saved locally, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 slug: "kanban-board"
 ShowToc: false
 cover:

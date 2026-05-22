@@ -3,6 +3,7 @@ title: "CSS Clip-Path Maker"
 date: 2025-05-16
 description: "Free visual CSS clip-path generator. Create custom shapes with draggable points, choose from presets, and copy the CSS code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-clip-path"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Split Bill Calculator"
 date: 2025-05-16
 description: "Free online split bill calculator. Split restaurant bills, shared expenses, and group costs fairly — with tip calculation and unequal splits."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "split-bill-calculator"
 ShowToc: false
 cover:

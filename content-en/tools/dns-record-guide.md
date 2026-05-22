@@ -3,6 +3,7 @@ title: "DNS Record Guide — Configuration Helper"
 date: 2025-05-16
 description: "Complete DNS record type reference with configuration examples. Generate DNS settings for GitHub Pages, Vercel, Google Workspace, and more. Copy records instantly."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "dns-record-guide"
 ShowToc: false
 cover:

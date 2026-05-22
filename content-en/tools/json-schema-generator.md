@@ -3,6 +3,7 @@ title: "JSON Schema Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate JSON Schema from sample JSON data. Auto-detect types, nested objects, and arrays. Edit properties, set required fields, and validate. Draft-07 and 2020-12 support."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "json-schema-generator"
 ShowToc: false
 aliases:

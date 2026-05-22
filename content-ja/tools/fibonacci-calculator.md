@@ -3,6 +3,7 @@ title: "フィボナッチ数列計算ツール"
 date: 2025-07-21
 description: "無料フィボナッチ数列計算ツール。BigIntでN=1000まで正確に計算。数列生成・フィボナッチ判定・黄金比収束・螺旋ビジュアライズ対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "fibonacci-calculator"
 ShowToc: false
 aliases: ["/ja/tools/fibonacci-calculator/", "/ja/tools/fibonacci-calculator/"]

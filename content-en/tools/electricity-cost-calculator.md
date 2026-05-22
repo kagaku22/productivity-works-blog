@@ -3,6 +3,7 @@ title: "Electricity Cost Calculator - Estimate Your Power Bill"
 date: 2025-05-16
 description: "Free online electricity cost calculator. Add your appliances, set your rate, and instantly see monthly and yearly power bills with a visual cost breakdown chart."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "electricity-cost-calculator"
 ShowToc: false
 cover:

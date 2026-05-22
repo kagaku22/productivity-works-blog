@@ -3,6 +3,7 @@ title: "Unicode Character Map"
 date: 2025-05-16
 description: "Browse and copy Unicode characters by category. Find arrows, math symbols, currency signs, Greek letters, box-drawing characters, and more. Instantly copy any character with its code point, HTML entity, CSS content, and UTF-8 hex."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "character-map"
 ShowToc: false
 cover:

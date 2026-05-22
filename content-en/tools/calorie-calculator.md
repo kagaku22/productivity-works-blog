@@ -3,6 +3,7 @@ title: "Calorie Calculator"
 date: 2025-05-16
 description: "Free online calorie calculator. Estimate your daily caloric needs based on age, weight, height, and activity level — with macro breakdown and weight goal planning."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "calorie-calculator"
 ShowToc: false
 cover:

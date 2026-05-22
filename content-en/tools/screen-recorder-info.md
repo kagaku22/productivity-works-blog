@@ -3,6 +3,7 @@ title: "Screen Info & Display Tester"
 date: 2025-05-16
 description: "Free screen info and display tester. Check screen resolution, viewport, device pixel ratio, color depth, orientation, refresh rate, touch support, browser and OS info. Run color bar, grayscale, and dead pixel tests."
 categories: ["Free Tools"]
+tags: ["Lifestyle", "Converter", "Free Tools"]
 slug: "screen-recorder-info"
 ShowToc: false
 aliases: ["/tools/viewport-tester/", "/tools/screen-resolution/"]

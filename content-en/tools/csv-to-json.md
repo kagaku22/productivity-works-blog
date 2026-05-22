@@ -4,6 +4,7 @@ slug: "csv-to-json"
 date: 2025-05-16
 description: "Free CSV to JSON converter. Parse CSV data into JSON arrays or objects with custom delimiters, header detection, and type inference — all in your browser."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/csv-to-json.png

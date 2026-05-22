@@ -3,6 +3,7 @@ title: "Cron Expression Generator"
 date: 2025-05-16
 description: "Free online cron expression generator. Build cron schedules visually, get human-readable descriptions, and preview the next 5 execution times — no signup required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "cron-generator"
 ShowToc: false
 cover:

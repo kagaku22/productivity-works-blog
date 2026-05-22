@@ -3,6 +3,7 @@ title: "CSS Text Gradient Generator — Free Tool"
 date: 2025-05-16
 description: "Create beautiful CSS text gradients with live preview. Multiple color stops, angle control, and presets. Copy background-clip CSS code with one click."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "text-gradient-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "SQL→MongoDB変換ツール"
 date: 2026-01-22
 description: "無料のSQL→MongoDB変換ツール。SELECT、INSERT、UPDATE、DELETE文をMongoDBのfind()、insertOne()、updateOne()、deleteOne()構文に即座に変換。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "sql-to-mongodb"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Sleep Debt Calculator - Track Your Sleep Deficit"
 date: 2025-05-16
 description: "Calculate your accumulated sleep debt. Enter your weekly sleep hours and find out how much sleep you're missing. Recovery plan included."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "sleep-debt-calculator"
 ShowToc: false
 cover:

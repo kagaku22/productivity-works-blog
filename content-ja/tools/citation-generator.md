@@ -4,6 +4,7 @@ description: "無料の引用文献作成ツール。APA・MLA・Chicago・Harva
 slug: citation-generator
 date: 2025-08-04
 categories: ["無料ツール"]
+tags: ["開発ツール", "ドキュメント", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/citation-generator-ja.png

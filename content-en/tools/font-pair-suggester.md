@@ -3,6 +3,7 @@ title: "Font Pair Suggester — Typography Tool"
 date: 2025-05-16
 description: "Find beautiful font pairings with live preview. Curated heading and body font combinations. Adjust sizes, spacing, and colors. Copy CSS font stacks instantly."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "font-pair-suggester"
 ShowToc: false
 cover:

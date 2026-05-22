@@ -3,6 +3,7 @@ title: "割り勘計算ツール"
 date: 2025-04-29
 description: "無料の割り勘計算ツール。飲み会・食事の会計を人数で均等割り・傾斜配分。端数処理・幹事負担調整にも対応、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "split-bill-calculator"
 ShowToc: false
 cover:

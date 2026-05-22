@@ -4,6 +4,7 @@ description: "Free online scientific calculator. Supports trigonometry, logarith
 slug: scientific-calculator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/scientific-calculator.png

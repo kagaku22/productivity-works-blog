@@ -4,6 +4,7 @@ description: "Generate SEO-optimized meta tags for your website including title,
 date: 2025-05-16
 slug: "meta-tag-generator"
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/meta-tag-generator/"

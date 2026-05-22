@@ -3,6 +3,7 @@ title: "ホワイトノイズジェネレーター"
 date: 2026-01-04
 description: "無料のホワイトノイズ生成ツール。ホワイト・ピンク・ブラウンノイズ＆雨音で集中・リラックス・睡眠をサポート。Web Audio API搭載、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "noise-generator"
 ShowToc: false
 cover:

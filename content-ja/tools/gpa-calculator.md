@@ -4,6 +4,7 @@ description: "無料のGPA計算ツール。科目名・単位数・成績を入
 slug: gpa-calculator
 date: 2025-06-26
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/gpa-calculator-ja.png

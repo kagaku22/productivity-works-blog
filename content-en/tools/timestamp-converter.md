@@ -3,6 +3,7 @@ title: "Unix Timestamp Converter — Epoch Time Tool"
 date: 2025-05-16
 description: "Convert Unix timestamps to human-readable dates and vice versa. Live clock, multiple formats, milliseconds support, and timezone selection. Free, no sign-up."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "timestamp-converter"
 ShowToc: false
 aliases:

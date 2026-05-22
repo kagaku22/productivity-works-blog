@@ -3,6 +3,7 @@ title: "Page Size Analyzer - Estimate Load Time"
 date: 2025-05-16
 description: "Analyze your web page size and estimate load times across different connection speeds. Get a performance score and actionable optimization recommendations instantly."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "page-size-analyzer"
 ShowToc: false
 cover:

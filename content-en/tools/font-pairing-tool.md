@@ -3,6 +3,7 @@ title: "Font Pairing Tool — Find Perfect Heading & Body Font Combinations"
 date: 2025-05-16
 description: "Explore 12 curated font pairings using system fonts. Live preview with customizable text, size, line height, letter spacing, and color. Copy CSS instantly. No external dependencies."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "font-pairing-tool"
 ShowToc: false
 aliases:

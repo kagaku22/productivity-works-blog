@@ -3,6 +3,7 @@ title: "出産予定日計算ツール - 赤ちゃんの予定日を計算"
 date: 2025-10-18
 description: "最終月経日または受精日から出産予定日を計算。妊娠週数・トリメスター・重要な健診スケジュールも一目でわかります。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "pregnancy-due-date-calculator"
 ShowToc: false
 cover:

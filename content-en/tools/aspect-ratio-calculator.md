@@ -3,6 +3,7 @@ title: "Aspect Ratio Calculator"
 date: 2025-05-16
 description: "Free online aspect ratio calculator. Convert between dimensions, lock ratios, and get pixel-perfect resolutions for video, images, and responsive design."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "aspect-ratio-calculator"
 ShowToc: false
 cover:

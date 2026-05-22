@@ -3,6 +3,7 @@ title: "Text Case Converter"
 date: 2025-05-16
 description: "Free online text case converter. Transform text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case, and more — instantly."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "text-case-converter"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "読了時間推定ツール"
 date: 2025-12-02
 description: "無料の読了時間推定ツール。記事を貼り付けると、読了時間・話す時間・文字数・単語数を即座に推定。読む速度の調整も可能。"
 categories: ["無料ツール"]
+tags: ["日付・時間", "計算ツール", "無料ツール"]
 slug: "reading-time-estimator"
 ShowToc: false
 cover:

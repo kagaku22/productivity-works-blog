@@ -3,6 +3,7 @@ title: "QR Code Generator"
 date: 2025-05-16
 description: "Free online QR code generator. Create QR codes for URLs, text, WiFi, email, and phone — download as PNG or SVG instantly, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "qr-code-generator"
 ShowToc: false
 cover:

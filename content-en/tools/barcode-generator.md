@@ -4,6 +4,7 @@ description: "Free online barcode generator. Create Code 128, Code 39, EAN-13, U
 slug: barcode-generator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/barcode-generator.png

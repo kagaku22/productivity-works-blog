@@ -3,6 +3,7 @@ title: "Color Palette Generator — Free Online Tool"
 description: "Generate beautiful 5-color palettes from any base color using color theory. Complementary, analogous, triadic, and more harmony modes. Copy HEX/RGB, export CSS variables, lock colors."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-palette-generator"
 ShowToc: false
 aliases:

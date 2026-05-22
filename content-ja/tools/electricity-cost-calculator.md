@@ -3,6 +3,7 @@ title: "電気代計算シミュレーター - 家電ごとの電気代を簡単
 date: 2025-04-23
 description: "家電ごとの消費電力・使用時間を入力するだけで月々の電気代を自動計算。円グラフで内訳も一目瞭然。エアコン・冷蔵庫・テレビなどのプリセット付き無料ツール。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "electricity-cost-calculator"
 ShowToc: false
 cover:

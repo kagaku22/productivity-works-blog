@@ -3,6 +3,7 @@ title: "Password Generator"
 date: 2025-05-16
 description: "Free secure password generator. Create strong, random passwords with customizable length, character types, and strength indicator — all processed in your browser."
 categories: ["Free Tools"]
+tags: ["Generator", "Random", "Free Tools"]
 slug: "password-generator"
 ShowToc: false
 cover:

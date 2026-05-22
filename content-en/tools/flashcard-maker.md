@@ -3,6 +3,7 @@ title: "Flashcard Maker"
 date: 2025-05-16
 description: "Free online flashcard maker. Create, study, and review flashcards with spaced repetition — supports import/export, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "flashcard-maker"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "ポモドーロタイマー｜25分集中+5分休憩で生産性UP【無
 date: 2025-11-22
 description: "無料のポモドーロタイマー。作業・休憩のインターバルをカスタマイズして集中力をアップ。セッション管理・音声通知付き、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["日付・時間", "計算ツール", "無料ツール"]
 slug: "pomodoro-timer"
 ShowToc: false
 cover:

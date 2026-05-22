@@ -3,6 +3,7 @@ title: "URL Slug Generator"
 date: 2025-05-16
 description: "Free URL slug generator. Convert any text to a clean, URL-safe slug instantly. Supports separator choice, max length, stop word removal, accented character transliteration, and bulk mode."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "slug-generator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "RGB ↔ HEX Color Converter — Free Online Tool"
 description: "Convert RGB to HEX, HEX to RGB, and HSL instantly. Includes color picker, live sliders, large preview swatch, one-click copy for CSS values, and color history with localStorage."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "rgb-hex-converter"
 ShowToc: false
 aliases:

@@ -4,6 +4,7 @@ description: "カテゴリ別の内訳と費用見積もりで結婚式の予算
 date: 2025-10-19
 slug: "wedding-budget-calculator"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 ShowToc: false
 cover:
   image: "/images/covers/wedding-budget-calculator.png"

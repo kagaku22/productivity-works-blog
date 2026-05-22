@@ -3,6 +3,7 @@ title: "Favicon Generator — Free Online Tool"
 date: 2025-05-16
 description: "Create favicons from text, shapes, emoji, or uploaded images. Download as PNG in 16x16 and 32x32 sizes instantly — no signup required."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "favicon-generator"
 ShowToc: false
 aliases:

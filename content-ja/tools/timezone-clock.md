@@ -3,6 +3,7 @@ title: "タイムゾーン時計"
 date: 2025-07-22
 description: "無料のワールドクロックダッシュボード。複数タイムゾーンのリアルタイム時計を表示。都市の追加・削除、時差表示、昼夜インジケーター、12/24時間切り替え対応。"
 categories: ["無料ツール"]
+tags: ["日付・時間", "計算ツール", "無料ツール"]
 slug: "timezone-clock"
 ShowToc: false
 aliases: ["/ja/tools/world-clock/"]

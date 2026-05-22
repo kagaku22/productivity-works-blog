@@ -3,6 +3,7 @@ title: "習慣トラッカー"
 date: 2025-07-10
 description: "無料の習慣トラッカー。毎日の習慣を記録・連続記録・達成率・ヒートマップで可視化。データはローカル保存、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "habit-tracker"
 ShowToc: false
 cover:

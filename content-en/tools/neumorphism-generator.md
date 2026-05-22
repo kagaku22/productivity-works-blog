@@ -3,6 +3,7 @@ title: "Neumorphism Generator"
 date: 2025-05-16
 description: "Free CSS neumorphism generator. Create soft UI shadow effects with customizable size, intensity, blur, and shape — copy CSS code instantly."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "neumorphism-generator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Font Size Converter - px, rem, em, pt, %"
 date: 2025-05-16
 description: "Free font size converter. Convert between px, rem, em, pt, %, and vw units instantly. Set custom base font size. Visual preview with live text sample."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "font-size-converter"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "SVG Path Editor — Free Visual Tool"
 date: 2025-05-16
 description: "Free online SVG path editor and viewer. Paste path data for instant preview, use shape presets, customize stroke and fill, and copy optimized SVG code."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "svg-path-editor"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "CSS Specificity Calculator"
 date: 2025-05-16
 description: "Free CSS specificity calculator. Enter any CSS selector to see its specificity score. Compare multiple selectors, visualize specificity with bar chart. Learn CSS cascade rules."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-specificity-calculator"
 ShowToc: false
 cover:

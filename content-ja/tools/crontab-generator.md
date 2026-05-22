@@ -3,6 +3,7 @@ title: "Crontab生成ツール"
 date: 2026-01-12
 description: "無料のCrontab生成ツール。ドロップダウンでcron式をビジュアル作成。プリセット・人間語での説明・次回5回の実行時刻・コピー・既存cron式の検証まで対応。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "crontab-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "Fake Data Generator - Mock API Data"
 date: 2025-05-16
 description: "Free fake data generator. Generate realistic mock data for testing: names, emails, addresses, phone numbers, dates, UUIDs. Export as JSON, CSV, or SQL INSERT statements."
 categories: ["Free Tools"]
+tags: ["Generator", "Random", "Free Tools"]
 slug: "fake-data-generator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Weather Unit Converter"
 date: 2025-05-16
 description: "Free online weather unit converter. Convert temperature (°C, °F, K), wind speed (m/s, km/h, mph, knots), pressure (hPa, mmHg, inHg, atm, psi), precipitation (mm, in), and visibility (km, miles) in real time with formula display."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "weather-unit-converter"
 ShowToc: false
 aliases: ["/tools/weather-unit-converter/", "/tools/weather-unit-converter/"]

@@ -3,6 +3,7 @@ title: "SVGパスエディター — 無料ビジュアルツール"
 date: 2025-08-05
 description: "無料オンラインSVGパスエディター＆ビューアー。パスデータを貼り付けて即座にプレビュー、図形プリセット、ストローク・塗りのカスタマイズ、最適化SVGコードのコピー。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "svg-path-editor"
 ShowToc: false
 aliases:

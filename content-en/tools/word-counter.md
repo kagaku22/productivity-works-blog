@@ -3,6 +3,7 @@ title: "Word Counter & Text Statistics"
 date: 2025-05-16
 description: "Free online word counter with reading time, keyword density, readability score, and detailed text statistics. Paste text and get instant analysis."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "word-counter"
 ShowToc: false
 cover:

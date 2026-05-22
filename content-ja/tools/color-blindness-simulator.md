@@ -3,6 +3,7 @@ title: "色覚シミュレーター"
 date: 2025-09-29
 description: "無料の色覚シミュレーター。プロタノピア・デュータノピア・トリタノピアなど8種類の色覚特性で色がどう見えるかを確認。アクセシビリティ対策に。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "color-blindness-simulator"
 ShowToc: false
 cover:

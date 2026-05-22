@@ -3,6 +3,7 @@ title: "テキスト差分比較ツール"
 date: 2025-08-21
 description: "無料のテキスト差分チェッカー。2つのテキストを並べて比較し、追加・削除・変更箇所をハイライト表示。登録不要、ブラウザで完結。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "text-diff-checker"
 ShowToc: false
 cover:

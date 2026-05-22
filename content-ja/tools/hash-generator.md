@@ -3,6 +3,7 @@ title: "ハッシュ生成ツール"
 date: 2025-05-04
 description: "無料のハッシュジェネレーター。テキストやファイルからMD5・SHA-1・SHA-256・SHA-512ハッシュをブラウザで即生成。登録不要・完全クライアントサイド処理。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "hash-generator"
 ShowToc: false
 cover:

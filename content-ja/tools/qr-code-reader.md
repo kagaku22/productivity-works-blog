@@ -3,6 +3,7 @@ title: "QRコード生成ツール"
 date: 2025-07-06
 description: "無料のQRコード生成ツール。テキストやURLからスキャン可能なQRコードを作成。サイズ・色カスタマイズ、PNGダウンロード対応。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "qr-code-generator"
 ShowToc: false
 cover:

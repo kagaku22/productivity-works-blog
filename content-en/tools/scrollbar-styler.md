@@ -3,6 +3,7 @@ title: "CSS Scrollbar Styler"
 date: 2025-05-16
 description: "Free CSS scrollbar generator. Customize scrollbar width, colors, border-radius, and hover effects with live preview — copy WebKit and Firefox CSS."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "scrollbar-styler"
 ShowToc: false
 cover:

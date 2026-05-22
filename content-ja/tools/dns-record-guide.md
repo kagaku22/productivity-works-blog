@@ -3,6 +3,7 @@ title: "DNSレコードガイド — 設定ヘルパー"
 date: 2025-11-08
 description: "DNSレコードタイプ完全リファレンス＆設定例。GitHub Pages・Vercel・Google Workspace等のDNS設定を生成。レコードを即コピー。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "プログラミング", "無料ツール"]
 slug: "dns-record-guide"
 ShowToc: false
 cover:

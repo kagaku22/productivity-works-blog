@@ -3,6 +3,7 @@ title: "フォントペアサジェスター — タイポグラフィツール"
 date: 2025-07-14
 description: "ライブプレビューで美しいフォントペアリングを発見。見出し・本文フォントの組み合わせ提案。サイズ・行間・色を調整。CSSフォントスタックを即コピー。"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 slug: "font-pair-suggester"
 ShowToc: false
 cover:

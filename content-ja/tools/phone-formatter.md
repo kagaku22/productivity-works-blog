@@ -3,6 +3,7 @@ title: "電話番号フォーマッター - 電話番号の書式変換＆検証
 date: 2025-11-29
 description: "電話番号を国際形式・国内形式・E.164形式に変換。各国の電話番号を検証し、一括フォーマットにも対応。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "phone-formatter"
 ShowToc: false
 cover:

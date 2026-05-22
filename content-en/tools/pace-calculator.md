@@ -3,6 +3,7 @@ title: "Pace Calculator - Running & Cycling"
 date: 2025-05-16
 description: "Free pace calculator for runners and cyclists. Calculate pace, speed, distance, or time. Convert between min/km, min/mile, km/h, and mph. Race time predictions included."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: pace-calculator
 ShowToc: false
 cover:

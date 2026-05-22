@@ -3,6 +3,7 @@ title: "Email Validator - Check Email Address Format"
 date: 2025-05-16
 description: "Validate email addresses for correct format. Check syntax, domain structure, and common typos. Bulk validation support."
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 slug: "email-validator"
 ShowToc: false
 cover:

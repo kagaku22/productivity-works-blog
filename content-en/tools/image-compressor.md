@@ -3,6 +3,7 @@ title: "Image Compressor"
 date: 2025-05-16
 description: "Free online image compressor. Reduce image file size while maintaining quality. Supports JPEG and PNG. Adjust quality, see before/after comparison."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "image-compressor"
 ShowToc: false
 cover:

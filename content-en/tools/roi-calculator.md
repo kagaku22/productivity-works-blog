@@ -3,6 +3,7 @@ title: "ROI Calculator"
 date: 2025-05-16
 description: "Free online ROI calculator. Calculate return on investment, annualized ROI, and break-even point for any investment — with visual charts, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "roi-calculator"
 ShowToc: false
 cover:

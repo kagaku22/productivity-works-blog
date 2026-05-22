@@ -3,6 +3,7 @@ title: "CSS Clip-Pathジェネレーター — シェイプビルダー"
 date: 2025-07-08
 description: "CSSクリップパスをビジュアルで作成。プリセット図形・カスタムポリゴン・インタラクティブなポイント編集。CSSコードをワンクリックコピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "clip-path-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "Byte Converter — Data Size Calculator"
 date: 2025-05-16
 description: "Convert between bytes, KB, MB, GB, TB and more. Binary and decimal units. Calculate download times from file size and bandwidth."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "byte-converter"
 ShowToc: false
 cover:

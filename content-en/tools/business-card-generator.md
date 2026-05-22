@@ -4,6 +4,7 @@ description: "Free online business card generator. Design professional business 
 slug: business-card-generator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/business-card-generator.png

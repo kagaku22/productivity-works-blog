@@ -3,6 +3,7 @@ title: "IBAN検証ツール - 国際銀行口座番号チェッカー"
 date: 2025-11-18
 description: "IBANの形式とチェックサムを無料で検証。全国対応。銀行コード・支店コード・口座番号を抽出。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "iban-validator"
 ShowToc: false
 cover:

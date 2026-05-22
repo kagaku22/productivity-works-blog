@@ -3,6 +3,7 @@ title: "HTTP Header Analyzer"
 date: 2025-05-16
 description: "Free HTTP header reference and builder. Browse 50+ HTTP headers with explanations, build custom header sets, and generate configuration snippets for Apache and Nginx."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "http-header-analyzer"
 ShowToc: false
 cover:

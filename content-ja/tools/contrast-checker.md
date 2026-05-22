@@ -3,6 +3,7 @@ title: "カラーコントラストチェッカー"
 slug: "contrast-checker"
 description: "無料のWCAGカラーコントラストチェッカー。前景・背景色の組み合わせでアクセシビリティ準拠を確認。AA・AAAレベル対応。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 date: 2026-01-11
 ShowToc: false
 cover:

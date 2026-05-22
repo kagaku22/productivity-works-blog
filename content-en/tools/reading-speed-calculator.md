@@ -3,6 +3,7 @@ title: "Reading Speed Calculator"
 date: 2025-05-16
 description: "Free online reading speed test and calculator. Measure your WPM, estimate reading time for books and articles, and track your comprehension — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "reading-speed-calculator"
 ShowToc: false
 cover:

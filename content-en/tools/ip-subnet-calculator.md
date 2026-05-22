@@ -3,6 +3,7 @@ title: "IP Subnet Calculator"
 date: 2025-05-16
 description: "Free online IP subnet calculator. Calculate network address, broadcast, host range, and wildcard mask from any IPv4 address and CIDR notation."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "ip-subnet-calculator"
 ShowToc: false
 cover:

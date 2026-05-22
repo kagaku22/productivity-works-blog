@@ -3,6 +3,7 @@ title: "CSS Filter Generator — Image Effects Tool"
 date: 2025-05-16
 description: "Create CSS filter effects with live preview. Adjust blur, brightness, contrast, and more. Presets for vintage, noir, and dramatic effects. Copy CSS filter code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-filter-generator"
 ShowToc: false
 aliases:

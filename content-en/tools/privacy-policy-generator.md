@@ -3,6 +3,7 @@ title: "Privacy Policy Generator — Free Template Tool"
 date: 2025-05-16
 description: "Generate a free privacy policy for your website. GDPR and CCPA compliant templates with options for cookies, analytics, and third-party services. Copy or download instantly."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "privacy-policy-generator"
 ShowToc: false
 aliases:

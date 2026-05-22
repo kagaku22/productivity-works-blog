@@ -3,6 +3,7 @@ title: "CSS Grid Generator — Visual Layout Builder"
 date: 2025-05-16
 description: "Free visual CSS Grid generator. Build grid layouts with drag controls, merge cells, set areas, and copy generated CSS. Presets for dashboards, galleries, and more."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-grid-generator"
 ShowToc: false
 aliases:

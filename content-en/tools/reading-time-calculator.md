@@ -3,6 +3,7 @@ title: "Reading Time Calculator"
 date: 2025-05-16
 description: "Calculate how long it takes to read any text. Paste your content, adjust reading speed, and get instant reading time, word count, sentence count, and readability scores."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "reading-time-calculator"
 aliases: ["/tools/reading-speed-calculator/", "/tools/reading-speed-calculator/"]
 ShowToc: false

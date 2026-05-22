@@ -4,6 +4,7 @@ description: "Free online resume builder. Create a professional CV with customiz
 slug: resume-builder
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/resume-builder.png

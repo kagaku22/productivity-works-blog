@@ -4,6 +4,7 @@ description: "無料のバーコード作成ツール。Code 128・Code 39・EAN
 slug: barcode-generator
 date: 2025-07-23
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/barcode-generator-ja.png

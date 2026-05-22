@@ -3,6 +3,7 @@ title: "CSSボックスシャドウ ジェネレーター — 無料オンライ
 date: 2025-08-31
 description: "CSSのbox-shadowコードを即座に生成。リアルタイムプレビュー、複数シャドウ、プリセット、透明度、内側影、Tailwind対応。登録不要・完全無料。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "box-shadow-generator"
 ShowToc: false
 aliases:

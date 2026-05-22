@@ -3,6 +3,7 @@ title: "SVGアイコン作成ツール - カスタムSVGアイコンを簡単作
 date: 2025-07-13
 description: "ブラウザだけで使えるSVGアイコン作成ツール。24×24グリッドで円・四角・線・パスを自由に描き、SVGコードを即エクスポート。無料・インストール不要。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "svg-icon-maker"
 ShowToc: false
 cover:

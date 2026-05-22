@@ -3,6 +3,7 @@ title: "ペース計算ツール"
 date: 2025-10-15
 description: "無料のランニング・サイクリングペース計算ツール。ペース・速度・距離・時間を相互変換。min/km・km/h・マラソンタイム予測対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: pace-calculator
 ShowToc: false
 cover:

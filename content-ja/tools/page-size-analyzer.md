@@ -3,6 +3,7 @@ title: "ページサイズ分析ツール - 読み込み時間を推定"
 date: 2025-10-29
 description: "Webページの各アセットサイズを入力するだけで、接続速度別の推定読み込み時間・パフォーマンススコア・最適化アドバイスを瞬時に表示します。"
 categories: ["無料ツール"]
+tags: ["日付・時間", "計算ツール", "無料ツール"]
 slug: "page-size-analyzer"
 ShowToc: false
 cover:

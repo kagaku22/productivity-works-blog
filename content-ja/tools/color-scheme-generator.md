@@ -3,6 +3,7 @@ title: "配色ジェネレーター"
 description: "ベースカラーから補色・類似色・トライアド・スプリット補色・テトラード・モノクロマティックの配色を自動生成。HEX・RGB・HSL値をコピー、CSSカスタムプロパティ出力、WCAGコントラスト比チェックに対応。"
 date: 2025-12-27
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "color-scheme-generator"
 ShowToc: false
 aliases:

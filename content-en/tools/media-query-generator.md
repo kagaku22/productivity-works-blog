@@ -3,6 +3,7 @@ title: "CSS Media Query Generator — Responsive Builder"
 date: 2025-05-16
 description: "Generate CSS media queries visually. Device presets, breakpoint builder, and live viewport matching. Mobile-first and desktop-first approaches. Copy @media code instantly."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "media-query-generator"
 ShowToc: false
 cover:

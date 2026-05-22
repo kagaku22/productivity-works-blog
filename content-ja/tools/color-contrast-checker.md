@@ -3,6 +3,7 @@ title: "カラーコントラストチェッカー — WCAGアクセシビリテ
 date: 2025-11-05
 description: "WCAG 2.1準拠のカラーコントラスト比チェック。AA・AAAレベルをライブプレビューで判定。色覚シミュレーション・アクセシブルな色提案機能付き。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "color-contrast-checker"
 ShowToc: false
 aliases:

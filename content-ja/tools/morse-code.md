@@ -3,6 +3,7 @@ title: "モールス信号変換ツール"
 date: 2025-10-21
 description: "無料のモールス信号変換ツール。テキスト↔モールス符号の双方向変換。音声再生・コピー・一覧表付き。登録不要。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "morse-code"
 ShowToc: false
 cover:

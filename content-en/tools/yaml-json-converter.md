@@ -3,6 +3,7 @@ title: "YAML ↔ JSON Converter — Free Online Tool"
 description: "Convert YAML to JSON and JSON to YAML instantly in your browser. Auto-detect format, validate input, control indentation. No external libraries, no server upload."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "yaml-json-converter"
 ShowToc: false
 aliases:

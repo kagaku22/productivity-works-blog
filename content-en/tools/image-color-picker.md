@@ -4,6 +4,7 @@ slug: "image-color-picker"
 date: 2025-05-16
 description: "Free image color picker. Upload any image and click to extract colors in HEX, RGB, and HSL. Build a palette from your photos — no sign-up required."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/image-color-picker.png

@@ -3,6 +3,7 @@ title: "成績計算ツール - 加重平均＆最終成績計算"
 description: "GPA・加重平均・期末試験に必要な点数を計算。無料オンライン成績計算ツール。"
 date: 2025-05-17
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "grade-calculator"
 ShowToc: false
 cover:

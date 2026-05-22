@@ -3,6 +3,7 @@ title: "日数計算ツール - あと何日？日付カウントダウン"
 date: 2025-10-22
 description: "あと何日か瞬時に計算。2つの日付の間の日数、営業日数、週数も計算できる無料ツール。祝日・GW・お盆などの参考情報付き。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "days-until-calculator"
 ShowToc: false
 cover:

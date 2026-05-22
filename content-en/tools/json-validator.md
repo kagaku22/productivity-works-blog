@@ -3,6 +3,7 @@ title: "JSON Validator & Formatter"
 date: 2025-05-16
 description: "Free online JSON validator and formatter. Validate JSON syntax with line/position error messages, prettify with configurable indent, minify, explore the tree view, and copy output — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "json-validator"
 ShowToc: false
 aliases: ["/tools/json-formatter/", "/tools/json-formatter/"]

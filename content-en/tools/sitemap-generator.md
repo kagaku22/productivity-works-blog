@@ -3,6 +3,7 @@ title: "Sitemap XML Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate XML sitemaps instantly. Add URLs with priority, change frequency, and last modified dates. Download or copy valid sitemap.xml for better SEO."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "sitemap-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "URLスラッグ生成ツール"
 date: 2025-07-25
 description: "無料のURLスラッグ生成ツール。テキストをURL安全なスラッグにリアルタイム変換。区切り文字・最大文字数・ストップワード除去・アクセント文字変換・一括変換に対応。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "slug-generator"
 ShowToc: false
 cover:

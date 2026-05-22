@@ -3,6 +3,7 @@ title: "手取り計算ツール - 額面から手取りを即計算"
 date: 2025-05-10
 description: "無料の手取り計算ツール。額面年収から所得税・住民税・社会保険料を差し引いた手取り額を即座に計算。月額・年額・ボーナス対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "salary-calculator"
 ShowToc: false
 aliases:

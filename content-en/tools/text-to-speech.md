@@ -3,6 +3,7 @@ title: "Text to Speech"
 date: 2025-05-16
 description: "Free online text-to-speech tool. Convert text to audio using your browser's built-in voices. Adjust speed, pitch, and volume. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "text-to-speech"
 ShowToc: false
 cover:

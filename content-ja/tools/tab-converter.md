@@ -3,6 +3,7 @@ title: "タブ⇔スペース変換ツール"
 date: 2025-08-12
 description: "タブをスペースに、またはスペースをタブに変換する無料オンラインツール。インデント幅（2/4/8）を選択でき、空白文字のリアルタイムプレビュー、行数統計、クリップボードコピー、ファイルアップロードにも対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "tab-converter"
 ShowToc: false
 aliases: ["/ja/tools/tab-converter/", "/ja/tools/indent-converter/"]

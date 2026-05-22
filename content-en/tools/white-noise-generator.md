@@ -4,6 +4,7 @@ description: "Generate white, pink, and brown noise for focus, sleep, or relaxat
 date: 2025-05-16
 slug: "white-noise-generator"
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/white-noise-generator.png"

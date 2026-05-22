@@ -3,6 +3,7 @@ title: "String Escape Tool — Multi-Language Escaper"
 date: 2025-05-16
 description: "Escape and unescape strings for JSON, JavaScript, Python, Java, SQL, HTML, and more. Handle quotes, backslashes, newlines, and special characters."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "string-escape-tool"
 ShowToc: false
 cover:

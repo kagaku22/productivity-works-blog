@@ -3,6 +3,7 @@ title: "Color Gradient Text Generator — Free Online Tool"
 date: 2025-05-16
 description: "Apply color gradients to text with multi-stop color pickers. Preview character-by-character gradient, copy HTML with inline styles or CSS background-clip gradient code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-gradient-text"
 ShowToc: false
 aliases:

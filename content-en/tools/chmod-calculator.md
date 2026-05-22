@@ -3,6 +3,7 @@ title: "Chmod Calculator — Unix Permission Tool"
 date: 2025-05-16
 description: "Free chmod calculator. Visual permission editor with octal and symbolic notation. Set file permissions with presets for common configurations. Copy chmod commands instantly."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "chmod-calculator"
 ShowToc: false
 aliases:

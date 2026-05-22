@@ -4,6 +4,7 @@ description: "Free online world clock tool. Compare time across 30+ major cities
 slug: world-clock
 date: 2026-05-16
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/world-clock.png

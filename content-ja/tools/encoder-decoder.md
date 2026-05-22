@@ -3,6 +3,7 @@ title: "万能エンコーダー/デコーダー — マルチフォーマット
 date: 2025-09-04
 description: "複数形式でテキストをエンコード・デコード。Base64・URL・HTMLエンティティ・16進数・2進数・Unicode等。双方向変換・自動検出。無料・クライアントサイド処理。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "encoder-decoder"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "電気代計算ツール｜家電の消費電力から月額料金を自
 date: 2025-04-10
 description: "無料の電気代計算ツール。家電ごとの消費電力から日額・月額・年額の電気代を計算。複数機器対応、省エネ比較機能付き。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "electricity-calculator"
 ShowToc: false
 cover:

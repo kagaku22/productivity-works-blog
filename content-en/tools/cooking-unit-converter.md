@@ -3,6 +3,7 @@ title: "Cooking Unit Converter - Kitchen Measurement Calculator"
 date: 2025-05-16
 description: "Convert cooking measurements between cups, tablespoons, teaspoons, ml, grams, ounces. Recipe scaling and ingredient converter."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "cooking-unit-converter"
 ShowToc: false
 cover:

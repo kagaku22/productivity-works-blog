@@ -3,6 +3,7 @@ title: "ROI計算ツール｜投資利益率・回収期間をシミュレーシ
 date: 2025-05-30
 description: "無料のROI（投資利益率）計算ツール。投資の収益率・年間ROI・損益分岐点をシミュレーション。グラフ付きで分かりやすい、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "roi-calculator"
 ShowToc: false
 cover:

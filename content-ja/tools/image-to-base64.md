@@ -3,6 +3,7 @@ title: "画像→Base64変換ツール — データURIコンバーター"
 date: 2025-08-11
 description: "画像をBase64データURIに即座に変換。PNG・JPG・GIF・SVG・WebPをドラッグ＆ドロップ。Base64文字列・データURI・CSS背景・HTMLタグとしてコピー。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "image-to-base64"
 ShowToc: false
 cover:

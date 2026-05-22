@@ -4,6 +4,7 @@ description: "無料のオンライン名刺作成ツール。名前・会社名
 slug: business-card-generator
 date: 2025-11-27
 categories: ["無料ツール"]
+tags: ["業務効率化", "生産性", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/business-card-generator-ja.png

@@ -3,6 +3,7 @@ title: "Email Signature Generator — Free Professional Tool"
 date: 2025-05-16
 description: "Create professional email signatures with live preview. Templates for corporate, creative, and minimal styles. Copy HTML for Gmail, Outlook, and Apple Mail."
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 slug: "email-signature-generator"
 ShowToc: false
 cover:

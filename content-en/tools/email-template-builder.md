@@ -4,6 +4,7 @@ description: "Create professional HTML email templates with a visual builder. Fr
 date: 2025-05-16
 slug: "email-template-builder"
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/email-template-builder/"

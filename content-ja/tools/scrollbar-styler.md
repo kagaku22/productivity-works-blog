@@ -3,6 +3,7 @@ title: "CSSスクロールバー スタイラー"
 date: 2025-06-04
 description: "無料のCSSスクロールバーカスタマイズツール。幅・色・角丸・ホバー効果をライブプレビューで設定し、WebKit/Firefox用CSSを即コピー。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "scrollbar-styler"
 ShowToc: false
 cover:

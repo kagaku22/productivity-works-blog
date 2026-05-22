@@ -3,6 +3,7 @@ title: "HTML Entity Converter - Encode & Decode HTML"
 date: 2025-05-16
 description: "Free HTML entity encoder and decoder. Convert special characters to HTML entities and back. Supports named entities, numeric codes, and hex codes. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "html-entity-converter"
 ShowToc: false
 cover:

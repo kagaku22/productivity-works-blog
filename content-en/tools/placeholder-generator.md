@@ -3,6 +3,7 @@ title: "Placeholder Image Generator - Custom Size & Color"
 date: 2025-05-16
 description: "Generate placeholder images for web development. Custom size, colors, text, and format. Download as PNG or get data URL."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "placeholder-generator"
 ShowToc: false
 cover:

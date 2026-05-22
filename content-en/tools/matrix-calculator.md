@@ -4,6 +4,7 @@ description: "Free online matrix calculator. Perform addition, subtraction, mult
 slug: matrix-calculator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/matrix-calculator.png

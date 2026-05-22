@@ -3,6 +3,7 @@ title: "Crontab Generator"
 date: 2025-05-16
 description: "Free online crontab generator. Build cron expressions visually with dropdowns, use common presets, get human-readable descriptions, see next 5 run times, copy your cron expression, and validate existing ones."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "crontab-generator"
 ShowToc: false
 aliases:

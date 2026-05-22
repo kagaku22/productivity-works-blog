@@ -3,6 +3,7 @@ title: "Regex Cheatsheet — Interactive Reference"
 date: 2025-05-16
 description: "Interactive regex cheatsheet with live testing. Character classes, quantifiers, groups, lookaheads, and common patterns. Try each example instantly."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "regex-cheatsheet"
 ShowToc: false
 aliases:

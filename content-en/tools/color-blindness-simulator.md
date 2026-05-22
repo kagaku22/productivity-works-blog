@@ -3,6 +3,7 @@ title: "Color Blindness Simulator"
 date: 2025-05-16
 description: "Free color blindness simulator. See how your color palette looks to people with protanopia, deuteranopia, tritanopia, and other color vision deficiencies."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "color-blindness-simulator"
 ShowToc: false
 cover:

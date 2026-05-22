@@ -3,6 +3,7 @@ title: "Regex Tester"
 date: 2025-05-16
 description: "Free online regex tester. Test regular expressions against sample text with real-time match highlighting, capture groups, and flags — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "regex-tester"
 ShowToc: false
 cover:

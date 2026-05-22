@@ -3,6 +3,7 @@ title: "ダウンロード時間計算ツール - ファイル転送時間を推
 description: "ファイルサイズと回線速度からダウンロード所要時間を計算。無料ダウンロード時間計算ツール。"
 date: 2025-05-19
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "download-time-calculator"
 ShowToc: false
 cover:

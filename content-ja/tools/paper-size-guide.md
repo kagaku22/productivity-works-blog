@@ -3,6 +3,7 @@ title: "用紙サイズガイド - A判・B判・レターサイズ一覧"
 date: 2025-05-15
 description: "用紙サイズの完全リファレンス。A0〜A10、B0〜B10（ISO・JIS両対応）、レター・リーガル・タブロイドをmm・cm・インチで比較。ビジュアル確認付き。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "paper-size-guide"
 ShowToc: false
 cover:

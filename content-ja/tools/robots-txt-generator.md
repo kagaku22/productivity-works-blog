@@ -3,6 +3,7 @@ title: "Robots.txt ジェネレーター — 無料オンラインツール"
 date: 2025-08-15
 description: "robots.txtファイルを即座に生成。AIクローラーブロック・クロール遅延・サイトマップ管理のプリセット付きビジュアルエディタ。ワンクリックでコピー・ダウンロード。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "robots-txt-generator"
 ShowToc: false
 aliases:

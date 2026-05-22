@@ -4,6 +4,7 @@ description: "無料のXML整形ツール。XMLの整形・圧縮・構文検証
 date: 2025-08-09
 slug: xml-formatter
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/xml-formatter-ja.png

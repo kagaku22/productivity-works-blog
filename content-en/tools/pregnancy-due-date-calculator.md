@@ -3,6 +3,7 @@ title: "Pregnancy Due Date Calculator - Estimate Your Baby's Arrival"
 date: 2025-05-16
 description: "Calculate your estimated due date based on last menstrual period or conception date. Week-by-week pregnancy timeline."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "pregnancy-due-date-calculator"
 ShowToc: false
 cover:

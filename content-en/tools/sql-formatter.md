@@ -3,6 +3,7 @@ title: "SQL Formatter & Beautifier — Free Online Tool"
 description: "Format, beautify, and minify SQL queries instantly in your browser. Uppercase keywords, indent subqueries, syntax highlighting — no data sent to servers."
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "sql-formatter"
 aliases: ["/tools/sql-formatter/", "/tools/sql-formatter/"]
 ShowToc: false

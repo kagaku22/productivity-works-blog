@@ -3,6 +3,7 @@ title: "Git Command Generator — Quick Reference"
 date: 2025-05-16
 description: "Generate git commands by scenario. Search common workflows like undo commits, create branches, and resolve conflicts. Copy commands with one click."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Documentation", "Free Tools"]
 slug: "git-command-generator"
 ShowToc: false
 aliases:

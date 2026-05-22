@@ -3,6 +3,7 @@ title: "Pixel Ruler / Screen Measurement Tool — Free Online"
 date: 2025-05-16
 description: "On-screen pixel ruler with drag measurement in px, cm, and inches. Crosshair coordinate tracker, DPI detection, configurable length and color. No install needed."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "pixel-ruler"
 ShowToc: false
 aliases:

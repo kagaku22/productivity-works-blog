@@ -3,6 +3,7 @@ title: "CSS詳細度計算ツール"
 date: 2025-11-09
 description: "無料のCSS詳細度（Specificity）計算ツール。CSSセレクタを入力して詳細度スコアを即計算。複数セレクタの比較・バーチャート表示対応。"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 slug: "css-specificity-calculator"
 ShowToc: false
 cover:

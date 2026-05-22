@@ -3,6 +3,7 @@ title: "White Noise Generator"
 date: 2025-05-16
 description: "Free online white noise generator. Play white, pink, brown, and ambient noise to help you focus, relax, or sleep — powered by Web Audio API, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "noise-generator"
 ShowToc: false
 cover:

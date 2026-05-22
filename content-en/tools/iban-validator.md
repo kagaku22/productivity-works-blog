@@ -3,6 +3,7 @@ title: "IBAN Validator - Check International Bank Account Numbers"
 date: 2025-05-16
 description: "Validate IBAN numbers for correct format and checksum. Supports all countries. Extract bank and branch info from IBAN."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "iban-validator"
 ShowToc: false
 cover:

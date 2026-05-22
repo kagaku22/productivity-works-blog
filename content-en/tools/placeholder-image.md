@@ -3,6 +3,7 @@ title: "Placeholder Image Generator"
 date: 2025-05-16
 description: "Free online placeholder image generator. Create custom dummy images with any size, color, and text — download as PNG or JPEG instantly, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "placeholder-image"
 ShowToc: false
 aliases:

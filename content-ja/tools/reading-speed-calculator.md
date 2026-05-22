@@ -3,6 +3,7 @@ title: "読書速度テスト"
 date: 2025-11-01
 description: "無料の読書速度テスト＆計算ツール。WPMを測定、本や記事の読了時間を推定。理解度チェック付き、会員登録不要。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "reading-speed-calculator"
 ShowToc: false
 cover:

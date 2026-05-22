@@ -3,6 +3,7 @@ title: "Color Contrast Checker"
 slug: "contrast-checker"
 description: "Free WCAG color contrast checker. Test foreground and background color combinations for accessibility compliance. AA and AAA level testing."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 date: 2025-05-16
 ShowToc: false
 cover:

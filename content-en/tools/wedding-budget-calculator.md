@@ -4,6 +4,7 @@ description: "Plan your wedding budget with category breakdowns and cost estimat
 date: 2025-05-16
 slug: "wedding-budget-calculator"
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/wedding-budget-calculator.png"

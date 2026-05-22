@@ -3,6 +3,7 @@ title: "ピクセル定規ツール — 無料オンライン画面計測"
 date: 2026-01-03
 description: "画面上でドラッグしてピクセル・cm・インチ単位で距離を計測。カーソル座標トラッカー、DPI検出、定規の長さ・色をカスタマイズ可能。インストール不要。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "pixel-ruler"
 ShowToc: false
 aliases:

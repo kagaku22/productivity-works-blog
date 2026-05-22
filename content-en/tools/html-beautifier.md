@@ -3,6 +3,7 @@ title: "HTML Beautifier & Formatter"
 date: 2025-05-16
 description: "Free online HTML beautifier and formatter. Indent, format, or minify HTML code instantly. Customizable indentation, syntax highlighting, and one-click copy."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "html-beautifier"
 ShowToc: false
 cover:

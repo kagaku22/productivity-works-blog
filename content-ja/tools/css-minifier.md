@@ -4,6 +4,7 @@ description: "CSSコードを圧縮してファイルサイズを削減、ペー
 date: 2025-05-18
 slug: "css-minifier"
 categories: ["無料ツール"]
+tags: ["CSS", "Webデザイン", "無料ツール"]
 ShowToc: false
 aliases:
   - "/ja/tools/css-minifier/"

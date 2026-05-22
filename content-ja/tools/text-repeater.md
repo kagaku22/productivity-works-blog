@@ -4,6 +4,7 @@ description: "任意のテキストを指定回数繰り返し生成。区切り
 date: 2025-06-22
 slug: "text-repeater"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 aliases: ["/ja/tools/text-repeater/", "/ja/tools/text-repeater/"]
 cover:
   image: "/images/covers/text-repeater-ja.png"

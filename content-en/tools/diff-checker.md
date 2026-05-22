@@ -3,6 +3,7 @@ title: "Text Diff Checker"
 date: 2025-05-16
 description: "Free online text diff checker. Compare two texts side by side with color-coded additions, deletions, and changes."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "diff-checker"
 ShowToc: false
 cover:

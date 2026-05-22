@@ -3,6 +3,7 @@ title: "年金シミュレーター｜将来の受給額を年齢・加入期間
 date: 2025-12-14
 description: "無料の年金シミュレーター。老後の資産推移・年金受給額・必要な積立額をシミュレーション。グラフ付きで分かりやすい、会員登録不要のオンラインツール。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "pension-simulator"
 ShowToc: false
 cover:

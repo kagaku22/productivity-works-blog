@@ -3,6 +3,7 @@ title: "Cron Expression Builder"
 date: 2025-05-16
 description: "Free online cron expression builder. Create and validate cron schedules with a visual interface — see next run times and human-readable descriptions."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "cron-expression-builder"
 ShowToc: false
 cover:

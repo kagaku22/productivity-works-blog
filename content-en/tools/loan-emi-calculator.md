@@ -3,6 +3,7 @@ title: "Loan EMI Calculator"
 date: 2025-05-16
 description: "Free online loan EMI calculator. Calculate monthly payments, total interest, and amortization schedule for any loan — mortgage, car, personal, or student loans."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "loan-emi-calculator"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "気象単位変換ツール"
 date: 2025-06-19
 description: "気温（°C・°F・K）、風速（m/s・km/h・mph・ノット）、気圧（hPa・mmHg・inHg・atm・psi）、降水量（mm・インチ）、視程（km・マイル）をリアルタイムで相互変換。変換式も表示する無料オンラインツール。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "weather-unit-converter"
 ShowToc: false
 aliases: ["/ja/tools/weather-unit-converter/", "/ja/tools/weather-unit-converter/"]

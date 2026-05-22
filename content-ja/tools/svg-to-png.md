@@ -3,6 +3,7 @@ title: "SVG→PNG変換ツール"
 date: 2025-05-06
 description: "SVGをPNGに無料変換。SVGファイルをアップロードまたはコード貼り付けで高解像度PNGをダウンロード。サーバー不要・完全ブラウザ処理。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "svg-to-png"
 ShowToc: false
 cover:

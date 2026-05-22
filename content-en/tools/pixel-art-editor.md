@@ -3,6 +3,7 @@ title: "Pixel Art Editor"
 date: 2025-05-16
 description: "Free online pixel art editor. Draw pixel art on a customizable grid with color palette, tools, and PNG export — no sign-up required, fully client-side."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "pixel-art-editor"
 ShowToc: false
 cover:

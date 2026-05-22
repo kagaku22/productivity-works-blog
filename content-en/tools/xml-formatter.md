@@ -4,6 +4,7 @@ description: "Free online XML formatter, beautifier, and validator. Pretty-print
 date: 2026-05-16
 slug: xml-formatter
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/xml-formatter.png

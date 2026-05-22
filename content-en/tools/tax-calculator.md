@@ -3,6 +3,7 @@ title: "Income Tax Calculator - Tax Bracket Estimator"
 date: 2025-05-16
 description: "Free income tax calculator. Estimate your federal income tax based on filing status and taxable income. See your effective tax rate, marginal rate, and tax bracket breakdown."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "tax-calculator"
 ShowToc: false
 aliases:

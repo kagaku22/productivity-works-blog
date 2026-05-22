@@ -3,6 +3,7 @@ title: "HTML Table Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate HTML tables with a visual spreadsheet editor. Add rows, columns, styling, and import CSV data. Copy styled HTML code with one click."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "html-table-generator"
 ShowToc: false
 aliases:

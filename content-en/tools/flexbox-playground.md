@@ -3,6 +3,7 @@ title: "CSS Flexbox Playground"
 date: 2025-05-16
 description: "Free interactive CSS Flexbox playground. Experiment with all flex container and item properties visually. See live results and copy the CSS code."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "flexbox-playground"
 ShowToc: false
 cover:

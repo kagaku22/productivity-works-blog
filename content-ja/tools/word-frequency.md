@@ -4,6 +4,7 @@ description: "単語の出現頻度とテキスト統計を分析。最頻出単
 date: 2025-05-29
 slug: "word-frequency"
 categories: ["無料ツール"]
+tags: ["テキストツール", "文字列処理", "無料ツール"]
 ShowToc: false
 aliases:
   - "/ja/tools/word-frequency-counter/"

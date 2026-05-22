@@ -4,6 +4,7 @@ description: "Minify your CSS code to reduce file size and improve page load spe
 date: 2025-05-16
 slug: "css-minifier"
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/css-minifier/"

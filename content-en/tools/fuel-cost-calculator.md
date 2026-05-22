@@ -3,6 +3,7 @@ title: "Fuel Cost Calculator"
 date: 2025-05-16
 description: "Free fuel cost calculator. Calculate trip fuel costs based on distance, fuel efficiency, and gas price. Compare vehicles, estimate annual fuel expenses."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "fuel-cost-calculator"
 ShowToc: false
 cover:

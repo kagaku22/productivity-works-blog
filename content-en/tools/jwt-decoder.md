@@ -3,6 +3,7 @@ title: "JWT Decoder — Token Inspector"
 date: 2025-05-16
 description: "Decode and inspect JWT tokens instantly. View header, payload, and claims with expiration check. Client-side only, no data sent to servers."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "jwt-decoder"
 ShowToc: false
 aliases:

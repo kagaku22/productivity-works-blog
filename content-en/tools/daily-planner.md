@@ -3,6 +3,7 @@ title: "Daily Planner - Schedule Builder"
 date: 2025-05-16
 description: "Free online daily planner. Create a visual schedule with time blocks. Drag to adjust, color-code categories, and print your daily plan. Data saved in browser."
 categories: ["Free Tools"]
+tags: ["Productivity", "Business", "Free Tools"]
 slug: "daily-planner"
 ShowToc: false
 cover:

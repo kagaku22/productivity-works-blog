@@ -3,6 +3,7 @@ title: "ファビコンジェネレーター — 無料オンラインツール"
 date: 2025-06-02
 description: "テキスト・図形・絵文字・画像アップロードからファビコンを作成。16x16・32x32のPNGを即時ダウンロード。登録不要・完全無料。"
 categories: ["無料ツール"]
+tags: ["画像ツール", "デザイン", "無料ツール"]
 slug: "favicon-generator"
 ShowToc: false
 aliases:

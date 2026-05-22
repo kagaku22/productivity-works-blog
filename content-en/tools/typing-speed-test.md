@@ -3,6 +3,7 @@ title: "Typing Speed Test"
 date: 2025-05-16
 description: "Free online typing speed test. Measure your WPM, accuracy, and keystrokes in real time — with multiple text samples and difficulty levels. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "typing-speed-test"
 ShowToc: false
 cover:

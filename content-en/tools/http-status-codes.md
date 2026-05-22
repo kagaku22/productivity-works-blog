@@ -3,6 +3,7 @@ title: "HTTP Status Codes — Quick Reference Guide"
 date: 2025-05-16
 description: "Complete HTTP status code reference. Searchable list with descriptions, use cases, and color-coded categories. Quick lookup for 1xx to 5xx status codes."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "http-status-codes"
 ShowToc: false
 aliases:

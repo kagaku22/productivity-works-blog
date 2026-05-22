@@ -3,6 +3,7 @@ title: ".htaccess ジェネレーター — 無料オンラインツール"
 date: 2025-08-06
 description: ".htaccessファイルを即座に生成。リダイレクト・セキュリティヘッダー・キャッシュ・CORS・gzip・エラーページのビジュアルエディタ。WordPress・静的サイト向けプリセット。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "htaccess-generator"
 ShowToc: false
 aliases:

@@ -3,6 +3,7 @@ title: "犬年齢計算ツール - 犬の年齢を人間に換算"
 date: 2025-06-13
 description: "最新の科学的研究にもとづいて、愛犬の年齢を人間の年齢に換算します。小型・中型・大型・超大型犬に対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "dog-age-calculator"
 ShowToc: false
 cover:

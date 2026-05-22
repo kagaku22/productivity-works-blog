@@ -4,6 +4,7 @@ description: "Free online citation generator. Create properly formatted citation
 slug: citation-generator
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Documentation", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/citation-generator.png

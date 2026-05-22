@@ -4,6 +4,7 @@ description: "ビジュアルビルダーでプロフェッショナルなHTML�
 date: 2025-04-02
 slug: "email-template-builder"
 categories: ["無料ツール"]
+tags: ["業務効率化", "生産性", "無料ツール"]
 ShowToc: false
 aliases:
   - "/ja/tools/email-template-builder/"

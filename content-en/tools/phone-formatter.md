@@ -3,6 +3,7 @@ title: "Phone Number Formatter - Format & Validate Phone Numbers"
 date: 2025-05-16
 description: "Format phone numbers for any country. Convert between international, national, and E.164 formats. Validate phone number structure."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "phone-formatter"
 ShowToc: false
 cover:

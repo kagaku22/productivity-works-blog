@@ -3,6 +3,7 @@ title: "JSON差分比較ツール"
 date: 2025-12-10
 description: "無料のJSON差分比較ツール。2つのJSONオブジェクトをサイドバイサイドで比較。追加・削除・変更されたプロパティをカラーコードで表示。ネスト対応。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "json-diff"
 ShowToc: false
 cover:

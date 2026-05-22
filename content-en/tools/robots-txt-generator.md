@@ -3,6 +3,7 @@ title: "Robots.txt Generator — Free Online Tool"
 date: 2025-05-16
 description: "Generate robots.txt files instantly. Visual editor with presets for blocking AI crawlers, setting crawl delays, and managing sitemaps. Copy or download with one click."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "robots-txt-generator"
 ShowToc: false
 aliases:

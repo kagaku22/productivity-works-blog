@@ -3,6 +3,7 @@ title: "インデント変換ツール"
 date: 2026-01-16
 description: "コードのインデントをワンクリックで変換。2スペース・4スペース・タブを相互変換し、現在のインデントスタイルを自動検出。混在インデントの修正、空白文字のプレビュー表示、結果コピーに対応した無料オンラインツール。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "indent-converter"
 ShowToc: false
 aliases: ["/ja/tools/indent-converter/", "/ja/tools/indent-converter/"]

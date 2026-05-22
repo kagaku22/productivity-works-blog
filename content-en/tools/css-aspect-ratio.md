@@ -3,6 +3,7 @@ title: "CSS Aspect Ratio Generator — Responsive Containers"
 date: 2025-05-16
 description: "Generate CSS aspect-ratio property for responsive containers. Presets for 16:9, 4:3, 1:1 and more. Modern CSS and padding-bottom fallback. Copy code instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-aspect-ratio"
 ShowToc: false
 cover:

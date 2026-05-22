@@ -3,6 +3,7 @@ title: "JWTデコーダー — トークン解析ツール"
 date: 2025-12-05
 description: "JWTトークンを即座にデコード・検査。ヘッダー・ペイロード・クレームを有効期限チェック付きで表示。クライアントサイド処理のみ、データ送信なし。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "jwt-decoder"
 ShowToc: false
 aliases:

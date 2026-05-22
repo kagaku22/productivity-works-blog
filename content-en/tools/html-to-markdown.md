@@ -4,6 +4,7 @@ description: "Free online HTML to Markdown converter. Paste HTML and get clean M
 slug: html-to-markdown
 date: 2025-05-16
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: /images/covers/html-to-markdown.png

@@ -3,6 +3,7 @@ title: "Unicode Character Map — Symbol Finder"
 date: 2025-05-16
 description: "Browse and search Unicode characters. Find arrows, math symbols, currency signs, and special characters. Copy characters, code points, and HTML entities."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "unicode-character-map"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "Text Encryption & Decryption"
 date: 2025-05-16
 description: "Free text encryption tool. Encrypt and decrypt text using AES-256, Caesar cipher, Vigenere cipher, and XOR. All processing done locally in your browser."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "text-encryption"
 ShowToc: false
 cover:

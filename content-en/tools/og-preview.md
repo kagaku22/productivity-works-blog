@@ -3,6 +3,7 @@ title: "Open Graph Preview — Social Share Debugger"
 date: 2025-05-16
 description: "Preview how your page looks on Facebook, Twitter, LinkedIn, and Google. Generate OG meta tags with live previews. Check character limits and image dimensions."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "og-preview"
 ShowToc: false
 aliases:

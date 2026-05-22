@@ -3,6 +3,7 @@ title: "Invoice Generator"
 date: 2025-05-16
 description: "Free online invoice generator. Create professional invoices with line items, tax calculation, and PDF download — no sign-up required, fully client-side."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "invoice-generator"
 ShowToc: false
 cover:

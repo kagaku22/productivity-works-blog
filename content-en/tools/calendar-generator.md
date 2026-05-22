@@ -3,6 +3,7 @@ title: "Calendar Generator"
 date: 2025-05-16
 description: "Free printable calendar generator. Create monthly or yearly calendars, add events, and print. Choose week start day and layout. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Date & Time", "Calculator", "Free Tools"]
 slug: "calendar-generator"
 ShowToc: false
 cover:

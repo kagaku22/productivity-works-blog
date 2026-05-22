@@ -3,6 +3,7 @@ title: "Pension Simulator"
 date: 2025-05-16
 description: "Free online pension calculator. Estimate your retirement savings, monthly pension income, and required contributions — with interactive charts, no sign-up needed."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "pension-simulator"
 ShowToc: false
 cover:

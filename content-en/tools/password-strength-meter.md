@@ -3,6 +3,7 @@ title: "Password Strength Meter"
 date: 2025-05-16
 description: "Free password strength checker. Analyze password security with entropy calculation, crack time estimate, and detailed feedback. All processing done locally in your browser."
 categories: ["Free Tools"]
+tags: ["Generator", "Random", "Free Tools"]
 slug: "password-strength-meter"
 ShowToc: false
 cover:

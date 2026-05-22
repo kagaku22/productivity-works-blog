@@ -4,6 +4,7 @@ description: "Calculate tips and split bills evenly among friends. Free tip calc
 date: 2025-05-16
 slug: "tip-splitter"
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/tip-splitter.png"

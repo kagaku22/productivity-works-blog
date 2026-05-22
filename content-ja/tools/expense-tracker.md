@@ -3,6 +3,7 @@ title: "家計簿・支出管理ツール｜収入と支出を入力して貯蓄
 date: 2025-11-21
 description: "無料のオンライン家計簿ツール。収入・支出をカテゴリ別に記録してグラフで可視化。データはブラウザにローカル保存。会員登録不要。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "expense-tracker"
 ShowToc: false
 cover:

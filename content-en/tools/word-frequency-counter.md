@@ -3,6 +3,7 @@ title: "Word Frequency Counter"
 date: 2025-05-16
 description: "Free online word frequency counter. Analyze text to find most common words, phrases, and n-grams — with sortable table and word cloud visualization."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "word-frequency-counter"
 ShowToc: false
 cover:

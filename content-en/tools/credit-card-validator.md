@@ -3,6 +3,7 @@ title: "Credit Card Validator - Luhn Algorithm Checker"
 date: 2025-05-16
 description: "Validate credit card numbers using the Luhn algorithm. Detect card type (Visa, Mastercard, Amex, etc). Educational tool for understanding card number structure."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "credit-card-validator"
 ShowToc: false
 cover:

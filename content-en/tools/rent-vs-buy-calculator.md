@@ -3,6 +3,7 @@ title: "Rent vs Buy Calculator - Should You Rent or Buy?"
 date: 2025-05-16
 description: "Compare the total cost of renting vs buying a home over time. See the breakeven point and decide which option is right for your financial situation."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "rent-vs-buy-calculator"
 ShowToc: false
 cover:

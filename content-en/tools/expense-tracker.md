@@ -3,6 +3,7 @@ title: "Expense Tracker"
 date: 2025-05-16
 description: "Free online expense tracker. Log income and expenses by category, view monthly summaries with charts. Data saved locally in your browser. No sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "expense-tracker"
 ShowToc: false
 cover:

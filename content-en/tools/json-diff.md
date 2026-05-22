@@ -3,6 +3,7 @@ title: "JSON Diff Checker"
 date: 2025-05-16
 description: "Free JSON diff tool. Compare two JSON objects side by side. Highlights added, removed, and changed properties with color coding. Supports nested objects and arrays."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "json-diff"
 ShowToc: false
 cover:

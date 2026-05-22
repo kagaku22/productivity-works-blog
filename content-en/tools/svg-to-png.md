@@ -3,6 +3,7 @@ title: "SVG to PNG Converter"
 date: 2025-05-16
 description: "Convert SVG to PNG online for free. Upload or paste SVG code, set scale and background, then download high-resolution PNG. No upload to server — 100% client-side."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "svg-to-png"
 ShowToc: false
 cover:

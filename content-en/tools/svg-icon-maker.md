@@ -3,6 +3,7 @@ title: "SVG Icon Maker - Create Custom SVG Icons"
 date: 2025-05-16
 description: "Create simple SVG icons online for free. Draw circles, rectangles, lines, and paths on a 24x24 grid. Export clean SVG code instantly — no software required."
 categories: ["Free Tools"]
+tags: ["Image Tools", "Design", "Free Tools"]
 slug: "svg-icon-maker"
 ShowToc: false
 cover:

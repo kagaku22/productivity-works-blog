@@ -4,6 +4,7 @@ slug: "code-minifier"
 date: 2025-05-16
 description: "Free online HTML, CSS, and JavaScript minifier. Reduce file size by removing whitespace, comments, and unnecessary characters — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/code-minifier.png"

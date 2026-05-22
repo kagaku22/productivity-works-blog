@@ -3,6 +3,7 @@ title: "ダミーデータジェネレーター"
 date: 2025-04-27
 description: "無料のダミーデータ生成ツール。名前・メール・住所・電話番号・UUID等のテストデータを一括生成。JSON・CSV・SQL形式でエクスポート。API開発に最適。"
 categories: ["無料ツール"]
+tags: ["ジェネレーター", "ランダム生成", "無料ツール"]
 slug: "fake-data-generator"
 ShowToc: false
 cover:

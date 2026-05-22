@@ -3,6 +3,7 @@ title: "ASCII Art Generator"
 date: 2025-05-16
 description: "Free online ASCII art generator. Convert text to large ASCII art banners with multiple font styles — copy to clipboard instantly, no sign-up required."
 categories: ["Free Tools"]
+tags: ["Utility", "Free Tools"]
 slug: "ascii-art-generator"
 ShowToc: false
 cover:

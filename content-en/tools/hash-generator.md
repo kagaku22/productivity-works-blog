@@ -3,6 +3,7 @@ title: "Hash Generator"
 date: 2025-05-16
 description: "Free online hash generator. Create MD5, SHA-1, SHA-256, and SHA-512 hashes from any text instantly in your browser — no uploads, no sign-up."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Programming", "Free Tools"]
 slug: "hash-generator"
 ShowToc: false
 cover:

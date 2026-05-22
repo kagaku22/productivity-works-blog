@@ -3,6 +3,7 @@ title: "料理単位変換ツール - キッチン計量換算計算機"
 date: 2025-07-30
 description: "カップ、大さじ、小さじ、ml、グラム、オンスなど料理の計量単位を相互変換。レシピのスケールアップ・ダウンにも対応。"
 categories: ["無料ツール"]
+tags: ["計算ツール", "変換ツール", "無料ツール"]
 slug: "cooking-unit-converter"
 ShowToc: false
 cover:

@@ -3,6 +3,7 @@ title: "URL Encoder / Decoder"
 date: 2025-05-16
 description: "Free online URL encoder and decoder. Encode special characters for safe URLs or decode percent-encoded strings instantly — no sign-up required."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 slug: "url-encoder-decoder"
 ShowToc: false
 cover:

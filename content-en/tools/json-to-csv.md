@@ -4,6 +4,7 @@ description: "Convert JSON arrays to CSV and CSV back to JSON instantly in your 
 date: 2025-05-16
 slug: "json-to-csv"
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 aliases:
   - "/tools/csv-to-json/"

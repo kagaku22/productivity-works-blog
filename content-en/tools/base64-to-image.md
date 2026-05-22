@@ -4,6 +4,7 @@ slug: "base64-to-image"
 date: 2025-05-16
 description: "Free Base64 to image converter. Paste a Base64 string and preview the decoded image — download as PNG, JPEG, or other formats instantly."
 categories: ["Free Tools"]
+tags: ["Developer Tools", "Code Conversion", "Free Tools"]
 ShowToc: false
 cover:
   image: "/images/covers/base64-to-image.png"

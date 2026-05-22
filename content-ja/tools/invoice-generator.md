@@ -3,6 +3,7 @@ title: "請求書ジェネレーター"
 date: 2025-04-19
 description: "無料の請求書作成ツール。品目・数量・単価を入力して税込み金額を自動計算、PDF印刷対応。会員登録不要、すべてブラウザで完結。インボイス制度対応。"
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 slug: "invoice-generator"
 ShowToc: false
 cover:

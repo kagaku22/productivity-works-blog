@@ -3,6 +3,7 @@ title: "Typography Scale Generator — Modular Type System"
 date: 2025-05-16
 description: "Generate modular typography scales for web design. Choose ratio, base size, and preview all heading sizes. Copy CSS with rem/px values and line-height."
 categories: ["Free Tools"]
+tags: ["Text Tools", "String Processing", "Free Tools"]
 slug: "typography-scale"
 ShowToc: false
 cover:

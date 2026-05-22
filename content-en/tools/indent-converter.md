@@ -3,6 +3,7 @@ title: "Indent Converter"
 date: 2025-05-16
 description: "Free online indent converter. Re-indent code between 2-space, 4-space, and tab styles. Auto-detects current indentation, shows whitespace markers, cleans mixed indentation, and copies output instantly."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "indent-converter"
 ShowToc: false
 aliases: ["/tools/indent-converter/", "/tools/indent-converter/"]

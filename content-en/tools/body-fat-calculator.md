@@ -3,6 +3,7 @@ title: "Body Fat Calculator - Estimate Your Body Fat Percentage"
 date: 2025-05-16
 description: "Calculate body fat percentage using US Navy and BMI methods. Get personalized fitness category and health insights."
 categories: ["Free Tools"]
+tags: ["Calculator", "Converter", "Free Tools"]
 slug: "body-fat-calculator"
 ShowToc: false
 cover:

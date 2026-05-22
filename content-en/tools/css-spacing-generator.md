@@ -3,6 +3,7 @@ title: "CSS Spacing Generator — Margin & Padding Tool"
 date: 2025-05-16
 description: "Visual CSS margin and padding editor with box model diagram. Individual side controls, unit options, and presets. Copy shorthand or longhand CSS instantly."
 categories: ["Free Tools"]
+tags: ["CSS", "Web Design", "Free Tools"]
 slug: "css-spacing-generator"
 ShowToc: false
 cover:
