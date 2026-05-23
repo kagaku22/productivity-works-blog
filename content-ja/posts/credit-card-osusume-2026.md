@@ -83,6 +83,8 @@ cover:
 
 セブン-イレブン・ローソン・マクドナルドなどの対象店舗でVisaタッチ決済を使うと最大7%還元。日常使いの還元率が圧倒的に高いです。SBI証券のクレカ積立にも対応。
 
+**[三井住友カード(NL) 公式サイトで申し込む](https://www.smbc-card.com/nyukai/card/numberless.jsp)**
+
 ### 3. JCBカードW
 
 | 項目 | 内容 |
@@ -96,6 +98,8 @@ cover:
 **おすすめの人:** 39歳以下でAmazonをよく使う方
 
 年齢制限がある代わりに、年会費無料で還元率1.0%という高水準。Amazon利用時は2.0%還元になるため、ネット通販メインの若年層に最適です。
+
+**[JCBカードW 公式サイトで申し込む](https://www.jcb.co.jp/ordercard/kojin_card/os_card_w2.html)**
 
 ---
 

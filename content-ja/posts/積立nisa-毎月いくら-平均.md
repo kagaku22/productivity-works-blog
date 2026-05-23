@@ -143,7 +143,7 @@ cover:
 
 早く始めるほど複利効果が大きいことがわかります。
 
-[今すぐ積立を始める](https://payhip.com/productivityworks)
+[今すぐ積立を始める](https://www.sbisec.co.jp/)
 
 ---
 
@@ -206,7 +206,7 @@ cover:
 
 積立NISAの月積立額に「正解」はありません。大切なのは「無理のない金額で長く続けること」です。まずは月5,000〜10,000円から始め、生活に余裕が出てきたら増額していきましょう。今日から積立設定をすることで、時間という最強の資産を味方につけることができます。
 
-[今すぐ積立設定を始める](https://payhip.com/productivityworks)
+[今すぐ積立設定を始める](https://www.sbisec.co.jp/)
 
 [関連記事: 新NISAおすすめ銘柄 初心者向けガイド](/ja/posts/nisa-osusume-meigara-2026/)
 

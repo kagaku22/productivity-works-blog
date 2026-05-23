@@ -117,7 +117,7 @@ cover:
 | おすすめファンド | eMAXIS Slim S&P500など | 楽天・オールカントリー株式など |
 | 加入・移換サポート | 充実 | 充実 |
 
-[SBI証券で口座開設する](https://payhip.com/productivityworks)
+[SBI証券で口座開設する](https://www.sbisec.co.jp/)
 [楽天証券で口座開設する](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)
 
 ---
@@ -189,7 +189,7 @@ cover:
 
 SBI証券と楽天証券のどちらを選ぶかは、あなたのライフスタイルに合わせて決めるのが最善です。楽天経済圏の方は楽天証券、三井住友カードをお持ちの方や豊富な商品数を求める方はSBI証券がおすすめです。迷うなら楽天証券から始めて、慣れてきたらSBI証券でも口座開設するという段階的なアプローチも有効です。今日から口座開設を始めましょう。
 
-[SBI証券で今すぐ口座開設する](https://payhip.com/productivityworks)
+[SBI証券で今すぐ口座開設する](https://www.sbisec.co.jp/)
 
 [楽天証券で今すぐ口座開設する](https://hb.afl.rakuten.co.jp/hsc/41ab8a31.8f450617.41ab8a32.86e006c4/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoiMTI0NjkzOSIsImFtcCI6ZmFsc2V9)
 
