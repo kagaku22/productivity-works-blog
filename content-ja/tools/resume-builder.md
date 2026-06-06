@@ -4,6 +4,7 @@ description: "無料のオンライン履歴書作成ツール。職務経歴・
 slug: resume-builder
 date: 2025-06-30
 categories: ["無料ツール"]
+tags: ["便利ツール", "無料ツール"]
 ShowToc: false
 cover:
   image: /images/covers/resume-builder-ja.png

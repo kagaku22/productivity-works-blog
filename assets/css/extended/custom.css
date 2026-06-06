@@ -112,7 +112,7 @@
   margin: 2.5em 0;
 }
 
-/* -- Cover images: Better presentation -- */
+/* -- Cover images: Better presentation + CLS prevention -- */
 .entry-cover {
   border-radius: 12px;
   overflow: hidden;
@@ -121,6 +121,14 @@
 
 .entry-cover img {
   border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+/* -- Inline images: CLS prevention -- */
+.post-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* -- Article cards on list pages -- */
@@ -162,6 +170,195 @@
 .post-meta {
   font-size: 0.85rem;
   opacity: 0.8;
+}
+
+/* -- Disclaimer boxes -- */
+.disclaimer {
+  margin: 2em 0 1em;
+  padding: 1em 1.2em;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--secondary);
+}
+
+.disclaimer p {
+  margin-bottom: 0.5em;
+}
+
+.disclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.disclaimer strong {
+  color: var(--primary);
+}
+
+.disclaimer--fx {
+  background: #fff5f5;
+  border-left: 4px solid #e53e3e;
+}
+
+.dark .disclaimer--fx {
+  background: rgba(229, 62, 62, 0.1);
+}
+
+.disclaimer--investment {
+  background: #fffff0;
+  border-left: 4px solid #d69e2e;
+}
+
+.dark .disclaimer--investment {
+  background: rgba(214, 158, 46, 0.1);
+}
+
+.disclaimer--credit-card {
+  background: #f0fff4;
+  border-left: 4px solid #38a169;
+}
+
+.dark .disclaimer--credit-card {
+  background: rgba(56, 161, 105, 0.1);
+}
+
+.disclaimer--general {
+  background: var(--code-bg);
+  border-left: 4px solid var(--tertiary);
+}
+
+/* -- FX Risk Warning (金商法37条準拠) -- */
+.fx-risk-warning {
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.fx-risk-warning--full {
+  background: #fff5f5;
+  border-left: 4px solid #c53030;
+}
+
+.dark .fx-risk-warning--full {
+  background: rgba(197, 48, 48, 0.1);
+}
+
+.fx-risk-warning--compact {
+  background: #fffff0;
+  border-left: 4px solid #d69e2e;
+}
+
+.dark .fx-risk-warning--compact {
+  background: rgba(214, 158, 46, 0.1);
+}
+
+.fx-risk-warning--mini {
+  background: #f7fafc;
+  border-left: 3px solid #718096;
+  font-size: 0.85rem;
+  padding: 0.6em 1em;
+  margin: 0.8em 0;
+}
+
+.dark .fx-risk-warning--mini {
+  background: rgba(113, 128, 150, 0.1);
+}
+
+.fx-risk-warning__title {
+  font-weight: 700;
+  color: #c53030;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+}
+
+.dark .fx-risk-warning__title {
+  color: #fc8181;
+}
+
+.fx-risk-warning__ad {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-bottom: 0.8em;
+}
+
+.fx-risk-warning__footer {
+  font-weight: 600;
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+
+.fx-risk-warning ul {
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+}
+
+.fx-risk-warning li {
+  margin-bottom: 0.4em;
+}
+
+/* -- CTA Box (記事冒頭/中間CTAボックス) -- */
+.cta-box {
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-box--primary {
+  background: linear-gradient(135deg, #ebf5ff 0%, #f0f7ff 100%);
+  border: 2px solid #4a9eff;
+}
+
+.dark .cta-box--primary {
+  background: linear-gradient(135deg, rgba(74, 158, 255, 0.1) 0%, rgba(74, 158, 255, 0.05) 100%);
+}
+
+.cta-box--secondary {
+  background: linear-gradient(135deg, #f0fff4 0%, #f7fff9 100%);
+  border: 2px solid #38a169;
+}
+
+.dark .cta-box--secondary {
+  background: linear-gradient(135deg, rgba(56, 161, 105, 0.1) 0%, rgba(56, 161, 105, 0.05) 100%);
+}
+
+.cta-box__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+  color: var(--primary);
+}
+
+.cta-box__text {
+  font-size: 0.95rem;
+  margin-bottom: 0.8em;
+  color: var(--secondary);
+}
+
+.cta-box__button {
+  display: inline-block;
+  padding: 0.7em 2em;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.cta-box--primary .cta-box__button {
+  background: #4a9eff;
+  color: #fff;
+}
+
+.cta-box--secondary .cta-box__button {
+  background: #38a169;
+  color: #fff;
+}
+
+.cta-box__button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
 }
 
 /* -- Mobile responsiveness -- */

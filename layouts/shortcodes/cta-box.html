@@ -1,0 +1,17 @@
+{{- /* cta-box.html — 記事冒頭/中間CTAボックス（CVR向上用） */ -}}
+{{- $title := .Get "title" -}}
+{{- $text := .Get "text" -}}
+{{- $url := .Get "url" -}}
+{{- $button := .Get "button" | default "詳しく見る" -}}
+{{- $type := .Get "type" | default "primary" -}}
+<aside class="cta-box cta-box--{{ $type }}">
+  {{- with $title }}
+  <p class="cta-box__title">{{ . }}</p>
+  {{- end }}
+  {{- with $text }}
+  <p class="cta-box__text">{{ . }}</p>
+  {{- end }}
+  {{- with $url }}
+  <a href="{{ . }}" class="cta-box__button" target="_blank" rel="nofollow sponsored">{{ $button }}</a>
+  {{- end }}
+</aside>

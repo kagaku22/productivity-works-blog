@@ -17,6 +17,18 @@ cover:
   image: "images/covers/ai-gazou-seisei-tool-hikaku-2026.png"
   alt: "AI画像生成おすすめツール比較2026年版【無料・有料・日本語対応】"
   relative: false
+
+faq:
+  - q: "AI画像生成ツールで最もおすすめなのはどれですか？"
+    a: "用途によります。プロクオリティならMidjourney（月$10〜）、商用広告ならAdobe Firefly、手軽に始めたいならDALL-E 3（ChatGPT経由）、完全無料ならBing Image Creatorがおすすめです。"
+  - q: "AI画像生成ツールは商用利用できますか？"
+    a: "ツールによって異なります。Adobe Fireflyは商用利用が完全にクリア、DALL-E 3やMidjourney（有料プラン）も商用利用可能です。各ツールの利用規約を必ず確認してください。"
+  - q: "日本語でプロンプトを入力できるツールはどれですか？"
+    a: "DALL-E 3（ChatGPT経由）とBing Image Creatorが日本語プロンプトに最も対応しています。Adobe FireflyやCanva AIも日本語対応していますが、英語の方が精度が高い傾向があります。"
+  - q: "無料で使えるAI画像生成ツールはありますか？"
+    a: "はい。Bing Image Creator（完全無料）、Canva AI（月50回）、Leonardo.ai（毎日150クレジット）、Stable Diffusion（ローカル実行で無制限）などが無料で使えます。"
+  - q: "MidjourneyとDALL-E 3の違いは何ですか？"
+    a: "Midjourneyは画質・芸術性でトップクラスでプロ向け、DALL-E 3はChatGPT経由で日本語指示が得意で手軽さが魅力です。Midjourneyは有料のみ（月$10〜）、DALL-E 3はChatGPT無料版でも制限付きで使えます。"
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -207,6 +219,25 @@ AI画像生成ツールは用途に応じて選ぶことが大切です。
 - **コスト重視・大量生成** → Stable Diffusion
 
 最初は無料ツールから始めて、用途が明確になったら有料ツールへのアップグレードを検討しましょう。
+
+---
+
+## よくある質問（FAQ）
+
+**Q1. AI画像生成ツールで最もおすすめなのはどれですか？**
+用途によります。プロクオリティならMidjourney（月$10〜）、商用広告ならAdobe Firefly、手軽に始めたいならDALL-E 3（ChatGPT経由）、完全無料ならBing Image Creatorがおすすめです。
+
+**Q2. AI画像生成ツールは商用利用できますか？**
+ツールによって異なります。Adobe Fireflyは商用利用が完全にクリア、DALL-E 3やMidjourney（有料プラン）も商用利用可能です。各ツールの利用規約を必ず確認してください。
+
+**Q3. 日本語でプロンプトを入力できるツールはどれですか？**
+DALL-E 3（ChatGPT経由）とBing Image Creatorが日本語プロンプトに最も対応しています。Adobe FireflyやCanva AIも日本語対応していますが、英語の方が精度が高い傾向があります。
+
+**Q4. 無料で使えるAI画像生成ツールはありますか？**
+はい。Bing Image Creator（完全無料）、Canva AI（月50回）、Leonardo.ai（毎日150クレジット）、Stable Diffusion（ローカル実行で無制限）などが無料で使えます。
+
+**Q5. MidjourneyとDALL-E 3の違いは何ですか？**
+Midjourneyは画質・芸術性でトップクラスでプロ向け、DALL-E 3はChatGPT経由で日本語指示が得意で手軽さが魅力です。Midjourneyは有料のみ（月$10〜）、DALL-E 3はChatGPT無料版でも制限付きで使えます。
 
 ---
 

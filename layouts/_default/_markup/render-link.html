@@ -2,4 +2,9 @@
 {{- if hasPrefix $url "/" -}}
   {{- $url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $url -}}
 {{- end -}}
+{{- $isAffiliate := or (in .Destination "hb.afl.rakuten.co.jp") (in .Destination "px.a8.net") (in .Destination "h.accesstrade.net") (in .Destination "ck.jp.ap.valuecommerce.com") (in .Destination "t.afi-b.com") (in .Destination "t.felmat.net") (in .Destination "link-a.net") (in .Destination "cl.link-ag.net") -}}
+{{- if $isAffiliate -}}
+<a href="{{ $url | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }} target="_blank" rel="nofollow sponsored">{{ .Text | safeHTML }}</a>
+{{- else -}}
 <a href="{{ $url | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}

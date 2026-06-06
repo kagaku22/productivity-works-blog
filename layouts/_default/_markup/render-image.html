@@ -1,0 +1,7 @@
+{{- /* render-image.html — Adds width/height and lazy loading to inline markdown images for CLS improvement */ -}}
+{{- $alt := .Text -}}
+{{- $src := .Destination -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $src = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $src -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ $alt }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" width="1200" height="630">

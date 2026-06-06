@@ -14,4 +14,112 @@
 }
 </script>
 {{- end }}
-{{- /* Article + BreadcrumbList schemas are provided by PaperMod theme natively */ -}}
+{{- /* FAQPage schema — generated from front matter "faq" list */ -}}
+{{- if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := .Params.faq }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.a | jsonify }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
+{{- /* Article schema with rich author info for E-E-A-T */ -}}
+{{- if and .IsPage (eq .Section "posts") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | default .Summary | plainify | truncate 160 | jsonify }},
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- with .Params.cover.image }}
+  "image": "{{ site.BaseURL }}{{ . }}",
+  {{- end }}
+  "author": {
+    "@type": {{ if site.Params.authorInfo }}{{ if eq (site.Params.schema.publisherType | default "Organization") "Organization" }}"Organization"{{ else }}"Person"{{ end }}{{ else }}"Organization"{{ end }},
+    "name": {{ (site.Params.authorInfo.name | default (.Params.author | default "Productivity Works編集部")) | jsonify }}
+    {{- with site.Params.authorInfo.url }},
+    "url": "{{ . }}"
+    {{- end }}
+    {{- with site.Params.authorInfo.description }},
+    "description": {{ . | jsonify }}
+    {{- end }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Productivity Works",
+    "url": "{{ site.BaseURL }}"
+    {{- with site.Params.images }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.BaseURL }}{{ index . 0 }}"
+    }
+    {{- end }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{- if .Params.categories }},
+  "articleSection": {{ index .Params.categories 0 | jsonify }}
+  {{- end }}
+  {{- if .Params.tags }},
+  "keywords": {{ delimit .Params.tags ", " | jsonify }}
+  {{- end }}
+  {{- with .WordCount }},
+  "wordCount": {{ . }}
+  {{- end }}
+}
+</script>
+{{- end }}
+{{- /* BreadcrumbList schema */ -}}
+{{- if and .IsPage (eq .Section "posts") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "{{ site.BaseURL }}"
+    }
+    {{- if .Params.categories }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ index .Params.categories 0 | jsonify }},
+      "item": "{{ site.BaseURL }}{{ .Language.Lang }}/categories/{{ index .Params.categories 0 | urlize }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }}
+    }
+    {{- else }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Title | jsonify }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}

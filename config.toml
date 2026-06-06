@@ -13,6 +13,7 @@ defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 enableGitInfo = true
+hasCJKLanguage = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
@@ -26,10 +27,10 @@ summaryLength = 140
   [languages.ja]
     languageName = "日本語"
     weight = 1
-    title = "Productivity Works"
+    title = "生産性・副業・AI活用の実践情報メディア | Productivity Works"
     contentDir = "content-ja"
     [languages.ja.params]
-      description = "生産性・副業・AI活用の実践情報メディア"
+      description = "生産性向上・副業・AI活用の実践ノウハウを発信。新NISAや節税の解説から、600以上の無料計算ツールまで提供する総合情報メディアです。"
       author = "Productivity Works編集部"
 
   [languages.en]
@@ -127,6 +128,12 @@ summaryLength = 140
 
   [params.schema]
     publisherType = "Organization"
+
+  [params.authorInfo]
+    name = "Productivity Works編集部"
+    jobTitle = "金融・テクノロジー専門ライター"
+    description = "生産性向上・副業・AI活用・資産運用の実践情報を発信する専門メディアの編集チームです。"
+    url = "https://productivity-works.com/ja/"
 
 # =============================================================================
 # Navigation menu (per-language)

@@ -1,0 +1,55 @@
+{{- /*
+  disclaimer.html — カテゴリ別免責事項テンプレート
+  front matter で disclaimer パラメータを指定:
+    disclaimer: "fx"         → FXリスク警告（金商法37条準拠）
+    disclaimer: "investment"  → 投資一般（NISA・株式・iDeCo等）
+    disclaimer: "credit-card" → クレジットカード
+    disclaimer: "general"     → 汎用免責事項
+  未指定の場合はカテゴリ・タグから自動判定
+*/ -}}
+
+{{- $type := "" -}}
+
+{{- /* 1. front matter で明示指定されている場合 */ -}}
+{{- with .Params.disclaimer -}}
+  {{- $type = . -}}
+{{- end -}}
+
+{{- /* 2. 未指定の場合はカテゴリ・タグから自動判定 */ -}}
+{{- if eq $type "" -}}
+  {{- $tags := apply .Params.tags "lower" "." -}}
+  {{- $cats := apply .Params.categories "lower" "." -}}
+  {{- $all := union $tags $cats -}}
+  {{- $allStr := delimit $all " " -}}
+  {{- if or (findRE "(?i)fx" $allStr) (findRE "(?i)海外fx" $allStr) -}}
+    {{- $type = "fx" -}}
+  {{- else if or (findRE "(?i)nisa" $allStr) (findRE "(?i)投資" $allStr) (findRE "(?i)ideco" $allStr) (findRE "(?i)証券" $allStr) (findRE "(?i)資産運用" $allStr) -}}
+    {{- $type = "investment" -}}
+  {{- else if findRE "(?i)クレジットカード" $allStr -}}
+    {{- $type = "credit-card" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. 免責事項を出力 */ -}}
+{{- if eq $type "fx" }}
+<aside class="disclaimer disclaimer--fx" role="note" aria-label="リスクに関する重要事項">
+<p><strong>リスクに関する重要事項（金融商品取引法に基づく表示）</strong></p>
+<p>FX（外国為替証拠金取引）は、元本が保証された金融商品ではありません。レバレッジ取引の特性上、預託した証拠金を超える損失が発生する可能性があります。為替相場の変動、スワップポイントの変動、各国の経済・政治状況の変化等により、投資元本の全額を失うリスクがあります。</p>
+<p>お取引の際は、各FX業者が提供する契約締結前交付書面・リスク説明書を必ずお読みいただき、ご自身の判断と責任において行ってください。本記事は情報提供を目的としており、特定の金融商品の売買を推奨するものではありません。</p>
+</aside>
+{{- else if eq $type "investment" }}
+<aside class="disclaimer disclaimer--investment" role="note" aria-label="投資に関する免責事項">
+<p><strong>投資に関する免責事項</strong></p>
+<p>本記事は情報提供を目的としており、特定の金融商品の購入・売却を推奨するものではありません。投資には元本割れを含むリスクがあり、過去の実績は将来の成果を保証するものではありません。投資判断はご自身の責任で行ってください。最新情報は各公式サイトおよび金融庁のウェブサイトでご確認ください。</p>
+</aside>
+{{- else if eq $type "credit-card" }}
+<aside class="disclaimer disclaimer--credit-card" role="note" aria-label="クレジットカードに関する免責事項">
+<p><strong>クレジットカードに関する免責事項</strong></p>
+<p>本記事は情報提供を目的としており、特定のクレジットカードの申込みを推奨するものではありません。カードの利用にあたっては、各カード会社の利用規約・年会費・手数料・ポイント制度等をご確認ください。審査結果によりカードを発行できない場合があります。</p>
+</aside>
+{{- else if eq $type "general" }}
+<aside class="disclaimer disclaimer--general" role="note" aria-label="免責事項">
+<p><strong>免責事項</strong></p>
+<p>本記事は情報提供を目的としており、特定の商品・サービスの利用を推奨するものではありません。掲載情報は執筆時点のものであり、最新情報は各公式サイトでご確認ください。</p>
+</aside>
+{{- end -}}

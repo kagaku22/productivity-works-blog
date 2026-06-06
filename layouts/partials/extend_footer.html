@@ -1,3 +1,8 @@
+{{- /* Category-specific disclaimer — auto-detected or set via front matter "disclaimer" param */ -}}
+{{- if .IsPage }}
+{{- partial "disclaimer.html" . }}
+{{- end }}
+
 {{- /* Footer ads — activated when ad slot IDs are set in config.toml [params] */ -}}
 
 {{- /* Ninja AdMax — no-approval ad network, immediate revenue */ -}}

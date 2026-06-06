@@ -17,6 +17,18 @@ cover:
   image: "images/covers/excel-kansu-yoku-tsukau-ichiran.png"
   alt: "Excel関数よく使うもの一覧【2026年版・コピペ即使える】仕事で役立つ厳選50選"
   relative: false
+
+faq:
+  - q: "Excel関数は何個覚えればいいですか？"
+    a: "基本的なビジネス業務なら10〜15個で十分です。SUM、AVERAGE、IF、VLOOKUP（またはXLOOKUP）、COUNTIF、SUMIF、TEXT、TODAY、CONCATENATE、LEFT/RIGHT/MIDが最優先で覚えるべき関数です。"
+  - q: "VLOOKUPとXLOOKUPの違いは何ですか？"
+    a: "XLOOKUPはVLOOKUPの後継関数で、左方向の検索が可能、エラー時の既定値を設定でき、完全一致がデフォルトなど使いやすくなっています。Excel 2021以降やMicrosoft 365で利用可能です。"
+  - q: "Excel関数とGoogleスプレッドシートの関数は同じですか？"
+    a: "基本的な関数（SUM、IF、VLOOKUPなど）はほぼ同じです。ただしGoogleスプレッドシート独自の関数（QUERY、IMPORTRANGE等）やExcel独自の関数もあるため、完全に互換ではありません。"
+  - q: "Excel関数を効率的に覚えるコツはありますか？"
+    a: "実際の業務データで使うのが最も効果的です。まずSUM・IF・VLOOKUPの3つを実務で使いこなし、必要に応じて新しい関数を調べながら覚えていく方法がおすすめです。"
+  - q: "Excel関数がエラーになったときの対処法は？"
+    a: "主なエラーは#VALUE!（データ型の不一致）、#REF!（参照先の削除）、#N/A（検索値が見つからない）です。IFERROR関数で囲むとエラー時に代替値を表示でき、見た目もスッキリします。"
 ---
 
 ※本記事にはアフィリエイト広告が含まれています。
@@ -444,6 +456,25 @@ TEXTJOINは区切り文字を指定して範囲内の文字列をまとめて結
 ## まとめ
 
 Excelの関数は500種類以上ありますが、実務で使うのは30〜50種類程度です。まずはこの記事の**優先度★★★★★の5関数**から完全マスターして、徐々に範囲を広げていきましょう。
+
+---
+
+## よくある質問（FAQ）
+
+**Q1. Excel関数は何個覚えればいいですか？**
+基本的なビジネス業務なら10〜15個で十分です。SUM、AVERAGE、IF、VLOOKUP（またはXLOOKUP）、COUNTIF、SUMIF、TEXT、TODAY、CONCATENATE、LEFT/RIGHT/MIDが最優先で覚えるべき関数です。
+
+**Q2. VLOOKUPとXLOOKUPの違いは何ですか？**
+XLOOKUPはVLOOKUPの後継関数で、左方向の検索が可能、エラー時の既定値を設定でき、完全一致がデフォルトなど使いやすくなっています。Excel 2021以降やMicrosoft 365で利用可能です。
+
+**Q3. Excel関数とGoogleスプレッドシートの関数は同じですか？**
+基本的な関数（SUM、IF、VLOOKUPなど）はほぼ同じです。ただしGoogleスプレッドシート独自の関数（QUERY、IMPORTRANGE等）やExcel独自の関数もあるため、完全に互換ではありません。
+
+**Q4. Excel関数を効率的に覚えるコツはありますか？**
+実際の業務データで使うのが最も効果的です。まずSUM・IF・VLOOKUPの3つを実務で使いこなし、必要に応じて新しい関数を調べながら覚えていく方法がおすすめです。
+
+**Q5. Excel関数がエラーになったときの対処法は？**
+主なエラーは#VALUE!（データ型の不一致）、#REF!（参照先の削除）、#N/A（検索値が見つからない）です。IFERROR関数で囲むとエラー時に代替値を表示でき、見た目もスッキリします。
 
 ---
 

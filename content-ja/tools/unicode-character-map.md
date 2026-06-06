@@ -3,6 +3,7 @@ title: "Unicode文字マップ — 記号検索ツール"
 date: 2025-12-26
 description: "Unicode文字を閲覧・検索。矢印・数学記号・通貨記号・特殊文字を探す。文字・コードポイント・HTMLエンティティをコピー。"
 categories: ["無料ツール"]
+tags: ["開発ツール", "コード変換", "無料ツール"]
 slug: "unicode-character-map"
 ShowToc: false
 cover:
